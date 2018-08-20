@@ -32,7 +32,7 @@ Analysis clearly shows or targets one or more of the three categories of the cha
 - Web Technologies and the Shape of the Modern Web
 - Equality, Neutrality and Law
 #### Creativity 
-submission demonstrates an innovative approach to data analysis and uncovers patterns in the data set that are not superficially obvious.
+Submission demonstrates an innovative approach to data analysis and uncovers patterns in the data set that are not superficially obvious.
 
 ### Prizes
 We will choose one winner from each of the three analysis categories:
