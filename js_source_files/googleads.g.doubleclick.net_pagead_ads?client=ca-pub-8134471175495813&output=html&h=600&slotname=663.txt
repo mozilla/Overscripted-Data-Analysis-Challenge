@@ -1,0 +1,18 @@
+<script src='//adopdmp.adop.cc/adop_sdk_p2.2.0.min.js'></script>
+<script>
+adop_set({ad_date: '20180922193416',acid:'CA-180922193416-5ae04f8cfab24e84',ctry:'CA',ip:'184.75.212.36',url:'',net:'Google adx(BF)', ad_weight:'100',ad_order:'1/2',ad_width:'120',ad_height:'600',ad_direction:'v',ad_full_loc:'',area_idx:'b5e8884e-0a34-4dc6-b86b-7d9f6e6c2c2c',log_type:'basic',sc_ref:'',sc_title:''});
+</script>
+<script type="text/javascript"><!--
+google_ad_client = "ca-pub-1474238860523410";
+/* slrclub_pb_120x600-bf */
+google_ad_slot = "8528270625";
+google_ad_width = 120;
+google_ad_height = 600;
+google_override_format="true";
+google_page_url="http://www.slrclub.com/";
+google_alternate_ad_url="http://compass.adop.cc/RD/fec1fb14-8eb2-42c0-894d-0d7ddd966a0d";
+//-->
+</script>
+<script type="text/javascript"
+src="//pagead2.googlesyndication.com/pagead/show_ads.js">
+</script><div style="position: absolute; left: -10000px; top: 0px; overflow: hidden; width:1px; height: 1px;"><script src="//data.adop.cc/collect.php?log=com_imp&dt=20180922193416&aid=fa994667-2c34-44d4-b423-e1726585e147&zid=b5e8884e-0a34-4dc6-b86b-7d9f6e6c2c2c&r=zCgx" style="width:1px; height:1px;"></script></div>

@@ -1,0 +1,739 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+		"https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="https://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+    <meta http-equiv="Content-type" content="text/html; charset=UTF-8" />
+    <meta name="autor" content="Zoznam s.r.o." />
+    <meta property="fb:admins" content="500882948" />
+    <meta name="verify-v1" content="wOFuTTrABrU/QAP546a8mOqHMnH41/8NDMvSN5RXJJc=" />
+    <meta name="referrer" content="origin-when-cross-origin">
+    <link rel="alternate" type="application/rss+xml" title="Topky.sk - všetky články" href="https://www.topky.sk/rss/8/Topky" />
+    <link rel="icon" href="https://zoznamstatic.sk/img/topky/favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" type="text/css" href="https://zoznamstatic.sk/css/topky/html5reset.css" />
+    <link rel="stylesheet" type="text/css" href="https://zoznamstatic.sk/css/topky/style.css?1530014371" media="screen" />
+    <link rel="stylesheet" type="text/css" href="https://zoznamstatic.sk/css/topky/jquery.selectBox.css" />
+    <style>
+        .selectBox { display: none; }
+    </style>
+    <script type="text/javascript">var _sf_startpt=(new Date()).getTime()</script>
+    <!-- head_boxes --><script type="text/javascript">
+window.google_analytics_uacct = "UA-2883543-21";
+</script><div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/sk_SK/all.js#xfbml=1";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script><script> var pbjs_path = 'https://zoznamstatic.sk/js/topky/prebid/' </script>
+<script src="https://zoznamstatic.sk/js/topky/prebid/sekcia_PROMINENTI_prebid.setup.js?v=3"></script>
+    <!-- Facebook Pixel Code -->
+    <script>
+        !function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+        n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+        n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+        t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+        document,'script','https://connect.facebook.net/en_US/fbevents.js');
+        fbq('init', '1394628314137608');
+        fbq('track', 'PageView');
+    </script>
+    <noscript>
+        <img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=1394628314137608&ev=PageView&noscript=1"/>
+    </noscript>
+    <!-- DO NOT MODIFY -->
+    <!-- End Facebook Pixel Code -->
+    
+    <script type="text/javascript" src="https://zoznamstatic.sk/js/topky/modernizr-1.6.min.js"></script>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script type="text/javascript" src="https://zoznamstatic.sk/js/topky/jquery.ui-1.8.1.custom.min.js"></script>
+    <script type="text/javascript" src="https://zoznamstatic.sk/js/topky/jquery.marquee.js"></script>
+    <script type="text/javascript" src="https://zoznamstatic.sk/js/topky/jquery.Scroller-1.0.min.js"></script>
+    <script type="text/javascript" src="https://zoznamstatic.sk/js/topky/jquery.ui.stars.js"></script>
+    <script type="text/javascript" src="https://zoznamstatic.sk/js/topky/jquery.selectBox.js"></script>
+    <script type="text/javascript" src="https://zoznamstatic.sk/js/topky/jquery.cycle.all.min.js"></script>
+    <script type="text/javascript" src="https://zoznamstatic.sk/js/topky/hoverIntent.js"></script>
+    <script type="text/javascript" src="https://zoznamstatic.sk/js/topky/superfish.js"></script>
+    <script type="text/javascript" src="https://zoznamstatic.sk/js/topky/swfobject.js"></script>
+    <script type="text/javascript" src="https://zoznamstatic.sk/js/topky/stickyfloat.js"></script>
+    <script type="text/javascript" src="https://zoznamstatic.sk/js/topky/unslider.min.js"></script>
+    <script type="text/javascript" src="https://zoznamstatic.sk/js/topky/common.js?1527714432"></script>
+    <script type="text/javascript" src="//cdn.zoznam.sk/cookie/js/cookieConsent.min.js"></script>
+    
+    <script type="text/javascript">
+
+          var _gaq = _gaq || [];
+          _gaq.push(['_setAccount', 'UA-2883543-21']);
+          _gaq.push(['_setDomainName', '.topky.sk']);
+          _gaq.push(['_trackPageview']);
+
+          (function() {
+             var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+             ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+             var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+          })();
+
+    </script>
+        <script type="text/javascript"  src="https://recycle.topky.sk/get.fcgi?pid=1695&type=js" charset="UTF-8"></script><!-- GOOGLE TAG MANAGER events -->
+
+<!-- END OF GOOGLE TAG MANAGER events -->
+        <title>Topky TV | Topky.sk - Bleskovky</title>
+<meta name="description" content="Televízny kanál magazínu Topky.sk. Zistite, čo odhalili naše kamery na spoločenských večierkoch a premiérach, pozrite si rozhovory s celebritami.  " />
+    <link rel="next" href="https://www.topky.sk/se/100334/2/Topky-TV" /><link rel="alternate" media="handheld" href="https://m.topky.sk/se/100334/Topky-TV" />
+<link rel="alternate" media="only screen and (max-width: 640px)" href="https://m.topky.sk/se/100334/Topky-TV" />
+<link rel="alternate" type="application/rss+xml" title="Topky.sk - Topky TV" href="https://www.topky.sk/rss/100334/Topky-TV" />
+<link rel="canonical" href="https://www.topky.sk/se/100334/Topky-TV" />
+
+<script type="text/javascript" src="https://zoznamstatic.sk/js/topky/jquery.contentscroll.js"></script>
+<script type="text/javascript" src="https://zoznamstatic.sk/js/topky/floating-1.7.js"></script>
+
+</head>	<body><!-- Google Tag Manager -->
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-KHJW4J"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-KHJW4J');</script>
+<!-- End Google Tag Manager -->		<div id="fb-root"></div>
+		<script>(function(d, s, id) {
+		  var js, fjs = d.getElementsByTagName(s)[0];
+		  if (d.getElementById(id)) return;
+		  js = d.createElement(s); js.id = id;
+		  js.src = "//connect.facebook.net/sk_SK/sdk.js#xfbml=1&version=v2.3";
+		  fjs.parentNode.insertBefore(js, fjs);
+		}(document, 'script', 'facebook-jssdk'));</script>		<div id="background">
+			<!-- Main page container -->
+			<div id="main">
+				<!-- Header --><header class="takeover-header" id="takeoverClassic">
+	<a href="/"><div id="logo"><span><img src="https://zoznamstatic.sk/img/topky/logo.gif" width="207" height="87" alt="logo - Topky.sk" id="printLogo" /></span></div></a>
+	<div id="weather">
+		<p>
+			<!-- BANNER S POCASIM S MOZNOSTOU ZMENY MESTA - ZACIATOK !-->
+			<script src="https://zoznamstatic.sk/project/predpovede/boxik/js/banner-with-list.js?v=201806151500" charset="UTF-8"></script>
+			<!-- BANNER PRE POCASIE - KONIEC !-->
+		</p>
+	</div>
+	<div id="searchf">
+		<form method="get" action="/search/" id="top-search" name="search">
+			<div id="search-field">
+				<div class="input-container"><input type="text" id="q" name="searchq" size="20"/></div><button type="submit"><span>Hľadaj</span></button>
+			</div>
+		</form>
+	</div></header>
+ 
+				<!-- Header end -->
+				<!-- Main navigation -->
+				<nav><ul class="sf-menu sf-navbar" id="main-nav" data-show-first-menu-item="true">  <li >      <a id="home" href="/"><span></span></a>    <!-- submenu begin !-->
+    <ul style="display:none">      <li>        <a href="/se/1002027/Unos-Vietnamca" data-gtm-event="aktualne_druha_uroven" title="Únos Vietnamca" ><span>Únos Vietnamca</span></a>      </li>      <li>        <a href="/se/1002007/Komunalne-volby-2018" data-gtm-event="aktualne_druha_uroven" title="Komunálne voľby 2018" ><span>Komunálne voľby 2018</span></a>      </li>      <li>        <a href="/se/1002031/Invazia-1968" data-gtm-event="aktualne_druha_uroven" title="Invázia 1968" ><span>Invázia 1968</span></a>      </li>      <li>        <a href="/se/1002009/Vrazda-Jana-Kuciaka" data-gtm-event="aktualne_druha_uroven" title="Vražda Jána Kuciaka" ><span>Vražda Jána Kuciaka</span></a>      </li>      <li>        <a href="/se/100313/Domaci-prominenti" data-gtm-event="aktualne_druha_uroven" title="Domáci prominenti" ><span>Domáci prominenti</span></a>      </li>      <li>        <a href="/se/13/Zaujimavosti" data-gtm-event="aktualne_druha_uroven" title="Zaujímavosti" ><span>Zaujímavosti</span></a>      </li>      <li>        <a   onclick="trackOutbound(this, 'MENU', 'SIBYLA', 'Sibyla - Menu');" href="http://sibyla.zoznam.sk/horoskop/horoskop-denny/" data-gtm-event="aktualne_druha_uroven" title="Horoskop" >
+          <span>Horoskop</span>
+        </a>      </li>      <li>        <a   onclick="trackOutbound(this, 'MENU', 'TELKAC', 'Telkac - Menu');" href="http://telkac.zoznam.sk" data-gtm-event="aktualne_druha_uroven" title="TV program" >
+          <span>TV program</span>
+        </a>      </li>    </ul>
+    <!-- submenu end !-->  </li>  <li >      <a href="/se/10/Domace" data-gtm-event="domace_prva_uroven" title="Domáce" ><span>Domáce</span></a>    <!-- submenu begin !-->
+    <ul style="display:none">      <li>        <a href="/se/100370/Krimi" data-gtm-event="domace_druha_uroven" title="Krimi" ><span>Krimi</span></a>      </li>      <li>        <a href="/se/100535/Politika" data-gtm-event="domace_druha_uroven" title="Politika" ><span>Politika</span></a>      </li>      <li>        <a href="/se/100523/Policajne-kontroly" data-gtm-event="domace_druha_uroven" title="Policajné kontroly" ><span>Policajné kontroly</span></a>      </li>      <li>        <a href="/se/100371/Kauzy" data-gtm-event="domace_druha_uroven" title="Kauzy" ><span>Kauzy</span></a>      </li>      <li>        <a href="/se/1000678/Potrebuju-pomoc" data-gtm-event="domace_druha_uroven" title="Potrebujú pomoc" ><span>Potrebujú pomoc</span></a>      </li>      <li>        <a href="/se/1000859/Glob" data-gtm-event="domace_druha_uroven" title="Komentáre" ><span>Komentáre</span></a>      </li>      <li>        <a href="/se/1000879/Bojujme-proti-korupcii" data-gtm-event="domace_druha_uroven" title="Bojujme proti korupcii" ><span>Bojujme proti korupcii</span></a>      </li>    </ul>
+    <!-- submenu end !-->  </li>  <li >      <a href="/se/11/Zahranicne" data-gtm-event="zahranicne_prva_uroven" title="Zahraničné" ><span>Zahraničné</span></a>    <!-- submenu begin !-->
+    <ul style="display:none">      <li>        <a href="/se/1000791/Islamsky-stat" data-gtm-event="zahranicne_druha_uroven" title="Islamský štát" ><span>Islamský štát</span></a>      </li>      <li>        <a href="/se/100299/Katastrofy" data-gtm-event="zahranicne_druha_uroven" title="Katastrofy" ><span>Katastrofy</span></a>      </li>      <li>        <a href="/se/100300/Terorizmus" data-gtm-event="zahranicne_druha_uroven" title="Terorizmus" ><span>Terorizmus</span></a>      </li>      <li>        <a href="/se/100314/Zahranicni-prominenti" data-gtm-event="zahranicne_druha_uroven" title="Zahraniční prominenti" ><span>Zahraniční prominenti</span></a>      </li>      <li>        <a href="/se/1000119/Magna-Zachranca" data-gtm-event="zahranicne_druha_uroven" title="Magna Záchranca" ><span>Magna Záchranca</span></a>      </li>    </ul>
+    <!-- submenu end !-->  </li>  <li >      <a href="/se/15/Prominenti" data-gtm-event="prominenti_prva_uroven" title="Prominenti" ><span>Prominenti</span></a>    <!-- submenu begin !-->
+    <ul style="display:none">      <li>        <a href="/se/100313/Domaci-prominenti" data-gtm-event="prominenti_druha_uroven" title="Domáci" ><span>Domáci</span></a>      </li>      <li>        <a href="/se/100314/Zahranicni-prominenti" data-gtm-event="prominenti_druha_uroven" title="Zahraniční" ><span>Zahraniční</span></a>      </li>      <li>        <a href="/se/1000853/Superstar" data-gtm-event="prominenti_druha_uroven" title="SuperStar" ><span>SuperStar</span></a>      </li>      <li>        <a href="/se/100457/Modne--s-hity" data-gtm-event="prominenti_druha_uroven" title="Módne (s)hity" ><span>Módne (s)hity</span></a>      </li>      <li>        <a href="/se/1002025/Pavlasek2" data-gtm-event="prominenti_druha_uroven" title="Pavlásek2" ><span>Pavlásek2</span></a>      </li>      <li>        <a href="/se/100334/Topky-TV" data-gtm-event="prominenti_druha_uroven" title="Topky TV" ><span>Topky TV</span></a>      </li>      <li>        <a href="/se/1001023/Rozhovory" data-gtm-event="prominenti_druha_uroven" title="Rozhovory" ><span>Rozhovory</span></a>      </li>      <li>        <a   onclick="trackOutbound(this, 'MENU', 'FEMINITY', 'Feminity - Menu');" href="http://feminity.zoznam.sk/" data-gtm-event="prominenti_druha_uroven" title="Feminity" >
+          <span>Feminity</span>
+        </a>      </li>      <li>        <a href="/se/1001053/Osobnosti" data-gtm-event="prominenti_druha_uroven" title="Osobnosti" ><span>Osobnosti</span></a>      </li>    </ul>
+    <!-- submenu end !-->  </li>  <li >      <a  onclick="trackOutbound(this, 'MENU', 'SPORTKY', 'Sportky - Menu');" href="http://sportky.zoznam.sk/" data-gtm-event="sport_prva_uroven" title="Šport" target="_blank">
+        <span>Šport</span>
+      </a>    <!-- submenu begin !-->
+    <ul style="display:none">      <li>        <a   onclick="trackOutbound(this, 'MENU', 'SPORTKY', 'Sportky - Menu');" href="http://sportky.zoznam.sk/s/215/ms-vo-futbale-2018" data-gtm-event="sport_druha_uroven" title="MS vo futbale 2018" target="_blank">
+          <span>MS vo futbale 2018</span>
+        </a>      </li>      <li>        <a   onclick="trackOutbound(this, 'MENU', 'SPORTKY', 'Sportky - Menu');" href="http://sportky.zoznam.sk/s/213/tour-de-france" data-gtm-event="sport_druha_uroven" title="Tour de France" target="_blank">
+          <span>Tour de France</span>
+        </a>      </li>      <li>        <a   onclick="trackOutbound(this, 'MENU', 'SPORTKY', 'Sportky - Menu');" href="http://sportky.zoznam.sk/s/13/futbal" data-gtm-event="sport_druha_uroven" title="Futbal" >
+          <span>Futbal</span>
+        </a>      </li>      <li>        <a   onclick="trackOutbound(this, 'MENU', 'SPORTKY', 'Sportky - Menu');" href="http://sportky.zoznam.sk/s/10/hokej" data-gtm-event="sport_druha_uroven" title="Hokej" >
+          <span>Hokej</span>
+        </a>      </li>      <li>        <a   onclick="trackOutbound(this, 'MENU', 'SPORTKY', 'Sportky - Menu');" href="http://sportky.zoznam.sk/s/15/tenis" data-gtm-event="sport_druha_uroven" title="Tenis" >
+          <span>Tenis</span>
+        </a>      </li>      <li>        <a   onclick="trackOutbound(this, 'MENU', 'SPORTKY', 'Sportky - Menu');" href="http://sportky.zoznam.sk/s/19/formula-1" data-gtm-event="sport_druha_uroven" title="Formula 1" >
+          <span>Formula 1</span>
+        </a>      </li>      <li>        <a   onclick="trackOutbound(this, 'MENU', 'SPORTKY', 'Sportky - Menu');" href="http://sportky.zoznam.sk/s/17/ostatne" data-gtm-event="sport_druha_uroven" title="Ostatné" >
+          <span>Ostatné</span>
+        </a>      </li>      <li>        <a   onclick="trackOutbound(this, 'MENU', 'SPORTKY', 'Sportky - Menu');" href="http://sportky.zoznam.sk/livescore/futbal/d0" data-gtm-event="sport_druha_uroven" title="Livescore" >
+          <span>Livescore</span>
+        </a>      </li>      <li>        <a   onclick="trackOutbound(this, 'MENU', 'SPORTKY', 'Sportky - Menu');" href="http://sportky.zoznam.sk/tabulky/futbal/slovensko-fortunaliga" data-gtm-event="sport_druha_uroven" title="Tabuľky" >
+          <span>Tabuľky</span>
+        </a>      </li>    </ul>
+    <!-- submenu end !-->  </li>  <li >      <a  onclick="trackOutbound(this, 'MENU', '', ' - Menu');" href="https://openiazoch.zoznam.sk/" data-gtm-event="ekonomika_prva_uroven" title="Ekonomika" >
+        <span>Ekonomika</span>
+      </a>    <!-- submenu begin !-->
+    <ul style="display:none">      <li>        <a   onclick="trackOutbound(this, 'MENU', 'KARIERA', 'Kariera - Menu');" href="http://kariera.zoznam.sk/" data-gtm-event="ekonomika_druha_uroven" title="Pracovné ponuky" >
+          <span>Pracovné ponuky</span>
+        </a>      </li>      <li>        <a   onclick="trackOutbound(this, 'MENU', 'KARIERAINFO', 'Karierainfo - Menu');" href="http://karierainfo.zoznam.sk" data-gtm-event="ekonomika_druha_uroven" title="Kariéra" >
+          <span>Kariéra</span>
+        </a>      </li>      <li>        <a   onclick="trackOutbound(this, 'MENU', '', ' - Menu');" href="https://openiazoch.zoznam.sk/kurzovy-listok/KLNBS" data-gtm-event="ekonomika_druha_uroven" title="Kurzy mien" >
+          <span>Kurzy mien</span>
+        </a>      </li>      <li>        <a   onclick="trackOutbound(this, 'MENU', '', ' - Menu');" href="https://openiazoch.zoznam.sk/hypoteky/hypotekarna-kalkulacka" data-gtm-event="ekonomika_druha_uroven" title="Hypotekárna kalkulačka" >
+          <span>Hypotekárna kalkulačka</span>
+        </a>      </li>    </ul>
+    <!-- submenu end !-->  </li>  <li >      <a href="/se/5/Kultura" data-gtm-event="kultura_prva_uroven" title="Kultúra" ><span>Kultúra</span></a>    <!-- submenu begin !-->
+    <ul style="display:none">      <li>        <a   onclick="trackOutbound(this, 'MENU', 'HUDBA', 'Hudba - Menu');" href="http://hudba.zoznam.sk/" data-gtm-event="kultura_druha_uroven" title="Hudba" >
+          <span>Hudba</span>
+        </a>      </li>      <li>        <a href="/se/6668/Filmove-Bleskovky" data-gtm-event="kultura_druha_uroven" title="Filmové bleskovky" ><span>Filmové bleskovky</span></a>      </li>      <li>        <a href="/se/10003/Knizne-Bleskovky" data-gtm-event="kultura_druha_uroven" title="Knižné bleskovky" ><span>Knižné bleskovky</span></a>      </li>      <li>        <a href="/se/100161/Art-Film-Fest" data-gtm-event="kultura_druha_uroven" title="Art Film Fest" ><span>Art Film Fest</span></a>      </li>    </ul>
+    <!-- submenu end !-->  </li>  <li class="external">      <a class="external" href="#" data-gtm-event="volny_cas_prva_uroven" title="Voľný čas" >
+        <span>Voľný čas</span>
+      </a>    <!-- submenu begin !-->
+    <ul style="display:none">      <li>        <a href="/se/11114/Online-rozhovory" data-gtm-event="volny_cas_druha_uroven" title="Online rozhovory" ><span>Online rozhovory</span></a>      </li>      <li>        <a href="/se/20/Vyhrajte-s-nami" data-gtm-event="volny_cas_druha_uroven" title="Vyhrajte s nami" ><span>Vyhrajte s nami</span></a>      </li>      <li>        <a   onclick="trackOutbound(this, 'MENU', 'UROBSISAM', 'Urobsisam - Menu');" href="http://urobsisam.zoznam.sk/" data-gtm-event="volny_cas_druha_uroven" title="Urob si sám" target="_blank">
+          <span>Urob si sám</span>
+        </a>      </li>      <li>        <a   onclick="trackOutbound(this, 'MENU', 'REXIK', 'Rexik - Menu');" href="http://rexik.zoznam.sk/" data-gtm-event="volny_cas_druha_uroven" title="Hry pre deti" target="_blank">
+          <span>Hry pre deti</span>
+        </a>      </li>      <li>        <a   onclick="trackOutbound(this, 'MENU', 'PAUZICKA', 'Pauzicka - Menu');" href="http://pauzicka.zoznam.sk/" data-gtm-event="volny_cas_druha_uroven" title="Hry" >
+          <span>Hry</span>
+        </a>      </li>      <li>        <a href="/se/100335/Bezpecny-internet" data-gtm-event="volny_cas_druha_uroven" title="Bezpečný internet" target="_blank"><span>Bezpečný internet</span></a>      </li>      <li>        <a   onclick="trackOutbound(this, 'MENU', 'PODKAPOTOU', 'Podkapotou - Menu');" href="http://podkapotou.zoznam.sk" data-gtm-event="volny_cas_druha_uroven" title="Auto-moto" target="_blank">
+          <span>Auto-moto</span>
+        </a>      </li>      <li>        <a   onclick="trackOutbound(this, 'MENU', 'SIBYLA', 'Sibyla - Menu');" href="http://sibyla.zoznam.sk/horoskop/horoskop-rocny/" data-gtm-event="volny_cas_druha_uroven" title="Horoskop 2018" >
+          <span>Horoskop 2018</span>
+        </a>      </li>      <li>        <a   onclick="trackOutbound(this, 'MENU', 'SIBYLA', 'Sibyla - Menu');" href="http://sibyla.zoznam.sk/snar/" data-gtm-event="volny_cas_druha_uroven" title="Snár" >
+          <span>Snár</span>
+        </a>      </li>      <li>        <a   onclick="trackOutbound(this, 'MENU', 'COOLMOBIL', 'Coolmobil - Menu');" href="http://coolmobil.zoznam.sk/" data-gtm-event="volny_cas_druha_uroven" title="Mobilná zábava" >
+          <span>Mobilná zábava</span>
+        </a>      </li>    </ul>
+    <!-- submenu end !-->  </li>  <li class="external">      <a  onclick="trackOutbound(this, 'MENU', 'DROMEDAR', 'Dromedar - Menu');"class="external" href="http://dromedar.zoznam.sk" data-gtm-event="cestovanie_prva_uroven" title="Cestovanie" >
+        <span>Cestovanie</span>
+      </a>    <!-- submenu begin !-->
+    <ul style="display:none">      <li>        <a   onclick="trackOutbound(this, 'MENU', 'DROMEDAR', 'Dromedar - Menu');" href="http://dromedar.zoznam.sk/" data-gtm-event="cestovanie_druha_uroven" title="Cestovateľský magazín" target="_blank">
+          <span>Cestovateľský magazín</span>
+        </a>      </li>      <li>        <a   onclick="trackOutbound(this, 'MENU', 'MAPA', 'Mapa - Menu');" href="http://mapa.zoznam.sk/" data-gtm-event="cestovanie_druha_uroven" title="Mapy" target="_blank">
+          <span>Mapy</span>
+        </a>      </li>      <li>        <a   onclick="trackOutbound(this, 'MENU', '', ' - Menu');" href="https://webslovnik.zoznam.sk/" data-gtm-event="cestovanie_druha_uroven" title="Slovník" target="_blank">
+          <span>Slovník</span>
+        </a>      </li>    </ul>
+    <!-- submenu end !-->  </li>  <li class="external">      <a class="external" href="#" data-gtm-event="zeny_prva_uroven" title="Ženy" >
+        <span>Ženy</span>
+      </a>    <!-- submenu begin !-->
+    <ul style="display:none">      <li>        <a   onclick="trackOutbound(this, 'MENU', 'FEMINITY', 'Feminity - Menu');" href="http://feminity.zoznam.sk/" data-gtm-event="zeny_druha_uroven" title="Lifestyle magazín" target="_blank">
+          <span>Lifestyle magazín</span>
+        </a>      </li>      <li>        <a   onclick="trackOutbound(this, 'MENU', 'FEMINITY', 'Feminity - Menu');" href="http://feminity.zoznam.sk/s/100411/feminity-tv?utm_source=topky&utm_medium=titulka&utm_campaign=exterlink" data-gtm-event="zeny_druha_uroven" title="FEMINITY TV" >
+          <span>FEMINITY TV</span>
+        </a>      </li>      <li>        <a   onclick="trackOutbound(this, 'MENU', 'SPUNTIK', 'Spuntik - Menu');" href="http://spuntik.zoznam.sk/" data-gtm-event="zeny_druha_uroven" title="Tehotenstvo" >
+          <span>Tehotenstvo</span>
+        </a>      </li>      <li>        <a   onclick="trackOutbound(this, 'MENU', 'SIBYLA', 'Sibyla - Menu');" href="http://sibyla.zoznam.sk/" data-gtm-event="zeny_druha_uroven" title="Horoskopy" target="_blank">
+          <span>Horoskopy</span>
+        </a>      </li>      <li>        <a   onclick="trackOutbound(this, 'MENU', 'REXIK', 'Rexik - Menu');" href="http://rexik.zoznam.sk/" data-gtm-event="zeny_druha_uroven" title="Hry pre deti" >
+          <span>Hry pre deti</span>
+        </a>      </li>      <li>        <a   onclick="trackOutbound(this, 'MENU', 'VYSETRENIE', 'Vysetrenie - Menu');" href="http://vysetrenie.zoznam.sk/se/1000643/Zdravie" data-gtm-event="zeny_druha_uroven" title="Zdravie" >
+          <span>Zdravie</span>
+        </a>      </li>      <li>        <a   onclick="trackOutbound(this, 'MENU', 'FEMINITY', 'Feminity - Menu');" href="http://feminity.zoznam.sk/magazin/107/leto-2017/" data-gtm-event="zeny_druha_uroven" title="Feminity magazín" >
+          <span>Feminity magazín</span>
+        </a>      </li>    </ul>
+    <!-- submenu end !-->  </li>  <li class="external">      <a class="external" href="#" data-gtm-event="muzi_prva_uroven" title="Muži" >
+        <span>Muži</span>
+      </a>    <!-- submenu begin !-->
+    <ul style="display:none">      <li>        <a   onclick="trackOutbound(this, 'MENU', 'UROBSISAM', 'Urobsisam - Menu');" href="http://urobsisam.zoznam.sk/" data-gtm-event="muzi_druha_uroven" title="Urob si sám" >
+          <span>Urob si sám</span>
+        </a>      </li>      <li>        <a   onclick="trackOutbound(this, 'MENU', '', ' - Menu');" href="https://www.topky.sk/d/1/" data-gtm-event="muzi_druha_uroven" title="Dievča dňa" >
+          <span>Dievča dňa</span>
+        </a>      </li>      <li>        <a   onclick="trackOutbound(this, 'MENU', 'PODKAPOTOU', 'Podkapotou - Menu');" href="http://podkapotou.zoznam.sk" data-gtm-event="muzi_druha_uroven" title="Auto-moto" target="_blank">
+          <span>Auto-moto</span>
+        </a>      </li>      <li>        <a   onclick="trackOutbound(this, 'MENU', '', ' - Menu');" href="https://gamesite.zoznam.sk" data-gtm-event="muzi_druha_uroven" title="Herný portál" >
+          <span>Herný portál</span>
+        </a>      </li>    </ul>
+    <!-- submenu end !-->  </li>  <li class="external">      <a class="external" href="#" data-gtm-event="byvanie_prva_uroven" title="Bývanie" >
+        <span>Bývanie</span>
+      </a>    <!-- submenu begin !-->
+    <ul style="display:none">      <li>        <a   onclick="trackOutbound(this, 'MENU', 'MOJDOM', 'Mojdom - Menu');" href="http://mojdom.zoznam.sk/" data-gtm-event="byvanie_druha_uroven" title="Môjdom" target="_blank">
+          <span>Môjdom</span>
+        </a>      </li>      <li>        <a   onclick="trackOutbound(this, 'MENU', 'RINGO', 'Ringo - Menu');" href="http://ringo.topky.sk/" data-gtm-event="byvanie_druha_uroven" title="Reality" target="_blank">
+          <span>Reality</span>
+        </a>      </li>      <li>        <a   onclick="trackOutbound(this, 'MENU', 'UROBSISAM', 'Urobsisam - Menu');" href="http://urobsisam.zoznam.sk/" data-gtm-event="byvanie_druha_uroven" title="Urob si sám" >
+          <span>Urob si sám</span>
+        </a>      </li>    </ul>
+    <!-- submenu end !-->  </li></ul>
+<p id="zoznam-logo"><a href="https://www.zoznam.sk/" target="_blank">&nbsp;</a></p>
+				</nav>
+				<!-- Main navigation end -->
+			</div>
+			<div id="main2">
+				<!-- Infopanel -->
+				<div id="infopanel">
+					<div class="nastip">					</div>
+					<div class="dayInfo" id="dayInfo">
+						<span><strong>Sobota</strong>, 22. september 2018. <span id="nameday"><a href="https://calendar.zoznam.sk/meno/" target="_blank">Meniny má Móric</a>, zajtra Zdenka.</span></span>
+					</div>
+				</div>
+				<!-- Infopanel end -->
+				<!-- Content -->
+				<div id="content">
+					<!-- Content left -->
+					<div class="content-left">
+
+
+	<h1 class="heading">Topky TV</h1>
+
+	<div class="boxes">
+
+		<div class="box" id="article-list-first">
+			<h2 class="box-title"><a href="/cl/100313/1739447/Dcere-slovenskej-herecky-vypisoval-PEDOFIL--Mala-len-10-rokov----Posielala-mu-svoje-fotky-" class="name">Dcére slovenskej herečky vypisoval PEDOFIL: Mala len 10 rokov... Posielala mu svoje fotky!</a></h2>
+			<div class="box-content">
+				<div class="box-image">
+					<a href="/cl/100313/1739447/Dcere-slovenskej-herecky-vypisoval-PEDOFIL--Mala-len-10-rokov----Posielala-mu-svoje-fotky-"><img width="288" alt="Dcéru Jany Wágnerovej kontaktoval pedofil." title="Dcéru Jany Wágnerovej kontaktoval pedofil." src="https://img.topky.sk/320px/2257825.jpg/diskusia-pedofil-Kristina-Kovesova-Foto--Martin-Bublavy.jpg" /></a><p>Dcéru Jany Wágnerovej kontaktoval pedofil.</p>				</div>
+				<div class="box-text">
+					<div class="infos">
+						<div class="fv"><span class="info-foto">Foto</span></div>
+						<div class="time">včera o 05:45
+</div>
+						<div class="rating r3-0"></div>
+						<br class="clear"/>
+					</div>
+					<p>BRATISLAVA - Reportérka Kristína Kövešová (35) sa už niekoľko dlhých týždňov venuje pátraniu a konfrontácii s mužmi, ktorí na internete vyhľadávajú maloleté dievčatá. V tejto súvislosti markizáčka vo štvrtok večer zorganizovala investigatívnu live show, na ktorej vystúpili renomovaní odborníci. Diskusie sa zúčastnila aj známa slovenská herečka - jej ...						<a href="/cl/100313/1739447/Dcere-slovenskej-herecky-vypisoval-PEDOFIL--Mala-len-10-rokov----Posielala-mu-svoje-fotky-">viac&nbsp;&#187;</a>
+					</p>						<ul>									<li><a href="/cl/100313/1718175/Su-v-tom-zapleteni-policajti--Markizacka-Kovesova-otvorene-o-nechutnych-psich-zapasoch" class="name">Sú v tom zapletení policajti! Markizáčka Kövešová otvorene o nechutných psích zápasoch</a></li>									<li><a href="/cl/100313/1720833/Kristina-Kovesova-na-love-pedofilov--Tito-muzi-to-mozno-skusaju-aj-na-vase-dieta-" class="name">Kristína Kövešová na love pedofilov: Títo muži to možno skúšajú aj na vaše dieťa!</a></li>									<li><a href="/cl/1000991/1737213/Zaujima-vas-tema-ZLOCINU--Kristina-Kovesova-a-jej-hostia-odhalia-pozadie-kriminalnych-pripadov" class="name">Zaujíma vás téma ZLOČINU? Kristína Kövešová a jej hostia odhalia pozadie kriminálnych prípadov</a></li>						</ul>				</div>
+			</div>
+		</div>
+	</div>
+	<div id="" class="box_advertisment addbox recycle">
+<div class="box-content screen"></div>
+
+	</div>
+
+
+
+	<div class="boxes">
+		<div class="box" id="article-list">
+			<div class="box-content">					<div class="entry">
+						<h3><a href="/cl/100313/1738787/Z-tohto-mrazi--Kovesova-na-stope-pedofilom--Prehovorili-obete-a----aj-dcera-znamej-herecky" class="name">Z tohto mrazí! Kövešová na stope pedofilom: Prehovorili obete a... aj dcéra známej herečky</a></h3>
+						<div class="entry-image"><a href="/cl/100313/1738787/Z-tohto-mrazi--Kovesova-na-stope-pedofilom--Prehovorili-obete-a----aj-dcera-znamej-herecky"><img width="100" alt="Z tohto mrazí! Kövešová" title="Z tohto mrazí! Kövešová" src="https://img.topky.sk/120px/2255897.jpg/Foto--Jan-Zemiar-Markiza-party.jpg" /></a></div>
+						<div class="entry-text"><span class="info-video">Video</span>							<p class="time">19.09.2018 09:30
+</p>
+							<div class="rating r3-5"></div>
+							<p>BRATISLAVA - Kauza pedofilov nemá konca. Reportérka Kristína Kövešová (35) sa už niekoľko dlhých týždňov venuje pátraniu a konfrontácii s mužmi, ktorí na internete vyhľadávajú maloleté dievčatá. Tie sa následne pokúšajú nalákať na osobné stretnutie za účelom intímneho kontaktu. Hoci bola celá záležitosť už mnohokrát medializovaná a v niekoľkých prípadoch ...								<a href="/cl/100313/1738787/Z-tohto-mrazi--Kovesova-na-stope-pedofilom--Prehovorili-obete-a----aj-dcera-znamej-herecky">viac&nbsp;&#187;</a>
+							</p>
+						</div>
+						<br class="clear"/>
+					</div>					<div class="entry">
+						<h3><a href="/cl/100313/1738817/Vychudnuta-hviezda-Tvojej-tvare--Vazi-uz-len-45-kil----KOLAPS-pred-vystupenim-" class="name">Vychudnutá hviezda Tvojej tváre: Váži už len 45 kíl... KOLAPS pred vystúpením!</a></h3>
+						<div class="entry-image"><a href="/cl/100313/1738817/Vychudnuta-hviezda-Tvojej-tvare--Vazi-uz-len-45-kil----KOLAPS-pred-vystupenim-"><img width="100" alt="Vychudnutá hviezda Tvojej tváre:" title="Vychudnutá hviezda Tvojej tváre:" src="https://img.topky.sk/120px/2255957.jpg/Eva-Buresova-Tvoja-tvar.jpg" /></a></div>
+						<div class="entry-text"><span class="info-foto">Foto</span>							<p class="time">19.09.2018 00:10
+</p>
+							<div class="rating r3-0"></div>
+							<p>PRAHA – Rovnako ako u nás, aj v Čechách beží na televíznych obrazovkách populárna šou Tvoje tvář má známy hlas. Medzi účastníkov patrí aj mladá herečka a speváčka Eva Burešová (25), ktorú Česko a Slovensko zaregistrovalo pred pár rokmi v spoločnej talentovej súťaži. Teraz sa však mamička malého synčeka doslova stráca pred očami!								<a href="/cl/100313/1738817/Vychudnuta-hviezda-Tvojej-tvare--Vazi-uz-len-45-kil----KOLAPS-pred-vystupenim-">viac&nbsp;&#187;</a>
+							</p>
+						</div>
+						<br class="clear"/>
+					</div>					<div class="entry">
+						<h3><a href="/cl/100313/1738769/Divoke-zabery-zo-svadby-krasnej-Slovenky--Roztrhana-kosela-a----Velka-ZMENA-" class="name">Divoké zábery zo svadby krásnej Slovenky: Roztrhaná košeľa a... Veľká ZMENA!</a></h3>
+						<div class="entry-image"><a href="/cl/100313/1738769/Divoke-zabery-zo-svadby-krasnej-Slovenky--Roztrhana-kosela-a----Velka-ZMENA-"><img width="100" alt="Divoké zábery zo svadby" title="Divoké zábery zo svadby" src="https://img.topky.sk/120px/2254411.jpg/Lubica-Stepanova.jpg" /></a></div>
+						<div class="entry-text"><span class="info-foto">Foto</span>							<p class="time">18.09.2018 12:00
+</p>
+							<div class="rating r3-5"></div>
+							<p>NITRA - Cez víkend povedala áno svojmu partnerovi krásna Slovenka, Miss Universe 2012 Ľubica Štepánová (30). Svadba prebiehala v obci Veľký Lapaš (región Nitra) a núdza nebola nielen o romantické zábery plné lásky, ale ani o divočinu v podaní ženícha Martina Šimiaka (26).								<a href="/cl/100313/1738769/Divoke-zabery-zo-svadby-krasnej-Slovenky--Roztrhana-kosela-a----Velka-ZMENA-">viac&nbsp;&#187;</a>
+							</p>
+						</div>
+						<br class="clear"/>
+					</div>					<div class="entry">
+						<h3><a href="/cl/100313/1738521/Nova-frajerka-slovenskeho-herca--Po-Partlovej-ma-tuto-blondinku----Pozrite-" class="name">Nová frajerka slovenského herca: Po Partlovej má túto blondínku... Pozrite!</a></h3>
+						<div class="entry-image"><a href="/cl/100313/1738521/Nova-frajerka-slovenskeho-herca--Po-Partlovej-ma-tuto-blondinku----Pozrite-"><img width="100" alt="Nová frajerka slovenského herca:" title="Nová frajerka slovenského herca:" src="https://img.topky.sk/120px/2254961.png/par-silueta-foto-pixabay.png" /></a></div>
+						<div class="entry-text"><span class="info-foto">Foto</span><span class="info-video">Video</span>							<p class="time">18.09.2018 05:45
+</p>
+							<div class="rating r3-5"></div>
+							<p>BRATISLAVA - Patrika Vyskočila (26) široká verejnosť spoznala pred dvomi rokmi, keď sa objavil v druhej sérii obľúbenej reality šou Tvoja tvár znie povedome. Ešte predtým sa jeho meno skloňovalo v spojitosti s hereckou kolegyňou Mirkou Partlovou (33), s ktorou mal randiť. To je však už dávno minulosťou. Plavovláska sa netají tým, že po jej boku je nový ...								<a href="/cl/100313/1738521/Nova-frajerka-slovenskeho-herca--Po-Partlovej-ma-tuto-blondinku----Pozrite-">viac&nbsp;&#187;</a>
+							</p>
+						</div>
+						<br class="clear"/>
+					</div>						<script data-adfscript="adx.adform.net/adx/?mid=278287&rnd=%%CACHEBUSTER%%"></script>
+						<script src="//s1.adform.net/banners/scripts/adx.js" async defer></script>					<div class="entry">
+						<h3><a href="/cl/100313/1738277/Mastalir-zosmiesnil-Rytmusa--VIDEO-Takto-mu-to-natrel-pred-kamerami-" class="name">Maštalír zosmiešnil Rytmusa: VIDEO Takto mu to natrel pred kamerami!</a></h3>
+						<div class="entry-image"><a href="/cl/100313/1738277/Mastalir-zosmiesnil-Rytmusa--VIDEO-Takto-mu-to-natrel-pred-kamerami-"><img width="100" alt="Maštalír zosmiešnil Rytmusa: VIDEO" title="Maštalír zosmiešnil Rytmusa: VIDEO" src="https://img.topky.sk/120px/2254399.jpg/Tomas-Mastalir-Patrik-Rytmus-Vrbovsky-Foto--Jan-Zemiar-Instagram-P-R-V-.jpg" /></a></div>
+						<div class="entry-text"><span class="info-video">Video</span>							<p class="time">17.09.2018 09:30
+</p>
+							<div class="rating r3-0"></div>
+							<p>BRATISLAVA - Na obrazovkách televízie Joj sa už zopár týždňov objavuje nový zábavný seriál s politickou tematikou - Ministri. Hlavnú úlohu v ňom stvárňuje herec Tomáš Maštalír (41). No a práve on si v jednej z najbližších častí zoberie na paškál najznámejšieho slovenského rapera Patrika Rytmusa Vrbovského (41). Pozrite, ako ho sparodoval!								<a href="/cl/100313/1738277/Mastalir-zosmiesnil-Rytmusa--VIDEO-Takto-mu-to-natrel-pred-kamerami-">viac&nbsp;&#187;</a>
+							</p>
+						</div>
+						<br class="clear"/>
+					</div>					<div class="entry">
+						<h3><a href="/cl/10/1736885/Chalan-si-striela-zo-Slovakov--Takuto-hanbu-si-robime-v-zahranici-" class="name">Chalan si strieľa zo Slovákov: Takúto hanbu si robíme v zahraničí!</a></h3>
+						<div class="entry-image"><a href="/cl/10/1736885/Chalan-si-striela-zo-Slovakov--Takuto-hanbu-si-robime-v-zahranici-"><img width="100" alt="Chalan si strieľa zo" title="Chalan si strieľa zo" src="https://img.topky.sk/120px/2251125.jpg/Sketch-Bros.jpg" /></a></div>
+						<div class="entry-text"><span class="info-video">Video</span>							<p class="time">16.09.2018 19:30
+</p>
+							<div class="rating r3-5"></div>
+							<p>CHORVÁTSKO - Poznáte to aj vy? Počas dovolenky si pokojne ležíte na pláži a nie je dňa, kedy by vaše relaxovanie na horúcom piesku neprerušil neznámy "exot", ktorý svojím výstredným správaním okamžite zaujme vašu pozornosť. Youtuberi Sketch Bros si vo videu tento krát podali dovolenkárov, ktorí aj bežnú činnosť, akou je vchádzanie do mora, dokážu prežívať ...								<a href="/cl/10/1736885/Chalan-si-striela-zo-Slovakov--Takuto-hanbu-si-robime-v-zahranici-">viac&nbsp;&#187;</a>
+							</p>
+						</div>
+						<br class="clear"/>
+					</div>					<div class="entry">
+						<h3><a href="/cl/100313/1738141/TOTO-vystupenie-dostalo-Jara-Slavika--Posunul-ho-do-finale----Divaci-sa-buria-" class="name">TOTO vystúpenie dostalo Jara Slávika: Posunul ho do finále... Diváci sa búria!</a></h3>
+						<div class="entry-image"><a href="/cl/100313/1738141/TOTO-vystupenie-dostalo-Jara-Slavika--Posunul-ho-do-finale----Divaci-sa-buria-"><img width="100" alt="TOTO vystúpenie dostalo Jara" title="TOTO vystúpenie dostalo Jara" src="https://img.topky.sk/120px/2254505.png/Cesko-Slovensko-ma-talent-Foto--Tv-Joj-zlaty-bzuciak-bruchomluvec.png" /></a></div>
+						<div class="entry-text"><span class="info-video">Video</span>							<p class="time">16.09.2018 13:00
+</p>
+							<div class="rating r2-5"></div>
+							<p>BRATISLAVA - Porotca Jaro Slávik (44) má v šou Česko Slovensko má talent povesť kata, ktorého dostane len máloktoré vystúpenie. Uplynulú sobotu sa to však jednému podarilo - konkrétne zabávačovi a bruchomluvcovi Zdeňkovi Polachovi (49), ktorý si od neho vyslúžil dokonca priamy postup do finále. Mnohí diváci sa však proti tomuto rozhodnutiu búria!								<a href="/cl/100313/1738141/TOTO-vystupenie-dostalo-Jara-Slavika--Posunul-ho-do-finale----Divaci-sa-buria-">viac&nbsp;&#187;</a>
+							</p>
+						</div>
+						<br class="clear"/>
+					</div>					<div class="entry">
+						<h3><a href="/cl/100313/1738249/Premiera-v-divadle--Kocis-prisiel-s-milenkou--Vyskocilove-neznosti-s-novou-laskou-a----SOK-pre-Vackovu-" class="name">Premiéra v divadle: Kočiš prišiel s milenkou, Vyskočilove nežnosti s novou láskou a... ŠOK pre Vačkovú!</a></h3>
+						<div class="entry-image"><a href="/cl/100313/1738249/Premiera-v-divadle--Kocis-prisiel-s-milenkou--Vyskocilove-neznosti-s-novou-laskou-a----SOK-pre-Vackovu-"><img width="100" alt="Premiéra v divadle: Kočiš" title="Premiéra v divadle: Kočiš" src="https://img.topky.sk/120px/2254333.jpg/muzikal-premiera-Foto--Jan-Zemiar-Rasputin.jpg" /></a></div>
+						<div class="entry-text"><span class="info-foto">Foto</span><span class="info-video">Video</span>							<p class="time">15.09.2018 13:00
+</p>
+							<div class="rating r3-0"></div>
+							<p>BRATISLAVA - V piatok večer sa v divadle Nová scéna konala premiéra muzikálu režiséra a choreografa Jána Ďurovčíka (47) - Rasputin. Tú si nenechal ujsť herec Peter Kočiš (52), ktorý do spoločnosti priviedol aj milenku Mirku (38). Muzikálová hviezda Patrik Vyskočil (26) si na afterpárty vymieňal nežnôstky so svojou novou láskou a... Herečka Zuzana Vačková (49) prežila šok!								<a href="/cl/100313/1738249/Premiera-v-divadle--Kocis-prisiel-s-milenkou--Vyskocilove-neznosti-s-novou-laskou-a----SOK-pre-Vackovu-">viac&nbsp;&#187;</a>
+							</p>
+						</div>
+						<br class="clear"/>
+					</div>					<div class="entry">
+						<h3><a href="/cl/100313/1737721/Modne--s-hity--Bohyna-Chomistekova--skolacka-Zelinova-a----TOTO-je-femme-fatale-vecera-" class="name">Módne (s)hity: Bohyňa Chomisteková, školáčka Zelinová a... TOTO je femme fatale večera!</a></h3>
+						<div class="entry-image"><a href="/cl/100313/1737721/Modne--s-hity--Bohyna-Chomistekova--skolacka-Zelinova-a----TOTO-je-femme-fatale-vecera-"><img width="100" alt="Módne (s)hity: Bohyňa Chomisteková," title="Módne (s)hity: Bohyňa Chomisteková," src="https://img.topky.sk/120px/2252863.jpg/Avon-Foto--Jan-Zemiar-Modne--s-hity.jpg" /></a></div>
+						<div class="entry-text"><span class="info-foto">Foto</span>							<p class="time">13.09.2018 14:00
+</p>
+							<div class="rating r2-5"></div>
+							<p>BRATISLAVA - V utorok sa v jednom z podnikov na nábreží Dunaja konala exkluzívna VIP párty známej kozmetickej firmy, počas ktorej sa krstil nový parfém. Pozvanie na akciu prijalo mnoho známych tvárí. A ako sa do spoločnosti vyobliekali? Na to si posvietila známa módna stylistka Andrea Ziegler. Vy svoj názor môžete vyjadriť v ankete pod článkom.								<a href="/cl/100313/1737721/Modne--s-hity--Bohyna-Chomistekova--skolacka-Zelinova-a----TOTO-je-femme-fatale-vecera-">viac&nbsp;&#187;</a>
+							</p>
+						</div>
+						<br class="clear"/>
+					</div>					<div class="entry">
+						<h3><a href="/cl/100313/1737559/Divoky-zur-celebrit--Odviazane-tance-Mullerovej-a-Juraska--aj-moderator-s-hlavou-na-silikonovych-b------mbach-" class="name">Divoký žúr celebrít: Odviazané tance Müllerovej a Juraška, aj moderátor s hlavou na silikónových b(.)(.)mbách!</a></h3>
+						<div class="entry-image"><a href="/cl/100313/1737559/Divoky-zur-celebrit--Odviazane-tance-Mullerovej-a-Juraska--aj-moderator-s-hlavou-na-silikonovych-b------mbach-"><img width="100" alt="Divoký žúr celebrít: Odviazané" title="Divoký žúr celebrít: Odviazané" src="https://img.topky.sk/120px/2252387.jpg/AVON-FOTO--Jan-Zemiar.jpg" /></a></div>
+						<div class="entry-text"><span class="info-video">Video</span>							<p class="time">13.09.2018 09:00
+</p>
+							<div class="rating r3-0"></div>
+							<p>BRATISLAVA - Tak tomuto sa povie poriadna žúrka! V utorok večer sa v priestoroch luxusnej reštaurácie pri Dunaji konala exkluzívna VIP párty. Krst nového parfumu známej kozmetickej značky si nenechalo ujsť množstvo tvárí slovenského šoubiznisu, ktoré sa v noci poriadne odviazali. Aha, čo postvárali!								<a href="/cl/100313/1737559/Divoky-zur-celebrit--Odviazane-tance-Mullerovej-a-Juraska--aj-moderator-s-hlavou-na-silikonovych-b------mbach-">viac&nbsp;&#187;</a>
+							</p>
+						</div>
+						<br class="clear"/>
+					</div>					<div class="entry">
+						<h3><a href="/cl/100313/1737431/Vyvetrali-nove-frajerky--Fasiang-prvykrat-na-verejnosti-s-partnerkou--bozky-znameho-spevaka-s-mladou-zabkou-" class="name">Vyvetrali nové frajerky: Fašiang prvýkrát na verejnosti s partnerkou, bozky známeho speváka s mladou žabkou!</a></h3>
+						<div class="entry-image"><a href="/cl/100313/1737431/Vyvetrali-nove-frajerky--Fasiang-prvykrat-na-verejnosti-s-partnerkou--bozky-znameho-spevaka-s-mladou-zabkou-"><img width="100" alt="Vyvetrali nové frajerky: Fašiang" title="Vyvetrali nové frajerky: Fašiang" src="https://img.topky.sk/120px/2252043.jpg/Robo-Papp-FOTO--Vlado-Anjel-Tomas-Fasiang.jpg" /></a></div>
+						<div class="entry-text"><span class="info-foto">Foto</span><span class="info-video">Video</span>							<p class="time">12.09.2018 12:00
+</p>
+							<div class="rating r3-0"></div>
+							<p>BRATISLAVA - Včera večer sa na nábreží Dunaja konala exkluzívna VIP párty pri príležitosti predstavovania nového parfumu od známej kozmetickej značky. Túto príležitosť si nenechalo ujsť množstvo známych tvárí slovenského šoubiznisu, medzi nimi Marek Fašiang (32) a Robo Papp (36), ktorí do spoločnosti vytiahli aj svoje nové lásky. 								<a href="/cl/100313/1737431/Vyvetrali-nove-frajerky--Fasiang-prvykrat-na-verejnosti-s-partnerkou--bozky-znameho-spevaka-s-mladou-zabkou-">viac&nbsp;&#187;</a>
+							</p>
+						</div>
+						<br class="clear"/>
+					</div>					<div class="entry">
+						<h3><a href="/cl/100313/1736839/Kolenik-vysiel-s-pravdou-von--Na-obrazovke-profesional-ale----TOTO-sa-fakt-naucil-az-pred-tridsiatkou-" class="name">Koleník vyšiel s pravdou von: Na obrazovke profesionál ale... TOTO sa fakt naučil až pred tridsiatkou?</a></h3>
+						<div class="entry-image"><a href="/cl/100313/1736839/Kolenik-vysiel-s-pravdou-von--Na-obrazovke-profesional-ale----TOTO-sa-fakt-naucil-az-pred-tridsiatkou-"><img width="100" alt="Koleník vyšiel s pravdou" title="Koleník vyšiel s pravdou" src="https://img.topky.sk/120px/2250533.jpg/Foto--Vlado-Anjel-DOD-Markiza-2018.jpg" /></a></div>
+						<div class="entry-text"><span class="info-video">Video</span>							<p class="time">10.09.2018 15:00
+</p>
+							<div class="rating r1-0"></div>
+							<p>BRATISLAVA - Janko Koleník (38) patrí už dlhé roky medzi najpopulárnejších slovenských hercov. Statný fešák si okrem úloh v divadle odkrútil už aj množstvo televíznych postáv, no ako sám priznal, väčšinou vychytáva úlohy mafiánov, drsniakov či arogantných chlapov. Tomu je však, aspoň na istý čas, koniec. Najnovšie totiž markizáckych Oteckoch stvárňuje ...								<a href="/cl/100313/1736839/Kolenik-vysiel-s-pravdou-von--Na-obrazovke-profesional-ale----TOTO-sa-fakt-naucil-az-pred-tridsiatkou-">viac&nbsp;&#187;</a>
+							</p>
+						</div>
+						<br class="clear"/>
+					</div>					<div class="entry">
+						<h3><a href="/cl/100313/1736253/Cerstvy-otec-Hulka-planuje-nebezpecnu-cestu--Preboha--ved-tam-moze-zomriet-" class="name">Čerstvý otec Hůlka plánuje nebezpečnú cestu: Preboha, veď tam môže zomrieť!</a></h3>
+						<div class="entry-image"><a href="/cl/100313/1736253/Cerstvy-otec-Hulka-planuje-nebezpecnu-cestu--Preboha--ved-tam-moze-zomriet-"><img width="100" alt="Daniel Hůlka v Crowne" title="Daniel Hůlka v Crowne" src="https://img.topky.sk/120px/2249391.jpg/Daniel-Hulka.jpg" /></a></div>
+						<div class="entry-text"><span class="info-video">Video</span>							<p class="time">10.09.2018 12:30
+</p>
+							<div class="rating r0-0"></div>
+							<p>BRATISLAVA – Obľúbený český muzikálový herec Daniel Hůlka (50) sa už čoskoro objaví aj na slovenských doskách v projekte Od Lady Carneval k Draculovi s podtitulom Pocta legendám. Okrem toho, že sa spevák pripravuje na šnúru benefičných galakoncertov, chystá sa aj na nebezpečnú cestu!								<a href="/cl/100313/1736253/Cerstvy-otec-Hulka-planuje-nebezpecnu-cestu--Preboha--ved-tam-moze-zomriet-">viac&nbsp;&#187;</a>
+							</p>
+						</div>
+						<br class="clear"/>
+					</div>					<div class="entry">
+						<h3><a href="/cl/100313/1735967/Herecka-Cobejova-zo-serialu-Som-mama--Pri-druhom-tehotenstve-zazila-sok--Jej-dcera-chcela-TOTO-" class="name">Herečka Čobejová zo seriálu Som mama: Pri druhom tehotenstve zažila šok. Jej dcéra chcela TOTO!</a></h3>
+						<div class="entry-image"><a href="/cl/100313/1735967/Herecka-Cobejova-zo-serialu-Som-mama--Pri-druhom-tehotenstve-zazila-sok--Jej-dcera-chcela-TOTO-"><img width="100" alt="Herečka Čobejová zo seriálu" title="Herečka Čobejová zo seriálu" src="https://img.topky.sk/120px/2151159.jpg/prsnik-Michaela-Cobejova-foto--TV-Markiza-film-Pani-Dokonala.jpg" /></a></div>
+						<div class="entry-text"><span class="info-video">Video</span>							<p class="time">10.09.2018 11:00
+</p>
+							<div class="rating r3-0"></div>
+							<p>BRATISLAVA – Michaela Čobejová (48) je opäť na televíznych obrazovkách. Tentoraz v úlohe budúcej matky. Diváci ju môžu vidieť v seriáli Som mama nakrúteného podľa knižnej predlohy Kristíny Tormovej, kde bude blondínka v sladkom očakávaní. V skutočnom živote však pri druhom tehotenstve zažila nečakaný šok, ktorý jej spôsobila staršia dcéra!								<a href="/cl/100313/1735967/Herecka-Cobejova-zo-serialu-Som-mama--Pri-druhom-tehotenstve-zazila-sok--Jej-dcera-chcela-TOTO-">viac&nbsp;&#187;</a>
+							</p>
+						</div>
+						<br class="clear"/>
+					</div>					<div class="entry">
+						<h3><a href="/cl/100313/1736251/Ceska-kraska-si-priviedla-do-spolocnosti-mladeho-zajacika--Toto-ze-je-jej-SYN--" class="name">Česká kráska si priviedla do spoločnosti mladého zajačika: Toto že je jej SYN?!</a></h3>
+						<div class="entry-image"><a href="/cl/100313/1736251/Ceska-kraska-si-priviedla-do-spolocnosti-mladeho-zajacika--Toto-ze-je-jej-SYN--"><img width="100" alt="Česká kráska si priviedla" title="Česká kráska si priviedla" src="https://img.topky.sk/120px/2099913.png/tanec-silueta-foto-pixabay-com.png" /></a></div>
+						<div class="entry-text"><span class="info-foto">Foto</span>							<p class="time">07.09.2018 14:00
+</p>
+							<div class="rating r2-0"></div>
+							<p>PRAHA - Pavlína Němcová (45) bez debaty patrí medzi najkrajšie ženy česko-slovenského šoubiznisu. Úspešná topmodelka sa nedávno ukázala na finále prestížnej modelingovej súťaže Elite model look, kde jej robil spoločnosť sympatický fešák. Toto je naozaj jej syn?!								<a href="/cl/100313/1736251/Ceska-kraska-si-priviedla-do-spolocnosti-mladeho-zajacika--Toto-ze-je-jej-SYN--">viac&nbsp;&#187;</a>
+							</p>
+						</div>
+						<br class="clear"/>
+					</div>			</div>
+		</div>
+	</div>
+
+
+
+<div class="box pagination grey">				<a class="page active" href="/se/100334/Topky-TV">1</a>				<a class="page " href="/se/100334/2/Topky-TV">2</a>				<a class="page " href="/se/100334/3/Topky-TV">3</a>				<a class="page " href="/se/100334/4/Topky-TV">4</a>				<a class="page " href="/se/100334/5/Topky-TV">5</a>		<a class="next" href="/se/100334/2/Topky-TV">Nasledujúci &#187;</a></div>
+<script type="text/javascript">
+	var parent_sections = [15,2,8];
+</script>
+	<div style="width: 600px; float:left">			<script type="text/javascript" charset="utf-8" >
+				//<![CDATA[
+					var EtargetSearchQuery = '';//OPTIONAL_PAGE_URL
+
+					var EtargetBannerIdent = 'ETARGET-sk-47376-468x300-IFRAME-8.2';
+					var EtargetBannerStyle = '&tabl=4&design_name=custom&border_color=ffffff&border_style=none&background_opacity=100&background_color=ffffff&hover_back=&title_color=cf1d22&text_color=000000&url_color=cf1d22&h_title_color=cf1d22&h_text_color=000000&h_url_color=cf1d22&freespace=0&logo_type=5&logo=1&title_underline=0&url_underline=0&h_title_underline=1&h_url_underline=1&nourl=1&fsi=13&font=arial&require_login_pass=&login_pass=&show_in_fb=&show_in_fb_text=';
+					var EtargetBannerDivid = '';
+
+					function etargetBannerIdent(ident,style){this.ident=ident;var a=ident.split('-');this.country=a[1];this.ref=a[2];this.area=a[3];this.type=a[4];this.mod={};if(a.length>5){for(var i=5;i<a.length;i++)this.mod[a[i]]=1;};a=this.area.split('x');this.width=a[0];this.height=a[1];this.style={};a=style.split('&');for(var i=0;i<a.length;i++){var b=a[i].split('=');if(b.length>1)this.style[b[0]]=b[1];else this.style[b[0]]='';};this.q=document.location;var d=new Date();this.start=d.getTime();if(typeof(EtargetSearchQuery)=='string')if(EtargetSearchQuery!='')this.q=EtargetSearchQuery;this.getURL=function(){var u=location.protocol+'/'+'/'+this.country+'.search.etargetnet.com/generic/advert.php?g=ref:'+this.ref;u+=',area:'+this.width+'x'+this.height;for(var x in this.style){u+=','+x+':'+this.style[x];};var d=new Date();u+=',tt:'+Math.floor((d.getTime()-Number(this.start))/1000);u+=',q:'+encodeURIComponent(this.q);return u;},this.getIdent=function(){return this.ident;}};function etargetFindMyselfAndCreateOpener(ebi,setup){this.ebi=ebi;this.setup={domain:'',tstart:0,ref:0,start:{},treshold:{perc:30,func:null,cnt:1},click:true,measurement:'round',send:true,offset:0,debug:false};this.tresholds=0;if(typeof(setup)=='object'){for(var x in setup)this.setup[x]=setup[x];};this.objIn=function(o,n,options){var a=document.createElement(n);if(o.tagName=='SCRIPT'){o.parentNode.insertBefore(a,o);}else{o.appendChild(a);}for(var x in options){if(x.toUpperCase()==x){a.setAttribute(x.toLowerCase(),options[x]);}else if(x.indexOf('on')==0){a[x]==Function(options[x]);}else{a.style[x]=options[x];}}return a;},this.trigger=function(r){this.objIn(this.o,'script',{ASYNC:'async',SRC:this.ebi.getURL(),CHARSET:'utf-8'});this.o.style.height='auto';},this._getInternetExplorerVersion=function(){var rv=-1;if(navigator.appName=='Microsoft Internet Explorer'){var ua=navigator.userAgent;var re=new RegExp('MSIE ([0-9]{1,}[\.0-9]{0,})');if(re.exec(ua)!=null)rv=parseFloat(RegExp.$1);}return rv;},this.isIE=function(){if(typeof(this.browser)!='undefined')return (this.browser=='IE');var ver=this._getInternetExplorerVersion();if(ver>-1){this.browser='IE';return true;}else return false;},this.measure=function(){this.Screen={w:0,h:0,x:0,y:0,xx:0,yy:0};this.Window={w:0,h:0,x:0,y:0,xx:0,yy:0,minimized:false};if(typeof(window.outerWidth)!='undefined'){this.Window.w=window.outerWidth;this.Window.h=window.outerHeight;}else if(typeof(document.body.offsetWidth)!='undefined'){this.Window.w=document.body.offsetWidth;this.Window.h=document.body.offsetHeight;}if(typeof(window.screenTop)=='number'){if(window.screenTop<-32000)this.Window.minimized=true;this.Window.y=window.screenTop;}else if(typeof(window.screenY)=='number'){if(window.screenY<-32000)this.Window.minimized=true;this.Window.y=window.screenY;}if(!this.isIE())if((this.Window.w<100)&&(this.Window.h!=0))this.Window.minimized=true;if(typeof(window.innerWidth)=='number'){this.Screen.w=window.innerWidth;this.Screen.h=window.innerHeight;}else if(document.documentElement&&(document.documentElement.clientWidth||document.documentElement.clientHeight)){this.Screen.w=document.documentElement.clientWidth;this.Screen.h=document.documentElement.clientHeight;}else if(document.body&&(document.body.clientWidth||document.body.clientHeight)){this.Screen.w=document.body.clientWidth;this.Screen.h=document.body.clientHeight;}if(typeof(window.pageYOffset)=='number'){this.Screen.x=window.pageXOffset;this.Screen.y=window.pageYOffset;}else if(document.body&&(document.body.scrollLeft||document.body.scrollTop)){this.Screen.x=document.body.scrollLeft;this.Screen.y=document.body.scrollTop;}else if(document.documentElement&&(document.documentElement.scrollLeft||document.documentElement.scrollTop)){this.Screen.x=document.documentElement.scrollLeft;this.Screen.y=document.documentElement.scrollTop;}},this.update=function(){var p=this.o;this.x=0;this.y=0;this.xx=0;this.yy=0;if(!p)return false;this.h=p.offsetHeight;this.w=p.offsetWidth;while(p&&p.offsetParent){this.x+=p.offsetLeft;this.y+=p.offsetTop;p=p.offsetParent;}this.xx=Number(this.x+this.w);this.yy=Number(this.y+this.h);},this.percOnScreen=function(){this.measure();this.update();if(this.Window.minimized)return 0;var ofs=this.setup.offset;var x=this.x-ofs;var xx=this.xx+ofs;var y=this.y-ofs;var yy=this.yy+ofs;if(xx<this.Screen.x)return 0;if(yy<this.Screen.y)return 0;if(x>(this.Screen.w+this.Screen.x))return 0;if(y>(this.Screen.h+this.Screen.y))return 0;if(x<this.Screen.x)x=Number(this.Screen.x);if(y<this.Screen.y)y=Number(this.Screen.y);if(xx>(Number(this.Screen.w)+Number(this.Screen.x)))xx=(Number(this.Screen.w)+Number(this.Screen.x));if(yy>(Number(this.Screen.h)+Number(this.Screen.y)))yy=(Number(this.Screen.h)+Number(this.Screen.y));var w=Number(xx)-Number(x);var h=Number(yy)-Number(y);var full=this.w*this.h;var seen=w*h;if(full==0){var perc=100;}else{var perc=Math.round((Number(seen)/Number(full))*100);}return perc;},this.handleEvent=function(name){var perc=this.percOnScreen();if((perc>this.setup.treshold.perc)&&(this.tresholds<this.setup.treshold.cnt)){this.tresholds++;if(typeof(this.setup.treshold.func)=='function')this.setup.treshold.func(this);};},this.initHandle=function(n,f){if(this.isIE()){window.attachEvent('on'+n,f);}else{window.addEventListener(n,f,false);};},this.run=function(){var x='lkklk';var D=document;var aS=D.getElementsByTagName('script');var aB=D.getElementsByTagName('body');for(var i=0;i<aS.length;i++){try{if((aS[i].innerHTML.match(this.ebi.getIdent()))||((aS[i].src=='http:/'+'/'+x)||(aS[i].src=='https:/'+'/'+x))){var S=aS[i];if(EtargetBannerDivid!=''){var C=document.getElementById(EtargetBannerDivid);if(!C)return 0;this.o=this.objIn(C,'div',{margin:'0px',width:this.ebi.width+'px',height:this.ebi.height+'px'});}else if(aB.length<1){var B=D.createElement('body');D.documentElement.appendChild(B);B.style.margin='0px';B.style.borderWidth='0px';this.o=this.objIn(B,'div',{margin:'0px',width:this.ebi.width+'px',height:this.ebi.height+'px'});}else{this.o=this.objIn(S,'div',{margin:'auto',backgroundColor:'transparent',borderWidth:'0px',width:this.ebi.width+'px',height:this.ebi.height+'px'});}S.parentNode.removeChild(S);if(typeof(this.ebi.mod['instantOn'])!='undefined'){this.trigger(this);return 1;};var that=this;this.initHandle('scroll',function(){that.handleEvent();});this.setup.treshold.func=function(r){that.trigger(r);};this.handleEvent();return 1;break;}}catch(err){return 0;}};},this.init=function(){var that=this;this.initHandle('load',function(){that.run();});},this.init();};
+					if(typeof(EtargetOpeners)=='undefined')EtargetOpeners=[];EtargetOpeners[EtargetOpeners.length]=new etargetFindMyselfAndCreateOpener(new etargetBannerIdent(EtargetBannerIdent,EtargetBannerStyle),{offset:50});
+				//]]>
+			</script>	</div>					</div>
+					<!-- Content left end -->
+					<!-- Content right -->
+					<div class="content-right"><div id="radio">
+	<a href="javascript:;" target="FEopenLink" onclick="vHWin=window.open('https://recycle.topky.sk/click.fcgi?cid=45654&amp;gid=54492&amp;bid=57863&amp;pid=0','FEopenLink','width=1000,height=590,scrollbars=yes');vHWin.focus();return false;" title="Spustiť prehrávač" style="text-decoration:none; cursor: pointer;">
+		<div class="fnbg">
+			<div class="horizontal_scroller">
+				<div id="radioMarquee">** Fun radio LIVE **</div>
+			</div>
+		</div>
+		<img src="https://recycle.topky.sk/count.fcgi?cid=45654&amp;gid=54492&amp;bid=57863&amp;pid=0" width="0" height="0" align="bottom">
+	</a>
+
+</div>
+<div class="boxes">
+    <a href="https://www.topky.sk/se/1002025/Pavlasek2" title="Pavlasek" target="_blank">
+        <img src="https://zoznamstatic.sk/img/topky/pavlasek-banner.jpg?2" alt="Banner Pavlasek">
+    </a>
+</div>
+		<!-- responzívna reklama -->
+		<div id='div-gpt-ad-1494499248568-24' class=' clearfix-2' style="vertical-align:top; text-align:center; margin-bottom:15px;">
+			<script type='text/javascript'>
+				googletag.cmd.push(function() { googletag.display('div-gpt-ad-1494499248568-24'); });
+			</script>
+		</div>	<div id="read" class="box_group box grey">
+		<h4 class="box-title">Najčítanejšie články</h4>
+		<div class="box-content">
+
+			<ul class="p4 tabs ">					<li class=""><a href="#tab-1" onClick="_gaq.push(['_trackEvent', 'Tab', 'Click', 'Teraz']);"><span>Teraz</span></a></li>					<li class=""><a href="#tab-2" onClick="_gaq.push(['_trackEvent', 'Tab', 'Click', 'Dnes']);"><span>Dnes</span></a></li>					<li class=""><a href="#tab-3" onClick="_gaq.push(['_trackEvent', 'Tab', 'Click', '3 dni']);"><span>3 dni</span></a></li>					<li class="last"><a href="#tab-4" onClick="_gaq.push(['_trackEvent', 'Tab', 'Click', 'Týždeň']);"><span>Týždeň</span></a></li>			</ul>
+
+			<div class="">
+					<div id="tab-1" class="tab-content">
+
+	<ul>			<li class="active">
+				<div class="hvr" style="float: left;">
+					<a href="/cl/100278/1738989/Desat-najcennejsich-rad-od-masiara--Po-tomto-zisteni-uz-balene-maso-nekupite--v-akcii-uz-vobec-"  data-gtm-event="najcitanejsie__1" >Desať najcennejších rád od mäsiara: Po tomto zistení už balené mäso nekúpite, v akcii už vôbec!</a><br/>
+					<div class="detail" >
+						<a href="/cl/100278/1738989/Desat-najcennejsich-rad-od-masiara--Po-tomto-zisteni-uz-balene-maso-nekupite--v-akcii-uz-vobec-"><img width="75" alt="Mäso" title="Mäso" src="https://img.topky.sk/80px/2256335.jpg/Potraviny-Obchod-Maso-Masiar-Masiarstvo-Pult-Lahodky.jpg" />
+						<p>BRATISLAVA – Boris Halaj, ktorý má celý život spätý s mäsiarstvom, prezradil desať praktických tipov,&#8230;</p></a>
+						<br/>
+					</div>
+				</div>
+			</li>			<li class="inactive">
+				<div class="hvr" style="float: left;">
+					<a href="/cl/100313/1739805/Tajna-svadba-jojkarskej-hviezdy--Povedala-ano-slovenskemu-spevakovi-a--Wau--neuverite--ake-mala-saty-"  data-gtm-event="najcitanejsie__2" >Tajná svadba jojkárskej hviezdy: Povedala áno slovenskému spevákovi a..Wau, neuveríte, aké mala šaty!</a><br/>
+					<div class="detail" style="display: none !important;">
+						<a href="/cl/100313/1739805/Tajna-svadba-jojkarskej-hviezdy--Povedala-ano-slovenskemu-spevakovi-a--Wau--neuverite--ake-mala-saty-"><img width="75" alt="Tajná svadba jojkárskej hviezdy:" title="Tajná svadba jojkárskej hviezdy:" src="https://img.topky.sk/80px/2159205.jpg/par-silueta-foto-pixabay-com.jpg" />
+						<p>BRATISLAVA - A je to tu! Ešte počas minulého roka slovenským šoubiznisom otriasla správa, že dlhoroční&#8230;</p></a>
+						<br/>
+					</div>
+				</div>
+			</li>			<li class="inactive">
+				<div class="hvr" style="float: left;">
+					<a href="/cl/11/1739817/Obrovska-VYSTRAHA-pre-Cesko--K-nasim-susedom-sa-vali-prirodna-apokalypsa"  data-gtm-event="najcitanejsie__3" >Obrovská VÝSTRAHA pre Česko: K našim susedom sa valí prírodná apokalypsa</a><br/>
+					<div class="detail" style="display: none !important;">
+						<a href="/cl/11/1739817/Obrovska-VYSTRAHA-pre-Cesko--K-nasim-susedom-sa-vali-prirodna-apokalypsa"><img width="75" alt="Obrovská VÝSTRAHA pre Česko:" title="Obrovská VÝSTRAHA pre Česko:" src="https://img.topky.sk/80px/2210687.jpg/vietor-tajfun.jpg" />
+						<p>PRAHA - Silný vietor, ktorý môže v horách dosiahnuť aj rýchlosť orkánu, zasiahne v nedeľu a v pondelok&#8230;</p></a>
+						<br/>
+					</div>
+				</div>
+			</li>			<li class="inactive">
+				<div class="hvr" style="float: left;">
+					<a href="/cl/1002009/1739785/Zvrat-vo-vysetrovani-vrazdy-Jana-a-Martiny--FOTO-Prvy-tip-na-muza-z-identikitu"  data-gtm-event="najcitanejsie__4" >Zvrat vo vyšetrovaní vraždy Jána a Martiny: FOTO Prvý tip na muža z identikitu</a><br/>
+					<div class="detail" style="display: none !important;">
+						<a href="/cl/1002009/1739785/Zvrat-vo-vysetrovani-vrazdy-Jana-a-Martiny--FOTO-Prvy-tip-na-muza-z-identikitu"><img width="75" alt="Zvrat vo vyšetrovaní vraždy" title="Zvrat vo vyšetrovaní vraždy" src="https://img.topky.sk/80px/2255033.jpg/vrazda-identikit-Jan-Kuciak.jpg" />
+						<p>BRATISLAVA - Prokurátor 17. septembra ukázal identikit s podobou muža, ktorý môže vedieť zásadné informácie&#8230;</p></a>
+						<br/>
+					</div>
+				</div>
+			</li>			<li class="inactive">
+				<div class="hvr" style="float: left;">
+					<a href="/cl/100370/1739821/Zo-sobotneho-popoludnia-nocna-mora--Tragicka-nehoda-na-nasich-cestach--vyhasol-jeden-zivot"  data-gtm-event="najcitanejsie__5" >Zo sobotného popoludnia nočná mora: Tragická nehoda na našich cestách, vyhasol jeden život</a><br/>
+					<div class="detail" style="display: none !important;">
+						<a href="/cl/100370/1739821/Zo-sobotneho-popoludnia-nocna-mora--Tragicka-nehoda-na-nasich-cestach--vyhasol-jeden-zivot"><img width="75" alt="Nehoda autobusu v Ekvádore" title="Nehoda autobusu v Ekvádore" src="https://img.topky.sk/80px/2237297.jpg/autobus-dopravna-nehoda-Ekvador.jpg" />
+						<p>TURŇA NAD BODVOU – Zrážka autobusu a osobného motorového vozidla, ktorá sa stala v sobotu podvečer medzi&#8230;</p></a>
+						<br/>
+					</div>
+				</div>
+			</li>	</ul>
+	<br class="clear"/>
+					</div>
+					<div id="tab-2" class="tab-content hide">
+
+	<ul>				<li class="first">
+					<a href="/cl/10/1739693/Slovaci--POZOR--Na-Europu-sa-vali-burkove-monstrum--zasiahne-aj-nasu-krajinu"  data-gtm-event="najcitanejsie__1" >Slováci, POZOR: Na Európu sa valí búrkové monštrum, zasiahne aj našu krajinu</a>
+				</li>				<li class="hide">
+					<a href="/cl/100278/1739411/Veroniku-nemilo-prekvapil-OZNAM-na-poste-v-Bratislave--Slovencinari-by-si-na-nom-zgustli"  data-gtm-event="najcitanejsie__2"  class="name">Veroniku nemilo prekvapil OZNAM na pošte v Bratislave: Slovenčinári by si na ňom zgustli</a>
+				</li>				<li class="hide">
+					<a href="/cl/11/1739761/Tragedia-po-nahanacke-dvoch-ziakov--Kamarata---13--stal-kusok-syra-pod-trickom-zivot"  data-gtm-event="najcitanejsie__3"  class="name">Tragédia po naháňačke dvoch žiakov: Kamaráta (†13) stál kúsok syra pod tričkom život</a>
+				</li>				<li class="hide">
+					<a href="/cl/1002009/1739785/Zvrat-vo-vysetrovani-vrazdy-Jana-a-Martiny--FOTO-Prvy-tip-na-muza-z-identikitu"  data-gtm-event="najcitanejsie__4"  class="name">Zvrat vo vyšetrovaní vraždy Jána a Martiny: FOTO Prvý tip na muža z identikitu</a>
+				</li>				<li class="hide">
+					<a href="/cl/100313/1739599/Andrea-Ziegler-zhodnotila-outfit-detskej-herecky--Zosypala-sa-na-nu-vlna-kritiky----Vyjadrenie-modnej-stajlistky-"  data-gtm-event="najcitanejsie__5"  class="name">Andrea Ziegler zhodnotila outfit detskej herečky: Zosypala sa na ňu vlna kritiky... Vyjadrenie módnej stajlistky!</a>
+				</li>				<li class="hide">
+					<a href="/cl/100313/1739585/Finalista-SuperStar-priznal-VZTAH-s-Knechtovou--Takto-dlho-to-spolu-tahali-"  data-gtm-event="najcitanejsie__6"  class="name">Finalista SuperStar priznal VZŤAH s Knechtovou: Takto dlho to spolu ťahali!</a>
+				</li>				<li class="hide">
+					<a href="/cl/100313/1739805/Tajna-svadba-jojkarskej-hviezdy--Povedala-ano-slovenskemu-spevakovi-a--Wau--neuverite--ake-mala-saty-"  data-gtm-event="najcitanejsie__7"  class="name">Tajná svadba jojkárskej hviezdy: Povedala áno slovenskému spevákovi a..Wau, neuveríte, aké mala šaty!</a>
+				</li>	</ul>
+	<br class="clear"/>
+					</div>
+					<div id="tab-3" class="tab-content hide">
+
+	<ul>				<li class="first">
+					<a href="/cl/100313/1738843/Zrusili-ich--Po-dvoch-rokoch-dostali-v-Jojke-necakanu-STOPku-"  data-gtm-event="najcitanejsie__1" >Zrušili ich: Po dvoch rokoch dostali v Jojke nečakanú STOPku!</a>
+				</li>				<li class="hide">
+					<a href="/cl/100313/1739029/Obrovsky-smutok-hviezdy-markizackej-Tvare--Zasiahla-ho-necakana-smrt-"  data-gtm-event="najcitanejsie__2"  class="name">Obrovský smútok hviezdy markizáckej Tváre: Zasiahla ho nečakaná smrť!</a>
+				</li>				<li class="hide">
+					<a href="/cl/13/1738805/Nevesta--33--prisla-skor-domov-z-prace-a-nacapala-manzela-pri----Este-teraz-sa-mi-dviha-zaludok-"  data-gtm-event="najcitanejsie__3"  class="name">Nevesta (33) prišla skôr domov z práce a načapala manžela pri... Ešte teraz sa mi dvíha žalúdok!</a>
+				</li>				<li class="hide">
+					<a href="/cl/100313/1739585/Finalista-SuperStar-priznal-VZTAH-s-Knechtovou--Takto-dlho-to-spolu-tahali-"  data-gtm-event="najcitanejsie__4"  class="name">Finalista SuperStar priznal VZŤAH s Knechtovou: Takto dlho to spolu ťahali!</a>
+				</li>				<li class="hide">
+					<a href="/cl/100313/1739163/Nesmrtelna-Studenkova--Kvalitne-plastiky-alebo----TAKTO-bude-vyzerat-v-roku-2080--"  data-gtm-event="najcitanejsie__5"  class="name">Nesmrteľná Studenková: Kvalitné plastiky alebo... TAKTO bude vyzerať v roku 2080?!</a>
+				</li>				<li class="hide">
+					<a href="/cl/100313/1738817/Vychudnuta-hviezda-Tvojej-tvare--Vazi-uz-len-45-kil----KOLAPS-pred-vystupenim-"  data-gtm-event="najcitanejsie__6"  class="name">Vychudnutá hviezda Tvojej tváre: Váži už len 45 kíl... KOLAPS pred vystúpením!</a>
+				</li>				<li class="hide">
+					<a href="/cl/100535/1739301/Tlaky-na-Lajcaka-vyvrcholili--Tajne-stretnutie-s-Robertom-Ficom--definitivne-rozhodnutie-"  data-gtm-event="najcitanejsie__7"  class="name">Tlaky na Lajčáka vyvrcholili: Tajné stretnutie s Robertom Ficom, definitívne rozhodnutie!</a>
+				</li>	</ul>
+	<br class="clear"/>
+					</div>
+					<div id="tab-4" class="tab-content hide last">
+
+	<ul>				<li class="first">
+					<a href="/cl/100313/1738843/Zrusili-ich--Po-dvoch-rokoch-dostali-v-Jojke-necakanu-STOPku-"  data-gtm-event="najcitanejsie__1" >Zrušili ich: Po dvoch rokoch dostali v Jojke nečakanú STOPku!</a>
+				</li>				<li class="hide">
+					<a href="/cl/10/1736317/FOTO-Barbora-si-objednala-pizzu--pri-pohlade-na-ucet-nechapala--Takto-krasne-so-mnou-vybabrali-"  data-gtm-event="najcitanejsie__2"  class="name">FOTO Barbora si objednala pizzu, pri pohľade na účet nechápala: Takto krásne so mnou vybabrali!</a>
+				</li>				<li class="hide">
+					<a href="/cl/10/1738505/Bugar-vydaval-svoju-jedinu-dceru--FOTO-Krasna-nevesta-a-zabava-do-rana-bieleho--Nechybali-ani-jeho-stranici"  data-gtm-event="najcitanejsie__3"  class="name">Bugár vydával svoju jedinú dcéru: FOTO Krásna nevesta a zábava do rána bieleho! Nechýbali ani jeho straníci</a>
+				</li>				<li class="hide">
+					<a href="/cl/100313/1739029/Obrovsky-smutok-hviezdy-markizackej-Tvare--Zasiahla-ho-necakana-smrt-"  data-gtm-event="najcitanejsie__4"  class="name">Obrovský smútok hviezdy markizáckej Tváre: Zasiahla ho nečakaná smrť!</a>
+				</li>				<li class="hide">
+					<a href="/cl/13/1738805/Nevesta--33--prisla-skor-domov-z-prace-a-nacapala-manzela-pri----Este-teraz-sa-mi-dviha-zaludok-"  data-gtm-event="najcitanejsie__5"  class="name">Nevesta (33) prišla skôr domov z práce a načapala manžela pri... Ešte teraz sa mi dvíha žalúdok!</a>
+				</li>				<li class="hide">
+					<a href="/cl/10/1738633/Krasna-Slovenka-Natalia-o-rasizme--Najst-si-frajera-bolo-nemozne--chlapci-s-ciernymi-chodit-nechcu"  data-gtm-event="najcitanejsie__6"  class="name">Krásna Slovenka Natália o rasizme: Nájsť si frajera bolo nemožné, chlapci s čiernymi chodiť nechcú</a>
+				</li>				<li class="hide">
+					<a href="/cl/10/1738723/Juraj---44--sa-chcel-vyhnut-zrazenemu-medvedovi--zaplatil-zivotom"  data-gtm-event="najcitanejsie__7"  class="name">Juraj (†44) sa chcel vyhnúť zrazenému medveďovi, zaplatil životom</a>
+				</li>	</ul>
+	<br class="clear"/>
+					</div>			</div>
+		</div>
+	</div>
+<script type="text/javascript">
+$(document).ready(function () {
+	$('#tab-1 li.inactive div.hvr').children('.detail').hide();
+	$('#tab-1 li div.hvr').hoverIntent(function() {
+		if ($(this).parent('li').hasClass('inactive')) {
+			$('#tab-1 li.active .hvr').children('.detail').slideUp('fast');
+
+			var parent = $(this).parent('li');
+			parent.children('.hvr').children('.detail').height(65).slideDown('fast');
+
+			$('#tab-1 li.active').addClass('inactive');
+			$('#tab-1 li.active').removeClass('active');
+
+			parent.removeClass('inactive');
+			parent.addClass('active');
+		}
+		return false;
+	}, function() { return false; });
+});
+</script>
+		<!-- responzívna reklama -->
+		<div id='div-gpt-ad-1494499248568-8' class=' clearfix-2' style="vertical-align:top; text-align:center; margin-bottom:15px;">
+			<script type='text/javascript'>
+				googletag.cmd.push(function() { googletag.display('div-gpt-ad-1494499248568-8'); });
+			</script>
+		</div>
+<!-- START predpredaj widget -->
+<div id="predpredaj-widget" class="small">
+	<h2 class="box-title">
+		<a href="https://www.predpredaj.sk/" onclick="trackOutboundMagazines(this, 'PREDPREDAJ_BOX_SMALL', 'LOGO', 'LOGO');"><span class="logo-predpredaj"></span>Predpredaj.sk</a>
+	</h2>
+  	<div class="wrapper">
+		<div id="predpredaj-widget-slider">
+			<ul>
+				<li>						<a href="https://predpredaj.sk/sk/listky/3one-1only-maria-cirova-2018-11-24/?utm_source=topky&utm_medium=display&utm_content=right-banner&utm_campaign=3One &amp;amp; 1Only Mária Čírová" title="3One &amp;amp; 1Only Mária Čírová" onclick="trackOutboundMagazines(this, 'PREDPREDAJ_BOX_SMALL', 'PODUJATIE', 'PODUJATIE 1');"><img src="https://static-images.zoznam.sk/image/fetch/q_92,w_130,h_130,c_fill/https://predpredaj.zoznam.sk/media/MC_300x300.jpg" alt="3One &amp;amp; 1Only Mária Čírová" width="130"></a>						<a href="https://predpredaj.sk/sk/listky/boney-m-feat-liz-mitchell-saragossa-2018/?utm_source=topky&utm_medium=display&utm_content=right-banner&utm_campaign=Boney M. feat Liz Mitchell + Saragossa band" title="Boney M. feat Liz Mitchell + Saragossa band" onclick="trackOutboundMagazines(this, 'PREDPREDAJ_BOX_SMALL', 'PODUJATIE', 'PODUJATIE 2');"><img src="https://static-images.zoznam.sk/image/fetch/q_92,w_130,h_130,c_fill/https://predpredaj.zoznam.sk/media/b.jpg" alt="Boney M. feat Liz Mitchell + Saragossa band" width="130"></a>							</li><li>						<a href="https://predpredaj.sk/sk/listky/paranoid-2018-slovensko-ceska-republika/?utm_source=topky&utm_medium=display&utm_content=right-banner&utm_campaign=The Paranoid Club Tour 2018" title="The Paranoid Club Tour 2018" onclick="trackOutboundMagazines(this, 'PREDPREDAJ_BOX_SMALL', 'PODUJATIE', 'PODUJATIE 3');"><img src="https://static-images.zoznam.sk/image/fetch/q_92,w_130,h_130,c_fill/https://predpredaj.zoznam.sk/media/300x300_eiPmqUl.jpg" alt="The Paranoid Club Tour 2018" width="130"></a>						<a href="https://predpredaj.sk/sk/listky/raper-vivaldi/?utm_source=topky&utm_medium=display&utm_content=right-banner&utm_campaign=Raper Vivaldi" title="Raper Vivaldi" onclick="trackOutboundMagazines(this, 'PREDPREDAJ_BOX_SMALL', 'PODUJATIE', 'PODUJATIE 4');"><img src="https://static-images.zoznam.sk/image/fetch/q_92,w_130,h_130,c_fill/https://predpredaj.zoznam.sk/media/01_banner_300x300.jpg" alt="Raper Vivaldi" width="130"></a>							</li><li>						<a href="https://predpredaj.sk/sk/listky/horkyze-slize-pustite-karola-tour-2018/?utm_source=topky&utm_medium=display&utm_content=right-banner&utm_campaign=Horkýže Slíže - Pustite Karola TOUR 2018" title="Horkýže Slíže - Pustite Karola TOUR 2018" onclick="trackOutboundMagazines(this, 'PREDPREDAJ_BOX_SMALL', 'PODUJATIE', 'PODUJATIE 5');"><img src="https://static-images.zoznam.sk/image/fetch/q_92,w_130,h_130,c_fill/https://predpredaj.zoznam.sk/media/orig_Horkyze_Slize___Pustite_Karola_TOUR_2018.jpg" alt="Horkýže Slíže - Pustite Karola TOUR 2018" width="130"></a>						<a href="https://predpredaj.sk/sk/listky/od-lady-carneval-k-draculovi/?utm_source=topky&utm_medium=display&utm_content=right-banner&utm_campaign=od LADY CARNEVAL k DRACULOVI" title="od LADY CARNEVAL k DRACULOVI" onclick="trackOutboundMagazines(this, 'PREDPREDAJ_BOX_SMALL', 'PODUJATIE', 'PODUJATIE 6');"><img src="https://static-images.zoznam.sk/image/fetch/q_92,w_130,h_130,c_fill/https://predpredaj.zoznam.sk/media/OdLCkD_300x300px.jpg" alt="od LADY CARNEVAL k DRACULOVI" width="130"></a>							</li><li>						<a href="https://predpredaj.sk/sk/listky/skorapky-orechu-marie-rottrova-vaclav-neckar-bacily/?utm_source=topky&utm_medium=display&utm_content=right-banner&utm_campaign=Skořápky ořechú - Marie Rottrová, Václav Neckář a Bacily" title="Skořápky ořechú - Marie Rottrová, Václav Neckář a Bacily" onclick="trackOutboundMagazines(this, 'PREDPREDAJ_BOX_SMALL', 'PODUJATIE', 'PODUJATIE 7');"><img src="https://static-images.zoznam.sk/image/fetch/q_92,w_130,h_130,c_fill/https://predpredaj.zoznam.sk/media/Skorapky_orechu_2018_6_-_predpredaj.jpg" alt="Skořápky ořechú - Marie Rottrová, Václav Neckář a Bacily" width="130"></a>						<a href="https://predpredaj.sk/sk/listky/mejdan-roku-2018-michal-david/?utm_source=topky&utm_medium=display&utm_content=right-banner&utm_campaign=Mejdan Roku 2018 - Michal David" title="Mejdan Roku 2018 - Michal David" onclick="trackOutboundMagazines(this, 'PREDPREDAJ_BOX_SMALL', 'PODUJATIE', 'PODUJATIE 8');"><img src="https://static-images.zoznam.sk/image/fetch/q_92,w_130,h_130,c_fill/https://predpredaj.zoznam.sk/media/Mejdan-roku-2018-Predpredaj-webbanner-300x300.jpg" alt="Mejdan Roku 2018 - Michal David" width="130"></a>							</li><li>						<a href="https://predpredaj.sk/sk/listky/alexandrovci-european-tour-2019/?utm_source=topky&utm_medium=display&utm_content=right-banner&utm_campaign=ALEXANDROVCI EUROPEAN TOUR 2019" title="ALEXANDROVCI EUROPEAN TOUR 2019" onclick="trackOutboundMagazines(this, 'PREDPREDAJ_BOX_SMALL', 'PODUJATIE', 'PODUJATIE 9');"><img src="https://static-images.zoznam.sk/image/fetch/q_92,w_130,h_130,c_fill/https://predpredaj.zoznam.sk/media/ALEXANDROVCI_2019_Predpredaj_obrazok_300x300.jpg" alt="ALEXANDROVCI EUROPEAN TOUR 2019" width="130"></a>						<a href="https://predpredaj.sk/sk/listky/galakoncert-lucie-bila/?utm_source=topky&utm_medium=display&utm_content=right-banner&utm_campaign=Galakoncert LUCIE BÍLÁ" title="Galakoncert LUCIE BÍLÁ" onclick="trackOutboundMagazines(this, 'PREDPREDAJ_BOX_SMALL', 'PODUJATIE', 'PODUJATIE 10');"><img src="https://static-images.zoznam.sk/image/fetch/q_92,w_130,h_130,c_fill/https://predpredaj.zoznam.sk/media/300x300.jpg" alt="Galakoncert LUCIE BÍLÁ" width="130"></a>							</li><li>						<a href="https://predpredaj.sk/sk/listky/kim-wilde-here-come-aliens-tour-2018/?utm_source=topky&utm_medium=display&utm_content=right-banner&utm_campaign=KIM WILDE – Here Come The Aliens tour 2018" title="KIM WILDE – Here Come The Aliens tour 2018" onclick="trackOutboundMagazines(this, 'PREDPREDAJ_BOX_SMALL', 'PODUJATIE', 'PODUJATIE 11');"><img src="https://static-images.zoznam.sk/image/fetch/q_92,w_130,h_130,c_fill/https://predpredaj.zoznam.sk/media/Kim_Wilde_2018_stvorec_300_3GwvxWs.jpg" alt="KIM WILDE – Here Come The Aliens tour 2018" width="130"></a>						<a href="https://predpredaj.sk/sk/listky/smokie-symphony-tour-2018-bratislava/?utm_source=topky&utm_medium=display&utm_content=right-banner&utm_campaign=SMOKIE – THE SYMPHONY TOUR 2018" title="SMOKIE – THE SYMPHONY TOUR 2018" onclick="trackOutboundMagazines(this, 'PREDPREDAJ_BOX_SMALL', 'PODUJATIE', 'PODUJATIE 12');"><img src="https://static-images.zoznam.sk/image/fetch/q_92,w_130,h_130,c_fill/https://predpredaj.zoznam.sk/media/Smokie_300x300px-72dpi-RBG.JPG" alt="SMOKIE – THE SYMPHONY TOUR 2018" width="130"></a>							</li><li>						<a href="https://predpredaj.sk/sk/listky/4573-studio-ls/?utm_source=topky&utm_medium=display&utm_content=right-banner&utm_campaign=Štúdio L+S" title="Štúdio L+S" onclick="trackOutboundMagazines(this, 'PREDPREDAJ_BOX_SMALL', 'PODUJATIE', 'PODUJATIE 13');"><img src="https://static-images.zoznam.sk/image/fetch/q_92,w_130,h_130,c_fill/https://predpredaj.zoznam.sk/media/285.jpg" alt="Štúdio L+S" width="130"></a>						<a href="https://predpredaj.sk/sk/listky/4225-temne-kecy/?utm_source=topky&utm_medium=display&utm_content=right-banner&utm_campaign=Temné Kecy" title="Temné Kecy" onclick="trackOutboundMagazines(this, 'PREDPREDAJ_BOX_SMALL', 'PODUJATIE', 'PODUJATIE 14');"><img src="https://static-images.zoznam.sk/image/fetch/q_92,w_130,h_130,c_fill/https://predpredaj.zoznam.sk/media/245.jpg" alt="Temné Kecy" width="130"></a>							</li><li>						<a href="https://predpredaj.sk/sk/listky/14219-tom-odell-support/?utm_source=topky&utm_medium=display&utm_content=right-banner&utm_campaign=TOM ODELL + Tolstoys" title="TOM ODELL + Tolstoys" onclick="trackOutboundMagazines(this, 'PREDPREDAJ_BOX_SMALL', 'PODUJATIE', 'PODUJATIE 15');"><img src="https://static-images.zoznam.sk/image/fetch/q_92,w_130,h_130,c_fill/https://predpredaj.zoznam.sk/media/tom_odell_new_bez_loga.jpg" alt="TOM ODELL + Tolstoys" width="130"></a>						<a href="https://predpredaj.sk/sk/listky/il-volo-notte-magica-2018-12-11/?utm_source=topky&utm_medium=display&utm_content=right-banner&utm_campaign=IL VOLO – NOTTE MAGICA" title="IL VOLO – NOTTE MAGICA" onclick="trackOutboundMagazines(this, 'PREDPREDAJ_BOX_SMALL', 'PODUJATIE', 'PODUJATIE 16');"><img src="https://static-images.zoznam.sk/image/fetch/q_92,w_130,h_130,c_fill/https://predpredaj.zoznam.sk/media/IL-VOLO-Bratislava--300x300px_awSEU01.jpg" alt="IL VOLO – NOTTE MAGICA" width="130"></a>				</li>
+			</ul>
+		</div>
+		<a href="#" class="predpredaj-widget-slider-arrow prev" onclick="trackOutboundMagazines(this, 'PREDPREDAJ_BOX_SMALL', 'SIPKA', 'SIPKA - LAVA');" title="Predošlé">Predošlé</a>
+		<a href="#" class="predpredaj-widget-slider-arrow next" onclick="trackOutboundMagazines(this, 'PREDPREDAJ_BOX_SMALL', 'SIPKA', 'SIPKA - PRAVA');" title="Ďalšie">Ďalšie</a>
+	</div>
+</div>
+<!-- END predpredaj widget -->
+		<!-- responzívna reklama -->
+		<div id='div-gpt-ad-1494499248568-31' class=' clearfix-2' style="vertical-align:top; text-align:center; margin-bottom:15px;">
+			<script type='text/javascript'>
+				googletag.cmd.push(function() { googletag.display('div-gpt-ad-1494499248568-31'); });
+			</script>
+		</div>
+	<div id="" class="box_advertisment addbox recycle">
+<div class="box-content "></div>
+
+	</div>
+<div class="addbox avizo">		<div class="avizo1">
+			<a href="https://feminity.zoznam.sk/magazin/141/jesen-2018/">
+				<img src="https://img.topky.sk/avizobox/985.jpg" width="140" height="90" alt="" />
+			</a>
+		</div>		<div class="avizo2">
+			<a href="http://feminity.zoznam.sk/s/100577/nakupny-spion">
+				<img src="https://img.topky.sk/avizobox/921.jpg" width="140" height="90" alt="" />
+			</a>
+		</div>	<br class="clear" />
+</div>
+
+	<div id="" class="box_advertisment addbox recycle">
+<div class="box-content "></div>
+
+	</div>
+		<!-- responzívna reklama -->
+		<div id='div-gpt-ad-1494499248568-27' class=' clearfix-2' style="vertical-align:top; text-align:center; margin-bottom:15px;">
+			<script type='text/javascript'>
+				googletag.cmd.push(function() { googletag.display('div-gpt-ad-1494499248568-27'); });
+			</script>
+		</div>		<!-- responzívna reklama -->
+		<div id='div-gpt-ad-1494499248568-29' class=' clearfix-2' style="vertical-align:top; text-align:center; margin-bottom:15px;">
+			<script type='text/javascript'>
+				googletag.cmd.push(function() { googletag.display('div-gpt-ad-1494499248568-29'); });
+			</script>
+		</div>						<div id="right_floating_container" style="clear: both;">						</div>
+					</div>
+					<div class="content-bottom">					</div>
+					<script type="text/javascript">
+						$(document).ready(function() {
+							//$('#floating_boxes').addFloating({
+							//	targetRight: 25,
+							//	targetTop: 10,
+							//	snap: true
+							//});
+						});
+					</script>
+					<!-- Content right end -->
+				</div>
+				<!-- Content end -->
+
+				<div class="clear"></div>
+				<!-- bottom_boxes --><div data-spklw-widget="widget-59edfcfb5286e"></div><div data-spklw-widget="widget-5a95711c7d083"></div> 
+<script src="//widgets.sprinklecontent.com/v2/sprinkle.js" async></script>
+				<!-- Footer -->
+				<footer><div id="zFooter">
+	<script>window.zFooterMobileUrl = "https://m.topky.sk/";</script>
+	<script charset="utf-8" src="https://zoznamstatic.sk/footer/js/topky.js"></script>
+</div>
+				</footer>
+				<!-- Footer end -->			</div>
+			<!-- Main page container end -->
+		</div>
+
+		<script type="text/javascript">
+		<!--//--><![CDATA[//><!--
+		var pp_gemius_identifier = 'd6Y1NMrFuWt6357itAkttWX1fZtNIIcIFcSkXRnUrV..N7';
+		// lines below shouldn't be edited
+		function gemius_pending(i) { window[i] = window[i] || function() {var x = window[i+'_pdata'] = window[i+'_pdata'] || []; x[x.length]=arguments;};};
+		gemius_pending('gemius_hit'); gemius_pending('gemius_event'); gemius_pending('pp_gemius_hit'); gemius_pending('pp_gemius_event');
+		(function(d,t) {try {var gt=d.createElement(t),s=d.getElementsByTagName(t)[0],l='http'+((location.protocol=='https:')?'s':''); gt.setAttribute('async','async');
+		gt.setAttribute('defer','defer'); gt.src=l+'://gemius.zoznam.sk/xgemius.js'; s.parentNode.insertBefore(gt,s);} catch (e) {}})(document,'script');
+		//--><!]]>
+		</script>
+
+		<!--(c) 2008 Gemius SA / gemiusHeatMap(GHM+XY) / http://topky.sk/ -->
+		<script type="text/javascript">
+		<!--//--><![CDATA[//><!--
+		var ghmxy_align = 'center';
+		var ghmxy_type = 'absolute';
+		var ghmxy_identifier = 'pyAwOvudi8jqHp88vhm0HJe.fe.grsb9LNxb1T2EDDD.L7';
+		//--><!]]>
+		</script>
+		<script type="text/javascript" src="https://pro.hit.gemius.pl/hmapxy.js"></script>
+	</body>
+</html>
+
+<!-- ZCHECK OK 53ms www-topky-2 db-magazines/db-magazines-slave-1 -->
+<!-- ZCHECK OK 53ms www-topky-2 db-magazines/db-magazines-slave-1 -->

@@ -1,0 +1,480 @@
+﻿var Wn;
+$(document).ready(function () {
+    Wn = document.getElementById("TxtSearch1").value;
+    $(document).click(function () {
+        if (document.getElementById("DivWebs").style.display == "")
+            document.getElementById("DivWebs").style.display = "none";
+
+    });
+    if (/msie/i.test(navigator.userAgent))    //ie浏览器
+    {
+        document.getElementById('TxtSearch1').onpropertychange = DoChange;
+    }
+    else {//非ie浏览器，比如Firefox
+        document.getElementById('TxtSearch1').addEventListener("input", DoChange, false);
+    }
+});
+var TheTime;
+function DoChange() {
+    if (SearchWhich == 1) {
+        clearTimeout(TheTime);
+        if (document.getElementById("TxtSearch1").value == "") {
+            Wn = "";
+            document.getElementById("DivWebs").style.display = "none";
+            return;
+        }
+        TheTime = setTimeout("DoChangeDoProcess();", 500);
+    }
+}
+var TypeArrays = new Array();
+TypeArrays[0] = "";
+TypeArrays[1] = "报纸";
+TypeArrays[2] = "杂志";
+TypeArrays[3] = "电视";
+TypeArrays[4] = "广播";
+TypeArrays[5] = "户外";
+TypeArrays[6] = "新兴";
+TypeArrays[7] = "制作";
+TypeArrays[8] = "策划";
+TypeArrays[9] = "设备";
+TypeArrays[10] = "材料";
+TypeArrays[11] = "新闻";
+TypeArrays[12] = "监测";
+TypeArrays[13] = "商铺";
+TypeArrays[14] = "知识";
+TypeArrays[15] = "网络";
+TypeArrays[16] = "其他";
+function DoChangeDoProcess() {
+    if (Wn != document.getElementById("TxtSearch1").value) {
+        $.get("/Index/InitWordCache.ashx?wd=" + escape(document.getElementById("TxtSearch1").value), { Action: "get" }, function (data, textStatus) {
+            this;
+            ProcessData(data, "");
+        });
+        Wn = document.getElementById("TxtSearch1").value;
+    }
+}
+
+//返回了数据,把数据更新到浮动DIV
+function ProcessData(d, wnn) {
+    var Rst = "";
+    var Hds = d.split("<|zl|>");
+    if (Hds[0] != "n") {
+        var HHddss = Hds[0].substr(1).split(',');
+        var KType1 = parseInt(HHddss[0]);
+        var KType2 = parseInt(HHddss[1]);
+        var ExactCount = parseInt(HHddss[2]);
+        Rst += "<div class=\"inv9_ts022\" style=\"cursor:pointer;\" onmouseover=\"this.className='inv9_ts021';\" onclick=\"window.open('http://search.admaimai.com/Search.aspx?wd=" + encodeURIComponent(document.getElementById("TxtSearch1" + wnn).value) + "');\" onmouseout=\"this.className='inv9_ts022';\"><div class=\"lf\">" +
+            document.getElementById("TxtSearch1").value + "</div><div class=\"rh\">" + (ExactCount > 0 ? ("约" + ExactCount + "条信息") : "") + "</div></div>";
+        if (KType1 > 0) {
+            Rst += "<div class=\"inv9_ts022\" style=\"cursor:pointer;\" onmouseover=\"this.className='inv9_ts021';\" onclick=\"window.open('http://search.admaimai.com/Search.aspx?wd=" + encodeURIComponent(document.getElementById("TxtSearch1" + wnn).value) + "&t=" + KType1 + "');\" onmouseout=\"this.className='inv9_ts022';\"><div class=\"lf\">" +
+            "&nbsp;&nbsp;在<font>" + TypeArrays[KType1] + "</font>分类中搜索" + "</div><div class=\"rh\"> </div></div>";
+        }
+        if (KType2 > 0) {
+            Rst += "<div class=\"inv9_ts022\" style=\"cursor:pointer;\" onmouseover=\"this.className='inv9_ts021';\" onclick=\"window.open('http://search.admaimai.com/Search.aspx?wd=" + encodeURIComponent(document.getElementById("TxtSearch1" + wnn).value) + "&t=" + KType2 + "');\" onmouseout=\"this.className='inv9_ts022';\"><div class=\"lf\">" +
+            "&nbsp;&nbsp;在<font>" + TypeArrays[KType2] + "</font>分类中搜索" + "</div><div class=\"rh\"> </div></div>";
+        }
+        Rst += "<!--div class=\"X_sousuo_960_04b3\"></div-->";
+    }
+    for (var i = 1; i < Hds.length; i++) {
+        if (Hds[i] != "") {
+            Rst += "<div class=\"inv9_ts022\" style=\"cursor:pointer;\" onclick=\"window.open('http://search.admaimai.com/Search.aspx?wd=" + encodeURIComponent(Hds[i].split(',')[0]) + "');\" onmouseover=\"this.className='inv9_ts021';\" onmouseout=\"this.className='inv9_ts022';\"><div class=\"lf\">" +
+            Hds[i].split(',')[0] + "</div><div class=\"rh\">" + (parseInt(Hds[i].split(',')[1]) > 0 ? ("约" + Hds[i].split(',')[1] + "条信息") : "") + "</div></div>";
+        }
+    }
+    if (Rst != "") {
+        Rst += "<!--div class=\"X_sousuo_960_04b3\"></div--><div onclick=\"document.getElementById('DivWebs').style.display='none';\" class=\"inv9_ts022\" style=\"cursor:pointer;\" onmouseover=\"this.className='inv9_ts021';\" onmouseout=\"this.className='inv9_ts022';\"><div class=\"rh\"><a href=\"javascript:;\">关闭</a></div></div>";
+        document.getElementById("DivWebs" + wnn).innerHTML = Rst;
+        document.getElementById("DivWebs" + wnn).style.display = "";
+    } else {
+        document.getElementById("DivWebs" + wnn).style.display = "none";
+    }
+}
+
+
+var SearchWhich = 1;
+var SearchWhich2 = 3;
+
+function DoSearch() {
+    var key = document.getElementById("TxtSearch1").value;
+
+    switch (SearchWhich) {
+        case 1:
+            window.open("http://search.admaimai.com/Search.aspx?wd=" + encodeURIComponent(key));
+            break;
+        case 2:
+            key = document.getElementById("TxtSearch2").value;
+            switch (SearchWhich2) {
+                case 1:
+                    window.open("/Newspaper/key-" + encodeURIComponent(key) + "_o0_p1.htm");
+                    break;
+                case 2:
+                    window.open("/Magazine/key-" + encodeURIComponent(key) + "_o0_p1.htm");
+                    break;
+                case 3:
+                    window.open("/tv/Listt" + encodeURIComponent(key) + "-1.html");
+                    break;
+                case 4:
+                    window.open("/BroadCast/Listt" + encodeURIComponent(key) + "-1.html");
+                    break;
+                case 5:
+                    window.open("/outdoor/List0a0k" + encodeURIComponent(key) + "-1.html");
+                    break;
+                case 6:
+                    window.open("/NewMedia/List0a0u0k" + encodeURIComponent(key) + "-1.html");
+                    break;
+                case 7:
+                    window.open("/Make/List0a0u0k" + encodeURIComponent(key) + "-1.html");
+                    break;
+                case 8:
+                    window.open("/Plan/List0a0u0k" + encodeURIComponent(key) + "-1.html");
+                    break;
+                case 9:
+                    window.open("/Equipment/List0s0b0a0u0k" + encodeURIComponent(key) + "-1.html");
+                    break;
+                case 10:
+                    window.open("/Material/List0s0b0a0u0k" + encodeURIComponent(key) + "-1.html");
+                    break;
+                case 11:
+                    window.open("/Network/0_0_0_" + encodeURIComponent(key) + "_1.html");
+                    break;
+            }
+            break;
+        case 3:
+            window.open("/News/List2-99-" + encodeURIComponent(key) + ".html");
+
+            break;
+        case 4:
+            window.open("/shop/corpname_" + encodeURIComponent(key) + "-.htm");
+
+            break;
+        case 5:
+            window.location.href = '/Exhibit/List_' + encodeURIComponent(key) + "_0_0_0_0_0_1.html";
+
+            break;
+        case 6:
+            window.open(" http://www.admaimai.com/shujujiance/second.aspx?key=" + encodeURIComponent(key));
+            break;
+        case 7:
+            window.open("/zhishi/second.aspx?key=" + encodeURIComponent(key));
+
+            break;
+    }
+}
+
+
+function IN_RH1(n) {
+    for (var i = 1; i < 5; i++) {
+        document.getElementById("IN_RH1_A" + i).className = "in16_t03_42";
+        document.getElementById("IN_RH1_B" + i).style.display = "none";
+    }
+    document.getElementById("IN_RH1_A" + n).className = "in16_t03_41";
+    document.getElementById("IN_RH1_B" + n).style.display = "";
+}
+
+var indexjs = 1;
+function PicScl(n) {
+    var a = document.getElementById("DivPicImg").getElementsByTagName("a");
+    for (var i = 0; i < a.length; i++) {
+        a[i].style.display = "none";
+        document.getElementById("id_tag" + (i + 1)).className = "in16_pic01_2";
+    }
+    a[n - 1].style.display = "block";
+    document.getElementById("id_tag" + n).className = "in16_pic01_1";
+    indexjs = n;
+}
+function AutoPic() {
+    var a = document.getElementById("DivPicImg").getElementsByTagName("a");
+    for (var i = 0; i < a.length; i++) {
+        a[i].style.display = "none";
+        document.getElementById("id_tag" + (i + 1)).className = "in16_pic01_2";
+    }
+    if (indexjs >= 7) {
+        indexjs = 1;
+    }
+    a[indexjs - 1].style.display = "block";
+    document.getElementById("id_tag" + (indexjs)).className = "in16_pic01_1";
+    indexjs++;
+}
+
+
+
+var currentSwitch = 1;
+var switchTimer;
+function OnMouserOverShTop(n) {
+    for (var i = 1; i < 15; i++) {
+        if (i == 1) {
+            var classname = $("#DivTopM" + i)[0].className.substr(0, $("#DivTopM" + i)[0].className.length - 1);
+            $("#DivTopM" + i)[0].className = classname + "1";
+        } else {
+            document.getElementById("DivBigMenu" + i).style.display = "none";
+            var classname = $("#DivTopM" + i)[0].className.substr(0, $("#DivTopM" + i)[0].className.length - 1);
+            $("#DivTopM" + i)[0].className = classname + "1";
+        }
+    }
+    if ( n == 11||n==8||n==7) {
+
+    } else {
+        document.getElementById("DivBigMenu" + n).style.display = "block";
+    }
+
+
+    var classname1 = $("#DivTopM" + n)[0].className.substr(0, $("#DivTopM" + n)[0].className.length - 1);
+    $("#DivTopM" + parseInt(n))[0].className = classname1 + "2"
+    currentSwitch = parseInt(n);
+    clearTimeout(switchTimer);
+}
+
+function OnMouserOutShTop(n) {
+    switchTimer = setTimeout("AutoSwitch();", 15000);
+}
+
+function AutoSwitch() {
+    if (currentSwitch == 14)
+        currentSwitch = 1;
+    else
+        currentSwitch++;
+    OnMouserOverShTop(currentSwitch);
+    switchTimer = setTimeout("AutoSwitch();", 15000);
+}
+
+function clearSwitchTimer() {
+    clearTimeout(switchTimer);
+}
+
+function OnMouserOverTitle(n) {
+    if (n == 0) {
+        document.getElementById("DivSubTitle").style.display = "none";
+        for (var i = 1; i < 11; i++) {
+            document.getElementById("DivSubTitle" + i).style.display = "none";
+            $("#DivTitle" + i)[0].className = "in16_link_02";
+        }
+        return false;
+
+    }
+    document.getElementById("DivSubTitle").style.display = "block";
+    for (var i = 1; i < 11; i++) {
+        document.getElementById("DivSubTitle" + i).style.display = "none";
+        $("#DivTitle" + i)[0].className = "in16_link_02";
+    }
+    var t = document.getElementById("DivSubTitle" + n);
+    var ds = t.childNodes;
+    for (var j = 1; j < ds.length; j++) {
+        if (ds[j].className == "in16_link_051") {
+            ds[j].className = "in16_link_052";
+        }
+        if (ds[j].className == "in16_link_031") {
+            ds[j].className = "in16_link_032";
+        }
+    }
+    t.style.display = "inline";
+    $("#DivTitle" + n)[0].className = "in16_link_01";
+}
+function OnMouserOverTitleSub(n, target, n1) {
+    var t = document.getElementById("DivSubTitle" + n);
+    var ds = t.childNodes;
+    for (var i = 0; i < ds.length; i++) {
+        if (ds[i].className == "in16_link_051") {
+            ds[i].className = "in16_link_052";
+        }
+        if (ds[i].className != "in16_link_00" && ds[i].className != "in16_link_052") {
+            ds[i].className = "in16_link_032";
+        }
+    }
+    $("#DivTitle" + n)[0].className = "in16_link_01";
+    if (n1 == 0) {
+        target.className = "in16_link_031";
+        return false;
+    }
+    document.getElementById("DivSubTitle" + n + "Sub" + n + "-" + n1).style.display = "inline";
+    document.getElementById("DivSubTitle" + n + "Sub" + n + "_" + n1).style.display = "inline";
+    target.className = "in16_link_051";
+}
+function OnMouserOverTitleSubSub(n, target, n1) {
+    var t = document.getElementById("DivSubTitle" + n + "Sub" + n + "_" + n1);
+    var ds = t.childNodes;
+    for (var i = 0; i < ds.length; i++) {
+        if (ds[i].className != "in16_link_00") {
+            ds[i].className = "in16_link_042";
+        }
+    }
+    $("#DivTitle" + n)[0].className = "in16_link_01";
+    target.className = "in16_link_041";
+}
+function HideTitle() {
+    document.getElementById("DivSubTitle").style.display = "none";
+    HideTitleS();
+}
+function HideTitleS() {
+    for (var i = 1; i < 11; i++) {
+        $("#DivTitle" + i)[0].className = "in16_link_02";
+    }
+}
+function HideTitleSub(n,n1) {
+    document.getElementById("DivSubTitle" + n + "Sub" + n + "-" + n1).style.display = "none";
+    var t = document.getElementById("DivSubTitle" + n + "Sub" + n + "_" + n1);
+    t.style.display = "none";
+    var ch = t.childNodes;
+    for (var i = 0; i < ch.length; i++) {
+        ch[i].className = "in16_link_042";
+    }
+    for (var i = 1; i < 11; i++) {
+        $("#DivTitle" + i)[0].className = "in16_link_02";
+    }
+}
+
+function ShowTitle() {
+    document.getElementById("DivSubTitle").style.display = "block";
+}
+function ShowTitleSub(n, n1) {
+    document.getElementById("DivSubTitle" + n + "Sub" + n + "-" + n1).style.display = "inline";
+    document.getElementById("DivSubTitle" + n + "Sub" + n + "_" + n1).style.display = "inline";
+}
+
+function AutoScrollOfOnline() {
+    $("#DivOnline").find("ul:first").animate({
+        marginTop: "-25px"
+    }, 500, function () {
+        $(this).css({ marginTop: "0px" }).find("li:first").appendTo(this);
+    });
+}
+
+function IN_Tong(n) {
+    for (var i = 1; i < 3; i++) {
+        document.getElementById("IN_Tong" + i).className = "in16_t03_44";
+        document.getElementById("tong0" + i).style.display = "none";
+    }
+    document.getElementById("IN_Tong" + n).className = "in16_t03_43";
+    document.getElementById("tong0" + n).style.display = "";
+}
+
+function AutoScrollOf400Use3() {
+    $("#Div400Use3").find("ul:first").animate({
+        marginTop: "-60px"
+    }, 500, function () {
+        $(this).css({ marginTop: "0px" }).find("li:first").appendTo(this);
+        $(this).find("li:first").appendTo(this);
+    });
+}
+function AutoScrollOf1716() {
+    $("#Div1716").find("ul:first").animate({
+        marginTop: "-60px"
+    }, 500, function () {
+        $(this).css({ marginTop: "0px" }).find("li:first").appendTo(this);
+        $(this).find("li:first").appendTo(this);
+    });
+}
+function AutoScrollOfDivAdbuy() {
+    $("#DivAdbuy").find("ul:first").animate({
+        marginTop: "-60px"
+    }, 500, function () {
+        $(this).css({ marginTop: "0px" }).find("li:first").appendTo(this);
+        $(this).find("li:first").appendTo(this);
+    });
+}
+var AutoOf400Use3;
+var AutoOf1716;
+var AutoOfDivAdbuy;
+var t11;
+var t2;
+var st1;
+$(document).ready(function () {
+    t11=setInterval('AutoScrollOfOnline()', 2000);
+    //  setInterval('AutoScrollOf400Use1()', 2000);
+    t2=setInterval("AutoPic()", 2000);
+    AutoOf400Use3 = setInterval('AutoScrollOf400Use3()', 2100);
+    AutoOf1716 = setInterval('AutoScrollOf1716()', 2300);
+    AutoOfDivAdbuy = setInterval('AutoScrollOfDivAdbuy()', 2500);
+    st1=setInterval("SetIntervalAutoTime()",1000*60*2);
+    nav();
+
+
+});
+
+function clearst() {
+    clearInterval(t11);
+    clearInterval(t2);
+    clearInterval(AutoOf400Use3);
+    clearInterval(AutoOf1716);
+    clearInterval(AutoOfDivAdbuy);
+    clearInterval(st1);
+}
+
+
+function nav() {
+    $("#userNameDIV").hover(function () {       
+        $("#userDIV").show();
+    }, function () {
+        $("#userDIV").hide();
+    })
+
+    $("#userDIV").hover(function () {
+        $("#userDIV").show();
+    }, function () {
+        $("#userDIV").hide();
+    })
+    $("#userDIV").children().hover(function () {
+        $("#userDIV").show();
+    }, function () {
+        $("#userDIV").show();
+    })  
+}
+function SetIntervalAutoTime() {    
+    clearInterval(AutoOf400Use3);
+    clearInterval(AutoOf1716);
+    clearInterval(AutoOfDivAdbuy);
+    AutoOf400Use3 = setInterval('AutoScrollOf400Use3()', 2100);
+    AutoOf1716 = setInterval('AutoScrollOf1716()', 2300);
+    AutoOfDivAdbuy = setInterval('AutoScrollOfDivAdbuy()', 2500);
+}
+function showuserDiv() {
+    document.getElementById("userDIV").style.display = "block";
+}
+window.onload = function () {
+    var oList = document.getElementById("userDIV").getElementsByTagName('*');
+    for (var i = 0; i < oList.length; i++) {
+        oList[i].onmouseover = showuserDiv;
+    }
+    document.getElementById("userDIV").onmouseover = showuserDiv;
+}
+function ShowOrHide() {
+    
+}
+
+Login();
+function Login() {
+    $.ajax({
+        type: "GET",
+        url: "/Index/LoginInfoForIndex.ashx?" + Math.random(), 
+        data: "",
+        dataType: "json",
+        success: function (data) {
+            if (data.IsLogin) {
+                $("#loginDIV").hide();
+                if (data.IsUnOpenUser) {
+                    $("#aUrl").attr("href", "/OpenMember/N2016Choose.aspx");
+                    $("#spanTxt").html("未开通用户");
+                    $("#userNameDIV").show();
+                    $("#spanName").html(data.Name);
+                } else {
+                    if (!data.Info) {
+                        if (window.confirm('您还没有填写详细商铺信息，要填写吗？')) top.location = '/OpenMember/Shop1.aspx';
+                    } else {
+                        $("#aUrl").attr("href", "/AfterLogin/Index.aspx");
+                        $("#spanTxt").html("会员后台");
+                        $("#spanName").html(data.Name);
+                        $("#userNameDIV").show();
+                    } 
+                }
+            } else {
+                $("#loginDIV").show();
+                $("#userNameDIV").hide();
+                $("#userDIV").hide();
+                $("#thireDiv").hide();
+
+            }
+        },
+        error: function (err) {
+            var df = err;
+        }
+    });
+}

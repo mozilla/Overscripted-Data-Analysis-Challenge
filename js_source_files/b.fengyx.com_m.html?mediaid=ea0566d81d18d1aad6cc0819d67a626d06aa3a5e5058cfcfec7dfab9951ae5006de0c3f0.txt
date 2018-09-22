@@ -1,0 +1,11 @@
+<!-- htmlcs-disable -->
+<!DOCTYPE html>
+<html>
+    <head></head>
+    <body>
+        <script type="text/javascript">
+			/* eslint-disable */
+            var cookie={setCookie:function(key,value,obj){obj=obj||{};var expires=obj.expires;"number"==typeof obj.expires&&(expires=new Date,expires.setTime(expires.getTime()+obj.expires));document.cookie=key+"="+value+(obj.path?"; path="+obj.path:"")+(expires?"; expires="+expires.toGMTString():"")+(obj.domain?"; domain="+obj.domain:"")+(obj.secure?"; secure":"");},getCookie:function(b,c){var a,c=c||window,d=RegExp("(^| )"+b+"=([^;]*)(;|$)").exec(c.document.cookie);d&&(a=d[2]);return a},getUrlParam:function(b){b=RegExp("(^|&)"+b+"=([^&]*)(&|$)","i");b=window.location.search.substr(1).match(b);return null!=b?decodeURIComponent(b[2]):null},isEnable:function(){var result=false;var isCookie=null;var referDomain=(document.referrer?document.referrer.match(/.*\:\/\/([^\/]*).*/i)[1]:"").toLowerCase()+"/m";if(referDomain.indexOf('.baidu.com/m')===-1||referDomain.indexOf('.baidustatic.com/m')===-1){try{isCookie=document.cookie;result=true;}catch(e){};}return result;}};var isEnable=false;isEnable=cookie.isEnable();if(isEnable){var currentDomain=document.domain.toLowerCase();var urlmedia=cookie.getUrlParam('mediaid');var posMedia=cookie.getCookie('POSMEDIAID');if(urlmedia&&!posMedia){cookie.setCookie("POSMEDIAID",urlmedia+":FG=1",{path:"/",domain:"."+currentDomain,expires:(new Date).setFullYear(2042)});};}
+        </script>
+    </body>
+</html>

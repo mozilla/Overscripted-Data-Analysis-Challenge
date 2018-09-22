@@ -1,0 +1,4602 @@
+"use strict";
+
+// Folha
+var folha = folha || {} ;
+
+// Verifica se o navegador possui console
+if ( typeof console == "undefined" ) { window.console = { log: $.noop } ; }
+
+// Adiciona o m\xe9todo indexOf para IE8 e inferiores
+if ( ! Array.prototype.indexOf ) {
+	Array.prototype.indexOf = function( what , i ) {
+		i = i || 0 ;
+		var len = this.length ;
+		while ( i < len ) {
+			if ( this[i] === what ) return i ;
+			++i ;
+		}
+		return -1 ;
+	}
+}
+
+// Remove item da array pelo valor
+Array.prototype.remove = function() {
+	var what, a = arguments, L = a.length, ax;
+	while (L && this.length) {
+		what = a[--L];
+		while ((ax = this.indexOf(what)) !== -1) {
+			this.splice(ax, 1);
+		}
+	}
+	return this;
+};
+
+// Preload de imagens
+$.fn.preload = function ( images , callback ) {
+	var i = 0 , img , len = images.length , total = len ;
+
+	for ( i ; i < len ; i++ ) {
+		img = new Image() ;
+		img.src = images[i] ;
+		img.onload = function () {
+			if ( --total < 1 ) {
+				if ( typeof callback == "function" ) {
+					callback() ;
+				}
+			}
+		}
+	}
+} ;
+
+// Retorna um n\xfamero aleat\xf3rio de "n" d\xedgitos
+folha.random = function( n ) {
+	var min , max ;
+	n = n || 10 ;
+	min = Math.pow( 10, n - 1 ) ;
+	max = Math.pow( 10, n ) - 1 ;
+
+	return Math.round( Math.random() * ( max - min ) + min ) ;
+} ;
+
+folha.convert_to_slug = function ( text ) {
+	return text.toLowerCase().replace(/[^\w ]+/g,'').replace(/ +/g,'-') ;
+}
+
+//  Informa\xe7\xf5es da p\xe1gina
+folha.information = {
+	query_string: "" ,
+	// Se\xe7\xe3o/editoria
+	section: "" ,
+	// Para publicidade (chan)
+	channel: "" ,
+
+	// Publicidade interna
+	advertising: {
+		audio: ""
+	} ,
+
+	// Nomes dos dias da semana
+	weekday: [ 'domingo' , 'segunda-feira' , 'ter\xe7a-feira' , 'quarta-feira' , 'quinta-feira' , 'sexta-feira' , 's\xe1bado' ] ,
+
+	// Nomes dos meses
+	month: [ 'janeiro' , 'fevereiro' , 'mar\xe7o' , 'abril' , 'maio' , 'junho' , 'julho' , 'agosto' , 'setembro' , 'outubro' , 'novembro', 'dezembro' ] ,
+
+	// Verificar o ambiente de trabalho
+	context: {
+		local: null ,
+		get: function () {
+			var base = this ;
+			if ( ! base.local ) {
+				base.local = ( ( document.domain.match( /staging|dev/ )  ) ? "staging" : "prod" ) ;
+			}
+			return base.local ;
+		}
+	} ,
+
+	// Dom\xednio
+	domain: function () {
+	  return ( this.context.get() != "staging" ) ? "folha.uol.com.br" : "folha.com.br" ;
+	} ,
+
+	// Loading icon
+	loading: {
+		standard: "//f.i.uol.com.br/folha/furniture/5.4/images/loading.gif" ,
+		alternate: "//f.i.uol.com.br/folha/furniture/5.4/images/loading-alternate.gif"
+	} ,
+
+	// Guarda as informa\xe7\xf5es da p\xe1gina para Omniture
+	page: {
+		channel: null , subchannel: null , type: null , title: null ,
+		special: {
+			type: null , title: null
+		}
+	} ,
+
+	// Confirma a integridade dos dados da p\xe1gina
+	check: function() {
+		var base = this ;
+
+		// Canal
+		if ( base.page.channel !== null && base.page.channel != "(none)" ) {
+
+			// Sub canal
+			base.page.subchannel = ( base.page.subchannel != "(none)" && base.page.subchannel != null ) ? base.page.subchannel : "" ;
+
+			// Tipo da p\xe1gina
+			base.page.type = ( base.page.type != "(none)" && base.page.type != null ) ? base.page.type : "card" ;
+
+			// T\xedtulo
+			base.page.title = ( base.page.title != "(none)" && base.page.title != null ) ? base.page.title : "" ;
+
+			// Especiais
+			base.page.special.type = ( base.page.special.type != "(none)" && base.page.special.type != null ) ? base.page.special.type : '' ;
+			base.page.special.title = ( base.page.special.title != "(none)" && base.page.special.title != null ) ? base.page.special.title : '' ;
+
+			folha.omniture.init( base.page ) ;
+		}
+	} ,
+	// Dom\xednios internos - que devem abrir na mesma janela
+	whitelist: [ "folha(.uol)?.com.br" , "folha.com" , "blogfolha(.uol)?.com.br" , "folhapress.com.br" , "urania.com.br" , "uol.com.br" ]
+} ;
+
+// Legado
+folha.ads = {
+	channel: folha.information.channel
+}
+
+// Omniture
+folha.omniture = {
+	// Dados para omniture
+	info: {
+		channel: "" ,
+		subchannel: [] ,
+		type: "" ,
+		title: "" ,
+		special: {
+			type: "" ,
+			title: ""
+		}
+	} ,
+
+	init: function ( page ) {
+		folha.omniture.info.channel = page.channel ;
+
+		if ( typeof page.subchannel === "string" ) {
+			folha.omniture.info.subchannel[0] = page.subchannel ;
+		} else {
+			folha.omniture.info.subchannel = page.subchannel ;
+		}
+
+		folha.omniture.info.type = page.type ;
+		folha.omniture.info.title = page.title ;
+
+		folha.omniture.info.special.type = page.special.type ;
+		folha.omniture.info.special.title = page.special.title ;
+	}
+} ;
+
+// Atualiza a p\xe1gina
+folha.refresh = {
+	// Intervalo de tempo em minutos
+	interval: 9 ,
+	timer: null ,
+
+	start: function() {
+		folha.refresh.timer = window.setInterval( folha.refresh.now , folha.refresh.interval * 60 * 1000 ) ;
+	} ,
+	stop: function() {
+		folha.refresh.timer = folha.refresh.timer ? window.clearInterval( folha.refresh.timer ) && null : null ;
+	} ,
+	now: function() {
+		return location.reload ? location.reload() : window.open( location.href , "_self" ) ;
+	}
+} ;
+
+// Ticker - cole\xe7\xf5es
+folha.ticker = {
+	// Not\xedcias
+	collection: [] ,
+	// Publicidade
+	advertising: []
+} ;
+// Ticker - Plugin
+$.fn.ticker = function ( options ) {
+	var base = {} ;
+	options = options || false ;
+
+	base.$el = this ;
+
+	base.config = {
+		// Not\xedcias
+		collection: [] ,
+		// Publicidade
+		advertising: [] ,
+
+		// Guarda o texto
+		dummy: "" ,
+
+		// Elemento para guarda a not\xedcia
+		news: "" ,
+
+		// Not\xedcia corrente
+		current: 0 ,
+		has_advertising: false ,
+		is_paused: false ,
+		// Tempo em segundos para trocar de not\xedcia e contador
+		view: { delay: 8, timer: null } ,
+		// Tempo em segundos para escrever cada letra e contador
+		walk: { delay: 1/32, timer: null }
+	} ;
+
+	base.init = function () {
+		base.config = $.extend( {} , base.config , options ) ;
+
+		base.start = function () {
+			base.config.is_paused = false ;
+			base.move() ;
+		} ;
+
+		base.pause = function () {
+			if ( base.config.is_paused ) {
+				base.config.is_paused = false ;
+				base.move() ;
+				base.$el.find( "a.play-pause" ).removeClass( "icon-play" ).addClass( "icon-pause" ).attr( "title" , "Pause" ) ;
+			} else {
+				base.config.is_paused = true ;
+				base.populate() ;
+				base.$el.find( "a.play-pause" ).removeClass( "icon-pause" ).addClass( "icon-play" ).attr( "title" , "Play" ) ;
+			}
+		} ;
+
+		// Prev & Next
+		base.move = function ( type ) {
+			type = type || "next" ;
+
+			base.config.walk.timer = clearInterval( base.config.walk.timer ) ;
+
+			var current = 0 , total = base.config.collection.length , data ;
+
+			if ( type == "next" ) {
+				current = base.config.current + 1 ;
+			} else if ( type == "prev" ) {
+				current = base.config.current - 1 ;
+			}
+
+			if ( current < 0 ) {
+				current += total ;
+			} else if ( current >= total ) {
+				current -= total ;
+			}
+
+			//  Pr\xf3xima
+			if ( type == "next" ) {
+				if ( typeof base.config.advertising[ base.config.current ] != "undefined" && ! base.config.has_advertising ) {
+					data = base.config.advertising[  base.config.current ] ;
+					base.config.has_advertising = true ;
+				} else {
+					base.config.current = current ;
+					data = base.config.collection[  base.config.current ] ;
+					base.config.has_advertising = false ;
+				}
+
+			// Anterior
+			} else if ( type == "prev" ) {
+				if ( typeof base.config.advertising[ current ] != "undefined" && ! base.config.has_advertising ) {
+					base.config.current = current ;
+					data = base.config.advertising[  base.config.current ] ;
+					base.config.has_advertising = true ;
+				} else {
+					if ( ! base.config.has_advertising ) {
+						base.config.current = current ;
+					}
+					data = base.config.collection[  base.config.current ] ;
+					base.config.has_advertising = false ;
+				}
+			}
+
+			base.change( data ) ;
+		} ;
+
+		base.populate = function () {
+			base.config.walk.timer = clearInterval( base.config.walk.timer ) ;
+			base.config.view.timer = clearInterval( base.config.view.timer ) ;
+
+			base.news.text( base.news.text() + base.config.dummy ) ;
+			base.config.dummy = "" ;
+		} ;
+
+		base.change = function ( data ) {
+			var text = "" + data[1] ;
+
+			// Trata o texto
+			while( text.match(/&quot\;/g) || text.match(/&amp\;/g) ) {
+				text = text.replace( "&quot\;" , '"' ) ;
+				text = text.replace( "&amp\;" , "&" ) ;
+			}
+
+			// Adiciona o texto
+			base.news.text( "" ) ;
+			base.config.dummy = text ;
+
+			// Publicidade
+			if ( base.config.has_advertising ) {
+				base.news.click( function () {
+					window.open( this.href ) ;
+					return false ;
+				} ) ;
+
+				if ( data[2] ) {
+					base.news.after( '<img id="advertising-banner" src="' + data[2] + '" alt="Publicidadde">' ) ;
+				}
+			} else {
+				$( "#advertising-banner" ).remove() ;
+				base.news.unbind( "click" ) ;
+			}
+
+			// Livraria
+			if ( data[0].indexOf( "/livrariadafolha/" ) > 0 ) {
+				base.news.addClass( "livrariadafolha" ) ;
+			} else if ( base.config.has_advertising ) {
+				 base.news.addClass( "ads" ) ;
+			} else {
+				base.news.removeClass( "livrariadafolha ads" ) ;
+			}
+
+			base.news.attr( "href" , data[0] ) ;
+
+			base.config.walk.timer = setInterval( base.walk , base.config.walk.delay * 1000 ) ;
+			base.config.view.timer = clearInterval( base.config.view.timer );
+		} ;
+
+		base.walk = function () {
+			var title = base.config.dummy.split( "" ) ;
+
+			if( title.length > 0 ) {
+				base.news.text( base.news.text() + title.shift() ) ;
+				base.config.dummy = title.join( "" ) ;
+
+			} else {
+				base.config.walk.timer = clearInterval( base.config.walk.timer );
+				base.config.view.timer = setInterval( base.move, base.config.view.delay * 1000 ) ;
+			}
+		} ;
+
+		if ( base.config.collection.length > 0 ) {
+
+			base.news = base.$el.find( "div.content a.news" ) ;
+
+			var btn = base.$el.find( "div.control-btn" ) ;
+
+			// Anterior
+			btn.find( "a.icon-prev" ).click( function ( e ) {
+				e.preventDefault() ;
+				base.move( "prev" ) ;
+			} ) ;
+
+			// Play/Pause
+			btn.find( "a.play-pause" ).click( function ( e ) {
+				e.preventDefault() ;
+				base.pause() ;
+			} ) ;
+
+			// Pr\xf3xima
+			btn.find( "a.icon-next" ).click( function ( e ) {
+				e.preventDefault() ;
+				base.move() ;
+			} ) ;
+
+			btn.removeClass( "hide" ) ;
+
+			base.start() ;
+		}
+	} ;
+
+	base.init() ;
+} ;
+
+// Rotate - cole\xe7\xf5es
+folha.rotate = {
+	// Not\xedcias
+	collection: [] ,
+	// Publicidade
+	advertising: []
+} ;
+// Rotate - Plugin
+$.fn.rotate = function ( options ) {
+	var base = {} ,
+	options = options || false ,
+	whitelist = new RegExp( '(^https?:..[\\w\\d\\.]*(' + folha.information.whitelist.join( '|' ) + ')|^javascript|^[\\/\\.\\#])', 'gi' ) ;
+
+	base.$el = this ;
+
+	base.config = {
+		// Not\xedcias
+		collection: [] ,
+		// Publicidade
+		advertising: [] ,
+
+		type: "normal" ,
+
+		dom: {} ,
+
+		delay: 8 ,
+		anim_delay: 0.3 ,
+
+		counter: 0 ,
+
+		section_name_tag: '.section_name',
+
+		timer: null ,
+		paused: false ,
+		locked: false ,
+		fixed: false ,
+
+		width: null ,
+		height: null ,
+
+		has_description: false
+	} ;
+
+	base.init = function () {
+		base.config = $.extend( {} , base.config , options ) ;
+
+		base.advertising = function () {
+			var len = base.config.advertising.length , ads = [] ;
+
+			if ( len > 0 ) {
+				for ( var i = 0 ; i < len ; i++ ) {
+					var collection_len = base.config.collection.length ,
+					pos = ( base.config.advertising[i].position > collection_len ) ? collection_len : base.config.advertising[i].position || 1 ;
+
+					// Realoca pe\xe7a na array
+					if ( $.inArray( pos , ads ) < 0 ) {
+						if ( typeof base.config.advertising[i].images !== 'undefined' && typeof base.config.advertising[i].images[ base.config.size ] !== 'undefined' ) {
+							base.config.collection.splice( pos , 0 , base.config.advertising[i] ) ;
+						}
+						// @old_rotate_ads
+						else {
+							if ( base.config.type == "panoramic" ) {
+								if ( base.config.advertising[i].panoramic_image && base.config.advertising[i].panoramic_image.length > 0 ) {
+									base.config.collection.splice( pos , 0 , base.config.advertising[i] ) ;
+								}
+							} else if ( base.config.type == "panoramic_h300" ) {
+								if ( base.config.advertising[i].panoramic_image_h300 && base.config.advertising[i].panoramic_image_h300.length > 0 ) {
+									base.config.collection.splice( pos , 0 , base.config.advertising[i] ) ;
+								}
+							} else if ( base.config.type == "portrait" ) {
+								if ( base.config.advertising[i].portrait_image && base.config.advertising[i].portrait_image.length > 0 ) {
+									base.config.collection.splice( pos , 0 , base.config.advertising[i] ) ;
+								}
+							} else if ( base.config.advertising[i].image ) {
+								base.config.collection.splice( pos , 0 , base.config.advertising[i] ) ;
+							}
+						}
+						// /@old_rotate_ads
+					}
+
+					ads.push( pos ) ;
+				}
+
+			}
+		} ;
+
+		base.prepare = base.config.prepare || function () {
+			var len =  base.config.collection.length ,
+				image = base.$el.find( "img" ) ;
+
+			if ( len > 1 ) {
+				// @old_rotate_ads
+				//  Panoramic 620x300
+				if ( base.$el.attr( "class" ).match( /h300/gi ) ) {
+					base.config.type = "panoramic_h300" ;
+
+				//  Panoramic 620x220
+				} else if ( base.$el.attr( "class" ).match( /panoramic/gi ) ) {
+					base.config.type = "panoramic" ;
+
+				// Portrait
+				} else if ( base.$el.attr( "class" ).match( /portrait/gi ) ) {
+					base.config.type = "portrait" ;
+				}
+				// /@old_rotate_ads
+
+				base.config.size = image.width() + 'x' + image.height() ;
+
+				// Publicidade
+				base.advertising() ;
+
+				// Sobreescrendo-a, caso tenha alterado seu tamanho pela publicidade.
+				len = base.config.collection.length ;
+
+				//  Imagens
+				for ( var images = [] , i = 0 ; i < len ; i++ ) {
+					if ( typeof base.config.collection[i].ads === 'boolean' && true === base.config.collection[i].ads ) {
+						if ( base.config.collection[i].images && base.config.collection[i].images[ base.config.size ] !== 'undefined' ) {
+							images.push( base.config.collection[i].images[ base.config.size ] ) ;
+						}
+						// @old_rotate_ads
+						else {
+							switch ( base.config.type ) {
+								case "panoramic" :
+									if ( base.config.collection[i].panoramic_image ) {
+										images.push( base.config.collection[i].panoramic_image ) ;
+									}
+									break ;
+								case "panoramic_h300" :
+									if ( base.config.collection[i].panoramic_image_h300 ) {
+										images.push( base.config.collection[i].panoramic_image_h300 ) ;
+									}
+									break ;
+								case "portrait" :
+									if ( base.config.collection[i].portrait_image ) {
+										images.push( base.config.collection[i].portrait_image ) ;
+									}
+							}
+						}
+						// /@old_rotate_ads
+					}
+					else {
+						images.push( base.config.collection[i].image ) ;
+					}
+				}
+
+				if ( images.length < 1 ) return ;
+
+				// Carrega as imagens no DOM
+				$( "body" ).preload( images , function () {} ) ;
+
+				// Novo formato: t\xedtulo e descri\xe7\xe3o
+				base.config.has_description = ( typeof base.config.collection[0].text !== "undefined" ) ? true : false ;
+
+				if ( base.config.has_description ){
+					base.pagination.mount() ;
+				}
+
+				base.call() ;
+			}
+		} ;
+
+		base.call = function () {
+			base.$el.find( "div.control-btn" ).removeClass( "hide" ) ;
+
+			base.$el.find( "a.icon-prev" ).click( base.prev ) ;
+			base.$el.find( "a.play-pause" ).click( base.play_pause ) ;
+			base.$el.find( "a.icon-next" ).click( base.next ) ;
+
+			// DOM
+			base.config.dom.image = base.$el.find( "img" ).not( ".sponsored-image" ) ;
+			base.config.dom.links = base.$el.find( "a" ).not( ".sprite, div.content-sponsored-image > a" ) ;
+			base.config.dom.content = base.$el.find( "div.content" ) ;
+			base.config.dom.title = base.$el.find( "h2 > a" ) ;
+			base.config.dom.credit = base.$el.find( "span.credit" ) ;
+			base.config.dom.image_sponsored = base.$el.find( "div.content-sponsored-image > a > img" ) ;
+			base.config.dom.links_sponsored = base.$el.find( "div.content-sponsored-image > a" ) ;
+			base.config.dom.credit_sponsored = base.$el.find( "div.content-sponsored-image > a" ) ;
+
+			// Descri\xe7\xe3o
+			if ( base.config.has_description ) {
+				base.config.dom.title = base.$el.find( ".content-title" ) ;
+				base.config.dom.text = base.$el.find( ".content-text" ) ;
+			}
+
+			// Se for fixo, n\xe3o rotacionar
+			if ( ! base.config.fixed ) {
+				base.start() ;
+			}
+		} ;
+
+		base.start = function () {
+			base.config.paused = false ;
+			base.config.timer = setInterval( base.next , base.config.delay * 1000 ) ;
+		} ;
+
+		base.reset = function () {
+			clearInterval( base.config.timer ) ;
+
+			// Se for fixo, n\xe3o rotacionar
+			if ( ! base.config.fixed ) {
+				base.start() ;
+			}
+		} ;
+
+		base.play_pause = function () {
+			if ( base.config.paused ) {
+				base.config.paused = false ;
+				base.reset() ;
+				base.$el.find( "a.play-pause" ).removeClass( "icon-play" ).addClass( "icon-pause" ).attr( "title" , "Pause" ) ;
+			} else {
+				base.config.paused = true ;
+				clearInterval( base.config.timer ) ;
+				base.$el.find( "a.play-pause" ).removeClass( "icon-pause" ).addClass( "icon-play" ).attr( "title" , "Play" ) ;
+			}
+		}
+
+		base.prev = function () {
+			base.change( base.config.counter - 1 ) ;
+		} ;
+
+		base.next = function () {
+			base.change( base.config.counter + 1 ) ;
+		} ;
+
+		base.change = base.config.change || function ( i ) {
+			if ( base.config.locked ) { return ; }
+			base.config.locked = true ;
+
+			if( ! base.config.paused ) { base.reset() ; }
+
+			var len = base.config.collection.length ;
+
+			if ( i < 0 ) {
+				i = len - 1 ;
+			} else if ( i >= len ) {
+				i = 0 ;
+			}
+
+			base.config.counter = i ;
+
+			var anim_delay = base.config.anim_delay * 1000 ,
+				merge = base.config.dom.image.add( base.config.dom.links ) ;
+
+			merge.animate( { opacity: 0 } , anim_delay , function () {
+				var img = base.config.collection[i].image ;
+
+				if( base.config.collection[i].image_sponsored ) {
+					var img_sponsored = base.config.collection[i].image_sponsored ;
+				}
+
+				if ( true === base.config.collection[i].ads && base.config.collection[i].images && typeof base.config.collection[i].images[ base.config.size ] === 'string' && base.config.collection[i].images[ base.config.size ].length > 0 ) {
+					img = base.config.collection[i].images[ base.config.size ] ;
+				}
+				// @old_rotate_ads
+				else {
+					if ( true === base.config.collection[i].ads ) {
+						switch ( base.config.type ) {
+							case "panoramic" :
+								img = base.config.collection[i].panoramic_image ;
+								break ;
+							case "panoramic_h300" :
+								img = base.config.collection[i].panoramic_image_h300 ;
+								break ;
+							case "portrait" :
+								img = base.config.collection[i].portrait_image ;
+								break ;
+						}
+					}
+					// /@old_rotate_ads
+				}
+
+				base.config.dom.image.attr( {
+					src: img ,
+					alt: base.config.collection[i].credit
+				} ) ;
+
+				//	Estudio Folha: Link e alt da imagem do patrocinado
+				if( base.config.dom.image_sponsored && base.config.dom.credit_sponsored ) {
+					base.config.dom.image_sponsored.attr( {
+						src: img_sponsored ,
+						alt: base.config.collection[i].credit_sponsored
+					} ) ;
+				}
+
+				//	Link
+				base.config.dom.links.attr( "href" , base.config.collection[i].url ) ;
+
+				//	Estudio Folha: Link do patrocinado 
+				if( base.config.dom.links_sponsored ) {
+					base.config.dom.links_sponsored.attr( "href" , base.config.collection[i].url_sponsored ) ;	
+				}				
+				
+				// adiciona ou remove target dependendo do dom\xednio que a imagem aponta
+				if ( base.config.collection[i].url.match( whitelist ) ) {
+					base.config.dom.links.removeAttr( 'target' ) ;
+				} else {
+					base.config.dom.links.attr( 'target', '_blank' ) ;
+				}
+
+				//adiciona o nome da se\xe7\xe3o se houver uma div com a classe section_name
+				var set_current_section = base.config.collection[i].section,
+				rotate_section_name = $( base.$el.find( base.config.section_name_tag ) ) ;
+				if( rotate_section_name.length && typeof set_current_section !== "undefined" ){
+					$( 'h3', rotate_section_name ).html( set_current_section ) ;
+				}
+
+				if ( base.config.collection[i].title != "" ) {
+					base.config.dom.title.html( base.config.collection[i].title ) ;
+					//base.config.dom.title.removeClass( "hide" ) ;
+				} else {
+					base.config.dom.title.addClass( "hide" ) ;
+				}
+
+				if ( base.config.has_description ) {
+					base.config.dom.text.html( base.config.collection[i].text ) ;
+				}
+
+				if ( base.config.collection[i].ads ) {
+					base.config.dom.credit.html( "Publicidade" ) ;
+
+					
+				} else {
+					base.config.dom.credit.html( base.config.collection[i].credit ) ;
+
+					if ( base.config.collection[i].title != "" ) {
+						base.config.dom.title.removeClass( "hide" ) ;
+					}
+				}
+
+				merge.animate( { opacity: 1 } , anim_delay , function () {
+					base.config.locked = false ;
+				} ) ;
+
+				if ( base.config.has_description ){
+					base.pagination.active( i ) ;
+				}
+
+			} ) ;
+
+		} ;
+
+		// Pagina\xe7\xe3o
+		base.pagination = {
+			mount: function () {
+				for ( var i = 0 , html = [] , len = base.config.collection.length ; i < len ; i++ ) {
+					html.push( '<li class="controls-nav-item' + ( ( i < 1) ? ' active' : '' ) + '">' + ( i + 1 ) + '<\/li>' ) ;
+				}
+
+				if ( html.length > 0 ) {
+					base.$el.find( ".controls-nav" ).html( html.join( "" ) ) ;
+
+					base.pagination.change() ;
+				}
+			} ,
+
+			change: function () {
+				base.config.pagination_lis = base.$el.find( ".controls-nav > li" ) ;
+
+				base.config.pagination_lis.click( function() {
+					var that = $( this ) , idx = base.config.pagination_lis.index( that ) ;
+
+					base.change( idx ) ;
+				} ) ;
+			} ,
+
+			active: function ( idx ) {
+				base.config.pagination_lis.removeClass( "active" ) ;
+				base.config.pagination_lis.eq( idx ).addClass( "active" ) ;
+			}
+		} ;
+
+		if ( base.config.collection.length > 0 && base.$el.length > 0 ) {
+			base.$el.removeClass( "hide" ) ;
+			base.prepare() ;
+		}
+	} ;
+
+	base.init() ;
+} ;
+
+// Folha Shop
+folha.shop = {} ;
+$.fn.folha_shop = function ( options ) {
+	var base = this ,
+	options = options || false ;
+
+	base.$el = $( base ) ;
+
+	base.config = {
+		collection: [] ,
+		limit: 20
+	} ;
+
+	base.init = function () {
+		base.config = $.extend( {} , base.config , options ) ;
+
+		if ( base.config.collection.length > 0 ) {
+			base.prepare() ;
+		}
+	} ;
+
+	base.prepare = function () {
+		for ( var i = 0 , fixed = [] , extra = [] , len = base.config.collection.length ; i < len ; i++ ) {
+			if ( base.config.collection[i].fixed !=  "" ) {
+				fixed.push( base.config.collection[i] )
+			} else {
+				extra.push( base.config.collection[i]  )
+			}
+		}
+
+		// Randomiza as arrays
+		fixed.sort( base.random_order ) ;
+		extra.sort( base.random_order ) ;
+
+		// Remove itens com a mesma posi\xe7\xe3o(fixed)
+		fixed = base.remove_item( fixed , "fixed" ) ;
+
+		// Adiciona as posi\xe7\xf5es na array
+		extra = base.add_position( fixed , extra ) ;
+
+		// Mestra as duas arrays
+		var ad = fixed.concat( extra ) ;
+
+		// Monta html
+		base.mount( ad ) ;
+	} ;
+
+	// Remove itens repetidos da array
+	base.remove_item =  function ( arr , item ) {
+		arr.sort( function ( a , b ) {
+			 return a[item] - b[item] ;
+		} ) ;
+
+		for ( var i = 0 , len = arr.length - 1 ; i < len ; i++ ) {
+			if ( arr[i][item] == arr[i+1][item] ) {
+				delete arr[i] ;
+			}
+		}
+
+		return $.grep( arr ,  function ( n , i ) {
+		   return ( typeof n != "undefined" ) ;
+		} ) ;
+
+	} ;
+
+	// Adiciona posi\xe7\xf5es restantes na array extra
+	base.add_position = function ( arr , extra ) {
+		for ( var i = 1 , j = 0 , len = base.config.collection.length ; i <= len ; i++ ) {
+			if ( ! base.get_position( i , len , arr ) ) {
+				if ( typeof extra[j] != "undefined" ) {
+					extra[j].fixed = i ;
+					j++ ;
+				}
+			}
+		}
+
+		return extra ;
+	}
+
+	// Retorna quando obt\xe9m a posi\xe7\xe3o(fixed)
+	base.get_position =  function ( i , len , arr ) {
+		for ( var j = 0 ; j < len ; j++ ) {
+			if ( typeof arr[j] != "undefined" && i == arr[j].fixed ) {
+				return true ;
+			}
+		}
+	} ;
+
+	base.random_order = function () {
+		return ( Math.round( Math.random() ) - 0.5 ) ;
+	} ;
+
+	base.mount = function ( ad ) {
+		// Organiza pela posi\xe7\xe3o(fixed)
+		ad.sort( function( a ,b ) {
+			return a.fixed - b.fixed ;
+		} ) ;
+
+		// Classe de destaque
+		var has_highlight = function ( i ) {
+			if ( i % 4 === 0 || i % 4 === 3 ) {
+				return true ;
+			}
+		}
+
+		var len = ( ad.length <= base.config.limit ) ? ad.length : base.config.limit ,
+		i = 0 , html = [] ;
+
+		for ( i ; i < len ; i++ ) {
+			var _class = "" ;
+
+			if ( i % 2 === 0 ) {
+				_class = ' class="odd"' ;
+
+				if ( has_highlight( i ) ) {
+					_class = ' class="odd highlight"' ;
+				}
+			} else {
+				if ( has_highlight( i ) ) {
+					_class = ' class="highlight"' ;
+				}
+			}
+
+			html.push( '<li' + _class + '>\
+				<span class="kicker"><a href="' + ad[i].link + '">' + ad[i].title + '<\/a><\/span>\
+				<a class="ad" href="' + ad[i].link + '">\
+				<img src="' + ad[i].image + '" alt="' + ad[i].title + '">\
+				<p>' + ad[i].text + '<\/p>\
+				<\/a>\
+				<\/li>' ) ;
+		}
+
+		if ( html.length > 0 ) {
+			base.$el.html( '<ul class="unstyled">' + html.join( "" ) + '<\/ul>' ).removeClass( "hide" ) ;
+		}
+	} ;
+
+	base.init() ;
+} ;
+
+// \xdatimas que voc\xea n\xe3o leu
+folha.unread = {
+	cache: [] ,
+	news: []
+} ;
+$.fn.unread = function ( options ) {
+	var base = {} ,
+	options = options || false ;
+
+	base.$el = $( this ) ;
+
+	base.config = {
+		collection: [] ,
+		limit: 5
+	} ;
+
+	base.init = function () {
+		base.config = $.extend( {} , base.config , options ) ;
+
+		if ( base.config.collection.length > 0 ) {
+			base.read() ;
+			base.get_news() ;
+		}
+	} ;
+
+	base.cookie = {
+		// Nome do cookie
+		name: "folha-newsread" ,
+
+		// Tempo de expira\xe7\xe3o do cookie (em dias)
+		expires: 10 ,
+
+		// Dom\xednio no qual o cookie ser\xe1 gravado
+		domain: ( folha.information.context.get() != "staging" ) ? "folha.uol.com.br" : "folha.com.br" ,
+
+		// Tamanho limite do cookie (em bytes) - 300 not\xedcias
+		max_size: 1200 ,
+
+		// Retorna valor atual do cookie
+		get: function() {
+			return ( $.cookie( base.cookie.name ) || "" ) ;
+		} ,
+
+		// Atribui novo valor ao cookie, limitando seu tamanho de acordo com as configura\xe7\xf5es
+		set: function( value ) {
+			// Limpa o cookie caso este esteja inv\xe1lida (tamanho n\xe3o divis\xedvel por 4)
+			if ( ( value.length % 4 ) !== 0 ) {
+				value = "" ;
+			}
+
+			// Apaga as 10 primeiras mat\xe9rias registradas no cookie
+			if( value.length > base.cookie.max_size ) {
+				value = value.replace( /^[\w\d]{40}/i, "" ) ;
+			}
+
+			$.cookie( base.cookie.name , value , { expires: 1 , domain: base.cookie.domain , path: "/" } ) ;
+		}
+	} ;
+
+	// Codifica decimal para base num\xe9rica 36
+	base.encode = function ( n ) {
+		return parseInt( n , 10 ).toString( 36 ) ;
+	} ;
+
+	// Decodifica base num\xe9rica 36 para decimal
+	base.decode = function ( n ) {
+		return parseInt( n , 10 ) ;
+	} ;
+
+	// Retorna idx a partir da url ou 0
+	base.get_idx = function ( url ) {
+		var re = /^http.+?\/(\d+)-.+$/gi ;
+		return url.match( re ) ? url.replace( re, "$1" ) : 0 ;
+	} ;
+
+	// Verifica a existencia do idx dentro do cookie
+	base.is_read = function ( idx ) {
+		var i = -1, decimal_idx = idx , value = base.cookie.get() ;
+		idx = isNaN( idx ) ? idx : base.encode( idx ) ;
+
+		while ( ( i = value.indexOf( idx , i + 1 ) ) > -1 ) {
+			if ( ( i % 4 ) === 0 ) {
+				return true ;
+			}
+		}
+
+		return false ;
+	} ;
+
+	// Marca uma url de mat\xe9ria como lida
+	base.read = function ( url ) {
+		url = url || location.href ;
+
+		var value = "" ,
+		idx = base.get_idx( url ) ;
+
+		idx = base.encode( idx ) ;
+
+		if ( idx < 1 || base.is_read( idx ) ) {
+			return ;
+		}
+
+		value = base.cookie.get() + idx ;
+		base.cookie.set( value ) ;
+	} ;
+
+	// Retorna array com as not\xedcias dispon\xedveis
+	base.get_news = function () {
+		var i = 0 ;
+
+		$.each( base.config.collection , function ( j , data ) {
+			if ( i == base.config.limit ) {
+				return false ;
+			}
+
+			if ( ! base.is_read( base.get_idx( data[0] ) ) ) {
+
+				folha.unread.news.push( {
+					link: data[0] ,
+					title: data[1]
+				} ) ;
+
+				i++ ;
+			}
+		} ) ;
+	} ;
+
+	// Inicializa
+	base.init() ;
+} ;
+
+// Folha Top cole\xe7\xf5es: mais lidas, mais comentadas, mais enviadas e as \xfaltimas mat\xe9rias
+folha.top = {
+	most_read: [] ,
+	most_commented: [] ,
+	most_shared: [] ,
+	unread: []
+} ;
+// Folha Top - Plugin
+$.fn.folha_top = function ( options ) {
+	var base = this , options = options || false ;
+
+	base.$el = $( base ) ;
+
+	base.config = {
+		most_read: [] ,
+		most_commented: [] ,
+		most_shared: [] ,
+		unread: [] ,
+		limit: 5 ,
+		counter: 0 ,
+		popular: "//www1.folha.uol.com.br/maispopulares/" ,
+		last_news: "//www1.folha.uol.com.br/emcimadahora/" ,
+		news_index: false
+	} ;
+
+	base.init = function () {
+		base.config = $.extend( {} , base.config , options ) ;
+
+		if ( base.config.most_read.length > 0 ) {
+			base.mount( base.config.most_read , "most_read" ) ;
+		}
+
+		if ( base.config.most_commented.length > 0 ) {
+			base.mount( base.config.most_commented , "most_commented" ) ;
+		}
+
+		if ( base.config.most_shared.length > 0 ) {
+			base.mount( base.config.most_shared , "most_shared" ) ;
+		}
+
+		// \xdaltimas que voc\xea n\xe3o leu
+		base.$el.unread( {
+				collection: base.config.unread ,
+				limit: base.config.limit
+		} ) ;
+
+		if ( folha.unread.news.length > 0 ) {
+			base.mount( folha.unread.news , "unread" ) ;
+		}
+
+		base.nav() ;
+
+		// Nome da caixa
+		if ( base.config.news_index ) {
+			base.find( "nav" ).before( '<h2><span>' + base.config.news_index + '<\/span><\/h2>' ) ;
+		}
+	} ;
+
+	base.mount = function ( arr , name ) {
+		for ( var i = 0 , html = [] , len = ( arr.length <= base.config.limit ) ? arr.length : base.config.limit ; i < len ; i++ ) {
+			var subHeadLine = arr[i].subheadline ? arr[i].subheadline + ': ' : '';
+			html.push( '<li><a href="' + arr[i].link + '"><span>' + ( i + 1 ) + '<\/span><p>' + subHeadLine + arr[i].title + '<\/p><\/a><\/li>' ) ;
+		}
+
+		if ( html.length > 0 ) {
+			var hide = "" , nav_li = base.$el.find( "nav ul li." + name ) ;
+
+			if ( base.config.counter++ > 0 ) {
+				hide = " hide" ;
+			} else {
+				nav_li.addClass( "active" ) ;
+			}
+
+			// \xcdndice
+			if ( ! base.config.news_index ) {
+				html.push( '<li class="news-index"><a href="' + ( ( name == 'unread' ) ? base.config.last_news : base.config.popular ) + '">Ver \xedndice<\/a></li>' ) ;
+			}
+
+			base.$el.find( "div.news" ).append( '<ol class="unstyled item ' + name + hide + '">' + html.join( "" ) + '<\/ol>' ) ;
+			nav_li.removeClass( "hide" ) ;
+		}
+	} ;
+
+	base.nav = function () {
+		var li = "nav ul > li" , item = "div.news > ol.item" , lis = base.$el.find( li ) , items = base.$el.find( item ) ;
+
+		lis.click( function () {
+			var that = $( this ) , _class = that.attr( "class" ).split( " " )[0] ;
+
+			lis.removeClass( "active" ) ;
+			$( li + "." + _class ).addClass( "active" ) ;
+
+			items.addClass( "hide" ) ;
+			$( item + "." + _class ).removeClass( "hide" ) ;
+		} )
+	}
+
+	base.init() ;
+} ;
+
+// Random Box - Cole\xe7\xf5es
+folha.random_box = {} ;
+// Random Box - Traz not\xedcias aleatoriamente
+$.fn.random_box = function ( options ) {
+	var base = {} ,
+	options = options || false ;
+
+	base.$el = $( this ) ;
+
+	base.config = {
+		data: {} ,
+		type: "default" ,
+		limit: 4 ,
+		current: [] ,
+		priority: [] ,
+		prioritized: [] ,
+		photo: {
+			blogs: "//f.i.uol.com.br/folha/blogs/images/blogs-{slug}-70x70.jpeg" ,
+			columnists: "//f.i.uol.com.br/folha/colunas/images/colunas-{slug}-70x70.jpg"
+		} ,
+		section: {
+			"acervo": "acervo_folha" ,
+			"curinga": "curinga-1" ,
+			"curinga2": "curinga-2" ,
+			"curinga3": "curinga-3" ,
+			"empreendedorsocial": "empreendedor_social" ,
+			"equilibrio": "equilibrio_e_saude" ,
+			"equilibrioesaude": "equilibrio_e_saude" ,
+			"folhaverao": "folha_verao" ,
+			"guia": "guia_folha" ,
+			"nytimes": "the_new_york_times" ,
+			"omelhordesaopaulo": "o_melhor_de_sao_paulo" ,
+			"paineldoleitor": "painel_do_leitor" ,
+			"pelobrasil": "pelo_brasil" ,
+			"programatvfolha": "programa_tv_folha" ,
+			"saopaulo": "sao_paulo" ,
+			"topofmind": "top_of_mind" ,
+			"tvfolha": "tv_folha"
+		}
+	} ;
+
+	base.init = function () {
+		base.config = $.extend( {} , base.config , options ) ;
+
+		base.shuffle = function ( data ) {
+			for ( var i , j , len = data.length ; len ; i = parseInt( Math.random() * len ) , j = data[--len] , data[len] = data[i] , data[i] = j ) ;
+			return data ;
+		} ;
+
+		// Retorna um n\xfamero baseado no campo de prioridade(por peso)
+		base.random = function ( arr ) {
+			for ( var i = 0 , total = 0 , len = arr.length ; i < len ; i++ ) {
+				var weight = parseInt( arr[i].priority , 10 ) ;
+
+				if ( ! isNaN( weight ) ) {
+					total += weight ;
+					arr[i].priority = weight ;
+				} else {
+					total += 1 ;
+					arr[i].priority = 1 ;
+				}
+			}
+
+			return Math.floor( Math.random() * total ) ;
+		} ;
+
+		base.prioritize = function ( data , limit ) {
+
+			for ( var i = 0 , arr = [] , len = data.length ; i < len ; i++ ) {
+				var random = base.random( data ) ;
+
+				for ( var j = 0 , c = 0 , l = data.length ; j < l ; j++  ) {
+					c += data[j].priority ;
+
+					if ( random < c ) {
+						arr.push( data[j] ) ;
+						data.splice( j , 1 ) ;
+						break ;
+					}
+				}
+			}
+
+			// Deixa array.length = limit
+			arr = arr.slice( 0 , limit ) ;
+
+			// Embaralha array, sen\xe3o vem na ordem da prioridade
+			arr.sort( function() {
+				return 0.5 - Math.random() ;
+			} ) ;
+
+			return arr ;
+
+		} ;
+
+		// Caixa padr\xe3o
+		base.mount = function () {
+			var total = base.config.data.collection.length , html = [] ,
+				limit = total < base.config.limit ? total : base.config.limit ;
+
+			base.config.data.collection = base.prioritize( base.config.data.collection , limit ) ;
+
+			html.push( '<header>' ) ;
+			if ( base.config.data.link != "" ) {
+				html.push( '<a href="' + base.config.data.link + '">' ) ;
+			}
+			html.push( '<h2>' + base.config.data.title + '<\/h2>' ) ;
+
+			if ( base.config.data.link != "" ) {
+				html.push( '<span class="more"><i class="sprite icon-plus"><\/i>' + base.config.data.text + '<\/span>\
+						<\/a>' ) ;
+			}
+
+			html.push( '<\/header><ol class="unstyled">' ) ;
+
+			for ( var i = 0 ; i < limit ; i++ ) {
+
+				html.push( '<li><a href="' + base.config.data.collection[i].link + '">' ) ;
+
+				// Image
+				html.push( '<img src="' ) ;
+				if ( base.config.data.collection[i].image != "" ) {
+					html.push( base.config.data.collection[i].image ) ;
+				} else {
+					html.push( base.config.photo[base.config.id].replace( "{slug}" , folha.convert_to_slug( base.config.data.collection[i].slug ) ) + ( typeof base.config.querystring !== 'undefined' ? ( '?' + base.config.querystring ) : '' ) ) ;
+				}
+				html.push( '" alt="' + base.config.data.collection[i].title + '" class="beside">' ) ;
+
+				html.push( '<\/a><a href="' + base.config.data.collection[i].link_name + '"><span class="kicker">' + base.config.data.collection[i].title + '<\/span>\
+					<\/a>' ) ;
+
+				html.push( '<\/a><a href="' + base.config.data.collection[i].link + '">\
+					<h3>' + base.config.data.collection[i].description + '<\/h3><\/a>\
+					<\/li>' ) ;
+			}
+
+			html.push( '<\/ol><div class="clearfix"><\/div>' ) ;
+
+			base.$el.html( html.join( "" ) ).removeClass( "hide" ) ;
+		} ;
+
+		// Caixas frias
+		base.mount_cold_box = function () {
+			base.config.data.collection = base.prioritize( base.config.data.collection , base.config.limit ) ;
+
+			var section = base.config.section[ base.config.data.collection[0].name ] || base.config.data.collection[0].name ;
+
+			$.ajax( {
+				cache: true ,
+				url: "/virtual/5.4/common/box-" + section + ".inc" ,
+				success: function ( data ) {
+					base.$el.html( data ).removeClass( "hide" ) ;
+				}
+			} ) ;
+		} ;
+
+		// Caixa da home de Colunistas
+		base.mount_columnists_blogs = function () {
+			var total = base.config.data.collection.length , html = [] ,
+				limit = total < base.config.limit ? total : base.config.limit ;
+
+			base.config.data.collection = base.prioritize( base.config.data.collection , limit ) ;
+
+			html.push( '<ol class="unstyled">' ) ;
+
+			for ( var i = 0 ; i < limit ; i++ ) {
+
+				html.push( '<li><a href="' + base.config.data.collection[i].link + '">' ) ;
+
+				// Image
+				html.push( '<img src="' ) ;
+				if ( base.config.data.collection[i].image != "" ) {
+					html.push( base.config.data.collection[i].image ) ;
+				} else {
+					html.push( base.config.photo[base.config.id].replace( "{slug}" , folha.convert_to_slug( base.config.data.collection[i].slug ) ) ) ;
+				}
+				html.push( '" alt="' + base.config.data.collection[i].title + '" class="beside">' ) ;
+
+				html.push( '<\/a><a href="' + base.config.data.collection[i].link + '"><span class="kicker">' + base.config.data.collection[i].title + '<\/span>\
+					<h3>' + base.config.data.collection[i].description + '<\/h3><\/a>\
+					<\/li>' ) ;
+			}
+
+			html.push( '<\/ol><div class="clearfix"><\/div>' ) ;
+
+			base.$el.html( html.join( "" ) ).removeClass( "hide" ) ;
+		} ;
+
+		if ( base.config.data.collection && base.config.data.collection.length > 0 && base.$el.length > 0 ) {
+			if ( base.config.type == "default" ) {
+				base.config.id = base.config.data.title.toLowerCase() ;
+
+				if ( base.config.id == "colunas" || base.config.id == "colunistas" || base.config.id == "coluna" || base.config.id == "colunista" ) {
+					base.config.id = "columnists" ;
+				} else if ( base.config.id == "blog" ) {
+					base.config.id = "blogs" ;
+				}
+
+				base.mount() ;
+			} else if ( base.config.type == "cold" ) {
+				base.mount_cold_box() ;
+			} else if ( base.config.type == "columnists" ) {
+				base.config.id = "columnists" ;
+				base.mount_columnists_blogs() ;
+			} else if ( base.config.type == "blogs" ) {
+				base.config.id = "blogs" ;
+				base.mount_columnists_blogs() ;
+			}
+		}
+	} ;
+
+	base.init() ;
+} ;
+
+// Publicidade - Tag Manager
+folha.tag_manager = {
+	banners: [] ,
+
+	keywords: "" ,
+
+	floater: true ,
+
+	is_forbidden: false ,
+
+	replacements: {
+		colunistas: "colunas" ,
+		equilibrioesaude: "equilibrio" ,
+		galeria: "fotos" ,
+		mercado: "dinheiro" ,
+		poder: "brasil" ,
+		saber: "fovest" ,
+		tec: "informatica"
+	} ,
+
+	no_param: {
+		// Inicialmente todos blogs
+		list: [ "blog" , "homepage" ] ,
+		has: false ,
+		init: function ( channel ) {
+			var that = this ,
+				pattern = new RegExp( '(' + that.list.join( '|' ) + ')', 'gi' ) ;
+
+			that.has = channel.match( pattern ) ;
+		}
+	} ,
+
+	get_channel: function () {
+		var that = this , channel = that.channel ;
+
+		if ( folha.information.channel ) {
+			channel = folha.information.channel ;
+		} else if ( folha.information.section ) {
+			channel = folha.information.section ;
+		}
+
+		// Verifica se o channel n\xe3o precisa de ".online" ;
+		that.no_param.init( channel ) ;
+
+		if ( typeof that.replacements[channel] != "undefined" ) {
+			channel = "online." + that.replacements[channel] ;
+
+		// N\xe3o precisa do param
+		} else if ( that.no_param.has ) {
+			channel = channel ;
+
+		} else {
+			channel = "online." + channel ;
+		}
+
+		return channel ;
+	} ,
+
+	// Cria objeto TM
+	create: function () {
+		window.TM = {
+			Config: {
+				site: "folha" ,
+				chan: folha.tag_manager.get_channel() ,
+				banners: folha.tag_manager.banners ,
+				keyword: folha.tag_manager.keywords ,
+				floater: folha.tag_manager.floater
+			}
+		} ;
+	} ,
+
+	// Para visualizar as pe\xe7as no ambiente de staging basta adicionar ads=true na URL
+	context: function ( func ) {
+		var granted = true ;
+
+		if ( folha.information.context.get() === "staging" && ! location.href.match( /ads=true/gi ) ) {
+			func = $.noop ;
+			granted = false ;
+		}
+
+		return granted ;
+	} ,
+
+
+	// Chama fun\xe7\xe3o TM.display(), caso esteja na array de banners
+	get: function ( param ) {
+		var base = this ;
+
+		if ( ! base.context( base.get ) || folha.tag_manager.is_forbidden ) { return ; }
+
+		if ( $.inArray( "banner-" + param , base.banners ) >= 0 && $( "#ad-" + param ).length > 0 ) {
+            (typeof TM.display == 'function') ? TM.display() : '' ;
+		}
+	} ,
+
+	// Verifica se a div tem conte\xfado (pe\xe7a - publicidade), caso contr\xe1rio a remove
+	check: function () {
+		var base = this ;
+
+		if ( ! base.context( base.check ) ) { return ; }
+
+		// Para visualizar divs que seriam removidas pela falta de conte\xfado
+		if ( ! location.href.match( /ads=debug/gi ) ) {
+			base.remove( "div[id^=banner-]" ) ;
+			base.remove( "div[id^=ad-]" , "ad" ) ;
+		}
+	} ,
+
+	// Pe\xe7as chamadas
+	called: [] ,
+
+	// Remove divs
+	remove: function ( elem , ad ) {
+		var base = this ;
+
+		$( elem ).each( function ( i , k ) {
+			var div = $( k ) , param = div.attr( "id" ).match( /\d{1,3}x\d{1,4}-\d$/gi ) ;
+
+			if ( param ) {
+
+				if ( ! ad ) {
+					base.called.push( param[0] ) ;
+
+					// Remove div#banner- se n\xe3o tiver conte\xfado se a div#ad- correspondente
+					div.ready( function () {
+						if ( $( "*" , div ).not( 'script, img[src="//f.i.uol.com.br/1x1.gif"], br' ).length < 1 ) {
+							$( "#ad-" + param[0] ).remove() ;
+							div.remove() ;
+						}
+					} ) ;
+
+				} else {
+
+					// Remove div#ad- se n\xe3o tiver div#banner- correspondente
+					if ( $.inArray( param[0] , base.called ) < 0 ) {
+						div.remove() ;
+					}
+				}
+
+			}
+
+		} ) ;
+	} ,
+
+	forbidden: function () {
+		if ( folha.tag_manager.is_forbidden ) {
+			$( "div.page-content" ).addClass( "offset2" ) ;
+			$( "div.advertising-column" ).remove() ;
+			$( "section.ads-livrariadafolha" ).remove() ;
+			$( "div.advertising.ad-300x50" ).remove() ;
+			$( "div.advertising.ad-228x94" ).remove() ;
+			$( "dl.sponsors" ).remove() ;
+		}
+	}
+} ;
+
+// Caixa especial - Guia
+folha.guia = {
+	whitelist: [ "sao_paulo" , "cotia" , "guarulhos" , "osasco" , "santo_andre" , "sao_bernardo_do_campo" , "taboao_da_serra" ] ,
+
+	special_box: function ( cookie_name ) {
+		var base = this ;
+		cookie_name = cookie_name || $.cookie( "folha-weather-local" ) ;
+
+		if ( $.inArray( cookie_name , base.whitelist ) > -1 ) {
+		   $( "#special_box-guia" ).fadeIn().removeClass( "hide" ) ;
+		} else {
+		   $( "#special_box-guia" ).addClass( "hide" ) ;
+		}
+	}
+} ;
+
+// Tempo
+$.fn.weather = function ( options ) {
+	var base = {} ,
+	options = options || false ;
+
+	base.$el = $( this ) ;
+
+	base.config = {
+		collection: null ,
+		// Local padr\xe3o
+		local: "sao_paulo" ,
+		// Se for verdadeiro, s\xf3 troca o conte\xfado da caixa, evita esperar o DOM se carregado
+		action: false ,
+		// Cidades que tem caixas, al\xe9m de "sao_paulo", que pega caixa do Guia
+		cities: [ "ribeirao_preto" ]
+	} ;
+
+	base.init = function () {
+		base.config = $.extend( {} , base.config , options ) ;
+
+		if ( typeof base.config.collection != null ) {
+
+			if ( ! base.config.action ) {
+				base.$el.html( "" ).prepend( '<div class="info" \/>' , base.mount() ) ;
+			}
+
+			if ( base.cookie.get() ) {
+				base.config.local = base.cookie.get()
+			}
+
+			base.change( base.config.local ) ;
+			// Altera a cidade
+			base.$el.find( "div.more-city ul li a" ).click( function ( e ) {
+				e.preventDefault() ;
+				base.change( $( this ).attr( "data-local" ) ) ;
+			} ) ;
+
+			// Caixa especial - Guia
+			base.city.special_box() ;
+		}
+	} ;
+
+	// Cookie
+	base.cookie = {
+		name: "folha-weather-local" ,
+		domain: ( folha.information.context.get() === "staging" ) ? "folha.com.br" : "folha.uol.com.br"
+	} ;
+
+	// Retorna cookie
+	base.cookie.get = function () {
+		return $.cookie( base.cookie.name ) ;
+	} ;
+
+	// Adiciona local ao cookie
+	base.cookie.set = function ( local ) {
+		$.cookie( base.cookie.name , local , { expires: 170 , domain: base.cookie.domain, path: '/' } ) ;
+	} ;
+
+	// Troca o local
+	base.change = function ( local ) {
+		if ( base.config.collection.hasOwnProperty( local ) ) {
+		   base.cookie.set( local ) ;
+		   base.config.local = local ;
+		}
+
+		if ( ! base.config.action ) {
+			base.get() ;
+		}
+
+		// Traz a caixa de not\xedcias da cidade correspondente
+		if( location.href.match( /www.folha(.uol)?.com.br/gi ) ) {
+			base.city.get( local ) ;
+		}
+	} ;
+
+	// Obt\xe9m o local
+	base.get = function () {
+		var local = base.config.collection[base.config.local] ,
+		icon = $( '<i title="' + local.description + '" />' ).addClass( "sprite " + local.css ).html( local.css ) ,
+		city = $( "<span />" ).addClass( "location" ).html( local.name ) ,
+		degrees = $( "<span />" ).addClass( "temperature" ).html( local.temperature ) ,
+		link = $( "<a />" ).attr( {
+			href: local.url ,
+			title: "Veja a previs\xe3o completa"
+		} ).prepend( city , "<i />" ) ;
+
+		base.$el.find( "div.info" ).html( "" ).prepend( icon , degrees , link  ) ;
+	} ;
+
+	// Monta a lista das outras localidades
+	base.mount = function () {
+		var city = base.config.city , html = [] , list = [] , total = 0 , i = 1 ,
+			div = $( '<div class="more-city" \/>' ).html( '<strong>Escolha sua cidade:<\/strong><a href="//tempo.folha.com.br" class="more" title="Veja todas as cidades">Veja todas<\/a>' ) ;
+
+		for ( var k in base.config.collection ) {
+			if ( base.config.collection.hasOwnProperty ) total++ ;
+		}
+
+		var average = Math.floor( total / 2 ) ;
+
+		$.each( base.config.collection , function ( item , data ) {
+			list.push( '<li><a href="javascript:;" data-local="' + item + '">' + data.name + '<\/a><\/li>' ) ;
+
+			if ( i === average || i === total ) {
+				html.push( '<ul' + ( i === total ? ' class="last"' : '' ) + '>' + list.join( "" ) + '<\/ul>' ) ;
+				list = [] ;
+			}
+			i++ ;
+		} ) ;
+
+		return div.append( html.join( "" ) ) ;
+	} ;
+
+	// Cidade
+	base.city = {
+		path: ( ( folha.information.context.get() == "prod" ) ? "//www.folha.uol.com.br" : "" ) + "/virtual/5.4/common/"
+	} ;
+
+	// Obt\xe9m a cidade correspondente
+	base.city.get = function ( city ) {
+		var that = base.city ,
+		// Caixa do Guia - Padr\xe3o
+		url = that.path + "box-guia_folha.html" ;
+
+		// Caixas de outras cidades
+		if ( $.inArray( city , base.config.cities ) > -1 ) {
+			url = that.path + "city/" + city + ".html"
+		}
+
+		$.ajax( {
+			cache: true ,
+			url: url ,
+			success: function ( data ) {
+				that.mount( data ) ;
+				that.special_box() ;
+			}
+		} ) ;
+
+	} ;
+
+	base.city.mount = function ( data ) {
+		$( "#citynews" ).html( data ) ;
+	} ;
+
+	// Caixa Especial do Guia
+	base.city.special_box = function () {
+		folha.guia.special_box( base.cookie.get() ) ;
+	} ;
+
+	base.init() ;
+} ;
+// Obt\xe9m as informa\xe7\xf5es e chama o plugin
+folha.weather = {
+	collection: null ,
+
+	init: function ( data ) {
+		this.collection = data.list || null ;
+
+		$( "#weather" ).weather( {
+			collection: data.list || null
+		} ) ;
+	}
+} ;
+
+// V\xeddeo Player
+(function($, folha, Modernizr, window, undefined) {
+	var config, players, extend_params, mount_flash, support_flash;
+
+	// config est\xe1tico
+	config = {
+		class_loaded: 'video-player-loaded'
+	}
+
+	// agrega novas op\xe7\xf5es e transforma em querystring
+	// @param {Object} original configura\xe7\xf5es originais/padr\xe3o
+	// @param {Object|string} custom configura\xe7\xf5es adicionais
+	// @param {String} prefix string a ser prependida no retorno
+	extend_params = function (original, custom, prefix) {
+		var serial = [], params, deserialized,
+			list, i, total, current;
+
+		switch (typeof custom) {
+			case 'string':
+				deserialized = {};
+				custom = custom.replace('&amp;', '&');
+				list = custom.split('&');
+
+				total = list.length;
+				for (i = 0; i < total; i++) {
+					if (list[i].indexOf('=') > 0) {
+						current = list[i].split('=');
+						deserialized[current[0]] = current[1];
+					}
+				}
+				break;
+			case 'object':
+				deserialized = custom;
+				break;
+			case 'undefined':
+				break;
+		}
+		params = $.extend(true, {}, original, deserialized);
+
+		$.each(params, function (key, val) {
+			serial.push(key + '=' + val);
+		});
+		return (prefix ? prefix : '') + serial.join('&');
+	};
+
+	var use_video = function () {
+		var video ;
+
+		if ( ! window.navigator.userAgent.match( /Android|BlackBerry|iPhone|iPad|iPod|IEMobile|(Opera Mini)/i ) ) {
+			return false ;
+		}
+
+		video = document.createElement( "video" ) ;
+		if ( video.canPlayType( 'video/mp4; codecs="mp4v.20.8"' ) === ''
+			&& video.canPlayType( 'video/mp4; codecs="avc1.42E01E"' ) === ''
+			&& video.canPlayType( 'video/mp4; codecs="avc1.42E01E, mp4a.40.2"' ) === ''
+		) {
+			return false ;
+		}
+		return Modernizr.video && Modernizr.video.h264 ;
+	} ;
+
+	// chama o plugin para adicionar o swf
+	// usa as dimens\xf5es do elemento pai
+	var mount_flash = function ( that , swf ) {
+		 that.Flashr({
+			url: swf,
+			width: that.width(),
+			height: that.height(),
+			params: {
+				wmode: 'opaque',
+				allowfullscreen: 'true'
+			}
+		});
+	} ;
+
+	var mount_player = function ( $el , player , video_id , args ) {
+		if ( Modernizr.video ) {
+
+			if ( player.name === "uolmais" ) {
+
+				$el.html( '<iframe width="' + $el.width() + '" height="' + $el.height() + '" src="//player.mais.uol.com.br/?mediaId=' + video_id + '" allow="autoplay; fullscreen" allowfullscreen frameborder="0"></iframe>' ) ;
+
+			} else if ( player.name === "aovivouol" ) {
+				player.get_html5( $el, video_id, args ) ;
+			} else {
+				$el.html( '<iframe width="' + $el.width() + '" height="' + $el.height() + '" src="' + player.get_html5( video_id , args ) + '" frameborder="0" allowfullscreen></iframe>' ) ;
+			}
+
+		} else {
+			if ( typeof player.get_swf !== 'undefined' ) {
+				mount_flash( $el, player.get_swf(video_id, args) ) ;
+			} else {
+				$el.html( '<iframe width="' + $el.width() + '" height="' + $el.height() + '" src="' + player.get_html5( video_id , args ) + '" frameborder="0" allowfullscreen></iframe>' ) ;
+			}
+		}
+	} ;
+
+	// lista de players suportados
+	$.video_player = {};
+	// Esquema de plugin:
+	// name - nome do player, ser\xe1 usado como classe
+	// pattern - padr\xe3o RegExp, extraindo em $1 o id do v\xeddeo
+	// set_preview(container, video_id, credit) - m\xe9todo chamado para adicionar imagem de preview
+	//  container - div com uma imagem de preview para ser alterado o source e um span do bot\xe3o de play
+	//  video_id - id do v\xeddeo (geralmente usado para pegar a imagem)
+	//  credit - cr\xe9dito do v\xeddeo (alt da imagem)
+	// get_swf(video_id, args) - gera a url para o swf
+	//  video_id - id do v\xeddeo
+	//  args - argumentos para sobrescrever os padr\xf5es ao chamar na url
+	$.video_player.players = {
+		youtube: {
+			name: 'youtube',
+			// pattern: /youtube\.com\/watch\?v=([^&]+)/gi,
+			pattern: [
+				/^https?:\/\/(www\.)?youtube\.com\/watch\?v=([^&]+).*$/gi,
+				/^https?:\/\/(www\.)?youtube\.com\/v\/([^?]+).*$/gi
+			],
+			set_preview: function(container, video_id, credit) {
+				var link = container.find('a'),
+					image = $(document.createElement('img')),
+					hqimage = parseFloat(container.width()) > 320 ? '/maxresdefault.jpg' : '/mqdefault.jpg';
+
+				if (container.hasClass('wide') || (parseFloat(container.width())/parseFloat(container.height())) > 1.5) {
+					container.hasClass('wide') || container.height(Math.floor((9/16)*parseFloat(container.width())));
+					image.attr('src', '//img.youtube.com/vi/' + video_id + hqimage);
+				} else if (container.hasClass('vertical') || (parseFloat(container.width())/parseFloat(container.height())) < 0.7) {
+					container.hasClass('vertical') || container.height(Math.floor((16/9)*parseFloat(container.width())));
+					image.attr('src', '//img.youtube.com/vi/' + video_id + hqimage);
+				} else {
+					container.hasClass('normal') || container.height(Math.floor((3/4)*parseFloat(container.width())));
+					image.attr('src', '//img.youtube.com/vi/' + video_id + '/0.jpg');
+				}
+				image.attr('alt', credit ? credit : 'Clique aqui para reproduzir');
+				image.className = "preview";
+				link.append(image);
+			},
+			get_swf: function (video_id, args) {
+				var url = '//www.youtube.com/v/' + video_id;
+				url = url + extend_params(this.url_args, args, '?');
+				return url;
+			},
+			get_html5: function ( video_id , args ) {
+				var url = "//www.youtube.com/embed/" + video_id ;
+				url = url + extend_params( this.url_args, args, "?" ) ;
+				return url ;
+			},
+			url_args: {
+				hl: 'pt_BR',
+				modestbranding: 1,
+				showsearch: 0,
+				rel: 0,
+				showinfo: 0,
+				controls: 1
+			},
+			autoplay: {
+				autoplay: 1
+			}
+		},
+		uolmais: {
+			name: 'uolmais',
+			// pattern: /mais\.uol\.com\.br\/view\/(\d+)/gi,
+			pattern: /^https?:\/\/(www\.)?mais\.uol\.com\.br\/view\/(\d+)/gi,
+			set_preview: function(container, video_id, credit) {
+				var link = container.find('a'),
+					image = $(document.createElement('img'));
+
+				if (container.hasClass('wide') || (parseFloat(container.width())/parseFloat(container.height())) > 1.5) {
+					container.hasClass('wide') || container.height(Math.floor((9/16)*parseFloat(container.width())));
+				} else if (container.hasClass('vertical') || (parseFloat(container.width())/parseFloat(container.height())) < 0.7) {
+					container.hasClass('vertical') || container.height(Math.floor((16/9)*parseFloat(container.width())));
+				} else if (!container.hasClass('normal')) {
+					container.height(Math.floor((9/16)*parseFloat(container.width())));
+				}
+
+				image.attr('alt', credit ? credit : 'Clique aqui para reproduzir');
+				image.attr('src', '//thumb.mais.uol.com.br/' + video_id + '.jpg');
+				image.className = "preview";
+				link.append(image);
+			},
+			get_swf: function (video_id, args) {
+				// var url = 'http://player.mais.uol.com.br/player_video_v5.swf?mediaId=' + video_id;
+				var url = '//player.mais.uol.com.br/embed_v2.swf?mediaId=' + video_id;
+				url = url + extend_params(this.url_args, args, '&');
+				return url;
+			},
+			get_html5: function ( that , video_id , args ) {
+				$.ajax( {
+					async: true,
+					type:'GET',
+					url: '//mais.uol.com.br/apiuol/player/media?mediaId=' + video_id,
+					dataType: 'jsonp',
+					jsonpCallback: "media_data",
+					success: function( data ) {
+						that.html( '<video controls autoplay name="media" width="' + that.width() + '" height="' + that.height() + '" src="' + data.media.formats[0].url + '" type="video/mp4"></video>' ) ;
+					}
+				} ) ;
+			},
+			url_args: {},
+			autoplay: {
+				p: 'embed_start'
+			}
+		},
+		vimeo: {
+			name: 'vimeo',
+			// pattern: /vimeo\.com\/(\d+)/gi,
+			pattern: /^https?:\/\/(www\.)?vimeo\.com\/(\d+)/gi,
+			set_preview: function(container, video_id, credit) {
+				if (container.hasClass('wide') || (parseFloat(container.width())/parseFloat(container.height())) > 1.5) {
+					container.hasClass('wide') || container.height(Math.floor((9/16)*parseFloat(container.width())));
+				} else if (container.hasClass('vertical') || (parseFloat(container.width())/parseFloat(container.height())) < 0.7) {
+					container.hasClass('vertical') || container.height(Math.floor((16/9)*parseFloat(container.width())));
+				}
+				$.ajax({
+					async: true,
+					type:'GET',
+					url: '//vimeo.com/api/v2/video/' + video_id + '.json',
+					jsonp: 'callback',
+					dataType: 'jsonp',
+					success: $.proxy(function(data) {
+						var link = container.find('a'),
+							image = $(document.createElement('img'));
+						image.attr('alt', credit ? credit : 'Clique aqui para reproduzir');
+						image.attr('src', data[0].thumbnail_large);
+						image.className = "preview";
+						link.append(image);
+					}, this)
+				});
+			},
+			get_swf: function (video_id, args) {
+				var url = '//vimeo.com/moogaloop.swf?clip_id=' + video_id;
+				url = url + extend_params(this.url_args, args, '&');
+				return url;
+			},
+			get_html5: function ( video_id , args ) {
+				var url = "//player.vimeo.com/video/" + video_id ;
+				url = url + extend_params( this.url_args, args, "?" ) ;
+				return url ;
+			},
+			url_args: {
+				byline: 0,
+				portrait: 0
+			},
+			autoplay: {
+				autoplay: 1
+			}
+		},
+		vice: {
+			name: 'vice',
+			pattern: /^https?:\/\/(www\.)vice\.com\/pt_br\/[\w].*#ooid=([^&]+).*$/gi,
+			set_preview: function(container, video_id, credit) {
+				if (container.hasClass('wide') || (parseFloat(container.width())/parseFloat(container.height())) > 1.5) {
+					container.hasClass('wide') || container.height(Math.floor((9/16)*parseFloat(container.width())));
+				} else if (container.hasClass('vertical') || (parseFloat(container.width())/parseFloat(container.height())) < 0.7) {
+					container.hasClass('vertical') || container.height(Math.floor((16/9)*parseFloat(container.width())));
+				}
+
+				if ( container.find( '.preview' ).length === 0 ) {
+					$( $.proxy( function () {
+						container.find( 'a' ).trigger( 'click' ) ;
+					} , this ) ) ;
+				}
+			},
+			get_html5: function ( video_id , args ) {
+				var url = "//player.ooyala.com/iframe.html#ec=" + video_id ;
+				url = url + extend_params( this.url_args, args, "&" ) ;
+				return url ;
+			},
+			url_args: {
+				pbid: "YjMwNmI4YjU2MGM5ZWRjMzRmMjljMjc5"
+			},
+			autoplay: {}
+		},
+		aovivouol: {
+			name: "aovivouol" ,
+			pattern: /(http):\/\/evp.mm.uol.com.br:1935\/folha\/([\w].*)\/playlist.m3u8/gi ,
+			set_preview: function ( container, video_id, credit ) {} ,
+			// get_swf: function ( streaming_name , args ) {
+			//     var url = "http://int.imguol.com/entretenimento/player-aovivo/player-final.swf?file=" + streaming_name ;
+			//     url = url + extend_params( this.url_args, args, "&" ) ;
+			//     return url ;
+			// } ,
+			// get_html5: function ( $el , streaming_name , args )  {
+			//     var url = "http://evp.mm.uol.com.br:1935/folha/" + streaming_name + "/playlist.m3u8" ;
+
+			//     $el.html( '<video src="' + url + '" width="' + $el.width() + '" height="' + $el.height() + '" controls></video>' )
+			// } ,
+			get_html5: function ( $el , streaming_name , args ) {
+				var url = "//evp.mm.uol.com.br:1935/folha/" + streaming_name + "/playlist.m3u8",
+				image_polyfill = $( $el.find( 'img' ) ).attr( 'src' ),
+				el_width = $el.width(),
+				el_height = $el.height() ;
+
+				if ( !el_height ) {
+					el_height = (10/16) * el_width ;
+					$el.css( 'min-height' , el_height + 'px' ) ;
+				}
+
+				//ajustar id do elemento
+				$el.find( 'a' ).wrap( '<div id="live-jwplayer"></div>' ) ;
+
+				//montar script
+				var head = document.getElementsByTagName( "head" )[0] ,
+					jwscript = document.createElement( "script" ) ,
+					mounter = function () {
+						var jwplayer = window.jwplayer ;
+						console.log(jwplayer) ;
+						jwplayer( "live-jwplayer" ).setup( { /*checa suas pr\xf3prias propiedades para montar o player em html5 ou em flash*/
+							file: url,
+							image: ( typeof image_polyfill !== "undefined" ) ? image_polyfill : '//f.i.uol.com.br/folha/furniture/5.2/images/logo-folha_thumb_video.jpg',
+							width: el_width,
+							height: ( ( typeof image_polyfill !== "undefined" ) ? el_height : 390 ),
+							primary: "html5",
+							autostart: true,
+							type: "hls",
+							advertising: {
+								client: "googima",
+								schedule: {
+									myAds: {
+										offset: "pre",
+										//dfp folha
+										tag: "//pubads.g.doubleclick.net/gampad/ads?slotname=/8804/uol/tab&sz=640x480&ciu_szs=300x250&cust_params=keyword%3Dacesso-direto-1&url=%5Breferrer_url%5D&unviewed_position_start=1&output=xml_vast2&impl=s&env=vp&gdfp_req=1&ad_rule=0&video_url_to_fetch=%5Bdescription_url%5D&vad_type=linear&vpos=preroll&pod=1&min_ad_duration=0&max_ad_duration=999999000&ppos=1&lip=true"
+									}
+								}
+							}
+						} ) ;
+					} ;
+
+				jwscript.setAttribute( "id" , "script-jwplayer" ) ;
+				jwscript.setAttribute( "src" , "//jwpsrv.com/library/7yFR_ob_EeSw5goORWfmyA.js" ) ;
+				jwscript.onreadystatechange = function () {
+					if ( this.readState == 'complete' ) {
+						mounter() ;
+					}
+				} ;
+				jwscript.onload = mounter ;
+				head.appendChild( jwscript ) ;
+			} ,
+			get_swf: function ( $el , streaming_name , args ) {
+				var url = "//evp.mm.uol.com.br:1935/folha/" + streaming_name + "/playlist.m3u8" ;
+
+				$el.html( '<video src="' + url + '" width="' + $el.width() + '" height="' + $el.height() + '" controls></video>' )
+			} ,
+			url_args: {
+				streamer: "rtmp://evp.mm.uol.com.br/folha" ,
+				autostart: true
+			} ,
+			autoplay: {}
+		},
+		vine: {
+			name: "vine" ,
+			pattern: /https?:\/\/(www\.)?vine\.co\/v\/([\w]+(\/embed\/(simple|postcard))?)/gi ,
+			get_html5: function ( video_id , args ) {
+				var url ;
+				if ( ! /\/embed\/(simple|postcard)/.test( video_id ) ) {
+					video_id = [ video_id.split( /\// ).shift() , 'embed' , 'postcard' ].join( '/' ) ;
+				}
+
+				if ( ! $( 'html' ).hasClass( 'lt-ie9' ) && ! $( 'body' ).hasClass( 'vine-loaded' ) ) {
+					$( 'body' ).addClass( 'vine-loaded' , true ) ;
+					$( function () {
+						$( 'body' ).append( $( document.createElement( 'script' ) ).attr( 'id' , 'script-vine' ).attr( 'src' , '//platform.vine.co/static/scripts/embed.js' ) ) ;
+					} ) ;
+				}
+				url = '//vine.co/v/' + video_id ;
+				url = url + '?' + extend_params( this.url_args, args, "&" ) ;
+				return url ;
+			} ,
+			url_args: {
+				related: 0
+			} ,
+			autoplay: {}
+		},
+		dailymotion: {
+		   name: "dailymotion" ,
+		   pattern: /^https?:\/\/(www\.)?dailymotion\.com\/video\/(\w+)/gi,
+		   get_html5: function ( video_id ) {
+				var url;
+				url = '//www.dailymotion.com/embed/video/' + video_id ;
+				return url;
+		   },
+		   set_preview: function ( container, video_id, credit ) {} ,
+		}
+	};
+
+	// plugin para adicionar o player.
+	// @param {Object} args op\xe7\xf5es do plugin
+	// @param {Function} onplay callback a ser executado ap\xf3s o clique na imagem
+	$.fn.video_player = function(args, onplay) {
+		var plugin_args;
+		plugin_args = Array.prototype.slice.call(arguments);
+		return $(this).each(function() {
+			var $this = $(this),
+				url;
+
+			// para n\xe3o adicionar novamente, tem-se uma classe que atua como flag
+			if ($this.hasClass(config.class_loaded)) {
+				return this;
+			}
+
+			// por padr\xe3o deve haver o link pro servi\xe7o
+			if ($('a', this).length > 0) {
+				url = $('a', this).attr('href');
+				// busca o player nas defini\xe7\xf5es
+				$.each($.video_player.players, function(service, player) {
+					var video_id, credit, urlparts, video_args, player_args , pattern , i , total ;
+
+					if ( player.pattern instanceof Array ) {
+						total = player.pattern.length ;
+						for ( i = 0 ; i < total ; i++ ) {
+							if ( url.match( player.pattern[ i ] ) ) {
+								pattern = player.pattern[ i ] ;
+								break ;
+							}
+						}
+					} else if ( url.match( player.pattern ) ) {
+						pattern = player.pattern ;
+					}
+
+					if ( ! pattern ) {
+						return true ;
+					}
+
+					$this.addClass(player.name);
+
+					video_id = url.replace( pattern , "$2" ) ;
+
+					if ( player.name === 'youtube' ) {
+						// reset args
+						video_args = {} ;
+						urlparts = url.split( '#' ).shift().split( '?' ).pop().replace('&amp;', '%26amp;').split( '&' );
+						$.each( urlparts , function ( idx, value ) {
+							var parts = value.split( '=' ) ;
+							if ( 'v' === parts[0] ) {
+								video_id = parts[1] ;
+							} else {
+								video_args[ parts[0] ] = parts[1].replace( '%26amp;', '&amp' ) ;
+							}
+						} ) ;
+					}
+
+					player_args = $.extend( true , {} , video_args , args ) ;
+
+					if ( $this.hasClass( 'autoload' ) ) {
+						mount_player( $this, player, video_id, player_args ) ;
+					} else {
+						// efeito no hover
+						if ($this.find('a > .icon-video-play').length === 0) {
+							$this.find('a').hover(function () {
+								$(this).find('.icon-video-play').stop().animate({opacity: 0.3}, 'slow');
+							}, function () {
+								$(this).find('.icon-video-play').stop().animate({opacity: 1}, 'slow');
+							});
+						}
+
+						// adiciona preview caso n\xe3o existir
+						if ($this.find('.preview').length === 0 && player.set_preview) {
+							credit = $this.find('a > img').attr('alt');
+							$this.find('a > img').remove();
+							player.set_preview($this, video_id, credit);
+						}
+
+						// cria a\xe7\xe3o para o clique na imagem
+						$this.find('a').bind('click', function() {
+							// executa callback, se estiver definido
+							onplay && onplay();
+
+							mount_player( $this, player, video_id, $.extend( true, {}, player_args, player.autoplay ) ) ;
+
+							return false;
+						});
+					}
+					return false;
+				});
+			}
+
+			$this.addClass(config.class_loaded);
+			return this;
+		});
+	};
+
+	$(function(){
+		// TV Folha
+		$('.video-player').video_player({}, function(){
+			folha.refresh.stop();
+		});
+	});
+}).apply(this, [jQuery, folha, Modernizr, window]);
+
+
+// Personal - Sua Folha
+folha.personal = {
+	soccer_team: [] ,
+
+	_blogs: [] ,
+
+	blogs: [] ,
+
+	columnists: [] ,
+
+	init: function () {
+		$( "section.sua_folha .pick a.btn" ).click( function( event ) {
+			event.stopPropagation();
+
+			$( "section.sua_folha div.setting-box" ).hide() ;
+
+			$( this ).next( "div.items" ).toggle().find( "a" ).click( function() {
+				$( this ).parents( "div.items" ).fadeOut() ;
+			} ) ;
+		} ) ;
+
+		$( "section.sua_folha a.setting , section.sua_folha div.setting-box" ).click( function( event ) {
+			event.stopPropagation() ;
+			$( "section.sua_folha div.items" ).hide() ;
+		} ) ;
+
+		$( "html" ).click ( function () {
+			$( "section.sua_folha div.items" ).hide() ;
+			$( "section.sua_folha div.setting-box" ).hide() ;
+		} ) ;
+
+		$( "section.sua_folha a.setting" ).click( function() {
+			$( "section.sua_folha div.setting-box" ).show() ;
+		} ) ;
+
+		this.setting() ;
+	} ,
+
+	reduce_text: function ( text , limit ) {
+		limit = limit - 3 ; // Retic\xeancias
+
+		if ( text.length < limit ) {
+			return text ;
+		}
+
+		for ( var i = 0 , result = [] ; i < limit ; i++ ) {
+			result.push( text.charAt(i) ) ;
+		}
+
+		// Junta as letras em palavras
+		result = result.join( "" ) ;
+		// Separa as palavras individualmente
+		result = result.split( " " ) ;
+
+		// Evita espa\xe7o vazio e html entities( Ex c&o... ) n\xe3o acabado antes das retic\xeancias
+		if ( result[result.length-1].match( /&|^$|\s/gi ) ) {
+			result.pop() ;
+		}
+
+		return result.join( " " ) + "..." ;
+	} ,
+	// Sua Folha - Mostra ou esconde as caixas
+	show: function ( id ) {
+		$( "#" + id ).removeClass( "hide" ) ;
+	} ,
+
+	checked: [
+		"horoscope" ,
+		"personal-blogs"
+	] ,
+
+	set_cookie: function ( value ) {
+		$.cookie( "folha-personal-setting" , value , { expires: 365 , domain: folha.information.domain() } ) ;
+	} ,
+
+	setting: function() {
+		var checkbox = $( "div.setting-box input[type=checkbox]" ) ;
+
+		// Verificar se existe cookie
+		if ( $.cookie( "folha-personal-setting" ) ) {
+			folha.personal.checked = $.cookie( "folha-personal-setting" ).split( "," ) ;
+		}
+
+		// Esconde todas as caixas/sections
+		$( "section.sua_folha section" ).addClass( "hide" ) ;
+
+		// Checked todos checkbox
+		checkbox.attr( "checked" , "checked" ) ;
+		checkbox.each( function ( i , el ) {
+			var elem = $( el ) ;
+
+			// Desabilita os checkboxs que n\xe3o est\xe3o na array
+			if ( $.inArray( elem.val() , folha.personal.checked ) < 0 ) {
+				elem.removeAttr( "checked" ).attr( "disabled" , "disabled" ) ;
+				elem.parents( "label" ).addClass( "disabled" ) ;
+			} else {
+				folha.personal.show( elem.val() ) ;
+			}
+		} ) ;
+
+
+		checkbox.change ( function () {
+			var that = $( this ) , counter = 0 , arr = [] ;
+
+			checkbox.parents( "label" ).removeClass( "disabled" ) ;
+
+			// Adiciona a quantidade de checkboxs selecionados
+			checkbox.each( function ( i , el ) {
+				if ( $( el )[0].checked ) {
+					counter++ ;
+				}
+			} ) ;
+
+			// M\xednimo 2 checkboxs selecionados
+			if ( counter < 2 ) {
+				checkbox.removeAttr( "disabled" ) ;
+			} else {
+				checkbox.not(":checked").attr( "disabled" , "disabled" ) ;
+
+				$( "section.sua_folha section" ).addClass( "hide" ) ;
+
+				checkbox.each( function ( i , el ) {
+					var elem = $( el ) ;
+
+					if ( elem[0].checked ) {
+						folha.personal.show( elem.val() ) ;
+						arr.push( elem.val() ) ;
+					} else {
+						elem.parents( "label" ).addClass( "disabled" ) ;
+					}
+				} ) ;
+
+				if ( arr.length > 0 ) {
+					folha.personal.set_cookie( arr.join( "," ) ) ;
+					// clickuol
+					folha.clicks.on( "widget-sua_folha" , "?opcao-" + arr.join( "-e-" ) ) ;
+					// clickuol
+				}
+			}
+
+		} ) ;
+	}
+} ;
+
+// Sua Folha - Horoscope
+$.fn.horoscope = function ( options ) {
+	var base = {} , options = options || false ;
+
+	base.$el = this ;
+
+	base.config = {
+		now: null ,
+		url: "//www1.folha.uol.com.br/horoscopo/previsoes/" ,
+		page: "//www.f5.folha.uol.com.br/horoscopo#" ,
+		file_name: "horoscopo.js" ,
+		forecast: {} ,
+		signs: [ "aries" , "touro" , "gemeos" , "cancer" , "leao" , "virgem" , "libra" , "escorpiao" , "sagitario" , "capricornio" , "aquario" , "peixes" ] ,
+		signs_name: [ "\xc1ries" , "Touro" , "G\xeameos" , "C\xe2ncer" , "Le\xe3o" , "Virgem" , "Libra" , "Escorpi\xe3o" , "Sagit\xe1rio" , "Capric\xf3rnio" , "Aqu\xe1rio" , "Peixes" ] ,
+		period: [ "21/03 a 20/04" , "21/04 a 20/05" , "21/05 a 20/06" , "21/06 a 21/07" , "22/07 a 22/08" , "23/08 a 22/09" , "23/09 a 22/10" , "23/10 a 21/11" , "22/11 a 21/12" , "22/12 a 20/01" , "21/01 a 19/02" , "20/02 a 20/03" ] ,
+		current_sign: null
+	} ;
+
+	base.init = function () {
+		base.config = $.extend( {} , base.config , options ) ;
+
+		base.get_data = function ( url , callback ) {
+			$.ajax( {
+				cache: true ,
+				url: url ,
+				dataType: "script" ,
+				success: function () {
+					if ( typeof folha.horoscope.forecast != "undefined" ) {
+
+						if ( typeof callback === "function" ) {
+
+							var data ;
+							for ( var k in folha.horoscope.forecast ) {
+								if ( typeof folha.horoscope.forecast[k] == "object" ){
+									data =  folha.horoscope.forecast[k] ;
+								}
+							}
+
+							callback( data ) ;
+						}
+					}
+				}
+			} ) ;
+		} ;
+
+		base.get_date = function () {
+			base.config.now = new Date( base.config.now ) ;
+			base.config.year = base.config.now.getFullYear() ;
+			base.config.month = base.config.now.getMonth() + 1 ;
+			base.config.day = base.config.now.getDate() ;
+
+			var month = base.config.month , day = base.config.day ;
+
+			month = ( month < 10 ? "0" + month : month ) ;
+			day = ( day < 10 ? "0" + day : day ) ;
+
+			return base.config.year + "/" + month + "/" + day ;
+		} ;
+
+		base.set_forecast = function ( data ) {
+			for( var i = 0 , len = data.length; i < len ; i++ ) {
+				base.config.forecast[base.config.signs[i]] = {
+					name: base.config.signs_name[i] ,
+					info: data[i] ,
+					period: base.config.period[i]
+				}
+			}
+
+			base.get_sign() ;
+			base.mount() ;
+		} ;
+
+		base.get_sign = function () {
+
+			if ( $.cookie( "folha-sign" ) != null ) {
+				base.config.current_sign = $.cookie( "folha-sign" ) ;
+				return ;
+			}
+
+			var signs = {
+				1: {
+					first: base.config.signs[9] ,
+					second: base.config.signs[10] ,
+					limit: 21
+				} ,
+				2: {
+					first: base.config.signs[10] ,
+					second: base.config.signs[11] ,
+					limit: 20
+				} ,
+				3: {
+					first: base.config.signs[11] ,
+					second: base.config.signs[0] ,
+					limit: 21
+				} ,
+				4: {
+					first: base.config.signs[0] ,
+					second: base.config.signs[1] ,
+					limit: 21
+				} ,
+				5: {
+					first: base.config.signs[1] ,
+					second: base.config.signs[2] ,
+					limit: 21
+				} ,
+				6: {
+					first: base.config.signs[2] ,
+					second: base.config.signs[3] ,
+					limit: 21
+				} ,
+				7: {
+					first: base.config.signs[3] ,
+					second: base.config.signs[4] ,
+					limit: 22
+				} ,
+				8: {
+					first: base.config.signs[4] ,
+					second: base.config.signs[5] ,
+					limit: 23
+				} ,
+				9: {
+					first: base.config.signs[5] ,
+					second: base.config.signs[6] ,
+					limit: 23
+				} ,
+				10: {
+					first: base.config.signs[6] ,
+					second: base.config.signs[7] ,
+					limit: 23
+				} ,
+				11: {
+					first: base.config.signs[7] ,
+					second: base.config.signs[8] ,
+					limit: 22
+				} ,
+				12: {
+					first: base.config.signs[8] ,
+					second:base.config.signs[9] ,
+					limit: 22
+				}
+			} ;
+
+			if ( base.config.day < signs[base.config.month].limit ) {
+				base.config.current_sign = signs[base.config.month].first ;
+			} else {
+				base.config.current_sign = signs[base.config.month].second ;
+			}
+		} ;
+
+		base.mount = function ( sign ) {
+			sign = sign || base.config.current_sign ;
+
+			base.elem_content.html( '<div class="hide"><span class="btn emblem">\
+				<a onclick="folha.clicks.on(\'widget-sua_folha\', this.href )" href="' + ( base.config.page + sign ) + '" class="sprite icon-horoscope-' + sign + '" title="' + base.config.forecast[sign].name + '"><\/a>\
+				<\/span>\
+				<h3>' + base.config.forecast[sign].name + '<\/h3>\
+				<p class="forecast"><a onclick="folha.clicks.on(\'widget-sua_folha\', this.href )" href="' + ( base.config.page + sign ) + '" title="Leia Mais">' + folha.personal.reduce_text( base.config.forecast[sign].info , 100 ) + '<\/a><\/p><\/div>' ) ;
+
+			// <span class="period">' + base.config.forecast[sign].period + '<\/span>\
+
+			base.$el.find( "div.pick" ).fadeIn( "slow" ).removeClass( "hide" ) ;
+			base.elem_content.find( "div.hide" ).fadeIn( "slow" ).removeClass( "hide" ) ;
+
+		} ;
+
+		base.set_cookie = function ( sign ) {
+			$.cookie( "folha-sign" , sign , { expires: 365 , domain: folha.information.domain() } ) ;
+		} ;
+
+		if ( base.config.now === null ) {
+			return ;
+		}
+
+		// Horoscopo - Legado
+		folha.horoscope = { forecast: [] , skyforall: [] } ;
+
+		base.elem_content = base.$el.find( "div.content" );
+		base.elem_content.html( '<img src="' + folha.information.loading.alternate + '" class="loading" \/>' ) ;
+
+		base.get_data( base.config.url + base.get_date() + "/" + base.config.file_name , base.set_forecast ) ;
+
+		base.$el.find( "div.pick ul > li a" ).click( function () {
+			var a = $( this ) , sign = a.attr( "data-sign" ) ;
+			base.mount( sign ) ;
+			base.set_cookie( sign ) ;
+			// clickuol
+			folha.clicks.on( "widget-sua_folha" , "?horoscopo-" + sign ) ;
+			// clickuol
+			a.parents( "div.items" ).fadeOut( "slow" ) ;
+		} ) ;
+
+	} ;
+
+	base.init();
+} ;
+
+// Sua Folha - Soccer Team
+$.fn.soccer_team = function ( options ) {
+	var base = {} , options = options || false ;
+
+	base.$el = this ;
+
+	base.config = {
+		collection: [] ,
+		page: "//www1.folha.uol.com.br/esporte/" ,
+		slug: [ "corinthians" , "palmeiras" , "santos" , "saopaulo" ] ,
+		name: {
+			corinthians: "Corinthians" ,
+			palmeiras: "Palmeiras" ,
+			santos: "Santos" ,
+			saopaulo: "S\xe3o Paulo"
+		}
+	} ;
+
+	base.init = function () {
+		base.config = $.extend( {} , base.config , options ) ;
+
+		base.random_order = function () {
+			return ( Math.round( Math.random() ) - 0.5 ) ;
+		} ;
+
+		// Verifica a integridade do Object
+		base.check = function ( ) {
+			base.config.slug.sort( base.random_order ) ;
+
+			var team = $.cookie( "folha-team" ) || base.config.slug[0] ;
+
+			return ( typeof folha.personal.soccer_team[ "esporte/" + team ] ) ? true : false ;
+		} ;
+
+		base.set_cookie = function ( team ) {
+			$.cookie( "folha-team" , team , { expires: 365 , domain: folha.information.domain() } ) ;
+		} ;
+
+		base.mount = function ( team ) {
+			team = team || $.cookie( "folha-team" ) || base.config.slug[0] ;
+
+			var data = folha.personal.soccer_team[ "esporte/" + team ] ;
+
+			base.elem_content.html( '<span class="btn emblem">\
+				<a onclick="folha.clicks.on(\'widget-sua_folha\', this.href )" href="' + ( base.config.page + team ) + '" class="sprite icon-emblem-' + team + '" title="' + base.config.name[team] + '"><\/a>\
+				<\/span>\
+				<h3>' + base.config.name[team] + '<\/h3>\
+				<p class="news"><a onclick="folha.clicks.on(\'widget-sua_folha\', this.href )" href="' + data.url  + '" title="Leia Mais">' + folha.personal.reduce_text( data.title , 77 ) + '<\/a><\/p>' );
+
+			base.$el.find( "div.pick" ).removeClass( "hide" ) ;
+
+		} ;
+
+		if ( ! base.check() ) {
+			return ;
+		}
+
+		base.elem_content = base.$el.find( "div.content" ) ;
+		base.elem_content.html( '<img src="' + folha.information.loading.alternate + '" class="loading" \/>' ) ;
+
+		base.mount() ;
+
+		// Change
+		base.$el.find( "div.pick ul > li a" ).click( function () {
+			var a = $( this ) , team = a.attr( "data-team" ) ;
+			base.mount( team ) ;
+			base.set_cookie( team ) ;
+			// clickuol
+			folha.clicks.on( "widget-sua_folha" , "?time-" + team ) ;
+			// clickuol
+			a.parents( "div.items" ).fadeOut( "slow" ) ;
+		} ) ;
+
+	} ;
+
+	base.init() ;
+} ;
+
+// Sua Folha - Blogs
+$.fn.personal_blogs = function ( options ) {
+	var base = {} , options = options || false ;
+
+	base.$el = this ;
+
+	base.config = {
+		collection: [] ,
+		list: [] ,
+		json_url: "//www1.folha.uol.com.br/blogs/feeds/##name##.json" ,
+		actual: null ,
+		exclude: [ "direito" ]
+	}
+
+	base.init = function () {
+		base.config = $.extend( {} , base.config , options ) ;
+
+		base.random_order = function () {
+			return ( Math.round( Math.random() ) - 0.5 ) ;
+		} ;
+
+		base.create_slug = function ( url ) {
+			var re = /^\/\/([^\.]+)+?/gi ;
+
+			return url.match( re ) ? RegExp.$1.replace( "#" , "" ) : "" ;
+		} ;
+
+		 // Verifica a integridade do Object
+		base.check = function ( ) {
+			base.config.collection.sort( base.random_order ) ;
+
+			base.config.actual = $.cookie( "folha-personal-blogs" ) || base.config.collection[0].slug ;
+
+			// Enquanto "actual" estiver na array exclude, chama a fun\xe7\xe3o novamente e pegar um blog aleat\xf3rio
+			while( $.inArray( base.config.actual , base.config.exclude ) > -1 ) {
+				base.set_cookie( null ) ;
+				base.check() ;
+			}
+		} ;
+
+		base.set_cookie = function ( blog_slug ) {
+			$.cookie( "folha-personal-blogs" , blog_slug , { expires: 365 , domain: folha.information.domain() } ) ;
+		} ;
+
+		base.get = function ( blog_slug , callback ) {
+			$.ajax( {
+				url: base.config.json_url.replace( "##name##" , blog_slug ) ,
+				dataType: "jsonp" ,
+				cache: true,
+				jsonpCallback: "get_posts" ,
+				success: function ( data ) {
+					if ( typeof callback == "function" ) {
+						// Obt\xe9m o \xfaltimo post
+						callback( data[0] ) ;
+					}
+				}
+			} ) ;
+		} ;
+
+		base.mount = function ( data ) {
+			for ( var blog , len = base.config.collection.length , i = 0 ; i < len ; i++ ) {
+				if ( base.config.collection[i].slug == base.config.actual ) {
+					blog = base.config.collection[i] ;
+					break ;
+				}
+			}
+
+			base.$el.find( "div.content" ).html('<span class="btn photo">\
+				 <a onclick="folha.clicks.on(\'widget-sua_folha\', this.href )" href="' + blog.url + '" class="" title="' + data.title + '">\
+				 <img src="' + blog.image + '" alt="' + blog.title + '"><\/a>\
+				 <\/span>\
+				 <h3>' + blog.title + '<\/h3>\
+				 <p class="news"><a onclick="folha.clicks.on(\'widget-sua_folha\', this.href )" href="' + data.link_permanent  + '" title="Leia Mais">' + folha.personal.reduce_text( data.title , 75 ) + '<\/a><\/p>' );
+
+			base.$el.find( "div.pick" ).fadeIn( "slow" ).removeClass( "hide" ) ;
+
+		} ;
+
+		base.mount_list = function () {
+			var half = Math.ceil( ( base.config.collection.length - 1 ) / 2 ) ;
+
+			for ( var first = [] , second = [] , len = base.config.collection.length , i = 0 ; i < len ; i++ ) {
+				if ( $.inArray( base.config.collection[i].slug , base.config.exclude ) < 0 ) {
+					if ( i < half ) {
+						first.push( '<li><a data-blog="' + base.config.collection[i].slug + '">' + base.config.collection[i].title + '</a></li>' ) ;
+					} else {
+						second.push( '<li><a data-blog="' + base.config.collection[i].slug + '">' + base.config.collection[i].title + '</a></li>' ) ;
+					}
+				}
+			}
+
+			if ( first.length > 0 ) {
+				base.$el.find( "div.items div.lists" ).html( '<ul class="unstyled">' + first.join( "" ) + '<\/ul><ul class="unstyled">' + second.join( "" ) + '<\/ul>' ) ;
+			}
+
+		} ;
+
+		if ( base.config.collection.length < 1 ) {
+			return ;
+		}
+
+		// Adiciona a cole\xe7\xe3o na lista
+		base.config.list = base.config.collection ;
+		base.config.collection = [] ;
+
+		// Deixa como uma array simples
+		for ( var i = 0 , len = base.config.list.length ; i < len ; i++ ) {
+		   for ( var k in base.config.list[i] ) {
+				if ( typeof base.config.list[i][k] == "object" ) {
+					// Adiciona Slug
+					base.config.list[i][k].slug = base.create_slug( base.config.list[i][k].url ) ;
+
+					base.config.collection.push( base.config.list[i][k] ) ;
+				}
+		   }
+		}
+
+		base.$el.find( "div.content" ).html( '<img src="' + folha.information.loading.alternate + '" class="loading" \/>' ) ;
+
+		base.mount_list() ;
+
+		base.check() ;
+
+		base.get( base.config.actual , base.mount ) ;
+
+		// Change
+		base.$el.find( "div.pick ul > li a" ).click( function () {
+			var a = $( this ) , blog = a.data( "blog" ) ;
+			base.config.actual = blog ;
+
+			base.get( blog , base.mount ) ;
+			base.set_cookie( blog ) ;
+			// clickuol
+			folha.clicks.on( "widget-sua_folha" , "?blog-" + blog ) ;
+			// clickuol
+			a.parents( "div.items" ).fadeOut( "slow" ) ;
+		} ) ;
+
+	} ;
+
+	base.init() ;
+} ;
+
+$.fn.personal_columnists = function ( options ) {
+	var base = {} ,
+		options = options || false ;
+
+	base.$el = this ;
+
+	base.config = {
+		collection: [] ,
+		list: [] ,
+		actual: null ,
+		exclude: null ,
+		columnists_re: /(https?\:\/\/)?www1\.folha(\.uol)?\.com\.br\/colunas\/([a-zA-Z0-9-]+)\/?/ ,
+		image_url: "//f.i.uol.com.br/folha/colunas/images/colunas-$1-70x70.jpg" ,
+		latest_url: "//www.folha.uol.com.br/virtual/5.4/common/personal/colunas/$1/latest.js" ,
+		redirects: {
+			keilajimenez: {
+				name: 'outrocanal'
+			} ,
+			mariacristina: {
+				name: 'mercadoaberto' ,
+				slug: 'mercado_aberto'
+			} ,
+			maurozafalon: {
+				name: 'vaivem'
+			} ,
+			raquelcozer: {
+				name: 'paineldasletras'
+			} ,
+			raquelholnik: {
+				name: 'raquelrolnik'
+			}
+		}
+	} ;
+
+	base.init = function () {
+		base.config = $.extend( {} , base.config , options ) ;
+
+		base.random_order = function () {
+			return ( Math.round( Math.random() ) - 0.5 ) ;
+		} ;
+
+		 // Verifica a integridade do Object
+		base.check = function () {
+			base.config.collection.sort( base.random_order ) ;
+
+			base.config.actual = $.cookie( "folha-personal-columnists" ) || base.config.collection[0].name ;
+
+			// Enquanto "actual" estiver na array exclude, chama a fun\xe7\xe3o novamente e pegar um blog aleat\xf3rio
+			while( $.inArray( base.config.actual , base.config.exclude ) > -1 ) {
+				base.set_cookie( null ) ;
+				base.check() ;
+			}
+		} ;
+
+		base.set_cookie = function ( columnist_url ) {
+			$.cookie( "folha-personal-columnists" , columnist_url , { expires: 365 , domain: folha.information.domain() } ) ;
+		} ;
+
+		base.get = function ( columnist_url , callback ) {
+			$.ajax( {
+				url: columnist_url.replace( /^(.*)$/ , base.config.latest_url ) ,
+				dataType: "jsonp" ,
+				cache: true,
+				jsonpCallback: "last_column" ,
+				success: callback
+			} ) ;
+		} ;
+
+		base.mount = function ( data ) {
+			var column ;
+			for ( var len = base.config.collection.length , i = 0 ; i < len ; i++ ) {
+				if ( base.config.collection[i].name == base.config.actual ) {
+					column = base.config.collection[i] ;
+					break ;
+				}
+			}
+
+			base.$el.find( "div.content" ).html( '<span class="btn photo">\
+				<a onclick="folha.clicks.on(\'widget-sua_folha\', this.href )" href="' + column.url + '" class="" title="' + data.title + '">\
+				<img src="' + column.image + '" alt="' + column.title + '"><\/a>\
+				<\/span>\
+				<h3>' + column.title + '<\/h3>\
+				<p class="news"><a onclick="folha.clicks.on(\'widget-sua_folha\', this.href )" href="' + data.url  + '" title="Leia Mais">' + folha.personal.reduce_text( data.title.replace( '&amp;quot;', '&quot;' , 'gi') , 75 ) + '<\/a><\/p>' ) ;
+
+			base.$el.find( "div.pick" ).fadeIn( "slow" ).removeClass( "hide" ) ;
+		} ;
+
+		base.mount_list = function () {
+			var half = Math.ceil( ( base.config.collection.length ) / 2 ) ;
+
+			for ( var first = [] , second = [] , len = base.config.collection.length , i = 0 ; i < len ; i++ ) {
+				if ( $.inArray( base.config.collection[i].slug , base.config.exclude ) < 0 ) {
+					if ( i < half ) {
+						first.push( '<li><a data-column="' + base.config.collection[i].name + '">' + base.config.collection[i].title + '</a></li>' ) ;
+					} else {
+						second.push( '<li><a data-column="' + base.config.collection[i].name + '">' + base.config.collection[i].title + '</a></li>' ) ;
+					}
+				}
+			}
+
+			if ( first.length > 0 ) {
+				base.$el.find( "div.items div.lists" ).html( '<ul class="unstyled">' + first.join( "" ) + '<\/ul><ul class="unstyled">' + second.join( "" ) + '<\/ul>' ) ;
+			}
+		} ;
+
+		// Adiciona a cole\xe7\xe3o na lista
+		base.config.list = base.config.collection ;
+		base.config.collection = [] ;
+
+		// Deixa como uma array simples
+		for ( var i = 0 , len = base.config.list.length ; i < len ; i++ ) {
+			if ( base.config.columnists_re.test( base.config.list[i].url ) ) {
+				// name
+				base.config.list[i].name = RegExp.$3 ;
+
+				// image
+				if ( ! base.config.list[i].image ) {
+					base.config.list[i].image = base.config.list[i].slug.replace( /^(.*)$/ , base.config.image_url ) ;
+				}
+
+				if ( !!base.config.redirects[ base.config.list[i].name ] ) {
+					base.config.list[i] = $.extend( true , {} , base.config.list[i] , base.config.redirects[ base.config.list[i].name ] ) ;
+				}
+
+				base.config.collection.push( base.config.list[i] ) ;
+			}
+		}
+
+		base.$el.find( "div.content" ).html( '<img src="' + folha.information.loading.alternate + '" class="loading" \/>' ) ;
+
+		base.mount_list() ;
+
+		base.check() ;
+
+		base.get( base.config.actual , base.mount ) ;
+
+		// Change
+		base.$el.find( "div.pick ul > li a" ).click( function () {
+			var a = $( this ) ,
+				column = a.data( "column" ) ;
+
+			base.config.actual = column ;
+
+			base.get( column , base.mount ) ;
+			base.set_cookie( column ) ;
+			// clickuol
+			folha.clicks.on( "widget-sua_folha" , "?colunista-" + column ) ;
+			// clickuol
+			a.parents( "div.items" ).fadeOut( "slow" ) ;
+		} ) ;
+	} ;
+
+	base.init() ;
+} ;
+
+// Carousel
+$.fn.carousel = function ( options ) {
+	var base = {} , options = options || false ;
+
+	base.$el = this ;
+
+	base.config = {
+		ul: null ,
+		display: 3 ,
+		height: null , // usado: direction: top
+		width: null , // usado: direction: left
+		has_max_height: true , // usado: quando LI n\xe3o tem uma altura fixa - false
+		step: 1 ,
+		index: 0 ,
+		total: 0 ,
+		speed: 500 ,
+		locked: false ,
+		direction: "left" // -(n)px
+	} ;
+
+	base.init = function () {
+		base.config = $.extend( {} , base.config , options ) ;
+
+		base.next = function () {
+			if ( $( this ).hasClass( "inactive" ) ) return ;
+			base.scroll( base.config.index + base.config.step ) ;
+		} ;
+
+		base.prev = function () {
+			if ( $( this ).hasClass( "inactive" ) ) return ;
+			base.scroll( base.config.index - base.config.step ) ;
+		} ;
+
+		base.scroll = function ( i ) {
+			if ( ! base.config.locked ) {
+				base.config.locked = true ;
+
+				base.manipulate( base.config.next , true ) ;
+
+				if ( i < 0 ) {
+					i = 0 ;
+				} else if ( i > ( ( base.config.total - 1 ) - base.config.step ) ) {
+					i = base.config.total - base.config.step ;
+				}
+
+				if ( base.config.total == ( base.config.display + i ) ) {
+					base.manipulate( base.config.next ) ;
+				}
+
+				base.manipulate( base.config.prev , ( ( i > 0 ) ? true : false ) ) ;
+
+				base.config.index = i ;
+
+				if ( base.config.direction == "left" ) {
+					var value = ( i * base.config.width * -1 ) + "px" ;
+
+					base.config.ul.animate( { left: value } , base.config.speed , function () {
+						base.config.locked = false ;
+					} ) ;
+				} else if ( base.config.direction == "top" ) {
+					var value = ( i * base.config.height * -1 ) + "px" ;
+
+					base.config.ul.animate( { top: value } , base.config.speed , function () {
+						base.config.locked = false ;
+					} ) ;
+				}
+			}
+		} ;
+
+		base.manipulate = function ( elem , action ) {
+			if ( action || base.config.index > 0 && base.config.index + base.config.display + 1 < base.config.total ) {
+				elem.removeClass( "inactive" ).attr( "title" , elem.attr( "data-title" ) ) ;
+			} else {
+				elem.addClass( "inactive" ).removeAttr( "title" ) ;
+			}
+		} ;
+
+		// Elementos
+		var ul = ( base.config.ul ? base.$el.find( base.config.ul ) : base.$el.find( "ul" ) ) ,
+		li = ul.find( "> li" ) ;
+		base.config.total = li.length ;
+
+		if ( base.config.direction == "left" ) {
+			base.config.width = li.outerWidth( true ) ;
+		} else if ( base.config.direction == "top" ) {
+			base.config.height = li.outerHeight( true ) ;
+		}
+
+		//  Height - Li
+		if ( ! base.config.has_max_height ) {
+			for ( var i = 0 , height = [] , max_height , len = base.config.total ; i < len; i++ ) {
+				height.push(li.eq(i).outerHeight( true ))
+			}
+			max_height = Math.max.apply( this , height );
+			ul.parent( "div" ).height( max_height ) ;
+		}
+
+		base.config.ul = ul ;
+		base.config.prev = base.$el.find( "a.prev" ).attr( "data-title" , "Anterior" ) ;
+		base.config.next = base.$el.find( "a.next" ).attr( "data-title" , "Pr\xf3xima" ) ;
+
+		// Prev
+		base.manipulate( base.config.prev ) ;
+
+		if ( base.config.total <= base.config.display ) {
+			base.manipulate( base.config.next ) ;
+			return ;
+		}
+
+		// Ajusta a lista conforme passado o valor do index
+		if ( typeof base.config.width === "number" && base.config.width > 0 && base.config.index > 0 ) {
+			base.config.ul.css( {
+				left: base.config.width * base.config.index * -1
+			} ) ;
+		}
+
+		base.config.prev.click( base.prev ) ;
+		base.config.next.click( base.next ) ;
+	} ;
+
+	base.init() ;
+} ;
+
+// Live game - Ao vivo
+$.fn.live_game = function ( options ) {
+	var base = {} , options = options || false ;
+
+	base.$el = this ;
+
+	base.config = {
+		url: "//aovivo.folha.uol.com.br/" ,
+		regex: /\/([0-9]{4})\/([0-9]{2})\/([0-9]{2})\/([0-9]+)\-aovivo\.shtml$/
+	} ;
+
+	base.init = function () {
+		base.config = $.extend( {} , base.config , options ) ;
+
+		// @param object info { url , id , callback, elem, status }
+		base.get = function ( info ) {
+			$.ajax( {
+				url: info.url ,
+				dataType: "jsonp" ,
+				jsonpCallback: "alive_callback_" + info.id ,
+				success: function ( data ) {
+					if ( typeof info.callback == "function" ) {
+						data.elem = info.elem ;
+						data.status = info.status ;
+						info.callback( data ) ;
+					}
+				}
+			} ) ;
+		} ;
+
+		base.mount = function ( obj ) {
+			obj.elem.parents( "div.match" ).find( "div.content" ).html( '<div class="team team-a">\
+				<a href="' + obj.url + '" data-toggle="tooltip" title="' + obj.data.teams.home.name + '">\
+					<img class="emblem" src="' + obj.data.teams.home.shield + '" alt="' + obj.data.teams.home.name + '">\
+					<span class="name">' + obj.data.teams.home.name + '</span>\
+					<span class="score_set">' + ( ( typeof obj.data.teams.home.sets != "undefined" ) ? obj.data.teams.home.sets : "" ) + '</span>\
+				</a></div>\
+			<div class="score">\
+				<span class="status">' + obj.status + '</span>\
+				<a href="' + obj.url + '"><span class="team-a">' + obj.data.teams.home.score + '</span> x <span class="team-b">' + obj.data.teams.away.score + '</span></a>\
+				' + ( ( typeof obj.data.teams.home.sets != "undefined" && obj.data.teams.home.sets != "" ) ? "<span class='status down'>Sets</span>" : ( ( typeof obj.data.teams.home.quarters != "undefined" && obj.data.teams.home.quarters.length > 1 ) ? "<span class='status down'>Quarto</span>" : "" ) ) + '\
+			</div>\
+			<div class="team team-b">\
+				<a href="' + obj.url + '" data-toggle="tooltip" title="' + obj.data.teams.away.name + '">\
+					<img class="emblem" src="' + obj.data.teams.away.shield + '" alt="' + obj.data.teams.away.name + '">\
+					<span class="name">' + obj.data.teams.away.name + '</span>\
+					<span class="score_set">' + ( ( typeof obj.data.teams.home.sets != "undefined" ) ? obj.data.teams.away.sets : "" ) + '</span>\
+				</a>\
+			</div>' ).fadeIn().tooltip() ;
+
+			obj.elem.remove() ;
+		} ;
+
+		base.$el.find( "div.game-match" ).each( function ( i  , elem ) {
+			var div = $( elem ) , link = div.find( "a" ) , status = div.find( "span.status" ).text() ,
+			url = base.config.regex.exec( link.attr( "href" ) ) ;
+
+			if ( url ) {
+				div.html( '<img src="' + folha.information.loading.alternate + '" class="loading" alt="Carregando" />' ) ;
+				base.get( {
+					url: url.input.replace( "aovivo.shtml" , "data.json" ) ,
+					id: url[4] ,
+					callback: base.mount ,
+					elem: div ,
+					status: status
+				} ) ;
+			}
+
+		} ) ;
+	} ;
+
+	base.init() ;
+} ;
+
+$.fn.tooltip = function ( options ) {
+	var base = {} , options = options || false ;
+
+	base.$el = this ;
+
+	base.config = {
+		template: '<div class="tooltip in"><div class="tooltip-arrow"></div><div class="tooltip-inner"></div></div>' ,
+		position: "bottom"
+	} ;
+
+	base.init = function () {
+		base.config = $.extend( {} , base.config , options ) ;
+
+		base.get_position = function ( elem , parent ) {
+			var position = parent.attr( "data-position" ) || base.config.position ;
+
+			elem.addClass( position ) ;
+
+			switch( position ) {
+				case "bottom":
+					elem.css( {
+						left: parent.width() / 2 - elem.width() / 2 ,
+						top: parent.height()
+					} ) ;
+				break ;
+				case "left":
+					elem.css( {
+						right: parent.width() ,
+						top: parent.height() / 2 - elem.height() / 2
+					} ) ;
+				break ;
+				case "right":
+					elem.css( {
+						left: parent.width() ,
+						top: parent.height() / 2 - elem.height() / 2
+					} ) ;
+				break ;
+				case "top":
+					elem.css( {
+						bottom: parent.height() + 4 ,
+						left: parent.width() / 2 - elem.width() / 2
+					} ) ;
+				break ;
+			}
+
+		} ;
+
+		base.$el.find( "[data-toggle=tooltip]" ).each( function ( i , elem ) {
+			var link = $( elem ).css( {
+				position: "relative" ,
+				display: "inline-block"
+			} ) ,
+			title = link.attr( "title" ) ;
+
+			link.attr( "data-title" , title ).removeAttr( "title" ) ;
+
+			var template = $( base.config.template ) ;
+				template.find( "div.tooltip-inner" ).text( title ) ;
+
+			link.hover( function () {
+				link.css( { position: "relative" , zIndex: 9999 } ) ;
+				link.append( template ) ;
+
+				base.get_position( template , link ) ;
+				base.get_position( template , link ) ;
+
+			} , function () {
+				link.css( { zIndex: 0 } ) ;
+				link.find( "div.tooltip" ).remove() ;
+			} ) ;
+		} ) ;
+	} ;
+
+	base.init() ;
+} ;
+
+// Enviar o form do Poll
+folha.poll = {
+	init: function () {
+		var form = "form.form-poll" ;
+		$( form + " input" ).click( function () {
+			$( this ).parents( form ).submit() ;
+		} ) ;
+	}
+} ;
+
+// Formata data/hora para header
+$.fn.set_date = function () {
+	var base = {} ;
+
+	base.$el = this ;
+
+	base.init = function() {
+		var datetime = base.$el.attr( "datetime" ) || false , date ;
+
+		if ( datetime ) {
+			datetime = datetime.split( " " ) ;
+			var dt = datetime[0].split( "-" ) ;
+			date = new Date( dt[0] , parseInt( dt[1] , 10 ) - 1 , parseInt( dt[2] , 10 ) ) ;
+
+		} else {
+			date = new Date() ;
+		}
+
+		base.$el.html( folha.information.weekday[ date.getDay() ] + ", " + ( date.getDate() === 1 ? '1\xba' : date.getDate() ) + " de " + folha.information.month[ date.getMonth() ] + " de " + date.getFullYear() + ' <i class="sprite icon-clock"></i> ' +  ( ( datetime ) ? datetime[1] : date.getHours() + ":"  + date.getMinutes() ) ).removeClass( "hide" ) ;
+
+	} ;
+
+	base.init() ;
+} ;
+
+
+// $.browser
+(function($) {
+  "use strict";
+  var matched, browser;
+
+  // Use of $.browser is frowned upon.
+  // More details: http://api.jquery.com/jQuery.browser
+  // $.uaMatch maintained for back-compat
+  $.uaMatch = function( ua ) {
+	ua = ua.toLowerCase();
+
+	var match = /(chrome)[ \/]([\w.]+)/.exec( ua ) ||
+	  /(webkit)[ \/]([\w.]+)/.exec( ua ) ||
+	  /(opera)(?:.*version|)[ \/]([\w.]+)/.exec( ua ) ||
+	  /(msie) ([\w.]+)/.exec( ua ) ||
+	  ua.indexOf("compatible") < 0 && /(mozilla)(?:.*? rv:([\w.]+)|)/.exec( ua ) ||
+	  [];
+
+	return {
+	  browser: match[ 1 ] || "",
+	  version: match[ 2 ] || "0"
+	};
+  };
+
+  matched = $.uaMatch( navigator.userAgent );
+  browser = {};
+
+  if ( matched.browser ) {
+	browser[ matched.browser ] = true;
+	browser.version = matched.version;
+  }
+
+  // Deprecated, use $.browser.webkit instead
+  // Maintained for back-compat only
+  if ( browser.webkit ) {
+	browser.safari = true;
+  }
+  if ( browser.chrome ) {
+	browser.webkit = true;
+  }
+
+  $.browser = browser;
+})(jQuery);
+
+// IE version
+folha.get_ie_version = function() {
+  var rv = -1;
+  if (navigator.appName == 'Microsoft Internet Explorer') {
+	var ua = navigator.userAgent;
+	var re  = new RegExp("MSIE ([0-9]{1,}[\.0-9]{0,})");
+	if (re.exec(ua) != null)
+	  rv = parseFloat( RegExp.$1 );
+  } else if (navigator.appName == 'Netscape') {
+	var ua = navigator.userAgent;
+	var re  = new RegExp("Trident/.*rv:([0-9]{1,}[\.0-9]{0,})");
+	if (re.exec(ua) != null)
+	  rv = parseFloat( RegExp.$1 );
+  }
+  return rv;
+}
+
+// Audio
+$.fn.audio_player = function ( options ) {
+	var base = {} , options = options || false ;
+
+	base.$el = this ;
+
+	base.config = {
+		songs: [] ,
+		ie: navigator.userAgent.match( /MSIE ([0-9]{1,}[\.0-9]{0,})/ ) || "" ,
+		type_page: null ,
+
+		audio: {
+			color: "0x000000" ,
+			player: "//media.folha.uol.com.br/furniture/players/audio-5.swf" ,
+			height: 36 ,
+			width: 300 ,
+			params: {
+				menu: false,
+				wmode: "transparent"
+			}
+		}
+	} ;
+
+	base.init = function () {
+	   base.config = $.extend( {} , base.config , options ) ;
+
+	   // Verifica se existe o plugin audiojs
+	   if ( typeof audiojs != "object" || ! base.$el.attr( "src" ) ) {
+			return ;
+	   }
+
+	   // Cria audio
+	   base.create = function () {
+
+			// Se for uma mat\xe9ria e IE ou vers\xe3o do IE > 8 traz o flash
+			if ( ( base.config.type_page == "article" && $.browser.msie ) || folha.get_ie_version() > 8 ) {
+
+				base.$el.each( function ( i , elem ) {
+					var that = $( elem ) , data_src = ( that.data( "src" ) ),
+						mp3 = escape( that.attr( "src" ) )
+
+					if ( typeof data_src != "undefined" ) {
+						mp3 = escape( data_src ) ;
+					}
+
+					that.Flashr( {
+						url: base.config.audio.player ,
+						height: base.config.audio.height ,
+						width: base.config.audio.width ,
+						params: {
+							menu: base.config.audio.params.menu ,
+							wmode: base.config.audio.params.wmode
+						} ,
+						vars: {
+							arquivo: mp3,
+							largura: base.config.audio.width,
+							posPubli: 0,
+							publicidade: escape( folha.information.advertising.audio ) ,
+							cor: base.config.audio.color ,
+							onstop: "folha.refresh.start" ,
+							onstart: "folha.refresh.stop"
+						}
+					} ) ;
+				} ) ;
+				return false;
+			}
+
+			// Monta AudioJS
+			audiojs.events.ready( function () {
+				var a = audiojs.createAll( {
+					trackEnded: function() {
+						var index = parseInt( this.wrapper.id.replace( "audiojs_wrapper" , "" ) , 10 ) ,
+						audio = a[index] ;
+
+							var $audio = $( this.element ) , src = $audio.data( "src" ) ;
+
+							if ( typeof src == "undefined" ) {
+								src = base.config.songs[index] ;
+							}
+
+							if ( src && src.length > 0 ) {
+								// recuperando o audio original
+								audio.load( src ) ;
+								audio.play() ;
+								$audio.data( "src", "" ) ;
+							} else {
+								folha.refresh.start() ;
+								audio.pause() ;
+								audio.skipTo(0) ;
+							}
+
+						return false ;
+					}
+				} ) ;
+			} ) ;
+	   } ;
+
+	   // Guarda os \xe1udios
+	   base.$el.each( function ( i , elem ) {
+			var src = $( elem ).data( "src" ) ;
+			if ( typeof src != "undefined" ) {
+				base.config.songs.push( src ) ;
+			}
+		} ) ;
+
+	   base.create() ;
+
+	} ;
+
+	// Inicia
+	base.init() ;
+
+} ;
+
+// Livraria da Folha
+//  Coloca os valores nos produtos da Livraria (vers\xe3o est\xe1tica)
+$.fn.bookstore = function ( options ) {
+	var base = {} , options = options || false ;
+
+	base.$el = this ;
+
+	base.config = {
+		json: null ,
+		source_prefix: "//www1.folha.uol.com.br/folha/virtual/common/livraria/output/" ,
+		jsonp_callback: "vitrine" ,
+		old_price: ".old-price span.value" ,
+		real_price: ".real-price span.value" ,
+		type: "section"
+	} ;
+
+	base.init = function () {
+	   base.config = $.extend( {} , base.config , options ) ;
+
+	   base.convert = function ( value ) {
+			return "R$ " + value.toString().replace( "." , "," ) ;
+	   } ;
+
+		if (  base.config.json != null ) {
+
+			if ( typeof window.vitrine === 'undefined' ) {
+				// Utiliza o pr\xf3prio callback devido problemas com mult\xedplos requests
+				window.vitrine = function ( data ) {
+					$.each( data , function ( key , value ) {
+						if ( base.config.type == "section" ) {
+							var item = $( "section.ads-livrariadafolha" ).find( "div.books > div.item[data-sku=" + key + "]" ) ;
+						} else if ( base.config.type == "home" ) {
+							var item = $( "#bookstore-home > section.item" ).find( "ul.products > li[data-sku=" + key + "]" ) ;
+						}
+
+						var old_price = item.find( base.config.old_price ) ,
+							real_price = item.find( base.config.real_price ) ,
+							// se "de:" n\xe3o existir ou vier vazio, n\xe3o mostrar pre\xe7o normal (old_price)
+							original_price = ( typeof value.de == "undefined" || value.de == "" ) ? false : value.de ,
+							promotional_price = ( typeof value.por == "undefined" || value.por == "" ) ? false : value.por ;
+
+						// ignorar caso n\xe3o encontrar o \xedtem com o SKU definido
+						if ( item.length === 0 ) return ;
+
+						if ( real_price.length > 0 && promotional_price ) {
+							real_price.text( base.convert( promotional_price ) ) ;
+							real_price.parent().removeClass( "hide" ) ;
+						}
+						if ( old_price.length > 0 && original_price ) {
+							old_price.text( base.convert( original_price ) ) ;
+							old_price.parent().removeClass( "hide" ) ;
+						}
+					} ) ;
+				} ;
+			}
+
+			 $.ajax( {
+				async: false ,
+				jsonp: false ,
+				cache: true,
+				dataType: "jsonp" ,
+				url: base.config.source_prefix + base.config.json ,
+				type: "GET" ,
+				jsonp_callback: 'vitrine' ,
+				success: function ( data ) {
+					window.vitrine( data ) ;
+				}
+			} ) ;
+		}
+
+	} ;
+
+	// Inicia
+	base.init() ;
+} ;
+
+// Corrige os atributos "target" dos links
+folha.anchors = {
+	// Cole\xe7\xe3o dos elementos da p\xe1gina
+	dom: null ,
+	// Corrige comportamento dos links externos - que devem abrir em uma nova janela
+	fix: function() {
+		var that = folha.anchors ,
+		//re para encontrar endere\xe7os que N\xc3O devem abrir em nova janela
+		pattern = new RegExp( '(^https?:..[\\w\\d\\.]*(' + folha.information.whitelist.join( '|' ) + ')|^javascript|^[\\/\\.\\#])', 'gi' ) ,
+		hostname = window.location.hostname ;
+
+		that.dom = $( "a" ).each( function( i , a ) {
+			var href = $( a ).attr( "href" ) ;
+			if( typeof href === 'string' && href.length > 0 && a.hostname !== hostname && ! href.match( pattern ) ) {
+				if ( typeof href !== "undefined" && href !== false ) {
+					a.target = "_blank" ;
+				}
+			}
+		} ) ;
+	}
+} ;
+
+// Tabs
+$.fn.tabs = function ( options ) {
+	var base = {} ;
+	options = options || false ;
+
+	base.$el = this ;
+
+	base.config = {} ;
+
+	base.init = function () {
+		base.config = $.extend( {} , base.config , options ) ;
+
+		var tabs = base.$el.find( ".tab-content [class*='tab']" ) ,
+		link = base.$el.find( "nav a" ) ;
+
+		tabs.addClass( "fade hide" ) ;
+		base.$el.find( ".tab-content div.active" ).removeClass( "hide" ) ;
+
+		link.click( function( e ) {
+			e.preventDefault() ;
+
+			var that = $( this ) , _class = that.attr( "href" ).replace( "#" , "." ) ;
+
+			link.removeClass( "active" ) ;
+			that.addClass( "active" ) ;
+
+			tabs.addClass( "hide" ).removeClass( "active" ) ;
+			base.$el.find( _class ).removeClass( "hide" ).addClass( "active" ) ;
+		} ) ;
+	} ;
+
+	base.init() ;
+} ;
+
+// Chamada de Tooltip pela Reda\xe7\xe3o
+// Adiciona um \xedcone ao lado da palavra desejada. No over do \xedcone monstrar\xe1 o tooltip com texto correspondente
+folha.hot_words = {
+	words: [] ,
+	phrases: {}
+} ;
+$.fn.hot_words = function ( options ) {
+	var base = {} ;
+	options = options || false ;
+
+	base.$el = this ;
+
+	base.config = {
+		words: [] , // Palavras em destaques
+		phrases: {} , // Frases para o tooltip
+		css_class: "hot-word" ,
+		tooltip_position: "bottom"
+	} ;
+
+	base.init = function () {
+		base.config = $.extend( {} , base.config , options ) ;
+
+		base.find_word = function( word ) {
+			var pattern = new RegExp( '(?=\\W|^|\\b)(' + word.join( "|" ) + ')(?=\\W|$)', 'gi' ) ;
+
+			// base.$el.find( ":not(:has(*))" ).html( function ( i, v ) {
+			base.$el.find( "*" ).html( function ( i, v ) {
+				return v.replace( pattern , function ( i ) {
+
+					if ( typeof base.config.phrases[i] != "undefined" ) {
+						return '<span class="' + base.config.css_class + '">' + i + '<i class="sprite info" data-toggle="tooltip" data-position="' + base.config.tooltip_position + '" title="' + base.config.phrases[i] + '"></i></span>';
+					} else {
+						return i ;
+					}
+				} ) ;
+			} ) ;
+		} ;
+
+		if ( base.config.words.length < 1 && base.config.phrases.length < 1 ) {
+			 return ;
+		}
+
+		base.find_word( base.config.words ) ;
+		base.$el.tooltip() ;
+	} ;
+
+	base.init() ;
+} ;
+
+// @clickuol
+folha.clicks = {
+	config : {
+		tag_elem : "data-clickuol" , // Marcador RF no elemento A
+		tag_elem_child : "data-clickuolwrap" // Marcador RF no container, com elementos A
+	} ,
+	init : function() {
+		var opt = folha.clicks.config ,
+		clickuol = "[href^='//click.uol.']" ,
+		clickthis = "[onclick*='folha.clicks']" ,
+		selector_block = "[" + opt.tag_elem_child + "]" ,
+		selector_element_in_block = "a:not(" + clickuol + ",[" + opt.tag_elem + "]," + clickthis + ")[href^='http']" ,
+		selector_element = "a[" + opt.tag_elem + "]:not(" + clickuol + "," + clickthis + ")" ;
+
+		// RF definido no container
+		$( $( selector_block ).get().reverse() ).each( function() {
+			var rf = $( this ).attr( opt.tag_elem_child ) ;
+			$( selector_element_in_block , this ).each( function() {
+				var attr = $( this ).attr( "onclick" ) ? $( this ).attr( "onclick" ) : "" , //TODO: verificar A, que ja tenha onclick, em attr
+				val_onclick = "folha.clicks.on('" + rf + "', this.href );" + attr ;
+				$( this ).attr( "onclick" , val_onclick ) ;
+			} ) ;
+		} );
+		// RF definido no elemento
+		$( selector_element ).each( function() {
+			var rf = $( this ).attr( opt.tag_elem ) ,
+			attr = $( this ).attr( "onclick" ) ? $( this ).attr( "onclick" ) : "" , //TODO: verificar A, que ja tenha onclick, em attr
+			val_onclick = "folha.clicks.on('" + rf + "', this.href );" + attr ;
+			$( this ).attr( "onclick" , val_onclick ) ;
+		} ) ;
+	} ,
+	set_rf : function( param ) {
+		var rf = [] ;
+		rf = [ folha.information.section , param ] ;
+		return rf.join("-")
+	} ,
+	on : function( RF, URL, callback ) {
+		URL = URL || location.href ;
+		if ( URL.charAt(0) == "?" ) {
+			URL =  location.href + URL ;
+		}
+		RF = RF || "" ;
+		RF = folha.clicks.set_rf( RF ) ;
+		if ( folha.information.context.get() === "staging" ) {
+			console.log( "##omtrClickUOL:" , RF , URL ) ;
+		}
+		else {
+			omtrClickUOL( RF , URL ) ;
+		}
+
+		if ( typeof callback === "function" ) {
+			callback() ;
+		}
+	}
+} ;
+
+folha.newsletter = ( function ( $ ) {
+	var
+		default_options = {
+			ajax: {
+				url: '//target.folha.com.br/newsletter/opt-in.jsonp' ,
+				dataType: 'jsonp'
+			} ,
+			selectors: {
+				form: 'form' ,
+				error: '.error' ,
+				thanks: '.thanks' ,
+				field: {
+					email: '[name=email]' ,
+					originid: '[name=email]' ,
+					submit: '.btn-submit'
+				}
+			} ,
+			texts: {
+				email: {
+					blank: 'Preencha o e-mail' ,
+					invalid: 'E-mail inv\xe1lido'
+				} ,
+				server_error: 'Houve um erro ao cadastrar este email. Por favor, tente mais tarde.'
+			}
+		} ,
+		email_regexp = {
+			incomplete: /^\w*[\w\-\.]*\@?\w*[\w\-\.]*\.?\w*$/i ,
+			full: /^\w[\w\-\.\+]+\@\w[\w\-\.]+\.\w+$/i
+		} ;
+
+	return {
+		$el: null ,
+		opts: null ,
+		display_error: function ( message ) {
+			this.$el.find( this.opts.selectors.error ).text( message ) ;
+			this.$el.find( this.opts.selectors.form ).addClass( 'invalid' ) ;
+		} ,
+		success: function ( data ) {
+			var
+				$form = this.$el.find( this.opts.selectors.form ) ,
+				$thanks = this.$el.find( this.opts.selectors.thanks ) ;
+
+			$form.hide() ;
+			$thanks.show() ;
+		} ,
+		error: function () {
+			var
+				$form = this.$el.find( this.opts.selectors.form ) ,
+				$thanks = this.$el.find( this.opts.selectors.thanks ) ;
+
+			$form.hide() ;
+			$thanks
+				.find( '.text' )
+				.css( 'color' , '#f00' )
+				.text( this.opts.texts.server_error ) ;
+			$thanks
+				.show() ;
+		} ,
+		process: function () {
+			var
+				data = $.extend( true , {} , this.opts.ajax , {
+					data: {
+						origin_id: this.$el.find( '[name=origin_id]' ).val() ,
+						email: this.$el.find( '[name=email]' ).val()
+					} ,
+					success: $.proxy( this.success , this ) ,
+					error: $.proxy( this.error , this )
+				} ) ;
+
+			$.ajax( data ) ;
+		} ,
+		register_events: function () {
+			var
+				opts = this.opts ,
+				$form = this.$el.find( this.opts.selectors.form ) ,
+				display_error = $.proxy( this.display_error , this ) ,
+				do_request = $.proxy( this.process , this ) ;
+
+			$form.find( opts.selectors.field.email ).bind( 'focus keyup' , function ( e ) {
+				if ( $form.hasClass( 'invalid' ) ) {
+					$form.removeClass( 'invalid' ) ;
+				}
+			} ) ;
+
+			$form.bind( 'submit' , function ( e ) {
+				var
+					$email = $( opts.selectors.field.email , this ) ,
+					$submit = $( opts.selectors.field.submit , this ) ;
+
+				e.preventDefault() ;
+				if ( $email.val().length === 0 ) {
+					display_error( opts.texts.email.blank ) ;
+				} else if ( ! email_regexp.full.test( $email.val() ) ) {
+					display_error( opts.texts.email.invalid ) ;
+				} else {
+					$submit.prop( 'disabled' , true ) ;
+					do_request() ;
+				}
+			} ) ;
+		} ,
+		init: function ( el , opts ) {
+			this.$el = el ;
+			if ( ! ( this.$el instanceof $ ) ) {
+				this.$el = $( el ) ;
+			}
+			this.opts = $.extend( true , {} , default_options , opts ) ;
+
+			this.register_events() ;
+		}
+	} ;
+} ).apply( this , [ jQuery ] ) ;
+
+
+// Rodada Campeonato - Plugin
+$.fn.championship_round = function ( round ) { 
+    var round_id = this[0].id,
+        championship = this.id = {},
+        currentRound = round,
+        currentStage,
+        picked_data = [];
+
+        // Status como nome
+        function convert_status( status ) {
+            switch( status ){
+                case "1":
+                    return "Em Andamento";
+                    break;
+                case "3":
+                    return "Adiado";
+                    break;
+                case "2":
+                    return "Encerrado";
+                    break;
+                default:
+                    return "";
+            }
+        };
+        function to_slug( name ) { //Nome em slug para imagem
+            return name.toLowerCase()
+                .replace( /\u00E1|\u00E2|\u00E3/g , 'a' )
+                .replace( /\u00E9|\u00EA|\u00EB/g , 'e' )
+                .replace( /\u00ED/g , 'i' )
+                .replace( /\u00F3|\u00F4|\u00F5/g , 'o' )
+                .replace( /\u00FA|\u00FC/g , 'u' )
+                .replace( /\u00E7/g , 'c' )
+                .replace( /[\s\-]+/g , '_' )
+                .replace( /\W/g , '' ) ;
+        };
+
+        // Orderna partidas colocando as encerradas ou adiadas por ultimo
+        function order_matches( data ) {
+            
+            for ( var i = 0 , matches = [] , matches_end = [],  len = data.matches.length ; i < len ; i++ ) {
+                if( data.matches[i].status != "3" && data.matches[i].status != "2" ){
+                    matches.push( data.matches[i] );
+                } else{
+                    matches_end.push( data.matches[i] );
+                }
+            }
+            data.matches = matches.concat( matches_end ) ;
+
+            return data ;
+        };
+        
+        function ChampionshipController( ext ) {
+            for ( var opt in ext ) {
+                this[ opt ] = ext[ opt ] ;
+            }
+        };
+        
+    ChampionshipController.prototype.config = null ;
+    ChampionshipController.prototype.container = function () {
+        return $( this.config.selector ) ;
+    } ;
+    ChampionshipController.prototype.test = function () {
+        return this.container().length === 1 ;
+    } ;
+    ChampionshipController.prototype.get_src = function () {
+        return $.trim( this.container().data( 'src' ) ) ;
+    } ;
+    ChampionshipController.prototype.set_type = function () {
+        var type = $.trim( this.container().data( 'type' ) ) ;
+        if( type == "auto-refresh" ) { this.requestInterval( this ); }
+    } ;
+    ChampionshipController.prototype.set_qty = function () {
+        return $.trim( this.container().data( 'qty' ) ) ;
+    } ;
+    ChampionshipController.prototype.requestInterval = function ( object ) {
+        function controllerRequest(){
+            object.request();
+        } setInterval( controllerRequest , 20000);
+    }
+    ChampionshipController.prototype.render = function ( data ) {
+        // filter
+        data = this.filter( data ) ;
+
+        if(data === false)
+            return false
+
+        // mount
+        this.container().html( this.mount(data) ) ;
+
+    } ;
+    ChampionshipController.prototype.mount = function ( data ) {
+        
+		var matcheObj = data.rodada.matches,
+			html = '';
+		html += '<div class="content">';
+		html += '   <ul class="game-list">';
+		for( var i = 0; i < matcheObj.length; i++){
+		        html += '<li class="game">';
+		        html +=     '<span class="home team">';
+		        html +=         '<img class="flag" src="//f.i.uol.com.br/folha/esporte/futebol/escudo/2015/' + to_slug( matcheObj[i].teams[0].name ) + '-100x100.png" alt="' + matcheObj[i].teams[0].name + ' (Bras\xe3o)">';
+		        html +=         '<span class="name">' + matcheObj[i].teams[0].name + '</span>';
+		        html +=     '</span>';
+		        html +=     '<span class="score">';
+		        html +=			'<div class="info">' + convert_status( matcheObj[i].status ) + '</div>'
+		        html +=         '<span class="team-a">' + matcheObj[i].teams[0].score + '</span><span class="vs">x</span><span class="team-b">' + matcheObj[i].teams[1].score + '</span>'
+		        html +=     '</span>';
+		        html +=     '<span class="away team">';
+		        html +=         '<img class="flag" src="//f.i.uol.com.br/folha/esporte/futebol/escudo/2015/' + to_slug( matcheObj[i].teams[1].name ) + '-100x100.png" alt="' + matcheObj[i].teams[1].name + ' (Bras\xe3o)">';
+		        html +=         '<span class="name">' + matcheObj[i].teams[1].name + '</span>';
+		        html +=     '</span>';
+		        html += '</li>';
+		}
+		html += '</ul>';
+		html += '</div>';
+
+        return html
+    }
+    ChampionshipController.prototype.filter = function ( data ) {
+        return data ; 
+    } ;
+
+    ChampionshipController.prototype.request = function () {
+        $.ajax( {
+            url: "//www1.folha.uol.com.br" + this.get_src(),
+            cache: false , 
+            dataType: "jsonp" ,
+            jsonpCallback: this.config.callback ,
+            success: $.proxy( this.render , this ),
+            error: function(xhr, textStatus, errorThrown ) {
+                    console.log(xhr + " , " + textStatus + " , " + errorThrown);
+                }
+        })
+    } ;
+
+
+
+    ChampionshipController.prototype.round_robin = function ( data ) {
+
+            var limitRound = this.set_qty();
+
+            currentStage = 0;
+	    currentRound = 0;
+            
+            if( typeof championship_round_show != 'undefined' ){
+            var picked_matches = championship_round_show.matches,
+                data_macthes = data[currentStage][currentRound].matches;
+
+            picked_data = [];
+
+            for (var k in picked_matches) {  
+                for (var j in data_macthes) {  
+                    if( isNaN(j) || isNaN(k) )
+                        break
+                    if (picked_matches[k].teams[0] == data_macthes[j].teams[0].code){
+                        if (picked_matches[k].teams[1] == data_macthes[j].teams[1].code){
+                           picked_data.push(data_macthes[j]);
+                        }
+                    }
+                }
+            }
+            }
+
+            if( limitRound != '' && !isNaN( limitRound ) ){
+                if( data[currentStage][currentRound].matches.length > limitRound ){
+                    var toSlice = data[currentStage][currentRound].matches.length - limitRound;
+                    data[currentStage][currentRound].matches.splice( limitRound,toSlice );
+                }
+            }
+        return data ; 
+    } ;
+    ChampionshipController.prototype.init = function () {
+        if ( !this.config.selector ) {
+            throw new Error( '[ChampionshipController] Container selector not defined.' ) ;
+        }
+        if ( !this.config.callback ) {
+            throw new Error( '[ChampionshipController] jsonp callback not defined.' ) ;
+        }
+        this.test();
+        this.request(); 
+        this.set_type();
+    } ;
+
+    championship.rounds = new ChampionshipController( {
+        config: {
+            selector: '.championship-round#' + round_id + '[data-src]' ,
+            callback: 'rodada'
+        } ,
+        filter: function ( data ) {
+           
+            switch( round_id ){
+                case "serie-a":
+                    this.round_robin( data );
+                break;
+                case "serie-b":
+                    this.round_robin( data );
+                break;
+                default:
+                    console.log( '[ChampionshipController] Tipo de Campeonato n\xe3o suportado;' );
+                    return false
+            }
+
+            if( picked_data.length ){
+                data[currentStage][currentRound].matches = picked_data;
+            } else{
+                order_matches( data[currentStage][currentRound] );  
+            }
+
+            return {
+                rodada: data[currentStage][currentRound]
+            } ;
+        }
+    } ) ;
+
+    championship.rounds.init();
+
+    };
+
+// Tabela Campeonato - Plugin
+$.fn.championship_table = function() {
+    var championshipid = this[0].id,
+        championship = this.id = {}
+
+    function ord(pos) {
+         if (parseInt(pos, 10) === 0) {
+             return pos;
+        } else if (parseInt(pos, 10) < 7) {
+            return '<span class="promoted">' + pos + '</span>';
+        } else if (parseInt(pos, 10) > 16) {
+            return '<span class="demoted">' + pos + '</span>';
+        }
+        return pos;
+    };
+    // date: dd/mm/yyyy
+    function custom_date(date, wday) {
+        var dt = date.split("/");
+        return week_days[parseInt(wday, 10) - 1] + " - " + dt[0] + "." + months[parseInt(dt[1], 10) - 1];
+    };
+
+    function to_slug(name) {
+        return name.toLowerCase()
+            .replace(/\u00E1|\u00E2|\u00E3/g, 'a')
+            .replace(/\u00E9|\u00EA|\u00EB/g, 'e')
+            .replace(/\u00ED/g, 'i')
+            .replace(/\u00F3|\u00F4|\u00F5/g, 'o')
+            .replace(/\u00FA|\u00FC/g, 'u')
+            .replace(/\u00E7/g, 'c')
+            .replace(/[\s\-]+/g, '_')
+            .replace(/\W/g, '');
+    };
+
+    function ChampionshipController(ext) {
+        for (var opt in ext) {
+            this[opt] = ext[opt];
+        }
+    };
+
+    ChampionshipController.prototype.config = null;
+    ChampionshipController.prototype.container = function() {
+        return $(this.config.selector);
+    };
+    ChampionshipController.prototype.test = function() {
+        return this.container().length === 1;
+    };
+    ChampionshipController.prototype.get_src = function() {
+        return $.trim(this.container().data('src'));
+    };
+    ChampionshipController.prototype.get_name = function() {
+        var arrName = this.container().data('src').split('/');
+        for ( var i = 0; i < Object.keys(arrName).length; i++ ) {
+            if (arrName[i] === "virtual") {
+                var name_champ = arrName[i - 1];
+                name_champ = name_champ.replace(/serie/g, 's\xe9rie');
+                name_champ = name_champ.replace(/-|_/g, ' ');
+            }
+        }
+        return name_champ
+    };
+    ChampionshipController.prototype.render = function(data) {
+        // filter
+        data = this.filter(data);
+
+        this.get_name();
+
+        this.container().html(this.mount(data));
+    };
+    ChampionshipController.prototype.mount = function(data) {
+        var name_champ = this.get_name(),
+        	teamsObj = data.groups[0].teams,
+        	html = '';
+        
+        html += '<h3>' + name_champ + '</h3>';
+        html += '<table class="group">';
+        html += '   <thead>';
+        html += '   <tr>';
+        html += '       <th class="text-col bold" colspan="2"></th> <th>P</th> <th>J</th> <th>V</th> <th>SG</th>'
+        html += '   </tr>';
+        html += '   </thead>';
+        html += '   <tbody>';
+        for ( var i = 0; i < teamsObj.length; i++) {
+            html += '<tr>';
+            html += '<td class="bold">' + ord(teamsObj[i].pos) + '</td>';
+            html += '<td class="text-col bold"><span class="flag"><img width="25" height="25" src="//f.i.uol.com.br/folha/esporte/futebol/escudo/2015/' + to_slug(teamsObj[i].name) + '-100x100.png" alt="' + teamsObj[i].name + '(Bandeira)"></span>' + teamsObj[i].id + '</td>';
+            html += '<td class="number-col bold">' + teamsObj[i].pts + '</td>';
+            html += '<td>' + teamsObj[i].pld + '</td>';
+            html += '<td>' + teamsObj[i].w + '</td>';
+            html += '<td>' + teamsObj[i].gd + '</td>';
+            html += '</tr>';
+        }
+        html += '   </tbody>';
+        html += '</table>';
+
+        return html
+    }
+    ChampionshipController.prototype.filter = function(data) {
+        return data;
+    };
+    ChampionshipController.prototype.set_type = function() {
+        var type = $.trim(this.container().data('type'));
+        if (type == "auto-refresh") {
+            this.requestInterval(this);
+        }
+    };
+    ChampionshipController.prototype.set_qty = function() {
+        return $.trim(this.container().data('qty'));
+    };
+    ChampionshipController.prototype.requestInterval = function(object) {
+        function controllerRequest() {
+            object.request();
+        }
+        setInterval(controllerRequest, 20000);
+    }
+    ChampionshipController.prototype.request = function() {
+        var bust = Math.floor((new Date).getTime() / 10000) ;
+        $.ajax({
+            url: "//www1.folha.uol.com.br" + this.get_src() + '?_' + bust,
+            cache: true , 
+            dataType: "jsonp" ,
+            jsonpCallback: this.config.callback,
+            success: $.proxy(this.render, this),
+            error: function(xhr, textStatus, errorThrown ) {
+                console.log(xhr + " , " + textStatus + " , " + errorThrown);
+            }
+        });
+    };
+    ChampionshipController.prototype.init = function() {
+        if (!this.config.selector) {
+            throw new Error('[ChampionshipController] Container selector not defined.');
+        }
+        if (!this.config.callback) {
+            throw new Error('[ChampionshipController] jsonp callback not defined.');
+        }
+        this.test();
+        this.request();
+        this.set_type();
+    };
+
+    championship.groups = new ChampionshipController({
+        config: {
+            selector: '.championship-table#' + championshipid + '[data-src]',
+            callback: 'tabela'
+        },
+        filter: function(data) {
+            var limitRound = this.set_qty();
+            if (limitRound != '' && !isNaN(limitRound)) {
+                var toSlice = data[0].teams.length - limitRound;
+                data[0].teams.splice(limitRound, toSlice);
+            }
+
+            return {
+                groups: data
+            };
+        }
+    });
+
+    championship.groups.init();
+
+};
+
+( function ( window ) {
+	var $ = window.jQuery ;
+
+	$.fn.estradas = function ( data , opts ) {
+		$.ajax( $.extend( true , {} , data , {
+			success: $.proxy( function ( data ) {
+				var tree = {} ,
+					regex_datetime = /^(\d{4})-(\d{2})-(\d{2}) (\d{2}):(\d{2}):(\d{2})$/g ,
+					matches ,
+					state , region , road ;
+				if ( !data || !data.states || !data.states.name ) {
+					return $( this ).remove() ;
+				}
+				state = data.states.name ;
+				tree[ state ] = {} ;
+				if ( !!data.states.last_update && (matches = regex_datetime.exec( data.states.last_update )) !== null ) {
+					$( '.info time' , this )
+						.attr( 'datetime' , data.states.last_update )
+						.text( [ matches[3] , matches[2] , matches[1] ].join( '/' ) + ' \xe0s ' + [ matches[4] , matches[5] ].join( 'h' ) ) ;
+				} else {
+					$( '.pinfo' , this ).remove() ;
+				}
+				for ( var reg_id in data.states.regions ) {
+					if ( !!data.states.regions[ reg_id ] && !!data.states.regions[ reg_id ].name ) {
+						region = data.states.regions[ reg_id ] ;
+						if ( !!region.icon && $( this ).find( "[data-estradas-state='" + state + "'] [data-estradas-region='" + region.name + "'] h4" ).length > 0 ) {
+							$( this ).find( "[data-estradas-state='" + state + "'] [data-estradas-region='" + region.name + "'] h4" ).prepend( $( document.createElement( 'img' ) ).attr( 'src' , region.icon ).attr( 'alt' , 'Imagem do ' + region.name ).attr( 'width' , 70 ).attr( 'height' , 35 ) ) ;
+						}
+						tree[ state ][ region.name ] = {} ;
+						if ( !!region.roads ) {
+							for ( var road_id in region.roads ) {
+								road = region.roads[ road_id ] ;
+								if ( !!road.posts && road.posts instanceof Array )
+								tree[ state ][ region.name ][ road.name ] = road.posts[0] ;
+							}
+						}
+					}
+				}
+				if ( !tree[ state ] ) {
+					return $( this ).remove() ;
+				}
+
+				return this.each( function () {
+					if ( $( this ).find( "[data-estradas-state='" + state + "'] [data-estradas-region] [data-estradas-road]" ).length > 0 ) {
+						$( this ).find( "[data-estradas-state='" + state + "'] [data-estradas-region] [data-estradas-road]" ).each( function () {
+							var
+								state = $( this ).closest( '[data-estradas-state]' ).data( 'estradas-state' ) ,
+								region = $( this ).closest( '[data-estradas-region]' ).data( 'estradas-region' ) ,
+								road = $( this ).data( 'estradas-road' ) ;
+
+							if ( !tree[state] || !tree[state][region] || !tree[state][region][road] || !tree[state][region][road]['content'] ) {
+								$( this ).remove() ;
+							} else {
+								$( this ).append( $( document.createElement( 'p' ) ).html( tree[state][region][road]['content'].replace( /\r?\n/gi , '<br>' ) ) ) ;
+								switch ( tree[state][region][road]['situation'] ) {
+									case 'Livre':
+										$( this ).addClass( 'green' ) ;
+										break ;
+									case 'Moderado':
+										$( this ).addClass( 'yellow' ) ;
+										break ;
+									case 'Congestionado':
+										$( this ).addClass( 'red' ) ;
+										break ;
+								}
+							}
+						} ) ;
+					} else {
+						$( this ).remove() ;
+					}
+				} ) ;
+			} , this ) ,
+			error: $.proxy( function () {
+				$( this ).remove() ;
+			} , this )
+		} ) ) ;
+	} ;
+
+	$( function () {
+		if ( !!$( '.box.estradas .estradas-list [data-estradas-state] [data-estradas-region] [data-estradas-road]' ).length ) {
+			$( '.box.estradas .estradas-list' ).estradas( {
+				async: true ,
+				cache: false ,
+				dataType: 'jsonp' ,
+				url: '//www1.folha.uol.com.br/cotidiano/virtual/5.4/common/roads_sp.json' ,
+				jsonpCallback: 'posts_per_road_sp'
+			} ) ;
+		}
+	} ) ;
+} ).apply( this , [ window ] ) ;
+
+folha.erramos = {
+	init: function() {
+		var target_element = $( "#news > aside > p.erramos" ).next( "ul" ).children( "li:first-child" ) ;
+		if ( target_element.length && page_info.update_date && page_info.update_date != "--" ) {
+			var date = page_info.update_date.split( "-" ) , time =  page_info.update_time.split( "h" ) ;
+
+			target_element.prepend( '<time datetime="' + page_info.update_date + " " + time.join( ":" ) + ':00">' +
+				date[2] + '/' + date[1] + '/' + date[0] + ' <i class="sprite icon-clock"></i> ' + page_info.update_time + '<\/time> ' ) ;
+		}
+	}
+} ;
+
+// Evento de Bot\xe3o pra fechar ads
+folha.adsBtnClose = {
+	init: function() {
+		$('.js-advertising-button-close').click(function(event) {
+			event.preventDefault();
+			hideAdvertising(event);
+		});
+
+		function hideAdvertising(event) {
+			var id = event.target.nextElementSibling.id.replace('-area', '');
+
+			event.target.parentNode.style.height = '0px';
+
+			var ad = document.getElementById(event.target.parentNode.id);
+			var parentAd = ad.parentNode;
+			parentAd.removeChild(ad);
+
+			var elAd = document.getElementById(id);
+			var parentElAd = elAd.parentNode;
+			parentElAd.removeChild(elAd);
+		}
+	}
+}
+
+// Folha ads
+var folha_ads = false ,
+	script = document.createElement('script') ,
+	prior = document.getElementsByTagName('script')[0] ;
+script.async = 1 ;
+prior.parentNode.insertBefore(script, prior) ;
+script.src = '//static.folha.uol.com.br/paywall/js/1/publicidade.ads.js' ;
+
+// DOM foi carregado.
+$( function () {
+	folha.anchors.fix() ;
+	folha.clicks.init() ;
+	folha.erramos.init() ;
+	folha.adsBtnClose.init() ;
+} ) ;
+
+//menu lateral
+folha.menu = {
+	menu : "",
+	doc : "",
+	container : "",
+	timer : "",
+	btn : "",
+
+	position : function() {
+		var self = this;
+		if( self.doc.width() > ( self.container.width() + self.menu.width() * 2 ) + 10 ) {
+			self.menu.css( "left", self.container.offset().left - self.menu.width() - 10 ) ;
+		}
+	},
+
+	hide_menu : function() {
+		var self = this;
+		self.menu.fadeOut( "fast" );
+		self.menu.find("li").removeClass("hover");
+
+			/* Problemas com v\xeddeos na home
+			if ( folha.information.page.type == "home" ) {
+				folha.refresh.start() ;
+			}*/
+	},
+
+	init : function() {
+		var self = this;
+
+		self.menu = $( ".aside-menu" );
+		self.mainMenu = $("#main-menu li");
+		self.doc = $( document );
+		self.container = $( ".container" );
+		self.btn = $( "#show-menu" );
+		self.btnClose = $(".close-menu");
+		self.position();
+
+		$( window ).resize( function() {
+			self.position();
+		} ) ;
+
+		self.btn.click( function( e ) {
+			clearTimeout( self.timer );
+			self.menu.show() ;
+			e.preventDefault();
+			folha.refresh.stop() ;
+
+			self.menu.mouseleave( function() {
+				clearTimeout( self.timer );
+				self.timer = setTimeout( function() { self.hide_menu(); }, 2000 );
+			} ) ;
+
+			self.btnClose.on("click", function(ev){
+				ev.preventDefault();
+				self.hide_menu();
+			} ) ;
+
+			self.menu.mouseenter( function() {
+				clearTimeout( self.timer );
+			} ) ;
+
+			self.btn.mouseenter( function() {
+				clearTimeout( self.timer );
+			} ) ;
+
+		} ) ;
+
+		self.btn.mouseenter( function( ef ) {
+			ef.preventDefault();
+			self.menu.show() ;
+
+			self.btnClose.on("click", function(ev){
+				ev.preventDefault();
+				self.hide_menu();
+			} ) ;
+		} ) ;
+
+		self.mainMenu.mouseenter( function( ef ) {
+			ef.preventDefault();
+			self.hide_menu();
+		} ) ;
+
+
+		//comportamento especifico para celular
+		if (Modernizr.touch)  {
+			$( ".aside-menu li" ).click( function() {
+				if( $( this ).has( ".submenu" ).length > 0 ) {
+					var that = $( this );
+					var txt = $( this ).find( "a" ).text();
+
+					$( this ).addClass( "hover" ) ;
+					$("> a", this ).removeAttr( "href" ) ;
+
+				}
+				$( ".aside-menu li" ).click( function( e ) {
+					if( e.target.text !== txt || e.target !== that.children() ) {
+						that.removeClass( "hover" ) ;
+					}
+				} ) ;
+			} ) ;
+
+
+		} else {
+			self.doc.mouseup( function( e ) {
+				if( !self.menu.is( e.target ) && self.menu.has( e.target ).length === 0  ) {
+					self.hide_menu();
+				}
+			} ) ;
+		}
+	}
+}
+
+
+
+// Rodada Campeonato Paulista - Plugin
+$.fn.championship_paulista_round = function ( round ) { 
+	
+    var round_id = this[0].id,
+        championshipPaulista = this.id = {},
+        currentRound = round,
+        currentStage,
+        picked_data = [];
+
+        // Status como nome
+        function convert_status( status ) {
+            switch( status ){
+                case "1":
+                return "Em Andamento";
+                break;
+                case "3":
+                return "Adiado";
+                break;
+                case "2":
+                return "Encerrado";
+                break;
+                default:
+                return "";
+            }
+        };
+        function to_slug( name ) { //Nome em slug para imagem
+            return name.toLowerCase()
+            .replace( /\u00E1|\u00E2|\u00E3/g , 'a' )
+            .replace( /\u00E9|\u00EA|\u00EB/g , 'e' )
+            .replace( /\u00ED/g , 'i' )
+            .replace( /\u00F3|\u00F4|\u00F5/g , 'o' )
+            .replace( /\u00FA|\u00FC/g , 'u' )
+            .replace( /\u00E7/g , 'c' )
+            .replace( /[\s\-]+/g , '_' )
+            .replace( /\W/g , '' ) ;
+        };
+
+        // Orderna partidas colocando as encerradas ou adiadas por ultimo
+
+        function order_matches( data ) {
+	        for ( var i = 0 , matches = [] , matches_end = [],  len = data.matches.length ; i < len ; i++ ) {
+                if( data.matches[i].status != "3" && data.matches[i].status != "2" ){
+                    matches.push( data.matches[i] );
+                } else{
+                    matches_end.push( data.matches[i] );
+                }
+            }
+            data.matches = matches.concat( matches_end ) ;
+
+            return data ;
+        };
+        
+        function ChampionshipController( ext ) {
+            for ( var opt in ext ) {
+                this[ opt ] = ext[ opt ] ;
+            }
+        };
+        
+        ChampionshipController.prototype.config = null ;
+        ChampionshipController.prototype.container = function () {
+            return $( this.config.selector ) ;
+        } ;
+        ChampionshipController.prototype.test = function () {
+            return this.container().length === 1 ;
+        } ;
+        ChampionshipController.prototype.get_src = function () {
+            return $.trim( this.container().data( 'src' ) ) ;
+        } ;
+        ChampionshipController.prototype.set_type = function () {
+            var type = $.trim( this.container().data( 'type' ) ) ;
+            if( type == "auto-refresh" ) { this.requestInterval( this ); }
+        } ;
+        ChampionshipController.prototype.set_qty = function () {
+            return $.trim( this.container().data( 'qty' ) ) ;
+        } ;
+        ChampionshipController.prototype.requestInterval = function ( object ) {
+            function controllerRequest(){
+                object.request();
+            } setInterval( controllerRequest , 20000);
+        }
+        ChampionshipController.prototype.render = function ( data ) {
+        // filter
+        data = this.filter( data ) ;
+
+        if(data === false)
+            return false
+
+        // mount
+        this.container().html( this.mount(data) ) ;
+
+    } ;
+    ChampionshipController.prototype.mount = function ( data ) {
+
+      var matcheObj = data.rodada.matches,
+      html = '';
+      html += '<div class="content">';
+      html += '   <ul class="game-list">';
+      for( var i = 0; i < matcheObj.length; i++){
+          html += '<li class="game">';
+          html +=     '<span class="home team">';
+          html +=         '<img class="flag" src="//f.i.uol.com.br/folha/esporte/futebol/escudo/2015/' + to_slug( matcheObj[i].teams[0].name ) + '-100x100.png" alt="' + matcheObj[i].teams[0].name + ' (Bras\xe3o)">';
+          html +=         '<span class="name">' + matcheObj[i].teams[0].name + '</span>';
+          html +=     '</span>';
+          html +=     '<span class="score">';
+          html +=			'<div class="info">' + convert_status( matcheObj[i].status ) + '</div>'
+          html +=         '<span class="team-a">' + matcheObj[i].teams[0].score + '</span><span class="vs">x</span><span class="team-b">' + matcheObj[i].teams[1].score + '</span>'
+          html +=     '</span>';
+          html +=     '<span class="away team">';
+          html +=         '<img class="flag" src="//f.i.uol.com.br/folha/esporte/futebol/escudo/2015/' + to_slug( matcheObj[i].teams[1].name ) + '-100x100.png" alt="' + matcheObj[i].teams[1].name + ' (Bras\xe3o)">';
+          html +=         '<span class="name">' + matcheObj[i].teams[1].name + '</span>';
+          html +=     '</span>';
+          html += '</li>';
+      }
+      html += '</ul>';
+      html += '</div>';
+
+      return html
+  }
+  ChampionshipController.prototype.filter = function ( data ) {
+    return data ; 
+} ;
+
+ChampionshipController.prototype.request = function () {
+    $.ajax( {
+        url: "//www1.folha.uol.com.br" + this.get_src(),
+        cache: false , 
+        dataType: "jsonp" ,
+        jsonpCallback: this.config.callback ,
+        success: $.proxy( this.render , this ),
+        error: function(xhr, textStatus, errorThrown ) {
+            console.log(xhr + " , " + textStatus + " , " + errorThrown);
+        }
+    })
+} ;
+
+
+
+ChampionshipController.prototype.round_robin = function ( data ) {
+
+    var limitRound = this.set_qty();
+
+    currentRound > 18 ? currentRound = 17 : currentRound = currentRound - 1;
+
+    if( currentRound < 12 ){
+        currentStage = 0;
+    } else if( currentRound < 13 || currentRound < 14 ) { 
+        currentStage = 1;
+        currentRound = currentRound - 13 + 1; //Quartas
+    } else if( currentRound < 15 || currentRound < 16 ) { 
+        currentStage = 2;
+        currentRound = currentRound - 15 + 1; // Semi
+    } else if( currentRound < 17 || currentRound < 18 ) { 
+    	currentStage = 3;
+        currentRound = currentRound - 17 + 1; // Finais
+    }
+      
+          
+            if( typeof championship_round_show != 'undefined' ){
+                var picked_matches = championship_round_show.matches,
+                data_macthes = data[currentStage][currentRound].matches;
+
+                picked_data = [];
+
+                for (var k in picked_matches) {  
+                    for (var j in data_macthes) {  
+                        if( isNaN(j) || isNaN(k) )
+                            break
+                        if (picked_matches[k].teams[0] == data_macthes[j].teams[0].code){
+                            if (picked_matches[k].teams[1] == data_macthes[j].teams[1].code){
+                             picked_data.push(data_macthes[j]);
+                         }
+                     }
+                 }
+             }
+         }
+
+         if( limitRound != '' && !isNaN( limitRound ) ){
+            if( data[currentStage][currentRound].matches.length > limitRound ){
+                var toSlice = data[currentStage][currentRound].matches.length - limitRound;
+                data[currentStage][currentRound].matches.splice( limitRound,toSlice );
+            }
+        }
+        return data ; 
+    } ;
+    ChampionshipController.prototype.init = function () {
+        if ( !this.config.selector ) {
+            throw new Error( '[ChampionshipController] Container selector not defined.' ) ;
+        }
+        if ( !this.config.callback ) {
+            throw new Error( '[ChampionshipController] jsonp callback not defined.' ) ;
+        }
+        this.test();
+        this.request(); 
+        this.set_type();
+    } ;
+
+    championshipPaulista.rounds = new ChampionshipController( {
+        config: {
+            selector: '.championship-round#' + round_id + '[data-src]' ,
+            callback: 'rodada'
+        } ,
+        filter: function ( data ) {
+
+            switch( round_id ){
+                case "serie-a":
+                this.round_robin( data );
+                break;
+                case "serie-b":
+                this.round_robin( data );
+                break;
+                default:
+                console.log( '[ChampionshipController] Tipo de Campeonato n\xe3o suportado;' );
+                return false
+            }
+
+            if( picked_data.length ){
+                data[currentStage][currentRound].matches = picked_data;
+            } else{
+                order_matches( data[currentStage][currentRound] );  
+            }
+
+            return {
+                rodada: data[currentStage][currentRound]
+            } ;
+        }
+    } ) ;
+
+    championshipPaulista.rounds.init();
+
+};

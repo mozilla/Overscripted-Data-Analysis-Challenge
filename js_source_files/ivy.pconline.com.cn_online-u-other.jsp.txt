@@ -1,0 +1,1 @@
+try{ document.cookie = "u=4235pien;domain=" + top.location.href.replace(/http:\/\/.+?\.(.*?)\/.*/, '.$1') + ";path=/;expires=Mon, 30-Nov-2099 08:00:00 GMT;"}catch(e){}

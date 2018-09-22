@@ -1,0 +1,2773 @@
+try{
+		
+		
+		var _dad = {cookies	:{},
+					uid		:(new Date()).getTime()};
+		
+		if ((typeof(extParams) != 'undefined') && extParams['uniqueid']) 
+		{
+			_dad.uid = extParams['uniqueid'];
+			delete extParams['uniqueid'];
+		}
+			
+		eval('var showViewer'+_dad.uid+' = new Function("onError'+_dad.uid+'(\'Viewer not supported by displayad.js!\');")');
+eval("function onError"+_dad.uid+"(msg) {}");
+_dad.cookies = [];
+_dad.parms = {"autorefer":0,"wmode":"opaque","preview":0,"dumpjson":0,"gdebuglevel":0,"cachehost":"view.admission.net","owner":"gmlslp-gmc","adtype":"html5-1.1","pa":"cobalt\/cautos","layout":"mediumrectangle","spotw":"300","spoth":"250","bannerid":"gmc_EDM_t3068_24786_300x250","trackingid":"edm_gmclclconqnwc_terrain_bt_nwc","campaignid":"gmc_EDM_t3068_24786","contactbrand":"gmc","sid":"938755cb23f936b716fc35983cd5bb457178599b04207ca6372d49430f591153f795","prog":"gmclclconqnwc","sys":"dcm","oid":"2017091254","adm_secure":"1","proto":"https:\/\/","spotlight":"1","vertical":"a","params":"detaillink","contact_id":"gmps-pearson"};
+_dad.xAdParms = {"autorefer":"","cachehost":"","prejs":"","postjs":"","debug":"","dumpjson":"","gdebuglevel":"","layout":"","uniqueid":"","wmode":"","dtuid":"","adtype":"","ep":"","pr":"","proto":""};
+
+		if (typeof(extParams) != 'undefined')
+		{
+			if (0 && typeof(extParams['contact_id']) != 'undefined')
+				delete extParams['contact_id'];
+
+			for (var key in extParams)
+			{
+				
+				_dad.parms[key] = extParams[key];
+				delete extParams[key];
+			}
+		}
+
+		_dad.resolveCookieVals = function(val)
+		{
+			var outval = val;
+			if (typeof(val) == 'string')
+			{
+				var alphaSort = "";
+				var re = '';
+				if (val.indexOf('{ck:') != -1)
+					re  = /\{ck:(\w+)\}/g;
+				else if (val.indexOf('%7Bck%3A') != -1)
+					re  = /%7Bck%3A(\w+)%7D/g;
+				if (re != '')
+				{
+					while (m = re.exec(val))
+					{
+						var ckName = m[1];
+						if (ckName.indexOf('dt_') == 0)
+							ckName = ckName.substr(3);
+						if (typeof(_dad.cookies[ckName]) != 'undefined')
+						{
+							var ckVal = _dad.cookies[ckName];
+							if (ckVal.match(/^_(.+)_$/))
+								ckVal = RegExp.$1.replace(/_/g,',');
+							
+							// Sort alphabetically if configured in displayad.json to aid search request cache-ability
+							if (ckVal.indexOf(',') != -1 && alphaSort.indexOf(ckName) != -1)
+								ckVal = ckVal.split(',').sort().join(',');
+							
+							outval = outval.replace(m[0], ckVal);
+						}
+					}
+				}
+			}
+
+			return outval;				
+		}
+	
+		for (var key in _dad.parms)
+			_dad.parms[key] = _dad.resolveCookieVals(_dad.parms[key]);
+
+		_dad.adClicked = function()
+		{
+			if (this.parms.pubclick_pixeltracker)
+			{
+				if (Array.isArray(this.parms.pubclick_pixeltracker))
+				{
+					this.parms.pubclick_pixeltracker.forEach(function(url, index){
+						if (url && url.length)
+							(new Image()).src = url;
+					});
+				}
+				else
+					(new Image()).src = this.parms.pubclick_pixeltracker;
+			}
+		}
+		// CDK HTML5 Ad Library
+// Author: Joseph Huckaby
+// Copyright (c) 2011 - 2018 CDK Global, LLC.
+
+// Don't dirty up the global namespace
+if (!window.adm) window.adm = {};
+
+// auto-detect if adm.htmlad is bring reused in same DOM space
+// if so, force an iframe wrapper (and preserve existing ad in this DOM)
+if (adm.htmlad) {
+	adm.force_iframe = true;
+}
+else adm.htmlad = {
+	version: "1.1.69",
+	
+	// Hostnames for search API and logging (DisplayAd overrides these)
+	cacheHost: "view-preprod.admission.net",
+	
+	// for constructing urls in the same protocol as the page
+	proto: location.protocol.match(/https/i) ? 'https:' : 'http:',
+	
+	// include a non-zero 'debug' or 'gdebuglevel' param to enable console debug logging
+	debug: false,
+	
+	// Support multiple concurrent JSONP requests
+	nextRequestId: 1,
+	callbacks: {},
+	
+	// Event listener / dispatch system
+	listeners: {},
+	
+	// required query params
+	requiredParams: ['pa', 'bannerid', 'trackingid'],
+	
+	// default params (can be overridden)
+	defaultParams: {
+		_eol_: "<br/>\n",
+		spotlight: 1,
+		vertical: 'a',
+		maxadnails: 5,
+		params: '*',
+		norf: 1,
+		maxdesclength: 80,
+		image_resize_mode: 'Fit',
+		image_suffix: '&t=ticc/pro:', // strip icc profiles on all images
+		image_suffix_jpg: '&t=ts/q:70', // quality 70 for jpegs
+		image_suffix_png: '&t=tq/co:256/di:false', // 8-bit quantize for pngs
+		inv_orientation: 'horiz',
+		inv_scroll_speed: 3,
+		inv_auto_scroll: 1,
+		inv_mouse_scroll: 0.25,
+		inv_scroll_degrade: 0.995,
+		inv_ss_enable: 0,
+		inv_ss_ease: 0.125,
+		inv_ss_load_padding: 0,
+		inv_static: 1
+	},
+	
+	// default style overrides
+	defaultStyles: {
+		img_logo: {
+			'background-repeat': 'no-repeat',
+			'background-position': 'center center',
+			'background-size': 'auto'
+		},
+		inv_thumb: {
+			'background-repeat': 'no-repeat',
+			'background-position': 'center center',
+			'background-size': 'auto'
+		}
+	},
+	
+	// vendor prefix, for css overrides
+	vendorPrefix: '',
+	
+	// all standard css properties that do not require a vendor prefix
+	cssStdProps: new RegExp("^(background|background\\-attachment|background\\-color|background\\-image|background\\-position|background\\-position\\-x|background\\-position\\-y|background\\-repeat|border|border\\-bottom|border\\-bottom\\-color|border\\-bottom\\-style|border\\-bottom\\-width|border\\-collapse|border\\-color|border\\-left|border\\-left\\-color|border\\-left\\-style|border\\-left\\-width|border\\-right|border\\-right\\-color|border\\-right\\-style|border\\-right\\-width|border\\-spacing|border\\-style|border\\-top|border\\-top\\-color|border\\-top\\-style|border\\-top\\-width|border\\-width|bottom|clear|clip|color|cursor|direction|display|filter|float|font|font\\-family|font\\-size|font\\-size\\-adjust|font\\-stretch|font\\-style|font\\-variant|font\\-weight|height|left|letter\\-spacing|line\\-break|line\\-height|list\\-style|list\\-style\\-image|list\\-style\\-position|list\\-style\\-type|margin|margin\\-bottom|margin\\-left|margin\\-right|margin\\-top|marker\\-offset|max\\-height|max\\-width|min\\-height|min\\-width|orphans|outline|outline\\-color|outline\\-style|outline\\-width|overflow|overflow\\-X|overflow\\-Y|padding|padding\\-bottom|padding\\-left|padding\\-right|padding\\-top|position|right|size|table\\-layout|text\\-align|text\\-align\\-last|text\\-decoration|text\\-indent|text\\-justify|text\\-overflow|text\\-shadow|text\\-transform|text\\-autospace|text\\-kashida\\-space|text\\-underline\\-position|top|vertical\\-align|visibility|white\\-space|widows|width|word\\-break|word\\-spacing|word\\-wrap|writing\\-mode|z\\-index|zoom)$"),
+	
+	// param keys to exclude from search api url (prefix match, not full string)
+	// this keeps the search url short, but also provides for new future params without requiring a change to this file
+	searchExcludeKeys: new RegExp("^(_|inv_|oas_|txt|img|colors|bannerid|trackingid|trackingredirecturl|dogtag|cache|usersource|uid|layout|spotw|spoth|prejs|postjs|lqs|proto|autorefer|wmode|dumpjson|gdebuglevel|debug|image_|adcreator_|owner|protocol|torque|creative|campaign|system|session|place|imp|pubclick|size|chan|cb|da_|click|backup|defaulturl|dtuid|ep$|pr$|user_|prog|sid|fastload|jpeg_|png_|oid|camptags|timeStamp|special_|viewpixels)"),
+	
+	// standard offer response params
+	offerResponseKeys: new RegExp("^(ID|Additionalterms|Copy|Custom|Exclusions|Imageslots|Legal|Offertypes|Offervehicles|Scope|Style|Subtitle)", "i"),
+	
+	// list of dynamic text params returned with a dealer record
+	dynamicDealerTextParams: ['txt_title', 'txt_address', 'txt_address2', 'txt_city', 'txt_state', 'txt_zip', 'txt_phone', 'txt_email', 'txt_displayurl', 'txt_tagline'],
+	
+	// ad size shortcuts for line breaks in text fields
+	adSizeShortcuts: {
+		lb: "leaderboard",
+		mr: "mediumrectangle",
+		ws: "wideskyscraper",
+		hp: "halfpage",
+		mb: "mobilebanner",
+		ct: "catfishtall",
+		cs: "catfishshort",
+		ms: "mobilesmall",
+		mm: "mobilemedium",
+		ml: "mobilelarge",
+		sn: "smartphonenarrow",
+		sw: "smartphonewide",
+		ts: "tabletshort",
+		trt: "tabletrecttall",
+		trw: "tabletrectwide",
+		tlw: "tabletleaderwide",
+		tl: "tabletleader",
+		pt: "portrait",
+		fs: "filmstrip",
+		bt: "button",
+		ot: "onetile",
+		tb: "toolbar",
+		ss: "smallskyscraper"
+	},
+	
+	// click URL remaps
+	clickRemaps: [
+		[/^https?\:\/\/(www\.)?buickdealer\.com.*$/i, 'https://www.buick.com/locate-buick-dealer'],
+		[/^https?\:\/\/(www\.)?cadillacdealer\.com.*$/i, 'https://www.cadillac.com/locate-dealer'],
+		[/^https?\:\/\/(www\.)?chevydealer\.com.*$/i, 'https://www.chevrolet.com/chevydealer'],
+		[/^https?\:\/\/(www\.)?gmcdealer\.com.*$/i, 'https://www.gmc.com/locate-gmc-dealer']
+	],
+	
+	// default properies to set when animating css
+	animationDefaults: {
+		'animation-fill-mode': 'both',
+		'visibility': 'visible',
+		'backface-visibility': 'visible',
+		'transform-origin': '50% 50%'
+	},
+	animationTimers: null,
+	animationAutoplay: true,
+	
+	// image load queue
+	images: {},
+	
+	// retries and errors
+	domRetries: 8,
+	shownAlert: false,
+	apiTimeout: 3,
+	timers: {},
+	logErrorPct: 100,
+	
+	run: function(args, userCallback) {
+		// Main public entry point, set DOM ready listener to load ad
+		// or invoke immediately if DOM is already loaded.
+		var self = this;
+		
+		// allow event listeners to be defined early, before library loads
+		if (adm.hooks) {
+			for (var key in adm.hooks) this.on(key, adm.hooks[key]);
+		}
+		
+		if (adm.domLoaded) {
+			self.loadAd( args, userCallback );
+		}
+		else if (document.addEventListener) {
+			document.addEventListener( "DOMContentLoaded", function() {
+				self.loadAd( args, userCallback );
+			}, false );
+		}
+		else {
+			window.attachEvent("onload", function() {
+				self.loadAd( args, userCallback );
+			});
+		}
+	},
+	
+	doError: function(msg) {
+		// throw error -- silent on prod
+		this.trace( "HTML Ad Error: " + msg );
+		if (!this.cacheHost.match(/^\w+\.(prod\.)?admission\.net$/) && !this.shownAlert) {
+			// all other envs, display alert (only once tho)
+			this.shownAlert = true;
+			alert( "HTML Ad Error: " + msg );
+		}
+		return false;
+	},
+	
+	prepParams: function(params) {
+		// fetch inventory or dealers from AdMission Server's Spotlight API
+		this.query = adm.parseQueryString( location.href );
+		
+		// allow query to override hostname
+		if (this.query.adm_hostname) {
+			this.cacheHost = this.query.adm_hostname;
+		}
+		
+		// prepare params
+		if (!params) params = {};
+		this.params = params;
+		
+		// import default params
+		for (var key in this.defaultParams) {
+			if (typeof(params[key]) == 'undefined') {
+				params[key] = this.defaultParams[key];
+			}
+		}
+		
+		// copy template flashvars into params
+		if (this.args.flashvars) {
+			for (var key in this.args.flashvars) {
+				params[key] = this.args.flashvars[key];
+			}
+		}
+		
+		// import params from DisplayAd, if present
+		if (window._dad && _dad.parms) {
+			for (var key in _dad.parms) {
+				params[key] = _dad.parms[key];
+			}
+		}
+		
+		// JH 2014-10-29 Try to recover dealerzip param from DA JS script dom element
+		if (!params.dealerzip) {
+			var scripts = document.getElementsByTagName('script');
+			for (var idx = 0, len = scripts.length; idx < len; idx++) {
+				var url = scripts[idx].getAttribute ? scripts[idx].getAttribute('src') : scripts[idx].src;
+				if (url && url.match && url.match(/\bdealerzip\=([^\&]+)/)) {
+					params.dealerzip = adm.decodeURIComponent( RegExp.$1 );
+				}
+			}
+		} // no dealerzip
+		
+		// allow extParams to override as well
+		// Note: this is for standalone mode only, as DisplayAd will already have imported and wiped these
+		if (window.extParams) {
+			for (var key in extParams) {
+				params[key] = extParams[key];
+			}
+		}
+		
+		// allow page query string to override settings (w/ adm_ prefix)
+		for (var qkey in this.query) {
+			if (qkey.match(/^adm_(\w+)$/)) {
+				var key = RegExp.$1;
+				params[key] = this.query[qkey];
+			}
+		}
+		
+		// expand sqs if present
+		if (params.sqs) {
+			var sqs = adm.parseQueryString( adm.decodeURIComponent(params.sqs) );
+			for (var key in sqs) {
+				params[key] = sqs[key];
+			}
+			delete params.sqs;
+		}
+		
+		// import lqs if present, but leave original param
+		if (params.lqs) {
+			var lqs = adm.parseQueryString( params.lqs );
+			for (var key in lqs) {
+				params[key] = lqs[key];
+			}
+		}
+		
+		// if running in preview mode and missing bannerid or trackingid, just make some up
+		// (they aren't used in preview mode anyway)
+		if (params.preview && !params.bannerid) params.bannerid = 'preview';
+		if (params.preview && !params.trackingid) params.trackingid = 'preview';
+		
+		// make sure we have the required params
+		for (var idx = 0, len = this.requiredParams.length; idx < len; idx++) {
+			if (typeof(params[ this.requiredParams[idx] ]) == 'undefined') {
+				return this.doError( "Missing required parameter: " + this.requiredParams[idx] );
+			}
+		}
+		
+		// check for debug mode
+		if (params.gdebuglevel || params.debug || params.preview) this.debug = true;
+		this.trace("Initializing AdMission HTML5 Display Ad Engine - version " + this.version);
+		
+		// resolve cookies
+		var cookies = this.cookies = adm.parseCookies();
+		if (this.debug) this.trace("Cookies: " + JSON.stringify(cookies));
+		for (var key in params) {
+			if (params[key] == null) params[key] = '';
+			if (params[key].toString().match(/\{ck\:(\w+)\}/)) {
+				params[key] = params[key].toString().replace(/\{ck\:(\w+)\}/g, function(m_all, m_g1) {
+					return cookies[ m_g1.replace(/^dt_/, '') ] || '';
+				});
+			}
+		}
+		
+		// set cache host based on 'cachehost' param, if present (DisplayAd)
+		if (params.cachehost) this.cacheHost = params.cachehost;
+		this.trace("Cache Host: " + this.cacheHost);
+		
+		// allow params to override domRetries
+		if (params.dom_retries) this.domRetries = parseInt( params.dom_retries );
+		
+		// no layout?  try to guess from URL
+		if (!params.layout && location.href.toString().match(/(\w+)\.html$/)) params.layout = RegExp.$1;
+		
+		// allow offer id to be passed in as cs:adm:o
+		if (this.query['cs:adm:o'] && params.offer_common) params.adlist = 'offers:' + this.query['cs:adm:o'];
+		
+		// in preview mode, try to scrape top-level query params (adm_ or preview_ prefix)
+		if (params.preview) try {
+			var top_query = adm.parseQueryString( top.location.href );
+			if (top_query) {
+				for (var qkey in top_query) {
+					if (qkey.match(/^(adm|preview)_(\w+)$/)) {
+						var key = RegExp.$2;
+						params[key] = top_query[qkey];
+					}
+				}
+			}
+		}
+		catch(e) {;}
+		
+		return params;
+	},
+	
+	loadAd: function(args, userCallback) {
+		// Prep params and send off search request to server
+		// or just populate elements directly (non-inventory dap-style ad)
+		var self = this;
+		this.args = args;
+		this.dispatchEvent('init');
+		
+		// prep spotlight params
+		var params = {};
+		if (args.params) {
+			// copy in params from args, but preserve existing 
+			// (used by template publisher to build template.xml)
+			for (var key in args.params) params[key] = args.params[key];
+		}
+		
+		// inventory feature?  set param to make sure we fetch it
+		if (args.features && args.features.inventory) {
+			params.inventory = args.features.inventory;
+		}
+		else params.inventory = 0;
+		
+		if (!this.prepParams(params)) return;
+		
+		// offer feature?  that means inventory!
+		if (args.features && args.features.offer && params.offer_version) {
+			params.inventory = 1;
+		}
+		
+		if (this.debug) this.trace("Params: " + JSON.stringify(params));
+		
+		// simple browser detect for css vendor prefix
+		var ua = navigator.userAgent;
+		if (ua.match(/MSIE/)) this.vendorPrefix = 'ms';
+		else if (ua.match(/WebKit/)) this.vendorPrefix = 'webkit';
+		else if (ua.match(/Opera/)) this.vendorPrefix = 'webkit';
+		else if (ua.match(/Gecko/)) this.vendorPrefix = 'moz';
+		this.trace("CSS Vendor Prefix: " + this.vendorPrefix);
+		
+		// detect CSS3 animation support
+		this.cssAnimationSupport = false;
+		if (ua.match(/MSIE\s+(\d+\.\d+)/) && (parseFloat(RegExp.$1) >= 10)) this.cssAnimationSupport = true;
+		else if (ua.match(/Trident.+rv\:(\d+)/) && (parseFloat(RegExp.$1) >= 11)) this.cssAnimationSupport = true;
+		else if (ua.match(/Chrome\/(\d+\.\d+)/) && (((parseFloat(RegExp.$1) >= 4) && (parseFloat(RegExp.$1) <= 23)) || (parseFloat(RegExp.$1) >= 33))) {
+			this.cssAnimationSupport = true;
+		}
+		else if (ua.match(/Version\/([\d\.]+).+Safari/) && (parseFloat(RegExp.$1) >= 4)) this.cssAnimationSupport = true;
+		else if (ua.match(/Firefox\/(\d+\.\d+)/) && (parseFloat(RegExp.$1) >= 16)) this.cssAnimationSupport = true;
+		else if (ua.match(/Opera\D+(\d+\.\d+)/) && (parseFloat(RegExp.$1) >= 12)) this.cssAnimationSupport = true;
+		else if (ua.match(/PhantomJS/)) this.cssAnimationSupport = true;
+		
+		// allow param to override animation
+		if ("animation" in params) {
+			this.cssAnimationSupport = (params.animation == 1) ? true : false;
+		}
+		if (!this.cssAnimationSupport) params.inv_auto_scroll = 0;
+		
+		this.trace("CSS Animation: " + (this.cssAnimationSupport ? "Enabled" : "Disabled"));
+		
+		// check for retina support in both device and ad
+		this.retina = ((window.devicePixelRatio > 1) && args.features && (args.features.retina || args.features.hero));
+		if ("retina" in params) this.retina = (params.retina == 1);
+		this.trace("Retina Image Support: " + (this.retina ? "Enabled" : "Disabled"));
+		
+		// super simple mobile detection
+		this.mobile = !!ua.match(/iPhone|Android|BlackBerry|Mobile/);
+		if (params.mobile) this.mobile = true;
+		
+		// image quality overrides
+		if (params.jpeg_quality) params.image_suffix_jpg = '&t=ts/q:' + params.jpeg_quality;
+		if (params.png_colors) params.image_suffix_png ='&t=tq/co:' + params.png_colors + '/di:false';
+		if (params.image_progressive && (params.image_hideload != 1)) {
+			params.image_suffix_jpg += '&t=ts/interlace:jpeg';
+			params.image_suffix_png += '&t=ts/interlace:plane';
+		}
+		
+		// animation defaults
+		if (args.animationDefaults) {
+			for (var key in args.animationDefaults) {
+				this.animationDefaults[key] = args.animationDefaults[key];
+			}
+		}
+		
+		// set some sane img_ defaults
+		for (var key in params) {
+			if (key.match(/^_?img_/) && !key.match(/_u$/) && !this.defaultStyles[key] && this.defaultStyles['img_logo']) {
+				this.defaultStyles[key] = this.defaultStyles['img_logo'];
+			}
+		}
+		
+		// allow partial rollout of inv_static
+		if ("inv_static" in params) params.inv_static = parseFloat( params.inv_static );
+		if ((params.inv_s3 == 0) || (params.inv_s3 == "0")) params.inv_s3 = 0;
+		
+		if (params.inv_static && (params.inv_static < 1.0)) {
+			params.inv_static = (Math.random() <= params.inv_static) ? 1 : 0;
+			if (!params.inv_static && params.inv_s3) params.inv_s3 = 0;
+		}
+		
+		// if using static images for inv thumbs, remove default style for it (handled in code)
+		if ((params.inv_s3 || params.inv_static) && this.defaultStyles.inv_thumb) delete this.defaultStyles.inv_thumb;
+		
+		// allow template to override any element styles
+		this.styles = {};
+		for (var id in this.defaultStyles) {
+			this.styles[id] = this.defaultStyles[id];
+		}
+		if (args.styles) {
+			for (var id in args.styles) this.styles[id] = args.styles[id];
+		}
+		this.setStyles( this.styles );
+		
+		// allow template to load any web fonts
+		if (args.fonts) this.loadFonts( args.fonts );
+		
+		// allow template to define callbacks for any element
+		if (args.callbacks) {
+			for (var key in args.callbacks) this.callbacks[key] = args.callbacks[key];
+		}
+		
+		// allow template to define event listeners via hooks
+		if (args.hooks) {
+			for (var key in args.hooks) this.on(key, args.hooks[key]);
+		}
+		
+		// JH 2018-08-23 Force all DAP ads to load dealer info (for DMA + CTN)
+		if ((params.dap || params.offer_common) && !params.contacts && (params.contactid || params.contact_id)) {
+			params.contacts = 2;
+			params.dap = 1;
+		}
+		
+		// determine next action, search api or skip to end
+		if (params.fetchserverdata || params.inventory || params.t3search || params.dealerzip || params.contacts || params.offer_common) {
+			// need adm server search api request
+			adm.hide('inv_fallback');
+			adm.hide('dealer_fallback');
+			adm.show('inv_loading');
+			
+			this.trace("Performing search API call");
+		
+			// setup callback system (supporting multiple at once)
+			var callbackId = 'c' + this.nextRequestId++;
+			this.callbacks[callbackId] = function(response) {
+				// got response, format and call user function
+				self.callbacks[callbackId] = function() {};
+				if (self.timers[callbackId]) {
+					clearTimeout( self.timers[callbackId] );
+					delete self.timers[callbackId];
+				}
+				adm.hide('inv_loading');
+				
+				if (response.Search) response = response.Search;
+				self.lastResponse = response;
+				self.dispatchEvent('search_complete', response);
+				if (self.debug) self.trace("Got response from AdMission Server: " + JSON.stringify(response));
+				
+				if (response.Code != 0) {
+					self.doError( response.Description );
+				}
+				
+				if (response.Ad && response.Ad.length) {
+					// prep ads in response, clean up json
+					for (var idx = 0, len = response.Ad.length; idx < len; idx++) {
+						var ad = response.Ad[idx];
+						for (var key in ad.Parameters) {
+							if (!ad[key]) ad[key] = ad.Parameters[key];
+						}
+						delete ad.Parameters;
+						if (ad.Primaryimage) ad.ImageURL = ad.BaseURL + ad.Primaryimage;
+						if (!ad.Display) ad.Display = {};
+						if (!ad.Displayprice && ad.Askingprice && ad.Askingprice.toString().match(/^[\d\.]+$/)) {
+							// default to US formatted price if Displayprice is not set
+							ad.Displayprice = adm.price_usd_int( ad.Askingprice );
+						}
+					} // foreach ad
+					
+					if (self.params.offer_common) {
+						// offer ad, populate all inv_ params with first item
+						var offer = response.Ad[0];
+						self.lastOffer = offer;
+						if (!offer.ID) offer.ID = 'FILLER';
+						self.trace("Response contains offer (ID: " + offer.ID + ")");
+						
+						// populate all keys in SpotlightListingArgs
+						var spot_args = {};
+						if (response.Parameters && response.Parameters.SpotlightListingArgs) {
+							var spot_arg_list = response.Parameters.SpotlightListingArgs.split(/\,\s*/);
+							for (var idx = 0, len = spot_arg_list.length; idx < len; idx++) {
+								spot_args[ spot_arg_list[idx].toLowerCase() ] = 1;
+							}
+						}
+						
+						for (var key in offer) {
+							var pkey = 'offer_' + key.toLowerCase();
+							if (key.match(self.offerResponseKeys) || spot_args[key.toLowerCase()] || adm.$(pkey)) {
+								self.params[pkey] = offer[key];
+							}
+						}
+						
+						// custom offer image (default)
+						if (adm.$('img_offer_default')) {
+							self.params['img_offer_default'] = offer.ImageURL;
+						}
+						
+						// custom offer images (per ad format, jpg for lifestyle, png for other)
+						if (offer.Imageslots) {
+							var slot_list = offer.Imageslots.split(/\,\s*/);
+							var image_slots = {};
+							for (var idx = 0, len = slot_list.length; idx < len; idx++) {
+								var layout = slot_list[idx];
+								image_slots[layout] = 1;
+							}
+							for (var key in self.params) {
+								if (key.match(/^_?img_offer_(\w+)$/)) {
+									var layout = RegExp.$1;
+									if (image_slots[layout] && adm.$(key)) {
+										var fmt = layout.match(/^ls/) ? 'jpg' : 'png';
+										self.params[key] = offer.BaseURL + layout + '.' + fmt;
+									}
+								}
+							}
+						} // Imageslots
+					} // offer_common
+					else {
+						self.trace("Response contains inventory ("+response.Ad.length+" vehicles)");
+					}
+				} // inventory
+				
+				// automatically populate dealer params (i.e. txt_title, img_logo, etc.)
+				if (response.Contact && response.Contact[0]) {
+					self.trace("Response contains dealer ("+response.Contact[0].ID+")");
+					var contact = response.Contact[0];
+					self.params.contact_id = self.params.contactid = contact.ID;
+					self.lastContact = contact;
+					adm.hide('dealer_fallback');
+					
+					if (self.params.dap) {
+						// JH 2017-10-13 Emergency AN P1: For DAP ads, only import non-txt_ dealer params
+						for (var key in contact) {
+							if ((key != 'ID') && (key != 'Type') && !key.match(/^txt_/)) {
+								self.params[key] = contact[key];
+							}
+						}
+						
+						// JH 2018-08-31 If CTN was swapped, allow our txt_phone to override
+						if (contact.ctn_swap && contact.txt_phone) self.params.txt_phone = contact.txt_phone;
+					}
+					else {
+						// clear all dynamic dealer text params (removes placeholder content)
+						for (var idx = 0, len = self.dynamicDealerTextParams.length; idx < len; idx++) {
+							self.params[ self.dynamicDealerTextParams[idx] ] = '';
+						}
+						
+						for (var key in contact) {
+							if ((key != 'ID') && (key != 'Type')) {
+								if (key.match(/_u$/) && self.params[key] && self.params[key].toString().match(/\;(\w+)$/)) {
+									// preserve event suffix, e.g. ;brand_link_click
+									self.params[key] = contact[key] + ';' + RegExp.$1;
+								}
+								else self.params[key] = contact[key];
+							}
+						}
+					}
+				} // contacts
+				else {
+					// no contacts in response, show dealer fallback if a dealer was "expected"
+					// (i.e. DAP ads may not expect a dealer, as all the info is baked in)
+					self.dealerFallback();
+				}
+				
+				// expand placeholders in text fields
+				self.prepTextFields();
+				
+				// make sure window has measurable size
+				self.waitForWindowSize( function() {
+					
+					// populate image load queue and run it
+					self.dispatchEvent('pre_image');
+					self.loadImages( function() {
+						// all images loaded
+						if (!self.params.fastload) self.dispatchEvent('images_complete');
+						self.allImagesLoaded = true;
+						
+						self.waitForFonts( function() {
+							// NOW everything is loaded
+							self.dispatchEvent('load_complete');
+							
+							// scene may have changed, so reset styles
+							self.setStyles( self.styles );
+							
+							// populate DOM elements using params
+							self.populateDOMElements();
+							
+							// NOW prep and show inventory, if required
+							if (args.features.inventory) self.prepInventory();
+							if (args.features.inventory && response.Ad && response.Ad.length) {
+								// got ads, show inventory microads
+								self.showInventory(response.Ad);
+							}
+							else {
+								// no inventory, hide microads
+								self.hideInventory();
+								self.dispatchEvent('inv_fallback');
+							}
+							
+							// fire dogtag ourselves (no flash to do it for us)
+							self.fireDogtag();
+							
+							// start animation
+							if (self.animationAutoplay) self.animatePlay();
+							
+							// fire user callback
+							if (userCallback) {
+								self.trace("Firing user callback");
+								userCallback.call( window, response );
+							}
+							
+							// and fire a complete hook call
+							self.dispatchEvent('complete');
+							
+							// Evidon fix
+							setTimeout( function() { self.fixEvidon(); }, 1000 );
+						} ); // waitForFonts callback
+					} ); // loadImages callback
+				} ); // waitForWindowSize callback
+			}; // api callback
+			
+			// request a JSON response, and register our callback
+			params.format = 'json';
+			params.callback = 'adm.htmlad.callbacks.'+callbackId;
+			
+			// gzip compress the response if the browser claims support
+			params.encode = 'gzip';
+			
+			// not in debug mode?  compress (compact) output by removing whitespace
+			if (!this.debug) params.compress = 1;
+			
+			// JH 2014-10-30 Make sure dealerzip isn't malformed -- we do not want an error thrown for this
+			if (params.dealerzip && !params.dealerzip.toString().match(/\d{5}/)) {
+				this.trace("Malformed dealerzip: " + params.dealerzip + ", clearing param");
+				params.dealerzip = '';
+			}
+			
+			// JH 2014-12-19 Fix Ad Creator offer template preview nonsense
+			if (params.offer_common && params.accounts && params.preview) {
+				params.filler = 1;
+				delete params.accounts;
+				if (params.pa == 'adm/sample') {
+					params.pa = 'cobalt/cautos';
+				}
+			}
+			
+			// JH 2015-02-16 Pass view_hostname so server knows to use CDN for vehicle thumbs
+			params.view_hostname = this.cacheHost;
+			
+			// JH 2015-11-30 Always request UTF-8 encoding from server
+			params.utf8 = 1;
+			
+			// JH 2017-04-11 If no inventory is being requested, or we're doing offers, remove 'tags' param (unused)
+			if ((("inventory" in params) && (params.inventory == 0)) || params.offer_common) delete params.tags;
+			
+			// JH 2017-04-11 If contactid/contact_id is present, remove dealerzip param (unused)
+			if (params.contactid || params.contact_id) delete params.dealerzip;
+			
+			// JH 2018-01-04 Make sure special-fallback t3search doesn't ruin offers
+			if (params.offer_common && ((params.contactid == 'special-fallback') || (params.contact_id == 'special-fallback'))) delete params.t3search;
+			
+			// JH 2017-04-11 Reduce tags models to 3 plus 'all'
+			this.tagPrep(params);
+			
+			// JH 2017-06-20 If old adlist feature is being used, filler MUST be set to 0
+			if (params.adlist) params.filler = 0;
+			
+			// handle iCookies, if enabled
+			this.iCookiePrep();
+			
+			// JH 2015-12-11 Some offer params require lower-case alphanumeric
+			if (params.offer_make) params.offer_make = params.offer_make.replace(/\W+/g, '').toLowerCase();
+			if (params.offer_model) params.offer_model = params.offer_model.replace(/\W+/g, '').toLowerCase();
+			if (params.offer_trim) params.offer_trim = params.offer_trim.replace(/\W+/g, '').toLowerCase();
+			
+			// fire pre-search hook
+			this.dispatchEvent('pre_search', params);
+			
+			// construct URL to API, exclude filter, and sort query keys for caching
+			var paramKeys = [];
+			for (var key in params) {
+				if (!key.match(this.searchExcludeKeys)) {
+					paramKeys.push(key);
+				}
+			}
+			paramKeys = paramKeys.sort();
+			
+			var url = this.proto + '//' + this.cacheHost + '/rimfire/admission/search';
+			if (params.source) url += '/v3.0/' + params.source;
+			else url += '/v2.0';
+			
+			for (var idx = 0, len = paramKeys.length; idx < len; idx++) {
+				var key = paramKeys[idx];
+				var value = params[key];
+				url += (!idx ? '?' : '&') + key + '=' + escape(value);
+			}
+			
+			if (this.params['_adm_server_response']) {
+				// API response was passed in from outer code
+				setTimeout( function() {
+					adm.htmlad.callbacks[callbackId]( adm.htmlad.params['_adm_server_response'] );
+				}, 0 );
+			}
+			else {
+				// actually send API call
+				this.trace("Search API URL: " + url);
+				this.timeStart = adm.timeNow();
+				
+				// set timeout just in case the request hangs
+				this.timers[callbackId] = setTimeout( function() {
+					if (adm.htmlad.callbacks[callbackId]) {
+						adm.htmlad.callbacks[callbackId]({
+							Code: 500,
+							Description: "HTTP Timeout Error"
+						});
+					}
+				}, this.apiTimeout * 1000 );
+				
+				// send request to server via JSONP
+				var scr = document.createElement('script'); 
+				scr.type = 'text/javascript'; 
+				scr.async = true;
+				scr.src = url;
+				var firstScript = document.getElementsByTagName('script')[0];
+				firstScript.parentNode.insertBefore(scr, firstScript);
+			}
+		} // need server call
+		else {
+			// basic ad only (non-inventory dap ad), no need to call server
+			this.trace("Basic ad only, skipping server API call");
+			this.dispatchEvent('pre_search', params);
+			this.dispatchEvent('search_complete', { Basic: 1 });
+			
+			// handle iCookies, if enabled
+			this.iCookiePrep();
+			
+			// expand placeholders in text fields
+			this.prepTextFields();
+			
+			// make sure window has measurable size
+			this.waitForWindowSize( function() {
+				
+				// we still may need to load images
+				self.dispatchEvent('pre_image');
+				self.loadImages( function() {
+					// all images loaded
+					if (!self.params.fastload) self.dispatchEvent('images_complete');
+					self.allImagesLoaded = true;
+					
+					self.waitForFonts( function() {
+						// load complete, render ad
+						var self = adm.htmlad;
+						self.dispatchEvent('load_complete');
+						
+						// scene may have changed, so reset styles
+						self.setStyles( self.styles );
+						
+						// populate DOM elements using params
+						self.populateDOMElements();
+						
+						// fire dogtag ourselves (no flash to do it for us)
+						self.fireDogtag();
+						
+						// start animation
+						if (self.animationAutoplay) self.animatePlay();
+						
+						// fire main user callback, if defined
+						if (userCallback) {
+							self.trace("Firing user callback");
+							userCallback.call( window, { Basic: 1 } );
+						}
+						
+						// and fire a complete hook call
+						self.dispatchEvent('complete');
+						
+						// Evidon fix
+						setTimeout( function() { self.fixEvidon(); }, 1000 );
+					} ); // waitForFonts
+				} ); // images loaded
+			} ); // waitForWindowSize
+		} // basic ad
+	},
+	
+	loadFonts: function() {
+		// insert web font family CSS into DOM
+		var fonts = this.args.fonts;
+		if (!fonts) return;
+		
+		var css_raw = '';
+		for (var key in fonts) {
+			var src = fonts[key];
+			
+			// resolve asset urls
+			if (src.match(/^rf\:([^\:]+)\:(.+)$/)) {
+				src = this.proto + '//' + this.cacheHost + '/abc/assets/' + RegExp.$1 + '/' + RegExp.$2;
+			}
+			
+			if (src.match(/\.(\w+)(\?|$)/)) {
+				var fmt = RegExp.$1;
+				this.trace("Loading web font: " + key + ": " + src);
+				css_raw += "@font-face { font-family:'" + key + "'; src:url('" + src + "') format('" + fmt + "'); }\n";
+			}
+		}
+		
+		var sty = document.createElement('style');
+		sty.type = 'text/css';
+		sty.innerHTML = css_raw;
+		(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(sty);
+	},
+	
+	waitForFonts: function(callback) {
+		// wait for all web fonts to complete loading
+		var fonts = this.args.fonts;
+		if (!fonts) return callback();
+		
+		var family_ids = [];
+		for (var key in fonts) { family_ids.push(key); }
+		if (!family_ids.length) return callback();
+		
+		window.onfontsready(family_ids, callback, {
+			timeoutAfter: 3000,
+			onTimeout: function() {
+				adm.htmlad.doError("Failed to load web fonts after 3 seconds: " + family_ids.join(', '));
+				callback();
+			}
+		});
+	},
+	
+	fireDogtag: function() {
+		// fire viewthru dogtag image(s)
+		var self = this;
+		var pixels = this.params.viewpixels || [];
+		if (typeof(pixels) == 'string') pixels = [pixels];
+		if (this.params.dogtag) pixels.push( this.params.dogtag );
+		
+		if (pixels.length) {
+			for (var idx = 0, len = pixels.length; idx < len; idx++) {
+				var pixel = pixels[idx];
+				
+				// resolve {ad:txt_displayurl} params to real dealer values						
+				pixel = pixel.toString().replace(/\{ad\:([\w\.]+)\}/g, function(m_all, m_g1) {
+					return encodeURIComponent( self.params[m_g1.replace(/\W+/g, '_')] || self.params[m_g1.replace(/\W+/g, '')] || '' );
+				});
+				
+				// special fallback / t2webid case
+				var pixel_query = adm.parseQueryString(pixel);
+				if ((pixel_query['cs:s'] == 'special-fallback') && pixel_query['t2webid']) {
+					pixel = pixel.replace(/([\?\&]cs\:s\=)([\w\-]+)/, '$1' + pixel_query['t2webid']);
+				}
+				
+				this.dispatchEvent('viewthru', pixel);
+				this.trace("Firing viewthru pixel: " + pixel);
+				(new Image()).src = pixel;
+			}
+		}
+	},
+	
+	tagPrep: function(params) {
+		// reduce tags to 3 models, if applicable
+		if (params.tags && params.tags.match(/^[\w\,\|]+([\,\|]all)$/)) {
+			var suffix = RegExp.$1;
+			var models = params.tags.replace(/([\,\|]all)$/, '').split(/\,/);
+			if (models.length > 3) {
+				models.splice(3, models.length);
+				params.tags = models.join(',') + suffix;
+			}
+		}
+		
+		// special AND tag wrapper
+		if (params.special_tag) {
+			if (params.tags) {
+				// merge with tag OR list
+				params.tags = params.special_tag + '&(' + params.tags + ')';
+			}
+			else {
+				// special tag only
+				params.tags = params.special_tag;
+			}
+		}
+	},
+	
+	fixEvidon: function() {
+		// attempt to fix placement of evidon logo
+		if (document.querySelectorAll && !this.params.noevfix) {
+			var temp = adm.$('adm_htmlad_container');
+			if (temp && temp.offsetHeight && !temp.offsetLeft && !temp.offsetTop) {
+				var y = Math.floor(temp.offsetHeight - 17);
+				var elems = document.querySelectorAll('span.bap-trigger');
+				for (var idx = 0, len = elems.length; idx < len; idx++) {
+					this.trace("Moving Evidon element into place: " + elems[idx].id);
+					elems[idx].style.left = '1px';
+					elems[idx].style.top = '' + y + 'px';
+				}
+			}
+		}
+	},
+	
+	iCookiePrep: function() {
+		// check for iCookies (user model image, etc.) and apply changes now, before DOM is updated
+		if (this.args.icookies && !this.params._disable_icookies) {
+			for (var param_name in this.args.icookies) {
+				var param_value = this.params[ param_name ];
+				
+				if (param_value) {
+					var icookie = this.args.icookies[param_name];
+					var keys = ('' + param_value).split(/\,\s*/);
+					this.trace("Searching for iCookies: " + param_name + ": " + param_value);
+					
+					// prep key_map
+					var ckey_map = {};
+					for (var key in icookie.key_map) {
+						var ckey = key.replace(/\W+/g, '').toLowerCase();
+						ckey_map[ckey] = icookie.key_map[key];
+					}
+					
+					for (var idx = 0, len = keys.length; idx < len; idx++) {
+						var key = keys[idx].replace(/\W+/g, '').toLowerCase();
+						if (ckey_map[key]) {
+							var text_value = ckey_map[key];
+							this.trace("Matched iCookie for: " + param_name + ": " + key);
+							
+							// replace image url
+							if (icookie.image_param && (typeof(this.params[ icookie.image_param ]) != 'undefined')) {
+								this.params[ icookie.image_param ] = this.params[ icookie.image_param ].replace(/\/$/, "").replace(/\/[^\/]+$/, "") + 
+									'/' + icookie.image_filename_prefix + key + icookie.image_filename_suffix;
+								this.trace("Replaced image param for iCookie: " + icookie.image_param + ": " + this.params[ icookie.image_param ]);
+							}
+							
+							// replace text param
+							if (typeof(text_value) == 'object') {
+								// replace multiple params
+								for (var sub_key in text_value) {
+									var sub_value = text_value[sub_key];
+									this.params[ sub_key ] = sub_value;
+									this.trace("Replaced param for iCookie: " + sub_key + ": " + sub_value);
+								}
+							}
+							else if (icookie.text_param && (typeof(this.params[ icookie.text_param ]) != 'undefined')) {
+								this.params[ icookie.text_param ] = text_value;
+								this.trace("Replaced text param for iCookie: " + icookie.text_param + ": " + text_value);
+							}
+							
+							// replace param itself
+							this.params[ param_name ] = key;
+							
+							// fire user callback if configured
+							if (icookie.callback) icookie.callback( key, text_value );
+							this.dispatchEvent('icookie', param_name, key, text_value );
+							
+							idx = len;
+						} // found matching value
+					} // foreach cookie value
+				} // user has cookie
+			} // foreach icookie
+		} // template has icookies
+	},
+	
+	iCookieGetValue: function(param_name, key) {
+		// return one icookie value from the key_map, or the entire thing if 'key' is omitted
+		if (this.args.icookies && this.args.icookies[param_name]) {
+			// return individual value or entire map
+			if (key) return this.args.icookies[param_name].key_map[key];
+			else return this.args.icookies[param_name].key_map;
+		}
+		else return null;
+	},
+	
+	prepTextFields: function() {
+		// expand placeholders and execute custom callbacks for all text fields
+		var eol = this.param('_eol_');
+		var layout = this.param('layout');
+		var shortcuts = this.adSizeShortcuts;
+		
+		// support custom placeholder syntax: [lb], [mr] etc. 
+		// apply to all text fields 
+		for (var key in this.params) { 
+			if (key.match(/^_?txt_/)) { 
+				var value = ''+this.param(key);
+				if (value.match(/\[(\w+)\]/)) {
+					value = value.replace( /\[(\w+)\]/g, function(m_all, m_g1) { 
+						m_g1 = m_g1.toLowerCase();
+						if (m_g1 == 'br') return "\n"; // br = all sizes
+						if (!shortcuts[m_g1]) return m_all; // no touchy
+						if (shortcuts[m_g1] == layout) return "\n"; // match size
+						else return "\t"; // no match size
+					} );
+					// cleanup / trim
+					value = value.replace(/\t+\n/g, "\n").replace(/\n\t+/g, "\n");
+					value = value.replace(/\t+/g, ' ').replace(/\n/g, eol);
+					this.param(key, value);
+				}
+			}
+		}
+		
+		// normal placeholder substitution and callbacks
+		for (var key in this.params) {
+			if (key.match(/^_?(txt|offer)/)) {
+				var value = adm.substitute( this.params[key], this.params );
+				this.params[key] = this.callbacks[key] ? this.callbacks[key](value) : value;
+			}
+		}
+	},
+	
+	waitForWindowSize: function(callback) {
+		// wait for window (iframe) to have measurable size before continuing
+		var self = this;
+		var size = adm.getInnerWindowSize();
+		this.trace("Window size: " + size.width + 'x' + size.height);
+		
+		if (size.width && size.height) {
+			this.width = size.width;
+			this.height = size.height;
+			callback();
+		}
+		else {
+			if (this.domRetries-- > 0) {
+				this.trace("Will retry in 250ms");
+				setTimeout( function() { self.waitForWindowSize(callback); }, 250 );
+				return;
+			}
+			else {
+				return this.doError( "Failed to measure window size.  See console for details." );
+			}
+		}
+	},
+	
+	populateImageQueue: function() {
+		// determine all the images we need to load for the template and ad
+		// this includes dynamic images such as dealer logos
+		
+		// only attempt to load DynamicView images in non-local mode
+		for (var key in this.params) {
+			if (key.match(/^_?(img|inv)_/) && !key.match(/_u$/)) {
+				var elem = adm.$( key );
+				if (elem) {
+					if (this.params[key] && this.params[key].match(/\.(\w+)(\?|$)/)) {
+						var ext = RegExp.$1.toLowerCase();
+						
+						var width = elem.offsetWidth;
+						var height = elem.offsetHeight;
+						if (width && height) {
+							// allow image slot overrides
+							var iparams = {};
+							if (this.args.overrides && this.args.overrides[key]) {
+								iparams = this.args.overrides[key];
+							}
+							
+							if (this.retina) {
+								if (this.args.roverrides && this.args.roverrides[key]) {
+									iparams = this.args.roverrides[key];
+								}
+								width *= 2;
+								height *= 2;
+								if (iparams.width) iparams.width *= 2;
+								if (iparams.height) iparams.height *= 2;
+							}
+							
+							var url = '';
+							
+							// JH 2017-02-10 make sure we serve all images using cacheHost
+							if (this.params[key].match(/^(\w+\:\/\/)([\w\-\.\:]+)(.+)$/)) {
+								this.params[key] = RegExp.$1 + this.cacheHost + RegExp.$3;
+							}
+							
+							if (!this.params[key].match(/^(\w+\:|\/)/) && this.templateBaseURL) {
+								url = this.templateBaseURL + '/';
+							}
+							url += this.params[key];
+							if (url.match(/\?/)) url += '&'; else url += '?';
+							
+							url += 't=tr/w:' + (iparams.width || width) + '/h:' + (iparams.height || height) + 
+								'/m:' + (iparams.image_resize_mode || this.params.image_resize_mode);
+							
+							url += (iparams.image_suffix || this.params.image_suffix);
+							if (iparams['image_suffix_'+ext]) url += iparams['image_suffix_'+ext];
+							else if (this.params['image_suffix_'+ext]) url += this.params['image_suffix_'+ext];
+							
+							if (this.callbacks[key]) url = this.callbacks[key](url);
+							
+							// resolve asset urls
+							if (url.match(/^rf\:([^\:]+)\:(.+)$/)) {
+								url = this.proto + '//' + this.cacheHost + '/abc/assets/' + RegExp.$1 + '/' + RegExp.$2;
+							}
+							
+							// match protocol of page
+							if (this.proto.match(/https/i)) url = url.replace(/^http\:/i, 'https:');
+							else url = url.replace(/^https\:/i, 'http:');
+							
+							// include template mode date as cache buster
+							if (this.templateModDate) url += '&mod=' + this.templateModDate;
+							
+							// include source (partner) for tracking
+							if (this.params.source) url += '&source=' + this.params.source;
+							
+							// include retina flag for tracking as well
+							if (this.retina) url += '&retina=1';
+							
+							// only load image if not in local mode, or URL is fully-qualified
+							if (!this.params.local || url.match(/^\w+\:\/\//)) {
+								this.images[key] = { url: url };
+							}
+							else if (this.params.local && !url.match(/^\w+\:\/\//)) {
+								this.images[key] = { url: url.replace(/\?.*$/, '') };
+							}
+						} // has size
+						else {
+							this.trace("Image element has no size in DOM: " + key);
+							return false; // error
+						}
+					} // param points to file
+				} // found dom element
+			} // img or txt
+		} // foreach arg
+		
+		// iFont (Image Font) suppport
+		if (this.args.ifonts) {
+			var ifonts = this.args.ifonts;
+			
+			for (var elem_id in ifonts) {
+				var elem = adm.$( elem_id );
+				
+				if (elem && this.params[elem_id] && !elem_id.match(/^inv_/)) {
+					var dv_url = this.getiFontURL( elem_id );
+					if (dv_url) {
+						this.images[elem_id] = {
+							url: dv_url
+						};
+					}
+					else {
+						this.trace("iFont element has no size in DOM: " + elem_id);
+						return false; // error
+					}
+				} // elem found
+			} // foreach ifont elem
+		} // template has ifonts
+		
+		return true; // success
+	},
+	
+	getiFontURL: function() {
+		// generate iFont URL for given element and overrides
+		var elem_id = '';
+		var ifont = {};
+		if (arguments.length == 2) {
+			elem_id = arguments[0] || '';
+			ifont = arguments[1] || {};
+		}
+		else {
+			if (typeof(arguments[0]) == 'string') elem_id = arguments[0] || '';
+			else ifont = arguments[0] || {};
+		}
+		
+		var ifonts = this.args.ifonts || {};
+		if (!ifont) ifont = {};
+		
+		if (ifonts.defaults) {
+			for (var key in ifonts.defaults) {
+				if (typeof(ifont[key]) == 'undefined') ifont[key] = ifonts.defaults[key];
+			}
+		}
+		
+		if (elem_id) {
+			if (ifonts[elem_id]) {
+				for (var key in ifonts[elem_id]) {
+					if (typeof(ifont[key]) == 'undefined') ifont[key] = ifonts[elem_id][key];
+				}
+			}
+			
+			if (this.params[elem_id]) {
+				if (!ifont.text) ifont.text = this.params[elem_id];
+			}
+			
+			var elem = adm.$( elem_id );
+			if (elem) {
+				if (!ifont.width) ifont.width = elem.offsetWidth;
+				if (!ifont.height) ifont.height = elem.offsetHeight;
+				
+				var attribs_raw = elem.getAttribute('ifont') || '';
+				while (attribs_raw.match(/(\w+)\:\s*([^\;]+)\;?/)) {
+					var ikey = RegExp.$1;
+					var ivalue = RegExp.$2;
+					if ((ikey == 'color') && ivalue.match(/^\d$/)) ivalue = parseInt(ivalue);
+					ifont[ ikey ] = ivalue;
+					attribs_raw = attribs_raw.replace(/(\w+)\:([^\;]+)\;?/, '');
+				}
+			} // found element in dom
+		} // use dom element as basis
+		
+		if (!ifont.font) ifont.font = 'arial';
+		if (!ifont.font.match(/^\w+$/) && !ifont.font.match(/^rf\:/)) ifont.font = 'rf:global:fonts/' + ifont.font;
+		if (!ifont.format) ifont.format = 'png';
+		if (!ifont.background) ifont.background = 'transparent';
+		if (!ifont.quality) ifont.quality = 70;
+		if (!ifont.palette) ifont.palette = 128;
+		if (!ifont.dither) ifont.dither = false;
+		if (typeof(ifont.color) == 'number') ifont.color = this.color(ifont.color) || '';
+		
+		if (ifont.metrics) {
+			// template is requesting metrics only
+			delete ifont.metrics;
+			return ifont;
+		}
+		
+		if (!ifont.width || !ifont.height) return '';
+		if (ifont.width * ifont.height > 2048 * 2048) return '';
+		if (this.retina) {
+			ifont.width *= 2;
+			ifont.height *= 2;
+		}
+		
+		var dv_url = this.proto + '//' + this.cacheHost + '/rimfire/dv.' + ifont.format;
+		dv_url += '?account=ifont';
+		dv_url += '&t=tnew/w:'+ifont.width+'/h:'+ifont.height+'/b:'+ifont.background;
+		
+		if ((typeof(ifont.text) != 'undefined') && (ifont.text !== null) && (ifont.text !== false) && (ifont.text !== "")) {
+			var tt = {
+				te: (''+ifont.text).replace(/<.*?>/g, ''),
+				fo: ifont.font,
+				ps: ifont.size || ifont.height,
+				gr: ifont.location || 'center',
+				fi: (ifont.color || 'black').replace(/\W+/g, ''),
+				aa: (typeof(ifont.antialias) != 'undefined') ? ifont.antialias : 4,
+				as: (typeof(ifont.autoscale) != 'undefined') ? ifont.autoscale : 'shrink',
+				x: ifont.xoffset || 0,
+				y: ifont.yoffset || 0,
+				mx: ifont.marginx || 0,
+				my: ifont.marginy || 0,
+				ww: ifont.wordwrap || 0,
+				k: ifont.kerning || 0,
+				ls: ifont.linespacing || 0,
+				f: 'raw' // do not interpret [placeholders]
+			};
+			if (ifont.shadow) {
+				tt.sh = 1;
+				tt.sha = ifont.shadow_angle || 0;
+				tt.shd = ifont.shadow_dist || 0;
+				tt.shf = (ifont.shadow_color || '000000').replace(/\W+/g, '');
+				if (ifont.shadow_blur) tt.shb = ifont.shadow_blur;
+				if (ifont.shadow_opacity) tt.sho = ifont.shadow_opacity;
+			}
+			if (ifont.maxlines) tt.MaxLines = ifont.maxlines;
+			if (ifont.htrim) tt.htrim = 1;
+			if (this.retina) {
+				tt.ps *= 2;
+				tt.x *= 2;
+				tt.y *= 2;
+				tt.mx *= 2;
+				tt.my *= 2;
+				if (tt.ww.toString().match(/^\d{2,}$/)) tt.ww = parseInt(tt.ww) * 2;
+				tt.k *= 2;
+				tt.ls *= 2;
+			}
+			dv_url += '&t=tt';
+			for (var key in tt) {
+				dv_url += '/' + key + ':' + encodeURIComponent(tt[key]).replace(/\'/g, '%27').replace(/\(/g, '%28').replace(/\)/g, '%29');
+			}
+		} // valid text string
+		
+		var iparams = {};
+		if (elem_id && this.args.overrides && this.args.overrides[elem_id]) {
+			iparams = this.args.overrides[elem_id];
+		}
+		if (iparams.image_suffix) dv_url += iparams.image_suffix;
+		
+		if (iparams['image_suffix_'+ifont.format]) url += iparams['image_suffix_'+ifont.format];
+		else {
+			if (ifont.format.match(/(png|gif)/i)) {
+				dv_url += '&t=tq/co:'+ifont.palette+'/di:'+(ifont.dither ? 'true' : 'false');
+			}
+			else if (ifont.format.match(/jpe?g?/i)) {
+				dv_url += '&t=ts/q:' + ifont.quality;
+			}
+		}
+		
+		// include source (partner) for tracking
+		if (this.params.source) dv_url += '&source=' + this.params.source;
+		
+		// include retina flag for tracking as well
+		if (this.retina) dv_url += '&retina=1';
+		
+		this.trace("Constructed iFont URL: " + dv_url);
+		return dv_url;
+	},
+	
+	loadCustomImage: function(url, key, callback) {
+		// add custom image to the load queue (i.e. ifont)
+		var self = this;
+		if (!key) key = ((new Date()).getTime().toString() + Math.random().toString()).replace(/\D+/g, '');
+		this.images[key] = { url: url };
+		
+		if (this.allImagesLoaded) {
+			// already loaded, load image right away
+			this.trace("Lazy-loading image: " + key + ": " + url);
+			var image = this.images[key];
+			image.img = new Image();
+			image.img.onload = function() {
+				self.trace("Image loaded successfully: " + this.src );
+				if (callback) callback();
+			};
+			image.img.onerror = function() {
+				self.doError( "Failed to load image: " + this.src );
+				if (callback) callback();
+			};
+			image.img.src = url;
+		}
+		else if (callback) {
+			// preload, add callback to normal event flow
+			this.on('load_complete', callback);
+		}
+	},
+	
+	loadImages: function(callback) {
+		// load all images in queue and fire callback
+		var self = this;
+		
+		// JH 2018-08-15 Support for LMA Multi-Logo
+		if (("img_lma_logo" in this.params) && this.params.dma && this.params.brand && !this.params.lma_opt_out) {
+			var brand_cram = this.params.brand.toString().toLowerCase().replace(/\W+/g, '');
+			this.params.img_lma_logo = this.proto + '//' + this.cacheHost + '/abc/cobalt/_LOGOS_dma' + this.params.dma + '/' + brand_cram + '.png?placeholder=PLACEHOLDER';
+		}
+		
+		// prep images first
+		if (!this.populateImageQueue()) {
+			// failed to measure DOM size -- retry?
+			if (this.domRetries-- > 0) {
+				this.trace("Will retry in 250ms");
+				setTimeout( function() { self.loadImages(callback); }, 250 );
+				return;
+			}
+			else {
+				return this.doError( "Failed to locate DOM elements to measure size.  See console for details." );
+			}
+		}
+		
+		var num_images = 0;
+		for (var key in this.images) { num_images++; }
+		if (!num_images) { callback(); return; }
+		
+		// fast load or normal load
+		var allLoadedCallback = callback;
+		if (this.params.fastload) {
+			allLoadedCallback = function() { self.dispatchEvent('images_complete'); };
+		}
+		
+		this.trace("Loading " + num_images + " images.");
+		
+		for (var key in this.images) {
+			var image = this.images[key];
+			this.trace("Loading image: " + key + ": " + image.url);
+			
+			image.img = new Image();
+			image.img.onload = function() {
+				self.trace("Image loaded successfully: " + this.src );
+				num_images--;
+				if (!num_images) allLoadedCallback();
+			};
+			image.img.onerror = function() {
+				self.doError( "Failed to load image: " + this.src );
+				num_images--;
+				if (!num_images) allLoadedCallback();
+			};
+			image.img.src = image.url;
+		} // foreach image
+		
+		// if fast load, proceed immediately
+		if (this.params.fastload) callback();
+	},
+	
+	populateDOMElements: function() {
+		// poplate DOM elements using object of key/value pairs
+		// support text, image and link elements (e.g. txt_title, img_logo, txt_link)
+		for (var key in this.params) {
+			if (key.match(/^_?(img|txt|offer|inv)_/)) {
+				var nkey = key.replace(/_u$/, '');
+				var elems = document.querySelectorAll ? document.querySelectorAll('#'+nkey + ', .'+nkey) : [ adm.$(nkey) ];
+				
+				if (elems && elems.length && elems[0]) {
+					for (var idx = 0, len = elems.length; idx < len; idx++) {
+						var elem = elems[idx];
+						
+						if (this.images[nkey]) {
+							// image element, populate with url (is loaded at this point)
+							var url = this.images[nkey].url;
+							this.trace("Setting image element: " + nkey + ": " + url);
+							if (elem.nodeName == 'IMG') elem.src = url;
+							else {
+								elem.style.backgroundImage = 'url('+url+')';
+								elem.innerHTML = '';
+							}
+							if (this.vendorPrefix == 'ms') elem.style.msInterpolationMode = 'bicubic';
+							
+							if (this.images[nkey+':hover']) {
+								elem._adm_image_url = url;
+								elem._adm_hover_url = this.images[nkey+':hover'].url;
+								adm.addDOMEventListener(elem, 'mouseover', function() {
+									if (this.nodeName == 'IMG') this.src = this._adm_hover_url;
+									else this.style.backgroundImage = 'url('+this._adm_hover_url+')';
+								} );
+								adm.addDOMEventListener(elem, 'mouseout', function() {
+									if (this.nodeName == 'IMG') this.src = this._adm_image_url;
+									else this.style.backgroundImage = 'url('+this._adm_image_url+')';
+								} );
+							}
+							if (this.images[nkey+':active']) {
+								elem._adm_inactive_url = elem._adm_hover_url || url;
+								elem._adm_active_url = this.images[kney+':active'].url;
+								adm.addDOMEventListener(elem, 'mousedown', function() {
+									if (this.nodeName == 'IMG') this.src = this._adm_active_url;
+									else this.style.backgroundImage = 'url('+this._adm_active_url+')';
+								} );
+								adm.addDOMEventListener(elem, 'mouseup', function() {
+									if (this.nodeName == 'IMG') this.src = this._adm_inactive_url;
+									else this.style.backgroundImage = 'url('+this._adm_inactive_url+')';
+								} );
+							}
+						}
+						else if (nkey.match(/^_?(txt|offer)_/)) {
+							// text element
+							this.trace("Setting text element: " + nkey + ": " + this.params[nkey]);
+							elem.innerHTML = this.params[nkey];
+						}
+						
+						if (key.match(/_u$/)) {
+							// a href or lookalike element
+							var url = this.params[key].toString().replace(/\;\w+$/, '');
+							this.trace("Setting link element: " + key + ": " + url);
+							
+							elem.style.cursor = 'pointer';
+							elem.setAttribute('admhref', url);
+							
+							if (this.params[key].toString().match(/\;(\w+)$/)) {
+								// save event type into attribute for clicks
+								elem.setAttribute('admeventtype', RegExp.$1);
+							}
+							
+							if (elem.nodeName == 'A') {
+								// if elem is of type a, use natural href for click
+								elem.href = url;
+								elem.setAttribute('target', '_blank');
+							}
+							
+							// attach click event
+							adm.addDOMEventListener( elem, 'mouseup', function(e) {
+								if (adm.isRightClick(e)) return false;
+								adm.htmlad.click( this );
+							} );
+						} // _u
+					} // elem loop
+				} // found elems
+			} // img or txt
+		} // foreach arg
+		
+		// set body css class based on css animation support detection
+		var body = document.getElementsByTagName('body')[0];
+		body.className += ' loaded';
+		
+		// detect missing LMA logo here, and fire special event
+		if (this.images['img_lma_logo'] && this.images['img_lma_logo'].img && (this.images['img_lma_logo'].img.width == 8) && (this.images['img_lma_logo'].img.height == 8)) {
+			this.dispatchEvent('lma_logo_fallback');
+			body.className += ' lma_logo_fallback';
+		}
+	},
+	
+	prepInventory: function() {
+		// measure / copy inventory microad container and sub-elements, then hide it
+		var inv = this.inv = {};
+		this.trace("Preparing inventory scroller");
+		
+		// locate and measure container
+		inv.container = adm.$('inv_container');
+		if (!inv.container) return this.doError("Inventory container element not found: inv_container");
+		inv.container.style.overflow = 'hidden';
+		
+		inv.cWidth = inv.container.offsetWidth;
+		inv.cHeight = inv.container.offsetHeight;
+		this.trace("Inventory container is " + inv.cWidth + "x" + inv.cHeight);
+		
+		// locate reference microad, and measure it
+		inv.microad = adm.$('inv_microad');
+		if (!inv.microad) return this.doError("Microad element not found: inv_microad");
+		
+		inv.mLeft = inv.microad.offsetLeft;
+		inv.mTop = inv.microad.offsetTop;
+		inv.mWidth = inv.microad.offsetWidth;
+		inv.mHeight = inv.microad.offsetHeight;
+		this.trace("Microad container is " + inv.mWidth + "x" + inv.mHeight);
+		
+		inv.thumb = adm.$('inv_thumb');
+		if (inv.thumb) {
+			// construct and cache dynamic view query for inventory thumbs
+			var tWidth = inv.thumb.offsetWidth;
+			var tHeight = inv.thumb.offsetHeight;
+			if (this.retina) {
+				tWidth *= 2;
+				tHeight *= 2;
+			}
+			
+			inv.tQuery = '?t=tr/w:' + tWidth + '/h:' + tHeight;
+			inv.tQuery += '/m:' + (this.params.inv_image_resize_mode || this.params.image_resize_mode);
+			inv.tQuery += this.params.image_suffix; // universal for all images
+			inv.tQuery += (this.params.inv_image_suffix || this.params.image_suffix_jpg || '');
+			this.trace("Microad thumb query: " + inv.tQuery);
+		}
+		
+		// optional, microad fallback element
+		inv.microad_fallback = adm.$('inv_microad_fallback');
+	},
+	
+	populateInvChildren: function(elem, ad, microad) {
+		// recursively walk and populate microad element children
+		var children = elem.children;
+		
+		if (children && children.length) {
+			for (var idx = 0, len = children.length; idx < len; idx++) {
+				var child = children[idx];
+				
+				if (child.id && child.id.match(/^inv_(\w+)$/)) {
+					var path = '/' + RegExp.$1.replace(/_/g, '/');
+					if (child.id == 'inv_thumb') {
+						// special case for vehicle image
+						var url = ad.imageurl + this.inv.tQuery;
+						if (this.callbacks[child.id]) url = this.callbacks[child.id](url);
+						
+						// include source (partner) for tracking
+						if (this.params.source) url += '&source=' + this.params.source;
+						
+						// include retina flag for tracking as well
+						if (this.retina) url += '&retina=1';
+						
+						// JH 2016-11-29 S3 and/or Static Inventory Hosting
+						if (url.match(/_CAUTOS_/)) {
+							// only cobalt/cautos supports this feature
+							if (this.params.inv_s3) {
+								url = url.replace(/^(\w+\:\/\/)([\w\-\.]+)/, '$1' + this.params.inv_s3);
+								this.params.inv_static = 1;
+							}
+							
+							if (this.params.inv_static) {
+								if (!this.params.inv_s3 && !ad.singleimage) {
+									// local static thumbs, use _S.JPG variant
+									url = url.replace(/(i\-\d+)(\.JPG)(\?|$)/i, '$1_S$2$3');
+								}
+								
+								child.style.backgroundRepeat = 'no-repeat';
+								child.style.backgroundPosition = 'center center';
+								child.style.backgroundSize = 'contain';
+								
+								if (url.match(/m\:fitpad/i)) {
+									var clr = '#fff';
+									if (url.match(/b\:(\w{6})/)) clr = '#' + RegExp.$1;
+									child.style.backgroundColor = clr;
+								}
+								else if (url.match(/m\:fitover/i)) {
+									child.style.backgroundSize = 'cover';
+								}
+								url = url.replace(/\?.+$/, '');
+							} // static thumbs
+						} // s3 / static
+						
+						// child.style.backgroundImage = 'url(' + url + ')';
+						// JH 2012-08-09: Delay setting img src until scrolled into view
+						microad.thumb_url = url;
+						microad.thumb_elem = child;
+						
+						if (this.vendorPrefix == 'ms') child.style.msInterpolationMode = 'bicubic';
+						child.innerHTML = ''; // workaround for Hype IE hack
+					}
+					else if (child.id == 'inv_cpo_overlay') {
+						// special case for cpo overlay
+						child.style.display = (ad.certified == 1) ? '' : 'none';
+						child.style.opacity = (ad.certified == 1) ? 1 : 0;
+					}
+					else if (child.id.match(/^inv_custom/) && this.params[child.id]) {
+						// custom text field placeholders contained within
+						var value = adm.substitute( this.params[child.id], ad );
+						value = this.callbacks[child.id] ? this.callbacks[child.id](value, child, ad) : value;
+						
+						if (this.args.ifonts && this.args.ifonts[child.id] && value.toString().length) {
+							if (!microad.ifonts) microad.ifonts = [];
+							microad.ifonts.push({
+								id: child.id,
+								elem: child,
+								text: value
+							});
+							child.innerHTML = '';
+						}
+						else {
+							child.innerHTML = value;
+						}
+					}
+					else {
+						// text elem: try to lookup elem with matching path in ad
+						var value = adm.lookupPath(path, ad);
+						if (typeof(value) == 'undefined') value = '';
+						value = this.callbacks[child.id] ? this.callbacks[child.id](value, child, ad) : value;
+						
+						if (this.args.ifonts && this.args.ifonts[child.id] && value.toString().length) {
+							if (!microad.ifonts) microad.ifonts = [];
+							microad.ifonts.push({
+								id: child.id,
+								elem: child,
+								text: value
+							});
+							child.innerHTML = '';
+						}
+						else {
+							child.innerHTML = value;
+						}
+					}
+					child.id += '|' + ad.id; // avoid dom id dupes
+				} // is one of ours
+				
+				this.populateInvChildren(child, ad, microad);
+			} // foreach child element
+		} // elem has children
+	},
+	
+	showInventory: function(ads) {
+		// show live inventory scroller, setup animation and click events
+		var self = this;
+		var inv = this.inv;
+		inv.ads = ads;
+		inv.direction = this.params.inv_orientation;
+		inv.microads = [];
+		this.trace("Rendering inventory scroller ("+inv.direction+")");
+		adm.hide('inv_fallback');
+		
+		// clone microad and hide original
+		inv.clone = inv.microad.cloneNode(true);
+		adm.hide('inv_microad');
+		
+		if (inv.microad_fallback) {
+			inv.clone_fallback = inv.microad_fallback.cloneNode(true);
+			adm.hide('inv_microad_fallback');
+		}
+		
+		// calculate how many ads we have to go *beyond* the length, for infinite scrolling
+		var len = 0;
+		if (inv.direction == 'horiz') {
+			len = ads.length + Math.ceil( inv.cWidth / (inv.mLeft + inv.mWidth) );
+		}
+		else {
+			len = ads.length + Math.ceil( inv.cHeight / (inv.mTop + inv.mHeight) );
+		}
+		
+		for (var idx = 0; idx < len; idx++) {
+			var ad = ads[idx % ads.length];
+			if (idx < ads.length) this.trace("Rendering microad: " + ad.ID);
+			
+			// closure wrap for ad instance inside loop
+			(function(ad) {
+				// now ad is preserved
+				var div = null;
+				if (self.params.payment_info) {
+					if (ad.PaymentInfo) div = inv.clone.cloneNode(true);
+					else if (inv.clone_fallback) div = inv.clone_fallback.cloneNode(true);
+					else div = inv.clone.cloneNode(true);
+				}
+				else div = inv.clone.cloneNode(true);
+				
+				var microad = { div: div };
+				div.id += '|' + ad.ID;
+				div.style.position = 'absolute';
+				
+				var ad_lc = adm.deepCopyLowerKeys(ad);
+				self.populateInvChildren(div, ad_lc, microad);
+				
+				if (microad.thumb_url) ad_lc.thumburl = microad.thumb_url;
+				delete microad.imageurl;
+				
+				div.setAttribute('admhref', ad.Detaillink || '');
+				div.setAttribute('admadid', ad.ID);
+				div.setAttribute('admeventtype', 'inventory');			
+				inv.container.appendChild(div);
+				
+				adm.addDOMEventListener( div, 'mouseup', function(e) {
+					if (adm.isRightClick(e)) return false;
+					
+					// handle inv click handler
+					if (self.listeners.invclick && self.listeners.invclick.length) {
+						self.dispatchEvent('invclick', ad_lc, div);
+					}
+					else adm.htmlad.click( this );
+				} );
+				
+				self.dispatchEvent('invrender', ad_lc, div);
+				inv.microads.push( microad );
+			})(ad);
+		} // foreach ad
+		
+		// setup scroller
+		inv.scrollPos = 0;
+		inv.lastPos = -1;
+		inv.scrollDelta = parseFloat( this.params.inv_auto_scroll );
+		inv.scrollDeltaMax = parseFloat( this.params.inv_scroll_speed );
+		inv.mouseScrollArea = parseFloat( this.params.inv_mouse_scroll );
+		inv.scrollDegrade = parseFloat( this.params.inv_scroll_degrade );
+		
+		// sideshow
+		inv.ssEnable = this.params.inv_ss_enable || false;
+		inv.ssEase = parseFloat( this.params.inv_ss_ease );
+		inv.ssLoadPadding = parseInt( this.params.inv_ss_load_padding );
+		inv.ssIdx = 0;
+		inv.ssTargetPos = 0;
+		
+		if (inv.direction == 'horiz') {
+			inv.scrollMax = (inv.mLeft + inv.mWidth) * ads.length;
+		}
+		else {
+			inv.scrollMax = (inv.mTop + inv.mHeight) * ads.length;
+		}
+		
+		// move microads to first positions
+		this.invScrollAnimate();
+		
+		// setup mouse interaction
+		adm.addDOMEventListener( inv.container, 'mousemove', function(e) {
+			if (!e) e = window.event;
+			var x = (typeof(e.clientX) == 'number') ? e.clientX : e.pageX;
+			var y = (typeof(e.clientY) == 'number') ? e.clientY : e.pageY;
+		
+			var temp = inv.container, cx = 0, cy = 0;
+			while (temp) {
+				cx += temp.offsetLeft;
+				cy += temp.offsetTop;
+				temp = temp.offsetParent;
+			}
+			x -= cx;
+			y -= cy;
+		
+			var amt = 0;
+			if (inv.direction == 'horiz') amt = x / inv.cWidth;
+			else amt = y / inv.cHeight;
+		
+			if (amt < inv.mouseScrollArea) {
+				// scroll left / up
+				inv.scrollDelta = 0 - (((inv.mouseScrollArea - amt) / inv.mouseScrollArea) * inv.scrollDeltaMax);
+			}
+			else if (amt > (1.0 - inv.mouseScrollArea)) {
+				// scroll right / down
+				inv.scrollDelta = ((amt - (1.0 - inv.mouseScrollArea)) / inv.mouseScrollArea) * inv.scrollDeltaMax;
+			}
+			else {
+				// do not scroll
+				inv.scrollDelta = 0;
+			}
+		} );
+		
+		// start animation timer (approx 30 fps)
+		setInterval( function() {
+			adm.htmlad.invScrollAnimate();
+		}, Math.floor(1000 / 30) );
+	},
+	
+	invGetSlideShowCount: function() {
+		// get count of ads in slideshow
+		var inv = this.inv || {};
+		if (!inv.ads) return 0;
+		return inv.ads.length;
+	},
+	
+	invGetSlideShowIdx: function() {
+		// get current slideshow idx
+		var inv = this.inv || {};
+		var idx = inv.ssIdx || 0;
+		if (idx < 0) idx += inv.ads.length;
+		if (idx >= inv.ads.length) idx -= inv.ads.length;
+		return idx;
+	},
+	
+	invNavSlideShow: function(idx) {
+		// jump to specific slide
+		var inv = this.inv || {};
+		
+		if (inv.ssEnable) {
+			inv.ssIdx = parseInt( idx );
+			if (inv.ssIdx < 0) inv.ssIdx = 0;
+			if (inv.ssIdx >= inv.ads.length) inv.ssIdx = inv.ads.length - 1;
+			
+			if (inv.direction == 'horiz') {
+				inv.ssTargetPos = inv.ssIdx * (inv.mLeft + inv.mWidth);
+			}
+			else {
+				inv.ssTargetPos = inv.ssIdx * (inv.mTop + inv.mHeight);
+			}
+		}
+	},
+	
+	invAdvanceSlideShow: function(delta) {
+		// jump to next or prev slide
+		var inv = this.inv || {};
+		
+		if (inv.ssEnable) {
+			inv.ssIdx += delta;
+			
+			if (inv.direction == 'horiz') {
+				inv.ssTargetPos = inv.ssIdx * (inv.mLeft + inv.mWidth);
+			}
+			else {
+				inv.ssTargetPos = inv.ssIdx * (inv.mTop + inv.mHeight);
+			}
+		}
+	},
+		
+	invScrollAnimate: function() {
+		// scroll inventory
+		var inv = this.inv;
+		
+		// standard scrolling
+		if (inv.scrollDelta != 0) {
+			inv.scrollPos += inv.scrollDelta;
+			if (inv.scrollPos < 0) inv.scrollPos += inv.scrollMax;
+			else if (inv.scrollPos >= inv.scrollMax) inv.scrollPos -= inv.scrollMax;
+			
+			// slowly decrease scrolling speed until it stops (mouse interaction resets this)
+			inv.scrollDelta *= inv.scrollDegrade;
+			if (Math.abs(inv.scrollDelta) < 0.01) inv.scrollDelta = 0;
+		} // scroll delta != 0
+		
+		// slideshow scrolling
+		if (inv.ssEnable) {
+			if (Math.abs(inv.scrollPos - inv.ssTargetPos) < 0.1) {
+				inv.scrollPos = inv.ssTargetPos;
+			}
+			else {
+				inv.scrollPos += ((inv.ssTargetPos - inv.scrollPos) * inv.ssEase);
+			}
+			
+			if (inv.scrollPos < 0) {
+				inv.scrollPos += inv.scrollMax;
+				inv.ssTargetPos += inv.scrollMax;
+				inv.ssIdx += inv.ads.length;
+			}
+			else if (inv.scrollPos >= inv.scrollMax) {
+				inv.scrollPos -= inv.scrollMax;
+				inv.ssTargetPos -= inv.scrollMax;
+				inv.ssIdx -= inv.ads.length;
+			}
+		} // slideshow
+		
+		var pos = Math.floor(inv.scrollPos);
+		if (pos != inv.lastPos) {
+			inv.lastPos = pos;
+			var x = 0;
+			var y = 0;
+			
+			for (var idx = 0, len = inv.microads.length; idx < len; idx++) {
+				var microad = inv.microads[idx];
+				var need_img_load = false;
+				
+				if (inv.direction == 'horiz') {
+					x = Math.floor( (0 - pos) + ((inv.mLeft + inv.mWidth) * idx) );
+					microad.div.style.left = '' + x + 'px';
+					
+					if ((x >= (0 - inv.mWidth) - inv.ssLoadPadding) && (x < inv.cWidth + inv.ssLoadPadding)) {
+						need_img_load = true;
+					}
+				}
+				else {
+					y = Math.floor( (0 - pos) + ((inv.mTop + inv.mHeight) * idx) );
+					microad.div.style.top = '' + y + 'px';
+					
+					if ((y >= (0 - inv.mHeight) - inv.ssLoadPadding) && (y < inv.cHeight + inv.ssLoadPadding)) {
+						need_img_load = true;
+					}
+				}
+				
+				if (need_img_load) {
+					// dynamically load images as needed
+					if (microad.thumb_url) {
+						this.trace("Dynamically loading microad thumbnail image: " + microad.thumb_url);
+						microad.thumb_elem.style.backgroundImage = 'url(' + microad.thumb_url + ')';
+						delete microad.thumb_url;
+					}
+					if (microad.ifonts) {
+						for (var idy = 0, ley = microad.ifonts.length; idy < ley; idy++) {
+							var obj = microad.ifonts[idy];
+							var url = this.getiFontURL( obj.id, {
+								width: obj.elem.offsetWidth,
+								height: obj.elem.offsetHeight,
+								text: obj.text 
+							} );
+							this.trace("Dynamically loading microad iFont image: " + obj.id + ": " + url);
+							obj.elem.style.backgroundImage = 'url(' + url + ')';
+						}
+						delete microad.ifonts;
+					}
+				} // need_img_load
+			} // foreach microad
+		} // pos changed (as int)
+	},
+	
+	hideInventory: function() {
+		// hide inventory elements and show fallback, if applicable
+		adm.hide('inv_microad');
+		adm.show('inv_fallback');
+	},
+	
+	dealerFallback: function() {
+		// no dealer was found, activate fallback content as necessary
+		adm.show('dealer_fallback');
+		
+		if (this.params.contacts) {
+			// template expected contacts and got none, so hide all non-link txt_ elements
+			this.trace("No dealer found, but one was expected, so activating fallback behavior");
+			
+			// clear all dynamic dealer text params (removes placeholder content)
+			for (var idx = 0, len = this.dynamicDealerTextParams.length; idx < len; idx++) {
+				this.params[ this.dynamicDealerTextParams[idx] ] = '';
+			}
+			
+			// allow user to specify custom elements to also hide / show (graphics, _u elems, etc.)
+			if (this.params.fallback_hide) {
+				for (var key in this.params.fallback_hide) {
+					adm.hide( key );
+				} // foreach param
+			} // fallback_hide
+			if (this.params.fallback_show) {
+				for (var key in this.params.fallback_show) {
+					adm.show( key );
+				} // foreach param
+			} // fallback_show
+			
+			if (this.params.defaulturl) {
+				this.trace("Replacing txt_link_u with defaulturl: " + this.params.defaulturl);
+				this.params.txt_link_u = this.params.defaulturl;
+			}
+			
+			// fire custom handler if defined
+			// (deprecated, may be removed in the future -- use on('dealer_fallback', FUNC) instead)
+			if (this.params.fallback_custom) this.params.fallback_custom();
+			
+			this.dispatchEvent('dealer_fallback');
+		}
+	},
+	
+	click: function(elem, merge_url, query_append) {
+		// log click event given DOM element
+		// should be prepopulated with 'admeventtype' attribute
+		if (typeof(elem) == 'string') elem = adm.$( elem.replace(/_u$/, '') );
+		if (!elem) return this.doError("Unable to locate element for click");
+		
+		var url = elem.getAttribute('admhref');
+		if (!url) return;
+		var orig_url = url;
+		
+		var event_name = elem.getAttribute('admeventtype') || 'brand_link_click';
+		var num = elem.getAttribute('admeventnum') || 1;
+		
+		// JH 2018-03-29 Remap old T2 fallback URLs to new GM URLs
+		for (var idx = 0, len = this.clickRemaps.length; idx < len; idx++) {
+			var remap = this.clickRemaps[idx];
+			url = url.replace( remap[0], remap[1] );
+		}
+		
+		// JH 2017-07-20 Ugly hack to deal with P1 issue: '?custom1=value' getting passed into replace_uri
+		if (merge_url && merge_url.match(/^\?custom/i)) merge_url = '';
+		
+		// JH 2017-11-08 AutoNation P1: Someone entered a merge_url starting with "&" which broke everything
+		// detect this and change to "?"
+		if (merge_url && merge_url.match(/^\&/)) merge_url = merge_url.replace(/^\&/, '?');
+		
+		// split merge_url into URI and query
+		var replace_uri = '';
+		var merge_query = '';
+		if (merge_url && merge_url.split) {
+			var parts = merge_url.split(/\?/, 2);
+			if (parts[0]) replace_uri = parts[0];
+			if (parts[1]) merge_query = parts[1];
+		}
+		
+		// allow custom replacement of uri (pathname) portion of url
+		if (replace_uri && url.match(/^(\w+\:\/\/[\w\-\.\:]+)([^\?]*)(.*)$/)) {
+			var proto_hostname = RegExp.$1;
+			var uri = RegExp.$2;
+			var qs = RegExp.$3;
+			if (!replace_uri.match(/^\//)) replace_uri = '/' + replace_uri;
+			url = proto_hostname + replace_uri + qs;
+		}
+		
+		// allow uri replacement to merge into query (no dupes, latter prevails)
+		if (merge_query) {
+			merge_query = adm.parseQueryString(merge_query);
+			var parts = url.split(/\?/, 2);
+			var query = adm.parseQueryString(parts[1] || '');
+			for (var key in merge_query) query[key] = merge_query[key];
+			url = parts[0] + adm.composeQueryString(query);
+		}
+		
+		this.trace("Click: " + elem.id + ": " + url);
+		this.dispatchEvent('click', elem, url);
+		
+		// if not an 'a' element, perform the nav ourselves
+		if (elem.nodeName != 'A') {
+			var click_url = url;
+			if (this.params.lqs) {
+				// append lqs to url
+				click_url += (url.match(/\?/) ? '&' : '?') + this.params.lqs.replace(/^[\?\&]/, '');
+			}
+			if (this.lastOffer && !this.lastOffer.ID.toString().match(/FILLER/)) {
+				// append offer id to url
+				click_url += (url.match(/\?/) ? '&' : '?') + 'cs:adm:o=' + this.lastOffer.ID;
+			}
+			if (query_append) {
+				// append custom query to url
+				click_url += (url.match(/\?/) ? '&' : '?') + query_append.toString().replace(/^[\?\&]/, '');
+			}
+			if (this.params.click_redirect) {
+				// JH 2013-09-16 Support Torque's new click_redirect param, replaces trackingredirecturl
+				click_url = this.params.click_redirect + click_url;
+			}
+			else if (this.params.trackingredirecturl) {
+				// support trackingredirecturl
+				// Note: NOT encoding final dest url, which follows exactly how the flash toolkit works.
+				// This results in an "improper" URL, but whatever (*shrugs*)
+				click_url = this.params.trackingredirecturl + click_url;
+			}
+			click_url = click_url.replace(/\s+/g, ''); // no whitespace in urls
+			this.trace("Final click URL: " + click_url);
+			
+			// handle external click handler
+			if (this.listeners.externalclick && this.listeners.externalclick.length) {
+				this.dispatchEvent('externalclick', click_url, url);
+			}
+			else window.open(click_url);
+			
+			// log click
+			this.logEvent('click', {
+				elem_id: elem.id,
+				original_url: orig_url,
+				final_url: click_url,
+				merge_url: merge_url || '',
+				lqs: this.params.lqs || '',
+				query_append: query_append || ''
+			});
+		}
+		
+		// JH 2013-09-16 New Torque click pixel pubclick_pixeltracker
+		// JH 2017-09-27 But honor DisplayAd (_dad.adClicked) first.
+		if (window._dad && _dad.adClicked) _dad.adClicked();
+		else if (this.params.pubclick_pixeltracker && this.params.pubclick_pixeltracker.match(/^(\w+\:)?\/\/\S+$/)) {
+			this.trace("Firing click pixel tracker: " + this.params.pubclick_pixeltracker);
+			(new Image()).src = this.params.pubclick_pixeltracker;
+		}
+	},
+	
+	logEvent: function(action, args) {
+		// log event to server (click or error)
+		args.action = action;
+		args.order = this.params.adcreator_order || '';
+		args.template = this.params.adcreator_template || '';
+		args.contact_id = this.params.contact_id || this.params.contactid || '';
+		args.ua = navigator.userAgent; // thanks cloudfront
+		args.layout = this.params.layout || '';
+		
+		if (this.lastOffer) args.offer = this.lastOffer.ID || '';
+		
+		if (window.tp) {
+			if (tp.campaign_id) args.campaign_id = tp.campaign_id;
+			if (tp.chan) args.chan = tp.chan;
+			if (tp.creative_id) args.creative_id = tp.creative_id;
+			if (tp.place) args.place = tp.place;
+			if (tp.session_id) args.session_id = tp.session_id;
+			if (tp.size) args.size = tp.size;
+			if (tp.system) args.system = tp.system;
+			if (tp.uid) args.uid = tp.uid;
+		}
+		
+		try {
+			if (document.referrer.toString().match(/^\w+\:\/\/([\w\-\.]+)/)) {
+				args.ref = RegExp.$1;
+			}
+		} catch(e) {;}
+		
+		var log_host = this.cacheHost;
+		if (window._dad && _dad.parms && _dad.parms.cachehost) log_host = _dad.parms.cachehost;
+		else if (window.extParams && extParams.cachehost) log_host = extParams.cachehost;
+		
+		var url = this.proto + '//' + log_host + '/webapp/utils/html5/log.php' + adm.composeQueryString(args);
+		(new Image()).src = url;
+	},
+	
+	setStyles: function() {
+		// set one or more style attributes on one or more elements
+		var id = null, elem = null, sty = null, overrides = null, key = null, styles = {};
+		
+		if (arguments.length == 1) styles = arguments[0];
+		else styles[ arguments[0] ] = arguments[1];
+		
+		for (id in styles) {
+			overrides = styles[id];
+			var elems = [];
+			if (id.match(/^[\w\-]+$/) && document.getElementById(id)) elems = [ document.getElementById(id) ];
+			else if (document.querySelectorAll) elems = document.querySelectorAll(id);
+			
+			if (elems.length) this.trace("Setting styles on target: " + id + ": " + JSON.stringify(overrides));
+			
+			for (var idx = 0, len = elems.length; idx < len; idx++) {
+				var elem = elems[idx];
+				if (elem) {
+					sty = elem.style;
+					for (key in overrides) {
+						var sKey = key.replace(/^\-/, '').replace(/\-(\w)/g, function(m_all, m_g1) { return m_g1.toUpperCase(); });
+						sty[sKey] = overrides[key];
+						if (!key.match(this.cssStdProps)) {
+							sty[this.vendorPrefix + sKey.substring(0, 1).toUpperCase() + sKey.substring(1)] = overrides[key];
+						}
+					} // foreach override
+				} // found elem
+			} // foreach elem
+		} // foreach id
+	},
+	
+	animatePlay: function() {
+		// set element style props based on timeline
+		var body = document.getElementsByTagName('body')[0];
+		if (this.cssAnimationSupport) {
+			if (!body.className.match(/\banimation\b/)) body.className += ' animation';
+		}
+		else {
+			if (!body.className.match(/\bfallback\b/)) body.className += ' fallback';
+		}
+		
+		if (!this.cssAnimationSupport) return false;
+		var self = this;
+		var selectors = this.args.animation || {};
+		
+		if (this.animationTimers && this.animationTimers.length) {
+			this.animateRewind();
+		}
+		
+		this.animationTimers = [];
+		this.trace("Playing animation");
+		
+		for (var sel in selectors) {
+			var timeline = selectors[sel];
+			
+			if (this.animationDefaults.visibility == 'visible') {
+				this.setStyles( sel, { visibility: 'hidden' } );
+			}
+			
+			for (var offset in timeline) {
+				var props = timeline[offset];
+				var ms = parseFloat(offset) * 1000;
+				if (typeof(props) == 'string') props = { animation: props };
+				
+				for (var key in this.animationDefaults) {
+					if (typeof(props[key]) == 'undefined') {
+						props[key] = this.animationDefaults[key];
+					}
+				}
+				
+				// double closure wrapper so loop variables keep their state
+				(function(isel, ims, iprops) { 
+					self.animationTimers.push( setTimeout( function() {
+						self.trace( "Animation Keyframe: " + isel + ': ' + ims + 'ms: ' + JSON.stringify(iprops) );
+						iprops['animation-play-state'] = 'running';
+						self.dispatchEvent( 'keyframe', isel, ims, iprops );
+						self.setStyles( isel, iprops );
+					}, ims ) ); 
+				})(sel, ms, props);
+			} // foreach keyframe
+		} // foreach css selector
+		
+		// might as well do this for all DIVs just in case
+		var divs = document.getElementsByTagName('div');
+		for (var idx = 0, len = divs.length; idx < len; idx++) {
+			var sty = divs[idx].style;
+			if (sty) {
+				sty.animationPlayState = 'running';
+				sty.webkitAnimationPlayState = 'running';
+			}
+		}
+		
+		// make sure template is visible
+		var temp = adm.$('#template');
+		if (temp && temp.style) temp.style.visibility = 'visible';
+		
+		this.dispatchEvent( 'play' );
+		return true;
+	},
+	
+	animateStop: function() {
+		// stop animation if in progress
+		if (!this.cssAnimationSupport) return false;
+		var selectors = this.args.animation || {};
+		this.trace("Stopping animation");
+		
+		if (this.animationTimers && this.animationTimers.length) {
+			for (var idx = 0, len = this.animationTimers.length; idx < len; idx++) {
+				clearTimeout( this.animationTimers[idx] );
+			}
+		}
+		
+		for (var sel in selectors) {
+			this.setStyles( sel, { 'animation-play-state': 'paused' } );
+		}
+		
+		// might as well do this for all DIVs just in case
+		var divs = document.getElementsByTagName('div');
+		for (var idx = 0, len = divs.length; idx < len; idx++) {
+			var sty = divs[idx].style;
+			if (sty) {
+				sty.animationPlayState = 'paused';
+				sty.webkitAnimationPlayState = 'paused';
+			}
+		}
+		
+		this.dispatchEvent( 'stop' );
+		return true;
+	},
+	
+	animateRewind: function() {
+		// rewind animation to beginning
+		if (!this.cssAnimationSupport) return false;
+		var selectors = this.args.animation || {};
+		
+		if (this.animationTimers && this.animationTimers.length) {
+			this.animateStop();
+		}
+		
+		this.trace("Rewinding animation");
+		
+		for (var sel in selectors) {
+			this.setStyles( sel, { 'animation': '', 'animation-name': '' } );
+			
+			if (this.animationDefaults.visibility == 'visible') {
+				this.setStyles( sel, { visibility: 'hidden' } );
+			}
+		}
+		
+		var body = document.getElementsByTagName('body')[0];
+		body.classList.remove("animation");
+		body.offsetWidth; // trigger dom reflow
+		
+		// make sure template is visible
+		var temp = adm.$('#template');
+		if (temp && temp.style) temp.style.visibility = 'hidden';
+		
+		this.dispatchEvent( 'rewind' );
+		return true;
+	},
+	
+	color: function(idx) {
+		// fetch color value by index (0 - 3)
+		var clrs = (this.param('colors') || '').split(/\,\s*/);
+		var clr = clrs[idx] || '';
+		if (clr && !clr.match(/^\#/)) clr = '#' + clr;
+		return clr;
+	},
+	
+	param: function() {
+		// get or set param by name
+		if (arguments.length == 2) this.params[arguments[0]] = arguments[1];
+		else return this.params[arguments[0]];
+	},
+	
+	override: function() {
+		// get or set overrides
+		if (!this.args.overrides) this.args.overrides = {};
+		if (arguments.length == 3) {
+			var elem_id = arguments[0];
+			var key = arguments[1];
+			var value = arguments[2];
+			if (!this.args.overrides[elem_id]) this.args.overrides[elem_id] = {};
+			this.args.overrides[elem_id][key] = value;
+		}
+		else if (arguments.length == 2) {
+			var elem_id = arguments[0];
+			var obj = arguments[1];
+			if (!this.args.overrides[elem_id]) this.args.overrides[elem_id] = {};
+			for (var key in obj) this.args.overrides[elem_id][key] = obj[key];
+		}
+		else return this.args.overrides[arguments[0]];
+	},
+	
+	on: function(name, callback) {
+		// register event listener and callback function
+		name = name.toLowerCase();
+		if (!this.listeners[name]) this.listeners[name] = [];
+		this.listeners[name].push( callback );
+		return this;
+	},
+	
+	dispatchEvent: function() {
+		// dispatch event to all registered callbacks, if any
+		var name = arguments[0].toLowerCase();
+		this.trace("Dispatching event: " + name);
+		if (this.listeners[name] || this.listeners['all']) {
+			var args = [];
+			if (arguments.length > 1) {
+				for (var idx = 1, len = arguments.length; idx < len; idx++) {
+					args.push( arguments[idx] );
+				}
+			}
+			if (this.listeners[name]) {
+				for (var idx = 0, len = this.listeners[name].length; idx < len; idx++) {
+					this.listeners[name][idx].apply( window, args );
+				}
+			}
+			if (this.listeners['all']) {
+				for (var idx = 0, len = this.listeners[name].length; idx < len; idx++) {
+					this.listeners['all'][idx].apply( window, [name].concat(args) );
+				}
+			}
+		}
+	},
+	
+	trace: function(msg) {
+		// log debug message if debugging is enabled
+		if (this.debug && window.console && console.log) {
+			console.log( adm.timeNow() + ": " + msg );
+		}
+	}
+};
+
+// Utility Functions:
+
+adm.timeNow = function() {
+	// get current time in hi-res epoch seconds
+	return (new Date()).getTime() / 1000;
+};
+
+adm.parseCookies = function() {
+	// parse cookies out of document.cookie and return hash
+	var cookies = {};
+	var pairs = null;
+	
+	try { pairs = document.cookie.split(/\;\s*/); } catch (e) {;}
+	if (!pairs) return {};
+	
+	for (var idx = 0, len = pairs.length; idx < len; idx++) {
+		var pair = pairs[idx];
+		if (pair.match(/^([^\=]+)\=(.*)$/)) {
+			cookies[ RegExp.$1 ] = adm.decodeURIComponent( RegExp.$2 );
+		}
+	}
+	return cookies;
+};
+
+adm.parseQueryString = function(queryString) {
+	// parse query string into object
+	var pair = null;
+	var queryObject = {};
+	queryString = queryString.replace(/^.*\?(.+)$/,'$1');
+	
+	while ((pair = queryString.match(/([^=]+)=([^\&]*)\&?/)) && pair[0].length) {
+		queryString = queryString.substring( pair[0].length );
+		pair[1] = adm.decodeURIComponent(pair[1]);
+		pair[2] = adm.decodeURIComponent(pair[2]);
+		if (/^\-?\d+$/.test(pair[2])) pair[2] = parseInt(pair[2], 10);
+		queryObject[pair[1]] = pair[2];
+	}
+	
+	return queryObject;
+};
+
+adm.composeQueryString = function(queryObj) {
+	// compose key/value pairs into query string
+	var qs = '';
+	for (var key in queryObj) {
+		qs += (qs.length ? '&' : '?') + encodeURIComponent(key) + '=' + encodeURIComponent(queryObj[key]);
+	}
+	return qs;
+};
+
+adm.encodeAttribEntities = function(text) {
+	// Simple entitize function for composing XML attributes
+	if (text == null) return '';
+	if (text && text.replace) {
+		text = text.replace(/\&/g, "&amp;"); // MUST BE FIRST
+		text = text.replace(/</g, "&lt;");
+		text = text.replace(/>/g, "&gt;");
+		text = text.replace(/\"/g, "&quot;");
+		text = text.replace(/\'/g, "&apos;");
+	}
+	return text;
+};
+
+adm.$ = function(id) {
+	// simple shortcut for document.getElementById or document.querySelector
+	var obj = null;
+	if (id.match(/^[\w\-]+$/)) obj = document.getElementById(id);
+	else if (document.querySelector) obj = document.querySelector(id);
+	
+	if (obj) {
+		if (!obj.hide) obj.hide = function() {
+			this.style.display = 'none'; 
+			return this;
+		};
+		if (!obj.show) obj.show = function() { 
+			this.style.display = ''; 
+			this.style.opacity = 1;
+			this.style.visibility = 'visible';
+			return this;
+		};
+		if (!obj.addClass) obj.addClass = function(name) {
+			this.removeClass(name); 
+			this.className += ' ' + name; 
+			return this;
+		};
+		if (!obj.removeClass) obj.removeClass = function(name) {
+			this.className = this.className.replace( new RegExp("\\s*" + name + "\\s*", "g"), " ").replace(/^\s+/, '').replace(/\s+$/, '');
+			return this;
+		};
+		if (!obj.replaceClass) obj.replaceClass = function(old_class, new_class) {
+			return this.removeClass(old_class).addClass(new_class);
+		};
+		if (!obj.hasClass) obj.hasClass = function(name) {
+			return !!this.className.match( new RegExp("\\b" + name + "\\b") );
+		}
+	}
+	
+	return obj;
+};
+
+if (!adm.force_iframe) {
+	
+	adm.show = function() {
+		// show one or more elements, by ids
+		var elem = null;
+		for (var idx = 0, len = arguments.length; idx < len; idx++) {
+			elem = adm.$( arguments[idx] );
+			if (elem) {
+				elem.style.display = '';
+				elem.style.opacity = 1;
+				elem.style.visibility = 'visible';
+			}
+		}
+	};
+	adm.hide = function() {
+		// hide one or more elements, by ids
+		var elem = null;
+		for (var idx = 0, len = arguments.length; idx < len; idx++) {
+			elem = adm.$( arguments[idx] );
+			if (elem) elem.style.display = 'none';
+		}
+	};
+
+	adm.deepCopyLowerKeys = function(obj) {
+		// make a deep copy of object tree but lower-case all keys
+		var result = {};
+		
+		if ((typeof(obj.length) == 'number') && (typeof(obj[0]) != 'undefined')) {
+			result = [];
+			for (var idx = 0, len = obj.length; idx < len; idx++) {
+				if (typeof(obj[idx]) == 'object') result[idx] = adm.deepCopyLowerKeys(obj[idx]);
+				else result[idx] = obj[idx];
+			}
+		}
+		else {
+			for (var key in obj) {
+				if (typeof(obj[key]) == 'object') result[key.toLowerCase()] = adm.deepCopyLowerKeys(obj[key]);
+				else result[key.toLowerCase()] = obj[key];
+			}
+		}
+		
+		return result;
+	};
+
+	adm.lookupPath = function(path, obj) {
+		// very simple xpath-style lookup
+		if (!path.match(/^\//)) path = '/' + path;
+		while (path.match(/^\/([^\/]+)/)) {
+			var key = RegExp.$1;
+			if (typeof(obj[key]) != 'object') return obj[key]; // end of line
+			obj = obj[key];
+			path = path.replace(/^\/([^\/]+)/, '');
+		}
+		return obj;
+	};
+
+	adm.substitute = function(text, args) {
+		// perform simple [placeholder] substitution using supplied
+		// args object (or eval) and return transformed text
+		if (typeof(text) == 'undefined') text = '';
+		text = '' + text;
+		if (!args) args = {};
+
+		while (text.indexOf('[') > -1) {
+			var open_bracket = text.indexOf('[');
+			var close_bracket = text.indexOf(']');
+
+			var before = text.substring(0, open_bracket);
+			var after = text.substring(close_bracket + 1, text.length);
+
+			var name = text.substring( open_bracket + 1, close_bracket );
+			var value = '';
+			if (!name.match(/^\//)) name = '/' + name;
+			value = adm.lookupPath(name, args);
+			if (typeof(value) == 'undefined') value = '';
+			
+			text = before + value + after;
+		} // while text contains [
+
+		return text;
+	};
+
+	adm.addDOMEventListener = function(elem, evt, func) {
+		// cross-platform addEventListener
+		if (elem.addEventListener) {
+			// sane browsers
+			elem.addEventListener(evt, func, false);
+		}
+		else if (elem.attachEvent) {
+			// insane browsers (msie)
+			elem.attachEvent( 'on' + evt, function(e) {
+				if (!e) e = window.event;
+				func.call( elem, e );
+			} );
+		}
+	};
+
+	adm.commify = function(number) {
+		// add commas to integer, e.g. 1234567 = "1,234,567"
+		if (!number) number = 0;
+		number = '' + number;
+		number = number.replace(/\.\d+$/, '').replace(/\D+/g, ''); // remove incoming commas, neg and decimal
+		
+		if (number.length > 3) {
+			var mod = number.length % 3;
+			var output = (mod > 0 ? (number.substring(0,mod)) : '');
+			for (i=0 ; i < Math.floor(number.length / 3); i++) {
+				if ((mod == 0) && (i == 0))
+					output += number.substring(mod+ 3 * i, mod + 3 * i + 3);
+				else
+					output+= ',' + number.substring(mod + 3 * i, mod + 3 * i + 3);
+			}
+			return (output);
+		}
+		else return number;
+	};
+
+	adm.price_usd = function(value, hide_zeros) {
+		// format number to USD price: 0 == "$0.00", 1.5 = "$1.50"
+		var matches = value.toString().replace(/^\-/, '').replace(/\,+/g, '').match(/^(\d+)\.(\d+)$/);
+		if (matches) {
+			if (matches[2].length < 2) matches[2] = '0' + matches[2];
+			else if (matches[2].length > 2) matches[2] = matches[2].substring(0, 2);
+			return '$' + adm.commify(matches[1]) + '.' + matches[2];
+		}
+		else return '$' + adm.commify(value) + (hide_zeros ? '' : '.00');
+	};
+
+	adm.price_usd_int = function(value) {
+		// format number to USD price, but strip decimal
+		return adm.price_usd( value.toString().replace(/\.\d+$/, ''), true );
+	};
+
+	adm.isRightClick = function(e) {
+		// determine if event is a right-click or not
+		if (!e) var e = window.event;
+		var right = false;
+		if (e.which) right = (e.which == 3);
+		else if (e.button) right = (e.button == 2);
+		return right;
+	};
+	
+	adm.getInnerWindowSize = function(dom) {
+		// get size of inner window
+		if (!dom) dom = window;
+		var w = 0, h = 0;
+		
+		if( typeof( dom.innerWidth ) == 'number' ) {
+			w = dom.innerWidth;
+			h = dom.innerHeight;
+		}
+		else if( dom.document.documentElement && ( dom.document.documentElement.clientWidth || dom.document.documentElement.clientHeight ) ) {
+			w = dom.document.documentElement.clientWidth;
+			h = dom.document.documentElement.clientHeight;
+		}
+		else if( dom.document.body && ( dom.document.body.clientWidth || dom.document.body.clientHeight ) ) {
+			w = dom.document.body.clientWidth;
+			h = dom.document.body.clientHeight;
+		}
+		return { width: w, height: h };
+	};
+	
+	adm.decodeURIComponent = function(text) {
+		// wrap with try/catch, return original on failure
+		try { text = decodeURIComponent(text); } catch(e) {;}
+		return text;
+	};
+	
+	// Add toTitleCase to String if missing
+	if (!String.toTitleCase) String.toTitleCase = function(str) {
+		return (''+str).toLowerCase().replace( /(^|\W+)([a-z])/g, function(m_all, m_g1, m_g2) {
+			return m_g1 + m_g2.toUpperCase();
+		} );
+	};
+	
+	// If JSON support is not present, stub out function so it doesn't crash (only used for debugging)
+	if (!window.JSON) window.JSON = {};
+	if (!JSON.stringify) JSON.stringify = function(obj) { return '[UNSUPPORTED BROWSER]'; };
+	
+	// Exception handling for local previews
+	if ((window.extParams && extParams.preview) || (window._dad && _dad.parms && _dad.parms.preview)) {
+		window.onerror = function(message, url, linenum, colnum, err) {
+			var msg = "HTML Ad JavaScript Error: " + message + " (in " + url + " on line " + linenum + ")";
+			if (err && err.stack) msg += "\n\n" + err.stack;
+			else msg += "\n\n(No stack trace available)";
+			if (window.console && console.log) {
+				console.log(msg);
+			}
+			if (!adm.num_error_alerts) adm.num_error_alerts = 0;
+			adm.num_error_alerts++;
+			if (adm.num_error_alerts < 10) {
+				alert(msg + "\n\n" + navigator.userAgent);
+			}
+		};
+	}
+	else if (window._dad && (Math.random() <= adm.htmlad.logErrorPct / 100)) {
+		// not in preview mode
+		window.onerror = function(message, url, linenum, colnum, err) {
+			adm.htmlad.logEvent('error', { message: message, url: url, linenum: linenum });
+			window.onerror = null;
+		};
+	}
+	
+	// Note when DOM loads
+	if (document.addEventListener) {
+		document.addEventListener( "DOMContentLoaded", function() {
+			adm.domLoaded = true;
+		}, false );
+	}
+	else {
+		window.attachEvent("onload", function() {
+			adm.domLoaded = true;
+		});
+	}
+} // not in iframe mode
+
+// namespaces
+if (!adm.custom) adm.custom = {};
+adm.cs = adm.custom;
+adm.ad = adm.htmlad;
+
+// Template Support within DisplayAd:
+
+if (window._dad && _dad.parms && _dad.parms.adcreator_template && _dad.parms.layout && _dad.parms.cachehost) {
+	// check if an iframe wrapper is needed, otherwise doc write straight into DOM
+	if (adm.force_iframe) {
+		var iframe_url = '' + location.protocol + '//' + _dad.parms.cachehost + '/webapp/utils/displayad_iframe.php' + adm.composeQueryString(_dad.parms);
+		document.write('<iframe src="'+iframe_url+'" style="width:'+_dad.parms.spotw+'px; height:'+_dad.parms.spoth+'px; border:0; margin:0; padding:0;" border="0" frameborder="0"></iframe>');
+	}
+	else {
+		adm.htmlad.templateBaseURL = '' + adm.htmlad.proto + '//' + _dad.parms.cachehost + '/abc/assets/' + 
+			_dad.parms.adcreator_template.replace(/^rf\:/, '').replace(/\:/g, '/');
+		
+		var script_ttl = 3600;
+		if (_dad.parms.preview || _dad.parms.debug || _dad.parms.cachehost.match(/\b(dev|stage|preprod)\b/)) script_ttl = 1;
+		
+		var script_url = adm.htmlad.templateBaseURL + '/' + _dad.parms.layout + '.js?cache=' + script_ttl;
+		var div_id = 'adm_htmlad_container';
+		
+		if (_dad.parms.hero) document.write('<div id="'+div_id+'" style="position:relative;overflow:hidden;width:100%;height:100%;"></div>');
+		else document.write('<div id="'+div_id+'" style="position:relative;overflow:hidden;width:'+_dad.parms.spotw+'px;height:'+_dad.parms.spoth+'px;"></div>');
+		
+		document.write('<scr'+'ipt type="text/javascript" crossorigin="anonymous" charset="utf-8" src="'+script_url+'"></scr'+'ipt>');
+	}
+}
+
+// onFontReady (MIT License)
+// https://github.com/dwighthouse/onfontready/blob/master/LICENSE
+window.onfontready=function(e,t,i,n,o){i=i||0,i.timeoutAfter&&setTimeout(function(){n&&(document.body.removeChild(n),n=0,i.onTimeout&&i.onTimeout())},i.timeoutAfter),o=function(){n&&n.firstChild.clientWidth==n.lastChild.clientWidth&&(document.body.removeChild(n),n=0,t())},o(document.body.appendChild(n=document.createElement("div")).innerHTML='<div style="position:fixed;white-space:pre;bottom:999%;right:999%;font:999px '+(i.generic?"":"'")+e+(i.generic?"":"'")+',serif">'+(i.sampleText||" ")+'</div><div style="position:fixed;white-space:pre;bottom:999%;right:999%;font:999px '+(i.generic?"":"'")+e+(i.generic?"":"'")+',monospace">'+(i.sampleText||" ")+"</div>"),n&&(n.firstChild.appendChild(e=document.createElement("iframe")).style.width="999%",e.contentWindow.onresize=o,n.lastChild.appendChild(e=document.createElement("iframe")).style.width="999%",e.contentWindow.onresize=o,e=setTimeout(o))};
+window.onfontsready=function(e,t,n,o,i){for(n=n||0,o=i=0;o<e.length;o++)window.onfontready(e[o],function(){++i>=e.length&&t()},{timeoutAfter:n.timeoutAfter,sampleText:n.sampleText instanceof Array?n.sampleText[o]:n.sampleText,generic:n.generic instanceof Array?n.generic[o]:n.generic});n.timeoutAfter&&n.onTimeout&&setTimeout(function(){i<e.length&&n.onTimeout(i=NaN)},n.timeoutAfter)};
+}catch(e){}
