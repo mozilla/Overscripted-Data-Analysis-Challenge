@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<link rel="icon" type="image/png" href="/favicon-192x192.png" sizes="192x192">
+<link rel="icon" type="image/png" href="/favicon-16x16.png" sizes="16x16">
+<link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<link rel="apple-touch-icon" sizes="152x152" href="/apple-touch-icon-152x152.png">
+<link rel="yandex-tableau-widget" href="/ya-manifest.json">
+<meta name="msapplication-TileColor" content="#2d89ef">
+<meta name="msapplication-TileImage" content="/mstile-144x144.png">
+<title property="og:title">Гадкий я 3 2017 смотреть онлайн бесплатно в хорошем качестве - w6.zona.plus</title>
+<meta property="og:description" name="description" content="Смотреть онлайн фильм Гадкий я 3 бесплатно - Грядет третье пришествие. Многодетный суперагент, роковая красотка и бессмертные миньоны на подходе. Готовьтесь. Они будут править миром...."/>
+<link rel="stylesheet" type="text/css" href="/build/bundle-f2a77b804e92e2540834.css" >
+<!--link rel="stylesheet" type="text/css" href="/css/player.css?1534139660" -->
+<meta property="og:url" content="https://w6.zona.plus/movies/gadkii-ya-3">
+
+    <link itemprop="embedUrl" content="https://w6.zona.plus/movies/embed/gadkii-ya-3">
+    <link itemprop="allowEmbed" content="true" />
+    <link itemprop="feedUrl" content="https://w6.zona.plus/movies/feed/gadkii-ya-3">
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="@zonateam" />
+    <meta name="twitter:creator" content="@zonateam" />
+            <meta property="og:image" content="https://img4.imgzona.video/images/film_240/820/820599.jpg" />
+        <meta name="twitter:title" content="Гадкий я 3 ▶ Смотреть онлайн" />
+        <meta name="twitter:description" content="6.2★ · 2017 · мультфильм, семейный, приключения, комедия, фэнтези, боевик, фантастика" />
+            <meta name="twitter:image" content="https://img-vibio.imgzona.video/2459/2459365/frame00005.jpg" />
+
+
+  <script>
+      window._app = {
+              version: '1534139660',
+              isMobile: false
+          };
+  </script>
+
+  <script type="text/javascript">
+    // IE9 fix
+    if(!window.console) {
+      var console = {
+        log : function(){},
+        warn : function(){},
+        error : function(){},
+        time : function(){},
+        timeEnd : function(){}
+      }
+    }
+  </script>
+
+</head>
+<body>
+
+<div class="l-container">
+            <header class="header">
+  <div class="l-wrap">
+    <nav class="header-nav">
+  <a class="js-index header-nav-item is-index " title="На главную w6.zona.plus" href="/">Zona</a>
+<a class="js-movies header-nav-item is-selected" title="Все фильмы на w6.zona.plus" href="/movies">Фильмы</a>
+<a class="js-tvseries header-nav-item " title="Все сериалы на w6.zona.plus" href="/tvseries">Сериалы</a></nav>
+<div class="js-module-search">
+  <label class="header-search-btn" for="search-input" tabindex="0" title="Поиск"></label>
+  <div class="header-search-line">
+    <form class="header-search-form" action="/search-form">
+      <span class="header-back-btn" title="Назад"></span>
+      <input autocomplete="off" name="query" placeholder="Поиск фильмов и сериалов" value="" class="header-search-line-input" id="search-input" placeholder="Поиск фильмов и сериалов">
+      <span class="header-search-line-submit" title="Искать" type="submit"></span>
+      <ul class="suggest">
+      </ul>
+    </form>
+  </div>
+</div>
+  </div>
+</header>    
+    <main class="l-content">
+      <div class="l-wrap">
+          <style>
+    .mejs-poster {
+      background-image: url('https://img-vibio.imgzona.video/2459/2459365/frame00005.jpg') !important;
+    }
+    @media (min-width: 640px) {
+      .mejs-poster {
+        background-image: url('https://img-vibio.imgzona.video/2459/2459365/frame00005.jpg') !important;
+      }
+    }
+    @media (min-width: 1000px) {
+      .mejs-poster {
+        background-image: url('https://img-vibio.imgzona.video/2459/2459365/frame00005.jpg') !important;
+      }
+    }
+    @media (min-width: 1280px) {
+      .mejs-poster {
+        background-image: url('https://img-vibio.imgzona.video/2459/2459365/frame00005.jpg') !important;
+      }
+    }
+    @media (min-width: 1920px) {
+      .mejs-poster {
+        background-image: url('https://img-vibio.imgzona.video/2459/2459365/frame00005.jpg') !important;
+      }
+    }
+  </style>
+  <div itemscope itemtype="http://schema.org/Movie">
+    <div class="entity-desc-wrap ">
+      <div class="entity-desc">
+        <div class="entity-desc-poster">
+          <meta itemprop="image" content="https://img4.imgzona.video/images/film_240/820/820599.jpg">
+          <div class="entity-desc-poster-img fadeIn animated" style="background: url(https://img4.imgzona.video/images/film_240/820/820599.jpg), url('/img/nocover.png')"></div>
+        </div>
+        <div class="entity-desc-col">
+          <div class="entity-title-wrap">
+              <h1 class="entity-title-text">
+                <span class="js-title" itemprop="name">Гадкий я 3</span>
+                <meta itemprop="alternativeHeadline" content="Despicable Me 3">
+              </h1>
+          </div>
+          <div class="entity-desc-table">
+                          <dl class="entity-desc-item-wrap is-rating" itemprop="aggregateRating" itemscope  itemtype="http://schema.org/AggregateRating">
+                <dt class="entity-desc-item">Рейтинг</dt>
+                <dd class="entity-desc-value is-rating">
+                                                            <span class="entity-rating-mobi">6.3</span>
+                                                                            <span class="entity-rating-kp">6.2</span>
+                    <meta itemprop="ratingValue" content="6.2" />
+                    <meta itemprop="worstRating" content = "1"/>
+                    <meta itemprop="bestRating" content="10" />
+                    <meta itemprop="ratingCount" content="32000" />
+                                                        <span class="entity-rating-imdb">6.3</span>
+                                  </dd>
+              </dl>
+                                      <dl class="entity-desc-item-wrap">
+                <dt class="entity-desc-item">Название</dt>
+                <dd class="entity-desc-value is-narrow" itemprop="alternateName">Despicable Me 3
+                </dd>
+              </dl>
+                                      <dl class="entity-desc-item-wrap">
+                <dt class="entity-desc-item">Год</dt>
+                <dd class="entity-desc-value"><span itemprop="copyrightYear">2017</span></dd>
+              </dl>
+                        <dl class="entity-desc-item-wrap">
+              <dt class="entity-desc-item">Жанры</dt>
+              <dd class="entity-desc-value js-genres" >
+                                    <a class="entity-desc-link" title="мультфильм на w6.zona.plus" href="/movies/filter/genre-multfilm">
+                      <span class="entity-desc-link-u" itemprop="genre">мультфильм</span>,                    </a>
+                                    <a class="entity-desc-link" title="семейный на w6.zona.plus" href="/movies/filter/genre-semeinyi">
+                      <span class="entity-desc-link-u" itemprop="genre">семейный</span>,                    </a>
+                                    <a class="entity-desc-link" title="приключения на w6.zona.plus" href="/movies/filter/genre-prikliucheniia">
+                      <span class="entity-desc-link-u" itemprop="genre">приключения</span>,                    </a>
+                                    <a class="entity-desc-link" title="комедия на w6.zona.plus" href="/movies/filter/genre-komediia">
+                      <span class="entity-desc-link-u" itemprop="genre">комедия</span>,                    </a>
+                                    <a class="entity-desc-link" title="фэнтези на w6.zona.plus" href="/movies/filter/genre-fentezi">
+                      <span class="entity-desc-link-u" itemprop="genre">фэнтези</span>,                    </a>
+                                    <a class="entity-desc-link" title="боевик на w6.zona.plus" href="/movies/filter/genre-boevik">
+                      <span class="entity-desc-link-u" itemprop="genre">боевик</span>,                    </a>
+                                    <a class="entity-desc-link" title="фантастика на w6.zona.plus" href="/movies/filter/genre-fantastika">
+                      <span class="entity-desc-link-u" itemprop="genre">фантастика</span>                    </a>
+                              </dd>
+            </dl>
+            <dl class="entity-desc-item-wrap">
+              <dt class="entity-desc-item">Страна</dt>
+              <dd class="entity-desc-value js-countries">
+                                    <a class="entity-desc-link" href="/movies/filter/country-ssha" title="Фильмы производства США">
+                        <span class="entity-desc-link-u">США</span>
+                    </a>                              </dd>
+            </dl>
+            <dl class="entity-desc-item-wrap">
+              <dt class="entity-desc-item">Режиссёр</dt>
+              <dd class="entity-desc-value is-narrow js-director" >
+                                    <span itemprop="director" itemscope itemtype="http://schema.org/Person">
+                      <span itemprop="name">Кайл Балда</span></span>,                                    <span itemprop="director" itemscope itemtype="http://schema.org/Person">
+                      <span itemprop="name">Пьер Коффан</span></span>,                                    <span itemprop="director" itemscope itemtype="http://schema.org/Person">
+                      <span itemprop="name">Эрик Гуильон</span></span>                              </dd>
+            </dl>
+            <dl class="entity-desc-item-wrap">
+              <dt class="entity-desc-item">Сценарий</dt>
+              <dd class="entity-desc-value is-narrow js-scenarist">
+                                  <span itemprop="author" itemscope itemtype="http://schema.org/Person">
+                    <span itemprop="name">Синко Пол</span></span>,                                  <span itemprop="author" itemscope itemtype="http://schema.org/Person">
+                    <span itemprop="name">Кен Даурио</span></span>                              </dd>
+            </dl>
+            <dl class="entity-desc-item-wrap">
+              <dt class="entity-desc-item">Актёры</dt>
+              <dd class="entity-desc-value is-narrow ">
+                                  <span itemprop="actor" itemscope itemtype="http://schema.org/Person">
+                     <span itemprop="name">Стив Карелл</span>,                  </span>
+                                  <span itemprop="actor" itemscope itemtype="http://schema.org/Person">
+                     <span itemprop="name">Кристен Уиг</span>,                  </span>
+                                  <span itemprop="actor" itemscope itemtype="http://schema.org/Person">
+                     <span itemprop="name">Трей Паркер</span>,                  </span>
+                                  <span itemprop="actor" itemscope itemtype="http://schema.org/Person">
+                     <span itemprop="name">Миранда Косгров</span>,                  </span>
+                                  <span itemprop="actor" itemscope itemtype="http://schema.org/Person">
+                     <span itemprop="name">Дэна Гайер</span>,                  </span>
+                                  <span itemprop="actor" itemscope itemtype="http://schema.org/Person">
+                     <span itemprop="name">Нев Шаррел</span>,                  </span>
+                                  <span itemprop="actor" itemscope itemtype="http://schema.org/Person">
+                     <span itemprop="name">Пьер Коффан</span>,                  </span>
+                                  <span itemprop="actor" itemscope itemtype="http://schema.org/Person">
+                     <span itemprop="name">Стив Куган</span>,                  </span>
+                                  <span itemprop="actor" itemscope itemtype="http://schema.org/Person">
+                     <span itemprop="name">Джули Эндрюс</span>,                  </span>
+                                  <span itemprop="actor" itemscope itemtype="http://schema.org/Person">
+                     <span itemprop="name">Дженни Слейт</span>                  </span>
+                              </dd>
+            </dl>
+            <dl class="entity-desc-item-wrap">
+              <dt class="entity-desc-item">Время</dt>
+              <dd class="entity-desc-value">
+                <time datetime="PT89M">
+                  1 час 29 минут
+                  <meta itemprop="duration" content="PT89M">
+                </time>
+              </dd>
+            </dl>
+                          <dl class="entity-desc-item-wrap">
+                <dt class="entity-desc-item">Премьера</dt>
+                <dd class="entity-desc-value is-narrow">
+                                      <span itemprop="dateCreated">14 июня 2017 в&nbsp;мире<br/></span>
+                                                        <span>29 июня 2017 в&nbsp;России</span>
+                                  </dd>
+              </dl>
+                                      <dl class="entity-desc-item-wrap">
+                <dt class="entity-desc-item">DVD</dt>
+                <dd class="entity-desc-value is-narrow">
+                  <span>30 октября 2017<br/></span>
+                </dd>
+              </dl>
+                      </div>
+          <div >
+            <div class="entity-desc-description" itemprop="description">Грядет третье пришествие. Многодетный суперагент, роковая красотка и бессмертные миньоны на подходе. Готовьтесь. Они будут править миром.</div>
+            <div id="movie-share" data-services="vkontakte,facebook,odnoklassniki,gplus,twitter,moikrug" data-counter=""></div>
+          </div>
+        </div>
+      </div>
+    </div>
+        <div class="entity-header">
+              <div class="abuse">
+          Видео заблокировано по просьбе правообладателя <br/> due to rights restrictions this video is not currently available
+        </div>
+            <div class="entity-buttons is-single-line">
+              </div>
+    </div>
+  </div>
+
+      </div>
+    </main>
+  <div class="l-overlay hide"></div>
+    <footer class="footer">
+  <div class="wrap">
+  <p class="footer-thanks">Спасибо, что делитесь с друзьями</p>
+  <div id="footer-share" data-services="vkontakte,facebook,odnoklassniki,gplus,twitter,moikrug" data-counter=""></div>
+  <div class="support-mail">Почта для связи: <a target="_blank" href="mailto:admin@zona.plus">admin@zona.plus</a></div>
+</div></footer>  
+</div>
+
+<script src="/build/bundle-f2a77b804e92e2540834.js"></script>
+<div class="counters">
+  <!--LiveInternet counter-->
+  <script type="text/javascript" async>document.write("<a href='//www.liveinternet.ru/click' target=_blank><img style='display: none' src='//counter.yadro.ru/hit?t44.6;r" + escape(document.referrer) + ((typeof(screen)=="undefined")?"":";s"+screen.width+"*"+screen.height+"*"+(screen.colorDepth?screen.colorDepth:screen.pixelDepth)) + ";u" + escape(document.URL) +";h"+escape(document.title.substring(0,80)) +  ";" + Math.random() + "' border=0 width=31 height=31 alt='' title='LiveInternet'><\/a>")</script>
+  <!--/LiveInternet-->
+</div>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      a.onload = function(){i.loadGa = true;}
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-27424010-3', 'auto');
+  ga('send', 'pageview');
+
+</script>
+</body>
+</html>

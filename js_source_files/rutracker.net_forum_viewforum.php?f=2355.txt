@@ -1,0 +1,2483 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+
+<meta charset="Windows-1251">
+<meta name="robots" content="noindex">
+
+<title>\xd5\xf3\xe4\xee\xe6\xe5\xf1\xf2\xe2\xe5\xed\xed\xe0\xff \xeb\xe8\xf2\xe5\xf0\xe0\xf2\xf3\xf0\xe0 \xed\xe0 \xe0\xed\xe3\xeb\xe8\xe9\xf1\xea\xee\xec \xff\xe7\xfb\xea\xe5 [\xf1\xf2\xf0. 1] :: \xce\xe1\xf3\xf7\xe5\xed\xe8\xe5 \xe8\xed\xee\xf1\xf2\xf0\xe0\xed\xed\xfb\xec \xff\xe7\xfb\xea\xe0\xec :: RuTracker.org</title>
+
+<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/manifest.json">
+<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="msapplication-TileColor" content="#2b5797">
+<meta name="msapplication-TileImage" content="/mstile-144x144.png">
+<meta name="theme-color" content="#ffffff">
+
+<link rel="search" type="application/opensearchdescription+xml" title="\xcf\xee\xe8\xf1\xea \xed\xe0 RuTracker.org" href="//static.t-ru.org/opensearch.xml">
+<link href="http://feed.rutracker.cc/atom/f/2355.atom" rel="alternate" type="application/atom+xml" title="\xd5\xf3\xe4\xee\xe6\xe5\xf1\xf2\xe2\xe5\xed\xed\xe0\xff \xeb\xe8\xf2\xe5\xf0\xe0\xf2\xf3\xf0\xe0 \xed\xe0 \xe0\xed\xe3\xeb\xe8\xe9\xf1\xea\xee\xec \xff\xe7\xfb\xea\xe5"/>
+
+<script>
+window.BB = {
+	cur_domain: location.hostname.replace(/.*?([^.]+\.[^.]+)$/, '$1'),
+	// keep space " : " for TLO
+	form_token: '',
+	opt_js: {},
+
+	begun_iframe_src: "//rutrk.org/iframe/begun-1.html",
+
+	IS_GUEST: !!'1',
+	BB_SCRIPT: 'forum',
+	IMG_URL: '//static.t-ru.org/templates/v1/images',
+	SMILES_URL: '//static.t-ru.org/smiles',
+	FORUM_ID: '2355',
+		PG_PER_PAGE: '50',
+	PG_BASE_URL: 'viewforum.php?f=2355',
+	};
+BB.cookie_defaults = {
+	domain: '.' + BB.cur_domain,
+	path: "/forum/",
+};
+</script>
+<link href="//static.t-ru.org/templates/v1/min/3c98fe8d57bf83108f701e5ad31c59ce.all.min.css" rel="stylesheet">
+<script src="//static.t-ru.org/templates/v1/min/ff32972b10ce70bfa087cf303884a5c8.lib.min.js"></script>
+<script src="//static.t-ru.org/templates/v1/min/9f1268b89d4ae948d8392eb03c4753f9.bb.min.js"></script>
+
+
+
+<style>
+.invisible-el {
+	/* @include element-invisible(); */
+	clip: rect(1px, 1px, 1px, 1px);
+	height: 1px;
+	overflow: hidden;
+	position: absolute !important;
+	width: 1px;
+}
+.hidden, .menu-sub, #ajax-loading, #ajax-error, var.ajax-params, #modal-blocker, .q-post {
+	display: none;
+}
+/**/
+/**/
+/* temp */
+/* temp end */
+</style>
+
+<noscript>
+	<style>
+	.sp-body {
+		display: block; /* for bots */
+	}
+	</style>
+</noscript>
+</head>
+
+<body class="" style="">
+
+
+<div id="invisible-heap" class="invisible-el"></div>
+<div id="preload" class="invisible-el"></div>
+
+<div id="misc-hidden-elements" style="display: none;">
+	<form id="cse-search-box" action="search_cse.php" accept-charset="utf-8">
+		<input id="cse-text-match" type="text" name="q" size="60" value="">
+		<input type="submit" value="\xcf\xee\xe8\xf1\xea \xe2 Google">
+	</form>
+</div>
+
+<div class="menu-sub" id="pg-jump">
+	<table style="border-spacing: 1px;">
+	<tr>
+		<th style="padding: 2px;">\xca \xf1\xf2\xf0\xe0\xed\xe8\xf6\xe5...</th>
+	</tr>
+	<tr>
+		<td style="padding: 2px;">
+			<form onsubmit="BB.go_to_page( $('#pg-page').val() ); return false;">
+				<input id="pg-page" type="text" size="5" maxlength="4">
+				<input type="submit" value="\xcf\xe5\xf0\xe5\xe9\xf2\xe8">
+			</form>
+		</td>
+	</tr>
+	</table>
+</div>
+
+
+<div id="old-browser-warn" style="display: none;"></div>
+<script>
+(function () {
+	if ((typeof(window.opera) != "undefined" && window.opera.version() < 12.10)) {
+		var el = document.getElementById('old-browser-warn');
+		el.innerHTML = '\xc2\xfb \xe8\xf1\xef\xee\xeb\xfc\xe7\xf3\xe5\xf2\xe5 \xf3\xf1\xf2\xe0\xf0\xe5\xe2\xf8\xe8\xe9 \xe1\xf0\xe0\xf3\xe7\xe5\xf0. \xd1\xe0\xe9\xf2 \xec\xee\xe6\xe5\xf2 \xee\xf2\xee\xe1\xf0\xe0\xe6\xe0\xf2\xfc\xf1\xff \xed\xe5\xea\xee\xf0\xf0\xe5\xea\xf2\xed\xee.';
+		el.style.display = '';
+	}
+})();
+</script>
+
+<div id="body_container">
+
+		<script>
+	if (top != self && !self.location.hostname.match(BB.allowed_translator_hosts)) {
+		$(function () {
+			$('body').html('<h1 style="text-align: center;"><br><br>\xcf\xee\xf5\xee\xe6\xe5 \xe2\xe0\xf1 \xef\xfb\xf2\xe0\xfe\xf2\xf1\xff \xee\xe1\xec\xe0\xed\xf3\xf2\xfc<br>frame\'s hostname: ' + self.location.hostname + '</h1>');
+			throw new Error('in frame');
+		});
+	}
+	</script>
+
+	<div id="page_container">
+
+		<div id="page_header" class="hide-for-print">
+
+			<div id="main-nav" class="site-nav clearfix">
+				<ul class="inlined middot-separated floatL">
+					<li>
+						<a href="index.php"><b>\xc3\xeb\xe0\xe2\xed\xe0\xff</b></a>
+					</li>
+					<li>
+						<a href="tracker.php" rel="nofollow"><b>\xd2\xf0\xe5\xea\xe5\xf0</b></a>
+											</li>
+					<li>
+						<a href="search.php" rel="nofollow"><b>\xcf\xee\xe8\xf1\xea</b></a>
+					</li>
+					<li>
+						<a href="viewtopic.php?t=1045"><b>\xcf\xf0\xe0\xe2\xe8\xeb\xe0</b></a>
+					</li>
+					<li>
+						<a href="http://rutracker.wiki/" target="_blank"><b>FAQ</b></a>
+					</li>
+					<li>
+						<a href="groupcp.php" rel="nofollow"><b>\xc3\xf0\xf3\xef\xef\xfb</b></a>
+					</li>
+					<li>
+						<a href="http://rutracker.news" target="_blank"><b>\xc1\xeb\xee\xe3</b></a>
+					</li>
+				</ul>
+							</div>
+			<!--/main-nav-->
+
+			
+			<div id="logo">
+				<table style="height: 112px;">
+				<tr>
+					<td id="logo-td" style="padding: 3px 7px 3px 15px;">
+						<a href="index.php" class="site-logo-link">
+							<img class="site-logo"
+	src="//rutrk.org/logo/logo-3.svg"
+	style=""
+	alt="logo">
+						</a>
+					</td>
+					<td class="tCenter w100" style="padding: 6px 10px 0 3px;">
+												<style>
+/* http://stackoverflow.com/a/23083463/2752979 */
+#bn-top-block {
+	display: none;
+	width: 1px;
+	/* min-width: JS */
+	margin: 0 auto;
+	overflow: hidden;
+}
+@media (max-width: 1100px) {
+	#logo {
+		min-height: 90px;
+	}
+}
+</style>
+<script>
+$(function () {
+	var $block = $('#bn-top-block');
+	var logoWidth = Math.max($('#logo-td').width(), 250);
+	var frameWidth = Math.min($(window).width() - logoWidth - 50, $block.data('max_width'));
+	$block.children('img').css({
+		'max-width': frameWidth + 'px',
+	});
+	$block.css({
+		'min-width': frameWidth + 'px',
+		display: 'inline-block',
+	});
+});
+</script>
+<div style="padding: 6px;">
+	<iframe id="bn-top-block" data-max_width="1200" src="//rutrk.org/iframe/adbet-top-2.html"
+		height="90" marginwidth="0" marginheight="0" scrolling="no" frameborder="0"></iframe>
+</div>
+											</td>
+				</tr>
+				</table>
+			</div>
+			<!--/logo-->
+
+			<div class="topmenu">
+				<table class="w100">
+				<tr>
+					
+					<td class="tCenter pad_2">
+						<div>
+							
+							<a href="profile.php?mode=register" rel="nofollow"><b>\xd0\xe5\xe3\xe8\xf1\xf2\xf0\xe0\xf6\xe8\xff</b></a>
+							&nbsp;&#0183;&nbsp;
+							<a href="#" onclick="BB.toggle_top_login(); return false;" tabindex="5"><b>\xc2\xf5\xee\xe4</b></a>
+
+							<div id="top-login-box">
+								<span id="quick-search-guest">
+									<input id="search-text-guest" type="text" name="nm" value="" tabindex="1" accesskey="q">
+									<input id="cse-search-btn-top" type="button" value="\xef\xee\xe8\xf1\xea" data-query_input_id="search-text-guest" tabindex="2">
+								</span>
+								<form id="login-form-quick" method="post" action="login.php" style="display: none;">
+																		<input id="top-login-uname" type="text" name="login_username" tabindex="1" accesskey="l" placeholder="\xe8\xec\xff">
+									<input id="top-login-pwd" type="password" name="login_password" tabindex="2" placeholder="\xef\xe0\xf0\xee\xeb\xfc">
+									<label title="\xc7\xe0\xf9\xe8\xf9\xe5\xed\xed\xee\xe5 \xf1\xee\xe5\xe4\xe8\xed\xe5\xed\xe8\xe5" class="login-ssl-block" style="display: none;">
+										<input class="login-ssl" type="checkbox" tabindex="3" checked>SSL
+									</label>
+									<input id="top-login-btn" type="submit" name="login" value="\xe2\xf5\xee\xe4" tabindex="4">
+								</form>
+							</div>
+
+							<a href="profile.php?mode=sendpassword" rel="nofollow">\xc7\xe0\xe1\xfb\xeb\xe8 \xe8\xec\xff \xe8\xeb\xe8 \xef\xe0\xf0\xee\xeb\xfc?</a>
+
+													</div>
+					</td>
+
+					
+				</tr>
+				</table>
+			</div><!--/topmenu-->
+
+			
+		</div>
+		<!--/page_header-->
+
+		
+		<div id="page_content">
+			<table style="width: 100%; border: none;">
+			<tr>
+
+				
+				<td id="main_content">
+					<div id="main_content_wrap">
+
+						
+						
+						
+						
+						<!--/page_header.tpl-->
+
+<table class="w100">
+<tr>
+	<td class="w100 vBottom pad_2">
+		<h1 class="maintitle"><a href="viewforum.php?f=2355">\xd5\xf3\xe4\xee\xe6\xe5\xf1\xf2\xe2\xe5\xed\xed\xe0\xff \xeb\xe8\xf2\xe5\xf0\xe0\xf2\xf3\xf0\xe0 \xed\xe0 \xe0\xed\xe3\xeb\xe8\xe9\xf1\xea\xee\xec \xff\xe7\xfb\xea\xe5</a></h1>
+				<p class="small" style="margin: 16px 4px 8px;">
+			<b><span class="pg-jump-menu"><a class="menu-root" href="#pg-jump" onclick="BB.focus_pg_input();">\xd1\xf2\xf0\xe0\xed\xe8\xf6\xfb</a> :&nbsp;&nbsp;</span><b>1</b>, <a class="pg" href="viewforum.php?f=2355&amp;start=50">2</a>, <a class="pg" href="viewforum.php?f=2355&amp;start=100">3</a> ... <a class="pg" href="viewforum.php?f=2355&amp;start=1600">33</a>, <a class="pg" href="viewforum.php?f=2355&amp;start=1650">34</a>, <a class="pg" href="viewforum.php?f=2355&amp;start=1700">35</a>&nbsp;&nbsp;<a class="pg" href="viewforum.php?f=2355&amp;start=50">\xd1\xeb\xe5\xe4.</a></b>
+		</p>
+		
+		<table class="w100">
+		<tr>
+			<td class="pad_2"><a href="posting.php?f=2355&amp;mode=new_rel" rel="nofollow"><img src="//static.t-ru.org/templates/v1/images/post.gif" alt="\xcd\xee\xe2\xe0\xff \xf2\xe5\xec\xe0"></a></td>
+			<td class="nav nav-top w100 pad_2">
+				&nbsp;<a href="index.php">\xc3\xeb\xe0\xe2\xed\xe0\xff</a>
+				<em>&raquo;</em>&nbsp;<a href="index.php?c=34" rel="nofollow">\xce\xe1\xf3\xf7\xe5\xed\xe8\xe5 \xe8\xed\xee\xf1\xf2\xf0\xe0\xed\xed\xfb\xec \xff\xe7\xfb\xea\xe0\xec</a>
+								<em>&raquo;</em>&nbsp;<a href="viewforum.php?f=2057">\xd5\xf3\xe4\xee\xe6\xe5\xf1\xf2\xe2\xe5\xed\xed\xe0\xff \xeb\xe8\xf2\xe5\xf0\xe0\xf2\xf3\xf0\xe0 (\xe8\xed.\xff\xe7\xfb\xea\xe8)</a>
+								<em>&raquo;</em>&nbsp;<a href="viewforum.php?f=2355">\xd5\xf3\xe4\xee\xe6\xe5\xf1\xf2\xe2\xe5\xed\xed\xe0\xff \xeb\xe8\xf2\xe5\xf0\xe0\xf2\xf3\xf0\xe0 \xed\xe0 \xe0\xed\xe3\xeb\xe8\xe9\xf1\xea\xee\xec \xff\xe7\xfb\xea\xe5</a>
+			</td>
+		</tr>
+		</table>
+
+	</td>
+	<td class="pad_2">
+		
+<iframe src="//rutrk.org/iframe/kadam-240x120-2.html"
+	width="242" height="122" marginwidth="0" marginheight="0" scrolling="no" frameborder="0"></iframe>
+
+	</td>
+</tr>
+</table>
+
+
+<a id="topics"></a>
+
+
+
+<table class="vf-table vf-tor forumline forum">
+<colgroup>
+	<col class="row1 vf-col-icon">
+	<col class="row1 vf-col-t-title">
+	<col class="row2 vf-col-tor">
+	<col class="row2 vf-col-replies">
+	<col class="row2 vf-col-last-post">
+</colgroup>
+<tr>
+	<th class="vf-col-icon"></th>
+	<th class="vf-col-t-title">\xd2\xe5\xec\xfb</th>
+	<th class="vf-col-tor">\xd2\xee\xf0\xf0\xe5\xed\xf2</th>
+	<th class="vf-col-replies">\xce\xf2\xe2.</th>
+	<th class="vf-col-last-post">\xcf\xee\xf1\xeb. \xf1\xee\xee\xe1\xf9\xe5\xed\xe8\xe5</th>
+</tr>
+<tr>
+	<td colspan="5" class="row3 topicSep">\xce\xe1\xfa\xff\xe2\xeb\xe5\xed\xe8\xff</td>
+</tr>
+<tr id="tr-5413609" class="hl-tr" data-topic_id="5413609">
+	<td id="5413609" class="vf-col-icon vf-topic-icon-cell">
+		<img class="topic_icon" src="//static.t-ru.org/templates/v1/images/folder_announce.gif" alt="">
+			</td>
+
+	<td class="vf-col-t-title tt" style="padding: 3px 5px 3px 3px;">
+		<div class="torTopic">
+															 <a id="tt-5413609" href="viewtopic.php?t=5413609" class="torTopic bold tt-text">Hugo Award (\xcf\xf0\xe5\xec\xe8\xff \xd5\xfc\xfe\xe3\xee) - \xf0\xee\xec\xe0\xed\xfb, \xef\xee\xe2\xe5\xf1\xf2\xe8 \xe8 \xf0\xe0\xf1\xf1\xea\xe0\xe7\xfb \xe2 \xf0\xe0\xe7\xe4\xe5\xeb\xe5 &quot;\xd5\xf3\xe4\xee\xe6\xe5\xf1<wbr>\xf2\xe2\xe5\xed\xed\xe0\xff \xeb\xe8\xf2\xe5\xf0\xe0\xf2\xf3\xf0\xe0 \xed\xe0 \xe0\xed\xe3\xeb\xe8\xe9\xf1\xea\xee\xec \xff\xe7\xfb\xea\xe5&quot;</a>
+					</div>
+		<div class="topicAuthor" style="padding-top: 2px;">
+						<a href="profile.php?mode=viewprofile&amp;u=6640791" rel="nofollow" class="topicAuthor">TooOldNick</a>
+								</div>
+	</td>
+
+	<td class="vf-col-tor tCenter med nowrap" style="padding: 2px 4px;">
+			</td>
+
+	<td class="vf-col-replies tCenter small nowrap" style="padding: 3px 4px 2px;">
+		<p>
+			<span title="\xce\xf2\xe2\xe5\xf2\xee\xe2">2</span>
+		</p>
+			</td>
+
+	<td class="vf-col-last-post tCenter small nowrap" style="padding: 3px 6px 2px;">
+		<p>2017-08-15 22:54</p>
+		<p style="padding-top: 2px">
+			<a href="profile.php?mode=viewprofile&amp;u=6640791" rel="nofollow">TooOldNick</a>			<a href="viewtopic.php?p=73679254#73679254" rel="nofollow"><img src="//static.t-ru.org/templates/v1/images/icon_latest_reply.gif" class="icon2" alt="&raquo;"></a>
+		</p>
+	</td>
+</tr>
+<tr id="tr-5425675" class="hl-tr" data-topic_id="5425675">
+	<td id="5425675" class="vf-col-icon vf-topic-icon-cell">
+		<img class="topic_icon" src="//static.t-ru.org/templates/v1/images/folder_announce.gif" alt="">
+			</td>
+
+	<td class="vf-col-t-title tt" style="padding: 3px 5px 3px 3px;">
+		<div class="torTopic">
+															 <a id="tt-5425675" href="viewtopic.php?t=5425675" class="torTopic bold tt-text">Nebula Award (\xcf\xf0\xe5\xec\xe8\xff \xab\xcd\xe5\xe1\xfc\xfe\xeb\xe0\xbb) - \xf0\xee\xec\xe0\xed\xfb, \xef\xee\xe2\xe5\xf1\xf2\xe8 \xe8 \xf0\xe0\xf1\xf1\xea\xe0\xe7\xfb \xe2 \xf0\xe0\xe7\xe4\xe5\xeb\xe5 &quot;\xd5\xf3\xe4\xee\xe6\xe5\xf1<wbr>\xf2\xe2\xe5\xed\xed\xe0\xff \xeb\xe8\xf2\xe5\xf0\xe0\xf2\xf3\xf0\xe0 \xed\xe0 \xe0\xed\xe3\xeb\xe8\xe9\xf1\xea\xee\xec \xff\xe7\xfb\xea\xe5&quot;</a>
+					</div>
+		<div class="topicAuthor" style="padding-top: 2px;">
+						<a href="profile.php?mode=viewprofile&amp;u=6640791" rel="nofollow" class="topicAuthor">TooOldNick</a>
+								</div>
+	</td>
+
+	<td class="vf-col-tor tCenter med nowrap" style="padding: 2px 4px;">
+			</td>
+
+	<td class="vf-col-replies tCenter small nowrap" style="padding: 3px 4px 2px;">
+		<p>
+			<span title="\xce\xf2\xe2\xe5\xf2\xee\xe2">1</span>
+		</p>
+			</td>
+
+	<td class="vf-col-last-post tCenter small nowrap" style="padding: 3px 6px 2px;">
+		<p>2017-07-07 18:06</p>
+		<p style="padding-top: 2px">
+			<a href="profile.php?mode=viewprofile&amp;u=6640791" rel="nofollow">TooOldNick</a>			<a href="viewtopic.php?p=73424968#73424968" rel="nofollow"><img src="//static.t-ru.org/templates/v1/images/icon_latest_reply.gif" class="icon2" alt="&raquo;"></a>
+		</p>
+	</td>
+</tr>
+<tr id="tr-5286331" class="hl-tr" data-topic_id="5286331">
+	<td id="5286331" class="vf-col-icon vf-topic-icon-cell">
+		<img class="topic_icon" src="//static.t-ru.org/templates/v1/images/folder_announce.gif" alt="">
+			</td>
+
+	<td class="vf-col-t-title tt" style="padding: 3px 5px 3px 3px;">
+		<div class="torTopic">
+															 <a id="tt-5286331" href="viewtopic.php?t=5286331" class="torTopic bold tt-text">\xc0\xed\xe3\xeb\xe8\xe9\xf1\xea\xe8\xe9 \xe2 \xe4\xf0\xf3\xe3\xe8\xf5 \xf0\xe0\xe7\xe4\xe5\xeb\xe0\xf5 \xf2\xf0\xe5\xea\xe5\xf0\xe0</a>
+					</div>
+		<div class="topicAuthor" style="padding-top: 2px;">
+						<a href="profile.php?mode=viewprofile&amp;u=12108208" rel="nofollow" class="topicAuthor">KOMANDIR1111<wbr></a>
+								</div>
+	</td>
+
+	<td class="vf-col-tor tCenter med nowrap" style="padding: 2px 4px;">
+			</td>
+
+	<td class="vf-col-replies tCenter small nowrap" style="padding: 3px 4px 2px;">
+		<p>
+			<span title="\xce\xf2\xe2\xe5\xf2\xee\xe2">0</span>
+		</p>
+			</td>
+
+	<td class="vf-col-last-post tCenter small nowrap" style="padding: 3px 6px 2px;">
+		<p>2016-09-23 18:14</p>
+		<p style="padding-top: 2px">
+			<a href="profile.php?mode=viewprofile&amp;u=12108208" rel="nofollow">KOMANDIR1111</a>			<a href="viewtopic.php?p=71468216#71468216" rel="nofollow"><img src="//static.t-ru.org/templates/v1/images/icon_latest_reply.gif" class="icon2" alt="&raquo;"></a>
+		</p>
+	</td>
+</tr>
+<tr>
+	<td colspan="5" class="row3 topicSep">\xcf\xf0\xe8\xeb\xe5\xef\xeb\xe5\xed\xfb</td>
+</tr>
+<tr id="tr-2126623" class="hl-tr" data-topic_id="2126623">
+	<td id="2126623" class="vf-col-icon vf-topic-icon-cell">
+		<img class="topic_icon" src="//static.t-ru.org/templates/v1/images/folder_sticky.gif" alt="">
+			</td>
+
+	<td class="vf-col-t-title tt" style="padding: 3px 5px 3px 3px;">
+		<div class="torTopic">
+			<span class="tor-icon tor-approved">&radic;</span>&#0183;												 <a id="tt-2126623" href="viewtopic.php?t=2126623" class="torTopic bold tt-text">[\xe0\xed\xe3\xeb\xe8\xe9\xf1\xea\xe8\xe9] John Grisham - Collected works / \xc4\xe6\xee\xed \xc3\xf0\xe8\xf8\xfd\xec - \xd1\xee\xe1\xf0\xe0\xed\xe8\xe5 \xef\xf0\xee\xe8\xe7\xe2\xe5\xe4\xe5\xed\xe8\xe9<wbr> (21 \xf8\xf2. 1989-2009, PDF)</a>
+					</div>
+		<div class="topicAuthor" style="padding-top: 2px;">
+						<a href="profile.php?mode=viewprofile&amp;u=11625001" rel="nofollow" class="topicAuthor">Derrick-999a<wbr></a>
+								</div>
+	</td>
+
+	<td class="vf-col-tor tCenter med nowrap" style="padding: 2px 4px;">
+				<div>
+			<div>
+				<span class="seedmed" title="Seeders"><b>13</b></span><span class="med"> | </span><span class="leechmed" title="Leechers"><b>0</b></span>
+			</div>
+			<div style="padding-top: 2px" class="small">
+				<a href="dl.php?t=2126623" rel="nofollow" class="small f-dl dl-stub" style="text-decoration: none">19.4&nbsp;MB</a>			</div>
+		</div>
+			</td>
+
+	<td class="vf-col-replies tCenter small nowrap" style="padding: 3px 4px 2px;">
+		<p>
+			<span title="\xce\xf2\xe2\xe5\xf2\xee\xe2">18</span>
+		</p>
+				<p style="padding-top: 2px" class="med" title="\xd2\xee\xf0\xf0\xe5\xed\xf2 \xf1\xea\xe0\xf7\xe0\xed">
+			<b>7,473</b>
+		</p>
+			</td>
+
+	<td class="vf-col-last-post tCenter small nowrap" style="padding: 3px 6px 2px;">
+		<p>2016-11-21 11:15</p>
+		<p style="padding-top: 2px">
+			<a href="profile.php?mode=viewprofile&amp;u=30932659" rel="nofollow">chelover</a>			<a href="viewtopic.php?p=71869893#71869893" rel="nofollow"><img src="//static.t-ru.org/templates/v1/images/icon_latest_reply.gif" class="icon2" alt="&raquo;"></a>
+		</p>
+	</td>
+</tr>
+<tr id="tr-4194782" class="hl-tr" data-topic_id="4194782">
+	<td id="4194782" class="vf-col-icon vf-topic-icon-cell">
+		<img class="topic_icon" src="//static.t-ru.org/templates/v1/images/folder_sticky.gif" alt="">
+			</td>
+
+	<td class="vf-col-t-title tt" style="padding: 3px 5px 3px 3px;">
+		<div class="torTopic">
+			<span class="tor-icon tor-approved">&radic;</span>&#0183;												<span class="ttp-label ttp-antiq">\xe0\xed\xf2\xe8\xea\xe2\xe0\xf0\xed\xe0\xff</span> <a id="tt-4194782" href="viewtopic.php?t=4194782" class="torTopic bold tt-text">[\xe0\xed\xe3\xeb\xe8\xe9\xf1\xea\xe8\xe9] The complete works of Mark Twain/\xcf\xee\xeb\xed\xee\xe5<wbr> \xf1\xee\xe1\xf0\xe0\xed\xe8\xe5 \xf1\xee\xf7\xe8\xed\xe5\xed\xe8\xe9 \xcc\xe0\xf0\xea\xe0 \xd2\xe2\xe5\xed\xe0 [PDF, ENG]</a>
+					</div>
+		<div class="topicAuthor" style="padding-top: 2px;">
+						<a href="profile.php?mode=viewprofile&amp;u=27638230" rel="nofollow" class="topicAuthor">JOHNNY'S</a>
+								</div>
+	</td>
+
+	<td class="vf-col-tor tCenter med nowrap" style="padding: 2px 4px;">
+				<div>
+			<div>
+				<span class="seedmed" title="Seeders"><b>18</b></span><span class="med"> | </span><span class="leechmed" title="Leechers"><b>3</b></span>
+			</div>
+			<div style="padding-top: 2px" class="small">
+				<a href="dl.php?t=4194782" rel="nofollow" class="small f-dl dl-stub" style="text-decoration: none">441.4&nbsp;MB</a>			</div>
+		</div>
+			</td>
+
+	<td class="vf-col-replies tCenter small nowrap" style="padding: 3px 4px 2px;">
+		<p>
+			<span title="\xce\xf2\xe2\xe5\xf2\xee\xe2">14</span>
+		</p>
+				<p style="padding-top: 2px" class="med" title="\xd2\xee\xf0\xf0\xe5\xed\xf2 \xf1\xea\xe0\xf7\xe0\xed">
+			<b>8,135</b>
+		</p>
+			</td>
+
+	<td class="vf-col-last-post tCenter small nowrap" style="padding: 3px 6px 2px;">
+		<p>2016-01-10 15:01</p>
+		<p style="padding-top: 2px">
+			<a href="profile.php?mode=viewprofile&amp;u=13731975" rel="nofollow">Jenslnx</a>			<a href="viewtopic.php?p=69708586#69708586" rel="nofollow"><img src="//static.t-ru.org/templates/v1/images/icon_latest_reply.gif" class="icon2" alt="&raquo;"></a>
+		</p>
+	</td>
+</tr>
+<tr id="tr-5412964" class="hl-tr" data-topic_id="5412964">
+	<td id="5412964" class="vf-col-icon vf-topic-icon-cell">
+		<img class="topic_icon" src="//static.t-ru.org/templates/v1/images/folder_sticky.gif" alt="">
+			</td>
+
+	<td class="vf-col-t-title tt" style="padding: 3px 5px 3px 3px;">
+		<div class="torTopic">
+			<span class="tor-icon tor-approved">&radic;</span>&#0183;												 <a id="tt-5412964" href="viewtopic.php?t=5412964" class="torTopic bold tt-text">[\xe0\xed\xe3\xeb\xe8\xe9\xf1\xea\xe8\xe9] Various - Stories from pulp magazines/ \xd0\xe0\xe7\xed\xfb\xe5 \xe0\xe2\xf2\xee\xf0\xfb - \xd0\xe0\xf1\xf1\xea\xe0\xe7\xfb \xe8\xe7 &quot;\xe1\xf3\xeb\xfc\xe2\xe0\xf0<wbr>\xed\xfb\xf5&quot; \xe6\xf3\xf0\xed\xe0\xeb\xee\xe2 (1588 \xf8\xf2.) [1898-1958, PDF, ENG]</a>
+					</div>
+		<div class="topicAuthor" style="padding-top: 2px;">
+						<a href="profile.php?mode=viewprofile&amp;u=6640791" rel="nofollow" class="topicAuthor">TooOldNick</a>
+								</div>
+	</td>
+
+	<td class="vf-col-tor tCenter med nowrap" style="padding: 2px 4px;">
+				<div>
+			<div>
+				<span class="seedmed" title="Seeders"><b>6</b></span><span class="med"> | </span><span class="leechmed" title="Leechers"><b>0</b></span>
+			</div>
+			<div style="padding-top: 2px" class="small">
+				<a href="dl.php?t=5412964" rel="nofollow" class="small f-dl dl-stub" style="text-decoration: none">482.5&nbsp;MB</a>			</div>
+		</div>
+			</td>
+
+	<td class="vf-col-replies tCenter small nowrap" style="padding: 3px 4px 2px;">
+		<p>
+			<span title="\xce\xf2\xe2\xe5\xf2\xee\xe2">5</span>
+		</p>
+				<p style="padding-top: 2px" class="med" title="\xd2\xee\xf0\xf0\xe5\xed\xf2 \xf1\xea\xe0\xf7\xe0\xed">
+			<b>302</b>
+		</p>
+			</td>
+
+	<td class="vf-col-last-post tCenter small nowrap" style="padding: 3px 6px 2px;">
+		<p>2018-03-14 22:56</p>
+		<p style="padding-top: 2px">
+			<a href="profile.php?mode=viewprofile&amp;u=5047842" rel="nofollow">oldman112</a>			<a href="viewtopic.php?p=74985639#74985639" rel="nofollow"><img src="//static.t-ru.org/templates/v1/images/icon_latest_reply.gif" class="icon2" alt="&raquo;"></a>
+		</p>
+	</td>
+</tr>
+<tr id="tr-5538309" class="hl-tr" data-topic_id="5538309">
+	<td id="5538309" class="vf-col-icon vf-topic-icon-cell">
+		<img class="topic_icon" src="//static.t-ru.org/templates/v1/images/folder_sticky.gif" alt="">
+			</td>
+
+	<td class="vf-col-t-title tt" style="padding: 3px 5px 3px 3px;">
+		<div class="torTopic">
+			<span class="tor-icon tor-approved">&radic;</span>&#0183;												 <a id="tt-5538309" href="viewtopic.php?t=5538309" class="torTopic bold tt-text">[\xe0\xed\xe3\xeb\xe8\xe9\xf1\xea\xe8\xe9] Shadowrun Novels / \xca\xe8\xe1\xe5\xf0\xec\xe0\xf4\xe8\xff (61 \xf8\xf2.) [1990 - 2016, EPUB, ENG]</a>
+					</div>
+		<div class="topicAuthor" style="padding-top: 2px;">
+						<a href="profile.php?mode=viewprofile&amp;u=24632626" rel="nofollow" class="topicAuthor">maybenot13</a>
+								</div>
+	</td>
+
+	<td class="vf-col-tor tCenter med nowrap" style="padding: 2px 4px;">
+				<div>
+			<div>
+				<span class="seedmed" title="Seeders"><b>8</b></span><span class="med"> | </span><span class="leechmed" title="Leechers"><b>1</b></span>
+			</div>
+			<div style="padding-top: 2px" class="small">
+				<a href="dl.php?t=5538309" rel="nofollow" class="small f-dl dl-stub" style="text-decoration: none">45.3&nbsp;MB</a>			</div>
+		</div>
+			</td>
+
+	<td class="vf-col-replies tCenter small nowrap" style="padding: 3px 4px 2px;">
+		<p>
+			<span title="\xce\xf2\xe2\xe5\xf2\xee\xe2">2</span>
+		</p>
+				<p style="padding-top: 2px" class="med" title="\xd2\xee\xf0\xf0\xe5\xed\xf2 \xf1\xea\xe0\xf7\xe0\xed">
+			<b>234</b>
+		</p>
+			</td>
+
+	<td class="vf-col-last-post tCenter small nowrap" style="padding: 3px 6px 2px;">
+		<p>2018-07-26 21:34</p>
+		<p style="padding-top: 2px">
+			<a href="profile.php?mode=viewprofile&amp;u=22542009" rel="nofollow">Dragtar</a>			<a href="viewtopic.php?p=75721683#75721683" rel="nofollow"><img src="//static.t-ru.org/templates/v1/images/icon_latest_reply.gif" class="icon2" alt="&raquo;"></a>
+		</p>
+	</td>
+</tr>
+<tr id="tr-2038665" class="hl-tr" data-topic_id="2038665">
+	<td id="2038665" class="vf-col-icon vf-topic-icon-cell">
+		<img class="topic_icon" src="//static.t-ru.org/templates/v1/images/folder_sticky.gif" alt="">
+			</td>
+
+	<td class="vf-col-t-title tt" style="padding: 3px 5px 3px 3px;">
+		<div class="torTopic">
+			<span class="tor-icon tor-approved">&radic;</span>&#0183;												 <a id="tt-2038665" href="viewtopic.php?t=2038665" class="torTopic bold tt-text">[\xe0\xed\xe3\xeb\xe8\xe9\xf1\xea\xe8\xe9] Arthur Conan Doyle - Sherlock Holmes (60 Books) / \xc0\xf0\xf2\xf3\xf0 \xca\xee\xed\xe0\xed \xc4\xee\xe9\xeb\xfc - \xd8\xe5\xf0\xeb\xee\xea \xd5\xee\xeb\xec\xf1 (60 \xea\xed\xe8\xe3) [1887, DOC, ENG]</a>
+					</div>
+		<div class="topicAuthor" style="padding-top: 2px;">
+						<a href="profile.php?mode=viewprofile&amp;u=11490048" rel="nofollow" class="topicAuthor">admirer2</a>
+								</div>
+	</td>
+
+	<td class="vf-col-tor tCenter med nowrap" style="padding: 2px 4px;">
+				<div>
+			<div>
+				<span class="seedmed" title="Seeders"><b>30</b></span><span class="med"> | </span><span class="leechmed" title="Leechers"><b>3</b></span>
+			</div>
+			<div style="padding-top: 2px" class="small">
+				<a href="dl.php?t=2038665" rel="nofollow" class="small f-dl dl-stub" style="text-decoration: none">5.4&nbsp;MB</a>			</div>
+		</div>
+			</td>
+
+	<td class="vf-col-replies tCenter small nowrap" style="padding: 3px 4px 2px;">
+		<p>
+			<span title="\xce\xf2\xe2\xe5\xf2\xee\xe2">20</span>
+		</p>
+				<p style="padding-top: 2px" class="med" title="\xd2\xee\xf0\xf0\xe5\xed\xf2 \xf1\xea\xe0\xf7\xe0\xed">
+			<b>13,849</b>
+		</p>
+			</td>
+
+	<td class="vf-col-last-post tCenter small nowrap" style="padding: 3px 6px 2px;">
+		<p>2017-11-16 11:14</p>
+		<p style="padding-top: 2px">
+			<a href="profile.php?mode=viewprofile&amp;u=36428844" rel="nofollow">marinasam90</a>			<a href="viewtopic.php?p=74242837#74242837" rel="nofollow"><img src="//static.t-ru.org/templates/v1/images/icon_latest_reply.gif" class="icon2" alt="&raquo;"></a>
+		</p>
+	</td>
+</tr>
+<tr id="tr-4222194" class="hl-tr" data-topic_id="4222194">
+	<td id="4222194" class="vf-col-icon vf-topic-icon-cell">
+		<img class="topic_icon" src="//static.t-ru.org/templates/v1/images/folder_sticky.gif" alt="">
+			</td>
+
+	<td class="vf-col-t-title tt" style="padding: 3px 5px 3px 3px;">
+		<div class="torTopic">
+			<span class="tor-icon tor-approved">&radic;</span>&#0183;												 <a id="tt-4222194" href="viewtopic.php?t=4222194" class="torTopic bold tt-text">[\xe0\xed\xe3\xeb\xe8\xe9\xf1\xea\xe8\xe9] The complete works of Edgar Allan Poe/\xcf\xee\xeb\xed\xee\xe5 \xf1\xee\xe1\xf0\xe0\xed\xe8\xe5 \xf1\xee\xf7\xe8\xed\xe5\xed\xe8\xe9 \xdd\xe4\xe3\xe0\xf0\xe0 \xc0\xeb\xeb\xe0\xed\xe0 \xcf\xee [1902, PDF, ENG]</a>
+					</div>
+		<div class="topicAuthor" style="padding-top: 2px;">
+						<a href="profile.php?mode=viewprofile&amp;u=27638230" rel="nofollow" class="topicAuthor">JOHNNY'S</a>
+								</div>
+	</td>
+
+	<td class="vf-col-tor tCenter med nowrap" style="padding: 2px 4px;">
+				<div>
+			<div>
+				<span class="seedmed" title="Seeders"><b>7</b></span><span class="med"> | </span><span class="leechmed" title="Leechers"><b>3</b></span>
+			</div>
+			<div style="padding-top: 2px" class="small">
+				<a href="dl.php?t=4222194" rel="nofollow" class="small f-dl dl-stub" style="text-decoration: none">163.7&nbsp;MB</a>			</div>
+		</div>
+			</td>
+
+	<td class="vf-col-replies tCenter small nowrap" style="padding: 3px 4px 2px;">
+		<p>
+			<span title="\xce\xf2\xe2\xe5\xf2\xee\xe2">5</span>
+		</p>
+				<p style="padding-top: 2px" class="med" title="\xd2\xee\xf0\xf0\xe5\xed\xf2 \xf1\xea\xe0\xf7\xe0\xed">
+			<b>4,415</b>
+		</p>
+			</td>
+
+	<td class="vf-col-last-post tCenter small nowrap" style="padding: 3px 6px 2px;">
+		<p>2015-09-20 21:37</p>
+		<p style="padding-top: 2px">
+			<a href="profile.php?mode=viewprofile&amp;u=8913681" rel="nofollow">tfoxrtl</a>			<a href="viewtopic.php?p=68786498#68786498" rel="nofollow"><img src="//static.t-ru.org/templates/v1/images/icon_latest_reply.gif" class="icon2" alt="&raquo;"></a>
+		</p>
+	</td>
+</tr>
+<tr id="tr-5485905" class="hl-tr" data-topic_id="5485905">
+	<td id="5485905" class="vf-col-icon vf-topic-icon-cell">
+		<img class="topic_icon" src="//static.t-ru.org/templates/v1/images/folder_sticky.gif" alt="">
+			</td>
+
+	<td class="vf-col-t-title tt" style="padding: 3px 5px 3px 3px;">
+		<div class="torTopic">
+			<span class="tor-icon tor-approved">&radic;</span>&#0183;												 <a id="tt-5485905" href="viewtopic.php?t=5485905" class="torTopic bold tt-text">[\xc6\xf3\xf0\xed\xe0\xeb] Weird Tales / \xd1\xf2\xf0\xe0\xed\xed\xfb\xe5 \xc8\xf1\xf2\xee\xf0\xe8\xe8 (224 \xe2\xfb\xef\xf3\xf1\xea\xe0) [1923-1954, CBR/CBZ/PDF,<wbr> ENG]</a>
+					</div>
+		<div class="topicAuthor" style="padding-top: 2px;">
+						<a href="profile.php?mode=viewprofile&amp;u=31766265" rel="nofollow" class="topicAuthor">Raidou83</a>
+								</div>
+	</td>
+
+	<td class="vf-col-tor tCenter med nowrap" style="padding: 2px 4px;">
+				<div>
+			<div>
+				<span class="seedmed" title="Seeders"><b>4</b></span><span class="med"> | </span><span class="leechmed" title="Leechers"><b>1</b></span>
+			</div>
+			<div style="padding-top: 2px" class="small">
+				<a href="dl.php?t=5485905" rel="nofollow" class="small f-dl dl-stub" style="text-decoration: none">27.1&nbsp;GB</a>			</div>
+		</div>
+			</td>
+
+	<td class="vf-col-replies tCenter small nowrap" style="padding: 3px 4px 2px;">
+		<p>
+			<span title="\xce\xf2\xe2\xe5\xf2\xee\xe2">4</span>
+		</p>
+				<p style="padding-top: 2px" class="med" title="\xd2\xee\xf0\xf0\xe5\xed\xf2 \xf1\xea\xe0\xf7\xe0\xed">
+			<b>387</b>
+		</p>
+			</td>
+
+	<td class="vf-col-last-post tCenter small nowrap" style="padding: 3px 6px 2px;">
+		<p>2018-03-08 11:25</p>
+		<p style="padding-top: 2px">
+			<a href="profile.php?mode=viewprofile&amp;u=23906385" rel="nofollow">Buberic</a>			<a href="viewtopic.php?p=74938698#74938698" rel="nofollow"><img src="//static.t-ru.org/templates/v1/images/icon_latest_reply.gif" class="icon2" alt="&raquo;"></a>
+		</p>
+	</td>
+</tr>
+<tr id="tr-1056365" class="hl-tr" data-topic_id="1056365">
+	<td id="1056365" class="vf-col-icon vf-topic-icon-cell">
+		<img class="topic_icon" src="//static.t-ru.org/templates/v1/images/folder_sticky.gif" alt="">
+			</td>
+
+	<td class="vf-col-t-title tt" style="padding: 3px 5px 3px 3px;">
+		<div class="torTopic">
+			<span class="tor-icon tor-approved">&radic;</span>&#0183;												 <a id="tt-1056365" href="viewtopic.php?t=1056365" class="torTopic bold tt-text">[\xe0\xed\xe3\xeb\xe8\xe9\xf1\xea\xe8\xe9] \xd8\xe5\xea\xf1\xef\xe8\xf0 / Shakespeare - The Complete Works of William Shakespeare / \xcf\xee\xeb\xed\xee\xe5 \xf1\xee\xe1\xf0\xe0\xed\xe8\xe5 \xf1\xee\xf7\xe8\xed\xe5\xed\xe8\xe9 \xd3\xe8\xeb\xfc\xff\xec\xe0 \xd8\xe5\xea\xf1\xef\xe8\xf0\xe0 [PDF, ENG]</a>
+					</div>
+		<div class="topicAuthor" style="padding-top: 2px;">
+						<a href="profile.php?mode=viewprofile&amp;u=2372157" rel="nofollow" class="topicAuthor">Nina-S</a>
+								</div>
+	</td>
+
+	<td class="vf-col-tor tCenter med nowrap" style="padding: 2px 4px;">
+				<div>
+			<div>
+				<span class="seedmed" title="Seeders"><b>23</b></span><span class="med"> | </span><span class="leechmed" title="Leechers"><b>3</b></span>
+			</div>
+			<div style="padding-top: 2px" class="small">
+				<a href="dl.php?t=1056365" rel="nofollow" class="small f-dl dl-stub" style="text-decoration: none">3.8&nbsp;MB</a>			</div>
+		</div>
+			</td>
+
+	<td class="vf-col-replies tCenter small nowrap" style="padding: 3px 4px 2px;">
+		<p>
+			<span title="\xce\xf2\xe2\xe5\xf2\xee\xe2">15</span>
+		</p>
+				<p style="padding-top: 2px" class="med" title="\xd2\xee\xf0\xf0\xe5\xed\xf2 \xf1\xea\xe0\xf7\xe0\xed">
+			<b>11,299</b>
+		</p>
+			</td>
+
+	<td class="vf-col-last-post tCenter small nowrap" style="padding: 3px 6px 2px;">
+		<p>2017-02-05 05:19</p>
+		<p style="padding-top: 2px">
+			<a href="profile.php?mode=viewprofile&amp;u=8422830" rel="nofollow">axxieck</a>			<a href="viewtopic.php?p=72417456#72417456" rel="nofollow"><img src="//static.t-ru.org/templates/v1/images/icon_latest_reply.gif" class="icon2" alt="&raquo;"></a>
+		</p>
+	</td>
+</tr>
+<tr id="tr-2332605" class="hl-tr" data-topic_id="2332605">
+	<td id="2332605" class="vf-col-icon vf-topic-icon-cell">
+		<img class="topic_icon" src="//static.t-ru.org/templates/v1/images/folder_sticky.gif" alt="">
+			</td>
+
+	<td class="vf-col-t-title tt" style="padding: 3px 5px 3px 3px;">
+		<div class="torTopic">
+			<span class="tor-icon tor-approved">&radic;</span>&#0183;												 <a id="tt-2332605" href="viewtopic.php?t=2332605" class="torTopic bold tt-text">[\xe0\xed\xe3\xeb\xe8\xe9\xf1\xea\xe8\xe9] Jane Austen - Book Collection / \xc4\xe6\xe5\xe9\xed \xce\xf1\xf2\xe8\xed - \xd1\xee\xe1\xf0\xe0\xed\xe8\xe5 \xca\xed\xe8\xe3 [1794-1817, RTF, ENG]</a>
+					</div>
+		<div class="topicAuthor" style="padding-top: 2px;">
+						<a href="profile.php?mode=viewprofile&amp;u=9372563" rel="nofollow" class="topicAuthor">\xcc\xe5\xea\xf1</a>
+								</div>
+	</td>
+
+	<td class="vf-col-tor tCenter med nowrap" style="padding: 2px 4px;">
+				<div>
+			<div>
+				<span class="seedmed" title="Seeders"><b>16</b></span><span class="med"> | </span><span class="leechmed" title="Leechers"><b>3</b></span>
+			</div>
+			<div style="padding-top: 2px" class="small">
+				<a href="dl.php?t=2332605" rel="nofollow" class="small f-dl dl-stub" style="text-decoration: none">5&nbsp;MB</a>			</div>
+		</div>
+			</td>
+
+	<td class="vf-col-replies tCenter small nowrap" style="padding: 3px 4px 2px;">
+		<p>
+			<span title="\xce\xf2\xe2\xe5\xf2\xee\xe2">7</span>
+		</p>
+				<p style="padding-top: 2px" class="med" title="\xd2\xee\xf0\xf0\xe5\xed\xf2 \xf1\xea\xe0\xf7\xe0\xed">
+			<b>6,207</b>
+		</p>
+			</td>
+
+	<td class="vf-col-last-post tCenter small nowrap" style="padding: 3px 6px 2px;">
+		<p>2015-07-30 23:19</p>
+		<p style="padding-top: 2px">
+			<a href="profile.php?mode=viewprofile&amp;u=9064668" rel="nofollow">yagamer</a>			<a href="viewtopic.php?p=68402982#68402982" rel="nofollow"><img src="//static.t-ru.org/templates/v1/images/icon_latest_reply.gif" class="icon2" alt="&raquo;"></a>
+		</p>
+	</td>
+</tr>
+<tr id="tr-3494813" class="hl-tr" data-topic_id="3494813">
+	<td id="3494813" class="vf-col-icon vf-topic-icon-cell">
+		<img class="topic_icon" src="//static.t-ru.org/templates/v1/images/folder_sticky.gif" alt="">
+			</td>
+
+	<td class="vf-col-t-title tt" style="padding: 3px 5px 3px 3px;">
+		<div class="torTopic">
+			<span class="tor-icon tor-approved">&radic;</span>&#0183;												 <a id="tt-3494813" href="viewtopic.php?t=3494813" class="torTopic bold tt-text">[\xe0\xed\xe3\xeb\xe8\xe9\xf1\xea\xe8\xe9] Evanovich Janet / \xc8\xe2\xe0\xed\xee\xe2\xe8\xf7 \xc4\xe6\xe0\xed\xe5\xf2 - \xf1\xe5\xf0\xe8\xff Stephanie Plum (18 \xea\xed\xe8\xe3) [1994 - 2009, LIT, ENG]</a>
+					</div>
+		<div class="topicAuthor" style="padding-top: 2px;">
+						<a href="profile.php?mode=viewprofile&amp;u=8825688" rel="nofollow" class="topicAuthor">ostha</a>
+								</div>
+	</td>
+
+	<td class="vf-col-tor tCenter med nowrap" style="padding: 2px 4px;">
+				<div>
+			<div>
+				<span class="seedmed" title="Seeders"><b>9</b></span><span class="med"> | </span><span class="leechmed" title="Leechers"><b>1</b></span>
+			</div>
+			<div style="padding-top: 2px" class="small">
+				<a href="dl.php?t=3494813" rel="nofollow" class="small f-dl dl-stub" style="text-decoration: none">3.8&nbsp;MB</a>			</div>
+		</div>
+			</td>
+
+	<td class="vf-col-replies tCenter small nowrap" style="padding: 3px 4px 2px;">
+		<p>
+			<span title="\xce\xf2\xe2\xe5\xf2\xee\xe2">10</span>
+		</p>
+				<p style="padding-top: 2px" class="med" title="\xd2\xee\xf0\xf0\xe5\xed\xf2 \xf1\xea\xe0\xf7\xe0\xed">
+			<b>2,231</b>
+		</p>
+			</td>
+
+	<td class="vf-col-last-post tCenter small nowrap" style="padding: 3px 6px 2px;">
+		<p>2018-02-26 00:58</p>
+		<p style="padding-top: 2px">
+			<a href="profile.php?mode=viewprofile&amp;u=12108208" rel="nofollow">KOMANDIR1111</a>			<a href="viewtopic.php?p=74873583#74873583" rel="nofollow"><img src="//static.t-ru.org/templates/v1/images/icon_latest_reply.gif" class="icon2" alt="&raquo;"></a>
+		</p>
+	</td>
+</tr>
+<tr>
+	<td colspan="5" class="row3 topicSep">\xd2\xe5\xec\xfb</td>
+</tr>
+<tr id="tr-2121937" class="hl-tr" data-topic_id="2121937">
+	<td id="2121937" class="vf-col-icon vf-topic-icon-cell">
+		<img class="topic_icon" src="//static.t-ru.org/templates/v1/images/folder_dl.gif" alt="">
+			</td>
+
+	<td class="vf-col-t-title tt" style="padding: 3px 5px 3px 3px;">
+		<div class="torTopic">
+			<span class="tor-icon tor-approved">&radic;</span>&#0183;												 <a id="tt-2121937" href="viewtopic.php?t=2121937" class="torTopic bold tt-text">[\xe0\xed\xe3\xeb\xe8\xe9\xf1\xea\xe8\xe9] Raymond Chandler / \xd0\xe0\xe9\xec\xee\xed\xe4 \xd7\xe0\xed\xe4\xeb\xe5\xf0 - \xd1\xee\xe1\xf0\xe0\xed\xe8\xe5 \xea\xed\xe8\xe3 [10 \xf8\xf2., PDF]</a>
+					</div>
+		<div class="topicAuthor" style="padding-top: 2px;">
+						<a href="profile.php?mode=viewprofile&amp;u=11625001" rel="nofollow" class="topicAuthor">Derrick-999a<wbr></a>
+								</div>
+	</td>
+
+	<td class="vf-col-tor tCenter med nowrap" style="padding: 2px 4px;">
+				<div>
+			<div>
+				<span class="seedmed" title="Seeders"><b>2</b></span><span class="med"> | </span><span class="leechmed" title="Leechers"><b>2</b></span>
+			</div>
+			<div style="padding-top: 2px" class="small">
+				<a href="dl.php?t=2121937" rel="nofollow" class="small f-dl dl-stub" style="text-decoration: none">6.2&nbsp;MB</a>			</div>
+		</div>
+			</td>
+
+	<td class="vf-col-replies tCenter small nowrap" style="padding: 3px 4px 2px;">
+		<p>
+			<span title="\xce\xf2\xe2\xe5\xf2\xee\xe2">7</span>
+		</p>
+				<p style="padding-top: 2px" class="med" title="\xd2\xee\xf0\xf0\xe5\xed\xf2 \xf1\xea\xe0\xf7\xe0\xed">
+			<b>1,298</b>
+		</p>
+			</td>
+
+	<td class="vf-col-last-post tCenter small nowrap" style="padding: 3px 6px 2px;">
+		<p>2018-09-22 19:43</p>
+		<p style="padding-top: 2px">
+			<a href="profile.php?mode=viewprofile&amp;u=32304143" rel="nofollow">Olga Glass</a>			<a href="viewtopic.php?p=76005764#76005764" rel="nofollow"><img src="//static.t-ru.org/templates/v1/images/icon_latest_reply.gif" class="icon2" alt="&raquo;"></a>
+		</p>
+	</td>
+</tr>
+<tr id="tr-3463303" class="hl-tr" data-topic_id="3463303">
+	<td id="3463303" class="vf-col-icon vf-topic-icon-cell">
+		<img class="topic_icon" src="//static.t-ru.org/templates/v1/images/folder_dl.gif" alt="">
+			</td>
+
+	<td class="vf-col-t-title tt" style="padding: 3px 5px 3px 3px;">
+		<div class="torTopic">
+			<span class="tor-icon tor-approved">&radic;</span>&#0183;												 <a id="tt-3463303" href="viewtopic.php?t=3463303" class="torTopic bold tt-text">[\xe0\xed\xe3\xeb\xe8\xe9\xf1\xea\xe8\xe9] Time of Legends, Warhammer FB, The End Times, Age of Sigmar, Primarchs, Horus Heresy, Beast Arises, Warhammer 40k, Dark Imperium novels collection/ \xca\xee\xeb\xeb\xe5\xea\xf6\xe8\xff \xea\xed\xe8\xe3 \xe8\xe7\xe4\xe0\xf2\xe5\xeb\xfc\xf1\xf2\xe2\xe0<wbr> Black Library [... - 2018 \xe3., mix]</a>
+					</div>
+		<div class="topicAuthor" style="padding-top: 2px;">
+						<a href="profile.php?mode=viewprofile&amp;u=14263381" rel="nofollow" class="topicAuthor">Hit0k1ri</a>
+						<span class="topicPG">&nbsp;[<img src="//static.t-ru.org/templates/v1/images/icon_minipost.gif" class="icon1" alt="">\xd1\xf2\xf0. <a href="viewtopic.php?t=3463303" rel="nofollow" class="topicPG">1</a> .. <a href="viewtopic.php?t=3463303&amp;start=660" rel="nofollow" class="topicPG">23</a>, <a href="viewtopic.php?t=3463303&amp;start=690" rel="nofollow" class="topicPG">24</a> ]</span>		</div>
+	</td>
+
+	<td class="vf-col-tor tCenter med nowrap" style="padding: 2px 4px;">
+				<div>
+			<div>
+				<span class="seedmed" title="Seeders"><b>14</b></span><span class="med"> | </span><span class="leechmed" title="Leechers"><b>8</b></span>
+			</div>
+			<div style="padding-top: 2px" class="small">
+				<a href="dl.php?t=3463303" rel="nofollow" class="small f-dl dl-stub" style="text-decoration: none">1.54&nbsp;GB</a>			</div>
+		</div>
+			</td>
+
+	<td class="vf-col-replies tCenter small nowrap" style="padding: 3px 4px 2px;">
+		<p>
+			<span title="\xce\xf2\xe2\xe5\xf2\xee\xe2">713</span>
+		</p>
+				<p style="padding-top: 2px" class="med" title="\xd2\xee\xf0\xf0\xe5\xed\xf2 \xf1\xea\xe0\xf7\xe0\xed">
+			<b>1,054</b>
+		</p>
+			</td>
+
+	<td class="vf-col-last-post tCenter small nowrap" style="padding: 3px 6px 2px;">
+		<p>2018-09-22 13:08</p>
+		<p style="padding-top: 2px">
+			<a href="profile.php?mode=viewprofile&amp;u=13963567" rel="nofollow">TiranXXXX</a>			<a href="viewtopic.php?p=76003557#76003557" rel="nofollow"><img src="//static.t-ru.org/templates/v1/images/icon_latest_reply.gif" class="icon2" alt="&raquo;"></a>
+		</p>
+	</td>
+</tr>
+<tr id="tr-5455405" class="hl-tr" data-topic_id="5455405">
+	<td id="5455405" class="vf-col-icon vf-topic-icon-cell">
+		<img class="topic_icon" src="//static.t-ru.org/templates/v1/images/folder_dl.gif" alt="">
+			</td>
+
+	<td class="vf-col-t-title tt" style="padding: 3px 5px 3px 3px;">
+		<div class="torTopic">
+			<span class="tor-icon tor-not-approved">*</span>&#0183;												 <a id="tt-5455405" href="viewtopic.php?t=5455405" class="torTopic bold tt-text">[\xe0\xed\xe3\xeb\xe8\xe9\xf1\xea\xe8\xe9] Leinster, Murray / \xcb\xe5\xe9\xed\xf1\xf2\xe5\xf0, \xcc\xfe\xf0\xf0\xe5\xe9 - \xd1\xee\xe1\xf0\xe0\xed\xe8\xe5 \xf1\xee\xf7\xe8\xed\xe5\xed\xe8\xe9 (151 \xef\xf0\xee\xe8\xe7\xe2\xe5\xe4\xe5\xed\xe8\xe5<wbr>) [1919-2017, fb2/epub, ENG]</a>
+					</div>
+		<div class="topicAuthor" style="padding-top: 2px;">
+						<a href="profile.php?mode=viewprofile&amp;u=6640791" rel="nofollow" class="topicAuthor">TooOldNick</a>
+								</div>
+	</td>
+
+	<td class="vf-col-tor tCenter med nowrap" style="padding: 2px 4px;">
+				<div>
+			<div>
+				<span class="seedmed" title="Seeders"><b>2</b></span><span class="med"> | </span><span class="leechmed" title="Leechers"><b>1</b></span>
+			</div>
+			<div style="padding-top: 2px" class="small">
+				<a href="dl.php?t=5455405" rel="nofollow" class="small f-dl dl-stub" style="text-decoration: none">32.8&nbsp;MB</a>			</div>
+		</div>
+			</td>
+
+	<td class="vf-col-replies tCenter small nowrap" style="padding: 3px 4px 2px;">
+		<p>
+			<span title="\xce\xf2\xe2\xe5\xf2\xee\xe2">2</span>
+		</p>
+				<p style="padding-top: 2px" class="med" title="\xd2\xee\xf0\xf0\xe5\xed\xf2 \xf1\xea\xe0\xf7\xe0\xed">
+			<b>13</b>
+		</p>
+			</td>
+
+	<td class="vf-col-last-post tCenter small nowrap" style="padding: 3px 6px 2px;">
+		<p>2018-09-22 00:18</p>
+		<p style="padding-top: 2px">
+			<a href="profile.php?mode=viewprofile&amp;u=6640791" rel="nofollow">TooOldNick</a>			<a href="viewtopic.php?p=76000656#76000656" rel="nofollow"><img src="//static.t-ru.org/templates/v1/images/icon_latest_reply.gif" class="icon2" alt="&raquo;"></a>
+		</p>
+	</td>
+</tr>
+<tr id="tr-5613856" class="hl-tr" data-topic_id="5613856">
+	<td id="5613856" class="vf-col-icon vf-topic-icon-cell">
+		<img class="topic_icon" src="//static.t-ru.org/templates/v1/images/folder_dl.gif" alt="">
+			</td>
+
+	<td class="vf-col-t-title tt" style="padding: 3px 5px 3px 3px;">
+		<div class="torTopic">
+			<span class="tor-icon tor-need-edit">?</span>&#0183;												 <a id="tt-5613856" href="viewtopic.php?t=5613856" class="torTopic bold tt-text">William Shakespeare / \xd3\xe8\xeb\xfc\xff\xec \xd8\xe5\xea\xf1\xef\xe8\xf0 - Complete Works of William Shakespeare / \xcf\xee\xeb\xed\xee\xe5 \xf1\xee\xe1\xf0\xe0\xed\xe8\xe5 \xf1\xee\xf7\xe8\xed\xe5\xed\xe8\xe9 \xd3\xe8\xeb\xfc\xff\xec\xe0 \xd8\xe5\xea\xf1\xef\xe8\xf0\xe0 [2011, EPUB, ENG]</a>
+					</div>
+		<div class="topicAuthor" style="padding-top: 2px;">
+						<a href="profile.php?mode=viewprofile&amp;u=21985494" rel="nofollow" class="topicAuthor">Marrok</a>
+								</div>
+	</td>
+
+	<td class="vf-col-tor tCenter med nowrap" style="padding: 2px 4px;">
+				<div>
+			<div>
+				<span class="seedmed" title="Seeders"><b>3</b></span><span class="med"> | </span><span class="leechmed" title="Leechers"><b>0</b></span>
+			</div>
+			<div style="padding-top: 2px" class="small">
+				<a href="dl.php?t=5613856" rel="nofollow" class="small f-dl dl-stub" style="text-decoration: none">13.8&nbsp;MB</a>			</div>
+		</div>
+			</td>
+
+	<td class="vf-col-replies tCenter small nowrap" style="padding: 3px 4px 2px;">
+		<p>
+			<span title="\xce\xf2\xe2\xe5\xf2\xee\xe2">1</span>
+		</p>
+				<p style="padding-top: 2px" class="med" title="\xd2\xee\xf0\xf0\xe5\xed\xf2 \xf1\xea\xe0\xf7\xe0\xed">
+			<b>54</b>
+		</p>
+			</td>
+
+	<td class="vf-col-last-post tCenter small nowrap" style="padding: 3px 6px 2px;">
+		<p>2018-09-21 19:49</p>
+		<p style="padding-top: 2px">
+			<a href="profile.php?mode=viewprofile&amp;u=12108208" rel="nofollow">KOMANDIR1111</a>			<a href="viewtopic.php?p=75999145#75999145" rel="nofollow"><img src="//static.t-ru.org/templates/v1/images/icon_latest_reply.gif" class="icon2" alt="&raquo;"></a>
+		</p>
+	</td>
+</tr>
+<tr id="tr-4753012" class="hl-tr" data-topic_id="4753012">
+	<td id="4753012" class="vf-col-icon vf-topic-icon-cell">
+		<img class="topic_icon" src="//static.t-ru.org/templates/v1/images/folder_dl.gif" alt="">
+			</td>
+
+	<td class="vf-col-t-title tt" style="padding: 3px 5px 3px 3px;">
+		<div class="torTopic">
+			<span class="tor-icon tor-approved">&radic;</span>&#0183;												 <a id="tt-4753012" href="viewtopic.php?t=4753012" class="torTopic bold tt-text">[\xe0\xed\xe3\xeb\xe8\xe9\xf1\xea\xe8\xe9] Daniel Keyes / \xc4\xfd\xed\xe8\xe5\xeb \xca\xe8\xe7 - Flowers For Algernon / \xd6\xe2\xe5\xf2\xfb \xe4\xeb\xff \xdd\xeb\xe4\xe6\xe5\xf0\xed\xee\xed\xe0 [1959-1966, FB2/EPUB, ENG]</a>
+					</div>
+		<div class="topicAuthor" style="padding-top: 2px;">
+						<a href="profile.php?mode=viewprofile&amp;u=12108208" rel="nofollow" class="topicAuthor">KOMANDIR1111<wbr></a>
+								</div>
+	</td>
+
+	<td class="vf-col-tor tCenter med nowrap" style="padding: 2px 4px;">
+				<div>
+			<div>
+				<span class="seedmed" title="Seeders"><b>17</b></span><span class="med"> | </span><span class="leechmed" title="Leechers"><b>2</b></span>
+			</div>
+			<div style="padding-top: 2px" class="small">
+				<a href="dl.php?t=4753012" rel="nofollow" class="small f-dl dl-stub" style="text-decoration: none">744&nbsp;KB</a>			</div>
+		</div>
+			</td>
+
+	<td class="vf-col-replies tCenter small nowrap" style="padding: 3px 4px 2px;">
+		<p>
+			<span title="\xce\xf2\xe2\xe5\xf2\xee\xe2">7</span>
+		</p>
+				<p style="padding-top: 2px" class="med" title="\xd2\xee\xf0\xf0\xe5\xed\xf2 \xf1\xea\xe0\xf7\xe0\xed">
+			<b>2,940</b>
+		</p>
+			</td>
+
+	<td class="vf-col-last-post tCenter small nowrap" style="padding: 3px 6px 2px;">
+		<p>2018-09-21 11:35</p>
+		<p style="padding-top: 2px">
+			<a href="profile.php?mode=viewprofile&amp;u=32304143" rel="nofollow">Olga Glass</a>			<a href="viewtopic.php?p=75996925#75996925" rel="nofollow"><img src="//static.t-ru.org/templates/v1/images/icon_latest_reply.gif" class="icon2" alt="&raquo;"></a>
+		</p>
+	</td>
+</tr>
+<tr id="tr-4213094" class="hl-tr" data-topic_id="4213094">
+	<td id="4213094" class="vf-col-icon vf-topic-icon-cell">
+		<img class="topic_icon" src="//static.t-ru.org/templates/v1/images/folder_dl.gif" alt="">
+			</td>
+
+	<td class="vf-col-t-title tt" style="padding: 3px 5px 3px 3px;">
+		<div class="torTopic">
+			<span class="tor-icon tor-approved">&radic;</span>&#0183;												 <a id="tt-4213094" href="viewtopic.php?t=4213094" class="torTopic bold tt-text">[\xe0\xed\xe3\xeb\xe8\xe9\xf1\xea\xe8\xe9] John Sandford / \xc4\xe6\xee\xed \xd1\xfd\xed\xe4\xf4\xee\xf0\xe4 - \xd1\xee\xe1\xf0\xe0\xed\xe8\xe5 \xf1\xee\xf7\xe8\xed\xe5\xed\xe8\xe9 [48 \xea\xed\xe8\xe3] [1989 \x96 2018 \xe3., EPUB, ENG]</a>
+					</div>
+		<div class="topicAuthor" style="padding-top: 2px;">
+						<a href="profile.php?mode=viewprofile&amp;u=15596747" rel="nofollow" class="topicAuthor">KIV001</a>
+								</div>
+	</td>
+
+	<td class="vf-col-tor tCenter med nowrap" style="padding: 2px 4px;">
+				<div>
+			<div>
+				<span class="seedmed" title="Seeders"><b>2</b></span><span class="med"> | </span><span class="leechmed" title="Leechers"><b>1</b></span>
+			</div>
+			<div style="padding-top: 2px" class="small">
+				<a href="dl.php?t=4213094" rel="nofollow" class="small f-dl dl-stub" style="text-decoration: none">20.9&nbsp;MB</a>			</div>
+		</div>
+			</td>
+
+	<td class="vf-col-replies tCenter small nowrap" style="padding: 3px 4px 2px;">
+		<p>
+			<span title="\xce\xf2\xe2\xe5\xf2\xee\xe2">16</span>
+		</p>
+				<p style="padding-top: 2px" class="med" title="\xd2\xee\xf0\xf0\xe5\xed\xf2 \xf1\xea\xe0\xf7\xe0\xed">
+			<b>17</b>
+		</p>
+			</td>
+
+	<td class="vf-col-last-post tCenter small nowrap" style="padding: 3px 6px 2px;">
+		<p>2018-09-20 17:39</p>
+		<p style="padding-top: 2px">
+			<a href="profile.php?mode=viewprofile&amp;u=15596747" rel="nofollow">KIV001</a>			<a href="viewtopic.php?p=75993516#75993516" rel="nofollow"><img src="//static.t-ru.org/templates/v1/images/icon_latest_reply.gif" class="icon2" alt="&raquo;"></a>
+		</p>
+	</td>
+</tr>
+<tr id="tr-4415390" class="hl-tr" data-topic_id="4415390">
+	<td id="4415390" class="vf-col-icon vf-topic-icon-cell">
+		<img class="topic_icon" src="//static.t-ru.org/templates/v1/images/folder_dl.gif" alt="">
+			</td>
+
+	<td class="vf-col-t-title tt" style="padding: 3px 5px 3px 3px;">
+		<div class="torTopic">
+			<span class="tor-icon tor-approved">&radic;</span>&#0183;												 <a id="tt-4415390" href="viewtopic.php?t=4415390" class="torTopic bold tt-text">Scott Mariani / \xd1\xea\xee\xf2\xf2 \xcc\xe0\xf0\xe8\xe0\xed\xe8 - \xd1\xee\xe1\xf0\xe0\xed\xe8\xe5 \xea\xed\xe8\xe3 [21 \xf8\xf2.] [2007 - 2018, EPUB, MOBI, ENG]</a>
+					</div>
+		<div class="topicAuthor" style="padding-top: 2px;">
+						<a href="profile.php?mode=viewprofile&amp;u=15596747" rel="nofollow" class="topicAuthor">KIV001</a>
+								</div>
+	</td>
+
+	<td class="vf-col-tor tCenter med nowrap" style="padding: 2px 4px;">
+				<div>
+			<div>
+				<span class="seedmed" title="Seeders"><b>6</b></span><span class="med"> | </span><span class="leechmed" title="Leechers"><b>0</b></span>
+			</div>
+			<div style="padding-top: 2px" class="small">
+				<a href="dl.php?t=4415390" rel="nofollow" class="small f-dl dl-stub" style="text-decoration: none">23.1&nbsp;MB</a>			</div>
+		</div>
+			</td>
+
+	<td class="vf-col-replies tCenter small nowrap" style="padding: 3px 4px 2px;">
+		<p>
+			<span title="\xce\xf2\xe2\xe5\xf2\xee\xe2">7</span>
+		</p>
+				<p style="padding-top: 2px" class="med" title="\xd2\xee\xf0\xf0\xe5\xed\xf2 \xf1\xea\xe0\xf7\xe0\xed">
+			<b>24</b>
+		</p>
+			</td>
+
+	<td class="vf-col-last-post tCenter small nowrap" style="padding: 3px 6px 2px;">
+		<p>2018-09-20 17:09</p>
+		<p style="padding-top: 2px">
+			<a href="profile.php?mode=viewprofile&amp;u=15596747" rel="nofollow">KIV001</a>			<a href="viewtopic.php?p=75993362#75993362" rel="nofollow"><img src="//static.t-ru.org/templates/v1/images/icon_latest_reply.gif" class="icon2" alt="&raquo;"></a>
+		</p>
+	</td>
+</tr>
+<tr id="tr-5471213" class="hl-tr" data-topic_id="5471213">
+	<td id="5471213" class="vf-col-icon vf-topic-icon-cell">
+		<img class="topic_icon" src="//static.t-ru.org/templates/v1/images/folder_dl.gif" alt="">
+			</td>
+
+	<td class="vf-col-t-title tt" style="padding: 3px 5px 3px 3px;">
+		<div class="torTopic">
+			<span class="tor-icon tor-need-edit">?</span>&#0183;												 <a id="tt-5471213" href="viewtopic.php?t=5471213" class="torTopic bold tt-text">Maugham W. Somerset/\xd1\xee\xec<wbr>\xe5\xf0\xf1\xe5\xf2 \xcc\xee\xfd\xec - Delphi Complete works of W Somerset Maugham by W. Somerset Maugham [2017, EPUB, ENG]</a>
+					</div>
+		<div class="topicAuthor" style="padding-top: 2px;">
+						<a href="profile.php?mode=viewprofile&amp;u=19669981" rel="nofollow" class="topicAuthor">458mike</a>
+								</div>
+	</td>
+
+	<td class="vf-col-tor tCenter med nowrap" style="padding: 2px 4px;">
+				<div>
+			<div>
+				<span class="seedmed" title="Seeders"><b>7</b></span><span class="med"> | </span><span class="leechmed" title="Leechers"><b>2</b></span>
+			</div>
+			<div style="padding-top: 2px" class="small">
+				<a href="dl.php?t=5471213" rel="nofollow" class="small f-dl dl-stub" style="text-decoration: none">34.7&nbsp;MB</a>			</div>
+		</div>
+			</td>
+
+	<td class="vf-col-replies tCenter small nowrap" style="padding: 3px 4px 2px;">
+		<p>
+			<span title="\xce\xf2\xe2\xe5\xf2\xee\xe2">13</span>
+		</p>
+				<p style="padding-top: 2px" class="med" title="\xd2\xee\xf0\xf0\xe5\xed\xf2 \xf1\xea\xe0\xf7\xe0\xed">
+			<b>434</b>
+		</p>
+			</td>
+
+	<td class="vf-col-last-post tCenter small nowrap" style="padding: 3px 6px 2px;">
+		<p>2018-09-20 15:28</p>
+		<p style="padding-top: 2px">
+			<a href="profile.php?mode=viewprofile&amp;u=17176783" rel="nofollow">Marusyan</a>			<a href="viewtopic.php?p=75992898#75992898" rel="nofollow"><img src="//static.t-ru.org/templates/v1/images/icon_latest_reply.gif" class="icon2" alt="&raquo;"></a>
+		</p>
+	</td>
+</tr>
+<tr id="tr-5101493" class="hl-tr" data-topic_id="5101493">
+	<td id="5101493" class="vf-col-icon vf-topic-icon-cell">
+		<img class="topic_icon" src="//static.t-ru.org/templates/v1/images/folder_dl.gif" alt="">
+			</td>
+
+	<td class="vf-col-t-title tt" style="padding: 3px 5px 3px 3px;">
+		<div class="torTopic">
+			<span class="tor-icon tor-approved">&radic;</span>&#0183;												 <a id="tt-5101493" href="viewtopic.php?t=5101493" class="torTopic bold tt-text">[\xe0\xed\xe3\xeb\xe8\xe9\xf1\xea\xe8\xe9] Leiber, Fritz / \xcb\xe5\xe9\xe1\xe5\xf0, \xd4\xf0\xe8\xf6 - \xd1\xee\xe1\xf0\xe0\xed\xe8\xe5 \xf1\xee\xf7\xe8\xed\xe5\xed\xe8\xe9 (182 \xef\xf0\xee\xe8\xe7\xe2\xe5\xe4\xe5\xed\xe8\xff<wbr>) [1945-2016, fb2/epub ENG]</a>
+					</div>
+		<div class="topicAuthor" style="padding-top: 2px;">
+						<a href="profile.php?mode=viewprofile&amp;u=6640791" rel="nofollow" class="topicAuthor">TooOldNick</a>
+								</div>
+	</td>
+
+	<td class="vf-col-tor tCenter med nowrap" style="padding: 2px 4px;">
+				<div>
+			<div>
+				<span class="seedmed" title="Seeders"><b>2</b></span><span class="med"> | </span><span class="leechmed" title="Leechers"><b>0</b></span>
+			</div>
+			<div style="padding-top: 2px" class="small">
+				<a href="dl.php?t=5101493" rel="nofollow" class="small f-dl dl-stub" style="text-decoration: none">36.4&nbsp;MB</a>			</div>
+		</div>
+			</td>
+
+	<td class="vf-col-replies tCenter small nowrap" style="padding: 3px 4px 2px;">
+		<p>
+			<span title="\xce\xf2\xe2\xe5\xf2\xee\xe2">6</span>
+		</p>
+				<p style="padding-top: 2px" class="med" title="\xd2\xee\xf0\xf0\xe5\xed\xf2 \xf1\xea\xe0\xf7\xe0\xed">
+			<b>22</b>
+		</p>
+			</td>
+
+	<td class="vf-col-last-post tCenter small nowrap" style="padding: 3px 6px 2px;">
+		<p>2018-09-20 01:33</p>
+		<p style="padding-top: 2px">
+			<a href="profile.php?mode=viewprofile&amp;u=6640791" rel="nofollow">TooOldNick</a>			<a href="viewtopic.php?p=75990744#75990744" rel="nofollow"><img src="//static.t-ru.org/templates/v1/images/icon_latest_reply.gif" class="icon2" alt="&raquo;"></a>
+		</p>
+	</td>
+</tr>
+<tr id="tr-4460583" class="hl-tr" data-topic_id="4460583">
+	<td id="4460583" class="vf-col-icon vf-topic-icon-cell">
+		<img class="topic_icon" src="//static.t-ru.org/templates/v1/images/folder_dl.gif" alt="">
+			</td>
+
+	<td class="vf-col-t-title tt" style="padding: 3px 5px 3px 3px;">
+		<div class="torTopic">
+			<span class="tor-icon tor-approved">&radic;</span>&#0183;												 <a id="tt-4460583" href="viewtopic.php?t=4460583" class="torTopic bold tt-text">[\xe0\xed\xe3\xeb\xe8\xe9\xf1\xea\xe8\xe9] Rex Stout / \xd0\xe5\xea\xf1 \xd1\xf2\xe0\xf3\xf2 - \xd1\xee\xe1\xf0\xe0\xed\xe8\xe5 \xea\xed\xe8\xe3 (124 \xef\xf0\xee\xe8\xe7\xe2\xe5\xe4\xe5\xed\xe8\xff<wbr>) [1913-2017, FB2/EPUB/PDF<wbr>, ENG]</a>
+					</div>
+		<div class="topicAuthor" style="padding-top: 2px;">
+						<a href="profile.php?mode=viewprofile&amp;u=6640791" rel="nofollow" class="topicAuthor">TooOldNick</a>
+								</div>
+	</td>
+
+	<td class="vf-col-tor tCenter med nowrap" style="padding: 2px 4px;">
+				<div>
+			<div>
+				<span class="seedmed" title="Seeders"><b>17</b></span><span class="med"> | </span><span class="leechmed" title="Leechers"><b>1</b></span>
+			</div>
+			<div style="padding-top: 2px" class="small">
+				<a href="dl.php?t=4460583" rel="nofollow" class="small f-dl dl-stub" style="text-decoration: none">128.3&nbsp;MB</a>			</div>
+		</div>
+			</td>
+
+	<td class="vf-col-replies tCenter small nowrap" style="padding: 3px 4px 2px;">
+		<p>
+			<span title="\xce\xf2\xe2\xe5\xf2\xee\xe2">8</span>
+		</p>
+				<p style="padding-top: 2px" class="med" title="\xd2\xee\xf0\xf0\xe5\xed\xf2 \xf1\xea\xe0\xf7\xe0\xed">
+			<b>745</b>
+		</p>
+			</td>
+
+	<td class="vf-col-last-post tCenter small nowrap" style="padding: 3px 6px 2px;">
+		<p>2017-11-25 15:35</p>
+		<p style="padding-top: 2px">
+			<a href="profile.php?mode=viewprofile&amp;u=25008520" rel="nofollow">olgaeganova</a>			<a href="viewtopic.php?p=74301224#74301224" rel="nofollow"><img src="//static.t-ru.org/templates/v1/images/icon_latest_reply.gif" class="icon2" alt="&raquo;"></a>
+		</p>
+	</td>
+</tr>
+<tr id="tr-5372801" class="hl-tr" data-topic_id="5372801">
+	<td id="5372801" class="vf-col-icon vf-topic-icon-cell">
+		<img class="topic_icon" src="//static.t-ru.org/templates/v1/images/folder_dl.gif" alt="">
+			</td>
+
+	<td class="vf-col-t-title tt" style="padding: 3px 5px 3px 3px;">
+		<div class="torTopic">
+			<span class="tor-icon tor-approved">&radic;</span>&#0183;												 <a id="tt-5372801" href="viewtopic.php?t=5372801" class="torTopic bold tt-text">[\xe0\xed\xe3\xeb\xe8\xe9\xf1\xea\xe8\xe9] Fannie Flagg / \xd4\xfd\xed\xed\xe8 \xd4\xeb\xfd\xe3\xe3 - \xd1\xee\xe1\xf0\xe0\xed\xe8\xe5 \xf1\xee\xf7\xe8\xed\xe5\xed\xe8\xe9 [8 \xf8\xf2] [1981-2013, EPUB, ENG]</a>
+					</div>
+		<div class="topicAuthor" style="padding-top: 2px;">
+						<a href="profile.php?mode=viewprofile&amp;u=12108208" rel="nofollow" class="topicAuthor">KOMANDIR1111<wbr></a>
+								</div>
+	</td>
+
+	<td class="vf-col-tor tCenter med nowrap" style="padding: 2px 4px;">
+				<div>
+			<div>
+				<span class="seedmed" title="Seeders"><b>9</b></span><span class="med"> | </span><span class="leechmed" title="Leechers"><b>1</b></span>
+			</div>
+			<div style="padding-top: 2px" class="small">
+				<a href="dl.php?t=5372801" rel="nofollow" class="small f-dl dl-stub" style="text-decoration: none">13&nbsp;MB</a>			</div>
+		</div>
+			</td>
+
+	<td class="vf-col-replies tCenter small nowrap" style="padding: 3px 4px 2px;">
+		<p>
+			<span title="\xce\xf2\xe2\xe5\xf2\xee\xe2">2</span>
+		</p>
+				<p style="padding-top: 2px" class="med" title="\xd2\xee\xf0\xf0\xe5\xed\xf2 \xf1\xea\xe0\xf7\xe0\xed">
+			<b>557</b>
+		</p>
+			</td>
+
+	<td class="vf-col-last-post tCenter small nowrap" style="padding: 3px 6px 2px;">
+		<p>2018-02-15 20:05</p>
+		<p style="padding-top: 2px">
+			<a href="profile.php?mode=viewprofile&amp;u=12108208" rel="nofollow">KOMANDIR1111</a>			<a href="viewtopic.php?p=74806125#74806125" rel="nofollow"><img src="//static.t-ru.org/templates/v1/images/icon_latest_reply.gif" class="icon2" alt="&raquo;"></a>
+		</p>
+	</td>
+</tr>
+<tr id="tr-4291605" class="hl-tr" data-topic_id="4291605">
+	<td id="4291605" class="vf-col-icon vf-topic-icon-cell">
+		<img class="topic_icon" src="//static.t-ru.org/templates/v1/images/folder_dl.gif" alt="">
+			</td>
+
+	<td class="vf-col-t-title tt" style="padding: 3px 5px 3px 3px;">
+		<div class="torTopic">
+			<span class="tor-icon tor-approved">&radic;</span>&#0183;												 <a id="tt-4291605" href="viewtopic.php?t=4291605" class="torTopic bold tt-text">Tom Clancy / \xd2\xee\xec \xca\xeb\xfd\xed\xf1\xe8 - \xd1\xee\xe1\xf0\xe0\xed\xe8\xe5 \xea\xed\xe8\xe3 [84 \xf8\xf2.] [1984 \x96 2017 \xe3., EPUB, ENG]</a>
+					</div>
+		<div class="topicAuthor" style="padding-top: 2px;">
+						<a href="profile.php?mode=viewprofile&amp;u=15596747" rel="nofollow" class="topicAuthor">KIV001</a>
+								</div>
+	</td>
+
+	<td class="vf-col-tor tCenter med nowrap" style="padding: 2px 4px;">
+				<div>
+			<div>
+				<span class="seedmed" title="Seeders"><b>12</b></span><span class="med"> | </span><span class="leechmed" title="Leechers"><b>1</b></span>
+			</div>
+			<div style="padding-top: 2px" class="small">
+				<a href="dl.php?t=4291605" rel="nofollow" class="small f-dl dl-stub" style="text-decoration: none">96.6&nbsp;MB</a>			</div>
+		</div>
+			</td>
+
+	<td class="vf-col-replies tCenter small nowrap" style="padding: 3px 4px 2px;">
+		<p>
+			<span title="\xce\xf2\xe2\xe5\xf2\xee\xe2">6</span>
+		</p>
+				<p style="padding-top: 2px" class="med" title="\xd2\xee\xf0\xf0\xe5\xed\xf2 \xf1\xea\xe0\xf7\xe0\xed">
+			<b>456</b>
+		</p>
+			</td>
+
+	<td class="vf-col-last-post tCenter small nowrap" style="padding: 3px 6px 2px;">
+		<p>2017-07-25 00:16</p>
+		<p style="padding-top: 2px">
+			<a href="profile.php?mode=viewprofile&amp;u=15596747" rel="nofollow">KIV001</a>			<a href="viewtopic.php?p=73568057#73568057" rel="nofollow"><img src="//static.t-ru.org/templates/v1/images/icon_latest_reply.gif" class="icon2" alt="&raquo;"></a>
+		</p>
+	</td>
+</tr>
+<tr id="tr-4240638" class="hl-tr" data-topic_id="4240638">
+	<td id="4240638" class="vf-col-icon vf-topic-icon-cell">
+		<img class="topic_icon" src="//static.t-ru.org/templates/v1/images/folder_dl.gif" alt="">
+			</td>
+
+	<td class="vf-col-t-title tt" style="padding: 3px 5px 3px 3px;">
+		<div class="torTopic">
+			<span class="tor-icon tor-approved">&radic;</span>&#0183;												 <a id="tt-4240638" href="viewtopic.php?t=4240638" class="torTopic bold tt-text">Lawrence Sanders / \xcb\xee\xf3\xf0\xe5\xed\xf1 \xd1\xe0\xed\xe4\xe5\xf0\xf1 - \xd1\xee\xe1\xf0\xe0\xed\xe8\xe5 \xea\xed\xe8\xe3 [31 \xf8\xf2.] [1970 - 2006, EPUB, ENG]</a>
+					</div>
+		<div class="topicAuthor" style="padding-top: 2px;">
+						<a href="profile.php?mode=viewprofile&amp;u=15596747" rel="nofollow" class="topicAuthor">KIV001</a>
+								</div>
+	</td>
+
+	<td class="vf-col-tor tCenter med nowrap" style="padding: 2px 4px;">
+				<div>
+			<div>
+				<span class="seedmed" title="Seeders"><b>4</b></span><span class="med"> | </span><span class="leechmed" title="Leechers"><b>0</b></span>
+			</div>
+			<div style="padding-top: 2px" class="small">
+				<a href="dl.php?t=4240638" rel="nofollow" class="small f-dl dl-stub" style="text-decoration: none">20.5&nbsp;MB</a>			</div>
+		</div>
+			</td>
+
+	<td class="vf-col-replies tCenter small nowrap" style="padding: 3px 4px 2px;">
+		<p>
+			<span title="\xce\xf2\xe2\xe5\xf2\xee\xe2">3</span>
+		</p>
+				<p style="padding-top: 2px" class="med" title="\xd2\xee\xf0\xf0\xe5\xed\xf2 \xf1\xea\xe0\xf7\xe0\xed">
+			<b>67</b>
+		</p>
+			</td>
+
+	<td class="vf-col-last-post tCenter small nowrap" style="padding: 3px 6px 2px;">
+		<p>2017-12-17 12:05</p>
+		<p style="padding-top: 2px">
+			<a href="profile.php?mode=viewprofile&amp;u=12108208" rel="nofollow">KOMANDIR1111</a>			<a href="viewtopic.php?p=74435312#74435312" rel="nofollow"><img src="//static.t-ru.org/templates/v1/images/icon_latest_reply.gif" class="icon2" alt="&raquo;"></a>
+		</p>
+	</td>
+</tr>
+<tr id="tr-4285859" class="hl-tr" data-topic_id="4285859">
+	<td id="4285859" class="vf-col-icon vf-topic-icon-cell">
+		<img class="topic_icon" src="//static.t-ru.org/templates/v1/images/folder_dl.gif" alt="">
+			</td>
+
+	<td class="vf-col-t-title tt" style="padding: 3px 5px 3px 3px;">
+		<div class="torTopic">
+			<span class="tor-icon tor-approved">&radic;</span>&#0183;												 <a id="tt-4285859" href="viewtopic.php?t=4285859" class="torTopic bold tt-text">David Morrell / \xc4\xfd\xe2\xe8\xe4 \xcc\xee\xf0\xf0\xe5\xeb\xeb - \xd1\xee\xe1\xf0\xe0\xed\xe8\xe5 \xea\xed\xe8\xe3 [33 \xf8\xf2.] [1972 - 2016, EPUB, ENG]</a>
+					</div>
+		<div class="topicAuthor" style="padding-top: 2px;">
+						<a href="profile.php?mode=viewprofile&amp;u=15596747" rel="nofollow" class="topicAuthor">KIV001</a>
+								</div>
+	</td>
+
+	<td class="vf-col-tor tCenter med nowrap" style="padding: 2px 4px;">
+				<div>
+			<div>
+				<span class="seedmed" title="Seeders"><b>6</b></span><span class="med"> | </span><span class="leechmed" title="Leechers"><b>1</b></span>
+			</div>
+			<div style="padding-top: 2px" class="small">
+				<a href="dl.php?t=4285859" rel="nofollow" class="small f-dl dl-stub" style="text-decoration: none">16.8&nbsp;MB</a>			</div>
+		</div>
+			</td>
+
+	<td class="vf-col-replies tCenter small nowrap" style="padding: 3px 4px 2px;">
+		<p>
+			<span title="\xce\xf2\xe2\xe5\xf2\xee\xe2">5</span>
+		</p>
+				<p style="padding-top: 2px" class="med" title="\xd2\xee\xf0\xf0\xe5\xed\xf2 \xf1\xea\xe0\xf7\xe0\xed">
+			<b>132</b>
+		</p>
+			</td>
+
+	<td class="vf-col-last-post tCenter small nowrap" style="padding: 3px 6px 2px;">
+		<p>2017-12-08 17:03</p>
+		<p style="padding-top: 2px">
+			<a href="profile.php?mode=viewprofile&amp;u=15596747" rel="nofollow">KIV001</a>			<a href="viewtopic.php?p=74380357#74380357" rel="nofollow"><img src="//static.t-ru.org/templates/v1/images/icon_latest_reply.gif" class="icon2" alt="&raquo;"></a>
+		</p>
+	</td>
+</tr>
+<tr id="tr-4758913" class="hl-tr" data-topic_id="4758913">
+	<td id="4758913" class="vf-col-icon vf-topic-icon-cell">
+		<img class="topic_icon" src="//static.t-ru.org/templates/v1/images/folder_dl.gif" alt="">
+			</td>
+
+	<td class="vf-col-t-title tt" style="padding: 3px 5px 3px 3px;">
+		<div class="torTopic">
+			<span class="tor-icon tor-approved">&radic;</span>&#0183;												 <a id="tt-4758913" href="viewtopic.php?t=4758913" class="torTopic bold tt-text">Steve Berry / \xd1\xf2\xe8\xe2 \xc1\xe5\xf0\xf0\xe8 - \xd1\xee\xe1\xf0\xe0\xed\xe8\xe5 \xea\xed\xe8\xe3 [22 \xf8\xf2.] [2003 - 2017, EPUB, MOBI, ENG]</a>
+					</div>
+		<div class="topicAuthor" style="padding-top: 2px;">
+						<a href="profile.php?mode=viewprofile&amp;u=15596747" rel="nofollow" class="topicAuthor">KIV001</a>
+								</div>
+	</td>
+
+	<td class="vf-col-tor tCenter med nowrap" style="padding: 2px 4px;">
+				<div>
+			<div>
+				<span class="seedmed" title="Seeders"><b>4</b></span><span class="med"> | </span><span class="leechmed" title="Leechers"><b>0</b></span>
+			</div>
+			<div style="padding-top: 2px" class="small">
+				<a href="dl.php?t=4758913" rel="nofollow" class="small f-dl dl-stub" style="text-decoration: none">53.9&nbsp;MB</a>			</div>
+		</div>
+			</td>
+
+	<td class="vf-col-replies tCenter small nowrap" style="padding: 3px 4px 2px;">
+		<p>
+			<span title="\xce\xf2\xe2\xe5\xf2\xee\xe2">5</span>
+		</p>
+				<p style="padding-top: 2px" class="med" title="\xd2\xee\xf0\xf0\xe5\xed\xf2 \xf1\xea\xe0\xf7\xe0\xed">
+			<b>103</b>
+		</p>
+			</td>
+
+	<td class="vf-col-last-post tCenter small nowrap" style="padding: 3px 6px 2px;">
+		<p>2017-12-09 12:26</p>
+		<p style="padding-top: 2px">
+			<a href="profile.php?mode=viewprofile&amp;u=15596747" rel="nofollow">KIV001</a>			<a href="viewtopic.php?p=74385564#74385564" rel="nofollow"><img src="//static.t-ru.org/templates/v1/images/icon_latest_reply.gif" class="icon2" alt="&raquo;"></a>
+		</p>
+	</td>
+</tr>
+<tr id="tr-4092743" class="hl-tr" data-topic_id="4092743">
+	<td id="4092743" class="vf-col-icon vf-topic-icon-cell">
+		<img class="topic_icon" src="//static.t-ru.org/templates/v1/images/folder_dl.gif" alt="">
+			</td>
+
+	<td class="vf-col-t-title tt" style="padding: 3px 5px 3px 3px;">
+		<div class="torTopic">
+			<span class="tor-icon tor-approved">&radic;</span>&#0183;												 <a id="tt-4092743" href="viewtopic.php?t=4092743" class="torTopic bold tt-text">Michael Koryta / \xcc\xe0\xe9\xea\xeb \xca\xee\xf0\xe8\xf2\xe0 - \xd1\xee\xe1\xf0\xe0\xed\xe8\xe5 \xea\xed\xe8\xe3 [13 \xf8\xf2.] [2004 - 2016, EPUB, ENG]</a>
+					</div>
+		<div class="topicAuthor" style="padding-top: 2px;">
+						<a href="profile.php?mode=viewprofile&amp;u=15596747" rel="nofollow" class="topicAuthor">KIV001</a>
+								</div>
+	</td>
+
+	<td class="vf-col-tor tCenter med nowrap" style="padding: 2px 4px;">
+				<div>
+			<div>
+				<span class="seedmed" title="Seeders"><b>6</b></span><span class="med"> | </span><span class="leechmed" title="Leechers"><b>0</b></span>
+			</div>
+			<div style="padding-top: 2px" class="small">
+				<a href="dl.php?t=4092743" rel="nofollow" class="small f-dl dl-stub" style="text-decoration: none">6.1&nbsp;MB</a>			</div>
+		</div>
+			</td>
+
+	<td class="vf-col-replies tCenter small nowrap" style="padding: 3px 4px 2px;">
+		<p>
+			<span title="\xce\xf2\xe2\xe5\xf2\xee\xe2">12</span>
+		</p>
+				<p style="padding-top: 2px" class="med" title="\xd2\xee\xf0\xf0\xe5\xed\xf2 \xf1\xea\xe0\xf7\xe0\xed">
+			<b>93</b>
+		</p>
+			</td>
+
+	<td class="vf-col-last-post tCenter small nowrap" style="padding: 3px 6px 2px;">
+		<p>2014-07-27 20:58</p>
+		<p style="padding-top: 2px">
+			<a href="profile.php?mode=viewprofile&amp;u=15596747" rel="nofollow">KIV001</a>			<a href="viewtopic.php?p=64670241#64670241" rel="nofollow"><img src="//static.t-ru.org/templates/v1/images/icon_latest_reply.gif" class="icon2" alt="&raquo;"></a>
+		</p>
+	</td>
+</tr>
+<tr id="tr-5603418" class="hl-tr" data-topic_id="5603418">
+	<td id="5603418" class="vf-col-icon vf-topic-icon-cell">
+		<img class="topic_icon" src="//static.t-ru.org/templates/v1/images/folder_dl.gif" alt="">
+			</td>
+
+	<td class="vf-col-t-title tt" style="padding: 3px 5px 3px 3px;">
+		<div class="torTopic">
+			<span class="tor-icon tor-approved">&radic;</span>&#0183;												 <a id="tt-5603418" href="viewtopic.php?t=5603418" class="torTopic bold tt-text">J.K. Rowling - Pottermore Presents (Short Stories from Hogwarts of Heroism, Hardship and Dangerous Hobbies\Shor<wbr>t Stories from Hogwarts of Power, Politics and Pesky Poltergeists<wbr>\Hogwarts: An Incomplete and Unreliable Guide) [2016, EPUB, ENG]</a>
+					</div>
+		<div class="topicAuthor" style="padding-top: 2px;">
+						<a href="profile.php?mode=viewprofile&amp;u=28589482" rel="nofollow" class="topicAuthor">N.A.R.E.K.96<wbr></a>
+								</div>
+	</td>
+
+	<td class="vf-col-tor tCenter med nowrap" style="padding: 2px 4px;">
+				<div>
+			<div>
+				<span class="seedmed" title="Seeders"><b>3</b></span><span class="med"> | </span><span class="leechmed" title="Leechers"><b>0</b></span>
+			</div>
+			<div style="padding-top: 2px" class="small">
+				<a href="dl.php?t=5603418" rel="nofollow" class="small f-dl dl-stub" style="text-decoration: none">3.2&nbsp;MB</a>			</div>
+		</div>
+			</td>
+
+	<td class="vf-col-replies tCenter small nowrap" style="padding: 3px 4px 2px;">
+		<p>
+			<span title="\xce\xf2\xe2\xe5\xf2\xee\xe2">0</span>
+		</p>
+				<p style="padding-top: 2px" class="med" title="\xd2\xee\xf0\xf0\xe5\xed\xf2 \xf1\xea\xe0\xf7\xe0\xed">
+			<b>50</b>
+		</p>
+			</td>
+
+	<td class="vf-col-last-post tCenter small nowrap" style="padding: 3px 6px 2px;">
+		<p>2018-08-21 20:01</p>
+		<p style="padding-top: 2px">
+			<a href="profile.php?mode=viewprofile&amp;u=28589482" rel="nofollow">N.A.R.E.K.96</a>			<a href="viewtopic.php?p=75842334#75842334" rel="nofollow"><img src="//static.t-ru.org/templates/v1/images/icon_latest_reply.gif" class="icon2" alt="&raquo;"></a>
+		</p>
+	</td>
+</tr>
+<tr id="tr-5517515" class="hl-tr" data-topic_id="5517515">
+	<td id="5517515" class="vf-col-icon vf-topic-icon-cell">
+		<img class="topic_icon" src="//static.t-ru.org/templates/v1/images/folder_dl.gif" alt="">
+			</td>
+
+	<td class="vf-col-t-title tt" style="padding: 3px 5px 3px 3px;">
+		<div class="torTopic">
+			<span class="tor-icon tor-approved">&radic;</span>&#0183;												 <a id="tt-5517515" href="viewtopic.php?t=5517515" class="torTopic bold tt-text">Joseph Conrad / \xc4\xe6\xee\xe7\xe5\xf4 \xca\xee\xed\xf0\xe0\xe4 - Complete Works / \xcf\xee\xeb\xed\xee\xe5 \xf1\xee\xe1\xf0\xe0\xed\xe8\xe5 \xf1\xee\xf7\xe8\xed\xe5\xed\xe8\xe9 [2012, EPUB, ENG]</a>
+					</div>
+		<div class="topicAuthor" style="padding-top: 2px;">
+						<a href="profile.php?mode=viewprofile&amp;u=15596747" rel="nofollow" class="topicAuthor">KIV001</a>
+								</div>
+	</td>
+
+	<td class="vf-col-tor tCenter med nowrap" style="padding: 2px 4px;">
+				<div>
+			<div>
+				<span class="seedmed" title="Seeders"><b>4</b></span><span class="med"> | </span><span class="leechmed" title="Leechers"><b>0</b></span>
+			</div>
+			<div style="padding-top: 2px" class="small">
+				<a href="dl.php?t=5517515" rel="nofollow" class="small f-dl dl-stub" style="text-decoration: none">6.9&nbsp;MB</a>			</div>
+		</div>
+			</td>
+
+	<td class="vf-col-replies tCenter small nowrap" style="padding: 3px 4px 2px;">
+		<p>
+			<span title="\xce\xf2\xe2\xe5\xf2\xee\xe2">0</span>
+		</p>
+				<p style="padding-top: 2px" class="med" title="\xd2\xee\xf0\xf0\xe5\xed\xf2 \xf1\xea\xe0\xf7\xe0\xed">
+			<b>167</b>
+		</p>
+			</td>
+
+	<td class="vf-col-last-post tCenter small nowrap" style="padding: 3px 6px 2px;">
+		<p>2018-02-07 12:53</p>
+		<p style="padding-top: 2px">
+			<a href="profile.php?mode=viewprofile&amp;u=15596747" rel="nofollow">KIV001</a>			<a href="viewtopic.php?p=74752362#74752362" rel="nofollow"><img src="//static.t-ru.org/templates/v1/images/icon_latest_reply.gif" class="icon2" alt="&raquo;"></a>
+		</p>
+	</td>
+</tr>
+<tr id="tr-4890264" class="hl-tr" data-topic_id="4890264">
+	<td id="4890264" class="vf-col-icon vf-topic-icon-cell">
+		<img class="topic_icon" src="//static.t-ru.org/templates/v1/images/folder_dl.gif" alt="">
+			</td>
+
+	<td class="vf-col-t-title tt" style="padding: 3px 5px 3px 3px;">
+		<div class="torTopic">
+			<span class="tor-icon tor-approved">&radic;</span>&#0183;												 <a id="tt-4890264" href="viewtopic.php?t=4890264" class="torTopic bold tt-text">Chevy Stevens / \xd7\xe5\xe2\xe8 \xd1\xf2\xe8\xe2\xe5\xed\xf1 - \xd1\xee\xe1\xf0\xe0\xed\xe8\xe5 \xea\xed\xe8\xe3 (7 \xf8\xf2.) [2010 - 2017, EPUB, ENG]</a>
+					</div>
+		<div class="topicAuthor" style="padding-top: 2px;">
+						<a href="profile.php?mode=viewprofile&amp;u=15596747" rel="nofollow" class="topicAuthor">KIV001</a>
+								</div>
+	</td>
+
+	<td class="vf-col-tor tCenter med nowrap" style="padding: 2px 4px;">
+				<div>
+			<div>
+				<span class="seedmed" title="Seeders"><b>2</b></span><span class="med"> | </span><span class="leechmed" title="Leechers"><b>0</b></span>
+			</div>
+			<div style="padding-top: 2px" class="small">
+				<a href="dl.php?t=4890264" rel="nofollow" class="small f-dl dl-stub" style="text-decoration: none">4.2&nbsp;MB</a>			</div>
+		</div>
+			</td>
+
+	<td class="vf-col-replies tCenter small nowrap" style="padding: 3px 4px 2px;">
+		<p>
+			<span title="\xce\xf2\xe2\xe5\xf2\xee\xe2">1</span>
+		</p>
+				<p style="padding-top: 2px" class="med" title="\xd2\xee\xf0\xf0\xe5\xed\xf2 \xf1\xea\xe0\xf7\xe0\xed">
+			<b>59</b>
+		</p>
+			</td>
+
+	<td class="vf-col-last-post tCenter small nowrap" style="padding: 3px 6px 2px;">
+		<p>2017-12-21 16:25</p>
+		<p style="padding-top: 2px">
+			<a href="profile.php?mode=viewprofile&amp;u=15596747" rel="nofollow">KIV001</a>			<a href="viewtopic.php?p=74458835#74458835" rel="nofollow"><img src="//static.t-ru.org/templates/v1/images/icon_latest_reply.gif" class="icon2" alt="&raquo;"></a>
+		</p>
+	</td>
+</tr>
+<tr id="tr-3040679" class="hl-tr" data-topic_id="3040679">
+	<td id="3040679" class="vf-col-icon vf-topic-icon-cell">
+		<img class="topic_icon" src="//static.t-ru.org/templates/v1/images/folder_dl.gif" alt="">
+			</td>
+
+	<td class="vf-col-t-title tt" style="padding: 3px 5px 3px 3px;">
+		<div class="torTopic">
+			<span class="tor-icon tor-approved">&radic;</span>&#0183;												 <a id="tt-3040679" href="viewtopic.php?t=3040679" class="torTopic bold tt-text">[\xe0\xed\xe3\xeb\xe8\xe9\xf1\xea\xe8\xe9] Joseph Conrad-colle<wbr>cted stories / \xc4\xe6\xee\xe7\xe5\xf4 \xca\xee\xed\xf0\xe0\xe4 - \xf1\xe1\xee\xf0\xed\xe8\xea [1897-1907 DOC]</a>
+					</div>
+		<div class="topicAuthor" style="padding-top: 2px;">
+						<a href="profile.php?mode=viewprofile&amp;u=17072786" rel="nofollow" class="topicAuthor">mara_iz</a>
+								</div>
+	</td>
+
+	<td class="vf-col-tor tCenter med nowrap" style="padding: 2px 4px;">
+				<div>
+			<div>
+				<span class="seedmed" title="Seeders"><b>2</b></span><span class="med"> | </span><span class="leechmed" title="Leechers"><b>0</b></span>
+			</div>
+			<div style="padding-top: 2px" class="small">
+				<a href="dl.php?t=3040679" rel="nofollow" class="small f-dl dl-stub" style="text-decoration: none">4.8&nbsp;MB</a>			</div>
+		</div>
+			</td>
+
+	<td class="vf-col-replies tCenter small nowrap" style="padding: 3px 4px 2px;">
+		<p>
+			<span title="\xce\xf2\xe2\xe5\xf2\xee\xe2">1</span>
+		</p>
+				<p style="padding-top: 2px" class="med" title="\xd2\xee\xf0\xf0\xe5\xed\xf2 \xf1\xea\xe0\xf7\xe0\xed">
+			<b>938</b>
+		</p>
+			</td>
+
+	<td class="vf-col-last-post tCenter small nowrap" style="padding: 3px 6px 2px;">
+		<p>2010-07-26 01:10</p>
+		<p style="padding-top: 2px">
+			<a href="profile.php?mode=viewprofile&amp;u=1051264" rel="nofollow">pickap</a>			<a href="viewtopic.php?p=36881806#36881806" rel="nofollow"><img src="//static.t-ru.org/templates/v1/images/icon_latest_reply.gif" class="icon2" alt="&raquo;"></a>
+		</p>
+	</td>
+</tr>
+<tr id="tr-1978877" class="hl-tr" data-topic_id="1978877">
+	<td id="1978877" class="vf-col-icon vf-topic-icon-cell">
+		<img class="topic_icon" src="//static.t-ru.org/templates/v1/images/folder_dl.gif" alt="">
+			</td>
+
+	<td class="vf-col-t-title tt" style="padding: 3px 5px 3px 3px;">
+		<div class="torTopic">
+			<span class="tor-icon tor-approved">&radic;</span>&#0183;												 <a id="tt-1978877" href="viewtopic.php?t=1978877" class="torTopic bold tt-text">[\xe0\xed\xe3\xeb\xe8\xe9\xf1\xea\xe8\xe9] Joseph Conrad / \xc4\xe6\xee\xe7\xe5\xf4 \xca\xee\xed\xf0\xe0\xe4 - \xd1\xee\xe1\xf0\xe0\xed\xe8\xe5 \xea\xed\xe8\xe3 [18 \xf8\xf2., PDF]</a>
+					</div>
+		<div class="topicAuthor" style="padding-top: 2px;">
+						<a href="profile.php?mode=viewprofile&amp;u=4307860" rel="nofollow" class="topicAuthor">Armoreska</a>
+								</div>
+	</td>
+
+	<td class="vf-col-tor tCenter med nowrap" style="padding: 2px 4px;">
+				<div>
+			<div>
+				<span class="seedmed" title="Seeders"><b>7</b></span><span class="med"> | </span><span class="leechmed" title="Leechers"><b>0</b></span>
+			</div>
+			<div style="padding-top: 2px" class="small">
+				<a href="dl.php?t=1978877" rel="nofollow" class="small f-dl dl-stub" style="text-decoration: none">8.2&nbsp;MB</a>			</div>
+		</div>
+			</td>
+
+	<td class="vf-col-replies tCenter small nowrap" style="padding: 3px 4px 2px;">
+		<p>
+			<span title="\xce\xf2\xe2\xe5\xf2\xee\xe2">0</span>
+		</p>
+				<p style="padding-top: 2px" class="med" title="\xd2\xee\xf0\xf0\xe5\xed\xf2 \xf1\xea\xe0\xf7\xe0\xed">
+			<b>1,346</b>
+		</p>
+			</td>
+
+	<td class="vf-col-last-post tCenter small nowrap" style="padding: 3px 6px 2px;">
+		<p>2009-07-01 22:17</p>
+		<p style="padding-top: 2px">
+			<a href="profile.php?mode=viewprofile&amp;u=4307860" rel="nofollow">Armoreska</a>			<a href="viewtopic.php?p=23413135#23413135" rel="nofollow"><img src="//static.t-ru.org/templates/v1/images/icon_latest_reply.gif" class="icon2" alt="&raquo;"></a>
+		</p>
+	</td>
+</tr>
+<tr id="tr-4226282" class="hl-tr" data-topic_id="4226282">
+	<td id="4226282" class="vf-col-icon vf-topic-icon-cell">
+		<img class="topic_icon" src="//static.t-ru.org/templates/v1/images/folder_dl.gif" alt="">
+			</td>
+
+	<td class="vf-col-t-title tt" style="padding: 3px 5px 3px 3px;">
+		<div class="torTopic">
+			<span class="tor-icon tor-approved">&radic;</span>&#0183;												 <a id="tt-4226282" href="viewtopic.php?t=4226282" class="torTopic bold tt-text">Ethan Cross / \xdd\xf2\xe0\xed \xca\xf0\xee\xf1\xf1 - \xd1\xee\xe1\xf0\xe0\xed\xe8\xe5 \xea\xed\xe8\xe3 [5 \xf8\xf2.] [2011 - 2015, EPUB, ENG]</a>
+					</div>
+		<div class="topicAuthor" style="padding-top: 2px;">
+						<a href="profile.php?mode=viewprofile&amp;u=15596747" rel="nofollow" class="topicAuthor">KIV001</a>
+								</div>
+	</td>
+
+	<td class="vf-col-tor tCenter med nowrap" style="padding: 2px 4px;">
+				<div>
+			<div>
+				<span class="seedmed" title="Seeders"><b>4</b></span><span class="med"> | </span><span class="leechmed" title="Leechers"><b>0</b></span>
+			</div>
+			<div style="padding-top: 2px" class="small">
+				<a href="dl.php?t=4226282" rel="nofollow" class="small f-dl dl-stub" style="text-decoration: none">4.2&nbsp;MB</a>			</div>
+		</div>
+			</td>
+
+	<td class="vf-col-replies tCenter small nowrap" style="padding: 3px 4px 2px;">
+		<p>
+			<span title="\xce\xf2\xe2\xe5\xf2\xee\xe2">3</span>
+		</p>
+				<p style="padding-top: 2px" class="med" title="\xd2\xee\xf0\xf0\xe5\xed\xf2 \xf1\xea\xe0\xf7\xe0\xed">
+			<b>51</b>
+		</p>
+			</td>
+
+	<td class="vf-col-last-post tCenter small nowrap" style="padding: 3px 6px 2px;">
+		<p>2017-12-21 18:37</p>
+		<p style="padding-top: 2px">
+			<a href="profile.php?mode=viewprofile&amp;u=15596747" rel="nofollow">KIV001</a>			<a href="viewtopic.php?p=74459571#74459571" rel="nofollow"><img src="//static.t-ru.org/templates/v1/images/icon_latest_reply.gif" class="icon2" alt="&raquo;"></a>
+		</p>
+	</td>
+</tr>
+<tr id="tr-4561462" class="hl-tr" data-topic_id="4561462">
+	<td id="4561462" class="vf-col-icon vf-topic-icon-cell">
+		<img class="topic_icon" src="//static.t-ru.org/templates/v1/images/folder_dl.gif" alt="">
+			</td>
+
+	<td class="vf-col-t-title tt" style="padding: 3px 5px 3px 3px;">
+		<div class="torTopic">
+			<span class="tor-icon tor-approved">&radic;</span>&#0183;												 <a id="tt-4561462" href="viewtopic.php?t=4561462" class="torTopic bold tt-text">Jodi Lynn Picoult / \xc4\xe6\xee\xe4\xe8 \xcb\xe8\xed\xed \xcf\xe8\xea\xee\xeb\xf2 - \xd1\xee\xe1\xf0\xe0\xed\xe8\xe5 \xea\xed\xe8\xe3 [29 \xf8\xf2.] [1992 - 2017, EPUB, ENG]</a>
+					</div>
+		<div class="topicAuthor" style="padding-top: 2px;">
+						<a href="profile.php?mode=viewprofile&amp;u=15596747" rel="nofollow" class="topicAuthor">KIV001</a>
+								</div>
+	</td>
+
+	<td class="vf-col-tor tCenter med nowrap" style="padding: 2px 4px;">
+				<div>
+			<div>
+				<span class="seedmed" title="Seeders"><b>2</b></span><span class="med"> | </span><span class="leechmed" title="Leechers"><b>1</b></span>
+			</div>
+			<div style="padding-top: 2px" class="small">
+				<a href="dl.php?t=4561462" rel="nofollow" class="small f-dl dl-stub" style="text-decoration: none">51&nbsp;MB</a>			</div>
+		</div>
+			</td>
+
+	<td class="vf-col-replies tCenter small nowrap" style="padding: 3px 4px 2px;">
+		<p>
+			<span title="\xce\xf2\xe2\xe5\xf2\xee\xe2">19</span>
+		</p>
+				<p style="padding-top: 2px" class="med" title="\xd2\xee\xf0\xf0\xe5\xed\xf2 \xf1\xea\xe0\xf7\xe0\xed">
+			<b>134</b>
+		</p>
+			</td>
+
+	<td class="vf-col-last-post tCenter small nowrap" style="padding: 3px 6px 2px;">
+		<p>2017-12-23 14:56</p>
+		<p style="padding-top: 2px">
+			<a href="profile.php?mode=viewprofile&amp;u=15596747" rel="nofollow">KIV001</a>			<a href="viewtopic.php?p=74469427#74469427" rel="nofollow"><img src="//static.t-ru.org/templates/v1/images/icon_latest_reply.gif" class="icon2" alt="&raquo;"></a>
+		</p>
+	</td>
+</tr>
+<tr id="tr-4260784" class="hl-tr" data-topic_id="4260784">
+	<td id="4260784" class="vf-col-icon vf-topic-icon-cell">
+		<img class="topic_icon" src="//static.t-ru.org/templates/v1/images/folder_dl.gif" alt="">
+			</td>
+
+	<td class="vf-col-t-title tt" style="padding: 3px 5px 3px 3px;">
+		<div class="torTopic">
+			<span class="tor-icon tor-approved">&radic;</span>&#0183;												 <a id="tt-4260784" href="viewtopic.php?t=4260784" class="torTopic bold tt-text">Jennifer Hillier / \xc4\xe6\xe5\xed\xed\xe8\xf4\xe5\xf0 \xd5\xe8\xeb\xeb\xe5\xf0 - \xd1\xee\xe1\xf0\xe0\xed\xe8\xe5 \xea\xed\xe8\xe3 [4 \xf8\xf2.] [2011 - 2015, EPUB, ENG]</a>
+					</div>
+		<div class="topicAuthor" style="padding-top: 2px;">
+						<a href="profile.php?mode=viewprofile&amp;u=15596747" rel="nofollow" class="topicAuthor">KIV001</a>
+								</div>
+	</td>
+
+	<td class="vf-col-tor tCenter med nowrap" style="padding: 2px 4px;">
+				<div>
+			<div>
+				<span class="seedmed" title="Seeders"><b>4</b></span><span class="med"> | </span><span class="leechmed" title="Leechers"><b>0</b></span>
+			</div>
+			<div style="padding-top: 2px" class="small">
+				<a href="dl.php?t=4260784" rel="nofollow" class="small f-dl dl-stub" style="text-decoration: none">4.5&nbsp;MB</a>			</div>
+		</div>
+			</td>
+
+	<td class="vf-col-replies tCenter small nowrap" style="padding: 3px 4px 2px;">
+		<p>
+			<span title="\xce\xf2\xe2\xe5\xf2\xee\xe2">2</span>
+		</p>
+				<p style="padding-top: 2px" class="med" title="\xd2\xee\xf0\xf0\xe5\xed\xf2 \xf1\xea\xe0\xf7\xe0\xed">
+			<b>45</b>
+		</p>
+			</td>
+
+	<td class="vf-col-last-post tCenter small nowrap" style="padding: 3px 6px 2px;">
+		<p>2017-12-24 13:28</p>
+		<p style="padding-top: 2px">
+			<a href="profile.php?mode=viewprofile&amp;u=15596747" rel="nofollow">KIV001</a>			<a href="viewtopic.php?p=74475349#74475349" rel="nofollow"><img src="//static.t-ru.org/templates/v1/images/icon_latest_reply.gif" class="icon2" alt="&raquo;"></a>
+		</p>
+	</td>
+</tr>
+<tr id="tr-4326516" class="hl-tr" data-topic_id="4326516">
+	<td id="4326516" class="vf-col-icon vf-topic-icon-cell">
+		<img class="topic_icon" src="//static.t-ru.org/templates/v1/images/folder_dl.gif" alt="">
+			</td>
+
+	<td class="vf-col-t-title tt" style="padding: 3px 5px 3px 3px;">
+		<div class="torTopic">
+			<span class="tor-icon tor-approved">&radic;</span>&#0183;												 <a id="tt-4326516" href="viewtopic.php?t=4326516" class="torTopic bold tt-text">Jim Kelly / \xc4\xe6\xe8\xec \xca\xe5\xeb\xeb\xe8 - \xd1\xee\xe1\xf0\xe0\xed\xe8\xe5 \xea\xed\xe8\xe3 [14 \xf8\xf2.] [2003 - 2016, EPUB, ENG]</a>
+					</div>
+		<div class="topicAuthor" style="padding-top: 2px;">
+						<a href="profile.php?mode=viewprofile&amp;u=15596747" rel="nofollow" class="topicAuthor">KIV001</a>
+								</div>
+	</td>
+
+	<td class="vf-col-tor tCenter med nowrap" style="padding: 2px 4px;">
+				<div>
+			<div>
+				<span class="seedmed" title="Seeders"><b>3</b></span><span class="med"> | </span><span class="leechmed" title="Leechers"><b>0</b></span>
+			</div>
+			<div style="padding-top: 2px" class="small">
+				<a href="dl.php?t=4326516" rel="nofollow" class="small f-dl dl-stub" style="text-decoration: none">14.6&nbsp;MB</a>			</div>
+		</div>
+			</td>
+
+	<td class="vf-col-replies tCenter small nowrap" style="padding: 3px 4px 2px;">
+		<p>
+			<span title="\xce\xf2\xe2\xe5\xf2\xee\xe2">2</span>
+		</p>
+				<p style="padding-top: 2px" class="med" title="\xd2\xee\xf0\xf0\xe5\xed\xf2 \xf1\xea\xe0\xf7\xe0\xed">
+			<b>52</b>
+		</p>
+			</td>
+
+	<td class="vf-col-last-post tCenter small nowrap" style="padding: 3px 6px 2px;">
+		<p>2017-12-26 10:52</p>
+		<p style="padding-top: 2px">
+			<a href="profile.php?mode=viewprofile&amp;u=15596747" rel="nofollow">KIV001</a>			<a href="viewtopic.php?p=74486688#74486688" rel="nofollow"><img src="//static.t-ru.org/templates/v1/images/icon_latest_reply.gif" class="icon2" alt="&raquo;"></a>
+		</p>
+	</td>
+</tr>
+<tr id="tr-4378204" class="hl-tr" data-topic_id="4378204">
+	<td id="4378204" class="vf-col-icon vf-topic-icon-cell">
+		<img class="topic_icon" src="//static.t-ru.org/templates/v1/images/folder_dl.gif" alt="">
+			</td>
+
+	<td class="vf-col-t-title tt" style="padding: 3px 5px 3px 3px;">
+		<div class="torTopic">
+			<span class="tor-icon tor-approved">&radic;</span>&#0183;												 <a id="tt-4378204" href="viewtopic.php?t=4378204" class="torTopic bold tt-text">James Hayman / \xc4\xe6\xe5\xe9\xec\xf1 \xd5\xe5\xe9\xec\xe0\xed - \xd1\xee\xe1\xf0\xe0\xed\xe8\xe5 \xea\xed\xe8\xe3 [5 \xf8\xf2.] [2009 - 2017, EPUB, ENG]</a>
+					</div>
+		<div class="topicAuthor" style="padding-top: 2px;">
+						<a href="profile.php?mode=viewprofile&amp;u=15596747" rel="nofollow" class="topicAuthor">KIV001</a>
+								</div>
+	</td>
+
+	<td class="vf-col-tor tCenter med nowrap" style="padding: 2px 4px;">
+				<div>
+			<div>
+				<span class="seedmed" title="Seeders"><b>3</b></span><span class="med"> | </span><span class="leechmed" title="Leechers"><b>0</b></span>
+			</div>
+			<div style="padding-top: 2px" class="small">
+				<a href="dl.php?t=4378204" rel="nofollow" class="small f-dl dl-stub" style="text-decoration: none">3.3&nbsp;MB</a>			</div>
+		</div>
+			</td>
+
+	<td class="vf-col-replies tCenter small nowrap" style="padding: 3px 4px 2px;">
+		<p>
+			<span title="\xce\xf2\xe2\xe5\xf2\xee\xe2">2</span>
+		</p>
+				<p style="padding-top: 2px" class="med" title="\xd2\xee\xf0\xf0\xe5\xed\xf2 \xf1\xea\xe0\xf7\xe0\xed">
+			<b>53</b>
+		</p>
+			</td>
+
+	<td class="vf-col-last-post tCenter small nowrap" style="padding: 3px 6px 2px;">
+		<p>2017-12-26 18:46</p>
+		<p style="padding-top: 2px">
+			<a href="profile.php?mode=viewprofile&amp;u=15596747" rel="nofollow">KIV001</a>			<a href="viewtopic.php?p=74488854#74488854" rel="nofollow"><img src="//static.t-ru.org/templates/v1/images/icon_latest_reply.gif" class="icon2" alt="&raquo;"></a>
+		</p>
+	</td>
+</tr>
+<tr id="tr-4262657" class="hl-tr" data-topic_id="4262657">
+	<td id="4262657" class="vf-col-icon vf-topic-icon-cell">
+		<img class="topic_icon" src="//static.t-ru.org/templates/v1/images/folder_dl.gif" alt="">
+			</td>
+
+	<td class="vf-col-t-title tt" style="padding: 3px 5px 3px 3px;">
+		<div class="torTopic">
+			<span class="tor-icon tor-approved">&radic;</span>&#0183;												 <a id="tt-4262657" href="viewtopic.php?t=4262657" class="torTopic bold tt-text">Jennifer Probst / \xc4\xe6\xe5\xed\xed\xe8\xf4\xe5\xf0 \xcf\xf0\xee\xe1\xf1\xf2 - \xd1\xee\xe1\xf0\xe0\xed\xe8\xe5 \xea\xed\xe8\xe3 [31 \xf8\xf2.] [2004 - 2017, EPUB, ENG]</a>
+					</div>
+		<div class="topicAuthor" style="padding-top: 2px;">
+						<a href="profile.php?mode=viewprofile&amp;u=15596747" rel="nofollow" class="topicAuthor">KIV001</a>
+								</div>
+	</td>
+
+	<td class="vf-col-tor tCenter med nowrap" style="padding: 2px 4px;">
+				<div>
+			<div>
+				<span class="seedmed" title="Seeders"><b>4</b></span><span class="med"> | </span><span class="leechmed" title="Leechers"><b>0</b></span>
+			</div>
+			<div style="padding-top: 2px" class="small">
+				<a href="dl.php?t=4262657" rel="nofollow" class="small f-dl dl-stub" style="text-decoration: none">16.9&nbsp;MB</a>			</div>
+		</div>
+			</td>
+
+	<td class="vf-col-replies tCenter small nowrap" style="padding: 3px 4px 2px;">
+		<p>
+			<span title="\xce\xf2\xe2\xe5\xf2\xee\xe2">2</span>
+		</p>
+				<p style="padding-top: 2px" class="med" title="\xd2\xee\xf0\xf0\xe5\xed\xf2 \xf1\xea\xe0\xf7\xe0\xed">
+			<b>45</b>
+		</p>
+			</td>
+
+	<td class="vf-col-last-post tCenter small nowrap" style="padding: 3px 6px 2px;">
+		<p>2017-11-14 17:30</p>
+		<p style="padding-top: 2px">
+			<a href="profile.php?mode=viewprofile&amp;u=15596747" rel="nofollow">KIV001</a>			<a href="viewtopic.php?p=74232653#74232653" rel="nofollow"><img src="//static.t-ru.org/templates/v1/images/icon_latest_reply.gif" class="icon2" alt="&raquo;"></a>
+		</p>
+	</td>
+</tr>
+<tr id="tr-4338499" class="hl-tr" data-topic_id="4338499">
+	<td id="4338499" class="vf-col-icon vf-topic-icon-cell">
+		<img class="topic_icon" src="//static.t-ru.org/templates/v1/images/folder_dl.gif" alt="">
+			</td>
+
+	<td class="vf-col-t-title tt" style="padding: 3px 5px 3px 3px;">
+		<div class="torTopic">
+			<span class="tor-icon tor-approved">&radic;</span>&#0183;												 <a id="tt-4338499" href="viewtopic.php?t=4338499" class="torTopic bold tt-text">[\xe0\xed\xe3\xeb\xe8\xe9\xf1\xea\xe8\xe9] John Lescroart / \xc4\xe6\xee\xed \xcb\xe5\xf1\xea\xf0\xee\xe0\xf0\xf2 - \xd1\xee\xe1\xf0\xe0\xed\xe8\xe5 \xea\xed\xe8\xe3 [29 \xf8\xf2.] [1986 - 2017, FB2/EPUB, ENG]</a>
+					</div>
+		<div class="topicAuthor" style="padding-top: 2px;">
+						<a href="profile.php?mode=viewprofile&amp;u=15596747" rel="nofollow" class="topicAuthor">KIV001</a>
+								</div>
+	</td>
+
+	<td class="vf-col-tor tCenter med nowrap" style="padding: 2px 4px;">
+				<div>
+			<div>
+				<span class="seedmed" title="Seeders"><b>4</b></span><span class="med"> | </span><span class="leechmed" title="Leechers"><b>0</b></span>
+			</div>
+			<div style="padding-top: 2px" class="small">
+				<a href="dl.php?t=4338499" rel="nofollow" class="small f-dl dl-stub" style="text-decoration: none">21.8&nbsp;MB</a>			</div>
+		</div>
+			</td>
+
+	<td class="vf-col-replies tCenter small nowrap" style="padding: 3px 4px 2px;">
+		<p>
+			<span title="\xce\xf2\xe2\xe5\xf2\xee\xe2">4</span>
+		</p>
+				<p style="padding-top: 2px" class="med" title="\xd2\xee\xf0\xf0\xe5\xed\xf2 \xf1\xea\xe0\xf7\xe0\xed">
+			<b>66</b>
+		</p>
+			</td>
+
+	<td class="vf-col-last-post tCenter small nowrap" style="padding: 3px 6px 2px;">
+		<p>2018-01-08 15:19</p>
+		<p style="padding-top: 2px">
+			<a href="profile.php?mode=viewprofile&amp;u=15596747" rel="nofollow">KIV001</a>			<a href="viewtopic.php?p=74565913#74565913" rel="nofollow"><img src="//static.t-ru.org/templates/v1/images/icon_latest_reply.gif" class="icon2" alt="&raquo;"></a>
+		</p>
+	</td>
+</tr>
+<tr id="tr-5504323" class="hl-tr" data-topic_id="5504323">
+	<td id="5504323" class="vf-col-icon vf-topic-icon-cell">
+		<img class="topic_icon" src="//static.t-ru.org/templates/v1/images/folder_dl.gif" alt="">
+			</td>
+
+	<td class="vf-col-t-title tt" style="padding: 3px 5px 3px 3px;">
+		<div class="torTopic">
+			<span class="tor-icon tor-approved">&radic;</span>&#0183;												 <a id="tt-5504323" href="viewtopic.php?t=5504323" class="torTopic bold tt-text">[\xe0\xed\xe3\xeb\xe8\xe9\xf1\xea\xe8\xe9] Patrick Ness / \xcf\xe0\xf2\xf0\xe8\xea \xcd\xe5\xf1\xf1 - \xd1\xee\xe1\xf0\xe0\xed\xe8\xe5 \xf1\xee\xf7\xe8\xed\xe5\xed\xe8\xe9 (13 \xea\xed\xe8\xe3) [2003 - 2017, EPUB, ENG]</a>
+					</div>
+		<div class="topicAuthor" style="padding-top: 2px;">
+						<a href="profile.php?mode=viewprofile&amp;u=24632626" rel="nofollow" class="topicAuthor">maybenot13</a>
+								</div>
+	</td>
+
+	<td class="vf-col-tor tCenter med nowrap" style="padding: 2px 4px;">
+				<div>
+			<div>
+				<span class="seedmed" title="Seeders"><b>3</b></span><span class="med"> | </span><span class="leechmed" title="Leechers"><b>0</b></span>
+			</div>
+			<div style="padding-top: 2px" class="small">
+				<a href="dl.php?t=5504323" rel="nofollow" class="small f-dl dl-stub" style="text-decoration: none">18.9&nbsp;MB</a>			</div>
+		</div>
+			</td>
+
+	<td class="vf-col-replies tCenter small nowrap" style="padding: 3px 4px 2px;">
+		<p>
+			<span title="\xce\xf2\xe2\xe5\xf2\xee\xe2">0</span>
+		</p>
+				<p style="padding-top: 2px" class="med" title="\xd2\xee\xf0\xf0\xe5\xed\xf2 \xf1\xea\xe0\xf7\xe0\xed">
+			<b>109</b>
+		</p>
+			</td>
+
+	<td class="vf-col-last-post tCenter small nowrap" style="padding: 3px 6px 2px;">
+		<p>2018-01-08 16:57</p>
+		<p style="padding-top: 2px">
+			<a href="profile.php?mode=viewprofile&amp;u=24632626" rel="nofollow">maybenot13</a>			<a href="viewtopic.php?p=74566483#74566483" rel="nofollow"><img src="//static.t-ru.org/templates/v1/images/icon_latest_reply.gif" class="icon2" alt="&raquo;"></a>
+		</p>
+	</td>
+</tr>
+<tr id="tr-3932769" class="hl-tr" data-topic_id="3932769">
+	<td id="3932769" class="vf-col-icon vf-topic-icon-cell">
+		<img class="topic_icon" src="//static.t-ru.org/templates/v1/images/folder_dl.gif" alt="">
+			</td>
+
+	<td class="vf-col-t-title tt" style="padding: 3px 5px 3px 3px;">
+		<div class="torTopic">
+			<span class="tor-icon tor-approved">&radic;</span>&#0183;												 <a id="tt-3932769" href="viewtopic.php?t=3932769" class="torTopic bold tt-text">Ernest Cline/ \xdd\xf0\xed\xe5\xf1\xf2 \xca\xeb\xe0\xe9\xed - Ready Player One / \xdd\xf0\xed\xe5\xf1\xf2 \xca\xeb\xe0\xe9\xed - \xcf\xe5\xf0\xe2\xee\xec\xf3 \xe8\xe3\xf0\xee\xea\xf3 \xef\xf0\xe8\xe3\xee\xf2\xee\xe2\xe8\xf2\xfc\xf1<wbr>\xff [2011, PDF, ENG]</a>
+					</div>
+		<div class="topicAuthor" style="padding-top: 2px;">
+						<a href="profile.php?mode=viewprofile&amp;u=19655807" rel="nofollow" class="topicAuthor">Nareh</a>
+								</div>
+	</td>
+
+	<td class="vf-col-tor tCenter med nowrap" style="padding: 2px 4px;">
+				<div>
+			<div>
+				<span class="seedmed" title="Seeders"><b>20</b></span><span class="med"> | </span><span class="leechmed" title="Leechers"><b>3</b></span>
+			</div>
+			<div style="padding-top: 2px" class="small">
+				<a href="dl.php?t=3932769" rel="nofollow" class="small f-dl dl-stub" style="text-decoration: none">2.3&nbsp;MB</a>			</div>
+		</div>
+			</td>
+
+	<td class="vf-col-replies tCenter small nowrap" style="padding: 3px 4px 2px;">
+		<p>
+			<span title="\xce\xf2\xe2\xe5\xf2\xee\xe2">21</span>
+		</p>
+				<p style="padding-top: 2px" class="med" title="\xd2\xee\xf0\xf0\xe5\xed\xf2 \xf1\xea\xe0\xf7\xe0\xed">
+			<b>1,983</b>
+		</p>
+			</td>
+
+	<td class="vf-col-last-post tCenter small nowrap" style="padding: 3px 6px 2px;">
+		<p>2018-05-15 21:42</p>
+		<p style="padding-top: 2px">
+			<a href="profile.php?mode=viewprofile&amp;u=1845360" rel="nofollow">singlerodger</a>			<a href="viewtopic.php?p=75358427#75358427" rel="nofollow"><img src="//static.t-ru.org/templates/v1/images/icon_latest_reply.gif" class="icon2" alt="&raquo;"></a>
+		</p>
+	</td>
+</tr>
+<tr id="tr-4355008" class="hl-tr" data-topic_id="4355008">
+	<td id="4355008" class="vf-col-icon vf-topic-icon-cell">
+		<img class="topic_icon" src="//static.t-ru.org/templates/v1/images/folder_dl.gif" alt="">
+			</td>
+
+	<td class="vf-col-t-title tt" style="padding: 3px 5px 3px 3px;">
+		<div class="torTopic">
+			<span class="tor-icon tor-approved">&radic;</span>&#0183;												 <a id="tt-4355008" href="viewtopic.php?t=4355008" class="torTopic bold tt-text">Andrea Camilleri / \xc0\xed\xe4\xf0\xe5\xe0 \xca\xe0\xec\xe8\xeb\xeb\xe5\xf0\xe8 - \xd1\xee\xe1\xf0\xe0\xed\xe8\xe5 \xea\xed\xe8\xe3 [27 \xf8\xf2.] [2002 - 2018, EPUB, ENG]</a>
+					</div>
+		<div class="topicAuthor" style="padding-top: 2px;">
+						<a href="profile.php?mode=viewprofile&amp;u=15596747" rel="nofollow" class="topicAuthor">KIV001</a>
+								</div>
+	</td>
+
+	<td class="vf-col-tor tCenter med nowrap" style="padding: 2px 4px;">
+				<div>
+			<div>
+				<span class="seedmed" title="Seeders"><b>3</b></span><span class="med"> | </span><span class="leechmed" title="Leechers"><b>0</b></span>
+			</div>
+			<div style="padding-top: 2px" class="small">
+				<a href="dl.php?t=4355008" rel="nofollow" class="small f-dl dl-stub" style="text-decoration: none">17.2&nbsp;MB</a>			</div>
+		</div>
+			</td>
+
+	<td class="vf-col-replies tCenter small nowrap" style="padding: 3px 4px 2px;">
+		<p>
+			<span title="\xce\xf2\xe2\xe5\xf2\xee\xe2">6</span>
+		</p>
+				<p style="padding-top: 2px" class="med" title="\xd2\xee\xf0\xf0\xe5\xed\xf2 \xf1\xea\xe0\xf7\xe0\xed">
+			<b>72</b>
+		</p>
+			</td>
+
+	<td class="vf-col-last-post tCenter small nowrap" style="padding: 3px 6px 2px;">
+		<p>2018-01-09 15:00</p>
+		<p style="padding-top: 2px">
+			<a href="profile.php?mode=viewprofile&amp;u=15596747" rel="nofollow">KIV001</a>			<a href="viewtopic.php?p=74572024#74572024" rel="nofollow"><img src="//static.t-ru.org/templates/v1/images/icon_latest_reply.gif" class="icon2" alt="&raquo;"></a>
+		</p>
+	</td>
+</tr>
+<tr id="tr-4203533" class="hl-tr" data-topic_id="4203533">
+	<td id="4203533" class="vf-col-icon vf-topic-icon-cell">
+		<img class="topic_icon" src="//static.t-ru.org/templates/v1/images/folder_dl.gif" alt="">
+			</td>
+
+	<td class="vf-col-t-title tt" style="padding: 3px 5px 3px 3px;">
+		<div class="torTopic">
+			<span class="tor-icon tor-approved">&radic;</span>&#0183;												 <a id="tt-4203533" href="viewtopic.php?t=4203533" class="torTopic bold tt-text">Peter Robinson / \xcf\xe8\xf2\xe5\xf0 \xd0\xee\xe1\xe8\xed\xf1\xee\xed - \xd1\xee\xe1\xf0\xe0\xed\xe8\xe5 \xf1\xee\xf7\xe8\xed\xe5\xed\xe8\xe9 [34 \xea\xed\xe8\xe3\xe8] [1987 - 2017, EPUB, ENG]</a>
+					</div>
+		<div class="topicAuthor" style="padding-top: 2px;">
+						<a href="profile.php?mode=viewprofile&amp;u=15596747" rel="nofollow" class="topicAuthor">KIV001</a>
+								</div>
+	</td>
+
+	<td class="vf-col-tor tCenter med nowrap" style="padding: 2px 4px;">
+				<div>
+			<div>
+				<span class="seedmed" title="Seeders"><b>5</b></span><span class="med"> | </span><span class="leechmed" title="Leechers"><b>0</b></span>
+			</div>
+			<div style="padding-top: 2px" class="small">
+				<a href="dl.php?t=4203533" rel="nofollow" class="small f-dl dl-stub" style="text-decoration: none">15.1&nbsp;MB</a>			</div>
+		</div>
+			</td>
+
+	<td class="vf-col-replies tCenter small nowrap" style="padding: 3px 4px 2px;">
+		<p>
+			<span title="\xce\xf2\xe2\xe5\xf2\xee\xe2">6</span>
+		</p>
+				<p style="padding-top: 2px" class="med" title="\xd2\xee\xf0\xf0\xe5\xed\xf2 \xf1\xea\xe0\xf7\xe0\xed">
+			<b>78</b>
+		</p>
+			</td>
+
+	<td class="vf-col-last-post tCenter small nowrap" style="padding: 3px 6px 2px;">
+		<p>2018-01-11 13:26</p>
+		<p style="padding-top: 2px">
+			<a href="profile.php?mode=viewprofile&amp;u=15596747" rel="nofollow">KIV001</a>			<a href="viewtopic.php?p=74582981#74582981" rel="nofollow"><img src="//static.t-ru.org/templates/v1/images/icon_latest_reply.gif" class="icon2" alt="&raquo;"></a>
+		</p>
+	</td>
+</tr>
+<tr id="tr-5505857" class="hl-tr" data-topic_id="5505857">
+	<td id="5505857" class="vf-col-icon vf-topic-icon-cell">
+		<img class="topic_icon" src="//static.t-ru.org/templates/v1/images/folder_dl.gif" alt="">
+			</td>
+
+	<td class="vf-col-t-title tt" style="padding: 3px 5px 3px 3px;">
+		<div class="torTopic">
+			<span class="tor-icon tor-approved">&radic;</span>&#0183;												 <a id="tt-5505857" href="viewtopic.php?t=5505857" class="torTopic bold tt-text">Gyles Brandreth / \xc4\xe6\xe0\xe9\xeb\xe7 \xc1\xf0\xe0\xed\xe4\xf0\xe5\xf2 - The Oscar Wilde Murder Mysteries / \xc4\xe5\xf2\xe5\xea\xf2\xe8\xe2\xfb \xf1 \xce\xf1\xea\xe0\xf0\xee\xec \xd3\xe0\xe9\xeb\xfc\xe4\xee\xec [2007-2010, FB2, EPUB, ENG]</a>
+					</div>
+		<div class="topicAuthor" style="padding-top: 2px;">
+						<a href="profile.php?mode=viewprofile&amp;u=41220336" rel="nofollow" class="topicAuthor">Ejewikka</a>
+								</div>
+	</td>
+
+	<td class="vf-col-tor tCenter med nowrap" style="padding: 2px 4px;">
+				<div>
+			<div>
+				<span class="seedmed" title="Seeders"><b>1</b></span><span class="med"> | </span><span class="leechmed" title="Leechers"><b>0</b></span>
+			</div>
+			<div style="padding-top: 2px" class="small">
+				<a href="dl.php?t=5505857" rel="nofollow" class="small f-dl dl-stub" style="text-decoration: none">5.1&nbsp;MB</a>			</div>
+		</div>
+			</td>
+
+	<td class="vf-col-replies tCenter small nowrap" style="padding: 3px 4px 2px;">
+		<p>
+			<span title="\xce\xf2\xe2\xe5\xf2\xee\xe2">1</span>
+		</p>
+				<p style="padding-top: 2px" class="med" title="\xd2\xee\xf0\xf0\xe5\xed\xf2 \xf1\xea\xe0\xf7\xe0\xed">
+			<b>101</b>
+		</p>
+			</td>
+
+	<td class="vf-col-last-post tCenter small nowrap" style="padding: 3px 6px 2px;">
+		<p>2018-01-14 22:01</p>
+		<p style="padding-top: 2px">
+			<a href="profile.php?mode=viewprofile&amp;u=12108208" rel="nofollow">KOMANDIR1111</a>			<a href="viewtopic.php?p=74606161#74606161" rel="nofollow"><img src="//static.t-ru.org/templates/v1/images/icon_latest_reply.gif" class="icon2" alt="&raquo;"></a>
+		</p>
+	</td>
+</tr>
+<tr id="tr-4910381" class="hl-tr" data-topic_id="4910381">
+	<td id="4910381" class="vf-col-icon vf-topic-icon-cell">
+		<img class="topic_icon" src="//static.t-ru.org/templates/v1/images/folder_dl.gif" alt="">
+			</td>
+
+	<td class="vf-col-t-title tt" style="padding: 3px 5px 3px 3px;">
+		<div class="torTopic">
+			<span class="tor-icon tor-approved">&radic;</span>&#0183;												 <a id="tt-4910381" href="viewtopic.php?t=4910381" class="torTopic bold tt-text">Irving Wallace / \xc8\xf0\xe2\xe8\xed \xd3\xee\xeb\xeb\xe5\xf1 - \xd1\xee\xe1\xf0\xe0\xed\xe8\xe5 \xea\xed\xe8\xe3 [22 \xf8\xf2.] [1958 - 1989, EPUB, ENG]</a>
+					</div>
+		<div class="topicAuthor" style="padding-top: 2px;">
+						<a href="profile.php?mode=viewprofile&amp;u=15596747" rel="nofollow" class="topicAuthor">KIV001</a>
+								</div>
+	</td>
+
+	<td class="vf-col-tor tCenter med nowrap" style="padding: 2px 4px;">
+				<div>
+			<div>
+				<span class="seedmed" title="Seeders"><b>3</b></span><span class="med"> | </span><span class="leechmed" title="Leechers"><b>0</b></span>
+			</div>
+			<div style="padding-top: 2px" class="small">
+				<a href="dl.php?t=4910381" rel="nofollow" class="small f-dl dl-stub" style="text-decoration: none">12.9&nbsp;MB</a>			</div>
+		</div>
+			</td>
+
+	<td class="vf-col-replies tCenter small nowrap" style="padding: 3px 4px 2px;">
+		<p>
+			<span title="\xce\xf2\xe2\xe5\xf2\xee\xe2">4</span>
+		</p>
+				<p style="padding-top: 2px" class="med" title="\xd2\xee\xf0\xf0\xe5\xed\xf2 \xf1\xea\xe0\xf7\xe0\xed">
+			<b>74</b>
+		</p>
+			</td>
+
+	<td class="vf-col-last-post tCenter small nowrap" style="padding: 3px 6px 2px;">
+		<p>2018-01-14 21:42</p>
+		<p style="padding-top: 2px">
+			<a href="profile.php?mode=viewprofile&amp;u=15596747" rel="nofollow">KIV001</a>			<a href="viewtopic.php?p=74606051#74606051" rel="nofollow"><img src="//static.t-ru.org/templates/v1/images/icon_latest_reply.gif" class="icon2" alt="&raquo;"></a>
+		</p>
+	</td>
+</tr>
+<tr id="tr-5508195" class="hl-tr" data-topic_id="5508195">
+	<td id="5508195" class="vf-col-icon vf-topic-icon-cell">
+		<img class="topic_icon" src="//static.t-ru.org/templates/v1/images/folder_dl.gif" alt="">
+			</td>
+
+	<td class="vf-col-t-title tt" style="padding: 3px 5px 3px 3px;">
+		<div class="torTopic">
+			<span class="tor-icon tor-approved">&radic;</span>&#0183;												 <a id="tt-5508195" href="viewtopic.php?t=5508195" class="torTopic bold tt-text">Alan Furst / \xc0\xeb\xe0\xed Ը\xf0\xf1\xf2 - \xd1\xee\xe1\xf0\xe0\xed\xe8\xe5 \xea\xed\xe8\xe3 [15 \xf8\xf2.] [1976 - 2016, EPUB, ENG]</a>
+					</div>
+		<div class="topicAuthor" style="padding-top: 2px;">
+						<a href="profile.php?mode=viewprofile&amp;u=15596747" rel="nofollow" class="topicAuthor">KIV001</a>
+								</div>
+	</td>
+
+	<td class="vf-col-tor tCenter med nowrap" style="padding: 2px 4px;">
+				<div>
+			<div>
+				<span class="seedmed" title="Seeders"><b>4</b></span><span class="med"> | </span><span class="leechmed" title="Leechers"><b>0</b></span>
+			</div>
+			<div style="padding-top: 2px" class="small">
+				<a href="dl.php?t=5508195" rel="nofollow" class="small f-dl dl-stub" style="text-decoration: none">12.8&nbsp;MB</a>			</div>
+		</div>
+			</td>
+
+	<td class="vf-col-replies tCenter small nowrap" style="padding: 3px 4px 2px;">
+		<p>
+			<span title="\xce\xf2\xe2\xe5\xf2\xee\xe2">0</span>
+		</p>
+				<p style="padding-top: 2px" class="med" title="\xd2\xee\xf0\xf0\xe5\xed\xf2 \xf1\xea\xe0\xf7\xe0\xed">
+			<b>67</b>
+		</p>
+			</td>
+
+	<td class="vf-col-last-post tCenter small nowrap" style="padding: 3px 6px 2px;">
+		<p>2018-01-17 17:48</p>
+		<p style="padding-top: 2px">
+			<a href="profile.php?mode=viewprofile&amp;u=15596747" rel="nofollow">KIV001</a>			<a href="viewtopic.php?p=74622878#74622878" rel="nofollow"><img src="//static.t-ru.org/templates/v1/images/icon_latest_reply.gif" class="icon2" alt="&raquo;"></a>
+		</p>
+	</td>
+</tr>
+<tr id="tr-4489237" class="hl-tr" data-topic_id="4489237">
+	<td id="4489237" class="vf-col-icon vf-topic-icon-cell">
+		<img class="topic_icon" src="//static.t-ru.org/templates/v1/images/folder_dl.gif" alt="">
+			</td>
+
+	<td class="vf-col-t-title tt" style="padding: 3px 5px 3px 3px;">
+		<div class="torTopic">
+			<span class="tor-icon tor-approved">&radic;</span>&#0183;												 <a id="tt-4489237" href="viewtopic.php?t=4489237" class="torTopic bold tt-text">[\xe0\xed\xe3\xeb\xe8\xe9\xf1\xea\xe8\xe9] Brad Taylor / \xc1\xf0\xfd\xe4 \xd2\xfd\xe9\xeb\xee\xf0 - \xd1\xee\xe1\xf0\xe0\xed\xe8\xe5 \xea\xed\xe8\xe3 [19 \xf8\xf2.] [2011 - 2018, EPUB, ENG]</a>
+					</div>
+		<div class="topicAuthor" style="padding-top: 2px;">
+						<a href="profile.php?mode=viewprofile&amp;u=15596747" rel="nofollow" class="topicAuthor">KIV001</a>
+								</div>
+	</td>
+
+	<td class="vf-col-tor tCenter med nowrap" style="padding: 2px 4px;">
+				<div>
+			<div>
+				<span class="seedmed" title="Seeders"><b>4</b></span><span class="med"> | </span><span class="leechmed" title="Leechers"><b>0</b></span>
+			</div>
+			<div style="padding-top: 2px" class="small">
+				<a href="dl.php?t=4489237" rel="nofollow" class="small f-dl dl-stub" style="text-decoration: none">11.3&nbsp;MB</a>			</div>
+		</div>
+			</td>
+
+	<td class="vf-col-replies tCenter small nowrap" style="padding: 3px 4px 2px;">
+		<p>
+			<span title="\xce\xf2\xe2\xe5\xf2\xee\xe2">6</span>
+		</p>
+				<p style="padding-top: 2px" class="med" title="\xd2\xee\xf0\xf0\xe5\xed\xf2 \xf1\xea\xe0\xf7\xe0\xed">
+			<b>62</b>
+		</p>
+			</td>
+
+	<td class="vf-col-last-post tCenter small nowrap" style="padding: 3px 6px 2px;">
+		<p>2018-01-18 18:38</p>
+		<p style="padding-top: 2px">
+			<a href="profile.php?mode=viewprofile&amp;u=15596747" rel="nofollow">KIV001</a>			<a href="viewtopic.php?p=74629080#74629080" rel="nofollow"><img src="//static.t-ru.org/templates/v1/images/icon_latest_reply.gif" class="icon2" alt="&raquo;"></a>
+		</p>
+	</td>
+</tr>
+<tr id="tr-4453089" class="hl-tr" data-topic_id="4453089">
+	<td id="4453089" class="vf-col-icon vf-topic-icon-cell">
+		<img class="topic_icon" src="//static.t-ru.org/templates/v1/images/folder_dl.gif" alt="">
+			</td>
+
+	<td class="vf-col-t-title tt" style="padding: 3px 5px 3px 3px;">
+		<div class="torTopic">
+			<span class="tor-icon tor-approved">&radic;</span>&#0183;												 <a id="tt-4453089" href="viewtopic.php?t=4453089" class="torTopic bold tt-text">[\xe0\xed\xe3\xeb\xe8\xe9\xf1\xea\xe8\xe9] Mickey Spillane / \xcc\xe8\xea\xea\xe8 \xd1\xef\xe8\xeb\xeb\xe5\xe9\xed - \xd1\xee\xe1\xf0\xe0\xed\xe8\xe5 \xea\xed\xe8\xe3 [36 \xf8\xf2.] [1947 - 2017, EPUB, ENG]</a>
+					</div>
+		<div class="topicAuthor" style="padding-top: 2px;">
+						<a href="profile.php?mode=viewprofile&amp;u=15596747" rel="nofollow" class="topicAuthor">KIV001</a>
+								</div>
+	</td>
+
+	<td class="vf-col-tor tCenter med nowrap" style="padding: 2px 4px;">
+				<div>
+			<div>
+				<span class="seedmed" title="Seeders"><b>5</b></span><span class="med"> | </span><span class="leechmed" title="Leechers"><b>1</b></span>
+			</div>
+			<div style="padding-top: 2px" class="small">
+				<a href="dl.php?t=4453089" rel="nofollow" class="small f-dl dl-stub" style="text-decoration: none">21.6&nbsp;MB</a>			</div>
+		</div>
+			</td>
+
+	<td class="vf-col-replies tCenter small nowrap" style="padding: 3px 4px 2px;">
+		<p>
+			<span title="\xce\xf2\xe2\xe5\xf2\xee\xe2">3</span>
+		</p>
+				<p style="padding-top: 2px" class="med" title="\xd2\xee\xf0\xf0\xe5\xed\xf2 \xf1\xea\xe0\xf7\xe0\xed">
+			<b>143</b>
+		</p>
+			</td>
+
+	<td class="vf-col-last-post tCenter small nowrap" style="padding: 3px 6px 2px;">
+		<p>2018-03-05 10:59</p>
+		<p style="padding-top: 2px">
+			<a href="profile.php?mode=viewprofile&amp;u=8861441" rel="nofollow">SoulScars</a>			<a href="viewtopic.php?p=74919646#74919646" rel="nofollow"><img src="//static.t-ru.org/templates/v1/images/icon_latest_reply.gif" class="icon2" alt="&raquo;"></a>
+		</p>
+	</td>
+</tr>
+<tr>
+	<td colspan="5" class="catBottom med pad_4">
+				&nbsp;
+			</td>
+</tr>
+</table>
+
+
+<table class="w100 pad_2">
+<tr>
+	<td><a href="posting.php?f=2355&amp;mode=new_rel" rel="nofollow"><img src="//static.t-ru.org/templates/v1/images/post.gif" alt="\xcd\xee\xe2\xe0\xff \xf2\xe5\xec\xe0"></a></td>
+	<td class="nav w100">
+		&nbsp;<a href="index.php">\xc3\xeb\xe0\xe2\xed\xe0\xff</a>
+		<em>&raquo;</em>&nbsp;<a href="index.php?c=34" rel="nofollow">\xce\xe1\xf3\xf7\xe5\xed\xe8\xe5 \xe8\xed\xee\xf1\xf2\xf0\xe0\xed\xed\xfb\xec \xff\xe7\xfb\xea\xe0\xec</a>
+		<em>&raquo;</em>&nbsp;<a href="viewforum.php?f=2057">\xd5\xf3\xe4\xee\xe6\xe5\xf1\xf2\xe2\xe5\xed\xed\xe0\xff \xeb\xe8\xf2\xe5\xf0\xe0\xf2\xf3\xf0\xe0 (\xe8\xed.\xff\xe7\xfb\xea\xe8)</a>		<em>&raquo;</em>&nbsp;<a href="viewforum.php?f=2355">\xd5\xf3\xe4\xee\xe6\xe5\xf1\xf2\xe2\xe5\xed\xed\xe0\xff \xeb\xe8\xf2\xe5\xf0\xe0\xf2\xf3\xf0\xe0 \xed\xe0 \xe0\xed\xe3\xeb\xe8\xe9\xf1\xea\xee\xec \xff\xe7\xfb\xea\xe5</a>
+	</td>
+</tr>
+</table>
+
+<div class="bottom_info pad_2">
+
+		<div id="pagination" class="nav clearfix">
+		<p style="float: left">\xd1\xf2\xf0\xe0\xed\xe8\xf6\xe0 <b>1</b> \xe8\xe7 <b>35</b></p>
+		<p style="float: right"><span class="pg-jump-menu"><a class="menu-root" href="#pg-jump" onclick="BB.focus_pg_input();">\xd1\xf2\xf0\xe0\xed\xe8\xf6\xfb</a> :&nbsp;&nbsp;</span><b>1</b>, <a class="pg" href="viewforum.php?f=2355&amp;start=50">2</a>, <a class="pg" href="viewforum.php?f=2355&amp;start=100">3</a> ... <a class="pg" href="viewforum.php?f=2355&amp;start=1600">33</a>, <a class="pg" href="viewforum.php?f=2355&amp;start=1650">34</a>, <a class="pg" href="viewforum.php?f=2355&amp;start=1700">35</a>&nbsp;&nbsp;<a class="pg" href="viewforum.php?f=2355&amp;start=50">\xd1\xeb\xe5\xe4.</a></p>
+	</div>
+	
+	<div class="tRight">
+		<span id="jumpbox-wrap"></span>
+	</div>
+
+	</div><!--/bottom_info-->
+
+				</div><!--/main_content_wrap-->
+			</td><!--/main_content-->
+
+		</tr>
+		</table>
+	</div><!--/page_content-->
+
+	<!--page_footer-->
+	<div id="page_footer" class="hide-for-print">
+
+				<div style="padding: 12px;">
+			<div style="border: 1px solid #B7C0C5;">
+				<script>
+				$(function () {
+					function resizeFrame() {
+						var frame = this;
+						if (!('contentWindow' in frame)) {
+							return;
+						}
+						var frameHeight = frame.contentWindow.document.body.offsetHeight;
+						if (isNaN(frameHeight)) {
+							return;
+						}
+						var minHeight = $(frame).data('min_height') || 200;
+						if (frameHeight > minHeight) {
+							frame.style.height = frameHeight + 'px';
+						}
+					}
+
+					$('#bn-mg-bottom').on('load', function () {
+						setTimeout(resizeFrame.bind(this), 500);
+					});
+				});
+				</script>
+				<iframe id="bn-mg-bottom" src="/iframe/MG-bottom.html?rnd=215434934"
+					style="width: 100%; height: 250px;" data-min_height="200"
+					marginwidth="0" marginheight="0" scrolling="no" frameborder="0"></iframe>
+			</div>
+		</div>
+		
+		<div class="clear"></div>
+
+		<nav id="footer-info-links">
+			<div>
+				<a href="info.php?show=user_agreement" rel="nofollow">\xd3\xf1\xeb\xee\xe2\xe8\xff \xe8\xf1\xef\xee\xeb\xfc\xe7\xee\xe2\xe0\xed\xe8\xff</a>
+				&middot;
+				<a href="info.php?show=advert" rel="nofollow">\xd0\xe5\xea\xeb\xe0\xec\xe0 \xed\xe0 \xf1\xe0\xe9\xf2\xe5</a>
+				&middot;
+				<a href="info.php?show=copyright_holders" rel="nofollow">\xc4\xeb\xff \xef\xf0\xe0\xe2\xee\xee\xe1\xeb\xe0\xe4\xe0\xf2\xe5\xeb\xe5\xe9</a>
+				&middot;
+				<a href="info.php?show=press" rel="nofollow">\xc4\xeb\xff \xef\xf0\xe5\xf1\xf1\xfb</a>
+				&middot;
+				<a href="viewtopic.php?t=2234744">\xc4\xeb\xff \xef\xf0\xee\xe2\xe0\xe9\xe4\xe5\xf0\xee\xe2</a>
+				&middot;
+				<a href="http://rutracker.news">\xc1\xeb\xee\xe3</a>
+				&middot;
+				<a href="http://rutracker.wiki">\xd2\xee\xf0\xf0\xe5\xed\xf2\xee\xef\xe5\xe4\xe8\xff</a>
+				&middot;
+				<a href="/go/8" rel="nofollow">\xca\xee\xec\xf3 \xe7\xe0\xe4\xe0\xf2\xfc \xe2\xee\xef\xf0\xee\xf1</a>
+			</div>
+			<div>
+				<a href="viewtopic.php?t=4903496">Rutracker Online</a>
+				&middot;
+				<a href="viewforum.php?f=1538">\xc0\xe2\xf2\xee\xf0\xf1\xea\xe8\xe5 \xf0\xe0\xe7\xe4\xe0\xf7\xe8</a>
+				&middot;
+				<a href="viewforum.php?f=1289">\xca\xee\xed\xea\xf3\xf0\xf1\xfb</a>
+				&middot;
+				<a href="viewforum.php?f=489">\xcd\xee\xe2\xee\xf1\xf2\xe8 \xe2 \xf1\xe5\xf2\xe8</a>
+				&middot;
+				<a href="viewforum.php?f=2332">\xcd\xee\xe2\xee\xf1\xf2\xe8 &quot;\xd5\xf0\xe0\xed\xe8\xf2\xe5\xeb\xe5\xe9&quot; \xe8 &quot;\xc0\xed\xf2\xe8\xea\xe2\xe0\xf0\xee\xe2&quot;</a>
+				&middot;
+				<a href="#" onclick="return post2url('index.php', {rand_rel: 1});" rel="nofollow">\xd1\xeb\xf3\xf7\xe0\xe9\xed\xe0\xff \xf0\xe0\xe7\xe4\xe0\xf7\xe0</a>
+			</div>
+		</nav>
+
+		
+				<div class="tCenter nowrap" style="margin: 18px 4px 4px 4px;">
+
+			
+		</div>
+		
+		<div class="footer-bottom-links">
+			<ul class="inlined middot-separated">
+				<li><a href="groupcp.php?g=104792" rel="nofollow">\xc0\xe4\xec\xe8\xed\xe8\xf1\xf2\xf0\xe0\xf6\xe8\xff</a></li>
+				<li><a href="groupcp.php?g=104787" rel="nofollow">\xcc\xee\xe4\xe5\xf0\xe0\xf2\xee\xf0\xfb</a></li>
+				<li><a href="groupcp.php?g=104841" rel="nofollow">\xd2\xe5\xf5\xed\xe8\xf7\xe5\xf1\xea\xe0\xff \xef\xee\xec\xee\xf9\xfc</a></li>
+				<li><a href="groupcp.php?g=105539" rel="nofollow">\xd0\xe5\xe4\xe0\xea\xf2\xee\xf0\xfb Wiki</a></li>
+				<li><a href="viewtopic.php?t=224697">IRC \xea\xe0\xed\xe0\xeb</a></li>
+			</ul>
+			<ul class="inlined middot-separated">
+															</ul>
+		</div>
+
+	</div><!--/page_footer-->
+</div><!--/page_container-->
+
+
+
+<div id="ajax-loading"><b>Loading...</b></div>
+<div id="ajax-error"><b>Error</b></div>
+<style>
+#bb-alert-box {
+	width: auto;
+	max-width: 800px;
+	line-height: 18px;
+	display: none;
+}
+#bb-alert-msg {
+	min-width: 400px;
+	max-height: 400px;
+	margin: 50px 20px;
+	padding: 10px;
+	overflow: auto;
+	text-align: center;
+}
+.bb-alert-err {
+	color: #7E0000;
+	background: #FFEEEE;
+	box-shadow: 0 0 20px #B85353;
+	font-weight: bold;
+}
+</style>
+<div id="bb-alert-box">
+	<div id="bb-alert-msg"></div>
+</div>
+<div id="modal-blocker"></div>
+
+<script>
+$(function () {
+	if (!BB.ET() && BB.getUrlParam('view') !== 'print') {
+		BB.navbar.init();
+	}
+});
+</script>
+<div id="nav-panel" class="nav-hidden-arrow hide-for-print">
+	<div id="nav-up" class="nav-btn" title="\xc2\xe2\xe5\xf0\xf5">
+		<span class="nav-icon"></span>
+	</div>
+	<div id="nav-settings" class="nav-btn">
+		<span class="nav-icon" title="\xcd\xe0\xf1\xf2\xf0\xee\xe9\xea\xe8"></span>
+		<ul id="nav-opt-menu">
+			<li class="nav-event" data-event="click">\xcf\xee\xea\xe0\xe7\xfb\xe2\xe0\xf2\xfc \xef\xee \xea\xeb\xe8\xea\xf3</li>
+			<li class="nav-event" data-event="mouseenter">\xcf\xee\xea\xe0\xe7\xfb\xe2\xe0\xf2\xfc \xef\xee \xed\xe0\xe2\xe5\xe4\xe5\xed\xe8\xfe</li>
+		</ul>
+	</div>
+	<div id="nav-down" class="nav-btn" title="\xc2\xed\xe8\xe7">
+		<span class="nav-icon"></span>
+	</div>
+	<div class="nav-hidden-overlay"></div>
+</div>
+
+
+	</div><!--/body_container-->
+
+</body>
+</html>

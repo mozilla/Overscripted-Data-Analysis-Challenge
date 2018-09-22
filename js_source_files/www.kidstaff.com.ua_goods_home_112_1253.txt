@@ -1,0 +1,777 @@
+                                                                                                                                                                                                                                                                                                            <!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta charset="windows-1251">
+<meta name="Title" content="\xc1\xe0\xea\xe0\xeb\xe5\xff - \xea\xf3\xef\xe8\xf2\xfc \xee\xed\xeb\xe0\xe9\xed \xf1 \xe4\xee\xf1\xf2\xe0\xe2\xea\xee\xe9 \xef\xee \xe2\xf1\xe5\xe9 \xd3\xea\xf0\xe0\xe8\xed\xe5  - Kidstaff">
+<meta name="keywords" content="\xe1\xe0\xea\xe0\xeb\xe5\xff, \xea\xe0\xf8\xe8, \xea\xf0\xf3\xef\xfb, \xec\xe0\xea\xe0\xf0\xee\xed\xfb, \xf1\xee\xf3\xf1\xfb, \xf1\xef\xe5\xf6\xe8\xe8, ">
+<meta name="description" content="\xc1\xe0\xea\xe0\xeb\xe5\xff \x96 \xee\xf1\xed\xee\xe2\xe0 \xf0\xe0\xf6\xe8\xee\xed\xe0 \xeb\xfe\xe1\xee\xe3\xee \xf7\xe5\xeb\xee\xe2\xe5\xea\xe0. \xca\xf3\xef\xe8\xf2\xfc \xea\xf0\xf3\xef\xfb, \xec\xe0\xea\xe0\xf0\xee\xed\xed\xfb\xe5 \xe8\xe7\xe4\xe5\xeb\xe8\xff, \xec\xf3\xea\xf3, \xea\xee\xed\xf1\xe5\xf0\xe2\xfb, \xf0\xe0\xf1\xf2\xe2\xee\xf0\xe8\xec\xfb\xe5 \xed\xe0\xef\xe8\xf2\xea\xe8, \xf1\xee\xeb\xfc, \xf1\xe0\xf5\xe0\xf0 \xe8 \xf1\xef\xe5\xf6\xe8\xe8, \xef\xf0\xff\xed\xee\xf1\xf2\xe8, \xec\xe0\xe9\xee\xed\xe5\xe7, \xf3\xea\xf1\xf3\xf1, \xef\xe8\xea\xe0\xed\xf2\xed\xfb\xe5 \xf1\xee\xf3\xf1\xfb  \xf3\xea\xf0\xe0\xe8\xed\xf1\xea\xe8\xf5 \xe8\xeb\xe8 \xe7\xe0\xf0\xf3\xe1\xe5\xe6\xed\xfb\xf5 \xef\xf0\xee\xe8\xe7\xe2\xee\xe4\xe8\xf2\xe5\xeb\xe5\xe9 \xec\xee\xe6\xed\xee \xed\xe0 \xe4\xee\xf1\xea\xe5 \xee\xe1\xfa\xff\xe2\xeb\xe5\xed\xe8\xe9 \xca\xe8\xe4\xf1\xf2\xe0\xf4\xf4 \xef\xee \xe2\xf1\xe5\xe9 \xd3\xea\xf0\xe0\xe8\xed\xe5. ">
+<meta name="MSSmartTagsPreventParsing" content="true">
+<meta name='yandex-verification' content='743c56c29920ea38' >
+<meta name='google-site-verification' content='Pli6rLY4-wBzni59aV2EraG6ryuS_MeFEZA07EJf0LA' >
+<meta http-equiv="imagetoolbar" content="false">
+<title>\xc1\xe0\xea\xe0\xeb\xe5\xff - \xea\xf3\xef\xe8\xf2\xfc \xee\xed\xeb\xe0\xe9\xed \xf1 \xe4\xee\xf1\xf2\xe0\xe2\xea\xee\xe9 \xef\xee \xe2\xf1\xe5\xe9 \xd3\xea\xf0\xe0\xe8\xed\xe5  - Kidstaff</title>
+<link rel="icon" href="https://www.kidstaff.com.ua/favicon.ico" type="image/x-icon">
+<link rel="shortcut icon" href="https://www.kidstaff.com.ua/favicon.ico" type="image/x-icon">
+<meta name="p:domain_verify" content="f4f5ac4bf7fb4c608ed70178f400b361"/><meta http-equiv="x-dns-prefetch-control" content="on"><link rel="dns-prefetch" href="https://ajax.googleapis.com"><link rel="preconnect" href="https://js-ks.kidstaff.net"><link rel="preconnect" href="https://css-ks.kidstaff.net"><link rel="preconnect" href="https://img.kidstaff.net"><link rel="preconnect" href="https://img2.kidstaff.net"><script type="text/javascript"></script>
+<meta name="robots" content="index,follow">
+<link rel="alternate" media="only screen and (max-width: 640px)" href="https://m.kidstaff.com.ua/goods/home/produkty-pitanija/bakaleja" >
+<link rel="stylesheet" type="text/css" href="https://css-ks.kidstaff.net/glob-64.css" media="screen">
+
+<link rel="stylesheet" type="text/css" href="https://css-ks.kidstaff.net/modal-7.css" media="screen">
+<link rel="next" href="https://www.kidstaff.com.ua/goods/home/produkty-pitanija/bakaleja/page-2" /><link rel="stylesheet" type="text/css" href="https://css-ks.kidstaff.net/annocards-27.css" media="screen"><link rel="stylesheet" type="text/css" href="https://css-ks.kidstaff.net/anno-1.css" media="screen"><link rel="stylesheet" type="text/css" href="https://css-ks.kidstaff.net/globregua-9.css" media="screen">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js" type="text/javascript"></script><script>window.jQuery || document.write('<script src="https://js-ks.kidstaff.net/modules/jquery1.5.1.js"><\/script>');</script><script src="https://js-ks.kidstaff.net/ajax-54.js" type="text/javascript"></script>
+<script src="https://js-ks.kidstaff.net/modal-8.js" type="text/javascript" ></script>
+
+
+<script src="https://js-ks.kidstaff.net/newsearchform_debug-4.js" type="text/javascript"></script><script src="https://js-ks.kidstaff.net/modules/underscore.js" type="text/javascript"></script><script src="https://js-ks.kidstaff.net/new_prosearch_debug-26.js" type="text/javascript"></script>
+    <script type="application/ld+json">{"@context":"http://schema.org","@type":"WebPage","name":"\xc1\xe0\xea\xe0\xeb\xe5\xff - \xea\xf3\xef\xe8\xf2\xfc \xee\xed\xeb\xe0\xe9\xed \xf1 \xe4\xee\xf1\xf2\xe0\xe2\xea\xee\xe9 \xef\xee \xe2\xf1\xe5\xe9 \xd3\xea\xf0\xe0\xe8\xed\xe5  - Kidstaff","url":"https://www.kidstaff.com.ua/goods/home/produkty-pitanija/bakaleja","breadcrumb":{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"item":{"@id":"https://www.kidstaff.com.ua","name":"\xc4\xee\xf1\xea\xe0 \xee\xe1\xfa\xff\xe2\xeb\xe5\xed\xe8\xe9"}},{"@type":"ListItem","position":2,"item":{"@id":"https://www.kidstaff.com.ua/goods/home","name":"\xc4\xee\xec, \xee\xf2\xe4\xfb\xf5, \xef\xf0\xe0\xe7\xe4\xed\xe8\xea\xe8"}},{"@type":"ListItem","position":3,"item":{"@id":"https://www.kidstaff.com.ua/goods/home/produkty-pitanija","name":"\xcf\xf0\xee\xe4\xf3\xea\xf2\xfb \xef\xe8\xf2\xe0\xed\xe8\xff"}},{"@type":"ListItem","position":4,"item":{"@id":"https://www.kidstaff.com.ua/goods/home/produkty-pitanija/bakaleja","name":"\xc1\xe0\xea\xe0\xeb\xe5\xff"}}]},"relatedLink":["https://www.kidstaff.com.ua/goods/home/produkty-pitanija/bakaleja/page-2"],"specialty":"e-commerce","mainEntity":[{"@type":"Product","name":"\xcc\xff\xf1\xed\xe0\xff \xf2\xf3\xf8\xe5\xed\xea\xe0","url":"https://www.kidstaff.com.ua/tema-24638333.html","productID":"KIDSTAFF:24638333","offers":{"@type":"Offer","availability":"InStock","availabilityStarts":"2018-09-22","itemCondition":"NewCondition","areaServed":"Ukraine","availableAtOrFrom":"\xd3\xea\xf0\xe0\xe8\xed\xe0, \xd3\xe6\xe3\xee\xf0\xee\xe4","price":"47.00","priceCurrency":"UAH"}},{"@type":"Product","name":"\xca\xf0\xf3\xef\xe0 \xe3\xf0\xe5\xf7\xe0\xed\xe0 \xe7\xe5\xeb\xe5\xed\xe0 \xed\xe5\xf1\xec\xe0\xe6\xe5\xed\xe0 \xe3\xf0\xe5\xf7\xea\xe0 \xe7\xe5\xeb\xe5\xed\xe0","url":"https://www.kidstaff.com.ua/tema-20108374.html","productID":"KIDSTAFF:20108374","offers":{"@type":"Offer","availability":"InStock","availabilityStarts":"2018-09-22","itemCondition":"NewCondition","areaServed":"Ukraine","availableAtOrFrom":"\xd3\xea\xf0\xe0\xe8\xed\xe0, \xca\xe8\xe5\xe2","price":"40.00","priceCurrency":"UAH"}},{"@type":"Product","name":"\xd1\xd8\xc0 \xc1\xe0\xf0\xe1\xe5\xea\xfe \xf1\xee\xf3\xf1 SWEET BABY RAY&acuteS Original BBQ Sauce","url":"https://www.kidstaff.com.ua/tema-19145561.html","productID":"KIDSTAFF:19145561","offers":{"@type":"Offer","availability":"InStock","availabilityStarts":"2018-09-22","itemCondition":"NewCondition","areaServed":"Ukraine","availableAtOrFrom":"\xd3\xea\xf0\xe0\xe8\xed\xe0","price":"400.00","priceCurrency":"UAH"}},{"@type":"Product","name":"\xd1\xd8\xc0 \xd1\xee\xf3\xf1-\xe4\xe8\xef Hidden Valley Original RANCH Dressing","url":"https://www.kidstaff.com.ua/tema-19145315.html","productID":"KIDSTAFF:19145315","offers":{"@type":"Offer","availability":"InStock","availabilityStarts":"2018-09-22","itemCondition":"NewCondition","areaServed":"Ukraine","availableAtOrFrom":"\xd3\xea\xf0\xe0\xe8\xed\xe0","price":"400.00","priceCurrency":"UAH"}},{"@type":"Product","name":"\xf4\xf3\xed\xe4\xf3\xea \xe6\xe5\xeb\xe0\xf2\xe8\xed  \xec\xe8\xed\xe4\xe0\xeb\xfc\xed\xfb\xe5  \xeb\xe5\xef\xe5\xf1\xf2\xea\xe8 \xe3\xf0\xe5\xf6\xea\xe8\xe9 \xee\xf0\xe5\xf5","url":"https://www.kidstaff.com.ua/tema-12517664.html","productID":"KIDSTAFF:12517664","offers":{"@type":"Offer","availability":"InStock","availabilityStarts":"2018-09-22","itemCondition":"NewCondition","areaServed":"Ukraine","availableAtOrFrom":"\xd3\xea\xf0\xe0\xe8\xed\xe0, \xce\xe4\xe5\xf1\xf1\xe0","price":"35.00","priceCurrency":"UAH"}},{"@type":"Product","name":"\xd1\xd8\xc0 \xcf\xf0\xe8\xef\xf0\xe0\xe2\xfb \xe4\xeb\xff \xf1\xf2\xe5\xe9\xea\xe0 \xe8 \xea\xf3\xf0\xe8\xf6\xfb McCormick Grill Mates","url":"https://www.kidstaff.com.ua/tema-19525872.html","productID":"KIDSTAFF:19525872","offers":{"@type":"Offer","availability":"InStock","availabilityStarts":"2018-09-22","itemCondition":"NewCondition","areaServed":"Ukraine","availableAtOrFrom":"\xd3\xea\xf0\xe0\xe8\xed\xe0","price":"320.00","priceCurrency":"UAH"}},{"@type":"Product","name":"\xf4\xf3\xed\xe4\xf3\xea \xcc\xe8\xed\xe4\xe0\xeb\xfc\xed\xfb\xe5 \xeb\xe5\xef\xe5\xf1\xf2\xea\xe8  \xf8\xee\xea\xee\xeb\xe0\xe4\xed\xfb\xe5  \xe4\xe8\xf1\xea\xe8  \xef\xee \xf1\xf3\xef\xe5\xf0 \xf6\xe5\xed\xe5","url":"https://www.kidstaff.com.ua/tema-12150035.html","productID":"KIDSTAFF:12150035","offers":{"@type":"Offer","availability":"InStock","availabilityStarts":"2018-09-22","itemCondition":"NewCondition","areaServed":"Ukraine","availableAtOrFrom":"\xd3\xea\xf0\xe0\xe8\xed\xe0, \xce\xe4\xe5\xf1\xf1\xe0","price":"35.00","priceCurrency":"UAH"}},{"@type":"Product","name":"\xd1\xd8\xc0 \xc2\xea\xf3\xf1\xed\xfe\xf9\xe8\xe5 \xee\xf0\xe5\xf5\xe8 PLANTERS mixed nuts \xe8 WELLSLEY Farms","url":"https://www.kidstaff.com.ua/tema-19145854.html","productID":"KIDSTAFF:19145854","offers":{"@type":"Offer","availability":"InStock","availabilityStarts":"2018-09-22","itemCondition":"NewCondition","areaServed":"Ukraine","availableAtOrFrom":"\xd3\xea\xf0\xe0\xe8\xed\xe0","price":"1200.00","priceCurrency":"UAH"}},{"@type":"Product","name":"\xcf\xf0\xee\xe4\xf3\xea\xf2\xfb \xe2\xee\xf1\xf2\xee\xf7\xed\xee\xe9 \xea\xf3\xf5\xed\xe8 - \xcc\xe8\xf0\xe8\xed - \xe2 \xed\xe0\xeb\xe8\xf7\xe8\xe8","url":"https://www.kidstaff.com.ua/tema-19083674.html","productID":"KIDSTAFF:19083674","offers":{"@type":"Offer","availability":"InStock","availabilityStarts":"2018-09-22","itemCondition":"NewCondition","areaServed":"Ukraine","availableAtOrFrom":"\xd3\xea\xf0\xe0\xe8\xed\xe0","price":"30.00","priceCurrency":"UAH"}},{"@type":"Product","name":"\xc2\xf3\xf0\xf7\xe5\xf1\xf2\xe5\xf0\xf8\xe8\xf0\xf1\xea\xe8\xe9 \xf1\xee\xf3\xf1 Worcestershire Sauce Lea and Perren&acutes Original,","url":"https://www.kidstaff.com.ua/tema-24533891.html","productID":"KIDSTAFF:24533891","offers":{"@type":"Offer","availability":"InStock","availabilityStarts":"2018-09-22","itemCondition":"NewCondition","areaServed":"Ukraine","availableAtOrFrom":"\xd3\xea\xf0\xe0\xe8\xed\xe0","price":"380.00","priceCurrency":"UAH"}},{"@type":"Product","name":"\xd1\xd8\xc0 \xd1\xee\xf3\xf1 \xe4\xeb\xff \xf1\xf2\xe5\xe9\xea\xee\xe2 \xc0-1 steak sauce","url":"https://www.kidstaff.com.ua/tema-19145464.html","productID":"KIDSTAFF:19145464","offers":{"@type":"Offer","availability":"InStock","availabilityStarts":"2018-09-22","itemCondition":"NewCondition","areaServed":"Ukraine","availableAtOrFrom":"\xd3\xea\xf0\xe0\xe8\xed\xe0","price":"400.00","priceCurrency":"UAH"}},{"@type":"Product","name":"\xcf\xf0\xe8\xef\xf0\xe0\xe2\xe0 \xe4\xeb\xff \xea\xee\xf4\xe5 \xe8 \xe4\xe5\xf1\xe5\xf0\xf2\xee\xe2 Kamis","url":"https://www.kidstaff.com.ua/tema-23532903.html","productID":"KIDSTAFF:23532903","offers":{"@type":"Offer","availability":"InStock","availabilityStarts":"2018-09-22","itemCondition":"NewCondition","areaServed":"Ukraine","availableAtOrFrom":"\xd3\xea\xf0\xe0\xe8\xed\xe0, \xca\xe8\xe5\xe2","price":"42.00","priceCurrency":"UAH"}},{"@type":"Product","name":"\xcc\xe0\xea\xe0\xf0\xee\xed\xe8 Combino, Conad,  500 gr. , 1 \xea\xe3.","url":"https://www.kidstaff.com.ua/tema-24713999.html","productID":"KIDSTAFF:24713999","offers":{"@type":"Offer","availability":"InStock","availabilityStarts":"2018-09-22","itemCondition":"NewCondition","areaServed":"Ukraine","availableAtOrFrom":"\xd3\xea\xf0\xe0\xe8\xed\xe0, \xd2\xe5\xf0\xed\xee\xef\xee\xeb\xfc","price":"25.00","priceCurrency":"UAH"}},{"@type":"Product","name":"\xcc\xe0\xea\xe0\xf0\xee\xed\xe8 ReggiA 0, 5 \xea\xe3.","url":"https://www.kidstaff.com.ua/tema-23820586.html","productID":"KIDSTAFF:23820586","offers":{"@type":"Offer","availability":"InStock","availabilityStarts":"2018-09-22","itemCondition":"NewCondition","areaServed":"Ukraine","availableAtOrFrom":"\xd3\xea\xf0\xe0\xe8\xed\xe0, \xd2\xe5\xf0\xed\xee\xef\xee\xeb\xfc","price":"25.00","priceCurrency":"UAH"}},{"@type":"Product","name":"\xcc\xe0\xea\xe0\xf0\xee\xed\xe8 Barilla \xb2\xf2\xe0\xeb\xb3\xff 1 \xea\xe3.","url":"https://www.kidstaff.com.ua/tema-25384672.html","productID":"KIDSTAFF:25384672","offers":{"@type":"Offer","availability":"InStock","availabilityStarts":"2018-09-22","itemCondition":"NewCondition","areaServed":"Ukraine","availableAtOrFrom":"\xd3\xea\xf0\xe0\xe8\xed\xe0, \xd2\xe5\xf0\xed\xee\xef\xee\xeb\xfc","price":"50.00","priceCurrency":"UAH"}},{"@type":"Product","name":"\xb2\xf2\xe0\xeb\xb3\xe9\xf1\xfc\xea\xb3 \xf1\xee\xf3\xf1\xe8-\xef\xe0\xf1\xf2\xe8 Cirio, Valfrutta 700 g.","url":"https://www.kidstaff.com.ua/tema-23670393.html","productID":"KIDSTAFF:23670393","offers":{"@type":"Offer","availability":"InStock","availabilityStarts":"2018-09-22","itemCondition":"NewCondition","areaServed":"Ukraine","availableAtOrFrom":"\xd3\xea\xf0\xe0\xe8\xed\xe0, \xd2\xe5\xf0\xed\xee\xef\xee\xeb\xfc","price":"45.00","priceCurrency":"UAH"}},{"@type":"Product","name":"\xd0\xe8\xf1 Gallo blond,  Scotti Oro Insalate , 1kg.","url":"https://www.kidstaff.com.ua/tema-23699995.html","productID":"KIDSTAFF:23699995","offers":{"@type":"Offer","availability":"InStock","availabilityStarts":"2018-09-22","itemCondition":"NewCondition","areaServed":"Ukraine","availableAtOrFrom":"\xd3\xea\xf0\xe0\xe8\xed\xe0, \xd2\xe5\xf0\xed\xee\xef\xee\xeb\xfc","price":"85.00","priceCurrency":"UAH"}},{"@type":"Product","name":"\xcf\xf0\xee\xe4\xe0\xec \xec\xe0\xea\xe0\xf0\xee\xed\xfb \xe8 \xf1\xef\xe0\xe3\xe5\xf2\xf2\xe8 \xc8\xf2\xe0\xeb\xe8\xff","url":"https://www.kidstaff.com.ua/tema-26585702.html","productID":"KIDSTAFF:26585702","offers":{"@type":"Offer","availability":"InStock","availabilityStarts":"2018-09-22","itemCondition":"NewCondition","areaServed":"Ukraine","availableAtOrFrom":"\xd3\xea\xf0\xe0\xe8\xed\xe0, \xd5\xe0\xf0\xfc\xea\xee\xe2","price":"48.00","priceCurrency":"UAH"}},{"@type":"Product","name":"\xd1\xee\xf3\xf1 Barilla 300 gr.","url":"https://www.kidstaff.com.ua/tema-24740182.html","productID":"KIDSTAFF:24740182","offers":{"@type":"Offer","availability":"InStock","availabilityStarts":"2018-09-22","itemCondition":"NewCondition","areaServed":"Ukraine","availableAtOrFrom":"\xd3\xea\xf0\xe0\xe8\xed\xe0, \xd2\xe5\xf0\xed\xee\xef\xee\xeb\xfc","price":"50.00","priceCurrency":"UAH"}},{"@type":"Product","name":"\xcf\xf0\xee\xe4\xe0\xec \xee\xeb\xe8\xe2\xea\xe8 \xe8 \xec\xe0\xf1\xeb\xe8\xed\xfb \xe1\xe5\xe7 \xea\xee\xf1\xf2\xee\xf7\xe5\xea","url":"https://www.kidstaff.com.ua/tema-26585678.html","productID":"KIDSTAFF:26585678","offers":{"@type":"Offer","availability":"InStock","availabilityStarts":"2018-09-22","itemCondition":"NewCondition","areaServed":"Ukraine","availableAtOrFrom":"\xd3\xea\xf0\xe0\xe8\xed\xe0, \xd5\xe0\xf0\xfc\xea\xee\xe2","price":"36.00","priceCurrency":"UAH"}},{"@type":"Product","name":"\xd1\xee\xf3\xf1 \xef\xe5\xf1\xf2\xee Baressa 190\xe3 \xc8\xf2\xe0\xeb\xe8\xff","url":"https://www.kidstaff.com.ua/tema-21431571.html","productID":"KIDSTAFF:21431571","offers":{"@type":"Offer","availability":"InStock","availabilityStarts":"2018-09-22","itemCondition":"NewCondition","areaServed":"Ukraine","availableAtOrFrom":"\xd3\xea\xf0\xe0\xe8\xed\xe0","price":"50.00","priceCurrency":"UAH"}},{"@type":"Product","name":"\xcb\xe8\xf1\xf2\xe8 \xeb\xe0\xe7\xe0\xed\xfc\xbf  Combino 500 \xe3\xf0.","url":"https://www.kidstaff.com.ua/tema-24978823.html","productID":"KIDSTAFF:24978823","offers":{"@type":"Offer","availability":"InStock","availabilityStarts":"2018-09-22","itemCondition":"NewCondition","areaServed":"Ukraine","availableAtOrFrom":"\xd3\xea\xf0\xe0\xe8\xed\xe0, \xd2\xe5\xf0\xed\xee\xef\xee\xeb\xfc","price":"55.00","priceCurrency":"UAH"}},{"@type":"Product","name":"\xcf\xf0\xee\xe4\xe0\xec \xe0\xf0\xe0\xf5\xe8\xf1 \xf1\xee\xeb\xe5\xed\xfb\xe9","url":"https://www.kidstaff.com.ua/tema-26585730.html","productID":"KIDSTAFF:26585730","offers":{"@type":"Offer","availability":"InStock","availabilityStarts":"2018-09-22","itemCondition":"NewCondition","areaServed":"Ukraine","availableAtOrFrom":"\xd3\xea\xf0\xe0\xe8\xed\xe0, \xd5\xe0\xf0\xfc\xea\xee\xe2","price":"16.00","priceCurrency":"UAH"}},{"@type":"Product","name":"\xd0\xe8\xf1 \xe1\xe0\xf1\xec\xe0\xf2\xe8 \xcf\xe0\xea\xe8\xf1\xf2\xe0\xed\xf1\xea\xe8\xe9 extra long 2 \xea\xe3 \xe8 5 \xea\xe3 \xd1\xf3\xef\xe5\xf0 \xea\xe0\xf7\xe5\xf1\xf2\xe2\xee\xdd\xeb\xe8\xf2\xed\xfb\xe9 \xf1\xee\xf0\xf2","url":"https://www.kidstaff.com.ua/tema-26282539.html","productID":"KIDSTAFF:26282539","offers":{"@type":"Offer","availability":"InStock","availabilityStarts":"2018-09-22","itemCondition":"NewCondition","areaServed":"Ukraine","availableAtOrFrom":"\xd3\xea\xf0\xe0\xe8\xed\xe0, \xca\xe8\xe5\xe2","price":"80.00","priceCurrency":"UAH"}},{"@type":"Product","name":"\xcc\xe0\xea\xe0\xf0\xee\xed\xfb 05\xea\xe3 Barilla. \xc8\xf2\xe0\xeb\xe8\xff","url":"https://www.kidstaff.com.ua/tema-20587264.html","productID":"KIDSTAFF:20587264","offers":{"@type":"Offer","availability":"InStock","availabilityStarts":"2018-09-22","itemCondition":"NewCondition","areaServed":"Ukraine","availableAtOrFrom":"\xd3\xea\xf0\xe0\xe8\xed\xe0","price":"35.00","priceCurrency":"UAH"}},{"@type":"Product","name":"\xd4\xe8\xf1\xf2\xe0\xf8\xea\xe0 \xf1\xee\xeb\xe5\xed\xe0\xff 1\xea\xe3","url":"https://www.kidstaff.com.ua/tema-22154494.html","productID":"KIDSTAFF:22154494","offers":{"@type":"Offer","availability":"InStock","availabilityStarts":"2018-09-22","itemCondition":"NewCondition","areaServed":"Ukraine","availableAtOrFrom":"\xd3\xea\xf0\xe0\xe8\xed\xe0","price":"380.00","priceCurrency":"UAH"}},{"@type":"Product","name":"\xca\xe0\xf8\xe0 \xca\xf3\xf1 \xea\xf3\xf1 300\xe3\xf0\xe0\xec\xec. \xcf\xee\xeb\xfc\xf8\xe0","url":"https://www.kidstaff.com.ua/tema-26776722.html","productID":"KIDSTAFF:26776722","offers":{"@type":"Offer","availability":"InStock","availabilityStarts":"2018-09-22","itemCondition":"NewCondition","areaServed":"Ukraine","availableAtOrFrom":"\xd3\xea\xf0\xe0\xe8\xed\xe0, \xca\xe8\xe5\xe2","price":"25.00","priceCurrency":"UAH"}}]}
+    </script><script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-11069106-1', 'auto');
+  ga('create', 'UA-11069106-10', 'auto', 'globalUa');
+  ga('create', 'UA-11069106-12', 'auto', 'kidstaffTotal');
+  
+
+      
+  ga('send', 'pageview');
+  ga('globalUa.send', 'pageview');
+  ga('kidstaffTotal.send', 'pageview');
+
+</script><script type='text/javascript'>
+/* ---------------------------------------------------------------------------------------- */
+(function(){
+	var w = window,
+		d = document,
+		protocol =/https/i.test(w.location.protocol) ? 'https:' : 'http:',
+		aml = typeof admixerML !== 'undefined' ? admixerML : { };
+		aml.fn = aml.fn || [];
+		aml.invPath = aml.invPath || (protocol + '//inv-nets.admixer.net/');
+		aml.cdnPath = aml.cdnPath || (protocol + '//cdn.admixer.net/');
+	if (!w.admixerML)
+	{
+		var lodash = document.createElement('script');
+			lodash.id = 'amlScript';
+			lodash.async = true;
+			lodash.type = 'text/javascript';
+			lodash.src = aml.cdnPath + 'scripts3/loader2.js';
+		var node = d.getElementsByTagName('script')[0];
+			node.parentNode.insertBefore(lodash, node);
+			w.admixerML = aml;
+	}
+})();
+			
+admixerML.fn.push(function() {
+//admixerML.defineSlot({z: '4e42a5f5-e7d6-4e06-bf54-3b607bdc859b', ph: 'admixer_4e42a5f5e7d64e06bf543b607bdc859b_zone_797_sect_606_site_593', i: 'inv-nets'});
+admixerML.singleRequest();
+});
+/* ---------------------------------------------------------------------------------------- */
+/* ---------------------------------------------------------------------------------------- */
+</script>
+<meta name="verify-admitad" content="22378e572a" />
+</head>
+
+
+<body class="df-brnd">
+
+
+<div>
+<div align="center" id="top">
+<table cellpadding="0" border=0 cellspacing="10"  width="1144" height="100%" id="bodycontent">
+<tr class="dev-hide"><td align="left" width="100%">
+<div style="width:225px;float:left"><a name="top"></a>
+<a href="https://www.kidstaff.com.ua" title="Kidstaff- \xee\xe4\xe5\xe6\xe4\xe0, \xee\xe1\xf3\xe2\xfc, \xf2\xee\xe2\xe0\xf0\xfb \xe4\xeb\xff \xe4\xe5\xf2\xe5\xe9 \xe8 \xe2\xe7\xf0\xee\xf1\xeb\xfb\xf5"><img src="https://img.kidstaff.net/top/logo_var_1.jpg" border="0" alt="Kidstaff- \xee\xe4\xe5\xe6\xe4\xe0, \xee\xe1\xf3\xe2\xfc, \xf2\xee\xe2\xe0\xf0\xfb \xe4\xeb\xff \xe4\xe5\xf2\xe5\xe9 \xe8 \xe2\xe7\xf0\xee\xf1\xeb\xfb\xf5"></a>
+</div><div style="width:25px; height:80px;float:left;"></div><div class="svet" id="svt" style="width:199px;float:left">
+	<div><a href="https://login.kidstaff.com.ua/login.php?redirect=https%3A%2F%2Fwww.kidstaff.com.ua%2Fgoods%2Fhome%2Fprodukty-pitanija%2Fbakaleja">\xe2\xf5\xee\xe4 \xe4\xeb\xff \xef\xee\xeb\xfc\xe7\xee\xe2\xe0\xf2\xe5\xeb\xe5\xe9</a></div>
+	<div><a href="https://login.kidstaff.com.ua/register?redirect=https%3A%2F%2Fwww.kidstaff.com.ua%2Fgoods%2Fhome%2Fprodukty-pitanija%2Fbakaleja">\xf0\xe5\xe3\xe8\xf1\xf2\xf0\xe0\xf6\xe8\xff</a></div>
+</div>
+
+</td>
+<td align="center">
+<div class="projects-block">
+		 <ul><li class="project-sprite kidstaff"><a href="https://www.kidstaff.com.ua">kidstaff</a></li><li class="project-sprite sovet"><a href="https://sovet.kidstaff.com.ua"  target="_blank">\xf1\xee\xe2\xe5\xf2\xf7\xe8\xf6\xe0</a></li><li class="project-sprite konkurs"><a href="https://konkurs.kidstaff.com.ua"  target="_blank">\xea\xee\xed\xea\xf3\xf0\xf1\xfb</a></li><li class="project-sprite otzyv"><a href="https://otzyv.kidstaff.com.ua"  target="_blank">\xee\xf2\xe7\xfb\xe2\xfb</a></li><li class="project-sprite promo"><a href="https://www.kidstaff.com.ua/promocode/"  target="_blank">\xef\xf0\xee\xec\xee\xea\xee\xe4\xfb</a></li><li class="project-sprite skidki"><a href="https://skidki.kidstaff.com.ua"  target="_blank">\xf1\xea\xe8\xe4\xea\xe8</a></li></ul></div>
+</td>
+</tr>
+
+
+<tr class="dev-hide"><td>
+<div class="newbn1" style='width:870px;'>
+    
+    <div class="newbn2v fonimg-au">
+		<div class="newbn3" id="newfrm">
+		<form method="get" name="fs" onsubmit="make_search(); return false;">
+            <table>
+                <tbody>
+                <tr>
+                    <td><div class="sf-box sf-input-wrap"><input type="text" autocomplete="off" class="xpborder" name="words" maxlength="40" value=""></div></td>
+                    <td class="sf-td-input">
+                        <div class="sf-box sf-select-wrap">
+                            <select name="temacat" class="xpborder">
+                                <option value="-1">\xc2\xee \xe2\xf1\xe5\xf5 \xf0\xe0\xe7\xe4\xe5\xeb\xe0\xf5</option><option value="1">\xd1\xee\xe2\xec\xe5\xf1\xf2\xed\xfb\xe5 \xef\xee\xea\xf3\xef\xea\xe8 \xe8 \xe7\xe0\xea\xe0\xe7\xfb</option><option value="741">\xc4\xe5\xf2\xf1\xea\xe8\xe5 \xf2\xee\xe2\xe0\xf0\xfb</option><option value="7">\xc4\xe5\xf2\xf1\xea\xe0\xff \xee\xe4\xe5\xe6\xe4\xe0 \xe8 \xee\xe1\xf3\xe2\xfc</option><option value="8">\xc4\xeb\xff \xe6\xe5\xed\xf9\xe8\xed</option><option value="113">\xc4\xeb\xff \xec\xf3\xe6\xf7\xe8\xed</option><option value="9">\xca\xf0\xe0\xf1\xee\xf2\xe0 \xe8 \xf3\xf5\xee\xe4</option><option value="24">\xc4\xee\xec, \xee\xf2\xe4\xfb\xf5, \xef\xf0\xe0\xe7\xe4\xed\xe8\xea\xe8</option><option value="27">\xca\xe0\xed\xf6\xf2\xee\xe2\xe0\xf0\xfb, \xea\xed\xe8\xe3\xe8, \xe0\xf0\xf2</option><option value="2">\xd3\xf1\xeb\xf3\xe3\xe8, \xf0\xe0\xe1\xee\xf2\xe0</option><option value="83">\xc6\xe8\xe2\xee\xf2\xed\xfb\xe5, \xf0\xe0\xf1\xf2\xe5\xed\xe8\xff, \xe0\xea\xf1\xe5\xf1\xf1\xf3\xe0\xf0\xfb</option><option value="97">\xc4\xf0\xf3\xe3\xee\xe5</option><option value="98">\xca\xf3\xef\xeb\xfe, \xee\xe1\xec\xe5\xed, \xee\xf2\xe4\xe0\xec, \xf1\xef\xf0\xee\xf1</option>                            </select>
+                        </div>
+                    </td>
+                    <td>
+                    <input type="button" size="30" value="\xcf\xee\xe8\xf1\xea"  class="butc2" onclick='make_search()'>
+                                        </td>
+                    <td><a href="https://www.kidstaff.com.ua/advancedsearch" class="adv-search-link">\xd0\xe0\xf1\xf8\xe8\xf0\xe5\xed\xed\xfb\xe9</a></td>
+                </tr>
+                </tbody>
+            </table>
+		</form>
+		<script type="text/javascript">
+		var search_script_url='https://www.kidstaff.com.ua';
+$(function (){ initTopHint();
+});
+var root_cat={"1":"sp","741":"kids","7":"kids-clothing","8":"women","113":"men","9":"beauty","24":"home","27":"books","2":"jobs","83":"live","97":"sundry","98":"demand"};var min_search_length=3;    function make_search()
+		{
+		    if(document.fs.words.value.length<min_search_length)
+		    {
+		        $(".tooshort").show();
+		        return;
+        }
+        var cat=$(".sf-td-input select[name='temacat']").val();
+        if(cat=="-1")
+          cat="0";
+        cat=parseInt(cat);
+        var url=search_script_url+"/search";
+        if(cat!=0)
+        {
+            url+="/"+root_cat[cat];
+        }
+        url+="/words-"+encodeURIComponent(document.fs.words.value);  
+        window.location.href=url;
+    }
+    
+		</script>
+		</div>
+    	</div>
+	</div>
+	</td>
+<td align="center">
+<div class="absk absk-bg ab234-60" id="slot1"></div></td>
+</tr>
+<tr id="fulltexttr"><td align="left" valign="top" height="100%" colspan="2">  <script>
+  var g_secure_code="07f66531cbc683b1676b7a4322237280";
+  $(function(){
+     init_informers("https://i2.kidstaff.com.ua/info-2.js?d=1809221036"); 
+  });
+  function afterModeration(ids)
+  {
+      window.location.reload();
+  }
+  </script>  
+  <div class="row"><div class="new-bcrumbs-wr"><div class="bcrumbs-region-wr" style="width:100%;">
+    <ul class="breadcumbs"><li><a class="bcrumbs-link" href="https://www.kidstaff.com.ua"><span>\xc4\xee\xf1\xea\xe0 \xee\xe1\xfa\xff\xe2\xeb\xe5\xed\xe8\xe9</span></a><ul class="bcrumbs-submenu"><li><a href="/goods/sp" title="\xd1\xee\xe2\xec\xe5\xf1\xf2\xed\xfb\xe5 \xef\xee\xea\xf3\xef\xea\xe8 \xe8 \xe7\xe0\xea\xe0\xe7\xfb">\xd1\xee\xe2\xec\xe5\xf1\xf2\xed\xfb\xe5 \xef\xee\xea\xf3\xef\xea\xe8 \xe8 \xe7\xe0\xea\xe0\xe7\xfb</a></li><li><a href="/goods/kids" title="\xc4\xe5\xf2\xf1\xea\xe8\xe5 \xf2\xee\xe2\xe0\xf0\xfb">\xc4\xe5\xf2\xf1\xea\xe8\xe5 \xf2\xee\xe2\xe0\xf0\xfb</a></li><li><a href="/goods/kids-clothing" title="\xc4\xe5\xf2\xf1\xea\xe0\xff \xee\xe4\xe5\xe6\xe4\xe0 \xe8 \xee\xe1\xf3\xe2\xfc">\xc4\xe5\xf2\xf1\xea\xe0\xff \xee\xe4\xe5\xe6\xe4\xe0 \xe8 \xee\xe1\xf3\xe2\xfc</a></li><li><a href="/goods/women" title="\xc4\xeb\xff \xe6\xe5\xed\xf9\xe8\xed">\xc4\xeb\xff \xe6\xe5\xed\xf9\xe8\xed</a></li><li><a href="/goods/men" title="\xc4\xeb\xff \xec\xf3\xe6\xf7\xe8\xed">\xc4\xeb\xff \xec\xf3\xe6\xf7\xe8\xed</a></li><li><a href="/goods/beauty" title="\xca\xf0\xe0\xf1\xee\xf2\xe0 \xe8 \xf3\xf5\xee\xe4">\xca\xf0\xe0\xf1\xee\xf2\xe0 \xe8 \xf3\xf5\xee\xe4</a></li><li><a href="/goods/home" title="\xc4\xee\xec, \xee\xf2\xe4\xfb\xf5, \xef\xf0\xe0\xe7\xe4\xed\xe8\xea\xe8">\xc4\xee\xec, \xee\xf2\xe4\xfb\xf5, \xef\xf0\xe0\xe7\xe4\xed\xe8\xea\xe8</a></li><li><a href="/goods/books" title="\xca\xe0\xed\xf6\xf2\xee\xe2\xe0\xf0\xfb, \xea\xed\xe8\xe3\xe8, \xe0\xf0\xf2">\xca\xe0\xed\xf6\xf2\xee\xe2\xe0\xf0\xfb, \xea\xed\xe8\xe3\xe8, \xe0\xf0\xf2</a></li><li><a href="/goods/jobs" title="\xd3\xf1\xeb\xf3\xe3\xe8, \xf0\xe0\xe1\xee\xf2\xe0">\xd3\xf1\xeb\xf3\xe3\xe8, \xf0\xe0\xe1\xee\xf2\xe0</a></li><li><a href="/goods/live" title="\xc6\xe8\xe2\xee\xf2\xed\xfb\xe5, \xf0\xe0\xf1\xf2\xe5\xed\xe8\xff, \xe0\xea\xf1\xe5\xf1\xf1\xf3\xe0\xf0\xfb">\xc6\xe8\xe2\xee\xf2\xed\xfb\xe5, \xf0\xe0\xf1\xf2\xe5\xed\xe8\xff, \xe0\xea\xf1\xe5\xf1\xf1\xf3\xe0\xf0\xfb</a></li><li><a href="/goods/sundry" title="\xc4\xf0\xf3\xe3\xee\xe5">\xc4\xf0\xf3\xe3\xee\xe5</a></li><li><a href="/goods/demand" title="\xca\xf3\xef\xeb\xfe, \xee\xe1\xec\xe5\xed, \xee\xf2\xe4\xe0\xec, \xf1\xef\xf0\xee\xf1">\xca\xf3\xef\xeb\xfe, \xee\xe1\xec\xe5\xed, \xee\xf2\xe4\xe0\xec, \xf1\xef\xf0\xee\xf1</a></li></ul> - </li><li><a class="bcrumbs-link" href="/goods/home"><span>\xc4\xee\xec, \xee\xf2\xe4\xfb\xf5, \xef\xf0\xe0\xe7\xe4\xed\xe8\xea\xe8</span></a><ul class="bcrumbs-submenu"><li><a href="/goods/home/produkty-pitanija" title="\xcf\xf0\xee\xe4\xf3\xea\xf2\xfb \xef\xe8\xf2\xe0\xed\xe8\xff">\xcf\xf0\xee\xe4\xf3\xea\xf2\xfb \xef\xe8\xf2\xe0\xed\xe8\xff</a></li><li><a href="/goods/home/tekstil-furnitura-rukodelie" title="\xd2\xe5\xea\xf1\xf2\xe8\xeb\xfc, \xf4\xf3\xf0\xed\xe8\xf2\xf3\xf0\xe0, \xe4\xeb\xff \xf0\xf3\xea\xee\xe4\xe5\xeb\xe8\xff">\xd2\xe5\xea\xf1\xf2\xe8\xeb\xfc, \xf4\xf3\xf0\xed\xe8\xf2\xf3\xf0\xe0, \xe4\xeb\xff \xf0\xf3\xea\xee\xe4\xe5\xeb\xe8\xff</a></li><li><a href="/goods/home/bytovaja-himija" title="\xc1\xfb\xf2\xee\xe2\xe0\xff \xf5\xe8\xec\xe8\xff">\xc1\xfb\xf2\xee\xe2\xe0\xff \xf5\xe8\xec\xe8\xff</a></li><li><a href="/goods/home/krupnaja-bytovaja-tehnika" title="\xca\xf0\xf3\xef\xed\xe0\xff \xe1\xfb\xf2\xee\xe2\xe0\xff \xf2\xe5\xf5\xed\xe8\xea\xe0">\xca\xf0\xf3\xef\xed\xe0\xff \xe1\xfb\xf2\xee\xe2\xe0\xff \xf2\xe5\xf5\xed\xe8\xea\xe0</a></li><li><a href="/goods/home/melkaja-bytovaja-tehnika" title="\xcc\xe5\xeb\xea\xe0\xff \xe1\xfb\xf2\xee\xe2\xe0\xff \xf2\xe5\xf5\xed\xe8\xea\xe0">\xcc\xe5\xeb\xea\xe0\xff \xe1\xfb\xf2\xee\xe2\xe0\xff \xf2\xe5\xf5\xed\xe8\xea\xe0</a></li><li><a href="/goods/home/posuda" title="\xcf\xee\xf1\xf3\xe4\xe0">\xcf\xee\xf1\xf3\xe4\xe0</a></li><li><a href="/goods/home/audio-video-tehnika-televizory" title="\xc0\xf3\xe4\xe8\xee-\xe2\xe8\xe4\xe5\xee \xf2\xe5\xf5\xed\xe8\xea\xe0 \xe8 \xf2\xe5\xeb\xe5\xe2\xe8\xe7\xee\xf0\xfb">\xc0\xf3\xe4\xe8\xee-\xe2\xe8\xe4\xe5\xee \xf2\xe5\xf5\xed\xe8\xea\xe0 \xe8 \xf2\xe5\xeb\xe5\xe2\xe8\xe7\xee\xf0\xfb</a></li><li><a href="/goods/home/kompjutery-orgtehnika-aksessuary" title="\xca\xee\xec\xef\xfc\xfe\xf2\xe5\xf0\xfb, \xee\xf0\xe3\xf2\xe5\xf5\xed\xe8\xea\xe0, \xe0\xea\xf1\xe5\xf1\xf1\xf3\xe0\xf0\xfb">\xca\xee\xec\xef\xfc\xfe\xf2\xe5\xf0\xfb, \xee\xf0\xe3\xf2\xe5\xf5\xed\xe8\xea\xe0, \xe0\xea\xf1\xe5\xf1\xf1\xf3\xe0\xf0\xfb</a></li><li><a href="/goods/home/telefony" title="\xd2\xe5\xeb\xe5\xf4\xee\xed\xfb">\xd2\xe5\xeb\xe5\xf4\xee\xed\xfb</a></li><li><a href="/goods/home/klimaticheskaja-tehnika" title="\xca\xeb\xe8\xec\xe0\xf2\xe8\xf7\xe5\xf1\xea\xe0\xff \xf2\xe5\xf5\xed\xe8\xea\xe0">\xca\xeb\xe8\xec\xe0\xf2\xe8\xf7\xe5\xf1\xea\xe0\xff \xf2\xe5\xf5\xed\xe8\xea\xe0</a></li><li><a href="/goods/home/santehnika" title="\xd1\xe0\xed\xf2\xe5\xf5\xed\xe8\xea\xe0">\xd1\xe0\xed\xf2\xe5\xf5\xed\xe8\xea\xe0</a></li><li><a href="/goods/home/mebel" title="\xcc\xe5\xe1\xe5\xeb\xfc">\xcc\xe5\xe1\xe5\xeb\xfc</a></li><li><a href="/goods/home/dekor" title="\xc4\xe5\xea\xee\xf0 \xe4\xeb\xff \xe4\xee\xec\xe0 \xe8 \xef\xf0\xe0\xe7\xe4\xed\xe8\xea\xee\xe2">\xc4\xe5\xea\xee\xf0 \xe4\xeb\xff \xe4\xee\xec\xe0 \xe8 \xef\xf0\xe0\xe7\xe4\xed\xe8\xea\xee\xe2</a></li><li><a href="/goods/home/sportivnye-tovary" title="\xd1\xef\xee\xf0\xf2\xe8\xe2\xed\xfb\xe5 \xf2\xee\xe2\xe0\xf0\xfb">\xd1\xef\xee\xf0\xf2\xe8\xe2\xed\xfb\xe5 \xf2\xee\xe2\xe0\xf0\xfb</a></li><li><a href="/goods/home/ohota-rybalka-turizm" title="\xce\xf5\xee\xf2\xe0, \xf0\xfb\xe1\xe0\xeb\xea\xe0, \xf2\xf3\xf0\xe8\xe7\xec">\xce\xf5\xee\xf2\xe0, \xf0\xfb\xe1\xe0\xeb\xea\xe0, \xf2\xf3\xf0\xe8\xe7\xec</a></li><li><a href="/goods/home/hoztovary" title="\xd5\xee\xe7\xf2\xee\xe2\xe0\xf0\xfb">\xd5\xee\xe7\xf2\xee\xe2\xe0\xf0\xfb</a></li></ul> - </li><li><a class="bcrumbs-link" href="/goods/home/produkty-pitanija"><span>\xcf\xf0\xee\xe4\xf3\xea\xf2\xfb \xef\xe8\xf2\xe0\xed\xe8\xff</span></a><ul class="bcrumbs-submenu"><li><a href="/goods/home/produkty-pitanija/sladosti" title="\xd1\xeb\xe0\xe4\xee\xf1\xf2\xe8">\xd1\xeb\xe0\xe4\xee\xf1\xf2\xe8</a></li><li><a href="/goods/home/produkty-pitanija/chaj-kofe-kakao" title="\xd7\xe0\xe9, \xca\xee\xf4\xe5, \xca\xe0\xea\xe0\xee">\xd7\xe0\xe9, \xca\xee\xf4\xe5, \xca\xe0\xea\xe0\xee</a></li><li><a href="/goods/home/produkty-pitanija/ovoshhi-frukty-jagody-griby" title="\xce\xe2\xee\xf9\xe8, \xf4\xf0\xf3\xea\xf2\xfb, \xff\xe3\xee\xe4\xfb, \xe3\xf0\xe8\xe1\xfb">\xce\xe2\xee\xf9\xe8, \xf4\xf0\xf3\xea\xf2\xfb, \xff\xe3\xee\xe4\xfb, \xe3\xf0\xe8\xe1\xfb</a></li><li><a href="/goods/home/produkty-pitanija/ryba-moreprodukty" title="\xd0\xfb\xe1\xe0 \xe8 \xec\xee\xf0\xe5\xef\xf0\xee\xe4\xf3\xea\xf2\xfb">\xd0\xfb\xe1\xe0 \xe8 \xec\xee\xf0\xe5\xef\xf0\xee\xe4\xf3\xea\xf2\xfb</a></li><li><a href="/goods/home/produkty-pitanija/mjaso" title="\xcc\xff\xf1\xee">\xcc\xff\xf1\xee</a></li><li><a href="/goods/home/produkty-pitanija/jajca-molochnye-produkty" title="\xdf\xe9\xf6\xe0 \xe8 \xec\xee\xeb\xee\xf7\xed\xfb\xe5 \xef\xf0\xee\xe4\xf3\xea\xf2\xfb">\xdf\xe9\xf6\xe0 \xe8 \xec\xee\xeb\xee\xf7\xed\xfb\xe5 \xef\xf0\xee\xe4\xf3\xea\xf2\xfb</a></li><li><a href="/goods/home/produkty-pitanija/bezalkogolnye-napitki" title="\xc1\xe5\xe7\xe0\xeb\xea\xee\xe3\xee\xeb\xfc\xed\xfb\xe5 \xed\xe0\xef\xe8\xf2\xea\xe8">\xc1\xe5\xe7\xe0\xeb\xea\xee\xe3\xee\xeb\xfc\xed\xfb\xe5 \xed\xe0\xef\xe8\xf2\xea\xe8</a></li><li><a href="/goods/home/produkty-pitanija/bakaleja" title="\xc1\xe0\xea\xe0\xeb\xe5\xff">\xc1\xe0\xea\xe0\xeb\xe5\xff</a></li><li><a href="/goods/home/produkty-pitanija/polufabrikaty" title="\xcf\xee\xeb\xf3\xf4\xe0\xe1\xf0\xe8\xea\xe0\xf2\xfb">\xcf\xee\xeb\xf3\xf4\xe0\xe1\xf0\xe8\xea\xe0\xf2\xfb</a></li><li><a href="/goods/home/produkty-pitanija/maslo-rastitelnoe" title="\xcc\xe0\xf1\xeb\xee \xf0\xe0\xf1\xf2\xe8\xf2\xe5\xeb\xfc\xed\xee\xe5">\xcc\xe0\xf1\xeb\xee \xf0\xe0\xf1\xf2\xe8\xf2\xe5\xeb\xfc\xed\xee\xe5</a></li><li><a href="/goods/home/produkty-pitanija/detskoe-pitanie" title="\xc4\xe5\xf2\xf1\xea\xee\xe5 \xef\xe8\xf2\xe0\xed\xe8\xe5">\xc4\xe5\xf2\xf1\xea\xee\xe5 \xef\xe8\xf2\xe0\xed\xe8\xe5</a></li><li><a href="/goods/home/produkty-pitanija/spec-produkty" title="\xd1\xef\xe5\xf6-\xef\xf0\xee\xe4\xf3\xea\xf2\xfb">\xd1\xef\xe5\xf6-\xef\xf0\xee\xe4\xf3\xea\xf2\xfb</a></li><li><a href="/goods/home/produkty-pitanija/1256" title="\xc4\xf0\xf3\xe3\xee\xe5">\xc4\xf0\xf3\xe3\xee\xe5</a></li></ul> - </li><li><span>\xc1\xe0\xea\xe0\xeb\xe5\xff</span></li></ul></div></div></div><div id="newview-cat" class="row"><div class="top-message hidden"></div><div class="maincol goodsresult"><h1 class="mc-title--main">\xc1\xe0\xea\xe0\xeb\xe5\xff</h1><div class="row nspanel"><div class="view-mode">\xe2\xe8\xe4: <a class="view-mode-ele view-list" href="javascript:void(0)" data-cmode="display_mode"></a><a class="view-mode-ele view-plate" href="javascript:void(0)" data-cmode="display_mode"></a> <a class="view-mode-ele view-old" href="javascript:void(0)" data-cmode="display_mode"></a></div><div class="sort-type"><label for="sort_id"><i class="sort-type-icon" title="\xc2\xe8\xe4\xfb \xf1\xee\xf0\xf2\xe8\xf0\xee\xe2\xea\xe8"></i></label>
+    <select style="width:160px;" class="widthselect sorting" id="sort_id"><option value="0" data-url="" data-auctions="0" selected>\xce\xe1\xfb\xf7\xed\xe0\xff</option><option value="1" data-url="date" data-auctions="1">\xcf\xee \xe4\xe0\xf2\xe5 \xee\xea\xee\xed\xf7\xe0\xed\xe8\xff \xf2\xee\xf0\xe3\xee\xe2</option><option value="4" data-url="bids" data-auctions="1">\xcf\xee \xea\xee\xeb\xe8\xf7\xe5\xf1\xf2\xe2\xf3 \xf1\xf2\xe0\xe2\xee\xea</option><option value="2" data-url="price" data-auctions="0">\xce\xf2 \xe4\xe5\xf8\xe5\xe2\xfb\xf5 \xea \xe4\xee\xf0\xee\xe3\xe8\xec</option><option value="3" data-url="pricedesc" data-auctions="0">\xce\xf2 \xe4\xee\xf0\xee\xe3\xe8\xf5 \xea \xe4\xe5\xf8\xe5\xe2\xfb\xec</option><option value="5" data-url="new" data-auctions="0">\xcf\xee \xe4\xe0\xf2\xe5 \xf1\xee\xe7\xe4\xe0\xed\xe8\xff</option><option value="7" data-url="rating" data-auctions="0">\xcf\xee \xf0\xe5\xe9\xf2\xe8\xed\xe3\xf3 \xef\xee\xef\xf3\xeb\xff\xf0\xed\xee\xf1\xf2\xe8</option></select>
+</div><div class="msg-type-wr"><a href="javascript:void(0)" class="ks-button  filter-param active" data-filter-type="type_anno"  data-filter-id="1">\xce\xe1\xfa\xff\xe2\xeb\xe5\xed\xe8\xff</a><a href="javascript:void(0)" class="ks-button filter-param" data-filter-type="type_anno" data-filter-id="2">\xc0\xf3\xea\xf6\xe8\xee\xed\xfb</a>
+</div><div class="fs-cat-list">
+            <a href="javascript:void(0)" class="ks-button filter-param active" data-filter-type="condition"  data-filter-id="0" data-filter-title="\xd1\xee\xf1\xf2\xee\xff\xed\xe8\xe5 \xeb\xfe\xe1\xee\xe5">\xc2\xf1\xe5</a><a href="javascript:void(0)" class="ks-button filter-param" data-filter-type="condition"  data-filter-id="1">\xcd\xee\xe2\xee\xe5</a><a href="javascript:void(0)" class="ks-button filter-param" data-filter-type="condition" data-filter-id="2">\xc1/\xd3</a>
+        </div><div class="price-blk-wr"> \xf6\xe5\xed\xe0:&nbsp;<input class="filter-price filter-param" data-filter-type="price_from" data-filter-id="0" name="pricefrom" type="text" value="" autocomplete="off" placeholder="\xee\xf2">&nbsp;-&nbsp;<input class="filter-price filter-param"  data-filter-type="price_to" data-filter-id="0" name="priceto" type="text" value="" autocomplete="off" placeholder="\xe4\xee"><a href="javascript:void(0);" class="btn-price  button-sm-ok" >ok</a>
+        </div></div>
+<div class="search-dop-info row">
+    <div class="clearfix"><div class="search-dop-info row"><div class="mc-title-submain-dop"><span class="select-region-wr">
+            <a class="bcrumbs-region" href="javascript:void(0)">
+                <i class="icon place-icon"></i>
+                <span>\xcf\xee\xe8\xf1\xea \xef\xee \xe3\xee\xf0\xee\xe4\xf3</span>
+                <div class="dropall" style="display:none;">X</div>
+            </a><div class="bc-region-container">
+<div class="cntr">
+    <div class="bc-region-preloader"></div>
+    <div class="close-btn">x</div>
+    <div class="main-ua-cities-wr">
+        <span class="head">\xcf\xee\xe8\xf1\xea \xef\xee \xea\xf0\xf3\xef\xed\xfb\xec \xe3\xee\xf0\xee\xe4\xe0\xec \xd3\xea\xf0\xe0\xe8\xed\xfb</span>
+        <ul class="bc-r-city"><li><a href="javascript:void(0)" data-cityid="1224" data-regionid="2" data-cityurl="vinnitsa">\xc2\xe8\xed\xed\xe8\xf6\xe0</a></li><li><a href="javascript:void(0)" data-cityid="3914" data-regionid="4" data-cityurl="dnepr">\xc4\xed\xe5\xef\xf0</a></li><li><a href="javascript:void(0)" data-cityid="6773" data-regionid="6" data-cityurl="zhitomir">\xc6\xe8\xf2\xee\xec\xe8\xf0</a></li><li><a href="javascript:void(0)" data-cityid="8834" data-regionid="8" data-cityurl="zaporozhie">\xc7\xe0\xef\xee\xf0\xee\xe6\xfc\xe5</a></li><li><a href="javascript:void(0)" data-cityid="9768" data-regionid="9" data-cityurl="ivano-frankovsk">\xc8\xe2\xe0\xed\xee-\xd4\xf0\xe0\xed\xea\xee\xe2\xf1\xea</a></li><li><a href="javascript:void(0)" data-cityid="10727" data-regionid="10" data-cityurl="kiev">\xca\xe8\xe5\xe2</a></li><li><a href="javascript:void(0)" data-cityid="18194" data-regionid="16" data-cityurl="kremenchug">\xca\xf0\xe5\xec\xe5\xed\xf7\xf3\xe3</a></li><li><a href="javascript:void(0)" data-cityid="4190" data-regionid="4" data-cityurl="krivoj-rog">\xca\xf0\xe8\xe2\xee\xe9 \xd0\xee\xe3</a></li><li><a href="javascript:void(0)" data-cityid="11943" data-regionid="11" data-cityurl="kropivnitskiy">\xca\xf0\xee\xef\xe8\xe2\xed\xe8\xf6\xea\xe8\xe9</a></li><li><a href="javascript:void(0)" data-cityid="3031" data-regionid="3" data-cityurl="lutsk">\xcb\xf3\xf6\xea</a></li><li><a href="javascript:void(0)" data-cityid="14439" data-regionid="13" data-cityurl="lvov">\xcb\xfc\xe2\xee\xe2</a></li><li><a href="javascript:void(0)" data-cityid="5650" data-regionid="5" data-cityurl="mariupol">\xcc\xe0\xf0\xe8\xf3\xef\xee\xeb\xfc</a></li><li><a href="javascript:void(0)" data-cityid="15848" data-regionid="14" data-cityurl="nikolaev">\xcd\xe8\xea\xee\xeb\xe0\xe5\xe2</a></li><li><a href="javascript:void(0)" data-cityid="17013" data-regionid="15" data-cityurl="odessa">\xce\xe4\xe5\xf1\xf1\xe0</a></li><li><a href="javascript:void(0)" data-cityid="18734" data-regionid="16" data-cityurl="poltava">\xcf\xee\xeb\xf2\xe0\xe2\xe0</a></li><li><a href="javascript:void(0)" data-cityid="20111" data-regionid="17" data-cityurl="rovno">\xd0\xee\xe2\xed\xee</a></li><li><a href="javascript:void(0)" data-cityid="21600" data-regionid="18" data-cityurl="sumy">\xd1\xf3\xec\xfb</a></li><li><a href="javascript:void(0)" data-cityid="22733" data-regionid="19" data-cityurl="ternopol">\xd2\xe5\xf0\xed\xee\xef\xee\xeb\xfc</a></li><li><a href="javascript:void(0)" data-cityid="8515" data-regionid="7" data-cityurl="uzhgorod">\xd3\xe6\xe3\xee\xf0\xee\xe4</a></li><li><a href="javascript:void(0)" data-cityid="24412" data-regionid="20" data-cityurl="kharkov">\xd5\xe0\xf0\xfc\xea\xee\xe2</a></li><li><a href="javascript:void(0)" data-cityid="25207" data-regionid="21" data-cityurl="kherson">\xd5\xe5\xf0\xf1\xee\xed</a></li><li><a href="javascript:void(0)" data-cityid="26576" data-regionid="22" data-cityurl="khemelnitskiy">\xd5\xec\xe5\xeb\xfc\xed\xe8\xf6\xea\xe8\xe9</a></li><li><a href="javascript:void(0)" data-cityid="27484" data-regionid="23" data-cityurl="cherkassy">\xd7\xe5\xf0\xea\xe0\xf1\xf1\xfb</a></li><li><a href="javascript:void(0)" data-cityid="28990" data-regionid="24" data-cityurl="chernigov">\xd7\xe5\xf0\xed\xe8\xe3\xee\xe2</a></li><li><a href="javascript:void(0)" data-cityid="29440" data-regionid="25" data-cityurl="chernovtsy">\xd7\xe5\xf0\xed\xee\xe2\xf6\xfb</a></li></ul>
+    </div>
+    <div class="bc-r-oblast-wr">
+        <span class="head">\xcd\xe5 \xed\xe0\xf8\xeb\xe8 \xf1\xe2\xee\xe9 \xe3\xee\xf0\xee\xe4? \xc8\xf1\xea\xe0\xf2\xfc \xf1\xe2\xee\xe9 \xe3\xee\xf0\xee\xe4 \xef\xee \xee\xe1\xeb\xe0\xf1\xf2\xff\xec</span>
+        <ul class="bc-r-oblast"><li><a href="javascript:void(0)" data-regionid="1" name-regionid="\xc2\xf1\xff \xc0\xd0 \xca\xf0\xfb\xec">\xc0\xd0 \xca\xf0\xfb\xec</a></li><li><a href="javascript:void(0)" data-regionid="2" name-regionid="\xc2\xf1\xff \xc2\xe8\xed\xed\xe8\xf6\xea\xe0\xff \xee\xe1\xeb\xe0\xf1\xf2\xfc">\xc2\xe8\xed\xed\xe8\xf6\xea\xe0\xff</a></li><li><a href="javascript:void(0)" data-regionid="3" name-regionid="\xc2\xf1\xff \xc2\xee\xeb\xfb\xed\xf1\xea\xe0\xff \xee\xe1\xeb\xe0\xf1\xf2\xfc">\xc2\xee\xeb\xfb\xed\xf1\xea\xe0\xff</a></li><li><a href="javascript:void(0)" data-regionid="4" name-regionid="\xc2\xf1\xff \xc4\xed\xe5\xef\xf0\xee\xef\xe5\xf2\xf0\xee\xe2\xf1\xea\xe0\xff \xee\xe1\xeb\xe0\xf1\xf2\xfc">\xc4\xed\xe5\xef\xf0\xee\xef\xe5\xf2\xf0\xee\xe2\xf1\xea\xe0\xff</a></li><li><a href="javascript:void(0)" data-regionid="5" name-regionid="\xc2\xf1\xff \xc4\xee\xed\xe5\xf6\xea\xe0\xff \xee\xe1\xeb\xe0\xf1\xf2\xfc">\xc4\xee\xed\xe5\xf6\xea\xe0\xff</a></li><li><a href="javascript:void(0)" data-regionid="6" name-regionid="\xc2\xf1\xff \xc6\xe8\xf2\xee\xec\xe8\xf0\xf1\xea\xe0\xff \xee\xe1\xeb\xe0\xf1\xf2\xfc">\xc6\xe8\xf2\xee\xec\xe8\xf0\xf1\xea\xe0\xff</a></li><li><a href="javascript:void(0)" data-regionid="7" name-regionid="\xc2\xf1\xff \xc7\xe0\xea\xe0\xf0\xef\xe0\xf2\xf1\xea\xe0\xff \xee\xe1\xeb\xe0\xf1\xf2\xfc">\xc7\xe0\xea\xe0\xf0\xef\xe0\xf2\xf1\xea\xe0\xff</a></li><li><a href="javascript:void(0)" data-regionid="8" name-regionid="\xc2\xf1\xff \xc7\xe0\xef\xee\xf0\xee\xe6\xf1\xea\xe0\xff \xee\xe1\xeb\xe0\xf1\xf2\xfc">\xc7\xe0\xef\xee\xf0\xee\xe6\xf1\xea\xe0\xff</a></li><li><a href="javascript:void(0)" data-regionid="9" name-regionid="\xc2\xf1\xff \xc8\xe2\xe0\xed\xee-\xd4\xf0\xe0\xed\xea\xee\xe2\xf1\xea\xe0\xff \xee\xe1\xeb\xe0\xf1\xf2\xfc">\xc8\xe2\xe0\xed\xee-\xd4\xf0\xe0\xed\xea\xee\xe2\xf1\xea\xe0\xff</a></li><li><a href="javascript:void(0)" data-regionid="10" name-regionid="\xc2\xf1\xff \xca\xe8\xe5\xe2\xf1\xea\xe0\xff \xee\xe1\xeb\xe0\xf1\xf2\xfc">\xca\xe8\xe5\xe2\xf1\xea\xe0\xff</a></li><li><a href="javascript:void(0)" data-regionid="11" name-regionid="\xc2\xf1\xff \xca\xe8\xf0\xee\xe2\xee\xe3\xf0\xe0\xe4\xf1\xea\xe0\xff \xee\xe1\xeb\xe0\xf1\xf2\xfc">\xca\xe8\xf0\xee\xe2\xee\xe3\xf0\xe0\xe4\xf1\xea\xe0\xff</a></li><li><a href="javascript:void(0)" data-regionid="12" name-regionid="\xc2\xf1\xff \xcb\xf3\xe3\xe0\xed\xf1\xea\xe0\xff \xee\xe1\xeb\xe0\xf1\xf2\xfc">\xcb\xf3\xe3\xe0\xed\xf1\xea\xe0\xff</a></li><li><a href="javascript:void(0)" data-regionid="13" name-regionid="\xc2\xf1\xff \xcb\xfc\xe2\xee\xe2\xf1\xea\xe0\xff \xee\xe1\xeb\xe0\xf1\xf2\xfc">\xcb\xfc\xe2\xee\xe2\xf1\xea\xe0\xff</a></li><li><a href="javascript:void(0)" data-regionid="14" name-regionid="\xc2\xf1\xff \xcd\xe8\xea\xee\xeb\xe0\xe5\xe2\xf1\xea\xe0\xff \xee\xe1\xeb\xe0\xf1\xf2\xfc">\xcd\xe8\xea\xee\xeb\xe0\xe5\xe2\xf1\xea\xe0\xff</a></li><li><a href="javascript:void(0)" data-regionid="15" name-regionid="\xc2\xf1\xff \xce\xe4\xe5\xf1\xf1\xea\xe0\xff \xee\xe1\xeb\xe0\xf1\xf2\xfc">\xce\xe4\xe5\xf1\xf1\xea\xe0\xff</a></li><li><a href="javascript:void(0)" data-regionid="16" name-regionid="\xc2\xf1\xff \xcf\xee\xeb\xf2\xe0\xe2\xf1\xea\xe0\xff \xee\xe1\xeb\xe0\xf1\xf2\xfc">\xcf\xee\xeb\xf2\xe0\xe2\xf1\xea\xe0\xff</a></li><li><a href="javascript:void(0)" data-regionid="17" name-regionid="\xc2\xf1\xff \xd0\xee\xe2\xe5\xed\xf1\xea\xe0\xff \xee\xe1\xeb\xe0\xf1\xf2\xfc">\xd0\xee\xe2\xe5\xed\xf1\xea\xe0\xff</a></li><li><a href="javascript:void(0)" data-regionid="18" name-regionid="\xc2\xf1\xff \xd1\xf3\xec\xf1\xea\xe0\xff \xee\xe1\xeb\xe0\xf1\xf2\xfc">\xd1\xf3\xec\xf1\xea\xe0\xff</a></li><li><a href="javascript:void(0)" data-regionid="19" name-regionid="\xc2\xf1\xff \xd2\xe5\xf0\xed\xee\xef\xee\xeb\xfc\xf1\xea\xe0\xff \xee\xe1\xeb\xe0\xf1\xf2\xfc">\xd2\xe5\xf0\xed\xee\xef\xee\xeb\xfc\xf1\xea\xe0\xff</a></li><li><a href="javascript:void(0)" data-regionid="20" name-regionid="\xc2\xf1\xff \xd5\xe0\xf0\xfc\xea\xee\xe2\xf1\xea\xe0\xff \xee\xe1\xeb\xe0\xf1\xf2\xfc">\xd5\xe0\xf0\xfc\xea\xee\xe2\xf1\xea\xe0\xff</a></li><li><a href="javascript:void(0)" data-regionid="21" name-regionid="\xc2\xf1\xff \xd5\xe5\xf0\xf1\xee\xed\xf1\xea\xe0\xff \xee\xe1\xeb\xe0\xf1\xf2\xfc">\xd5\xe5\xf0\xf1\xee\xed\xf1\xea\xe0\xff</a></li><li><a href="javascript:void(0)" data-regionid="22" name-regionid="\xc2\xf1\xff \xd5\xec\xe5\xeb\xfc\xed\xe8\xf6\xea\xe0\xff \xee\xe1\xeb\xe0\xf1\xf2\xfc">\xd5\xec\xe5\xeb\xfc\xed\xe8\xf6\xea\xe0\xff</a></li><li><a href="javascript:void(0)" data-regionid="23" name-regionid="\xc2\xf1\xff \xd7\xe5\xf0\xea\xe0\xf1\xf1\xea\xe0\xff \xee\xe1\xeb\xe0\xf1\xf2\xfc">\xd7\xe5\xf0\xea\xe0\xf1\xf1\xea\xe0\xff</a></li><li><a href="javascript:void(0)" data-regionid="24" name-regionid="\xc2\xf1\xff \xd7\xe5\xf0\xed\xe8\xe3\xee\xe2\xf1\xea\xe0\xff \xee\xe1\xeb\xe0\xf1\xf2\xfc">\xd7\xe5\xf0\xed\xe8\xe3\xee\xe2\xf1\xea\xe0\xff</a></li><li><a href="javascript:void(0)" data-regionid="25" name-regionid="\xc2\xf1\xff \xd7\xe5\xf0\xed\xee\xe2\xe8\xf6\xea\xe0\xff \xee\xe1\xeb\xe0\xf1\xf2\xfc">\xd7\xe5\xf0\xed\xee\xe2\xe8\xf6\xea\xe0\xff</a></li></ul>
+    </div>
+    <div id="oblastcity-wr"></div>
+</div>
+</div></span></div><div class="mc-title-submain-wr"><h2 class="mc-title--submain matches-all matches-li">\xcd\xe0\xe9\xe4\xe5\xed\xee \xee\xe1\xfa\xff\xe2\xeb\xe5\xed\xe8\xe9 \xe2 \xd3\xea\xf0\xe0\xe8\xed\xe5 -
+            <span>1305</span></h2></div></div></div><div class="sfp-sf-selected row"></div></div><div class="ng-cards-wrapper row ng-listview"><div class="ng-card placeholder-goods  top-place ">
+                            <div class="card-win">
+                                <div class="card-hover-win">
+                                    <div class="card-img-wr">&nbsp;</div>
+                                    <div class="card-desc">
+                                        <div class="ph_ele ph__title">&nbsp;</div>
+                                        <div class="ph_ele ph__title" style="width: 90%;">&nbsp;</div>
+                                        <div class="ph_ele ph__price">&nbsp;</div>
+                                        <div class="ph_ele ph__data" style="width: 38%;">&nbsp;</div>
+                                        <div class="ph_ele ph__data" style="width: 30%;">&nbsp;</div>
+                                        <div class="ph_ele ph__data" style="width: 67%;">&nbsp;</div>
+                                        <div class="ph_ele ph__data" style="width: 57%;">&nbsp;</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div><div class="ng-card placeholder-goods  top-place ">
+                            <div class="card-win">
+                                <div class="card-hover-win">
+                                    <div class="card-img-wr">&nbsp;</div>
+                                    <div class="card-desc">
+                                        <div class="ph_ele ph__title">&nbsp;</div>
+                                        <div class="ph_ele ph__title" style="width: 90%;">&nbsp;</div>
+                                        <div class="ph_ele ph__price">&nbsp;</div>
+                                        <div class="ph_ele ph__data" style="width: 38%;">&nbsp;</div>
+                                        <div class="ph_ele ph__data" style="width: 30%;">&nbsp;</div>
+                                        <div class="ph_ele ph__data" style="width: 67%;">&nbsp;</div>
+                                        <div class="ph_ele ph__data" style="width: 57%;">&nbsp;</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div><div class="ng-card placeholder-goods  top-place ">
+                            <div class="card-win">
+                                <div class="card-hover-win">
+                                    <div class="card-img-wr">&nbsp;</div>
+                                    <div class="card-desc">
+                                        <div class="ph_ele ph__title">&nbsp;</div>
+                                        <div class="ph_ele ph__title" style="width: 90%;">&nbsp;</div>
+                                        <div class="ph_ele ph__price">&nbsp;</div>
+                                        <div class="ph_ele ph__data" style="width: 38%;">&nbsp;</div>
+                                        <div class="ph_ele ph__data" style="width: 30%;">&nbsp;</div>
+                                        <div class="ph_ele ph__data" style="width: 67%;">&nbsp;</div>
+                                        <div class="ph_ele ph__data" style="width: 57%;">&nbsp;</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div><div class="ng-card placeholder-goods  top-place ">
+                            <div class="card-win">
+                                <div class="card-hover-win">
+                                    <div class="card-img-wr">&nbsp;</div>
+                                    <div class="card-desc">
+                                        <div class="ph_ele ph__title">&nbsp;</div>
+                                        <div class="ph_ele ph__title" style="width: 90%;">&nbsp;</div>
+                                        <div class="ph_ele ph__price">&nbsp;</div>
+                                        <div class="ph_ele ph__data" style="width: 38%;">&nbsp;</div>
+                                        <div class="ph_ele ph__data" style="width: 30%;">&nbsp;</div>
+                                        <div class="ph_ele ph__data" style="width: 67%;">&nbsp;</div>
+                                        <div class="ph_ele ph__data" style="width: 57%;">&nbsp;</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div><div class="ng-card" id="24638333">
+                              <div class="card-win">
+                                  <div class="card-hover-win">
+                                      <div class="card-img-wr">                             
+                                      <a href="/tema-24638333.html" target="_self" ><img src="https://pic9.kidstaff.net/pictures_user/414/1029884/24638333/1029884_20171114071931_8341_250x250.jpg" alt="\xcc\xff\xf1\xed\xe0\xff \xf2\xf3\xf8\xe5\xed\xea\xe0 " ></a>
+                                      </div>
+                                      <div class="card-desc"><div class="card-title"><h3><a href="/tema-24638333.html"  target="_self" ><strong>\xcc\xff\xf1\xed\xe0\xff \xf2\xf3\xf8\xe5\xed\xea\xe0 </strong></a></h3></div><div class="card-user-info"><div class="c-name-ele">
+                              <span class="cui-name"><a rel="nofollow" href="/user-1029884.html">Michael M</a></span>
+                                 <div class="rate_small"><span class="rate-value">9.68</span>&nbsp;<span class="positive-review">(100%)</span>
+                                 </div>
+                              </div><div class="c-place-ele"><span class="cui-place f-small"> \xd3\xe6\xe3\xee\xf0\xee\xe4</span></div><div class="premshop-link"><a href="/store-italy4you"><i class="icon-type premshop" title="\xcf\xf0\xe5\xec\xe8\xf3\xec \xec\xe0\xe3\xe0\xe7\xe8\xed"></i>&nbsp;\xcf\xf0\xe5\xec\xe8\xf3\xec \xec\xe0\xe3\xe0\xe7\xe8\xed</a></div></div><div class="card-price"><span class="card-price-ele"><span class="price-val">47</span><span class="price-cur f-small">&nbsp;\xe3\xf0\xed.</span></span></div><div class="card-condition"><strong>\xd2\xee\xe2\xe0\xf0: </strong>\xcd\xee\xe2\xfb\xe9</div><div class="tth-tovar"><ul><li>\xc2\xe8\xe4</li> <li>\xca\xee\xed\xf1\xe5\xf0\xe2\xfb</li> </ul></div></div></div></div></div><div class="ng-card" id="20108374">
+                              <div class="card-win">
+                                  <div class="card-hover-win">
+                                      <div class="card-img-wr">                             
+                                      <a href="/tema-20108374.html" target="_self" ><img src="https://pic9.kidstaff.net/pictures_user/437/1086492/20108374/1086492_20160920072940_1994_250x250.jpg" alt="\xca\xf0\xf3\xef\xe0 \xe3\xf0\xe5\xf7\xe0\xed\xe0 \xe7\xe5\xeb\xe5\xed\xe0 \xed\xe5\xf1\xec\xe0\xe6\xe5\xed\xe0 \xe3\xf0\xe5\xf7\xea\xe0 \xe7\xe5\xeb\xe5\xed\xe0" ></a>
+                                      </div>
+                                      <div class="card-desc"><div class="card-title"><h3><a href="/tema-20108374.html"  target="_self" ><strong>\xca\xf0\xf3\xef\xe0 \xe3\xf0\xe5\xf7\xe0\xed\xe0 \xe7\xe5\xeb\xe5\xed\xe0 \xed\xe5\xf1\xec\xe0\xe6\xe5\xed\xe0 \xe3\xf0\xe5\xf7\xea\xe0 \xe7\xe5\xeb\xe5\xed\xe0</strong></a></h3></div><div class="card-user-info"><div class="c-name-ele">
+                              <span class="cui-name"><a rel="nofollow" href="/user-1086492.html">violet71</a></span>
+                                 <div class="rate_small"><span class="rate-value">9.61</span>&nbsp;<span class="positive-review">(99%)</span>
+                                 </div>
+                              </div><div class="c-place-ele"><span class="cui-place f-small"> \xca\xe8\xe5\xe2</span></div></div><div class="card-price"><span class="card-price-ele"><span class="price-val">40</span><span class="price-cur f-small">&nbsp;\xe3\xf0\xed.</span></span></div><div class="card-condition"><strong>\xd2\xee\xe2\xe0\xf0: </strong>\xcd\xee\xe2\xfb\xe9</div><div class="tth-tovar"><ul><li>\xc2\xe8\xe4</li> <li>\xca\xf0\xf3\xef\xfb</li> </ul><ul><li>\xce\xe1\xfa\xe5\xec, \xea\xe3</li> <li>1</li> </ul><ul><li>\xca\xf0\xf3\xef\xe0</li> <li>\xc3\xf0\xe5\xf7\xea\xe0</li> </ul></div></div></div></div></div><div class="ng-card" id="19145561">
+                              <div class="card-win">
+                                  <div class="card-hover-win">
+                                      <div class="card-img-wr">                             
+                                      <a href="/tema-19145561.html" target="_self" ><img src="https://pic8.kidstaff.net/pictures_user/28/126346/19145561/126346_20180609062502_1087_250x250.jpg" alt="\xd1\xd8\xc0 \xc1\xe0\xf0\xe1\xe5\xea\xfe \xf1\xee\xf3\xf1 SWEET BABY RAY&acuteS Original BBQ Sauce" ></a>
+                                      </div>
+                                      <div class="card-desc"><div class="card-title"><h3><a href="/tema-19145561.html"  target="_self" ><strong>\xd1\xd8\xc0 \xc1\xe0\xf0\xe1\xe5\xea\xfe \xf1\xee\xf3\xf1 SWEET BABY RAY&acuteS Original BBQ Sauce</strong></a></h3></div><div class="card-user-info"><div class="c-name-ele">
+                              <span class="cui-name"><a rel="nofollow" href="/user-126346.html">Ivanna_Dorosh</a></span>
+                                 <div class="rate_small"><span class="rate-value">9.70</span>&nbsp;<span class="positive-review">(100%)</span>
+                                 </div>
+                              </div><div class="premshop-link"><a href="/store-usa-elit"><i class="icon-type premshop" title="\xcf\xf0\xe5\xec\xe8\xf3\xec \xec\xe0\xe3\xe0\xe7\xe8\xed"></i>&nbsp;\xcf\xf0\xe5\xec\xe8\xf3\xec \xec\xe0\xe3\xe0\xe7\xe8\xed</a></div></div><div class="card-price"><span class="card-price-ele"><span class="price-val">400</span><span class="price-cur f-small">&nbsp;\xe3\xf0\xed.</span></span></div><div class="card-condition"><strong>\xd2\xee\xe2\xe0\xf0: </strong>\xcd\xee\xe2\xfb\xe9</div><div class="tth-tovar"><ul><li>\xc2\xe8\xe4</li> <li>\xd1\xee\xf3\xf1\xfb</li> </ul></div></div></div></div></div><div class="ng-card" id="19145315">
+                              <div class="card-win">
+                                  <div class="card-hover-win">
+                                      <div class="card-img-wr">                             
+                                      <a href="/tema-19145315.html" target="_self" ><img src="https://pic11.kidstaff.net/pictures_user/28/126346/19145315/126346_20160624094141_4901_250x250.jpg" alt="\xd1\xd8\xc0 \xd1\xee\xf3\xf1-\xe4\xe8\xef Hidden Valley Original RANCH Dressing " ></a>
+                                      </div>
+                                      <div class="card-desc"><div class="card-title"><h3><a href="/tema-19145315.html"  target="_self" ><strong>\xd1\xd8\xc0 \xd1\xee\xf3\xf1-\xe4\xe8\xef Hidden Valley Original RANCH Dressing </strong></a></h3></div><div class="card-user-info"><div class="c-name-ele">
+                              <span class="cui-name"><a rel="nofollow" href="/user-126346.html">Ivanna_Dorosh</a></span>
+                                 <div class="rate_small"><span class="rate-value">9.70</span>&nbsp;<span class="positive-review">(100%)</span>
+                                 </div>
+                              </div><div class="premshop-link"><a href="/store-usa-elit"><i class="icon-type premshop" title="\xcf\xf0\xe5\xec\xe8\xf3\xec \xec\xe0\xe3\xe0\xe7\xe8\xed"></i>&nbsp;\xcf\xf0\xe5\xec\xe8\xf3\xec \xec\xe0\xe3\xe0\xe7\xe8\xed</a></div></div><div class="card-price"><span class="card-price-ele"><span class="price-val">400</span><span class="price-cur f-small">&nbsp;\xe3\xf0\xed.</span></span></div><div class="card-condition"><strong>\xd2\xee\xe2\xe0\xf0: </strong>\xcd\xee\xe2\xfb\xe9</div><div class="tth-tovar"><ul><li>\xc2\xe8\xe4</li> <li>\xd1\xee\xf3\xf1\xfb</li> </ul></div></div></div></div></div><div class="ng-card">
+                              <div class="card-win">
+                                  <div class="card-hover-win">
+                                      <div class="card-img-wr">
+                                      <div class="absk abinline200-200 absk-bg" id="slot10"></div>
+                                      </div>
+                                      <div class="card-desc">
+                                      <div class="card-title"><a id="slot10-caption" href="/informer/main.html#reklama-tab2" rel="nofollow" target="_blank">\xd0\xe5\xea\xeb\xe0\xec\xe0 adKidstaff</a></div>
+                                      </div>
+                                  </div>
+                              </div>
+                          </div><div class="ng-card" id="12517664">
+                              <div class="card-win">
+                                  <div class="card-hover-win">
+                                      <div class="card-img-wr">                             
+                                      <a href="/tema-12517664.html" target="_self" ><img src="https://pic2.kidstaff.net/pictures_user/144/390969/12517664/390969_20150224105257_1993_250x250.jpg" alt="\xf4\xf3\xed\xe4\xf3\xea \xe6\xe5\xeb\xe0\xf2\xe8\xed  \xec\xe8\xed\xe4\xe0\xeb\xfc\xed\xfb\xe5  \xeb\xe5\xef\xe5\xf1\xf2\xea\xe8 \xe3\xf0\xe5\xf6\xea\xe8\xe9 \xee\xf0\xe5\xf5" ></a>
+                                      </div>
+                                      <div class="card-desc"><div class="card-title"><h3><a href="/tema-12517664.html"  target="_self" ><strong>\xf4\xf3\xed\xe4\xf3\xea \xe6\xe5\xeb\xe0\xf2\xe8\xed  \xec\xe8\xed\xe4\xe0\xeb\xfc\xed\xfb\xe5  \xeb\xe5\xef\xe5\xf1\xf2\xea\xe8 \xe3\xf0\xe5\xf6\xea\xe8\xe9 \xee\xf0\xe5\xf5</strong></a></h3></div><div class="card-user-info"><div class="c-name-ele">
+                              <span class="cui-name"><a rel="nofollow" href="/user-390969.html">rad4kv95</a></span>
+                                 <div class="rate_small"><span class="rate-value">9.69</span>&nbsp;<span class="positive-review">(100%)</span>
+                                 </div>
+                              </div><div class="c-place-ele"><span class="cui-place f-small"> \xce\xe4\xe5\xf1\xf1\xe0</span></div></div><div class="card-price"><span class="card-price-ele"><span class="price-val">35</span><span class="price-cur f-small">&nbsp;\xe3\xf0\xed.</span></span></div><div class="card-condition"><strong>\xd2\xee\xe2\xe0\xf0: </strong>\xcd\xee\xe2\xfb\xe9</div><div class="tth-tovar"><ul><li>\xc2\xe8\xe4</li> <li>\xce\xf0\xe5\xf5\xe8</li> </ul></div></div></div></div></div><div class="ng-card" id="19525872">
+                              <div class="card-win">
+                                  <div class="card-hover-win">
+                                      <div class="card-img-wr">                             
+                                      <a href="/tema-19525872.html" target="_self" ><img src="https://pic11.kidstaff.net/pictures_user/28/126346/19525872/126346_20160803110213_8008_250x250.jpg" alt="\xd1\xd8\xc0 \xcf\xf0\xe8\xef\xf0\xe0\xe2\xfb \xe4\xeb\xff \xf1\xf2\xe5\xe9\xea\xe0 \xe8 \xea\xf3\xf0\xe8\xf6\xfb McCormick Grill Mates" ></a>
+                                      </div>
+                                      <div class="card-desc"><div class="card-title"><h3><a href="/tema-19525872.html"  target="_self" ><strong>\xd1\xd8\xc0 \xcf\xf0\xe8\xef\xf0\xe0\xe2\xfb \xe4\xeb\xff \xf1\xf2\xe5\xe9\xea\xe0 \xe8 \xea\xf3\xf0\xe8\xf6\xfb McCormick Grill Mates</strong></a></h3></div><div class="card-user-info"><div class="c-name-ele">
+                              <span class="cui-name"><a rel="nofollow" href="/user-126346.html">Ivanna_Dorosh</a></span>
+                                 <div class="rate_small"><span class="rate-value">9.70</span>&nbsp;<span class="positive-review">(100%)</span>
+                                 </div>
+                              </div><div class="premshop-link"><a href="/store-usa-elit"><i class="icon-type premshop" title="\xcf\xf0\xe5\xec\xe8\xf3\xec \xec\xe0\xe3\xe0\xe7\xe8\xed"></i>&nbsp;\xcf\xf0\xe5\xec\xe8\xf3\xec \xec\xe0\xe3\xe0\xe7\xe8\xed</a></div></div><div class="card-price"><span class="card-price-ele"><span class="price-val">320</span><span class="price-cur f-small">&nbsp;\xe3\xf0\xed.</span></span></div><div class="card-condition"><strong>\xd2\xee\xe2\xe0\xf0: </strong>\xcd\xee\xe2\xfb\xe9</div><div class="tth-tovar"><ul><li>\xc2\xe8\xe4</li> <li>\xd1\xef\xe5\xf6\xe8\xe8 \xe8 \xef\xf0\xff\xed\xee\xf1\xf2\xe8</li> </ul></div></div></div></div></div><div class="ng-card" id="12150035">
+                              <div class="card-win">
+                                  <div class="card-hover-win">
+                                      <div class="card-img-wr">                             
+                                      <a href="/tema-12150035.html" target="_self" ><img src="https://pic2.kidstaff.net/pictures_user/144/390969/12150035/390969_20150120105126_4175_250x250.jpg" alt="\xf4\xf3\xed\xe4\xf3\xea \xcc\xe8\xed\xe4\xe0\xeb\xfc\xed\xfb\xe5 \xeb\xe5\xef\xe5\xf1\xf2\xea\xe8  \xf8\xee\xea\xee\xeb\xe0\xe4\xed\xfb\xe5  \xe4\xe8\xf1\xea\xe8  \xef\xee \xf1\xf3\xef\xe5\xf0 \xf6\xe5\xed\xe5" ></a>
+                                      </div>
+                                      <div class="card-desc"><div class="card-title"><h3><a href="/tema-12150035.html"  target="_self" ><strong>\xf4\xf3\xed\xe4\xf3\xea \xcc\xe8\xed\xe4\xe0\xeb\xfc\xed\xfb\xe5 \xeb\xe5\xef\xe5\xf1\xf2\xea\xe8  \xf8\xee\xea\xee\xeb\xe0\xe4\xed\xfb\xe5  \xe4\xe8\xf1\xea\xe8  \xef\xee \xf1\xf3\xef\xe5\xf0 \xf6\xe5\xed\xe5</strong></a></h3></div><div class="card-user-info"><div class="c-name-ele">
+                              <span class="cui-name"><a rel="nofollow" href="/user-390969.html">rad4kv95</a></span>
+                                 <div class="rate_small"><span class="rate-value">9.69</span>&nbsp;<span class="positive-review">(100%)</span>
+                                 </div>
+                              </div><div class="c-place-ele"><span class="cui-place f-small"> \xce\xe4\xe5\xf1\xf1\xe0</span></div></div><div class="card-price"><span class="card-price-ele"><span class="price-val">35</span><span class="price-cur f-small">&nbsp;\xe3\xf0\xed.</span></span></div><div class="card-condition"><strong>\xd2\xee\xe2\xe0\xf0: </strong>\xcd\xee\xe2\xfb\xe9</div><div class="tth-tovar"><ul><li>\xc2\xe8\xe4</li> <li>\xc1\xee\xe1\xee\xe2\xfb\xe5</li> <li>\xce\xf0\xe5\xf5\xe8</li> </ul><ul><li>\xce\xe1\xfa\xe5\xec, \xea\xe3</li> <li>0,5</li> <li>0,7</li> <li>1</li> <li>2,5</li> <li>5</li> </ul></div></div></div></div></div><div class="ng-card" id="19145854">
+                              <div class="card-win">
+                                  <div class="card-hover-win">
+                                      <div class="card-img-wr">                             
+                                      <a href="/tema-19145854.html" target="_self" ><img src="https://pic11.kidstaff.net/pictures_user/28/126346/19145854/126346_20160624104503_5499_250x250.jpg" alt="\xd1\xd8\xc0 \xc2\xea\xf3\xf1\xed\xfe\xf9\xe8\xe5 \xee\xf0\xe5\xf5\xe8 PLANTERS mixed nuts \xe8 WELLSLEY Farms" ></a>
+                                      </div>
+                                      <div class="card-desc"><div class="card-title"><h3><a href="/tema-19145854.html"  target="_self" ><strong>\xd1\xd8\xc0 \xc2\xea\xf3\xf1\xed\xfe\xf9\xe8\xe5 \xee\xf0\xe5\xf5\xe8 PLANTERS mixed nuts \xe8 WELLSLEY Farms</strong></a></h3></div><div class="card-user-info"><div class="c-name-ele">
+                              <span class="cui-name"><a rel="nofollow" href="/user-126346.html">Ivanna_Dorosh</a></span>
+                                 <div class="rate_small"><span class="rate-value">9.70</span>&nbsp;<span class="positive-review">(100%)</span>
+                                 </div>
+                              </div><div class="premshop-link"><a href="/store-usa-elit"><i class="icon-type premshop" title="\xcf\xf0\xe5\xec\xe8\xf3\xec \xec\xe0\xe3\xe0\xe7\xe8\xed"></i>&nbsp;\xcf\xf0\xe5\xec\xe8\xf3\xec \xec\xe0\xe3\xe0\xe7\xe8\xed</a></div></div><div class="card-price"><span class="card-price-ele"><span class="price-val">1200</span><span class="price-cur f-small">&nbsp;\xe3\xf0\xed.</span></span></div><div class="card-condition"><strong>\xd2\xee\xe2\xe0\xf0: </strong>\xcd\xee\xe2\xfb\xe9</div><div class="tth-tovar"><ul><li>\xc2\xe8\xe4</li> <li>\xce\xf0\xe5\xf5\xe8</li> </ul></div></div></div></div></div><div class="ng-card" id="19083674">
+                              <div class="card-win">
+                                  <div class="card-hover-win">
+                                      <div class="card-img-wr">                             
+                                      <a href="/tema-19083674.html" target="_self" ><img src="https://pic8.kidstaff.net/pictures_user/184/483978/19083674/483978_20180225075057_6439_250x250.jpg" alt="\xcf\xf0\xee\xe4\xf3\xea\xf2\xfb \xe2\xee\xf1\xf2\xee\xf7\xed\xee\xe9 \xea\xf3\xf5\xed\xe8 - \xcc\xe8\xf0\xe8\xed - \xe2 \xed\xe0\xeb\xe8\xf7\xe8\xe8" ></a>
+                                      </div>
+                                      <div class="card-desc"><div class="card-title"><h3><a href="/tema-19083674.html"  target="_self" ><strong>\xcf\xf0\xee\xe4\xf3\xea\xf2\xfb \xe2\xee\xf1\xf2\xee\xf7\xed\xee\xe9 \xea\xf3\xf5\xed\xe8 - \xcc\xe8\xf0\xe8\xed - \xe2 \xed\xe0\xeb\xe8\xf7\xe8\xe8</strong></a></h3></div><div class="card-user-info"><div class="c-name-ele">
+                              <span class="cui-name"><a rel="nofollow" href="/user-483978.html">Carin</a></span>
+                                 <div class="rate_small"><span class="rate-value">9.70</span>&nbsp;<span class="positive-review">(100%)</span>
+                                 </div>
+                              </div></div><div class="card-price"><span class="card-price-ele"><span class="price-val">30</span><span class="price-cur f-small">&nbsp;\xe3\xf0\xed.</span></span></div><div class="card-condition"><strong>\xd2\xee\xe2\xe0\xf0: </strong>\xcd\xee\xe2\xfb\xe9</div><div class="tth-tovar"><ul><li>\xc2\xe8\xe4</li> <li>\xd1\xee\xf3\xf1\xfb</li> </ul></div></div></div></div></div><div class="ng-card" id="24533891">
+                              <div class="card-win">
+                                  <div class="card-hover-win">
+                                      <div class="card-img-wr">                             
+                                      <a href="/tema-24533891.html" target="_self" ><img src="https://pic8.kidstaff.net/pictures_user/28/126346/24533891/126346_20171103065909_2457_250x250.jpg" alt="\xc2\xf3\xf0\xf7\xe5\xf1\xf2\xe5\xf0\xf8\xe8\xf0\xf1\xea\xe8\xe9 \xf1\xee\xf3\xf1 Worcestershire Sauce Lea and Perren&acutes Original, " ></a>
+                                      </div>
+                                      <div class="card-desc"><div class="card-title"><h3><a href="/tema-24533891.html"  target="_self" ><strong>\xc2\xf3\xf0\xf7\xe5\xf1\xf2\xe5\xf0\xf8\xe8\xf0\xf1\xea\xe8\xe9 \xf1\xee\xf3\xf1 Worcestershire Sauce Lea and Perren&acutes Original, </strong></a></h3></div><div class="card-user-info"><div class="c-name-ele">
+                              <span class="cui-name"><a rel="nofollow" href="/user-126346.html">Ivanna_Dorosh</a></span>
+                                 <div class="rate_small"><span class="rate-value">9.70</span>&nbsp;<span class="positive-review">(100%)</span>
+                                 </div>
+                              </div><div class="premshop-link"><a href="/store-usa-elit"><i class="icon-type premshop" title="\xcf\xf0\xe5\xec\xe8\xf3\xec \xec\xe0\xe3\xe0\xe7\xe8\xed"></i>&nbsp;\xcf\xf0\xe5\xec\xe8\xf3\xec \xec\xe0\xe3\xe0\xe7\xe8\xed</a></div></div><div class="card-price"><span class="card-price-ele"><span class="price-val">380</span><span class="price-cur f-small">&nbsp;\xe3\xf0\xed.</span></span></div><div class="card-condition"><strong>\xd2\xee\xe2\xe0\xf0: </strong>\xcd\xee\xe2\xfb\xe9</div><div class="tth-tovar"><ul><li>\xc2\xe8\xe4</li> <li>\xd1\xee\xf3\xf1\xfb</li> </ul></div></div></div></div></div><div class="ng-card" id="19145464">
+                              <div class="card-win">
+                                  <div class="card-hover-win">
+                                      <div class="card-img-wr">                             
+                                      <a href="/tema-19145464.html" target="_self" ><img src="https://pic3.kidstaff.net/pictures_user/28/126346/19145464/126346_20161118062855_9729_250x250.jpg" alt="\xd1\xd8\xc0 \xd1\xee\xf3\xf1 \xe4\xeb\xff \xf1\xf2\xe5\xe9\xea\xee\xe2 \xc0-1 steak sauce" ></a>
+                                      </div>
+                                      <div class="card-desc"><div class="card-title"><h3><a href="/tema-19145464.html"  target="_self" ><strong>\xd1\xd8\xc0 \xd1\xee\xf3\xf1 \xe4\xeb\xff \xf1\xf2\xe5\xe9\xea\xee\xe2 \xc0-1 steak sauce</strong></a></h3></div><div class="card-user-info"><div class="c-name-ele">
+                              <span class="cui-name"><a rel="nofollow" href="/user-126346.html">Ivanna_Dorosh</a></span>
+                                 <div class="rate_small"><span class="rate-value">9.70</span>&nbsp;<span class="positive-review">(100%)</span>
+                                 </div>
+                              </div><div class="premshop-link"><a href="/store-usa-elit"><i class="icon-type premshop" title="\xcf\xf0\xe5\xec\xe8\xf3\xec \xec\xe0\xe3\xe0\xe7\xe8\xed"></i>&nbsp;\xcf\xf0\xe5\xec\xe8\xf3\xec \xec\xe0\xe3\xe0\xe7\xe8\xed</a></div></div><div class="card-price"><span class="card-price-ele"><span class="price-val">400</span><span class="price-cur f-small">&nbsp;\xe3\xf0\xed.</span></span></div><div class="card-condition"><strong>\xd2\xee\xe2\xe0\xf0: </strong>\xcd\xee\xe2\xfb\xe9</div><div class="tth-tovar"><ul><li>\xc2\xe8\xe4</li> <li>\xd1\xee\xf3\xf1\xfb</li> </ul></div></div></div></div></div><div class="ng-card" id="23532903">
+                              <div class="card-win">
+                                  <div class="card-hover-win">
+                                      <div class="card-img-wr">                             
+                                      <a href="/tema-23532903.html" target="_self" ><img src="https://pic8.kidstaff.net/pictures_user/379/941807/23532903/941807_20170728043744_2291_250x250.jpg" alt="\xcf\xf0\xe8\xef\xf0\xe0\xe2\xe0 \xe4\xeb\xff \xea\xee\xf4\xe5 \xe8 \xe4\xe5\xf1\xe5\xf0\xf2\xee\xe2 Kamis" ></a>
+                                      </div>
+                                      <div class="card-desc"><div class="card-title"><h3><a href="/tema-23532903.html"  target="_self" ><strong>\xcf\xf0\xe8\xef\xf0\xe0\xe2\xe0 \xe4\xeb\xff \xea\xee\xf4\xe5 \xe8 \xe4\xe5\xf1\xe5\xf0\xf2\xee\xe2 Kamis</strong></a></h3></div><div class="card-user-info"><div class="c-name-ele">
+                              <span class="cui-name"><a rel="nofollow" href="/user-941807.html">Christina78</a></span>
+                                 <div class="rate_small"><span class="rate-value">2.47</span>&nbsp;<span class="positive-review">(100%)</span>
+                                 </div>
+                              </div><div class="c-place-ele"><span class="cui-place f-small"> \xca\xe8\xe5\xe2</span></div></div><div class="card-price"><span class="card-price-ele"><span class="price-val">42</span><span class="price-cur f-small">&nbsp;\xe3\xf0\xed.</span></span></div><div class="card-condition"><strong>\xd2\xee\xe2\xe0\xf0: </strong>\xcd\xee\xe2\xfb\xe9</div><div class="tth-tovar"><ul><li>\xc2\xe8\xe4</li> <li>\xd1\xef\xe5\xf6\xe8\xe8 \xe8 \xef\xf0\xff\xed\xee\xf1\xf2\xe8</li> </ul></div></div></div></div></div><div class="ng-card" id="24713999">
+                              <div class="card-win">
+                                  <div class="card-hover-win">
+                                      <div class="card-img-wr">                             
+                                      <a href="/tema-24713999.html" target="_self" ><img src="https://pic5.kidstaff.net/pictures_user/616/1538082/24713999/1538082_20180124121436_9551_250x250.jpg" alt="\xcc\xe0\xea\xe0\xf0\xee\xed\xe8 Combino, Conad,  500 gr. , 1 \xea\xe3." ></a>
+                                      </div>
+                                      <div class="card-desc"><div class="card-title"><h3><a href="/tema-24713999.html"  target="_self" ><strong>\xcc\xe0\xea\xe0\xf0\xee\xed\xe8 Combino, Conad,  500 gr. , 1 \xea\xe3.</strong></a></h3></div><div class="card-user-info"><div class="c-name-ele">
+                              <span class="cui-name"><a rel="nofollow" href="/user-1538082.html">Italiamo</a></span>
+                                 <div class="rate_small"><span class="rate-value">5.14</span>&nbsp;<span class="positive-review">(100%)</span>
+                                 </div>
+                              </div><div class="c-place-ele"><span class="cui-place f-small"> \xd2\xe5\xf0\xed\xee\xef\xee\xeb\xfc</span></div></div><div class="card-price"><span class="card-price-ele"><span class="price-val">25</span><span class="price-cur f-small">&nbsp;\xe3\xf0\xed.</span></span></div><div class="card-condition"><strong>\xd2\xee\xe2\xe0\xf0: </strong>\xcd\xee\xe2\xfb\xe9</div><div class="tth-tovar"><ul><li>\xc2\xe8\xe4</li> <li>\xcc\xe0\xea\xe0\xf0\xee\xed\xed\xfb\xe5 \xe8\xe7\xe4\xe5\xeb\xe8</li> </ul><ul><li>\xce\xe1\xfa\xe5\xec, \xea\xe3</li> <li>0,5</li> <li>1</li> </ul></div></div></div></div></div><div class="ng-card" id="23820586">
+                              <div class="card-win">
+                                  <div class="card-hover-win">
+                                      <div class="card-img-wr">                             
+                                      <a href="/tema-23820586.html" target="_self" ><img src="https://pic5.kidstaff.net/pictures_user/616/1538082/23820586/1538082_20170829041946_1345r3_250x250.jpg" alt="\xcc\xe0\xea\xe0\xf0\xee\xed\xe8 ReggiA 0, 5 \xea\xe3." ></a>
+                                      </div>
+                                      <div class="card-desc"><div class="card-title"><h3><a href="/tema-23820586.html"  target="_self" ><strong>\xcc\xe0\xea\xe0\xf0\xee\xed\xe8 ReggiA 0, 5 \xea\xe3.</strong></a></h3></div><div class="card-user-info"><div class="c-name-ele">
+                              <span class="cui-name"><a rel="nofollow" href="/user-1538082.html">Italiamo</a></span>
+                                 <div class="rate_small"><span class="rate-value">5.14</span>&nbsp;<span class="positive-review">(100%)</span>
+                                 </div>
+                              </div><div class="c-place-ele"><span class="cui-place f-small"> \xd2\xe5\xf0\xed\xee\xef\xee\xeb\xfc</span></div></div><div class="card-price"><span class="card-price-ele"><span class="price-val">25</span><span class="price-cur f-small">&nbsp;\xe3\xf0\xed.</span></span></div><div class="card-condition"><strong>\xd2\xee\xe2\xe0\xf0: </strong>\xcd\xee\xe2\xfb\xe9</div><div class="tth-tovar"><ul><li>\xc2\xe8\xe4</li> <li>\xcc\xe0\xea\xe0\xf0\xee\xed\xed\xfb\xe5 \xe8\xe7\xe4\xe5\xeb\xe8</li> </ul><ul><li>\xce\xe1\xfa\xe5\xec, \xea\xe3</li> <li>0,5</li> <li>1</li> </ul></div></div></div></div></div><div class="ng-card" id="25384672">
+                              <div class="card-win">
+                                  <div class="card-hover-win">
+                                      <div class="card-img-wr">                             
+                                      <a href="/tema-25384672.html" target="_self" ><img src="https://pic5.kidstaff.net/pictures_user/616/1538082/25384672/1538082_20180221093812_7253_250x250.jpg" alt="\xcc\xe0\xea\xe0\xf0\xee\xed\xe8 Barilla \xb2\xf2\xe0\xeb\xb3\xff 1 \xea\xe3." ></a>
+                                      </div>
+                                      <div class="card-desc"><div class="card-title"><h3><a href="/tema-25384672.html"  target="_self" ><strong>\xcc\xe0\xea\xe0\xf0\xee\xed\xe8 Barilla \xb2\xf2\xe0\xeb\xb3\xff 1 \xea\xe3.</strong></a></h3></div><div class="card-user-info"><div class="c-name-ele">
+                              <span class="cui-name"><a rel="nofollow" href="/user-1538082.html">Italiamo</a></span>
+                                 <div class="rate_small"><span class="rate-value">5.14</span>&nbsp;<span class="positive-review">(100%)</span>
+                                 </div>
+                              </div><div class="c-place-ele"><span class="cui-place f-small"> \xd2\xe5\xf0\xed\xee\xef\xee\xeb\xfc</span></div></div><div class="card-price"><span class="card-price-ele"><span class="price-val">50</span><span class="price-cur f-small">&nbsp;\xe3\xf0\xed.</span></span></div><div class="card-condition"><strong>\xd2\xee\xe2\xe0\xf0: </strong>\xcd\xee\xe2\xfb\xe9</div><div class="tth-tovar"><ul><li>\xc2\xe8\xe4</li> <li>\xcc\xe0\xea\xe0\xf0\xee\xed\xed\xfb\xe5 \xe8\xe7\xe4\xe5\xeb\xe8</li> </ul><ul><li>\xce\xe1\xfa\xe5\xec, \xea\xe3</li> <li>1</li> </ul></div></div></div></div></div><div class="ng-card" id="23670393">
+                              <div class="card-win">
+                                  <div class="card-hover-win">
+                                      <div class="card-img-wr">                             
+                                      <a href="/tema-23670393.html" target="_self" ><img src="https://pic5.kidstaff.net/pictures_user/616/1538082/23670393/1538082_20170813093339_9760_250x250.jpg" alt="\xb2\xf2\xe0\xeb\xb3\xe9\xf1\xfc\xea\xb3 \xf1\xee\xf3\xf1\xe8-\xef\xe0\xf1\xf2\xe8 Cirio, Valfrutta 700 g." ></a>
+                                      </div>
+                                      <div class="card-desc"><div class="card-title"><h3><a href="/tema-23670393.html"  target="_self" ><strong>\xb2\xf2\xe0\xeb\xb3\xe9\xf1\xfc\xea\xb3 \xf1\xee\xf3\xf1\xe8-\xef\xe0\xf1\xf2\xe8 Cirio, Valfrutta 700 g.</strong></a></h3></div><div class="card-user-info"><div class="c-name-ele">
+                              <span class="cui-name"><a rel="nofollow" href="/user-1538082.html">Italiamo</a></span>
+                                 <div class="rate_small"><span class="rate-value">5.14</span>&nbsp;<span class="positive-review">(100%)</span>
+                                 </div>
+                              </div><div class="c-place-ele"><span class="cui-place f-small"> \xd2\xe5\xf0\xed\xee\xef\xee\xeb\xfc</span></div></div><div class="card-price"><span class="card-price-ele"><span class="price-val">45</span><span class="price-cur f-small">&nbsp;\xe3\xf0\xed.</span></span></div><div class="card-condition"><strong>\xd2\xee\xe2\xe0\xf0: </strong>\xcd\xee\xe2\xfb\xe9</div><div class="tth-tovar"><ul><li>\xc2\xe8\xe4</li> <li>\xd1\xee\xf3\xf1\xfb</li> </ul></div></div></div></div></div><div class="ng-card" id="23699995">
+                              <div class="card-win">
+                                  <div class="card-hover-win">
+                                      <div class="card-img-wr">                             
+                                      <a href="/tema-23699995.html" target="_self" ><img src="https://pic5.kidstaff.net/pictures_user/616/1538082/23699995/1538082_20170926090455_9514_250x250.jpg" alt="\xd0\xe8\xf1 Gallo blond,  Scotti Oro Insalate , 1kg." ></a>
+                                      </div>
+                                      <div class="card-desc"><div class="card-title"><h3><a href="/tema-23699995.html"  target="_self" ><strong>\xd0\xe8\xf1 Gallo blond,  Scotti Oro Insalate , 1kg.</strong></a></h3></div><div class="card-user-info"><div class="c-name-ele">
+                              <span class="cui-name"><a rel="nofollow" href="/user-1538082.html">Italiamo</a></span>
+                                 <div class="rate_small"><span class="rate-value">5.14</span>&nbsp;<span class="positive-review">(100%)</span>
+                                 </div>
+                              </div><div class="c-place-ele"><span class="cui-place f-small"> \xd2\xe5\xf0\xed\xee\xef\xee\xeb\xfc</span></div></div><div class="card-price"><span class="card-price-ele"><span class="price-val">85</span><span class="price-cur f-small">&nbsp;\xe3\xf0\xed.</span></span></div><div class="card-condition"><strong>\xd2\xee\xe2\xe0\xf0: </strong>\xcd\xee\xe2\xfb\xe9</div><div class="tth-tovar"><ul><li>\xc2\xe8\xe4</li> <li>\xca\xf0\xf3\xef\xfb</li> </ul><ul><li>\xce\xe1\xfa\xe5\xec, \xea\xe3</li> <li>1</li> </ul><ul><li>\xca\xf0\xf3\xef\xe0</li> <li>\xd0\xe8\xf1</li> </ul></div></div></div></div></div><div class="ng-card" id="26585702">
+                              <div class="card-win">
+                                  <div class="card-hover-win">
+                                      <div class="card-img-wr">                             
+                                      <a href="/tema-26585702.html" target="_self" ><img src="https://pic9.kidstaff.net/pictures_user/327/814784/26585702/814784_20180730023552_4229_250x250.jpg" alt="\xcf\xf0\xee\xe4\xe0\xec \xec\xe0\xea\xe0\xf0\xee\xed\xfb \xe8 \xf1\xef\xe0\xe3\xe5\xf2\xf2\xe8 \xc8\xf2\xe0\xeb\xe8\xff" ></a>
+                                      </div>
+                                      <div class="card-desc"><div class="card-title"><h3><a href="/tema-26585702.html"  target="_self" ><strong>\xcf\xf0\xee\xe4\xe0\xec \xec\xe0\xea\xe0\xf0\xee\xed\xfb \xe8 \xf1\xef\xe0\xe3\xe5\xf2\xf2\xe8 \xc8\xf2\xe0\xeb\xe8\xff</strong></a></h3></div><div class="card-user-info"><div class="c-name-ele">
+                              <span class="cui-name"><a rel="nofollow" href="/user-814784.html">\xc2\xe8\xea\xea\xe8\xef\xf3\xf5</a></span>
+                                 <div class="rate_small"><span class="rate-value">3.63</span>&nbsp;<span class="positive-review">(100%)</span>
+                                 </div>
+                              </div><div class="c-place-ele"><span class="cui-place f-small"> \xd5\xe0\xf0\xfc\xea\xee\xe2</span></div></div><div class="card-price"><span class="card-price-ele"><span class="price-val">48</span><span class="price-cur f-small">&nbsp;\xe3\xf0\xed.</span></span></div><div class="card-condition"><strong>\xd2\xee\xe2\xe0\xf0: </strong>\xcd\xee\xe2\xfb\xe9</div><div class="tth-tovar"><ul><li>\xc2\xe8\xe4</li> <li>\xcc\xe0\xea\xe0\xf0\xee\xed\xed\xfb\xe5 \xe8\xe7\xe4\xe5\xeb\xe8</li> </ul><ul><li>\xce\xe1\xfa\xe5\xec, \xea\xe3</li> <li>1</li> </ul></div></div></div></div></div><div class="ng-card" id="24740182">
+                              <div class="card-win">
+                                  <div class="card-hover-win">
+                                      <div class="card-img-wr">                             
+                                      <a href="/tema-24740182.html" target="_self" ><img src="https://pic5.kidstaff.net/pictures_user/616/1538082/24740182/1538082_20171125085916_8153_250x250.jpg" alt="\xd1\xee\xf3\xf1 Barilla 300 gr." ></a>
+                                      </div>
+                                      <div class="card-desc"><div class="card-title"><h3><a href="/tema-24740182.html"  target="_self" ><strong>\xd1\xee\xf3\xf1 Barilla 300 gr.</strong></a></h3></div><div class="card-user-info"><div class="c-name-ele">
+                              <span class="cui-name"><a rel="nofollow" href="/user-1538082.html">Italiamo</a></span>
+                                 <div class="rate_small"><span class="rate-value">5.14</span>&nbsp;<span class="positive-review">(100%)</span>
+                                 </div>
+                              </div><div class="c-place-ele"><span class="cui-place f-small"> \xd2\xe5\xf0\xed\xee\xef\xee\xeb\xfc</span></div></div><div class="card-price"><span class="card-price-ele"><span class="price-val">50</span><span class="price-cur f-small">&nbsp;\xe3\xf0\xed.</span></span></div><div class="card-condition"><strong>\xd2\xee\xe2\xe0\xf0: </strong>\xcd\xee\xe2\xfb\xe9</div><div class="tth-tovar"><ul><li>\xc2\xe8\xe4</li> <li>\xd1\xee\xf3\xf1\xfb</li> </ul></div></div></div></div></div><div class="ng-card" id="26585678">
+                              <div class="card-win">
+                                  <div class="card-hover-win">
+                                      <div class="card-img-wr">                             
+                                      <a href="/tema-26585678.html" target="_self" ><img src="https://pic9.kidstaff.net/pictures_user/327/814784/26585678/814784_20180730023210_9639_250x250.jpg" alt="\xcf\xf0\xee\xe4\xe0\xec \xee\xeb\xe8\xe2\xea\xe8 \xe8 \xec\xe0\xf1\xeb\xe8\xed\xfb \xe1\xe5\xe7 \xea\xee\xf1\xf2\xee\xf7\xe5\xea" ></a>
+                                      </div>
+                                      <div class="card-desc"><div class="card-title"><h3><a href="/tema-26585678.html"  target="_self" ><strong>\xcf\xf0\xee\xe4\xe0\xec \xee\xeb\xe8\xe2\xea\xe8 \xe8 \xec\xe0\xf1\xeb\xe8\xed\xfb \xe1\xe5\xe7 \xea\xee\xf1\xf2\xee\xf7\xe5\xea</strong></a></h3></div><div class="card-user-info"><div class="c-name-ele">
+                              <span class="cui-name"><a rel="nofollow" href="/user-814784.html">\xc2\xe8\xea\xea\xe8\xef\xf3\xf5</a></span>
+                                 <div class="rate_small"><span class="rate-value">3.63</span>&nbsp;<span class="positive-review">(100%)</span>
+                                 </div>
+                              </div><div class="c-place-ele"><span class="cui-place f-small"> \xd5\xe0\xf0\xfc\xea\xee\xe2</span></div></div><div class="card-price"><span class="card-price-ele"><span class="price-val">36</span><span class="price-cur f-small">&nbsp;\xe3\xf0\xed.</span></span></div><div class="card-condition"><strong>\xd2\xee\xe2\xe0\xf0: </strong>\xcd\xee\xe2\xfb\xe9</div><div class="tth-tovar"><ul><li>\xc2\xe8\xe4</li> <li>\xce\xeb\xe8\xe2\xea\xe8/\xcc\xe0\xf1\xeb\xe8\xed\xfb</li> </ul><ul><li>\xce\xe1\xfa\xe5\xec, \xea\xe3</li> <li>0,3</li> </ul></div></div></div></div></div><div class="ng-card" id="21431571">
+                              <div class="card-win">
+                                  <div class="card-hover-win">
+                                      <div class="card-img-wr">                             
+                                      <a href="/tema-21431571.html" target="_self" ><img src="https://pic9.kidstaff.net/pictures_user/573/1427191/21431571/1427191_20180416104544_4936_250x250.jpg" alt="\xd1\xee\xf3\xf1 \xef\xe5\xf1\xf2\xee Baressa 190\xe3 \xc8\xf2\xe0\xeb\xe8\xff" ></a>
+                                      </div>
+                                      <div class="card-desc"><div class="card-title"><h3><a href="/tema-21431571.html"  target="_self" ><strong>\xd1\xee\xf3\xf1 \xef\xe5\xf1\xf2\xee Baressa 190\xe3 \xc8\xf2\xe0\xeb\xe8\xff</strong></a></h3></div><div class="card-user-info"><div class="c-name-ele">
+                              <span class="cui-name"><a rel="nofollow" href="/user-1427191.html">ilfk</a></span>
+                                 <div class="rate_small"><span class="rate-value">1.71</span>&nbsp;<span class="positive-review">(100%)</span>
+                                 </div>
+                              </div></div><div class="card-price"><span class="card-price-ele"><span class="price-val">50</span><span class="price-cur f-small">&nbsp;\xe3\xf0\xed.</span></span></div><div class="card-condition"><strong>\xd2\xee\xe2\xe0\xf0: </strong>\xcd\xee\xe2\xfb\xe9</div><div class="tth-tovar"><ul><li>\xc2\xe8\xe4</li> <li>\xd1\xee\xf3\xf1\xfb</li> </ul></div></div></div></div></div><div class="ng-card" id="24978823">
+                              <div class="card-win">
+                                  <div class="card-hover-win">
+                                      <div class="card-img-wr">                             
+                                      <a href="/tema-24978823.html" target="_self" ><img src="https://pic5.kidstaff.net/pictures_user/616/1538082/24978823/1538082_20171224062309_5795_250x250.jpg" alt="\xcb\xe8\xf1\xf2\xe8 \xeb\xe0\xe7\xe0\xed\xfc\xbf  Combino 500 \xe3\xf0." ></a>
+                                      </div>
+                                      <div class="card-desc"><div class="card-title"><h3><a href="/tema-24978823.html"  target="_self" ><strong>\xcb\xe8\xf1\xf2\xe8 \xeb\xe0\xe7\xe0\xed\xfc\xbf  Combino 500 \xe3\xf0.</strong></a></h3></div><div class="card-user-info"><div class="c-name-ele">
+                              <span class="cui-name"><a rel="nofollow" href="/user-1538082.html">Italiamo</a></span>
+                                 <div class="rate_small"><span class="rate-value">5.14</span>&nbsp;<span class="positive-review">(100%)</span>
+                                 </div>
+                              </div><div class="c-place-ele"><span class="cui-place f-small"> \xd2\xe5\xf0\xed\xee\xef\xee\xeb\xfc</span></div></div><div class="card-price"><span class="card-price-ele"><span class="price-val">55</span><span class="price-cur f-small">&nbsp;\xe3\xf0\xed.</span></span></div><div class="card-condition"><strong>\xd2\xee\xe2\xe0\xf0: </strong>\xcd\xee\xe2\xfb\xe9</div><div class="tth-tovar"><ul><li>\xc2\xe8\xe4</li> <li>\xcc\xe0\xea\xe0\xf0\xee\xed\xed\xfb\xe5 \xe8\xe7\xe4\xe5\xeb\xe8</li> </ul><ul><li>\xce\xe1\xfa\xe5\xec, \xea\xe3</li> <li>0,5</li> </ul></div></div></div></div></div><div class="ng-card" id="26585730">
+                              <div class="card-win">
+                                  <div class="card-hover-win">
+                                      <div class="card-img-wr">                             
+                                      <a href="/tema-26585730.html" target="_self" ><img src="https://pic9.kidstaff.net/pictures_user/327/814784/26585730/814784_20180730024036_2941_250x250.jpg" alt="\xcf\xf0\xee\xe4\xe0\xec \xe0\xf0\xe0\xf5\xe8\xf1 \xf1\xee\xeb\xe5\xed\xfb\xe9" ></a>
+                                      </div>
+                                      <div class="card-desc"><div class="card-title"><h3><a href="/tema-26585730.html"  target="_self" ><strong>\xcf\xf0\xee\xe4\xe0\xec \xe0\xf0\xe0\xf5\xe8\xf1 \xf1\xee\xeb\xe5\xed\xfb\xe9</strong></a></h3></div><div class="card-user-info"><div class="c-name-ele">
+                              <span class="cui-name"><a rel="nofollow" href="/user-814784.html">\xc2\xe8\xea\xea\xe8\xef\xf3\xf5</a></span>
+                                 <div class="rate_small"><span class="rate-value">3.63</span>&nbsp;<span class="positive-review">(100%)</span>
+                                 </div>
+                              </div><div class="c-place-ele"><span class="cui-place f-small"> \xd5\xe0\xf0\xfc\xea\xee\xe2</span></div></div><div class="card-price"><span class="card-price-ele"><span class="price-val">16</span><span class="price-cur f-small">&nbsp;\xe3\xf0\xed.</span></span></div><div class="card-condition"><strong>\xd2\xee\xe2\xe0\xf0: </strong>\xcd\xee\xe2\xfb\xe9</div><div class="tth-tovar"><ul><li>\xc2\xe8\xe4</li> <li>\xce\xf0\xe5\xf5\xe8</li> </ul><ul><li>\xce\xe1\xfa\xe5\xec, \xea\xe3</li> <li>0,1</li> </ul></div></div></div></div></div><div class="ng-card" id="26282539">
+                              <div class="card-win">
+                                  <div class="card-hover-win">
+                                      <div class="card-img-wr">                             
+                                      <a href="/tema-26282539.html" target="_self" ><img src="https://pic9.kidstaff.net/pictures_user/410/1020882/26282539/1020882_20180608092718_5249_250x250.jpg" alt="\xd0\xe8\xf1 \xe1\xe0\xf1\xec\xe0\xf2\xe8 \xcf\xe0\xea\xe8\xf1\xf2\xe0\xed\xf1\xea\xe8\xe9 extra long 2 \xea\xe3 \xe8 5 \xea\xe3 \xd1\xf3\xef\xe5\xf0 \xea\xe0\xf7\xe5\xf1\xf2\xe2\xee\xdd\xeb\xe8\xf2\xed\xfb\xe9 \xf1\xee\xf0\xf2" ></a>
+                                      </div>
+                                      <div class="card-desc"><div class="card-title"><h3><a href="/tema-26282539.html"  target="_self" ><strong>\xd0\xe8\xf1 \xe1\xe0\xf1\xec\xe0\xf2\xe8 \xcf\xe0\xea\xe8\xf1\xf2\xe0\xed\xf1\xea\xe8\xe9 extra long 2 \xea\xe3 \xe8 5 \xea\xe3 \xd1\xf3\xef\xe5\xf0 \xea\xe0\xf7\xe5\xf1\xf2\xe2\xee\xdd\xeb\xe8\xf2\xed\xfb\xe9 \xf1\xee\xf0\xf2</strong></a></h3></div><div class="card-user-info"><div class="c-name-ele">
+                              <span class="cui-name"><a rel="nofollow" href="/user-1020882.html">\xc8\xf0\xe00677</a></span>
+                                 <div class="rate_small"><span class="rate-value">9.69</span>&nbsp;<span class="positive-review">(100%)</span>
+                                 </div>
+                              </div><div class="c-place-ele"><span class="cui-place f-small"> \xca\xe8\xe5\xe2</span></div></div><div class="card-price"><span class="card-price-ele"><span class="price-val">80</span><span class="price-cur f-small">&nbsp;\xe3\xf0\xed.</span></span></div><div class="card-condition"><strong>\xd2\xee\xe2\xe0\xf0: </strong>\xcd\xee\xe2\xfb\xe9 | \xd1 \xe1\xe8\xf0\xea\xe0\xec\xe8/\xe2 \xf3\xef\xe0\xea\xee\xe2\xea\xe5</div><div class="tth-tovar"><ul><li>\xc2\xe8\xe4</li> <li>\xca\xf0\xf3\xef\xfb</li> </ul><ul><li>\xca\xf0\xf3\xef\xe0</li> <li>\xd0\xe8\xf1</li> </ul></div></div></div></div></div><div class="ng-card" id="20587264">
+                              <div class="card-win">
+                                  <div class="card-hover-win">
+                                      <div class="card-img-wr">                             
+                                      <a href="/tema-20587264.html" target="_self" ><img src="https://pic2.kidstaff.net/pictures_user/573/1427191/20587264/1427191_20170107114601_2691_250x250.jpg" alt="\xcc\xe0\xea\xe0\xf0\xee\xed\xfb 05\xea\xe3 Barilla. \xc8\xf2\xe0\xeb\xe8\xff" ></a>
+                                      </div>
+                                      <div class="card-desc"><div class="card-title"><h3><a href="/tema-20587264.html"  target="_self" ><strong>\xcc\xe0\xea\xe0\xf0\xee\xed\xfb 05\xea\xe3 Barilla. \xc8\xf2\xe0\xeb\xe8\xff</strong></a></h3></div><div class="card-user-info"><div class="c-name-ele">
+                              <span class="cui-name"><a rel="nofollow" href="/user-1427191.html">ilfk</a></span>
+                                 <div class="rate_small"><span class="rate-value">1.71</span>&nbsp;<span class="positive-review">(100%)</span>
+                                 </div>
+                              </div></div><div class="card-price"><span class="card-price-ele"><span class="price-val">35</span><span class="price-cur f-small">&nbsp;\xe3\xf0\xed.</span></span></div><div class="card-condition"><strong>\xd2\xee\xe2\xe0\xf0: </strong>\xcd\xee\xe2\xfb\xe9</div><div class="tth-tovar"><ul><li>\xc2\xe8\xe4</li> <li>\xcc\xe0\xea\xe0\xf0\xee\xed\xed\xfb\xe5 \xe8\xe7\xe4\xe5\xeb\xe8</li> </ul><ul><li>\xce\xe1\xfa\xe5\xec, \xea\xe3</li> <li>0,5</li> </ul></div></div></div></div></div><div class="ng-card" id="22154494">
+                              <div class="card-win">
+                                  <div class="card-hover-win">
+                                      <div class="card-img-wr">                             
+                                      <a href="/tema-22154494.html" target="_self" ><img src="https://pic9.kidstaff.net/pictures_user/590/1471290/22154494/1471290_20170310025413_9385_250x250.jpg" alt="\xd4\xe8\xf1\xf2\xe0\xf8\xea\xe0 \xf1\xee\xeb\xe5\xed\xe0\xff 1\xea\xe3" ></a>
+                                      </div>
+                                      <div class="card-desc"><div class="card-title"><h3><a href="/tema-22154494.html"  target="_self" ><strong>\xd4\xe8\xf1\xf2\xe0\xf8\xea\xe0 \xf1\xee\xeb\xe5\xed\xe0\xff 1\xea\xe3</strong></a></h3></div><div class="card-user-info"><div class="c-name-ele">
+                              <span class="cui-name"><a rel="nofollow" href="/user-1471290.html">Julija.Sh@</a></span>
+                                 <div class="rate_small"><span class="rate-value">8.55</span>&nbsp;<span class="positive-review">(100%)</span>
+                                 </div>
+                              </div></div><div class="card-price"><span class="card-price-ele"><span class="price-val">380</span><span class="price-cur f-small">&nbsp;\xe3\xf0\xed.</span></span></div><div class="card-condition"><strong>\xd2\xee\xe2\xe0\xf0: </strong>\xcd\xee\xe2\xfb\xe9</div></div></div></div></div><div class="ng-card" id="26776722">
+                              <div class="card-win">
+                                  <div class="card-hover-win">
+                                      <div class="card-img-wr">                             
+                                      <a href="/tema-26776722.html" target="_self" ><img src="https://pic9.kidstaff.net/pictures_user/573/1427191/26776722/1427191_20180826121948_4131_250x250.jpg" alt="\xca\xe0\xf8\xe0 \xca\xf3\xf1 \xea\xf3\xf1 300\xe3\xf0\xe0\xec\xec. \xcf\xee\xeb\xfc\xf8\xe0" ></a>
+                                      </div>
+                                      <div class="card-desc"><div class="card-title"><h3><a href="/tema-26776722.html"  target="_self" ><strong>\xca\xe0\xf8\xe0 \xca\xf3\xf1 \xea\xf3\xf1 300\xe3\xf0\xe0\xec\xec. \xcf\xee\xeb\xfc\xf8\xe0</strong></a></h3></div><div class="card-user-info"><div class="c-name-ele">
+                              <span class="cui-name"><a rel="nofollow" href="/user-1427191.html">ilfk</a></span>
+                                 <div class="rate_small"><span class="rate-value">1.71</span>&nbsp;<span class="positive-review">(100%)</span>
+                                 </div>
+                              </div><div class="c-place-ele"><span class="cui-place f-small"> \xca\xe8\xe5\xe2</span></div></div><div class="card-price"><span class="card-price-ele"><span class="price-val">25</span><span class="price-cur f-small">&nbsp;\xe3\xf0\xed.</span></span></div><div class="card-condition"><strong>\xd2\xee\xe2\xe0\xf0: </strong>\xcd\xee\xe2\xfb\xe9</div><div class="tth-tovar"><ul><li>\xc2\xe8\xe4</li> <li>\xca\xe0\xf8\xe8</li> </ul></div></div></div></div></div><div class="ng-card">
+                          <div class="card-win">
+                              <div class="card-ama"><div align="center"><script type="text/javascript"><!--
+							google_ad_client = "pub-6151827721061059";
+							
+							google_ad_slot = "4957810551";
+							google_ad_width = 728;
+							google_ad_height = 90;
+							//-->
+							</script>
+							<script type="text/javascript" 	src="//pagead2.googlesyndication.com/pagead/show_ads.js"></script></div></div></div></div><div class="ng-card placeholder-goods  bottom-place ">
+                            <div class="card-win">
+                                <div class="card-hover-win">
+                                    <div class="card-img-wr">&nbsp;</div>
+                                    <div class="card-desc">
+                                        <div class="ph_ele ph__title">&nbsp;</div>
+                                        <div class="ph_ele ph__title" style="width: 90%;">&nbsp;</div>
+                                        <div class="ph_ele ph__price">&nbsp;</div>
+                                        <div class="ph_ele ph__data" style="width: 38%;">&nbsp;</div>
+                                        <div class="ph_ele ph__data" style="width: 30%;">&nbsp;</div>
+                                        <div class="ph_ele ph__data" style="width: 67%;">&nbsp;</div>
+                                        <div class="ph_ele ph__data" style="width: 57%;">&nbsp;</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div><div class="ng-card placeholder-goods  bottom-place ">
+                            <div class="card-win">
+                                <div class="card-hover-win">
+                                    <div class="card-img-wr">&nbsp;</div>
+                                    <div class="card-desc">
+                                        <div class="ph_ele ph__title">&nbsp;</div>
+                                        <div class="ph_ele ph__title" style="width: 90%;">&nbsp;</div>
+                                        <div class="ph_ele ph__price">&nbsp;</div>
+                                        <div class="ph_ele ph__data" style="width: 38%;">&nbsp;</div>
+                                        <div class="ph_ele ph__data" style="width: 30%;">&nbsp;</div>
+                                        <div class="ph_ele ph__data" style="width: 67%;">&nbsp;</div>
+                                        <div class="ph_ele ph__data" style="width: 57%;">&nbsp;</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div></div><!--end .ng-cards-wrapper-->      
+      <div class="row">
+      <div id="ttt"></div>
+      <div id="adcontainer12" style="margin-bottom:15px;"></div>
+      <div align="center" id="listalka"><table cellspacing="7" border="0" cellpadding="7" align="center"><tbody><tr><td nowrap=""><div class="listalka_div_active">1</div></td><td nowrap=""><a style="text-decoration:none;"  href="/goods/home/produkty-pitanija/bakaleja/page-2" title="\xd1\xf2\xf0\xe0\xed\xe8\xf6\xe0 2"><div class="listalka_div">2</div></a></td><td nowrap=""><a style="text-decoration:none;"  href="/goods/home/produkty-pitanija/bakaleja/page-3" title="\xd1\xf2\xf0\xe0\xed\xe8\xf6\xe0 3"><div class="listalka_div">3</div></a></td><td nowrap=""><a style="text-decoration:none;"  href="/goods/home/produkty-pitanija/bakaleja/page-4" title="\xd1\xf2\xf0\xe0\xed\xe8\xf6\xe0 4"><div class="listalka_div">4</div></a></td><td nowrap=""><a style="text-decoration:none;"  href="/goods/home/produkty-pitanija/bakaleja/page-5" title="\xd1\xf2\xf0\xe0\xed\xe8\xf6\xe0 5"><div class="listalka_div">5</div></a></td><td nowrap=""><a style="text-decoration:none;"  href="/goods/home/produkty-pitanija/bakaleja/page-6" title="\xd1\xf2\xf0\xe0\xed\xe8\xf6\xe0 6"><div class="listalka_div">6</div></a></td><td nowrap=""><div class="tripa">...</div></td><td nowrap=""><a style="text-decoration:none;"  href="/goods/home/produkty-pitanija/bakaleja/page-2" title="\xd1\xeb\xe5\xe4\xf3\xfe\xf9\xe0\xff \xf1\xf2\xf0\xe0\xed\xe8\xf6\xe0"><div class="listalka_div">&gt;</div></a></td></tr></table></div>      <div class="description-content" ><p>\xc1\xe0\xea\xe0\xeb\xe5\xff \x96 \xee\xf1\xed\xee\xe2\xe0 \xf0\xe0\xf6\xe8\xee\xed\xe0 \xeb\xfe\xe1\xee\xe3\xee \xf7\xe5\xeb\xee\xe2\xe5\xea\xe0. \xca\xf3\xef\xe8\xf2\xfc \xea\xf0\xf3\xef\xfb, \xec\xe0\xea\xe0\xf0\xee\xed\xed\xfb\xe5 \xe8\xe7\xe4\xe5\xeb\xe8\xff, \xec\xf3\xea\xf3, \xea\xee\xed\xf1\xe5\xf0\xe2\xfb, \xf0\xe0\xf1\xf2\xe2\xee\xf0\xe8\xec\xfb\xe5 \xed\xe0\xef\xe8\xf2\xea\xe8, \xf1\xee\xeb\xfc, \xf1\xe0\xf5\xe0\xf0 \xe8 \xf1\xef\xe5\xf6\xe8\xe8 \xf3\xea\xf0\xe0\xe8\xed\xf1\xea\xe8\xf5 \xe8\xeb\xe8 \xe7\xe0\xf0\xf3\xe1\xe5\xe6\xed\xfb\xf5 \xef\xf0\xee\xe8\xe7\xe2\xee\xe4\xe8\xf2\xe5\xeb\xe5\xe9 \xec\xee\xe6\xed\xee \xed\xe0 \xe4\xee\xf1\xea\xe5 \xee\xe1\xfa\xff\xe2\xeb\xe5\xed\xe8\xe9 \xca\xe8\xe4\xf1\xf2\xe0\xf4\xf4. </p>
+<p>\xc2 \xf0\xe0\xe7\xe4\xe5\xeb\xe5 \xc2\xfb \xed\xe0\xe9\xe4\xe5\xf2\xe5 \xe3\xf0\xe5\xf7\xed\xe5\xe2\xf3\xfe, \xf0\xe8\xf1\xee\xe2\xf3\xfe, \xff\xf7\xed\xe5\xe2\xf3\xfe, \xef\xf8\xe5\xed\xe8\xf7\xed\xf3\xfe, \xea\xf3\xea\xf3\xf0\xf3\xe7\xed\xf3\xfe \xea\xf0\xf3\xef\xfb, \xf7\xe5\xf0\xe5\xe2\xe8\xf6\xf3, \xf5\xeb\xee\xef\xfc\xff \xe8 \xf0\xe0\xe7\xeb\xe8\xf7\xed\xfb\xe5 \xea\xe0\xf8\xe8. \xc3\xf0\xe0\xed\xee\xeb\xe0, \xe1\xee\xe1\xee\xe2\xfb\xe5, \xee\xf2\xf0\xf3\xe1\xe8, \xe7\xe5\xf0\xed\xee, \xf1\xe5\xec\xe5\xf7\xea\xe8, \xf1\xf3\xf5\xee\xf4\xf0\xf3\xea\xf2\xfb, \xee\xf0\xe5\xf5\xe8, \xf1\xee\xeb\xee\xe4 \xe8 \xec\xed\xee\xe3\xe8\xe5 \xe4\xf0\xf3\xe3\xe8\xe5 \xef\xf0\xee\xe4\xf3\xea\xf2\xfb \xe4\xee\xf1\xf2\xf3\xef\xed\xfb \xe2 \xf4\xe8\xf0\xec\xe5\xed\xed\xee\xe9 \xf3\xef\xe0\xea\xee\xe2\xea\xe5 \xe8 \xed\xe0 \xf0\xe0\xe7\xe2\xe5\xf1. </p>
+<p>\xce\xe3\xf0\xee\xec\xed\xee\xe9 \xef\xee\xef\xf3\xeb\xff\xf0\xed\xee\xf1\xf2\xfc\xfe \xef\xee\xeb\xfc\xe7\xf3\xfe\xf2\xf1\xff \xe8\xec\xef\xee\xf0\xf2\xed\xfb\xe5 \xec\xe0\xea\xe0\xf0\xee\xed\xed\xfb\xe5 \xe8\xe7\xe4\xe5\xeb\xe8\xff. \xca\xf3\xef\xe8\xf2\xfc \xed\xe0 \xca\xe8\xe4\xf1\xf2\xe0\xf4\xf4 \xec\xee\xe6\xed\xee \xf0\xe0\xe7\xed\xee\xee\xe1\xf0\xe0\xe7\xed\xfb\xe5 \xf1\xef\xe0\xe3\xe5\xf2\xf2\xe8, \xeb\xe0\xef\xf8\xf3, \xeb\xe8\xf1\xf2\xfb \xe4\xeb\xff \xeb\xe0\xe7\xe0\xed\xfc\xe8, \xe2\xe5\xf0\xec\xe8\xf8\xe5\xeb\xfc \xf8\xe8\xf2\xe0\xea\xe8, \xf4\xe8\xe3\xf3\xf0\xed\xfb\xe5 \xe4\xe5\xf2\xf1\xea\xe8\xe5 \xec\xe0\xea\xe0\xf0\xee\xed\xfb. \xcf\xf0\xe8\xe3\xee\xf2\xee\xe2\xe8\xf2\xfc \xed\xe0\xf1\xf2\xee\xff\xf9\xf3\xfe \xef\xe0\xf1\xf2\xf3 \xef\xee\xec\xee\xe6\xe5\xf2 \xec\xf3\xea\xe0 \xe8\xe7 \xf2\xe2\xe5\xf0\xe4\xfb\xf5 \xf1\xee\xf0\xf2\xee\xe2 \xef\xf8\xe5\xed\xe8\xf6\xfb. </p>
+<p>\xc4\xee\xef\xee\xeb\xed\xff\xfe\xf2 \xe0\xf1\xf1\xee\xf0\xf2\xe8\xec\xe5\xed\xf2 \xf1\xe0\xe9\xf2\xe0 \xf1\xee\xeb\xfc, \xf1\xef\xe5\xf6\xe8\xe8, \xef\xf0\xff\xed\xee\xf1\xf2\xe8, \xec\xe0\xe9\xee\xed\xe5\xe7, \xf3\xea\xf1\xf3\xf1, \xef\xe8\xea\xe0\xed\xf2\xed\xfb\xe5 \xf1\xee\xf3\xf1\xfb \xe4\xeb\xff \xf0\xfb\xe1\xed\xfb\xf5 \xe8 \xec\xff\xf1\xed\xfb\xf5 \xe1\xeb\xfe\xe4. \xcf\xf0\xe8\xee\xe1\xf0\xe5\xf1\xf2\xe8 \xe8\xe7 \xed\xe0\xeb\xe8\xf7\xe8\xff \xe8\xeb\xe8 \xef\xee\xe4 \xe7\xe0\xea\xe0\xe7 \xec\xee\xe6\xed\xee \xf2\xf3\xf0\xe8\xf1\xf2\xe8\xf7\xe5\xf1\xea\xe8\xe5 \xea\xee\xed\xf1\xe5\xf0\xe2\xfb, \xec\xe0\xf1\xeb\xe8\xed\xfb \xe8 \xee\xeb\xe8\xe2\xea\xe8 \xf0\xe0\xe7\xed\xfb\xf5 \xf1\xef\xee\xf1\xee\xe1\xee\xe2 \xef\xf0\xe8\xe3\xee\xf2\xee\xe2\xeb\xe5\xed\xe8\xff. </p>
+<p>\xc1\xeb\xe0\xe3\xee\xe4\xe0\xf0\xff \xee\xf2\xe7\xfb\xe2\xe0\xec, \xc2\xfb \xf1\xec\xee\xe6\xe5\xf2\xe5 \xe2\xfb\xe1\xf0\xe0\xf2\xfc \xea\xe0\xf7\xe5\xf1\xf2\xe2\xe5\xed\xed\xf3\xfe \xe1\xe0\xea\xe0\xeb\xe5\xfe \xef\xee \xed\xe0\xe8\xe1\xee\xeb\xe5\xe5 \xef\xf0\xe8\xe5\xec\xeb\xe5\xec\xfb\xec \xf6\xe5\xed\xe0\xec. \xcd\xe0 \xf4\xee\xf0\xf3\xec\xe5 <a href=" https://sovet.kidstaff.com.ua/otvety/eda-kulinariya ">\xd1\xee\xe2\xe5\xf2\xf7\xe8\xf6\xe5</a> \xed\xe0\xe9\xe4\xf3\xf2\xf1\xff \xf0\xe5\xf6\xe5\xef\xf2\xfb \xe2\xea\xf3\xf1\xed\xfb\xf5 \xe8 \xef\xee\xeb\xe5\xe7\xed\xfb\xf5 \xe1\xeb\xfe\xe4 \xe8\xe7 \xeb\xfe\xe1\xfb\xf5 \xef\xf0\xee\xe4\xf3\xea\xf2\xee\xe2. </p></div>
+            </div>
+      </div><!--end maincol-->
+      <div class="sidecol filtercol"><span class="show-filter-panel" title="\xcf\xee\xea\xe0\xe7\xe0\xf2\xfc \xef\xe0\xed\xe5\xeb\xfc \xf4\xe8\xeb\xfc\xf2\xf0\xee\xe2"></span><div class="filters-sidebar"><div class="fp-controls"><div class="hide-filtercol" title="\xd1\xea\xf0\xfb\xf2\xfc \xf4\xe8\xeb\xfc\xf2\xf0\xfb"></div><div class="switcher-filtercol" title="\xcf\xe5\xf0\xe5\xec\xe5\xf1\xf2\xe8\xf2\xfc \xef\xe0\xed\xe5\xeb\xfc \xf4\xe8\xeb\xfc\xf2\xf0\xee\xe2"></div></div><h4 class="fs-title--main">\xd4\xe8\xeb\xfc\xf2\xf0\xfb</h4><div class="fs-cat-block">
+        <div class="fs-title-wrapper"><span class="fs-title--sub">\xc8\xf1\xea\xe0\xf2\xfc \xe2 \xfd\xf2\xee\xec \xf0\xe0\xe7\xe4\xe5\xeb\xe5</span><span  class="open-dialog  fs-title-more" data-popup-target="common">\xe1\xee\xeb\xfc\xf8\xe5</span></div>
+        <div class="fcb-inner-wr search-word-wr">
+            <input class="filter-param search-word-input" data-filter-type="search_word" data-filter-id="0" name="searchword" type="text" value="" autocomplete="off"><a href="javascript:void(0);" class="btn-search button-sm-ok" >ok</a>
+        </div>
+    </div><div class="fs-cat-block">
+        <div class="fs-title-wrapper"><span class="fs-title--sub">\xcf\xee\xea\xe0\xe7\xe0\xf2\xfc \xf1\xee\xe7\xe4\xe0\xed\xed\xfb\xe5</span></div>
+        <div class="fcb-inner-wr"><select  class="widthselect filter-param" data-filter-type="count_day"><option value="0"   data-filter-id="0" data-filter-title="\xe7\xe0 \xe2\xe5\xf1\xfc \xef\xe5\xf0\xe8\xee\xe4" >\xc7\xe0 \xe2\xe5\xf1\xfc \xef\xe5\xf0\xe8\xee\xe4</option><option value="1"   data-filter-id="1" data-filter-title="\xe7\xe0 \xef\xee\xf1\xeb\xe5\xe4\xed\xe8\xe5 \xf1\xf3\xf2\xea\xe8" >\xc7\xe0 \xef\xee\xf1\xeb\xe5\xe4\xed\xe8\xe5 \xf1\xf3\xf2\xea\xe8</option><option value="3"   data-filter-id="3" data-filter-title="\xe7\xe0 \xf2\xf0\xe8 \xe4\xed\xff" >\xc7\xe0 \xf2\xf0\xe8 \xe4\xed\xff</option><option value="7"   data-filter-id="7" data-filter-title="\xe7\xe0 \xed\xe5\xe4\xe5\xeb\xfe" >\xc7\xe0 \xed\xe5\xe4\xe5\xeb\xfe</option></select></div>
+    </div><div class="fs-cat-block">
+        <div class="fs-title-wrapper"><span class="fs-title--sub">\xc2\xe8\xe4</span><span  class="open-dialog  fs-title-more" data-popup-target="group-2474">\xe1\xee\xeb\xfc\xf8\xe5</span></div><ul class="fs-cat-list"><li class="fs-cat-li"><label><input class="filter-param" data-filter-type="chars"
+             data-filter-id="46990" data-filter-url="" value="46990" type="checkbox" >\xca\xe0\xf8\xe8</label></li><li class="fs-cat-li"><label><input class="filter-param" data-filter-type="chars"
+             data-filter-id="40673" data-filter-url="" value="40673" type="checkbox" >\xca\xf0\xf3\xef\xfb</label></li><li class="fs-cat-li"><label><input class="filter-param" data-filter-type="chars"
+             data-filter-id="40675" data-filter-url="" value="40675" type="checkbox" >\xcc\xe0\xea\xe0\xf0\xee\xed\xed\xfb\xe5 \xe8\xe7\xe4\xe5\xeb\xe8</label></li><li class="fs-cat-li"><label><input class="filter-param" data-filter-type="chars"
+             data-filter-id="64907" data-filter-url="" value="64907" type="checkbox" >\xce\xeb\xe8\xe2\xea\xe8/\xcc\xe0\xf1\xeb\xe8\xed\xfb</label></li><li class="fs-cat-li"><label><input class="filter-param" data-filter-type="chars"
+             data-filter-id="40687" data-filter-url="" value="40687" type="checkbox" >\xce\xf0\xe5\xf5\xe8</label></li><li class="fs-cat-li"><label><input class="filter-param" data-filter-type="chars"
+             data-filter-id="40676" data-filter-url="" value="40676" type="checkbox" >\xd1\xee\xf3\xf1\xfb</label></li><li class="fs-cat-li"><label><input class="filter-param" data-filter-type="chars"
+             data-filter-id="40677" data-filter-url="" value="40677" type="checkbox" >\xd1\xef\xe5\xf6\xe8\xe8 \xe8 \xef\xf0\xff\xed\xee\xf1\xf2\xe8</label></li><li class="fs-cat-li"><label><input class="filter-param" data-filter-type="chars"
+             data-filter-id="40679" data-filter-url="" value="40679" type="checkbox" >\xd1\xf3\xf5\xee\xf4\xf0\xf3\xea\xf2\xfb</label></li></ul><span title="\xcf\xee\xea\xe0\xe7\xe0\xf2\xfc \xe1\xee\xeb\xfc\xf8\xe5 \xf5\xe0\xf0\xe0\xea\xf2\xe5\xf0\xe8\xf1\xf2\xe8\xea"  class="open-dialog  fs-title-more" data-popup-target="group-2474">&nbsp;</span></div><div class="fs-cat-block">
+        <div class="fs-title-wrapper"><span class="fs-title--sub">\xce\xe1\xfa\xe5\xec, \xea\xe3</span></div><ul class="fs-cat-list"><li class="fs-cat-li"><label><input class="filter-param" data-filter-type="chars"
+             data-filter-id="43108" data-filter-url="" value="43108" type="checkbox" >0,1</label></li><li class="fs-cat-li"><label><input class="filter-param" data-filter-type="chars"
+             data-filter-id="43109" data-filter-url="" value="43109" type="checkbox" >0,3</label></li><li class="fs-cat-li"><label><input class="filter-param" data-filter-type="chars"
+             data-filter-id="43110" data-filter-url="" value="43110" type="checkbox" >0,5</label></li><li class="fs-cat-li"><label><input class="filter-param" data-filter-type="chars"
+             data-filter-id="43111" data-filter-url="" value="43111" type="checkbox" >0,7</label></li><li class="fs-cat-li"><label><input class="filter-param" data-filter-type="chars"
+             data-filter-id="43112" data-filter-url="" value="43112" type="checkbox" >1</label></li><li class="fs-cat-li"><label><input class="filter-param" data-filter-type="chars"
+             data-filter-id="43113" data-filter-url="" value="43113" type="checkbox" >2,5</label></li><li class="fs-cat-li"><label><input class="filter-param" data-filter-type="chars"
+             data-filter-id="43114" data-filter-url="" value="43114" type="checkbox" >5</label></li></ul></div><div class="fs-cat-block">
+        <div class="fs-title-wrapper"><span class="fs-title--sub">\xca\xf0\xf3\xef\xe0</span></div><ul class="fs-cat-list"><li class="fs-cat-li"><label><input class="filter-param" data-filter-type="chars"
+             data-filter-id="43115" data-filter-url="" value="43115" type="checkbox" >\xc3\xf0\xe5\xf7\xea\xe0</label></li><li class="fs-cat-li"><label><input class="filter-param" data-filter-type="chars"
+             data-filter-id="43119" data-filter-url="" value="43119" type="checkbox" >\xca\xf3\xea\xf3\xf0\xf3\xe7\xe0</label></li><li class="fs-cat-li"><label><input class="filter-param" data-filter-type="chars"
+             data-filter-id="43117" data-filter-url="" value="43117" type="checkbox" >\xcf\xf8\xe5\xed\xe8\xf6\xe0</label></li><li class="fs-cat-li"><label><input class="filter-param" data-filter-type="chars"
+             data-filter-id="43116" data-filter-url="" value="43116" type="checkbox" >\xd0\xe8\xf1</label></li><li class="fs-cat-li"><label><input class="filter-param" data-filter-type="chars"
+             data-filter-id="43118" data-filter-url="" value="43118" type="checkbox" >\xd5\xeb\xee\xef\xfc\xff</label></li><li class="fs-cat-li"><label><input class="filter-param" data-filter-type="chars"
+             data-filter-id="60261" data-filter-url="" value="60261" type="checkbox" >\xd7\xe5\xf7\xe5\xe2\xe8\xf6\xe0</label></li><li class="fs-cat-li"><label><input class="filter-param" data-filter-type="chars"
+             data-filter-id="60262" data-filter-url="" value="60262" type="checkbox" >\xdf\xf7\xea\xe0 </label></li></ul></div></div></div>      </div>
+      <script type="text/javascript">
+          
+      </script>
+      </td></tr>
+<tr>
+	<td colspan="2">
+    
+	<a name="bottomhere"><hr style="background:#fff;color:#fff;clear:both;float:none;width:100%;height:.1em;margin:0;border:none;" /></a>
+	<a id="bottompage"></a>
+	<div class="footer-menu" >
+    <ul>
+    <!--<li><a href="https://twitter.com/Kidstaffnet" target="_blank" class="twit-link">\xcd\xe0\xf8 \xf2\xe2\xe8\xf2\xf2\xe5\xf0</a></li>-->
+    <!--<li>|</li>
+    <li><a href="/informer/">\xd0\xe5\xea\xeb\xe0\xec\xe0</a></li>
+    <li>|</li>-->
+    <li><a href="https://www.kidstaff.com.ua/kid_help.html" target="_blank">\xcf\xee\xec\xee\xf9\xfc</a></li>
+    <li>|</li>
+    <li><a href="https://www.kidstaff.com.ua/kid_help-45.html" target="_blank">\xd3\xf1\xeb\xee\xe2\xe8\xff \xe8\xf1\xef\xee\xeb\xfc\xe7\xee\xe2\xe0\xed\xe8\xff</a></li>
+	<li>|</li>
+    <li><a href="https://m.kidstaff.com.ua/goods/home/produkty-pitanija/bakaleja">\xcc\xee\xe1\xe8\xeb\xfc\xed\xe0\xff \xe2\xe5\xf0\xf1\xe8\xff</a></li>
+	<li>|</li>
+    <li><a href="https://www.kidstaff.com.ua/tree">\xc4\xe5\xf0\xe5\xe2\xee \xea\xe0\xf2\xe5\xe3\xee\xf0\xe8\xe9</a></li>
+    </ul>
+    </div>
+    <table width="98%" cellspacing="10" class="footer-table">
+	<tr>
+	<td width="40%">
+<div><span style="color:#999999; font-size:11px; margin-bottom:5px; display:block;">&copy; \xc4\xee\xf1\xea\xe0 \xee\xe1\xfa\xff\xe2\xeb\xe5\xed\xe8\xe9 Kidstaff \x97 \xeb\xe5\xe3\xea\xee \xef\xee\xea\xf3\xef\xe0\xf2\xfc, \xf3\xe4\xee\xe1\xed\xee \xef\xf0\xee\xe4\xe0\xe2\xe0\xf2\xfc!</span>
+<br><img src="https://img.kidstaff.net/social_icons/facebook.svg" width="16" height="16" alt="" border="0" align="absmiddle">
+                    <a href="https://www.facebook.com/kidstaff.ua" class="decornone" target="_blank">Facebook</a>&nbsp;&nbsp;&nbsp;<img src="https://img.kidstaff.net/social_icons/instagram.svg" width="16" height="16" alt="" border="0" align="absmiddle">
+                    <a href="https://www.instagram.com/kidstaff.ua/" class="decornone" target="_blank">Instagram</a>&nbsp;&nbsp;&nbsp;<img src="https://img.kidstaff.net/social_icons/twitter.svg" width="16" height="16" alt="" border="0" align="absmiddle">
+                    <a href="https://twitter.com/Kidstaffnet" class="decornone" target="_blank">Twitter</a>&nbsp;&nbsp;&nbsp;</div>
+
+</td>
+<td  width="60%">
+<div style="color:#999999; font-size:10px">
+\xc1\xe0\xea\xe0\xeb\xe5\xff - \xea\xf3\xef\xe8\xf2\xfc \xee\xed\xeb\xe0\xe9\xed \xf1 \xe4\xee\xf1\xf2\xe0\xe2\xea\xee\xe9 \xef\xee \xe2\xf1\xe5\xe9 \xd3\xea\xf0\xe0\xe8\xed\xe5  - Kidstaff<br>\xc8\xf1\xef\xee\xeb\xfc\xe7\xee\xe2\xe0\xed\xe8\xe5 \xe4\xe0\xed\xed\xee\xe3\xee \xe2\xe5\xe1-\xf1\xe0\xe9\xf2\xe0 \xee\xe7\xed\xe0\xf7\xe0\xe5\xf2 \xef\xf0\xe8\xed\xff\xf2\xe8\xe5 \xe5\xe3\xee <a href="https://www.kidstaff.com.ua/kid_help-45.html">\xd3\xf1\xeb\xee\xe2\xe8\xe9 \xef\xee\xeb\xfc\xe7\xee\xe2\xe0\xed\xe8\xff</a>.
+</div>
+</td>
+</tr>
+</table>
+	</td>
+</tr>
+</table>
+<script type="text/javascript">
+		$(function () {initTopBottomWidget();});
+</script>
+<div class="taskbar">
+	<a href="javascript:void(0)" id="toplink">\xe2\xe2\xe5\xf0\xf5</a>&nbsp;<br>
+	<a href="javascript:void(0)" id="bottomlink">\xe2\xed\xe8\xe7</a>&nbsp;
+</div><div id="dd1" class="iframe"></div><div id="wsreen"></div>
+</div><!--bodycontent-->
+<div id="msgin"><img src="https://img.kidstaff.net/envilope2.gif"><span> \xed\xee\xe2\xee\xe5 \xf1\xee\xee\xe1\xf9\xe5\xed\xe8\xe5</span></div>
+<script>
+$(function(){
+        var nxtDscript = undefined;
+nxtDscript = document.createElement('script');
+nxtDscript.src = 'https://vip.kidstaff.com.ua/vip_anno_tiles-24-112-1253-0-0-top.js';
+document.getElementsByTagName('head')[0].appendChild(nxtDscript);
+
+        //include async banners
+        if($(".absk").length) {
+            var arrabsk = [];
+            $(".absk").each(function() {
+                var valAbsk = $(this).attr("id");
+                    valAbsk = parseInt(valAbsk.replace(/\D+/g,""));
+                var arrsearch = arrabsk.indexOf(valAbsk) + 1;
+                if(!(!!arrsearch)) arrabsk.push(valAbsk);
+            });
+            var abskResult = arrabsk.join('-');
+            var scriptAbsc = document.createElement('script');
+            scriptAbsc.src = "https://a.kidstaff.net/absk1537644981-"+ abskResult +".js";
+            document.getElementsByTagName('head')[0].appendChild(scriptAbsc);
+        }
+    });
+</script>
+</div>
+<script type="text/javascript">var searchInitParams ={type_anno: {id:1},
+chars: {id:[]},
+condition: {id:0},
+pol: {id:0},
+search_word: {id:""},
+price_from: {id:0},
+price_to: {id:0},
+id_city: {id:0,url:"",callback:changeRegionWidget},
+id_region: {id:0,url:""},
+count_day: {id:0}};
+ var addInitParams ={sort: {id:0,title:"\xce\xe1\xfb\xf7\xed\xe0\xff",url:""},
+id_cat2: {id:24,title:"\xc4\xee\xec, \xee\xf2\xe4\xfb\xf5, \xef\xf0\xe0\xe7\xe4\xed\xe8\xea\xe8",url:"home"},
+id_cat: {id:112,title:"\xcf\xf0\xee\xe4\xf3\xea\xf2\xfb \xef\xe8\xf2\xe0\xed\xe8\xff",url:"produkty-pitanija"},
+id_cat3: {id:1253,title:"\xc1\xe0\xea\xe0\xeb\xe5\xff",url:"bakaleja"},
+page_type: {id:""},
+page: {id:0}};$(function(){init_informers("https://i2.kidstaff.com.ua/info-mobile-2.js?d=1809221036");proSearch.init(searchInitParams, addInitParams, []);regionSearchSelect.init();initFilterDialog();initViewWidgets();$(".placeholder-goods.bottom-place,#listalka").onViewport(function(){
+		    var scriptBottomVip = document.createElement("script");
+      scriptBottomVip.src = "https://vip.kidstaff.com.ua/vip_anno_tiles-24-112-1253-0-0-bottom.js";
+      document.getElementsByTagName("head")[0].appendChild(scriptBottomVip);
+      window.setTimeout("$('.placeholder-goods.bottom-place').remove();", 7000);
+	     });window.setTimeout('$(".placeholder-goods.top-place").remove();', 7000);loadObBlock();});</script><div class="dialog select-filters-popup" role="dialog" aria-labelledby="dialog-title"
+     aria-describedby="dialog-description" aria-hidden="true">
+    <div class="sfp-col-wrap">
+        <table class="sfp-table">
+            <tbody>
+            <tr><td class="sfp-left-col"><div class="sfp-filter-type" data-filter-group = "common">\xce\xf1\xed\xee\xe2\xed\xfb\xe5</div><div class="sfp-filter-type" data-filter-group = "group-2474">\xc2\xe8\xe4</div><div class="sfp-filter-type" data-filter-group = "group-2862">\xce\xe1\xfa\xe5\xec, \xea\xe3</div><div class="sfp-filter-type" data-filter-group = "group-2863">\xca\xf0\xf3\xef\xe0</div></td><td class="sfp-right-col"><div class="ff-td-fix"><div class="sfp-filter-window hidden" id="common">
+                            <div class="sfp-window-col wc-main">
+                                    <h5>\xd1\xee\xf0\xf2\xe8\xf0\xee\xe2\xe0\xf2\xfc</h5>
+                                    <select  class="widthselect sorting"><option value="0" data-url="" data-auctions="0">\xce\xe1\xfb\xf7\xed\xe0\xff</option><option value="1" data-url="date" data-auctions="1">\xcf\xee \xe4\xe0\xf2\xe5 \xee\xea\xee\xed\xf7\xe0\xed\xe8\xff \xf2\xee\xf0\xe3\xee\xe2</option><option value="4" data-url="bids" data-auctions="1">\xcf\xee \xea\xee\xeb\xe8\xf7\xe5\xf1\xf2\xe2\xf3 \xf1\xf2\xe0\xe2\xee\xea</option><option value="2" data-url="price" data-auctions="0">\xce\xf2 \xe4\xe5\xf8\xe5\xe2\xfb\xf5 \xea \xe4\xee\xf0\xee\xe3\xe8\xec</option><option value="3" data-url="pricedesc" data-auctions="0">\xce\xf2 \xe4\xee\xf0\xee\xe3\xe8\xf5 \xea \xe4\xe5\xf8\xe5\xe2\xfb\xec</option><option value="5" data-url="new" data-auctions="0">\xcf\xee \xe4\xe0\xf2\xe5 \xf1\xee\xe7\xe4\xe0\xed\xe8\xff</option><option value="7" data-url="rating" data-auctions="0">\xcf\xee \xf0\xe5\xe9\xf2\xe8\xed\xe3\xf3 \xef\xee\xef\xf3\xeb\xff\xf0\xed\xee\xf1\xf2\xe8</option></select><h5>\xd2\xe8\xef</h5>
+                                <div class="msg-type-wr">
+                                    <a href="javascript:void(0)" class="ks-button  filter-param active" data-filter-type="type_anno" data-filter-id="1">\xce\xe1\xfa\xff\xe2\xeb\xe5\xed\xe8\xff</a><a href="javascript:void(0)" class="ks-button filter-param" data-filter-type="type_anno" data-filter-id="2">\xc0\xf3\xea\xf6\xe8\xee\xed\xfb</a>
+                                </div><h5>\xd1\xee\xf1\xf2\xee\xff\xed\xe8\xe5 \xf2\xee\xe2\xe0\xf0\xe0</h5>
+                                <ul class="fs-cat-list">
+                                    <a href="javascript:void(0)" class="ks-button filter-param" data-filter-type="condition" data-filter-id="0" data-filter-title="\xd1\xee\xf1\xf2\xee\xff\xed\xe8\xe5 \xeb\xfe\xe1\xee\xe5">\xc2\xf1\xe5</a><a href="javascript:void(0)" class="ks-button filter-param active" data-filter-type="condition" data-filter-id="1">\xcd\xee\xe2\xee\xe5</a><a href="javascript:void(0)" class="ks-button filter-param" data-filter-type="condition" data-filter-id="2">\xc1/\xd3</a>
+                                </ul><h5>\xcf\xee\xe8\xf1\xea\xee\xe2\xe0\xff \xf4\xf0\xe0\xe7\xe0</h5>
+                                <div class="fcb-inner-wr search-word-wr">
+                                    <input class="filter-param search-word-input" data-filter-type="search_word" data-filter-id="0" name="searchword" type="text" value="" autocomplete="off"><a href="javascript:void(0);" class="btn-search button-sm-ok" >ok</a>
+                                </div>
+
+                                <h5>\xd6\xe5\xed\xe0</h5>
+                                <div class="price-blk-wr">
+                                    \xee\xf2: <input class="filter-price filter-param" data-filter-type="price_from" data-filter-id="0" name="pricefrom" type="text" value="" autocomplete="off"> \xe4\xee: <input class="filter-price filter-param" data-filter-type="price_to" data-filter-id="0" name="priceto" type="text" value="" autocomplete="off"><a href="javascript:void(0);" class="btn-price">ok</a>
+                                </div>
+                                
+                                <h5>\xcf\xee\xea\xe0\xe7\xe0\xf2\xfc \xf1\xee\xe7\xe4\xe0\xed\xed\xfb\xe5</h5>
+                                    <select  class="widthselect filter-param" data-filter-type="count_day"><option value="0"   data-filter-id="0" data-filter-title="\xe7\xe0 \xe2\xe5\xf1\xfc \xef\xe5\xf0\xe8\xee\xe4">\xc7\xe0 \xe2\xe5\xf1\xfc \xef\xe5\xf0\xe8\xee\xe4</option><option value="1"   data-filter-id="1" data-filter-title="\xe7\xe0 \xef\xee\xf1\xeb\xe5\xe4\xed\xe8\xe5 \xf1\xf3\xf2\xea\xe8">\xc7\xe0 \xef\xee\xf1\xeb\xe5\xe4\xed\xe8\xe5 \xf1\xf3\xf2\xea\xe8</option><option value="3"   data-filter-id="3" data-filter-title="\xe7\xe0 \xf2\xf0\xe8 \xe4\xed\xff">\xc7\xe0 \xf2\xf0\xe8 \xe4\xed\xff</option><option value="7"   data-filter-id="7" data-filter-title="\xe7\xe0 \xed\xe5\xe4\xe5\xeb\xfe">\xc7\xe0 \xed\xe5\xe4\xe5\xeb\xfe</option></select></div>
+
+                        </div><div class="sfp-filter-window hidden" id="group-2474"><div class="sfp-window-col wc-left"><ul class="fs-cat-list"><li class="fs-cat-li"><label><input class="filter-param" data-filter-type="chars" data-filter-id="40674"  data-filter-url="" type="checkbox">\xc1\xee\xe1\xee\xe2\xfb\xe5</label></li><li class="fs-cat-li"><label><input class="filter-param" data-filter-type="chars" data-filter-id="64944"  data-filter-url="" type="checkbox">\xc3\xf0\xe0\xed\xee\xeb\xe0</label></li><li class="fs-cat-li"><label><input class="filter-param" data-filter-type="chars" data-filter-id="46995"  data-filter-url="" type="checkbox">\xc7\xe5\xf0\xed\xee</label></li><li class="fs-cat-li"><label><input class="filter-param" data-filter-type="chars" data-filter-id="46990"  data-filter-url="" type="checkbox">\xca\xe0\xf8\xe8</label></li><li class="fs-cat-li"><label><input class="filter-param" data-filter-type="chars" data-filter-id="64908"  data-filter-url="" type="checkbox">\xca\xee\xed\xf1\xe5\xf0\xe2\xfb</label></li><li class="fs-cat-li"><label><input class="filter-param" data-filter-type="chars" data-filter-id="40673"  data-filter-url="" type="checkbox">\xca\xf0\xf3\xef\xfb</label></li><li class="fs-cat-li"><label><input class="filter-param" data-filter-type="chars" data-filter-id="40675"  data-filter-url="" type="checkbox">\xcc\xe0\xea\xe0\xf0\xee\xed\xed\xfb\xe5 \xe8\xe7\xe4\xe5\xeb\xe8</label></li><li class="fs-cat-li"><label><input class="filter-param" data-filter-type="chars" data-filter-id="46989"  data-filter-url="" type="checkbox">\xcc\xf3\xea\xe0</label></li><li class="fs-cat-li"><label><input class="filter-param" data-filter-type="chars" data-filter-id="64907"  data-filter-url="" type="checkbox">\xce\xeb\xe8\xe2\xea\xe8/\xcc\xe0\xf1\xeb\xe8\xed\xfb</label></li><li class="fs-cat-li"><label><input class="filter-param" data-filter-type="chars" data-filter-id="40687"  data-filter-url="" type="checkbox">\xce\xf0\xe5\xf5\xe8</label></li><li class="fs-cat-li"><label><input class="filter-param" data-filter-type="chars" data-filter-id="46993"  data-filter-url="" type="checkbox">\xce\xf2\xf0\xf3\xe1\xe8</label></li><li class="fs-cat-li"><label><input class="filter-param" data-filter-type="chars" data-filter-id="40678"  data-filter-url="" type="checkbox">\xd0\xe0\xf1\xf2\xe2\xee\xf0. \xed\xe0\xef\xe8\xf2\xea\xe8</label></li></ul></div><div class="sfp-window-col wc-right">
+                                <ul class="fs-cat-list"><li class="fs-cat-li"><label><input class="filter-param" data-filter-type="chars" data-filter-id="46991" data-filter-url="" type="checkbox">\xd1\xe0\xf5\xe0\xf0</label></li><li class="fs-cat-li"><label><input class="filter-param" data-filter-type="chars" data-filter-id="43107" data-filter-url="" type="checkbox">\xd1\xe5\xec\xe5\xf7\xea\xe8</label></li><li class="fs-cat-li"><label><input class="filter-param" data-filter-type="chars" data-filter-id="46994" data-filter-url="" type="checkbox">\xd1\xee\xeb\xee\xe4</label></li><li class="fs-cat-li"><label><input class="filter-param" data-filter-type="chars" data-filter-id="46992" data-filter-url="" type="checkbox">\xd1\xee\xeb\xfc</label></li><li class="fs-cat-li"><label><input class="filter-param" data-filter-type="chars" data-filter-id="40676" data-filter-url="" type="checkbox">\xd1\xee\xf3\xf1\xfb</label></li><li class="fs-cat-li"><label><input class="filter-param" data-filter-type="chars" data-filter-id="40677" data-filter-url="" type="checkbox">\xd1\xef\xe5\xf6\xe8\xe8 \xe8 \xef\xf0\xff\xed\xee\xf1\xf2\xe8</label></li><li class="fs-cat-li"><label><input class="filter-param" data-filter-type="chars" data-filter-id="40679" data-filter-url="" type="checkbox">\xd1\xf3\xf5\xee\xf4\xf0\xf3\xea\xf2\xfb</label></li><li class="fs-cat-li"><label><input class="filter-param" data-filter-type="chars" data-filter-id="68151" data-filter-url="" type="checkbox">\xd3\xea\xf1\xf3\xf1</label></li></ul>
+                            </div>
+                        </div><div class="sfp-filter-window hidden" id="group-2862"><div class="sfp-window-col wc-left"><ul class="fs-cat-list"><li class="fs-cat-li"><label><input class="filter-param" data-filter-type="chars" data-filter-id="43108"  data-filter-url="" type="checkbox">0,1</label></li><li class="fs-cat-li"><label><input class="filter-param" data-filter-type="chars" data-filter-id="43109"  data-filter-url="" type="checkbox">0,3</label></li><li class="fs-cat-li"><label><input class="filter-param" data-filter-type="chars" data-filter-id="43110"  data-filter-url="" type="checkbox">0,5</label></li><li class="fs-cat-li"><label><input class="filter-param" data-filter-type="chars" data-filter-id="43111"  data-filter-url="" type="checkbox">0,7</label></li><li class="fs-cat-li"><label><input class="filter-param" data-filter-type="chars" data-filter-id="43112"  data-filter-url="" type="checkbox">1</label></li></ul></div><div class="sfp-window-col wc-right">
+                                <ul class="fs-cat-list"><li class="fs-cat-li"><label><input class="filter-param" data-filter-type="chars" data-filter-id="43113" data-filter-url="" type="checkbox">2,5</label></li><li class="fs-cat-li"><label><input class="filter-param" data-filter-type="chars" data-filter-id="43114" data-filter-url="" type="checkbox">5</label></li></ul>
+                            </div>
+                        </div><div class="sfp-filter-window hidden" id="group-2863"><div class="sfp-window-col wc-left"><ul class="fs-cat-list"><li class="fs-cat-li"><label><input class="filter-param" data-filter-type="chars" data-filter-id="43115"  data-filter-url="" type="checkbox">\xc3\xf0\xe5\xf7\xea\xe0</label></li><li class="fs-cat-li"><label><input class="filter-param" data-filter-type="chars" data-filter-id="43119"  data-filter-url="" type="checkbox">\xca\xf3\xea\xf3\xf0\xf3\xe7\xe0</label></li><li class="fs-cat-li"><label><input class="filter-param" data-filter-type="chars" data-filter-id="43117"  data-filter-url="" type="checkbox">\xcf\xf8\xe5\xed\xe8\xf6\xe0</label></li><li class="fs-cat-li"><label><input class="filter-param" data-filter-type="chars" data-filter-id="43116"  data-filter-url="" type="checkbox">\xd0\xe8\xf1</label></li><li class="fs-cat-li"><label><input class="filter-param" data-filter-type="chars" data-filter-id="43118"  data-filter-url="" type="checkbox">\xd5\xeb\xee\xef\xfc\xff</label></li></ul></div><div class="sfp-window-col wc-right">
+                                <ul class="fs-cat-list"><li class="fs-cat-li"><label><input class="filter-param" data-filter-type="chars" data-filter-id="60261" data-filter-url="" type="checkbox">\xd7\xe5\xf7\xe5\xe2\xe8\xf6\xe0</label></li><li class="fs-cat-li"><label><input class="filter-param" data-filter-type="chars" data-filter-id="60262" data-filter-url="" type="checkbox">\xdf\xf7\xea\xe0 </label></li></ul>
+                            </div>
+                        </div><div class="sfp-selected-filters">
+                            <div class="sfp-sf-inner">
+                                <div class="sfp-sf-label-block"><span class="sfp-sf-label">\xc2\xfb\xe1\xf0\xe0\xed\xee \xf4\xe8\xeb\xfc\xf2\xf0\xee\xe2: <span
+                                            class="sfp-sf-counter">0</span></span></div>
+                                <div class="sfp-sf-selected">
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <!--ff-td-fix-->
+                </td></tr>
+            </tbody>
+        </table>
+        <div class="sfp-footer">
+            <a href="javascript:void(0)" class="reset-all-active-filters reset-link">\xd1\xe1\xf0\xee\xf1\xe8\xf2\xfc \xe2\xf1\xe5</a>
+            <a href="javascript:void(0)" class="ks-button ks-button--green apply-filters close-dialog">\xcf\xf0\xe8\xec\xe5\xed\xe8\xf2\xfc</a>
+        </div>
+        <div class="sfp-close close-dialog"></div>
+    </div>
+</div>
+<div class="dialog-overlay" aria-hidden="true"></div></body>
+</html>

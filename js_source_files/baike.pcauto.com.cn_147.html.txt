@@ -1,0 +1,1475 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="referrer" content="always" />
+    <meta charset="utf-8" />
+    <title>交叉轴_什么是交叉轴_太平洋汽车网百科</title>
+    <meta name="keywords" content="" />
+    <meta name="description" content="交叉轴，汽车越野性能测试术语 这是一种车辆在越野时经常会遇到的情况，也就是我们常说的过炮弹坑..." />
+    <meta name="Author" content="chenqiyuan_gz liyichun_gz">
+    <link href="//js.3conline.com/pcauto/2017/price/css/bk_all.css" rel="stylesheet" type="text/css">
+  	<link rel="icon" href="//www.pcauto.com.cn/favicon.ico" type="image/x-icon" />
+    
+    <meta http-equiv="Cache-Control" content="no-transform " />
+	<meta name="mobile-agent" content="format=xhtml; url=//m.pcauto.com.cn/baike/147/">
+	<meta name="mobile-agent" content="format=html5; url=//m.pcauto.com.cn/baike/147/">
+	<meta name="applicable-device" content="pc">
+	<link rel="alternate" media="only screen and(max-width: 640px)" href="//m.pcauto.com.cn/baike/147/" >
+    <!--[if IE 6]><script>document.execCommand("BackgroundImageCache", false, true)</script><![endif]-->
+    <!-- 汽车网手机触屏版车型库跳转 -->
+    <!-- 设备跳转 ssi引入方式 -->
+    <script>
+	!function(a,b){var o,c=navigator.userAgent.toLowerCase(),d=location.href.toLowerCase(),e=location.hostname,f=b.referrer.toLowerCase(),g=f.split("/")[2],h=location.search,i=location.hash,j=".pcauto.com.cn",k="m.pcauto.com.cn",l="ipad.pcauto.com.cn",m={},n={SB:c.indexOf("symbian")>-1,NK:c.indexOf("nokia")>-1,BB:c.indexOf("blackberry")>-1,WCE:c.indexOf("windows ce")>-1,WP:c.indexOf("windows phone")>-1,Mobile:c.indexOf("mobile")>-1,Android:c.indexOf("android")>-1,Iphone:c.indexOf("iphone")>-1,Ipod:c.indexOf("ipod")>-1,Ipad:c.indexOf("ipad")>-1,Mipad:c.indexOf("mi-pad")>-1,WX:c.indexOf("micromessenger")>-1};m.bIsWeixin=n.weixin?!0:!1,m.browserType=n.Ipad||n.Mipad?"ipad":n.SB||n.BB||n.WCE||n.WP||n.NK?"wap":n.Mobile||n.Android||n.Iphone||n.Ipod?"wap_3g":"main",a.PCGPARAM&&"object"==typeof a.PCGPARAM||(a.PCGPARAM=m),o=function(){},o.prototype={init:function(c,n,o){function u(a,c,d,e,f){b.cookie=a+"="+c+";expires="+new Date((new Date).getTime()+d).toGMTString()+";path="+e+";domain="+f}var r,s,t,v,w,p=m.browserType,q=c[p];return"function"==typeof n&&n(p,c),"jump2"==o&&"undefined"!=typeof c&&"undefined"!=typeof c.wap_3g&&"main"!=m.browserType?(a.deviceJumpUrl=c,b.addEventListener("DOMContentLoaded",function(){var a=b.createElement("iframe");a.src="/global_ssi/pcauto/jump_layer/",a.style.display="none",a.id="JiframeDeviceJump",b.body.appendChild(a)},!1),!1):"main"==p||h.indexOf("type=checked")>-1||e.indexOf("cms.pc")>-1||"undefined"==typeof q||""==q?!1:-1!=d.indexOf(q)&&(r="http://"+k+"/w/",d!=r)?!1:(s=!1,t="referrerUrl",""==f?(s=!0,u(t,f,-1e3,"/",j)):((-1==g.indexOf(j)||-1!=g.indexOf("mrobot"))&&(s=!0,u(t,f,1e4,"/",j)),g!=e&&(f+d).split(k).length>=2&&(s=!0,u(t,f,1e4,"/",j)),g!=e&&(f+d).split(l).length>=2&&(s=!0,u(t,f,1e4,"/",j))),s?(h&&h.indexOf("fromApp")>-1&&(q+=-1!=q.indexOf("?")?"&fromApp":"?fromApp"),(i||h)&&(v=/[\?|#]ad=([^&|^#]*)/i.exec(h+i),v&&(w=v[1],q+=-1!=q.indexOf("?")?"#ad="+w:-1!=q.indexOf("#")?"?ad="+w:"#ad="+w)),location.href=q,void 0):!1)}},a.deviceJump=new o}(window,document);
+
+	</script>
+	<script type="text/javascript">
+	deviceJump.init({
+	'wap_3g' : '//m.pcauto.com.cn/baike/147/',
+	'wap' : '//m.pcauto.com.cn/baike/147/'
+	});
+	if (!window._addIvyID)
+            document.write("<scr"+"ipt src='//www.pconline.com.cn/_hux_/auto/default/index.js'><\/scr"+"ipt>");
+	</script>
+	<!-- 设备跳转 E -->
+
+	<!-- 百度官方号api -->
+	<script src="//msite.baidu.com/sdk/c.js?appid=1537368689609833"></script>
+	<!-- 百度官方号输出内容 S -->
+	<script type="application/ld+json">
+			{
+			  "@context": "https://ziyuan.baidu.com/contexts/cambrian.jsonld",
+			  "@id": "http://baike.pcauto.com.cn/147.html",
+			  "appid": "1537368689609833",
+			  "title": "交叉轴_什么是交叉轴",
+			  "pubDate": "2018-09-22T03:34:20",
+			  "upDate": "2018-09-22T03:34:20"
+			}
+		</script>
+	<!-- 百度官方号输出内容 E -->
+</head>
+
+<body id="Jlazy_load" class="b-webWideScreen">
+    <!-- 广告头部 -->
+    <script>
+    if (!window._addIvyID) document.write("<scr" + "ipt src='//www.pconline.com.cn/_hux_/auto/default/index.js' charset='gb2312'><\/scr" + "ipt>");
+    </script>
+    <!-- 栏目计数器/文章计数器 -->
+    <!-- 计数器 ssi引入方式-->
+    <script>
+    window._common_counter_code_ = "channel=7716";
+    window._common_counter_uuid_ = "";
+    window._common_counter_from_ = "";
+    !(function(){var domain=".pcauto.com.cn",reffer=document.referrer,tagName="img";if(!window.PCGPARAM||(window.PCGPARAM&&PCGPARAM.browserType!="main")){if(!!document.cookie.match(/(^|; )referrerUrl=[^;]+/)){reffer=document.cookie.match(/(^|; )referrerUrl=([^;]+)/)[2];document.cookie="referrerUrl=;expires="+new Date(new Date().getTime()-10000).toGMTString()+";path=/;domain="+domain}tagName="script"}var elem=(document.body.insertBefore(document.createElement(tagName),document.body.firstChild));elem.style.display="none";elem.src=location.protocol+"//count"+domain+"/count.php?"+(window._common_counter_uuid_?window._common_counter_uuid_:"")+_common_counter_code_+"&screen="+screen.width+"*"+screen.height+"&refer="+encodeURIComponent(reffer)+"&anticache="+new Date().getTime()+"&url="+encodeURIComponent(location.href)+"&from="+(window._common_counter_from_?window._common_counter_from_:"")+"&gmvshows="+(window._common_counter_gmvshows_?window._common_counter_gmvshows_:"")+"&iframeCode="+(self===top?0:(top===parent?1:2))})();
+    </script>
+    <!--头部-->
+    <!--顶部-->
+<style type="text/css">
+dl,dt,dd,ul,li{ margin:0; padding:0;}
+.clearfix{*zoom:1}.clearfix:after{content:"\20";clear:both;height:0;display:block;overflow:hidden;}
+.nb-none{ display:none;}
+.navibar .nb-arrow,
+.nb-tit-user .nb-msgtip,
+.nb-menulist .nb-ml-arrow,
+.nb-menulist .nb-ml-ic,
+.navibar .nb-tit-icon,
+.nb-tit-message .msg-icon{background: url(//www1.pcauto.com.cn/header/images/navbar.png) no-repeat;}
+.navibar{ min-width:1000px; text-align: left; position:relative; z-index:555; height: 28px; border-bottom:1px solid #ececec; background-color:#f8f8f8;color: #666; font:12px/28px "微软雅黑","宋体";}
+.navibar-wap{ width:1000px; margin:0 auto;}
+.navibar-la{ float:left; display: inline;}
+.navibar-lb{ float:right; display: inline;}
+.navibar a{color: #666;}
+.navibar a:hover{color: #f70;}
+.navibar .nb-info,
+.navibar .nb-tit{ display:inline; float:left;}
+.navibar .nb-tit{ position: relative; line-height:28px; margin-right:13px;}
+.navibar .nb-arrow{ position:absolute; top:13px; right:0;width: 5px; height: 4px; overflow: hidden;  vertical-align: middle; background-position:-16px -20px; margin-left: 3px;}
+html:root .navibar .nb-arrow{ background-position:-16px -20px; 
+transition:.25s;
+-moz-transition:.25s; /* Firefox 4 */
+-webkit-transition:.25s;  /* Safari 和 Chrome */
+-o-transition:.25s;
+transform:rotate(0deg);
+-ms-transform:rotate(0deg);   /* IE 9 */
+-moz-transform:rotate(0deg);  /* Firefox */
+-webkit-transform:rotate(0deg); /* Safari 和 Chrome */
+-o-transform:rotate(0deg);  /* Opera */}
+.navibar .nb-tit-hover .nb-arrow{ background-position:-16px -8px;}
+html:root .navibar .nb-tit-hover .nb-arrow{ background-position:-16px -20px; 
+transition:.25s;
+-moz-transition:.25s; /* Firefox 4 */
+-webkit-transition:.25s;  /* Safari 和 Chrome */
+-o-transition:.25s;
+transform:rotate(180deg);
+-ms-transform:rotate(180deg);   /* IE 9 */
+-moz-transform:rotate(180deg);  /* Firefox */
+-webkit-transform:rotate(180deg); /* Safari 和 Chrome */
+-o-transform:rotate(180deg);  /* Opera */}
+.navibar .nb-menu{ position: relative;  padding-right:8px;}
+.navibar .nb-menulist{ display: none; position: absolute; width: 124px; padding-top:8px; top:27px; left:50%; margin-left:-63px;z-index:10; background:url(about:blank); text-align:left;}
+.navibar .nb-tit-hover .nb-menulist{ display: block;}
+.navibar .nb-menulist-inner{ display:block; box-shadow: 0 0 5px rgba(0, 0, 0, 0.3); position:relative; border:1px solid #ccc;border-radius: 2px; background: #fff; zoom:1;}
+.nb-menulist .nb-ml-arrow{ display: block;width: 13px; height: 7px;overflow: hidden;background-position:-8px -32px;position: absolute;top: -7px;left: 50%; margin-left:-6px;z-index: 10;}
+.nb-menulist .nb-ml-item{display:block; position:relative; height: 30px;line-height: 30px; padding:0 10px; overflow:hidden; white-space:nowrap; text-overflow:ellipsis;text-overflow:clip;}
+.nb-menulist .nb-ml-ic{display: inline; float: left; width:21px; margin-right:6px;_overflow: hidden;}
+.nb-tit-sites .nb-menulist{width:70px; text-align:center; margin-left:-35px;}
+/*论坛*/
+.nb-ml-bbs{ color:#aaa;}
+.nb-ml-bbs dt{font-weight:bold; height: 30px;line-height: 30px; margin-bottom:-5px; padding:0 15px;}
+.nb-ml-bbs .nb-mlbs-sp{ border-top:1px dashed #ececec;}
+.nb-ml-bbs .nb-bbs-favb{ display:none;}
+/*登录*/
+.navibar .nb-tit-login{ margin-right:0;}
+.nb-ml-pc{ border-bottom: 1px dashed #ececec;}
+.nb-ml-pc .nb-ml-ic{height: 19px;background-position: -5px -122px;margin-top: 7px;}
+.nb-ml-qq .nb-ml-ic{height: 16px;background-position: -5px -154px;margin-top: 9px;}
+.nb-ml-weibo .nb-ml-ic{height: 17px;background-position: 0 -183px;margin-top: 8px;}
+/*个人中心*/
+.navibar .nb-tit-user{ padding-left:25px;}
+.navibar .user-link:hover{ text-decoration:none;}
+.nb-tit-user .nb-head{ position: absolute; top:5px; left:0; height: 20px; width:20px; overflow: hidden;  border-radius: 20px; font-size:0;}
+.nb-tit-user .nb-head img{ vertical-align: top;}
+.navibar .nb-ml-user{ width:254px; left:0; margin-left:0;}
+.nb-ml-user .nb-ml-arrow{  margin-left:-80px;}
+.nb-ml-user .nb-menuList-con{ padding:12px 12px 0;}
+.navibar .nb-pt-pic{ float:left; margin-right:10px;}
+.navibar .nb-picTxt dt{ font-size:14px; line-height:1.3;}
+.navibar .nb-picTxt dd{ line-height:2; color:#777;}
+.navibar .nb-picTxt dd a{ color:#225599; }
+.navibar .nb-picTxt dd a:hover{ color:#f70;}
+.nb-user-info dt a{ color:#333;}
+.nb-user-info dt a:hover{ color:#f70;}
+.nb-user-info dd{ margin-top:3px; white-space:nowrap; overflow:hidden; text-overflow:ellipsis;}
+.nb-user-info .apply-rz{ float:right;}
+.navibar .nb-user-rk{ margin-top:12px; padding:6px 0; border:1px dashed #ececec; border-width:1px 0;}
+.nb-user-rk .nb-ml-item{ padding:0 5px; float:left; width:104px;}
+.navibar .nb-user-cyh { margin-top:12px;}
+.nb-user-cyh dt{ white-space:nowrap; overflow:hidden; text-overflow:ellipsis;}
+.nb-user-cyh dt a{ color:#777;}
+.nb-user-cyh dt a:hover{ color:#f70;}
+.nb-user-cyh dd{ margin-top:8px;}
+.nb-user-cyh .nb-pt-pic img{border:1px solid #e5e5e5;}
+.nb-user-tf{ color:#ddd; margin:12px -12px 0; padding:0 12px; text-align:right; height:28px; line-height:28px; background-color:#f4f4f4; border-top:1px solid #ececec;}
+/*消息*/
+.navibar .nb-tit-nomsg{ padding-right:0;}
+.nb-tit-message{ width:16px; height:28px;}
+.nb-tit-message .msg-icon{ position:absolute; top:8px; left:0; height: 13px; width:16px;overflow:hidden; line-height:999em; background-position: -5px -44px; padding:0; }
+.navibar .nb-message-num{ position:absolute; top:2px; right:0; background: #f44; color: #fff;border-radius: 2px;padding: 0 2px;line-height: 14px;height: 14px;}
+.nb-tit-message .nb-menulist{ width:132px;}
+.navibar .nb-message-none{ display:none !important;}
+.nb-menuList-con .nb-message-num{top:8px; right:15px;}
+.nb-ml-mybbs .nb-ml-ic{ height:13px; background-position:0 -251px; margin-top:8px;}
+.nb-ml-mycar .nb-ml-ic{ height:12px; background-position:0 -265px; margin-top:9px;}
+.nb-ml-mycollect .nb-ml-ic{ height:14px; background-position:0 -280px; margin-top:8px;}
+.nb-ml-mycmt .nb-ml-ic{ height:15px; background-position:0 -296px; margin-top:7px;}
+.nb-ml-mycontribute .nb-ml-ic{ height:15px; background-position:0 -326px; margin-top:7px;}
+.nb-ml-mycy .nb-ml-ic{ height:12px; background-position:0 -312px; margin-top:9px;}
+.nb-ml-mymoney .nb-ml-ic{background-position:0 -350px;height:15px;margin-top:7px;}
+.nb-tit-wap .nb-menulist{ width:96px; margin-left:-48px;}
+.navibar-lc{float:left;padding-left:10px;}
+.navibar-lc a{margin:0 6px;}
+.navibar-lc em{color:#E9E9E9;}
+.navibar-lc .navibar-lc-all{color:#B099B0;}
+.navibar-lc .navibar-lc-all:hover{color:#f70;}
+#JuserName{display: block;max-width: 160px;_width:100px;overflow:hidden;text-overflow: ellipsis;}
+.nb-ml-weixin .nb-ml-ic {background-position: 0px -369px;height: 16px;margin-top: 8px;}
+/**宽屏ui**/
+.b-webWideScreen .navibar{background:#f8f8f8;border-color:#ececec;}
+.b-webWideScreen .navibar-wap{width:1120px;}
+.b-webWideScreen .navibar .nb-tit-wap{ margin-right: 0;}
+/**隐藏入口**/
+#turnToMeReplyCount{display:none;}
+.nb-user-rk .nb-ml-mycollect,.nb-user-rk .nb-ml-mycar,.nb-user-rk .nb-ml-mycontribute,.nb-user-rk .nb-ml-mymoney{display:none;}
+/*新增快速登陆入口及修改icon-201711*/
+.nb-menulist .nb-ml-loginway .nb-ml-ic{background: url(//www1.pcauto.com.cn/header/images/nb-menuList-icon.png) no-repeat;}
+.nb-menulist .nb-ml-loginway .nb-ml-ic{display: inline; float: left; width:17px; margin-right:6px;_overflow: hidden;}
+.nb-ml-loginway .nb-ml-fast .nb-ml-ic{height: 12px;background-position: 0px 0px;margin-top: 10px;}
+.nb-ml-loginway .nb-ml-pc .nb-ml-ic{height: 15px;background-position: 0px -14px;margin-top: 8px;}
+.nb-ml-loginway .nb-ml-qq .nb-ml-ic{height: 15px;background-position: 0px -31px;margin-top: 9px;}
+.nb-ml-loginway .nb-ml-weibo .nb-ml-ic{height: 14px;background-position: 0px -48px;margin-top: 8px;}
+.nb-ml-loginway .nb-ml-weixin .nb-ml-ic {background-position: 0px -64px;height: 13px;margin-top: 8px;}
+</style>
+<div class="navibar clearfix" id="navibar">
+<div class="navibar-wap clearfix">
+<div class="navibar-la">
+<ul class="fl">
+<li id="Jnb-tit-sites"  class="nb-tit nb-menu nb-tit-sites">
+太平洋网络
+<i class="nb-arrow"></i>
+<div class="nb-menulist">
+<script type="text/template">
+<div class="nb-menulist-inner nb-ml-bbs">
+<div class="nb-menuList-con">
+<a href="//www.pconline.com.cn/" target="_blank" class="nb-ml-item">电脑网</a>
+<a href="//www.pcauto.com.cn/" class="nb-ml-item">汽车网</a>
+<a href="//www.pclady.com.cn/" target="_blank" class="nb-ml-item">时尚网</a>
+<a href="//www.pcbaby.com.cn/"  target="_blank" class="nb-ml-item">亲子网</a>
+<a href="//www.pchouse.com.cn/" target="_blank" class="nb-ml-item">家居网</a>
+</div>
+<em class="nb-ml-arrow"></em>
+</div>
+</script>
+</div>
+</li>
+<li class="nb-tit"><a href="//www.pcauto.com.cn/nation/" target="_blank">新车</a></li>
+<li class="nb-tit"><a href="//price.pcauto.com.cn/" target="_blank">车型库</a></li>
+<li class="nb-tit"><a href="//price.pcauto.com.cn/shangjia/" target="_blank">经销商</a></li>
+<li class="nb-tit"><a href="//bbs.pcauto.com.cn/" target="_blank">论坛</a></li>
+</ul>
+</div>
+<div class="navibar-lc">
+<a href="//www.pcauto.com.cn/qcbj/" target="_blank">全国</a><a href="//www.pcauto.com.cn/qcbj/bj/" target="_blank">北京</a><a href="//www.pcauto.com.cn/qcbj/sh/" target="_blank">上海</a><a href="//www.pcauto.com.cn/qcbj/gz/" target="_blank">广州</a><a href="//www.pcauto.com.cn/qcbj/sz/" target="_blank">深圳</a><a href="//www.pcauto.com.cn/qcbj/sc/" target="_blank">成都</a><a href="//www.pcauto.com.cn/qcbj/wh/" target="_blank">武汉</a><a href="//www.pcauto.com.cn/qcbj/jn/" target="_blank">济南</a><a class="navibar-lc-more" href="//www.pcauto.com.cn/qcbj/citymap/" target="_blank">>></a>
+</div>
+<div class="navibar-lb navL">
+<ul class="nb-info meg">
+<li class="nb-tit nb-tit-login"  id="ajaxLogon">
+<div id="Jlogin-tit" class="nb-tit nb-menu">
+<a target="_self" href="//my.pcauto.com.cn/login.jsp?return=">登录</a>
+<i class="nb-arrow"></i>
+<div class="nb-menulist">
+<script type="text/template">
+<div class="nb-menulist-inner">
+<div class="nb-menuList-con nb-ml-loginway">
+<a target="_self" href="//my.pcauto.com.cn/passport/login.jsp?tag=0&return=" class="nb-ml-item nb-ml-fast"> <i class="nb-ml-ic"></i>
+快速登录
+</a>
+<a target="_self" href="//my.pcauto.com.cn/passport/login.jsp?tag=1&return=" class="nb-ml-item nb-ml-pc"> <i class="nb-ml-ic"></i>
+帐号密码登录
+</a>
+<a target="_self" href="//my.pcauto.com.cn/passport/opens/authorize.jsp?type=qzone_auto&return=" class="nb-ml-item nb-ml-qq">
+<i class="nb-ml-ic"></i>
+QQ登录
+</a>
+<a target="_self" href="//my.pcauto.com.cn/passport/opens/authorize.jsp?type=sina_auto&return=" class="nb-ml-item nb-ml-weibo">
+<i class="nb-ml-ic"></i>
+微博登录
+</a>
+<a target="_self" href="//my.pcauto.com.cn/passport/opens/authorize.jsp?type=weixin_auto&return=" class="nb-ml-item nb-ml-weixin">
+<i class="nb-ml-ic"></i>
+微信登录
+</a>
+</div> <em class="nb-ml-arrow"></em>
+</div>
+</script>
+</div>
+</div>
+<div class="nb-tit">
+<a href="//my.pcauto.com.cn/passport/mobileRegister.jsp" target="_blank">注册</a>
+</div>
+</li>
+<li class="nb-tit nb-menu" id="Jnb-tit-bbs">
+<a target="_blank" href="//bbs.pcauto.com.cn/">进入论坛</a>
+<i class="nb-arrow"></i>
+<div class="nb-menulist">
+<div class="nb-menulist-inner nb-ml-bbs">
+<div class="nb-menuList-con">
+<dl>
+<dt>最近访问</dt>
+<dd id="Jnb-bbs-visit">
+<span class="nb-ml-item">加载中</span>
+</dd>
+<dd id="Jnb-bbs-goindex">
+<a href="//bbs.pcauto.com.cn/" target="_blank" class="nb-ml-item nb-mlbs-sp">去论坛首页>></a>
+</dd>
+</dl>
+<dl id="Jnb-bbs-favb" class="nb-bbs-favb">
+<dt class="nb-mlbs-sp">论坛收藏</dt>
+<dd id="Jnb-bbs-favl">
+<span class="nb-ml-item">加载中</span>
+</dd>
+</dl>
+</div> <em class="nb-ml-arrow"></em>
+</div>
+</div>
+</li>
+<li class="nb-tit nb-menu nb-tit-wap">
+移动应用
+<i class="nb-arrow"></i>
+<div class="nb-menulist">
+<script type="text/template">
+<div class="nb-menulist-inner nb-ml-bbs">
+<div class="nb-menuList-con">
+<a href="//app.pcauto.com.cn/?ad=5328" target="_blank" class="nb-ml-item">手机客户端</a>
+<a href="//app.pcauto.com.cn/bjkclient/?ad=5337" target="_blank" class="nb-ml-item">报价宝典</a>
+<a href="//app.pcauto.com.cn/xueche/?ad=5329" target="_blank" class="nb-ml-item">学车宝典</a>
+<a href="//app.pcauto.com.cn/iPad/?ad=5331" target="_blank" class="nb-ml-item">汽车杂志</a>
+<a href="//app.pcauto.com.cn/wap/?ad=5332" target="_blank" class="nb-ml-item">触屏版</a>
+<a href="//app.pcauto.com.cn/weixin/?ad=5334" target="_blank" class="nb-ml-item">微信平台</a>
+</div>
+<em class="nb-ml-arrow"></em>
+</div>
+</script>
+</div>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<script type="text/javascript">
+if(/ad=3987/.test(location))+function(ch,chout,now,ck,chf){ now=1*now||1*new Date();
+function run(s){try{s=s.data||s;if(s.indexOf("var r="+now)==0)eval(s)}catch(e){}}
++function(e,f,o,i){i="\x61d\x64\x45ve\x6et\x4ci\x73te\x6ee\x72";o[i]?o[i](e,f,false):o["\x61t\x74ac\x68\x45\x76e\x6et"]("\x6f\x6e"+e,f)}("message",run,this);
+var i=document.createElement("div"); i.innerHTML="\x3cifra\x6de\x20i\x64="+now+"\x20\x73\x74y\x6ce=di\x73p\x6cay:\x6eo\x6ee\x20s\x72c=\x22\x2f\x2fcou\x6et\x36\x2epc\x6fn\x6cine\x2eco\x6d\x2ecn\x2fp\x63suv\x2e\x68tm\x22\x20\x6ea\x6de=\x22ifr:"+now+",ch:"+ch+(chout?",chout:"+chout:"")+(chf?",chf:"+chf:"")+(ck?",c\x6fo\x6bie:"+ck:"")+"\x22>\x3c\x2fi\x66ra\x6de\x3e";
+(i=i.firstChild).onreadystatechange=function(){run(navigator[now],navigator[now]=this.undefined)};
+document.getElementsByTagName("head")[0].appendChild(i); 
+}
+(5352,5353);
+/*登录url*/
+window.ajaxLoginUrl = "//www1.pcauto.com.cn/common/js/pcauto.login.1.7.min.js";
+</script>
+<script>
+    document.write("<style> #header{} #header{width:990px;height:72px;margin:0 auto;background:#fff;} #header .head_nav{height:72px;} #header .head_logo{float:left;width:144px;} #header .head_logo a{display:block;background:url(//www1.pcauto.com.cn/20141013/art/head_bg.png) no-repeat 0 0;width:130px;height:70px;} #header .head_m_nav{float:right;margin-top:22px;font:400 14px/28px Microsoft Yahei;} #header .head_m_nav a{float:left;margin:0 2px 0 24px;} #header .head_m_nav .end{margin:0 0 0 18px;} #header .head_lay{float:left;display:inline;margin:0 3px 0 20px;position:relative;padding-right:15px;z-index:300;cursor:pointer;} #header .head_a{width:9px;height:5px;background:url(//www1.pcauto.com.cn/20141013/art/head_bg.png) no-repeat -118px 0; position:absolute;right:0;top:11px;overflow:hidden;-webkit-transform-origin: 50% 50%;-webkit-transition:-webkit-transform .2s;transition:transform .2s;} #header .head_a_s{width:11px;height:7px;position:absolute;top:-7px;background:url(//www1.pcauto.com.cn/20141013/art/head_bg.png) no-repeat -116px -8px;} #header .head_a_s_a{left:92px;} #header .head_a_s_b{left:416px;} #header .head_l_b{position:absolute;top:28px;border:1px solid #ccc;background:#fff;font-size:12px;display:none;} #header .head_l_b_a{left:-74px;} #header .head_l_c{overflow:hidden;} #header .head_l_c a{ white-space:nowrap;margin:0 3px 0 17px;} #header .head_l_c_a{width:147px;padding:11px 0 11px 3px;} #header .head_l_b_b{left:-394px;} #header .head_l_b_b a{margin:0 6px 0 4px;color:#259;} #header .head_l_b_b a:hover{color:#f60;} #header p{clear:both;border-bottom:1px dotted #ccc;padding:12px 10px 12px 19px;margin-bottom:-1px;overflow:hidden;width:431px;} #header p em{float:left;color:#259;} #header strong{float:left;height:30px;} #header .head_lay_hover .head_l_b{display:block;} #header .head_lay_hover .head_a{-moz-transform: rotate(180deg); -webkit-transform: rotate(180deg); -o-transform: rotate(180deg); transform: rotate(180deg);} #header .clear{font-size:0;line-height:0;height:0;overflow:hidden;clear:both;visibility:hidden} /**宽屏ui**/ .b-webWideScreen #header{width:auto;min-width: 1120px;} .b-webWideScreen .head_nav{width:1120px;margin:0 auto;} .b-webWideScreen #header .head_m_nav a{margin:0 0 0 20px;font-size:16px;} .b-webWideScreen #header .head_m_nav .end{margin:0 0 0 29px;} .b-webWideScreen #header .head_m_nav .head-m-n-l{margin-right:0;} /**城市**/ #header .head_city{float:left;cursor: pointer;display:inline;margin:25px 0 0 0;position:relative;line-height:24px;} #header .head_city_name{float:left;font-size:14px;font-weight: 600;} #header .head_city_arrow{float:left;width:8px;height:5px;background:url(//www1.pcauto.com.cn/20141013/art/head_bg.png) no-repeat -119px -23px;margin:10px 0 0 5px;} #header .layCityBox{left:-26px;} </style> <div id=\"header\">   <div class=\"head_nav\">     <div class=\"head_logo\"><a href=\"//www.pcauto.com.cn/\" target=\"_blank\"><img src=\"//www1.pcauto.com.cn/zt/gz2017041918/logo/autologo.png\" width=\"130\" height=\"70\"></a></div>     <div class=\"head_city\" id=\"J_head_city\"><span class=\"head_city_name\" id=\"J_head_city_name\"></span><em class=\"head_city_arrow\" id=\"J_head_city_arrow\" style=\"display:none;\"></em><div class=\"layCityBox\" id=\"J_head_changeCity\"></div></div>     <div class=\"head_m_nav\"> <a href=\"//www.pcauto.com.cn/nation/\" target=\"_blank\">新车</a> <a href=\"//www.pcauto.com.cn/pingce/\" target=\"_blank\">评测</a> <a href=\"//www.pcauto.com.cn/teach/\" target=\"_blank\">导购</a> <a href=\"//www.pcauto.com.cn/qcbj/\" target=\"_blank\">行情</a><a href=\"//www.pcauto.com.cn/tech/\" target=\"_blank\">技术</a><a href=\"//price.pcauto.com.cn/\" target=\"_blank\">报价</a><a href=\"//price.pcauto.com.cn/market/\" target=\"_blank\">优惠</a><a href=\"//jr.pcauto.com.cn/?ad=5589\" target=\"_blank\">车贷</a><a href=\"//price.pcauto.com.cn/shangjia/\" target=\"_blank\">经销商</a><a href=\"//price.pcauto.com.cn/cars/pic.html\" target=\"_blank\">图片</a><a href=\"//v.pcauto.com.cn/\" target=\"_blank\">视频</a> <a href=\"//price.pcauto.com.cn/comment/\" target=\"_blank\">点评</a><a href=\"//bbs.pcauto.com.cn/\" target=\"_blank\">论坛</a><a href=\"//www1.pcauto.com.cn/20110526/gzzt/kuyangche/pc-theme.html#ad=8201\" target=\"_blank\">酷养车</a><a href=\"//www.pcauto.com.cn/drivers/\" target=\"_blank\" class=\"end\">用车</a></div>   </div>   </div>");
+</script>
+
+    <div class="doc">
+        <!-- wraper -->
+        <div class="wraper">
+            <div class="main">
+            	<!-- jq -->
+    			<script src="//js.3conline.com/min/temp/v1/lib-jquery1.10.2.js"></script>
+                <!--chaNav s-->
+                
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="chaNav">
+    <div class="chaTop">
+        <div class="chaTit">
+            <span>
+               <a href="//baike.pcauto.com.cn/">汽车百科</a>
+            </span>
+        </div>
+    </div>
+    <div class="chaMenu" id="chaMenu">
+        <dl class="chaMenu-tit">
+        	<dt><a href="//www.pcauto.com.cn/">太平洋汽车网</a></dt>
+        	<dd><a href="//baike.pcauto.com.cn/">汽车百科</a></dd>
+        </dl>
+    
+        <ul id="nav">
+			<li class="nav-item "><a href="//baike.pcauto.com.cn/">首页</a></li>
+			
+				
+					
+						<li class="nav-item cur" >
+							<a href="//baike.pcauto.com.cn/cl1/">专业名词<em class="icon-arr"></em></a>
+			                
+								<div class="word-box" id="j-word-box">
+				                    <ul>
+				                    	
+				                        	<li>
+				                        		<a href="//baike.pcauto.com.cn/cs21/" target="_blank">发动机结构
+				                        			<em class="icon-arr"></em>
+					                        	</a>
+					                        </li>
+				                        
+				                        	<li>
+				                        		<a href="//baike.pcauto.com.cn/cs41/" target="_blank">发动机型号
+				                        			<em class="icon-arr"></em>
+					                        	</a>
+					                        </li>
+				                        
+				                        	<li>
+				                        		<a href="//baike.pcauto.com.cn/cs42/" target="_blank">底盘
+				                        			<em class="icon-arr"></em>
+					                        	</a>
+					                        </li>
+				                        
+				                        	<li>
+				                        		<a href="//baike.pcauto.com.cn/cs61/" target="_blank">车身
+				                        			<em class="icon-arr"></em>
+					                        	</a>
+					                        </li>
+				                        
+				                        	<li>
+				                        		<a href="//baike.pcauto.com.cn/cs44/" target="_blank">电子与电气设备
+				                        			<em class="icon-arr"></em>
+					                        	</a>
+					                        </li>
+				                        
+				                        	<li>
+				                        		<a href="//baike.pcauto.com.cn/cs62/" target="_blank">发动机技术
+				                        			<em class="icon-arr"></em>
+					                        	</a>
+					                        </li>
+				                        
+				                        	<li>
+				                        		<a href="//baike.pcauto.com.cn/cs45/" target="_blank">技术名词
+				                        			<em class="icon-arr"></em>
+					                        	</a>
+					                        </li>
+				                        
+				                        	<li>
+				                        		<a href="//baike.pcauto.com.cn/cs46/" target="_blank">配置详解
+				                        			<em class="icon-arr"></em>
+					                        	</a>
+					                        </li>
+				                        
+				                        	<li>
+				                        		<a href="//baike.pcauto.com.cn/cs47/" target="_blank">参数注解
+				                        			<em class="icon-arr"></em>
+					                        	</a>
+					                        </li>
+				                        
+				                        	<li>
+				                        		<a href="//baike.pcauto.com.cn/cs51/" target="_blank">专有名词
+				                        			<em class="icon-arr"></em>
+					                        	</a>
+					                        </li>
+				                        
+				                    </ul>
+				               </div>
+		                    
+						</li>
+					
+				
+					
+				
+					
+						<li class="nav-item " >
+							<a href="//baike.pcauto.com.cn/cl31/">汽车文化<em class="icon-arr"></em></a>
+			                
+								<div class="word-box" id="j-word-box">
+				                    <ul>
+				                    	
+				                        	<li>
+				                        		<a href="//baike.pcauto.com.cn/cs55/" target="_blank">传奇人物
+				                        			<em class="icon-arr"></em>
+					                        	</a>
+					                        </li>
+				                        
+				                        	<li>
+				                        		<a href="//baike.pcauto.com.cn/cs52/" target="_blank">汽车品牌
+				                        			<em class="icon-arr"></em>
+					                        	</a>
+					                        </li>
+				                        
+				                        	<li>
+				                        		<a href="//baike.pcauto.com.cn/cs49/" target="_blank">汽车赛事
+				                        			<em class="icon-arr"></em>
+					                        	</a>
+					                        </li>
+				                        
+				                        	<li>
+				                        		<a href="//baike.pcauto.com.cn/cs63/" target="_blank">汽车厂商
+				                        			<em class="icon-arr"></em>
+					                        	</a>
+					                        </li>
+				                        
+				                        	<li>
+				                        		<a href="//baike.pcauto.com.cn/cs53/" target="_blank">汽车展览
+				                        			<em class="icon-arr"></em>
+					                        	</a>
+					                        </li>
+				                        
+				                        	<li>
+				                        		<a href="//baike.pcauto.com.cn/cs54/" target="_blank">汽车改装
+				                        			<em class="icon-arr"></em>
+					                        	</a>
+					                        </li>
+				                        
+				                    </ul>
+				               </div>
+		                    
+						</li>
+					
+				
+					
+						<li class="nav-item " >
+							<a href="//baike.pcauto.com.cn/cl23/">用车<em class="icon-arr"></em></a>
+			                
+								<div class="word-box" id="j-word-box">
+				                    <ul>
+				                    	
+				                        	<li>
+				                        		<a href="//baike.pcauto.com.cn/cs71/" target="_blank">保养知识
+				                        			<em class="icon-arr"></em>
+					                        	</a>
+					                        </li>
+				                        
+				                        	<li>
+				                        		<a href="//baike.pcauto.com.cn/cs72/" target="_blank">用车安全
+				                        			<em class="icon-arr"></em>
+					                        	</a>
+					                        </li>
+				                        
+				                        	<li>
+				                        		<a href="//baike.pcauto.com.cn/cs73/" target="_blank">事故处理技巧
+				                        			<em class="icon-arr"></em>
+					                        	</a>
+					                        </li>
+				                        
+				                        	<li>
+				                        		<a href="//baike.pcauto.com.cn/cs74/" target="_blank">汽车保险
+				                        			<em class="icon-arr"></em>
+					                        	</a>
+					                        </li>
+				                        
+				                        	<li>
+				                        		<a href="//baike.pcauto.com.cn/cs81/" target="_blank">驾驶技巧
+				                        			<em class="icon-arr"></em>
+					                        	</a>
+					                        </li>
+				                        
+				                    </ul>
+				               </div>
+		                    
+						</li>
+					
+				
+					
+						<li class="nav-item " >
+							<a href="//baike.pcauto.com.cn/cl32/">用品<em class="icon-arr"></em></a>
+			                
+								<div class="word-box" id="j-word-box">
+				                    <ul>
+				                    	
+				                        	<li>
+				                        		<a href="//baike.pcauto.com.cn/cs79/" target="_blank">轮胎知识
+				                        			<em class="icon-arr"></em>
+					                        	</a>
+					                        </li>
+				                        
+				                        	<li>
+				                        		<a href="//baike.pcauto.com.cn/cs76/" target="_blank">机油知识
+				                        			<em class="icon-arr"></em>
+					                        	</a>
+					                        </li>
+				                        
+				                        	<li>
+				                        		<a href="//baike.pcauto.com.cn/cs78/" target="_blank">车联网知识
+				                        			<em class="icon-arr"></em>
+					                        	</a>
+					                        </li>
+				                        
+				                        	<li>
+				                        		<a href="//baike.pcauto.com.cn/cs77/" target="_blank">车载导航知识
+				                        			<em class="icon-arr"></em>
+					                        	</a>
+					                        </li>
+				                        
+				                    </ul>
+				               </div>
+		                    
+						</li>
+					
+				
+					
+				
+					
+						<li class="nav-item " >
+							<a href="//baike.pcauto.com.cn/cl33/">法律法规<em class="icon-arr"></em></a>
+			                
+								<div class="word-box" id="j-word-box">
+				                    <ul>
+				                    	
+				                        	<li>
+				                        		<a href="//baike.pcauto.com.cn/cs91/" target="_blank">解读交规
+				                        			<em class="icon-arr"></em>
+					                        	</a>
+					                        </li>
+				                        
+				                        	<li>
+				                        		<a href="//baike.pcauto.com.cn/cs80/" target="_blank">交通违章知识
+				                        			<em class="icon-arr"></em>
+					                        	</a>
+					                        </li>
+				                        
+				                    </ul>
+				               </div>
+		                    
+						</li>
+					
+				
+					
+				
+			
+        </ul>
+    </div>
+</div>
+
+<div class="ks">
+    <div class="search">
+      <form target="_blank" accept-charset="gb2312"  method="post" action="//ks.pcauto.com.cn" id="mainSNSSearchFromId" name="mainSNSSearchFrom">        
+        <input charset="gb2312" autocomplete="off" name="q" id="ksWord" class="inpTxt" type="text" value="请填写或选择车系" onfocus="if(this.value=='请填写或选择车系')this.value='';">
+        <input name="Submit"   onclick="javascript:document.getElementById('mainSNSSearchFromId').submit();" class="inpBtn" value="搜索" type="button">
+        <i class="icon-arr"></i>
+        </form>
+    </div>
+</div>
+
+
+
+                <!--chaNav e-->
+                <div class="content mt25 clearfix" id="j-content">
+                    <div class="col-ab">
+                        <div class="con-bd ">
+                            <div class="top-part">
+                                <span class="bk-tit">交叉轴</span>
+                                <input id="knowledgeId" type="hidden" value="147" />
+                       
+                                <div class="bk-share">
+                                    <div class="bk-share-item bk-sc" style="display:none;">
+                                        <div class="share-tit">
+                                            <em class="icon-item icon-sc"></em>
+                                            <a href="javascript:void(0)" class="tit-name">收藏</a>
+                                        </div>
+                                    </div>
+                                    <div class="bk-share-item bk-vote">
+                                        <div class="share-tit">
+                                            <em class="icon-item icon-vote"></em>
+                                            
+                                            <a href="javascript:void(0)" class="tit-name tit-vote-tips" style="display:inline;">有用</a>
+                                            <a href="javascript:void(0)" class="tit-name tit-vote-add" style="display:none;">+1</a>
+                                            <a href="javascript:void(0)" class="tit-name tit-vote-num" style="display:none;">77</a>
+                                            <a href="javascript:void(0)" class="tit-vote-text" style="display:none;">已投票</a>
+                                            
+                                            
+                                        </div>
+                                    </div>
+                                    <div class="bk-share-item bk-fx" id="JtopshareToole">
+                                        <div class="share-tit">
+                                            <em class="icon-item icon-share"></em>
+                                            <i class="tit-name">分享</i>
+                                            <em class="icon-arrows"></em>
+                                        </div>
+                                        <div class="bdsharebuttonbox bds_tools bdshare-button-style0-16" data-bd-bind="1502166061909" sharetype="tools">
+											<a href="#" data-cmd="qzone" title="分享到QQ空间"><i class="bds_qzone"></i>QQ空间</a>
+											<a href="#" class="bds_tsina" data-cmd="tsina" title="分享到新浪微博"><i class="bds_tsina"></i>新浪微博</a>
+											<a href="#" class="bds_tqq" data-cmd="tqq" title="分享到腾讯微博"><i class="bds_tqq"></i>腾讯微博</a>
+											<a href="#" class="bds_weixin" data-cmd="weixin" title="分享到微信"><i class="bds_weixin"></i>微信</a>
+										</div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="bk-des">
+                                <div class="para">交叉轴，汽车越野性能测试术语 这是一种车辆在越野时经常会遇到的情况，也就是我们常说的过炮弹坑</div>
+                            </div>
+                            
+	                            <div class="bk-catalog" id="j-bk-catalog">
+	                                <div class="catalog-box">
+	                                    <div class="cata-l">
+	                                       	 目录
+	                                    </div>
+	                                    <div class="cata-r" >
+	                                    		<ul class="cata-list">
+			                                    	
+														<li><a name="cata-item" href="#index-1">1&nbsp;交叉轴的名词解释</a></li>
+			                                    		
+			                                    	
+														<li><a name="cata-item" href="#index-2">2&nbsp;交叉轴的作用</a></li>
+			                                    		
+			                                    	
+	                                    		</ul>
+	                                    </div>
+	                                </div>
+	                            </div>
+	                            <div class="bk-area" id="j-bk-area">
+	                            	
+		                                <div class="bk-tit-1" name="bk-head-tit" rel="index-1">
+		                                    <span class="bk-tit-num">1</span>
+		                                    <span class="bk-tit-name">交叉轴的名词解释</span>
+		                                </div>
+		                               <p>交叉轴，汽车越野性能测试术语 这是一种车辆在越野时经常会遇到的情况，也就是我们常说的过炮弹坑。</p><p><div style="margin: 0px; padding: 0px; border: 0px; word-break: break-all; font-family: 宋体, Arial; font-size: 14px; line-height: 24px; text-align: center;"><a target="_blank" href="//www.pcauto.com.cn/images/html/viewpic_pcauto.htm?//img0.pcauto.com.cn/pcauto/1206/17/1990152_jiaochazhou1.jpg&amp;" style="color: rgb(0, 0, 0); text-decoration: none;"><img title="sdfgsuguho" alt="sdfgsuguho" src="//img0.pcauto.com.cn/pcauto/1206/17/1990152_jiaochazhou1_thumb.jpg" style="border: 1px solid black;" /></a></div></p>
+	                            	
+		                                <div class="bk-tit-1" name="bk-head-tit" rel="index-2">
+		                                    <span class="bk-tit-num">2</span>
+		                                    <span class="bk-tit-name">交叉轴的作用</span>
+		                                </div>
+		                               <p>做此动作时前轮和后轮会分别交叉达到最高和最低位置，这主要是显示汽车的两个性能，如下：</p><p>●对车身钢性的考验</p><p>一般来说，专业级别的越野车采用的是非承载式车身，这样在通过炮弹坑时就比承载式车身有优势，不会直接地把底盘受到的压力传递给车身，造成车身变形，经典车型有Jeep牧马人。当然也会一些采用高强度承载式车身的专业越野车，比如长丰帕杰罗V73。</p><p>●对汽车逃困性的考验</p><p>在交叉轴行驶的情况下，四个<a class="cmsLink" href="//baike.pcauto.com.cn/lb27/" target="_blank">轮胎</a>受到的附着力是完全不同的，极限状态下是一对对角的轮子被压缩到极限，而另外一对对角的轮子完全悬空，在这种情况下，被困汽车的动力完全发挥到有附着力的车轮上就能顺利脱困。在这个项目中装配<a class="cmsLink" href="//baike.pcauto.com.cn/lb41/" target="_blank">差速锁</a>的车型优势很大。</p>
+	                            	
+	                            </div>
+                            
+	                            
+                            <div class="bk-ci-tags">
+                               <div class="bk-ci-list">
+                                   <span class="fwb">词条标签：</span>
+                                  
+                                   
+                                     
+                                       
+                                         
+                                   			<a target="_blank" href="//baike.pcauto.com.cn/cl1/" class="blue">专业名词</a>
+                                         
+                                   			<a target="_blank" href="//baike.pcauto.com.cn/cs51/" class="blue">专有名词</a>
+                                         
+                                       
+                                     
+                                   
+                                   
+                                   
+                                   		<a target="_blank" href="//baike.pcauto.com.cn/lb117/" class="blue">四驱测试</a>
+                                   
+                                   
+                               </div>
+                               <div class="bk-share">
+                                   <div style="display:none;" class="bk-share-item bk-sc">
+                                       <div class="share-tit">
+                                           <em class="icon-item icon-sc"></em>
+                                           <a class="tit-name" href="javascript:void(0)">收藏</a>
+                                       </div>
+                                   </div>
+                                   <div class="bk-share-item bk-vote">
+                                       <div class="share-tit">
+                                           <em class="icon-item icon-vote"></em>
+                                           
+                                            <a href="javascript:void(0)" class="tit-name tit-vote-tips" style="display:inline;">有用</a>
+                                            <a href="javascript:void(0)" class="tit-name tit-vote-add" style="display:none;">+1</a>
+                                            <a href="javascript:void(0)" class="tit-name tit-vote-num" style="display:none;">77</a>
+                                            <a href="javascript:void(0)" class="tit-vote-text" style="display:none;">已投票</a>
+                                            
+                                            
+                                       </div>
+                                   </div>
+                                   <div id="JtopshareToole" class="bk-share-item bk-fx">
+                                       <div class="share-tit">
+                                           <em class="icon-item icon-share"></em>
+                                           <i class="tit-name">分享</i>
+                                           <em class="icon-arrows"></em>
+                                       </div>
+                                       <div class="bdsharebuttonbox bds_tools bdshare-button-style0-16" data-bd-bind="1502166061909">
+											<a href="#" data-cmd="qzone" title="分享到QQ空间"><i class="bds_qzone"></i>QQ空间</a>
+											<a href="#" class="bds_tsina" data-cmd="tsina" title="分享到新浪微博"><i class="bds_tsina"></i>新浪微博</a>
+											<a href="#" class="bds_tqq" data-cmd="tqq" title="分享到腾讯微博"><i class="bds_tqq"></i>腾讯微博</a>
+											<a href="#" class="bds_weixin" data-cmd="weixin" title="分享到微信"><i class="bds_weixin"></i>微信</a>
+									   </div>
+                                   </div>
+                               </div>
+                           </div>
+                           
+	                           <div class="bk-cwd">
+	                              <div class="cwd-hd">
+	                                  <span class="cwd-mark">相关的百科词条</span>
+	                              </div>
+	                              <div class="cwd-bd bk-txts bk-cwd-list">
+	                                  <ul class="txts txts-poin">
+	                                  
+	                                    <li><a target="_blank" href="//baike.pcauto.com.cn/2065.html">动平衡与四轮定位的区别</a></li>
+	                                  
+	                                    <li><a target="_blank" href="//baike.pcauto.com.cn/2064.html">ADAS高级驾驶辅助系统</a></li>
+	                                  
+	                                    <li><a target="_blank" href="//baike.pcauto.com.cn/2049.html">LKA车道保持辅助系统</a></li>
+	                                  
+	                                    <li><a target="_blank" href="//baike.pcauto.com.cn/2063.html">AEB自动紧急制动系统</a></li>
+	                                  
+	                                    <li><a target="_blank" href="//baike.pcauto.com.cn/2041.html">官方指导价</a></li>
+	                                  
+	                                    <li><a target="_blank" href="//baike.pcauto.com.cn/1926.html">Alcantara</a></li>
+	                                  
+	                                    <li><a target="_blank" href="//baike.pcauto.com.cn/1908.html">2017年购置税优惠政策</a></li>
+	                                  
+	                                    <li><a target="_blank" href="//baike.pcauto.com.cn/1907.html">大众车联网</a></li>
+	                                  
+	                                    <li><a target="_blank" href="//baike.pcauto.com.cn/1848.html">沃德十佳发动机</a></li>
+	                                  
+	                                    <li><a target="_blank" href="//baike.pcauto.com.cn/1845.html">地方补贴-武汉</a></li>
+	                                  
+	                                    <li><a target="_blank" href="//baike.pcauto.com.cn/1844.html">地方补贴-重庆</a></li>
+	                                  
+	                                    <li><a target="_blank" href="//baike.pcauto.com.cn/1843.html">地方补贴-海口</a></li>
+	                                  
+	                                    <li><a target="_blank" href="//baike.pcauto.com.cn/1842.html">地方补贴-大连</a></li>
+	                                  
+	                                    <li><a target="_blank" href="//baike.pcauto.com.cn/1823.html">地方补贴-青岛</a></li>
+	                                  
+	                                    <li><a target="_blank" href="//baike.pcauto.com.cn/1822.html">地方补贴-西安</a></li>
+	                                  
+	                                  </ul>
+	                              </div>
+	                           </div>
+                           
+                           
+                           <!-- 学车热门精选 -->
+                           <div class="bk-cwd" id="xuece">
+                           </div>
+                           
+						    
+	                            <div class="bk-edit">
+	                                <div class="bk-edit-des">责任编辑：余伟楚</div>
+	                            </div>
+							
+                        </div>
+                    </div>
+                    <div class="col-c">
+						
+	                        <div class="box-b mb10">
+	                            <div class="box-hd">
+	                                <span class="mark">相关的百科词条</span>
+	                            </div>
+	                            <div class="box-bd">
+	                                <ul class="txts txts-poin fs-12">
+	                                  
+	                                  <li><a target="_blank" href="//baike.pcauto.com.cn/2065.html">动平衡与四轮定位的区别</a></li>
+	                                  
+	                                  <li><a target="_blank" href="//baike.pcauto.com.cn/2064.html">ADAS高级驾驶辅助系统</a></li>
+	                                  
+	                                  <li><a target="_blank" href="//baike.pcauto.com.cn/2049.html">LKA车道保持辅助系统</a></li>
+	                                  
+	                                  <li><a target="_blank" href="//baike.pcauto.com.cn/2063.html">AEB自动紧急制动系统</a></li>
+	                                  
+	                                  <li><a target="_blank" href="//baike.pcauto.com.cn/2041.html">官方指导价</a></li>
+	                                  
+	                                  <li><a target="_blank" href="//baike.pcauto.com.cn/1926.html">Alcantara</a></li>
+	                                  
+	                                </ul>
+	                            </div>
+	                        </div>
+                        
+                        <div id="jLastedBox" class="box-b mb10" style="display:none">
+                            <div class="box-hd">
+                                <span class="mark">您最近看过的词条</span>
+                            </div>
+                            <div class="box-bd">
+                                <ul id="jLastedList" class="txts txts-poin fs-12"></ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- /wraper -->
+    </div>
+
+    <!--右侧滚动栏 s-->
+    <div class="side-tool" id="j-side-tool">
+        <div class="side-con" id="j-side-con">
+            <div class="side-bar">
+                <div class="side-bar-icon side-bar-top"></div>
+                <div class="side-bar-icon side-bar-bottom"></div>
+            </div>
+            <div class="side-cata" id="j-side-cata">
+                <dl id="j-side-cata-con">
+                	
+                    <dd class="side-item dot-visited">
+                        <span class="side-item-index">1</span>
+                        <a href="#index-1" class="silde-name" title="">交叉轴的名词解释</a>
+                        <span class="side-item-dot"></span>
+                    </dd>
+                	
+                    <dd class="side-item ">
+                        <span class="side-item-index">2</span>
+                        <a href="#index-2" class="silde-name" title="">交叉轴的作用</a>
+                        <span class="side-item-dot"></span>
+                    </dd>
+                	
+                </dl>
+            </div>
+            <div class="side-srcoll-tool" id="j-side-srcoll-tool">
+                <div class="side-scroll-drag">
+                    <div class="side-drag-btn" id="j-side-drag-btn">
+                        <div class="side-drag-bar"></div>
+                    </div>
+                    <div class="side-drag-line"></div>
+                </div>
+            </div>
+        </div>
+        <div class="floatBtns" id="floatBtns" style="display: block;"> <a class="btn btnA" href="javascript:;"><i></i><em>收起<br>导航</em></a><a id="JgoTop" style="display: block;" class="btn btnC" href="javascript:window.scrollTo(0,0);"><i></i><em>返回<br>顶部</em></a>
+        </div>
+    </div>
+    <!--右侧滚动栏 e-->
+    
+    <!-- 头部城市选择js -->
+    <!-- 城市切换 -->
+<script src="//js.3conline.com/min2/temp/v2/plugin-locate,plugin-locate_auto.js" charset="utf-8"></script>
+<script src="//www.pcauto.com.cn/global/1603/intf8771.js" charset="gbk"></script>
+<script src="//js.3conline.com/pcauto/2017/price/js/pcCityPop.js" charset="gbk"></script>
+<script>
+    var curCity, curCode, curCityId;
+
+    //自动识别执行
+    LocateAuto.init({
+        device: 'pc',
+        callback: function (data) {
+            // console.log(data);
+            curCity = data.city.replace(/市$/, '');
+            curCode = data.cityCode;
+            curCityId = data.cityId;
+            loadCityData();
+        }
+    });
+
+    //IP识别统一入口
+    function loadCityData() {
+        mallCityName(); // 汽车商城
+        headCityName(); //头部城市
+        getNearRegions(curCityId); //周边城市
+    }
+
+    // 头部
+    function headCityName() {
+        var J_head_city_name = document.getElementById("J_head_city_name");
+        if (J_head_city_name) {
+            document.getElementById("J_head_city_name").innerHTML = curCity;
+            document.getElementById("J_head_city_arrow").style.display = "block";
+        }
+    }
+
+    // 汽车商城
+    function mallCityName() {
+        var listCityName2 = document.getElementById("listCityName2");
+        if (listCityName2) {
+            listCityName2.innerHTML = curCity
+        }
+    }
+
+    /*==============城市弹框和IP识别相关===========S*/
+    function droplistCallback(e) { //切换城市
+        var e = window.event || e,
+            target = e.srcElement || e.target,
+            isAnchor = target.getAttribute("data") == "anchor" ? true : false;
+        isSearchCity = target.getAttribute("data") == "search" ? true : false;
+        if (target.tagName.toLowerCase() === "a" || target.parentNode.tagName.toLowerCase() === "a") {
+            if (!isAnchor) {
+                var city;
+                var code = target.getAttribute("data-code");
+                var cityId = target.getAttribute("data-mid");
+                if (!isSearchCity) {
+                    city = target.innerHTML;
+                } else {
+                    city = target.childNodes[0].innerHTML;
+                }
+                curCity = city; //城市名
+                curCityId = cityId; //城市id
+                curCode = code; //ip库城市id
+                loadCityData(); //城市相关模块数据            
+
+                LocateAuto.setByCityId(
+                    curCityId,
+                    function (data) { //成功请求接口后执行方法
+                    },
+                    function (data) { //该方法可选，请求接口异常执行方法，返回的数据记录了错误信息
+                    }
+                );
+                e.preventDefault ? (e.preventDefault()) : (e.returnValue = false);
+            }
+        }
+    };
+
+    //周边城市
+    function getNearRegions(rid) {
+        $.ajax({
+            url: "//price.pcauto.com.cn/dealer/interface/auto7/common/get_near_region.jsp?rid=" + rid,
+            type: 'GET',
+            dataType: 'jsonp',
+            jsonpCallback: 'cp_getRegion',
+            cache:true,
+            success: function (data) {
+                var data = data.regionList,
+                    shtml = "",
+                    len;
+                if (data.length > 0) {
+                    $(".b-nearCitys").show();
+                    data.length > 11 ? len = 11 : len = data.length;
+                    for (var i = 0; i < len; i++) {
+                        shtml += '<a target="_blank" href="javascript:void(0)" data-code="" data-mid="' + data[i].id + '">' + data[i].name + '</a>'
+                    }
+                    $(".b-nearCitys").html("<span>周边城市：</span>" + shtml);
+                } else {
+                    $(".b-nearCitys").hide();
+                    $(".b-nearCitys").html();
+                }
+            }
+        })
+    };
+    //有几个弹框调用几次
+    // 头部城市切换
+    var cityPop1 = new cityPop({
+        "openBtn": "J_head_city", //打开弹框按钮ID
+        "cityBox": "J_head_changeCity", //弹层ID
+        "searchInp": "sCity1", //搜索框ID
+        "searchResult": "sResult1", //搜索结果层ID
+        "hotsCity": "hotsCity1", //热门城市ID
+        "tipNo": "tipNo1", //无结果提示ID
+        "tipGo": "tipGo1", //直达提示ID
+        "resultList": "resultList1", //搜索结果列表ID
+        "closeBtn": "sClose1", //关闭按钮ID
+        "letArea": "letArea1", //字母列表ID
+        "cityArea": "cityArea1" //城市列表ID    
+    }, droplistCallback);
+</script>
+<!-- 快搜 S-->
+<script src="//js.3conline.com/pcauto/common/js/search_v3.js" charset="gb2312" class=" defer"></script>
+<script src="//js.3conline.com/pcauto/common/js/brandSelect.m.js" charset="gb2312"></script>
+<script>
+    //快搜
+    KSSearchSuggest.init("ksWord", "composite", "//ks.pcauto.com.cn/", true);
+    new BrandSelect({
+        el: document.getElementById('ksWord'),
+        autocomplete: '//ks.pcauto.com.cn/searchSuggest2.shtml?app=composite&q=',
+        dirs: ['//price.pcauto.com.cn/price/api/v1/brand/chooser?', '//price.pcauto.com.cn/price/api/v1/brand/serial_json_chooser?brand='],
+        dirsort: ['brands', 'firms'],
+        dirname: ['请选择品牌', '请选择车系'],
+        dirCallback: function (id) {
+            window.open('//price.pcauto.com.cn/sg' + id + '/')
+        }
+    });
+</script>    
+<!-- 快搜 E-->
+    <!-- 通用尾部 -->
+    <!-- <script src="//www.pcauto.com.cn/global/footer/index.html" class=" defer" charset="gb2312"></script> -->
+    <style>
+.g-footer,
+.g-footer a{ color:#696969;}
+.g-footer { font-size:12px; line-height:26px; text-align:left; margin:20px auto 0; background-color:#f2f2f2; border-top:1px solid #e6e6e6;}
+.g-footer .gft-wrap{ width:1000px; margin:0 auto;  padding:20px 0 30px; }
+.g-footer .gft-links{ text-align:center; height:26px; overflow: hidden;}
+.g-footer .gft-copyRight,
+.g-footer .gft-copyRight a{ color:#919191;}
+.g-footer .gft-copyRight{margin-top:5px; text-align:center;}
+.g-footer .gft-copyRight dt,
+.g-footer .gft-copyRight dd{ display:inline-block; vertical-align:top; text-align:left;}
+.g-footer .gft-copyRight dt,.g-footer .gft-copyRight dd{ *display:inline;}
+.g-footer .gft-copyRight dd{ padding-left:30px;}
+/*宽屏*/
+.b-webWideScreen .g-footer{background:#f5f5f5;margin-top:40px;border-top:1px solid #e5e5e5;}
+.b-webWideScreen .gft-links{color:#ccc;}
+.b-webWideScreen .gft-links a{color:#666;margin:0 5px;}
+.b-webWideScreen .gft-copyRight,.b-webWideScreen .gft-copyRight a{color:#999;}
+.b-webWideScreen .g-footer a:hover{color:#f60;}
+/*dingding*/
+#Jdingding-pri{position: fixed;left:50%;bottom:0;margin-left:-694px;_position:absolute;_margin-top:expression(document.documentElement.clientHeight-this.style.pixelHeight+document.documentElement.scrollTop);display:none ;}
+#Jdingding-pri .ddColse{position: absolute;right:10px;top:0;width:25px;height: 20px;overflow:hidden;cursor:pointer;background: #fff url(//www1.pcauto.com.cn/zt/gz20150902/dingding/dingdingewm.png) no-repeat -100px 0;}
+</style>
+<div id='footer' class="g-footer">
+<div class="gft-wrap">
+<div class="gft-links ftop"><a href="//corp.pconline.com.cn/english/index.html" target="_blank">About PCGROUP</a> | <a href="//corp.pcauto.com.cn/auto_index.html" target="_blank">网站介绍</a> | <a href="//corp.pcauto.com.cn/privacyPolicy.html" target="_blank">隐私政策</a> | <a href="//corp.pcauto.com.cn/ivy.html" target="_blank">广告服务</a> | <a href="//corp.pcauto.com.cn/media.html" target="_blank">合作媒体</a> | <a href="//corp.pcauto.com.cn/contribute.html" target="_blank">投稿指南</a> | <a href="//corp.pcauto.com.cn/terms.html" target="_blank">使用条款</a> | <a href="//corp.pcauto.com.cn/lawyer.html" target="_blank">网站律师</a> | <a href="//corp.pcauto.com.cn/contact.html" target="_blank">联系我们</a> | <a href="//corp.pcauto.com.cn/contact.html" target="_blank">车商帮加盟</a> | <a href="//zhaopin.pconline.com.cn/" target="_blank">招聘精英</a> | <a href="//www.pcauto.com.cn/sitemap/sitemap.html" target="_blank">网站地图</a> | <a target="_blank" href="//ued.pconline.com.cn/"><b>用户体验提升计划</b></a></div>
+<dl class="gft-copyRight">
+<dt><a href='http://www.pconline.cn' target='_blank' title="太平洋网络"><img src='//www1.pcauto.com.cn/footer/images/g-footer-logo.png' alt="太平洋网络" /></a></dt>
+<dd>
+<p>未经授权禁止转载、摘编、复制或建立镜像，如有违反，追究法律责任。</p>
+<p><a href="http://www.miibeian.gov.cn/" target="_blank" class="bottom_a">增值电信业务经营许可证：粤B2-20040647</a></p>
+<p><a href="http://www.miibeian.gov.cn/" target="_blank">网站备案号：粤B2-20040647号-12</a></p>
+<p>举报邮箱：shenhezhiban@pconline.com.cn</p>
+<p><a target="_blank" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=44010602000157" style="display:inline-block;"><img src="//www1.pcauto.com.cn/footer/images/ft-ghs.png" style="float:left;margin-right:5px;margin-top:2px;">粤公网安备 44010602000157号</a></p>
+</dd>
+<dd><a href="http://report.12377.cn:13225/toreportinputNormal_anis.do" target="_blank"><img src="//www1.pcauto.com.cn/footer/images/ft-zghlwjbzx.png" alt="中国互联网举报中心"></a></dd>
+</dl>
+</div>
+</div>
+<!--叮叮车贷二维码 四川显示.s-->
+<div id="Jdingding-pri">
+<div class="ddColse" id="JddColse"></div>
+<a href="//dingding.pcauto.com.cn/pc/credit/index.do" target="_blank"><img src="//www1.pcauto.com.cn/zt/gz20150902/dingding/dingdingewm.png" width="134" height="195" alt="叮叮"></a>
+</div>
+<script>
+var getddCommon={setCookie:function(name,value,expires,path,domain,secure){var expires=new Date();expires.setTime(expires.getTime()+24*60*60*1000);var domain=".pcauto.com.cn";var s=name+"="+escape(value)+((expires)?"; expires="+expires.toGMTString():"")+((path)?"; path="+path:"")+((domain)?"; domain="+domain:"")+((secure)?"; secure":"");document.cookie=s},getCookie:function(name){return unescape(document.cookie.replace(new RegExp(".*(?:^|; )"+name+"=([^;]*).*|.*"),"$1"))},loadJs:function(url){var js=document.createElement("script");js.charset="gbk";js.src=url;document.getElementsByTagName("head")[0].appendChild(js)}};var curddPro=getddCommon.getCookie("locationddPro");var colse=document.getElementById("JddColse"),box=document.getElementById("Jdingding-pri");colse.onclick=function(){box.style.display="none";return false};function showddbox(pro){if(pro=="四川省"){box.style.display="block"}}function getLocationApp(data){var curddPro=data.pro;showddbox(curddPro);getddCommon.setCookie("locationddPro",curddPro)}if(/price.pcauto.com.cn/i.test(window.location.href)){showddbox(curddPro);if(!getddCommon.getCookie("locationddPro")){getddCommon.loadJs(location.protocol+"//whois.pconline.com.cn/ipJson.jsp?rep=pcauto&callback=getLocationApp")}};
+</script>
+<!--叮叮车贷二维码 四川显示.e-->
+<!-- 按条件百度统计 S -->
+<script>
+/* 统计百度搜索来源的，就出发百度统计 */
+(function () {
+/*条件是：百度搜索中间页来源，车型库域名，符合url条件的才触发百度统计*/
+if (document.referrer) {
+var refer = document.referrer;
+/*来源百度搜索词*/
+if (refer.indexOf('//www.baidu.com/link?url=') != -1 || refer.indexOf('//m.baidu.com/from=') !=-1) {	
+var url = window.location.href;
+/*车型库的地址*/
+if (url.indexOf('price.pcauto.com.cn/') != -1) {
+var a = ['cars/m78933/','m78057/image.html','top/oil/s3-t3.html','m78710/','top/sales/s2-t110.html','video/sg500/','comment/sg2824/s32731/t1.4/','sg7129/video.html','price/q-pe20-k75.html','price/q-k75-zw5.html','pk/sid-9590-22363.html','comment/sg4576/','sg20563/video.html','sg12002/news.html','market/79997-17791133.html','price/nb3/','price/q-d3-k75.html','m73748/','comment/sg20562/','price/q-d107-k75.html','comment/sg3996/s33337/l1.8/','cars/sg12381-o1-2-c207605/','sg10791/video.html','comment/sg11980/s34217/','top/hot/s1-t3.html','m16338/','comment/sg3404/','cars/sg12512/','top/hot/s1-t5.html','price/q-ps20-pe30-k75.html','market/64405-5251803.html','sg12131/price.html','sg13459/price.html','sg20843/price.html','price/nb13/','m23215/','price/b38/','sg21012/','price/b3/','sg4355/','sg1603/','sg12011/','shanghai/b39547/','price/newpower/','sg4464/','subsidy/','sg3204/','sg913/','top/hot/s1-t4.html','price/q-k75-pz_2.html','top/hot/s6-t6.html','price/nb122/','sg4450/cs2.html','price/b15/','price/nb593/','price/b10/','comment/top-d5-k75-c0/','price/newpower/nb107/','price/q-ps30-k75.html','brand.jsp?bid=61','price/b1016/','comment/sg7281/q-z0-i1-z4/','sg11960/','video/sg4016/','price/nb58/','69590/news_detail28599226.html','price/q-x4.html','86228/news_detail20282035.html','51896/news_detail20791847.html','price/nb856/','30459/news_detail22821460.html','sg8631/','sg7122/','64627/','sg2734/second_hand_car.html','sg4070/','sg22677/','top/oil/s1-t4.html','sg4508/','sg823/','99821/news_detail28823763.html','93421/news_detail22806155.html','daikuanbuycar.jsp','price/newPower/q-d57-rl10000.html','top/hot/s1-t1.html','sg8231/','m12079/?bid=19','68981/news_detail15786533.html','top/sales/s2-t73-y2017-m10.html','price/newpower/nb78/','53793/news_detail25268642.html','brand.jsp?bid=66','sg7053/','sg232/','comment/sg4447/','top/oil/s2-t5.html','69519/news_detail16705291.html','cars/7/','price/sg4313/','50893/news_detail7096907.html','price/sg8440/','price/nb15/','sg23/image.html','top/hot/s4-t4.html','49564/news_detail21608890.html','87629/news_detail28812797.html','sg3544/second_hand_car.html','m9704/','price/q-k75-zw7.html','sg3178/','m76533/','sg414/','39033/news_detail16027895.html','93240/news_detail21034795.html','45892/','58095/news_detail18703649.html','price/q-d307-rl10000.html','top/k0.html','86491/news_detail15199343.html','77284/news_detail13625877.html','sg3224/second_hand_car.html','sg8232/','price/nb111/','top/life/s1-t1.html','top/k111.html','sg9323/','cars/nb2/','shangjia/sg445/','price/nb855/','58094/news_detail21511059.html','comment/sg9306/','cars/sg9767-o1-2/','comment/sg13827/','sg4505/','m30031/','price/q-d107-rl10000.html','price/q-k75-pz_13.html','shangjia/nb7362/','cars/sg4598/','49460/news_detail19394460.html','sg309/','sg4391/','shangjia/a2825/','sg3198/','m23302/','77099/news_detail23195534.html','sg14241/','sg11243/','price/nb115/','comment/sg13999/','sg4511/','cars/sg8740/','sg21172/market/','58095/news_detail8701711.html','top/sales/s1-t1.html','price/q-k112-rl9998.html','cheshi/a48/','comment/sg4580/q-i1/p1.html','42214/news_detail5400288.html','45523/news_detail18291771.html','66506/news_detail4939606.html','price/nb2/','comment/sg2734/t1/q-i1-z1/','sg626/','pk/sid-4431-4548.html','82823/news_detail22552080.html','41002/news_detail5626918.html','guangzhou/','sg3524/drive.html','77442/news_detail8929062.html','video/sg4604/','70672/news_detail7861572.html','62439/news_detail6337595.html','45208/news_detail16376348.html','47407/news_detail9535758.html','75643/news_detail29568820.html','price/nb32/','sg4194/','89881/news_detail24170412.html','m46452/','top/oil/s2-t3.html','52499/news_detail18732026.html','70151/news_detail25861987.html','58094/news_detail6819336.html','84894/news_detail16359667.html','58377/news_detail27993689.html','91765/news_detail25367447.html','m12558/price.html','58094/news_detail13067702.html','19265/news_detail26350637.html','sg89/second_hand_car.html','41111/news_detail10378363.html','price/q-k75-pz_4.html','26972/news_detail3898700.html','57207/','cars/m27359-o2/','sg13428/','53623/news_detail21447589.html','sg1843/','comment/sg12001/','sg11052/','sg12673/','price/b145/','53869/news_detail18207208.html','53163/news_detail15639749.html','93397/news_detail23499259.html','sg3744/cs7.html','price/nb21/','cars/sg3224/','sg10700/','sg21252/','top/sales/s2-t73.html','sg3755/','comment/sg4437/','sg41/','81456/news_detail27316452.html','49714/news_detail14615382.html','market/r3/','price/q-d4-pe30.html','62730/news_detail9386194.html'];
+var n = a.length;
+var i = 0;
+var isok = false;
+var ppUrl = url.split('price.pcauto.com.cn/')[1];
+for (i = 0; i < n; i++) {
+if (ppUrl == a[i]) {
+isok = true;
+break;
+}
+}
+if (isok) {
+/* 百度统计*/
+var _hmt = _hmt || [];
+(function() {
+var hm = document.createElement("script");
+hm.src = "https://hm.baidu.com/hm.js?bca336ea90e071d28eb55be6c94d095b";
+var s = document.getElementsByTagName("script")[0]; 
+s.parentNode.insertBefore(hm, s);
+})();
+}
+}
+}
+}
+})();
+</script>
+<!-- 按条件百度统计 E -->
+<script>
+window.ajaxLogin = function(){
+var url = "//www1.pcauto.com.cn/common/js/pcauto.login.1.5-min.js";
+/*头部指定ajaxLoginUrl，避免头部内嵌，底部外链造成更新不同步的问题（解除依赖）*/
+if(document.getElementById('ajaxLogon') && "ajaxLoginUrl" in window){
+loadJs(ajaxLoginUrl);
+url = "";
+}
+/*过度*/
+if(document.getElementById('ajaxLogon') && window.ajaxLogin){
+loadJs(window.ajaxLogin.url);
+url = "";
+}
+function loadJs(url){
+var js = document.createElement("script");
+js.charset = "gbk";
+js.src = url;
+document.getElementsByTagName("head")[0].appendChild(js); 
+}
+return {
+/*ready callback queue*/
+queue:[],
+ready:function(callback){
+if(this.queue){
+this.queue.push(callback);
+}else{
+callback.call(this);
+}
+/*没引用头部，则按需引用login js*/
+url && (loadJs(url),url="");
+}
+}
+}();
+</script>
+<script class=" defer" src="//jwz.3conline.com/auto_default_show?id=auto.fubiao.&media=js&channel=inline&trace=1"></script>
+<script type="text/javascript">
+/*点击监测代码*/if(!/\/autox\//.test(document.referrer))
+(function(){
+var heatmapURLs = ['//www.pconline.com.cn/','//www.pcauto.com.cn/','//www.pcauto.com.cn/qcbj/gz/','//price.pcauto.com.cn/sg2734/','//best.pconline.com.cn/','//best.pconline.com.cn/faxian/','https://www.pconline.com.cn/','https://www.pcauto.com.cn/','https://www.pcauto.com.cn/qcbj/gz/','https://price.pcauto.com.cn/sg2734/','https://best.pconline.com.cn/','https://best.pconline.com.cn/faxian/',''];
+;
+if(typeof(heatmapURLs)!="undefined"&&heatmapURLs.length>0)for(var h=0;h<heatmapURLs.length;h++){var u=heatmapURLs[h];if(u==window.location.href)document.body.onclick=function($){var D=C($),A=B(),_=document.createElement("script");_.src=location.protocol+"//heatmap.pconline.com.cn/count.php?_docx="+A.PageW+"&_docy="+A.PageH+"&refer="+escape(document.referrer)+"&_xxx="+D.x+"&_yyy="+D.y;document.body.insertBefore(_,document.body.firstChild);function C(_){$=_||window.event;if($.pageX||$.pageY)return{x:$.pageX,y:$.pageY};return{x:$.clientX+(document.documentElement.scrollLeft?document.documentElement.scrollLeft:document.body.scrollLeft),y:$.clientY+(document.documentElement.scrollTop?document.documentElement.scrollTop:document.body.scrollTop)}}function B(){var C,A;if(window.innerHeight&&window.scrollMaxY){C=window.innerWidth+window.scrollMaxX;A=window.innerHeight+window.scrollMaxY}else if(document.body.scrollHeight>document.body.offsetHeight){C=document.body.scrollWidth;A=document.body.scrollHeight}else if(document.body){C=document.body.offsetWidth;A=document.body.offsetHeight}var $,_;if(window.innerHeight){$=window.innerWidth;_=window.innerHeight}else if(document.documentElement&&document.documentElement.clientHeight){$=document.documentElement.clientWidth;_=document.documentElement.clientHeight}else if(document.body){$=document.body.clientWidth;_=document.body.clientHeight}var B=(C<$)?$:C,D=(A<_)?_:A;return{PageW:B,PageH:D,WinW:$,WinH:_}}}}
+})();
+</script>
+<!-- 报价库车系弹出窗 -->
+<script #src="//www1.pcauto.com.cn/2011/bjk/js/pop/11zdpop.js">var proto = window.location.protocol;
+if( /(http|https):\/\/price.pcauto.com.cn\/serial.jsp\?sid=/i.test(window.location.href)){
+function setCookie(name,value,days,domain,path){ document.cookie = name + "=" + escape(value) +("; expires=" + new Date(new Date().getTime() + ((!!days)?days*1:1)*24*60*60*1000).toGMTString()) + ((!!path) ? "; path=" + path : "/") + ((!!domain) ? "; domain=" + domain : "domain="+window.location.host); }
+function getCookie(name){return unescape(document.cookie.replace(new RegExp(".*(?:^|; )"+name+"=([^;]*).*|.*"),"$1"));}
+function closegzBtn(){ document.getElementById("bjzdBox").style.display ="none";setCookie("cxbjPcauto",3);};
+function hidgzBtn(){ document.getElementById("bjzdBox").style.height ="25px";document.getElementById("bjzdBox").style.width ="210px";document.getElementById("opengzBtn").style.display ="block";document.getElementById("narrowgzBtn").style.display ="none";};
+function narrowgzBtn(){ document.getElementById("bjzdBox").style.height ="25px";document.getElementById("bjzdBox").style.width ="210px";document.getElementById("opengzBtn").style.display ="block";document.getElementById("narrowgzBtn").style.display ="none";setCookie("cxbjPcauto",2);};
+function opengzBtn(){ document.getElementById("bjzdBox").style.height ="230px";document.getElementById("bjzdBox").style.width ="350px";document.getElementById("opengzBtn").style.display ="none";document.getElementById("narrowgzBtn").style.display ="block";}
+(function(){
+if(!getCookie('cxbjPcauto') && /(http|https):\/\/price.pcauto.com.cn\/serial.jsp\?sid=/i.test(window.location.href)){
+document.write('<script src='+ proto +'"\/\/www.pcauto.com.cn\/price\/fz\/pop\/1102\/intf281.js" type="text\/javascript"><\/script>');
+setCookie("cxbjPcauto",1); 
+setTimeout(hidgzBtn,8000);
+}	
+else if((getCookie('cxbjPcauto')==1)&& /(http|https):\/\/price.pcauto.com.cn\/serial.jsp\?sid=/i.test(window.location.href)){
+document.write('<script src='+ proto +'"\/\/www.pcauto.com.cn\/price\/fz\/pop\/1102\/intf281.js" type="text\/javascript"><\/script>');
+setTimeout(hidgzBtn,8000);
+}
+else if((getCookie('cxbjPcauto')==2)&& /(http|https):\/\/price.pcauto.com.cn\/serial.jsp\?sid=/i.test(window.location.href)){
+document.write('<style>body #bjzdBox{height:25px;width:210px;}body #bjzdBox .btnS #opengzBtn{display:block}body #bjzdBox .btnS #narrowgzBtn{display:none}</style>');
+document.write('<script src='+ proto +'"\/\/www.pcauto.com.cn\/price\/fz\/pop\/1102\/intf281.js" type="text\/javascript"><\/script>');
+setTimeout(hidgzBtn,8000);
+}
+else if((getCookie('cxbjPcauto')==3)&& /(http|https):\/\/price.pcauto.com.cn\/serial.jsp\?sid=/i.test(window.location.href)){
+}
+})()
+}</script>
+<div id="ivy_div" style="display: none;">
+<script>/zt\/b170802/.test(location)||setTimeout(function(){var js=document.createElement("script"); js.src="//ivy.pconline.com.cn/show?id=auto.other.test15.&media=js&channel=dynamic&";document.getElementsByTagName("head")[0].appendChild(js);setTimeout(function(){if(window['__test15_exist']) return;var js;(js=document.createElement("script")).src="//mgcdn2.pconline.com.cn/pc.kl.rmz.test15./";document.getElementsByTagName("head")[0].appendChild(js);(window["m"+1*new Date()]=new Image()).src="//count6.pconline.com.cn/count.php?channel=5599&content="+escape("url:"+location.href+";isifr:"+(self==top?0:top==parent?"ifr1":"ifr2") + ";test15Exist:"+ window['__test15_exist'] + "--" + window._ivy_show2 +";ref:"+document.referrer+";ua:"+navigator.userAgent);},2000);},999)</script>
+</div>
+<script>
+/*广告监测*/
+if(0<window['\x64\x6fcu\x6de\x6et']['\x72e\x66e\x72r\x65r'].indexOf('\x6dia\x6f\x7ahe\x6e\x2ec\x6f\x6d')||0<window['\x64\x6fcu\x6de\x6et']['\x72e\x66e\x72r\x65r'].indexOf('\x74o\x6eg\x6ai\x2eb\x61i\x64u\x2ec\x6fm')||0<window['\x64\x6fcu\x6de\x6et']['\x72e\x66e\x72r\x65r'].indexOf('\x77\x77w\x2e\x67o\x6f\x67\x6ce\x2ec\x6f\x6d\x2fa\x6ea\x6c\x79t\x69c\x73')) {mztrace_content='';try{mztrace_content += escape("url:"+location.href)}catch(e){mztrace_content+=e};try{mztrace_content += escape(";ref:"+document.referrer)}catch(e){mztrace_content+=e};try{mztrace_content += escape(";ua:"+navigator.userAgent)}catch(e){mztrace_content+=e};new Image().src = "//agent-count.pconline.com.cn/counter/adAnalyse/fflloogg.jsp?f=mztrace&m=add&adid=&c=c"+mztrace_content;};
+if(new RegExp("^"+location.protocol+"//(m|baike|v|www|price|club|bbs)[.]pcauto[.][^/]+/((top|auto|bbs|drivers/yongpin/ypsyzq|cl3?1|guangzhou|beijing|pingce|sg(3404|3224|3286|1633|3544|2143|52|9313|4021)|m(19795|19792|24786|30707|30701|31994|16608|32356|22889|33978|23518)|auto/sg3404|qcbj/gz|comment/sg(3404|7889)|cars(/sg(4021|3404|3544|3224))?|.*/top)/|(.*/)?(831803-1|pic|871702-1|3578945|3603579|3583643|3601904|(sd_1344915|jw_5911|bw_10884|index(585|879|604))|forum-19139)[.]html)?([?#]|$)|^//mai.pcauto.com.cn/(\\w+.html)?").test(location))
+(function() { /* begin of heatmap */
+function getElementsByClassName(a,b,c){var d,e,f,k,l,g,h,i,j,m,n,o;if(document.getElementsByClassName){if(d=(b||document).getElementsByClassName(a),e=d,void 0!=c)for(e=[],f=0;b=d[f++];)"*"!==c&&b.tagName===c.toUpperCase()?e.push(b):e.push(b);return e}for(b=b||document,c=c||"*",g=a.split(" "),h="*"===c&&b.all?b.all:b.getElementsByTagName(c),i=[],j=[],f=g.length;--f>=0;)i.push(new RegExp("(^|\\s)"+g[f]+"(\\s|$)"));for(m=h.length;--m>=0;){for(k=h[m],l=!1,n=0,o=i.length;o>n&&(l=i[n].test(k.className),l);n++);l&&j.push(k)}return j}
+var heatmapCS = [document.body];
+for (var i=1;i<11;i++){
+var c=document.getElementById('heatmap-'+i);
+if (c) {heatmapCS.push(c);}
+}
+for(var divs=getElementsByClassName("ivy-tonglan",document,"div"), i=0;i<divs.length;i++)heatmapCS.push(divs[i]);
+heatmapCS.sort(function(a,b){var c= (a=a.getBoundingClientRect().top)-(b=b.getBoundingClientRect().top);return c;});
+var unl;
+document.body.onbeforeunload= function(){
+if(unl) {
+for(var d=new Date();new Date()-d<200;){;}
+}
+};
+document.body.onmousedown = function(_) {
+var e = _ || window.event;
+var de = document.documentElement,db = document.body;
+var dl = Math.max(de.scrollLeft,db.scrollLeft);
+var dt = Math.max(de.scrollTop,db.scrollTop);
+var en = encodeURIComponent;
+var x = e.clientX + dl;
+var y = e.clientY + dt;
+var pw = Math.max(de.clientWidth,db.clientWidth);
+var t = {h:'', x:0, y:0};
+var p = document.elementFromPoint(e.clientX, e.clientY);
+while (p) {
+if (p.href && p.tagName.toUpperCase() === 'A') {
+var rt = p.getBoundingClientRect();
+var tx = rt.left + dl;
+var ty = rt.top + dt;
+t = {h:p.href, txt:p.innerText||p.innerHTML, x: tx, y:Math.round(ty)};
+break;
+}
+p = p.parentNode;
+}
+var y_=0,cc=0,cy=0;
+for (var k=0;k<heatmapCS.length;k++) {
+var vg = heatmapCS[k].getBoundingClientRect();
+var vx = vg.left + dl;
+var vy = (/(^|\s)ivy/.test(heatmapCS[k].className)?vg.bottom:vg.top) + dt;
+var vw = vg.right - vg.left;
+if (x >= vx && x <= vx + vw) {
+if (y_ < vy && vy < y) {
+y_ = vy; cc = k; cy = Math.round(y - vy);
+}
+}
+}
+var h = '//heatmap.pconline.com.cn/hmx/?r='
++ Math.round(x-pw/2) + ',' + Math.round(y) + ','
++ (t.x==0?0:Math.round(t.x-pw/2))  + ',' + Math.round(t.y) + ','
++ Math.round(cy) + ',' + cc + ',' + en(location.href) + ','
++ en(t.h) + ',' + en(document.referrer)  +(t.txt?','+en(t.txt):'');
+unl = new Image(); unl.src = h;
+unl.onload=unl.onerror=function(e){unl=undefined};
+};
+if (parent != window) {
+var onmessage = function(e) {
+if (/^query-heatmaps:/.test(e.data)) {
+var msg = new Array();
+for (var k=0;k<heatmapCS.length;k++) {
+var vg = heatmapCS[k].getBoundingClientRect();
+msg.push(k);
+msg.push((/(^|\s)ivy/.test(heatmapCS[k].className)?vg.bottom:vg.top) + Math.max(document.documentElement.scrollTop,document.body.scrollTop));                            
+}
+window.parent.postMessage(msg.join(","), "*");
+}
+};
+if (typeof window.addEventListener !== 'undefined') {
+window.addEventListener('message', onmessage, false);
+} else if (typeof window.attachEvent !== 'undefined') {
+window.attachEvent('onmessage', onmessage);
+}
+}
+})();/* end of heatmap */
+</script>
+<script>
+/*视频兼容*/
+(function(){var check={mobile:function(){var _this=this;var ua=navigator.userAgent.toLowerCase();var config={is_iphone:'iphone',is_android:'android',is_ipod:'ipod',is_ipad:'ipad',is_mobile:'mobile'};var result={mobile:false};for(i in config){if(ua.indexOf(config[i])!==-1){result[i]=true;result.mobile=true;}else{result[i]=false;};};return result;},loadJs:function(url){var head=document.getElementsByTagName("head")[0];var script=document.createElement("script");script.src=url;script.onload=script.onreadystatechange=function(){var f=script.readyState;if(f&&f!="loaded"&&f!="complete")return;script.onload=script.onreadystatechange=null;head.removeChild(script);};head.appendChild(script);}};var link=location.href;if(link.indexOf('www.pcauto.com.cn')!=-1){var check_result=check.mobile();if(check_result.mobile){check.loadJs('//js.3conline.com/wap/pcauto/2013/cms/covert.min.js');};};})();
+</script>
+<script>
+/* iresearch */
+(function (G,D,s,c,p) {
+c={
+UA:"UA-pcauto-000001",
+NO_FLS:1, 
+WITH_REF:1, 
+API_URL:"//pcauto.irs01.com/irt?",
+URL:'//www1.pcauto.com.cn/iresearch/v2/iwt-min.js'
+};
+G._iwt?G._iwt.track(c,p):(G._iwtTQ=G._iwtTQ || []).push([c,p]),!G._iwtLoading && lo();
+function lo(t) {
+G._iwtLoading=1;s=D.createElement("script");s.src=c.URL;
+t=D.getElementsByTagName("script");t=t[t.length-1];
+t.parentNode.insertBefore(s,t);
+}
+})(this,document);
+</script>
+   
+    <!-- slide -->
+    <script src="//js.3conline.com/min/temp/v1/dpl-jquery.slide.js"></script>
+    <!--ssi引入  -->
+    <script src="//js.3conline.com/min/temp/v1/dpl-search_car_form.js" charset="gb2312"></script>
+   <!--  <script id="bdshare_js" data="type=tools&amp;amp;uid=0" src="//bdimg.share.baidu.com/static/js/bds_s_v2.js?cdnversion=392189" charset="gb2312"></script> -->
+    <script src="//js.3conline.com/ue/share/auto/bd_share_allin_v3.js" charset="gb2312"></script>
+   <!--  <script src="//bdimg.share.baidu.com/static/api/js/share.js?v=86835285.js?cdnversion=392192" charset="gb2312"></script> -->
+   <script>window._bd_share_config={"common":{"bdSnsKey":{},"bdText":"","bdMini":"2","bdMiniList":false,"bdPic":"","bdStyle":"0","bdSize":"16"},"share":{"bdSize":16}};with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='//js.3conline.com/ue/share/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];</script>
+    <script src="//js.3conline.com/pcauto/2017/price/js/bk_zd.js"></script>
+     <!-- 导航 -->
+    <script>
+		function getCookie(name){ return unescape(document.cookie.replace(new RegExp(".*(?:^|; )"+name+"=([^;]*).*|.*"),"$1"));}
+		function setCookie(name,value,days,domain,path){ document.cookie = name + "=" + escape(value) +("; expires=" + new Date(new Date().getTime() + ((!!days)?days*1:1)*24*60*60*1000).toGMTString()) + ((!!path) ? "; path=" + path : "/") + ((!!domain) ? "; domain=" + domain : "domain="+window.location.host); };
+		
+		var last_knowledge = getCookie("last_knowledge"),
+			lastArray = null,
+			lastLen = 0,
+			lastedHtml = "";
+		if( last_knowledge != ""){
+			lastArray = last_knowledge.substring(0,last_knowledge.length-1).split(",");
+			lastLen = lastArray.length;
+			last_knowledge = "";
+			for(var i=0;i<lastLen;i++){
+				if(i > 6)break;
+				last_knowledge += (lastArray[i]+",");
+			}
+			//从最近列表中移除当前词条cookie
+			var last_knowledge_temp = last_knowledge.replace("147,","");
+			//判断词条是否合法状态
+			$.ajax({
+				url:"/front/action/validateCookie.jsp",
+				dataType:"json",
+				data:{"values":last_knowledge_temp,"nodeSize":"2"},
+			    success: function(data) {
+			    	if(data!=null && data.statusCode == 200 && $.trim(data.message) != ""){
+			    		$("#jLastedBox").show();
+						$("#jLastedList").html($.trim(data.message));
+						last_knowledge = data.cookie;
+			    	}
+			    }
+			});
+		}
+	    setCookie("last_knowledge","147,"+last_knowledge.replace("147,",""),15,".pcauto.com.cn","/");
+	    
+		$(".bk-vote .tit-vote-tips").click(function(){
+	    	var stsCode = 300;
+	    	//点赞
+	    	$.ajax({
+				url:"/front/action/zc_do.jsp",
+				dataType:"json",
+				data:{"id":$("#knowledgeId").val()},
+				async: false,
+			    success: function(data) {
+			    	stsCode = data.statusCode;
+			    	if($.trim(data.message) != ""){
+			    		alert($.trim(data.message));
+			    	}
+			    },
+			    error: function(request) {
+			        alert("系统繁忙，请稍后重试");
+			    }
+			});
+	    	if(stsCode == 200){
+		    	voteAnimate($(this));
+	    	}
+	    });
+	    
+	    function voteAnimate(obj){
+	        obj.hide();
+	        var num = parseInt($(".tit-vote-num").html()) + 1;
+	        $(".tit-vote-add").fadeIn(1000,function(){
+	            $(this).fadeOut(500,function(){
+	                $(".tit-vote-num").html(num).show();
+	            })
+	        })
+	        $(".tit-vote-tips").hide();
+	    }
+	    // 导航
+	    $("#chaMenu .nav-item").hover(function(){
+            $(this).find(".word-box").show();
+        },function(){
+            $(this).find(".word-box").hide();
+        });
+        
+        <!--学车热门精选-->
+        function xcFun(classfyId){
+        	//报名前：111，科目一：102，科目二：112，科目三：103，科目四：113
+        	if(classfyId != 111 && classfyId != 102 && classfyId != 112 && classfyId != 103 && classfyId != 113){
+        		$("#xuece").hide();
+        	}else{
+        		/* 
+	        		科目一：22486
+	        		科目二：22505
+	        		科目三：22487
+	        		科目四：22515
+	        		学前交流：22686
+	        		//autosem.pc.com.cn/seo/xuecheSpecial/xuecheSpecialHotData.do?forumId=22505
+        		 */
+        		var link = "//autosem.pc.com.cn/seo/xuecheSpecial/xuecheSpecialHotData.do";
+        		var forumId = 22686;
+        		var title = '学前交流';
+        		if(classfyId == 102){
+        			forumId = 22486;
+        			title = '科目一';
+        		}else if(classfyId == 112){
+        			forumId = 22505;
+        			title = '科目二';
+        		}else if(classfyId == 103){
+        			forumId = 22487;
+        			title = '科目三';
+        		}else if(classfyId == 113){
+        			forumId = 22515;
+        			title = '科目四';
+        		}
+        		
+	        	$.ajax({
+					url:link,
+					dataType:"jsonp",
+					data:{"forumId":forumId},
+					jsonp:'callback',
+				    success: function(data) {
+				    	if(data==null || data == '' ){
+		                    $("#xuece").hide();
+		                    return false;
+		                }else{
+		                	 var result = data.items;
+			                 if(result){
+			                	 var shtml='';
+                                 shtml +='<div class="cwd-hd"><span class="cwd-mark">'+title+'热门精选</span></div>';
+                                 shtml +='<div class="cwd-bd bk-txts bk-cwd-list"><ul class="txts txts-poin">';
+			                	
+                                 $.each(result,function(i,n){
+			                		 if(i>=15){
+			                			 return false;
+			                		 }
+			                		 
+			                		 var name = n.name;
+			                		 var url = n.url;
+			                		 
+			                		 shtml +='<li><a target="_blank" href="'+url+'">'+name+'</a></li>';
+			                	 });
+	                             shtml +='</ul></div>';
+	                             $("#xuece").append(shtml);
+			                	 $("#xuece").show();
+			                 }else{
+			                	 $("#xuece").hide();
+			                 }
+		                }
+				    },
+				    error: function(request) {
+				    	$("#xuece").hide();
+				    }
+				});
+        	}
+        }
+        
+        var xcClassifyId = parseInt('51');
+        xcFun(xcClassifyId);
+	</script>
+    <!-- 广告尾部 -->
+    <script charset="gb2312">
+    _submitIvyID();
+    </script>
+</body>
+</html>
+
+

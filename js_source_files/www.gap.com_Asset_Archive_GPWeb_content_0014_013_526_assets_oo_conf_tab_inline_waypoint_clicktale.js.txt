@@ -1,0 +1,218 @@
+/*
+OnlineOpinion v5.9.9
+Released: 08/02/2016. Compiled 08/02/2016 02:01:40 PM -0500
+Branch: master 2a8b05f36a87035a4e8fac9b85c18815b63da4e3
+Components: Full
+UMD: disabled
+The following code is Copyright 1998-2016 Opinionlab, Inc. All rights reserved. Unauthorized use is prohibited. This product and other products of OpinionLab, Inc. are protected by U.S. Patent No. 6606581, 6421724, 6785717 B1 and other patents pending. http://www.opinionlab.com
+*/
+
+/* global window, OOo */
+
+/*
+Waypoint configuration
+************************
+May pass up to 4 categories.
+Passing a link instead of an object will setup a normal link
+*/
+(function (w, o) {
+    'use strict';
+
+	var GapObj = { };
+	var cv = {
+                clickTaleReplayLink: '',
+                clickTaleUID: '',
+                clickTaleGUID: '',
+                clickTalePartition: '',
+                clickTaleNotAvailableOnPageWhereOLClicked: 'true',
+                clickTaleNeverAvailableOnSite: 'true' 
+            };
+		
+	var setGapObj = function() {
+		GapObj = typeof personalizationService !== 'undefined' ? (typeof personalizationService.model !== 'undefined' ? (typeof personalizationService.model.personalizationData !== 'undefined' ? (typeof personalizationService.model.personalizationData.personalizationInfoV1 !== 'undefined' ? personalizationService.model.personalizationData.personalizationInfoV1 : '') : '') : '') : '';
+		cv.unknownShopperId =  o.readCookie('unknownShopperId'),
+		cv.customerId = typeof GapObj != 'undefined' ? typeof GapObj.customerId != 'undefined' ? GapObj.customerId : '' : '',
+		cv.customerUUID = typeof GapObj != 'undefined' ? typeof GapObj.customerUUID != 'undefined' ? GapObj.customerUUID : '' : '',
+		cv.GECardHolder = typeof GapObj != 'undefined' ? typeof GapObj.customerAttributes != 'undefined' ? typeof GapObj.customerAttributes.GECardHolder != 'undefined' ? GapObj.customerAttributes.GECardHolder : '' : '' : '',
+		cv.hasOffers = typeof GapObj != 'undefined' ? typeof GapObj.customerAttributes != 'undefined' ? typeof GapObj.customerAttributes.hasOffers != 'undefined' ? GapObj.customerAttributes.hasOffers : '' : '' : '',
+		cv.offerBrands = typeof GapObj != 'undefined' ? typeof GapObj.customerAttributes != 'undefined' ? typeof GapObj.customerAttributes.offerBrands != 'undefined' ? GapObj.customerAttributes.offerBrands : '' : '' : '',
+		cv.totalRewardValue = typeof GapObj != 'undefined' ? typeof GapObj.customerAttributes != 'undefined' ? typeof GapObj.customerAttributes.totalRewardValue != 'undefined' ? GapObj.customerAttributes.totalRewardValue : '' : '' : '',
+		cv.totalItemAmount = typeof GapObj != 'undefined' ? typeof GapObj.shoppingBag != 'undefined' ? typeof GapObj.shoppingBag.totalItemAmount != 'undefined' ? GapObj.shoppingBag.totalItemAmount : '' : '' : '',
+		cv.ABSeg = o.readCookie('ABSeg'),
+		cv.pib = o.readCookie('pib')
+	}
+		//setGapObj();
+    var OpinionLabInit = function () {
+
+        o.oo_waypoint = new o.Waypoint({
+        /* REQUIRED - Asset identification */
+            pathToAssets: '/Asset_Archive/GPWeb/content/0014/013/526/assets/',
+            companySlogan: 'Give us feedback',
+            companyLogo: '/Asset_Archive/GPWeb/content/0014/013/526/assets/waypoint_logo.png',
+            // removeOnOutClick: true,
+            linkFocus: false,
+        /* OPTIONAL - Configuration */
+            categories: {
+                website: {
+                    oCode: {
+                        tealeafCookieName: 'JSESSIONID',
+                        customVariables: cv,
+                        clickTalePID: 17
+                    },
+                    icon: 'icon_web.gif',
+                    buttonText: 'Website'
+                },
+                store: {
+                    oCode: {
+                        referrerRewrite: {
+                            searchPattern: /:\/\/[^\/]*/,
+                            replacePattern: '://store.gap.com'
+                        },
+                        tealeafCookieName: 'JSESSIONID',
+                        customVariables: cv,
+                        clickTalePID: 17
+                    },
+                    icon: 'icon_store.gif',
+                    buttonText: 'Store'
+                },
+                product: {
+                    oCode: {
+                        referrerRewrite: {
+                            searchPattern: /:\/\/[^\/]*/,
+                            replacePattern: '://product.gap.com'
+                        },
+                        tealeafCookieName: 'JSESSIONID',
+                        customVariables: cv,
+                        clickTalePID: 17
+                    },
+                    icon: 'icon_product.gif',
+                    buttonText: 'Product'
+                },
+            },
+            disableMobile: false,
+            disableNoniOS: false,
+            wpmarkup: "<div id='oo_waypoint_prompt' role='dialogue' aria-describedby='oo_waypoint_message'><div id='oo_waypoint_company_logo'></div><div id='oo_waypoint_content'><p id='oo_waypoint_message'>Please select a feedback topic</p><p id='waypoint_icons'></p><p id='ol_waypoint_brand_logo'><span aria-label='Powered by OpinionLab.'></span></p></div><a id='oo_waypoint_close_prompt' href='#' aria-label='Close dialog'><div class='screen_reader'>Close dialogue</div><span aria-hidden='true'>&#10006;</span></a></div><!--[if IE 8]><style>/* IE 8 does not support box-shadow */#oo_waypoint_prompt #oo_waypoint_content { width: 400px; padding: 40px 49px 20px 49px; border: 1px solid #ccc; }</style><![endif]-->"
+        });
+
+		var oo_reg = new RegExp("(\/buy\/shopping_bag.do|\/checkout\/order.do)");
+        var oo_isCheckout = oo_reg.test(window.location.href);
+        if (!oo_isCheckout) {
+			
+			o.oo_tab = new o.Ocode({
+				tab: {
+					position: 'right',
+					title: 'Feedback',
+					tabType: 2,
+					verbiage: 'Feedback',
+					iconPath: '/Asset_Archive/GPWeb/content/0014/013/526/assets/' //for vertical tab only
+				},
+				disableShow: true,
+				disableMobile: true,
+				mobileTouches: 2,
+				tealeafCookieName: 'JSESSIONID',
+				customVariables: cv,
+				clickTalePID: 17
+			});
+		}
+		
+		o.oo_feedback = new o.Ocode({
+			tealeafCookieName: 'JSESSIONID',
+			customVariables: cv,
+			clickTalePID: 17
+        });
+		
+        o.appendWaypoint('oo_tab');
+		//o.appendWaypointMobile('oo-feedback', 1);
+        jQuery(document).on('feedbackLink:ready',function(){   //Wait until footer content is loaded and link is appended                      
+            o.appendWaypointMobile('oo-feedback', 1);
+        });
+    };
+		
+	
+    o.addEventListener(w, 'load', OpinionLabInit, false);
+/*
+	if (window["personalizationService"] !== undefined) {
+        jQuery(document).on('personalizationData:ready', function () {
+						setGapObj();
+            OpinionLabInit();
+        });
+    }
+*/	
+
+/* Start ClickTale Session Capture */
+//Async doOnlyWhen Loop for up to 10 seconds
+var doOnlyWhen = function(toDoHandler, toCheckHandler, interval, times, failHandler) {
+    if ((!toDoHandler) || (!toCheckHandler)) return;
+    if (--times < 0) {
+        if (typeof failHandler === 'function') {
+            failHandler();
+        }
+        return;
+    }
+    if (toCheckHandler()) {
+        toDoHandler();
+        return;
+    }
+    setTimeout(function() {
+        doOnlyWhen(toDoHandler, toCheckHandler, interval, times, failHandler);
+    }, interval);
+};
+
+//Set Clicktale Custom Vars for OL
+var clicktaleCheckLocalStorage = function() {
+    return w.localStorage && localStorage.getItem('CTrecordingLink') !== null && localStorage.getItem('CTuserID') !== null && localStorage.getItem('CTpartition') !== null && localStorage.getItem('CTguid') !== null;
+};
+
+var clicktaleSetCustomVars = function() {
+    cv.clickTaleReplayLink = localStorage.getItem('CTrecordingLink');
+    cv.clickTaleUID = localStorage.getItem('CTuserID');
+    cv.clickTalePartition = localStorage.getItem('CTpartition');
+    cv.clickTaleGUID = localStorage.getItem('CTguid');
+
+    if (w.clickTaleNotAvailableOnPageWhereOLClicked) {
+        cv.clickTaleNotAvailableOnPageWhereOLClicked = 'true';
+    }
+    else {
+        cv.clickTaleNotAvailableOnPageWhereOLClicked = 'false';
+    }
+
+    if (w.clickTaleNeverAvailableOnSite) {
+        cv.clickTaleNeverAvailableOnSite = 'true';
+    }
+    else {
+        cv.clickTaleNeverAvailableOnSite = 'false';
+    }
+};
+
+if (w.ClickTaleIsRecording && ClickTaleIsRecording()) {
+    cv.clickTaleNotAvailableOnPageWhereOLClicked = 'false';
+}
+
+if (clicktaleCheckLocalStorage()) {
+    cv.clickTaleNeverAvailableOnSite = 'false';
+    clicktaleSetCustomVars();
+}
+
+var clickTaleNotAvailable = function() {
+    w.clickTaleNotAvailableOnPageWhereOLClicked = true;
+
+    if (clicktaleCheckLocalStorage()){
+        w.clickTaleNeverAvailableOnSite = false;
+        clicktaleSetCustomVars();
+    }
+    else {
+        w.clickTaleNeverAvailableOnSite = true;
+        clicktaleSetCustomVars();
+    }
+};
+
+//Check for Clicktale Recording Link
+var clicktaleCheckForCTlink = function() {
+    return clicktaleCheckLocalStorage() && w.ClickTaleIsRecording && ClickTaleIsRecording();
+};
+
+//Async loop for up to 10 seconds
+doOnlyWhen(clicktaleSetCustomVars, clicktaleCheckForCTlink, 100, 50, clickTaleNotAvailable);
+/* End ClickTale Session Capture */
+
+})(window, OOo);

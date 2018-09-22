@@ -1,0 +1,348 @@
+var _ivyIDs=window._ivyIDs||"";
+var _tmpIvyIDs=window._tmpIvyIDs||"";
+var _cntUrl=window._cntUrl||"";
+var _state_=0;
+var _count_=1;
+var __lock__ =0;
+var _ivySubmitPage="//ivy.pconline.com.cn/show2?channel=inline&id=";
+function _addIvyID(para_loc_ad){
+	if(_tmpIvyIDs.indexOf(para_loc_ad+";")>-1){
+		return;
+	}
+
+	_tmpIvyIDs = _tmpIvyIDs + para_loc_ad + ";";
+	_ivyIDs = _ivyIDs + para_loc_ad + ";";
+}
+function _delIvyID(para_loc_ad){
+	if(para_loc_ad != null && para_loc_ad.length>0 && para_loc_ad.indexOf("_")>0){
+		if(_tmpIvyIDs.indexOf(para_loc_ad+";")>-1){
+			_tmpIvyIDs = _tmpIvyIDs.replace(para_loc_ad+";", "");
+		}
+		if(_ivyIDs.indexOf(para_loc_ad+";")>-1){
+			_ivyIDs = _ivyIDs.replace(para_loc_ad+";", "");
+		}
+	}
+}
+function _submitIvyID_impl(){
+  __lock__ = 1;
+  if (_ivyIDs && _ivyIDs != ""){
+    var _ivyIDssend = _ivyIDs;
+    _ivyIDs = "";
+    try{
+       var i2 = document.createElement("script");
+       if(i2){
+	  var ivydiv = document.getElementById("ivy_div");
+	  if(!ivydiv){
+	      //var bodys = document.getElementsByTagName("body");
+	      //ivydiv = bodys[0];
+              ivydiv   =   document.createElement("div");
+              ivydiv.id= "ivy_div";
+              ivydiv.style.display   =   "none";
+              //2009.2.25...apply insertBefore for better compatiable
+              //document.body.appendChild(ivydiv);
+              document.body.insertBefore(ivydiv, document.body.firstChild);
+	  }
+
+	  if (!ivydiv){
+    	      try{
+                 var i2 = new Image(1,1);
+                 i2.src = _ivySubmitPage + _ivyIDssend;
+                 i2.onload=function() { _uVoid(); };
+              }catch(err0){_addIvyID(_ivyIDssend);}
+	  }else{
+              //2009.2.25...apply insertBefore for better compatiable
+	      //ivydiv.appendChild(i2);
+              document.body.insertBefore(i2, document.body.firstChild);
+	      var page = _ivySubmitPage + _ivyIDssend + "&state=" + _state_ + "&submitcnt=" + _count_;
+	      i2.src = page;
+          }
+       }
+    }catch(err){
+        try{
+	   var i2 = new Image(1,1);
+           i2.src = _ivySubmitPage + _ivyIDssend;
+           i2.onload=function() { _uVoid(); };
+        }catch(err1){
+           _addIvyID(_ivyIDssend);
+        }
+    }
+  }
+  if (_cntUrl && _cntUrl != ""){
+    var i3 = new Image(1,1);
+    i3.src = _cntUrl;
+    i3.onload=function() { _uVoid(); };
+    _cntUrl ="";
+  }
+  __lock__ = 0;
+}
+function _uVoid() { return; }
+function _ivyRandom(size){
+  try{
+    hi_now = new Date();
+    hi_id= hi_now.getSeconds() % size;
+    return hi_id;
+  }catch(err) {
+    return 0;
+  }
+}
+_submitIvyID=function(){ //\xd5\xe2\xc0\xef\xcc\xd8\xd2⽫_submitIvyID()\xb4\xae\xb7ֿ\xaa\xa3\xac\xb7\xc0ֹ\xb2ɱ\xe0\xc4\xdaǶʱ\xb1\xbb\xb2\xe5\xc8\xeb_addIvyID(...)\xb4\xae
+   if(__lock__!=0){
+      window.setTimeout(_submitIvyID,3000);
+      return;
+   }
+   _state_ = 0;
+   _count_ = 1;
+   _submitIvyID_impl();
+};
+
+function _submitIvyID2(){
+   if(__lock__!=0){
+      window.setTimeout(_submitIvyID2,3000);
+      return;
+   }
+    _state_ = 1;
+   _count_ = 1;
+
+   var needDelay= _ivyIDs&&_ivyIDs!="";
+   if(needDelay) _addIvyID("480946_302688"); //\xd3\xc3\xd3\xdaͳ\xbc\xc6δ\xbc\xd3\xd4\xd8\xcd\xeaҳ\xc3\xe6\xbe\xcd\xcc\xf8\xb3\xf6\xb5Ĵ\xce\xca\xfd
+   _submitIvyID_impl();
+   if(needDelay) { var d=new Date(); while(new Date()-d<100){} } //\xd1\xd3ʱ100\xba\xc1\xc3\xeb\xd2Ա\xa3֤\xc7\xeb\xc7󷢳\xf6\xa3\xac\xb2\xbb\xbb\xe1Abort
+}
+function _submitIvyID3(){
+   if(__lock__!=0){
+      window.setTimeout(_submitIvyID3,3000);
+      return;
+   }
+   _state_ = 0;
+   _count_ = 2;
+   _submitIvyID_impl();
+}
+window.onbeforeunload = _submitIvyID2;
+
+var userAgent = navigator.userAgent.toLowerCase();
+
+if(/msie/.test(userAgent) && !/opera/.test(userAgent)){
+    document.onreadystatechange = function(){
+      if (document.readyState == "complete"){
+     	 _submitIvyID3();
+      }
+    };
+}else if(/opera/.test(userAgent) ||/mozilla/.test(userAgent)){
+    document.addEventListener( "DOMContentLoaded", _submitIvyID3 , false );
+}
+
+function document_write(s) { document.write(s); }
+function document_writeln(s) { document.writeln(s); }
+
+//add for show3
+var _IVY_AD_MAP_ = new Array();
+function struct_IVY_AD_MAP(key, value){
+
+  this.key = key;
+  this.value = value;
+
+}
+
+function setLocationAd(key, value){
+
+  for (var i = 0; i < this._IVY_AD_MAP_.length; i++)
+  {
+    if ( this._IVY_AD_MAP_[i].key === key )
+    {
+      this._IVY_AD_MAP_[i].value = value;
+      return;
+    }
+  }
+
+  this._IVY_AD_MAP_[this._IVY_AD_MAP_.length] = new struct_IVY_AD_MAP(key, value);
+
+}
+
+function getLocationAd(key,pex)
+{
+   var tmp = new Array();
+   var obj = new Array();
+  for (var i = 0; i < this._IVY_AD_MAP_.length; i++)
+  {
+    if ( this._IVY_AD_MAP_[i].key === key )
+    {
+      tmp = this._IVY_AD_MAP_[i].value;
+	  break;
+    }
+  }
+  if(tmp != null && tmp.length>0){
+	var level = tmp[0].level;
+	for(var i=0;i<tmp.length;i++){
+		if(pex != null && pex>0){
+			if(pex>obj.length){
+				obj[obj.length] = tmp[i];
+				if(tmp[i].level>=2) _addIvyID(tmp[i].locationId + "_" + tmp[i].adId);
+			}
+		}else{
+			if(level>tmp[i].level)break;
+			obj[obj.length] = tmp[i];
+			if(tmp[i].level>=2) _addIvyID(tmp[i].locationId + "_" + tmp[i].adId);
+			if(level<2)break;
+		}
+	}
+  }
+  return obj;
+}
+
+ivymap = window.ivymap || {}; //\xb7\xc0\xd6\xd8\xd4\xd8д\xb7\xa8\xa3\xac\xd3\xc3\xd3\xdashow4\xbaϲ\xa2\xb7\xbdʽ
+function showIvyViaJs(locationId) {
+	var _f = undefined;
+	var _fconv = 'ivymap[\"'+locationId+'\"]';
+	try {
+		_f = eval(_fconv);
+		if (_f!=undefined) {
+			_f();
+		}
+	} catch(e) {
+	}
+}
+
+/** \xb9ؼ\xfc\xd7ֹ\xe3\xb8汣\xb4\xe6\xb5\xc4\xca\xfd\xd7\xe9\xc1б\xed\xbaͻص\xf7\xba\xaf\xca\xfd add by yjx **/
+//\xb9ؼ\xfc\xd7ֹ\xe3\xb8\xe6\xc1б\xed
+var ivyAdList = new Array();
+//\xb9ؼ\xfc\xd7ֹ\xe3\xb8\xe6\xc4\xda\xc8ݣ\xackey-\xb9ؼ\xfc\xd7֣\xaccontent-\xb9\xe3\xb8\xe6\xc4\xda\xc8ݣ\xachref-\xb5\xe3\xbb\xf7\xc1\xb4\xbdӣ\xacivyPara-\xbc\xc6\xca\xfd\xb2\xce\xca\xfd\xa3\xacshowCount-\xb9ؼ\xfc\xd7\xd6\xcf\xd4ʾ\xb4\xce\xca\xfd\xa3\xaclinkCss-\xc1\xb4\xbd\xd3\xd1\xf9ʽ
+function IvyKeyword(key, content, href, ivyPara, showCount, linkCss){
+	this.key = key;
+	this.content = content;
+	this.href = href;
+	this.ivyPara = ivyPara;
+	this.showCount = showCount;
+	this.tmpCount = 0;
+	this.linkCss = linkCss;
+}
+
+//\xccṩ\xb8\xf8\xb3\xcc\xd0\xf2\xb5Ļص\xf7JS\xba\xaf\xca\xfd
+function showKeyWorkAd(keys, content, href, ivyPara, showCount, linkCss){
+	var keyArray=keys.split("|||");
+	//alert(keyArray)
+	for(var aa=0;aa<keyArray.length;aa++) {
+		ivyAdList[ivyAdList.length] = new IvyKeyword(keyArray[aa], content, href, ivyPara, showCount, linkCss);
+	}
+}
+
+//\xd5\xeb\xb6\xd4inline\xd0\xceʽ\xb3\xf6\xb5Ķ\xa8\xcf\xf2Ͷ\xb7ŵ\xc4
+function getContent(adList,keyList,areaKey,area){
+	var content = "";//\xd5ҳ\xf6ƥ\xc5\xe4\xb5Ĺ\xe3\xb8\xe6
+	try {
+		try {
+			var tarea = top.location.href.replace(/.*ad_play_area=([^&]+).*/g, '$1');
+			if (tarea != top.location.href && tarea != '') {area = decodeURIComponent(tarea);}				
+		}catch(te) {};
+		var isFind = "";
+		for(var a=0;a<keyList.length;a++){//\xbd\xabarea\xd3\xebKeyList\xb1Ƚ\xcf
+			if(area.indexOf(keyList[a])!= -1){isFind = keyList[a];break;}
+		}
+		if(isFind == "") isFind = "\xc6\xe4\xcb\xfb\xb5\xd8\xc7\xf8";//\xd5ҳ\xf6\xb5\xd8\xc7\xf8ȫ\xb3\xc6
+		areaKey = eval(areaKey);
+		var areaFind = "";
+		for(var a=0;a<areaKey.length;a++){
+			if(areaKey[a] != null && areaKey[a].key == isFind) {areaFind = areaKey[a].value;break;}
+		}
+		if(areaFind == "") return "";
+		for(var a=0;a<adList.length;a++){
+			if(adList[a] != null && adList[a].key.indexOf(areaFind) != -1){content = adList[a].value;break;}
+		}
+	} catch(e) {}
+	return content;
+}
+
+/*
+\xb9\xe3\xb8\xe6\xbc\xe0\xb2\xe2\xb4\xfa\xc2\xeb 2011-11-30
+*/
+(function(){
+	function calljs(src) {
+		var s = document.createElement('script');
+		s.src=src;
+		document.getElementsByTagName('head')[0].appendChild(s);
+	}
+	function pcc_online() {
+		if (! /(^|; )u=[^;]/.test(document.cookie)) {
+			var uf=document.cookie.replace(/(^|.*; )uf=([^;]+).*|.*/,"$2")
+			if (uf=="") {
+				document.cookie = "uf=" + ((new Date().getTime())) +
+					";domain=.pconline.com.cn;path=/;expires=Mon, 30-Nov-2099 08:00:00 GMT;";
+			} else {
+				var now = new Date().getTime();
+				if (now - uf > 43200000) {
+					calljs("//ivy.pconline.com.cn/online-self.jsp");
+				}
+			}
+		} else {
+			if (/(^|; )uf=[^;]/.test(document.cookie)) {
+				document.cookie = "uf=1;domain=.pconline.com.cn;path=/;expires=Thu, 01-Jan-1970 00:00:01 GMT;";
+			}
+		}
+	}
+	function pcc_u() {
+		if (! /(^|; )u=[^;]/.test(document.cookie)) {
+			calljs("//ivy.pconline.com.cn/online-u.jsp");
+		}
+	}
+	function pcc_uf() {
+		var uf=document.cookie.replace(/(^|.*; )uf=([^;]+).*|.*/,"$2")
+		if (uf=="") {
+			try{
+			document.cookie = "uf=" + ((new Date().getTime())) + ";domain=" +
+				top.location.href.replace(/http(?:s?):\/\/.+?\.(.*?)\/.*/, '.$1') +
+				";path=/;expires=Mon, 30-Nov-2099 08:00:00 GMT;";
+			} catch(e) {}
+		} else {
+			var now = new Date().getTime();
+			if (now - uf > 43200000) {
+				calljs("//ivy.pconline.com.cn/online-uf3.jsp");
+			}
+		}
+	}
+
+	window.pcc_uf = pcc_uf;
+	// call cookie functions
+	// \xbf\xe7\xd3\xf2 iframe ʱ top.location.href Ϊ\xbf\xd5
+	try{
+		if (! /(^|; )u=[^;]/.test(document.cookie)) {
+	    	if (top.location.href.replace(/http(?:s?):\/\/.+?\.(.*?).com.cn\/.*/, '$1') == 'pconline') { 
+	    		//pcc_online();
+	    		calljs("//ivy.pconline.com.cn/online-u-self.jsp");
+			} else {
+				//pcc_u();
+				calljs("//ivy.pconline.com.cn/online-u-other.jsp");
+			}
+		}
+    	
+        //\xd4\xf6\xbcӷ\xc3\xceʼ\xb4ʱ\xc9\xfa\xb3\xc9cookie_c\xb5Ĺ\xa6\xc4\xdc  wyw 2013-05-17
+    	if (! /(^|; )c=[^;]/.test(document.cookie)) {
+	    	if (top.location.href.replace(/http(?:s?):\/\/.+?\.(.*?).com.cn\/.*/, '$1') == 'pconline') {
+	    		calljs("//ivy.pconline.com.cn/online-c-self.jsp");
+			} else {
+				calljs("//ivy.pconline.com.cn/online-c.jsp");
+				}
+    	}
+    } catch(e) {
+    	
+    }
+})();
+
+
+// 2012-08-20 \xb9ؼ\xfc\xd7\xd6ͼƬ\xb9\xe3\xb8\xe6
+var ivyImgAdList = [];
+
+// keys: \xb9ؼ\xfc\xd7\xd6, types: ['bottom', 'side'], main:\xd6\xf7\xb9\xe3\xb8\xe6\xc4\xda\xc8\xdd, holder:ռλͼƬ\xb5\xd8ַ, adLink\xa3\xba\xb5\xe3\xbb\xf7\xc1\xb4\xbd\xd3, adId\xa3\xba\xb9\xe3\xb8\xe6\xb1\xeaʶ
+function ivyImgAd(keys, type, main, holder, jsData, adLink, count, adId) {
+	this.keys = keys.split('|||');
+	this.main = main;
+	this.holder = holder == 'null' ? null : holder;
+	this.jsData = jsData;
+	this.type = type;
+	this.adLink = adLink;
+	this.count = count;
+	this.adId = adId;
+}
+
+/* for callback, Ԥ\xb4\xa6\xc0\xed\xb4ӹ\xe3\xb8\xe6ϵͳ\xbb\xf1ȡ\xb5\xbd\xb5Ĺؼ\xfc\xd7\xd6ͼƬ\xb9\xe3\xb8\xe6\xd0\xc5Ϣ */
+function showImgKeywordAd(data) {
+	ivyImgAdList.push(new ivyImgAd(data.keys, data.type, data.main, data.holder, data.jsData, data.adLink, data.count, data.adid));
+}

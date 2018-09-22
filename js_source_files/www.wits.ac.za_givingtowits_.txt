@@ -1,0 +1,708 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta name="google-site-verification" content="V1x3dMDbb2OCqeWMy6CHKlnHBHSXV3M81c_Zn_YTSQ0" />
+  <!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-KP5C4LD');</script>
+<!-- End Google Tag Manager -->
+  <title>Giving to Wits - Wits University</title>
+  
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="">
+  <meta name="author" content="The University of the Witwatersrand, Johannesburg">
+  <meta name="generator" content="TERMINALFOUR">
+  
+  <link rel="shortcut icon" href="/media/wits-university-style-assets/images/favicon.ico" />
+  <link rel="stylesheet" href="/media/wits-university-style-assets/css/style-local.css" />
+  <link rel="stylesheet" href="/media/wits-university-style-assets/css/slick.css" />
+	
+    
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Open+Sans:400italic,400,700,600" type="text/css">
+  <link rel="stylesheet" href="/media/wits-university-style-assets/css/print.css" type="text/css" media="print" /> <!-- print.css -->
+  <script src="/media/wits-university-style-assets/javascript/modernizr.js"></script>
+  <script type="text/javascript" src="https://ws.sharethis.com/button/buttons.js"></script>
+  <script type="text/javascript">stLight.options({publisher: "2f89ecfa-568e-45af-9af4-db48a27bb57b", doNotHash: false, doNotCopy: false, hashAddressBar: false});</script>
+  <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-10871141-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+<style>
+  <!-- social promotion header -->
+  </style>
+</head>
+<body class="gen-content ">
+  <!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KP5C4LD"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+  <!-- social promotion body -->
+
+  <!--** End .outer-wrap contains everything **-->
+  <div class="off-canvas-wrap" data-offcanvas>
+    <!--** Main body .inner-wrap wraps around all content **-->
+    <main class="inner-wrap">
+      <!--** Desktop header **-->
+      <header aria-hidden="true" class="page-head-desktop">
+        <section class="content-row">
+          <!--** Logo **-->
+          <div class="logo-desktop">
+              <a href="/" title="University of the Witwatersrand"><img src="/media/wits-university-style-assets/images/wits-logo.png" alt="The University of the Witwatersrand Logo" title="The University of the Witwatersrand Logo" class="" style="   " ></a>
+          </div>
+          <!--** End Logo **-->
+          <!--** Meta-nav and Search **-->
+          <div class="meta-nav-and-search ">
+            <!--** Meta-nav **-->
+            <div class="meta-nav">
+              <ul class="inline-list">
+              <li><a href="/students/">Students</a></li><li><a href="/staff/">Staff</a></li><li><a href="/alumni/">Alumni</a></li><li><a href="/library/">Library</a></li><li><a href="/news/">News and Events</a></li>
+              </ul>
+            </div>
+            <!--** End Meta-nav **-->
+            <!--** Search **-->
+            <div class="search">
+              <form id="site-search" action="http://cse.google.com/cse">
+                                    <label class="site-search-label at-hidden" for="site-search-text-d">Search the site</label>
+                                    <div class="content-row search-row">
+                                        <div class="site-search-text content-block">
+                                            <input name="cx" type="hidden" value="013940366107060305588:_amayuyhidk">
+                                            <input name="ie" type="hidden" value="UTF-8">
+                                            <input type="text" name="q" id="site-search-text-d" placeholder="Search">
+                                        </div>
+                                        <div class="search-now content-block">
+                                            <span class="postfix">
+                                                <a href="javascript:;" onclick="document.getElementById('site-search').submit();" class="search-now button" title="Search now">
+                                                    <i class="fa fa-search"></i>
+                                                    <span>Search</span>
+                                                </a>                                                    
+                                            </span>
+                                        </div>
+                                    </div>
+                                </form>
+            </div>
+            <!--** End search **-->
+          </div>
+          <!--** End Meta-nav and Search **-->
+        </section>          
+        <!--** Desktop main nav **-->
+        <nav class="content-row main-nav">
+          <div class="content-block">
+            <ul class="inline-list">
+              <li><a href="/study-at-wits/">Study at Wits</a></li><li><a href="/campus-life/">Campus life</a></li><li><a href="/faculties-and-schools/">Faculties and Schools</a></li><li><a href="/research/">Research</a></li>
+            </ul>    
+          </div>
+        </nav>
+      </header>
+      <!--** End desktop header **-->
+      <!--** Mobile Header **-->
+      <header class="mobile-header">
+        <!--** Mobile Top panel **-->
+        <nav class="tab-bar">
+            <section class="left-small">
+              <a class="left-off-canvas-toggle menu-icon" href="#off-canvas">
+                <span></span>
+                Menu
+              </a>
+            </section>
+            <section class="right-small">
+              <a class="search-toggle" href="#">Search <i class="fa fa-search"></i></a>
+            </section>
+        </nav>
+        <!--** Mobile Top panel **-->
+        <!--** Mob site search **-->
+        <section class="mobile-site-search content-row">
+          <div class="content-block">
+            <form id="site-search" action="http://cse.google.com/cse">
+                                    <label class="site-search-label at-hidden" for="site-search-text-d">Search the site</label>
+                                    <div class="content-row search-row">
+                                        <div class="site-search-text content-block">
+                                            <input name="cx" type="hidden" value="013940366107060305588:_amayuyhidk">
+                                            <input name="ie" type="hidden" value="UTF-8">
+                                            <input type="text" name="q" id="site-search-text-d" placeholder="Search">
+                                        </div>
+                                        <div class="search-now content-block">
+                                            <span class="postfix">
+                                                <a href="javascript:;" onclick="document.getElementById('site-search').submit();" class="search-now button" title="Search now">
+                                                    <i class="fa fa-search"></i>
+                                                    <span>Search</span>
+                                                </a>                                                    
+                                            </span>
+                                        </div>
+                                    </div>
+                                </form>
+          </div>
+        </section>
+        <!--** End mob site search **-->
+        <section class="mob-landing-inner-nav-row ">
+  <section class="inner-nav ">
+    <nav>
+      <h3>In this section <i class="fa fa-plus"></i></h3>
+      <ul class="side-nav"><li><a href="/givingtowits/ways-of-investing--giving-to-wits/">Ways of Investing &amp; Giving to Wits</a></li><li><a href="/givingtowits/impact-of-investing--giving-to-wits/">Impact of Investing &amp; Giving to Wits</a></li><li><a href="/givingtowits/governance-/">Governance </a></li><li><a href="/givingtowits/honours-board-of-donors--sponsors/">Honours Board of Donors &amp; Sponsors</a></li><li><a href="/givingtowits/publications/">Publications</a></li><li><a href="/researchentities/">Naming Opportunities</a></li><li><a href="/news/sources/fundraising-news--events/">Fundraising News &amp; Events</a></li><li><a href="/givingtowits/contact-us/">Contact Us</a></li>      </ul>
+    </nav>
+  </section>
+</section>
+        <!--** Mobile logo **-->
+        <section class="logos logo-mobile">
+          <div class="wits-logo logo"><a href="/" title="University of the Witwatersrand"><img src="/media/wits-university-style-assets/images/wits-logo.png" alt="The University of the Witwatersrand Logo" title="The University of the Witwatersrand Logo" class="" style="   " ></a></div>
+          
+        </section>
+        <!--** End logo mobile **-->
+
+        <!--** Off canvas menu **-->
+        <aside id="off-canvas" class="left-off-canvas-menu">
+          <p class="at-hidden"><a href="#start-content">Skip navigation and go to page content</a></p>
+          <nav>
+            <!-- Main nav -->
+            <ul class="off-canvas-list">
+              <li><label>Sections</label></li>
+              <li><a href="/study-at-wits/">Study at Wits</a></li><li><a href="/campus-life/">Campus life</a></li><li><a href="/faculties-and-schools/">Faculties and Schools</a></li><li><a href="/research/">Research</a></li>
+            </ul>
+            <!-- End main nav -->
+            <!-- Meta nav -->
+             <ul class="off-canvas-meta-nav">
+              <li><a href="/students/">Students</a></li><li><a href="/staff/">Staff</a></li><li><a href="/alumni/">Alumni</a></li><li><a href="/library/">Library</a></li><li><a href="/news/">News and Events</a></li>
+            </ul>
+            <!-- End Meta nav -->
+          </nav>
+        </aside>
+        <!--** End off canvas menu **-->
+      </header>
+      <!--** End Mobile header **-->      
+      <!--** Ribbon message for users on IE<10 **-->
+      <div style="display: none;" class="content-row ie-ribbon"></div>    
+      <!--** Slider row **-->
+<section class="letter-box-row features-row content-row slider">
+  <div class="slick-slides content-block">
+      <!--** Slide **-->
+<article class="slick-slide">
+  
+    
+    <img src="/media/general-use-assets/great-hall/GHALLsunset-1200-x-500-1.jpg" alt="Great Hall sunset" title="Great Hall sunset" class="" style="   " >
+    
+    
+  
+  <div class="description-bg">
+  <div class="description">
+    <h2>Absa and Wits partnership continues</h2>
+    <p>Absa unlocks opportunities for Wits students</p>
+  </div>
+</div>
+</article>
+<!--** Slide **-->
+<!--** Slide **-->
+<article class="slick-slide">
+  
+    
+    <img src="/media/general-use-assets/great-hall/Great-Hall-columns-1200-x-500.jpg" alt="Wits Great Hall" title="Wits Great Hall" class="" style="   " >
+    
+    
+  
+  <div class="description-bg">
+  <div class="description">
+    <h2>Paying too much tax?</h2>
+    <p>Give to Wits and qualify for a tax deduction
+
+</p>
+  </div>
+</div>
+</article>
+<!--** Slide **-->
+
+    <div class="slick-arrows"></div>
+  </div>
+</section>
+<!--** End Slider row **-->
+      
+      <!--** Start content **-->
+      <a id="start-content" name="start-content" class="at-hidden">Start main page content</a>
+      <section class="content-row no-padding-bottom">
+        <nav class="content-block">
+          <ul class="breadcrumbs"><li><a href="/">Home</a><i class="fa fa-angle-right"></i></li><li>Giving to Wits</li></ul>
+        </nav>
+      </section>
+      <section class="gen-main-content-row content-row">
+        <section class="gen-main-body content-block">
+          <section class="content-row">
+  <article class="textual-article content-block">
+  <a id="d.en.1455636"></a>
+  <h1>Who We Are</h1>
+  
+  
+  <p>
+<script src="//www.google-analytics.com/analytics.js" type="mce-no/type" async=""></script>
+<script src="/_layouts/15/init.js?rev=Cv9RhP3nrueoFDa3tkS6FQ%3D%3D" type="mce-text/javascript"></script>
+<script src="/_layouts/15/1033/initstrings.js?rev=2N3pk%2FwjnG3Tj9o5NrqHcg%3D%3D" type="mce-text/javascript"></script>
+<script src="/_layouts/15/1033/strings.js?rev=y6khbhv1Os2YPb5X0keqRg%3D%3D" type="mce-text/javascript"></script>
+<script src="/_layouts/15/clienttemplates.js?rev=NmvhqTzAndlKY%2BtRyHzRxQ%3D%3D" type="mce-text/javascript"></script>
+<script src="/_layouts/15/ie55up.js?rev=0R4dbpInVlmjoVSw2Gglmw%3D%3D" type="mce-text/javascript"></script>
+<script src="/ScriptResource.axd?d=9T7Cs9tHs-_VaPpe3Mu2Mp38rwQXPzeiPKpimhfvMDY1zvvIn0j8o9y9uI7_Mti1_ClXrl1yuGSx84dSQgXHE6jBBXMpTCRfgnYhYMf830JKtXIfuZ9TQfLdFIRyovkcqXovyTwYeoOfYzZq2xRRu0xDrlB2N927A8bpXSK8EiJJXK_XThfoGbcu6eJppqbA0&amp;t=72e85ccd" type="mce-text/javascript"></script>
+<script src="/_layouts/15/blank.js?rev=ZaOXZEobVwykPO9g8hq%2F8A%3D%3D" type="mce-text/javascript"></script>
+<script src="/ScriptResource.axd?d=4dFAbmaJ79iH9AccU8wUebzVUSbyOGxQAqAXU9BO-aoeOAD2EmMwhXWt2hGkagjWuiGpXcmXfeJote2M0DMwR8sJu5esQO1J5R5iJDuaofQD6JEhIuC8mlOj1jhcL78LwlAR7L6paxzWYueUSCljTuuQnelF9iOL96N3w73Wf5F7HpiL5KK6GfGVCTNHGz160&amp;t=72e85ccd" type="mce-text/javascript"></script>
+<script src="/_layouts/15/calloutusagecontrolscript.js?rev=sdjbothwP3Vzhu0M4k0%2B8A%3D%3D" type="mce-text/javascript"></script>
+<script type="mce-text/javascript">// <![CDATA[
+RegisterSod("sp.init.js", "\u002f_layouts\u002f15\u002fsp.init.js?rev=jvJC3Kl5gbORaLtf7kxULQ\u00253D\u00253D");
+// ]]></script>
+<script type="mce-text/javascript">// <![CDATA[
+RegisterSod("sp.res.resx", "\u002f_layouts\u002f15\u002fScriptResx.ashx?culture=en\u00252Dus\u0026name=SP\u00252ERes\u0026rev=yNk\u00252FhRzgBn40LJVP\u00252BqfgdQ\u00253D\u00253D");
+// ]]></script>
+<script type="mce-text/javascript">// <![CDATA[
+RegisterSod("sp.ui.dialog.js", "\u002f_layouts\u002f15\u002fsp.ui.dialog.js?rev=3Oh2QbaaiXSb7ldu2zd6QQ\u00253D\u00253D");RegisterSodDep("sp.ui.dialog.js", "sp.init.js");RegisterSodDep("sp.ui.dialog.js", "sp.res.resx");
+// ]]></script>
+<script type="mce-text/javascript">// <![CDATA[
+RegisterSod("core.js", "\u002f_layouts\u002f15\u002fcore.js?rev=Yn0mi9gSuTFmkphAQ22i7w\u00253D\u00253D");
+// ]]></script>
+<script type="mce-text/javascript">// <![CDATA[
+RegisterSod("menu.js", "\u002f_layouts\u002f15\u002fmenu.js?rev=cXv35JACAh0ZCqUwKU592w\u00253D\u00253D");
+// ]]></script>
+<script type="mce-text/javascript">// <![CDATA[
+RegisterSod("mQuery.js", "\u002f_layouts\u002f15\u002fmquery.js?rev=VYAJYBo5H8I3gVSL3MzD6A\u00253D\u00253D");
+// ]]></script>
+<script type="mce-text/javascript">// <![CDATA[
+RegisterSod("callout.js", "\u002f_layouts\u002f15\u002fcallout.js?rev=ryx2n4ePkYj1\u00252FALmcsXZfA\u00253D\u00253D");RegisterSodDep("callout.js", "mQuery.js");RegisterSodDep("callout.js", "core.js");
+// ]]></script>
+<script type="mce-text/javascript">// <![CDATA[
+RegisterSod("sharing.js", "\u002f_layouts\u002f15\u002fsharing.js?rev=XxxHIxIIc8BsW9ikVc6dgA\u00253D\u00253D");RegisterSodDep("sharing.js", "mQuery.js");RegisterSodDep("sharing.js", "core.js");
+// ]]></script>
+<script type="mce-text/javascript">// <![CDATA[
+RegisterSod("suitelinks.js", "\u002f_layouts\u002f15\u002fsuitelinks.js?rev=REwVU5jSsadDdOZlCx4wpA\u00253D\u00253D");RegisterSodDep("suitelinks.js", "core.js");
+// ]]></script>
+<script type="mce-text/javascript">// <![CDATA[
+RegisterSod("clientrenderer.js", "\u002f_layouts\u002f15\u002fclientrenderer.js?rev=PWwV4FATEiOxN90BeB5Hzw\u00253D\u00253D");
+// ]]></script>
+<script type="mce-text/javascript">// <![CDATA[
+RegisterSod("srch.resources.resx", "\u002f_layouts\u002f15\u002fScriptResx.ashx?culture=en\u00252Dus\u0026name=Srch\u00252EResources\u0026rev=muTA9QWaZD2DDDiSAgLxjQ\u00253D\u00253D");
+// ]]></script>
+<script type="mce-text/javascript">// <![CDATA[
+RegisterSod("search.clientcontrols.js", "\u002f_layouts\u002f15\u002fsearch.clientcontrols.js?rev=\u00252BN5FhPOhdMDlyCSUMQPtrg\u00253D\u00253D");RegisterSodDep("search.clientcontrols.js", "sp.init.js");RegisterSodDep("search.clientcontrols.js", "clientrenderer.js");RegisterSodDep("search.clientcontrols.js", "srch.resources.resx");
+// ]]></script>
+<script type="mce-text/javascript">// <![CDATA[
+RegisterSod("sp.runtime.js", "\u002f_layouts\u002f15\u002fsp.runtime.js?rev=5f2WkYJoaxlIRdwUeg4WEg\u00253D\u00253D");RegisterSodDep("sp.runtime.js", "sp.res.resx");
+// ]]></script>
+<script type="mce-text/javascript">// <![CDATA[
+RegisterSod("sp.js", "\u002f_layouts\u002f15\u002fsp.js?rev=NF5DkMtNTsJGx3\u00252FlhisNqA\u00253D\u00253D");RegisterSodDep("sp.js", "sp.runtime.js");RegisterSodDep("sp.js", "sp.ui.dialog.js");RegisterSodDep("sp.js", "sp.res.resx");
+// ]]></script>
+<script type="mce-text/javascript">// <![CDATA[
+RegisterSod("cui.js", "\u002f_layouts\u002f15\u002fcui.js?rev=LPKF2\u00252BgWXqwwaFh34pQUlA\u00253D\u00253D");
+// ]]></script>
+<script type="mce-text/javascript">// <![CDATA[
+RegisterSod("sp.core.js", "\u002f_layouts\u002f15\u002fsp.core.js?rev=tZDGLPOvY1bRw\u00252BsgzXpxTg\u00253D\u00253D");RegisterSodDep("sp.core.js", "sp.init.js");RegisterSodDep("sp.core.js", "core.js");
+// ]]></script>
+<script type="mce-text/javascript">// <![CDATA[
+RegisterSod("inplview", "\u002f_layouts\u002f15\u002finplview.js?rev=epvG4Woq0Zz1KJ\u00252Bjlg1e1w\u00253D\u00253D");RegisterSodDep("inplview", "core.js");RegisterSodDep("inplview", "sp.js");
+// ]]></script>
+<script type="mce-text/javascript">// <![CDATA[
+RegisterSod("ribbon", "\u002f_layouts\u002f15\u002fsp.ribbon.js?rev=1F3TSGFB5\u00252FyAaRkjYHJL5w\u00253D\u00253D");RegisterSodDep("ribbon", "core.js");RegisterSodDep("ribbon", "sp.core.js");RegisterSodDep("ribbon", "sp.js");RegisterSodDep("ribbon", "cui.js");RegisterSodDep("ribbon", "sp.res.resx");RegisterSodDep("ribbon", "sp.runtime.js");RegisterSodDep("ribbon", "inplview");
+// ]]></script>
+<script type="mce-text/javascript">// <![CDATA[
+RegisterSod("sp.ui.policy.resources.resx", "\u002f_layouts\u002f15\u002fScriptResx.ashx?culture=en\u00252Dus\u0026name=SP\u00252EUI\u00252EPolicy\u00252EResources\u0026rev=wtVfoqgvnf2cuN894ZirvA\u00253D\u00253D");
+// ]]></script>
+<script type="mce-text/javascript">// <![CDATA[
+RegisterSod("mdn.js", "\u002f_layouts\u002f15\u002fmdn.js?rev=CZrBt1\u00252Fch9YeLFLJtB0mvg\u00253D\u00253D");RegisterSodDep("mdn.js", "sp.init.js");RegisterSodDep("mdn.js", "core.js");RegisterSodDep("mdn.js", "sp.runtime.js");RegisterSodDep("mdn.js", "sp.js");RegisterSodDep("mdn.js", "cui.js");RegisterSodDep("mdn.js", "ribbon");RegisterSodDep("mdn.js", "sp.ui.policy.resources.resx");
+// ]]></script>
+<script type="mce-text/javascript">// <![CDATA[
+RegisterSod("sp.search.js", "\u002f_layouts\u002f15\u002fsp.search.js?rev=dMkPlEXpdY6iJ\u00252FsY5RsB0g\u00253D\u00253D");RegisterSodDep("sp.search.js", "sp.init.js");RegisterSodDep("sp.search.js", "sp.runtime.js");
+// ]]></script>
+<script type="mce-text/javascript">// <![CDATA[
+RegisterSod("ajaxtoolkit.js", "\u002f_layouts\u002f15\u002fajaxtoolkit.js?rev=4rOiCbaFgJMmqw9Ojtpa6g\u00253D\u00253D");RegisterSodDep("ajaxtoolkit.js", "search.clientcontrols.js");
+// ]]></script>
+<script type="mce-text/javascript">// <![CDATA[
+RegisterSod("socialdata.js", "\u002f_layouts\u002f15\u002fsocialdata.js?rev=U1\u00252BtYxvHIRcUOpNdD5kLbA\u00253D\u00253D");
+// ]]></script>
+<script type="mce-text/javascript">// <![CDATA[
+RegisterSod("sp.ui.socialribbon.js", "\u002f_layouts\u002f15\u002fsp.ui.socialribbon.js?rev=7xw5QRBKJJRwkla0Eywr\u00252FA\u00253D\u00253D");RegisterSodDep("sp.ui.socialribbon.js", "ribbon");RegisterSodDep("sp.ui.socialribbon.js", "socialdata.js");
+// ]]></script>
+<script type="mce-text/javascript">// <![CDATA[
+RegisterSod("userprofile", "\u002f_layouts\u002f15\u002fsp.userprofiles.js?rev=p5tCOm\u00252FlHUwcfll7W3pKNw\u00253D\u00253D");RegisterSodDep("userprofile", "sp.runtime.js");
+// ]]></script>
+<script type="mce-text/javascript">// <![CDATA[
+RegisterSod("followingcommon.js", "\u002f_layouts\u002f15\u002ffollowingcommon.js?rev=jWqEDmcjCSPmnQw2ZIfItQ\u00253D\u00253D");RegisterSodDep("followingcommon.js", "sp.js");RegisterSodDep("followingcommon.js", "userprofile");RegisterSodDep("followingcommon.js", "core.js");RegisterSodDep("followingcommon.js", "mQuery.js");
+// ]]></script>
+<script type="mce-text/javascript">// <![CDATA[
+RegisterSod("profilebrowserscriptres.resx", "\u002f_layouts\u002f15\u002fScriptResx.ashx?culture=en\u00252Dus\u0026name=ProfileBrowserScriptRes\u0026rev=J5HzNnB\u00252FO1Id\u00252FGI18rpRcw\u00253D\u00253D");
+// ]]></script>
+<script type="mce-text/javascript">// <![CDATA[
+RegisterSod("sp.ui.mysitecommon.js", "\u002f_layouts\u002f15\u002fsp.ui.mysitecommon.js?rev=Ua8qmZSU9nyf53S7PEyJwQ\u00253D\u00253D");RegisterSodDep("sp.ui.mysitecommon.js", "sp.init.js");RegisterSodDep("sp.ui.mysitecommon.js", "sp.runtime.js");RegisterSodDep("sp.ui.mysitecommon.js", "userprofile");RegisterSodDep("sp.ui.mysitecommon.js", "profilebrowserscriptres.resx");
+// ]]></script>
+<script type="mce-text/javascript">// <![CDATA[
+RegisterSod("datepicker.js", "\u002f_layouts\u002f15\u002fdatepicker.js?rev=QSXAxtWIhtEi1Gv0uzsKeg\u00253D\u00253D");
+// ]]></script>
+<script type="mce-text/javascript">// <![CDATA[
+RegisterSod("jsapiextensibilitymanager.js", "\u002f_layouts\u002f15\u002fjsapiextensibilitymanager.js?rev=kJO6e\u00252BWjWH8ODvZ75GIBng\u00253D\u00253D");
+// ]]></script>
+<script type="mce-text/javascript">// <![CDATA[
+RegisterSod("ganttsharedapi.generated.js", "\u002f_layouts\u002f15\u002fganttsharedapi.generated.js?rev=\u00252FDVHhOS0nE1bluCuXvt4Gg\u00253D\u00253D");
+// ]]></script>
+<script type="mce-text/javascript">// <![CDATA[
+RegisterSod("ganttapishim.generated.js", "\u002f_layouts\u002f15\u002fganttapishim.generated.js?rev=j7j\u00252Bks22xL0poFm3RS1xPw\u00253D\u00253D");
+// ]]></script>
+<script type="mce-text/javascript">// <![CDATA[
+RegisterSod("sp.search.apps.js", "\u002f_layouts\u002f15\u002fsp.search.apps.js?rev=S7HV1yIlZGPjfThyPwuvJw\u00253D\u00253D");
+// ]]></script>
+<script type="mce-text/javascript">// <![CDATA[
+RegisterSod("offline.js", "\u002f_layouts\u002f15\u002foffline.js?rev=5NCDZdcT1qj5k8yEP01AKA\u00253D\u00253D");
+// ]]></script>
+<script type="mce-text/javascript">// <![CDATA[
+RegisterSod("mylinks.js", "\u002f_layouts\u002f15\u002fmylinks.js?rev=idAnz503vZ8oFshuZ21Z2A\u00253D\u00253D");
+// ]]></script>
+<script type="mce-text/javascript">// <![CDATA[
+RegisterSod("sp.ui.mysitenavigation.js", "\u002f_layouts\u002f15\u002fsp.ui.mysitenavigation.js?rev=WFj2R1p9yfvHwpJO0aA2IQ\u00253D\u00253D");RegisterSodDep("sp.ui.mysitenavigation.js", "sp.js");RegisterSodDep("sp.ui.mysitenavigation.js", "sp.core.js");
+// ]]></script>
+<script type="mce-text/javascript">// <![CDATA[
+RegisterSod("WPAdderClass", "\u002f_layouts\u002f15\u002fwpadder.js?rev=ApLnd\u00252BqIPjLXRfr1t\u00252BCxyQ\u00253D\u00253D");
+// ]]></script>
+<script type="mce-text/javascript">// <![CDATA[
+RegisterSod("dragdrop.js", "\u002f_layouts\u002f15\u002fdragdrop.js?rev=xyQu9SPqkjO4R2\u00252BS3IwO8Q\u00253D\u00253D");
+// ]]></script>
+<script type="mce-text/javascript">// <![CDATA[
+RegisterSod("quicklaunch.js", "\u002f_layouts\u002f15\u002fquicklaunch.js?rev=\u00252BHeX6ARcp\u00252F9LpMq6FqQYyA\u00253D\u00253D");RegisterSodDep("quicklaunch.js", "dragdrop.js");
+// ]]></script>
+<script type="mce-text/javascript">// <![CDATA[
+RegisterSod("sp.ui.pub.ribbon.js", "\u002f_layouts\u002f15\u002fsp.ui.pub.ribbon.js?rev=75kKdJAREet7iiUJWDStBg\u00253D\u00253D");
+// ]]></script>
+<script type="mce-text/javascript">// <![CDATA[
+RegisterSod("sp.publishing.resources.resx", "\u002f_layouts\u002f15\u002fScriptResx.ashx?culture=en\u00252Dus\u0026name=SP\u00252EPublishing\u00252EResources\u0026rev=Wzy1bSeygPIkuVShJwoI7g\u00253D\u00253D");
+// ]]></script>
+<!--[CDATA[ [if IE 9] ]]--><!--[CDATA[ [endif] ]]--> <!-- [if lte IE 8]>
+    <style type="text/css">//<![CDATA[
+    .ms-core-animation-transparent,
+    .ms-core-animation-transparent img
+    {
+       -ms-filter:"alpha(opacity=0)";
+    }
+    .ms-isBot .ms-core-animation-transparent,
+    .ms-isBot .ms-core-animation-transparent img
+    {
+       -ms-filter:"";
+    }
+    //]]></style>
+    <![endif]-->
+<script type="mce-text/javascript">// <![CDATA[
+var g_pageLoadAnimationParams = { elementSlideIn : "sideNavBox", elementSlideInPhase2 : "contentBox" };
+// ]]></script>
+<script src="/SiteAssets/jsSlider/js-image-slider.js" type="mce-text/javascript">// <![CDATA[
+
+// ]]></script>
+<script src="/_layouts/15/core.js?rev=Yn0mi9gSuTFmkphAQ22i7w%3D%3D" type="mce-text/javascript"></script>
+<script src="/_layouts/15/sp.init.js?rev=jvJC3Kl5gbORaLtf7kxULQ%3D%3D" type="mce-text/javascript"></script>
+<script src="/_layouts/15/ScriptResx.ashx?culture=en%2Dus&amp;name=SP%2ERes&amp;rev=yNk%2FhRzgBn40LJVP%2BqfgdQ%3D%3D" type="mce-text/javascript"></script>
+<script src="/_layouts/15/cui.js?rev=LPKF2%2BgWXqwwaFh34pQUlA%3D%3D" type="mce-text/javascript"></script>
+<script src="/_layouts/15/sp.core.js?rev=tZDGLPOvY1bRw%2BsgzXpxTg%3D%3D" type="mce-text/javascript"></script>
+<script src="/_layouts/15/sp.ui.dialog.js?rev=3Oh2QbaaiXSb7ldu2zd6QQ%3D%3D" type="mce-text/javascript"></script>
+<script src="/_layouts/15/sp.runtime.js?rev=5f2WkYJoaxlIRdwUeg4WEg%3D%3D" type="mce-text/javascript"></script>
+<script src="/_layouts/15/sp.js?rev=NF5DkMtNTsJGx3%2FlhisNqA%3D%3D" type="mce-text/javascript"></script>
+<script src="/_layouts/15/inplview.js?rev=epvG4Woq0Zz1KJ%2Bjlg1e1w%3D%3D" type="mce-text/javascript"></script>
+<script src="/_layouts/15/sp.ribbon.js?rev=1F3TSGFB5%2FyAaRkjYHJL5w%3D%3D" type="mce-text/javascript"></script>
+<script src="/_layouts/15/dragdrop.js?rev=xyQu9SPqkjO4R2%2BS3IwO8Q%3D%3D" type="mce-text/javascript"></script>
+<script src="/_layouts/15/SP.UI.MyLinksRibbon.js" type="mce-text/javascript"></script>
+<script src="/_layouts/15/socialdata.js?rev=U1%2BtYxvHIRcUOpNdD5kLbA%3D%3D" type="mce-text/javascript"></script>
+<script src="/_layouts/15/sp.ui.socialribbon.js?rev=7xw5QRBKJJRwkla0Eywr%2FA%3D%3D" type="mce-text/javascript"></script>
+<script src="/_layouts/15/ScriptResx.ashx?culture=en%2Dus&amp;name=SP%2EUI%2EPolicy%2EResources&amp;rev=wtVfoqgvnf2cuN894ZirvA%3D%3D" type="mce-text/javascript"></script>
+<script src="/_layouts/15/ScriptResx.ashx?culture=en%2Dus&amp;name=SP%2EPublishing%2EResources&amp;rev=Wzy1bSeygPIkuVShJwoI7g%3D%3D" type="mce-text/javascript"></script>
+<script src="/_layouts/15/sp.ui.pub.ribbon.js?rev=75kKdJAREet7iiUJWDStBg%3D%3D" type="mce-text/javascript"></script>
+<script src="/_layouts/15/mylinks.js?rev=idAnz503vZ8oFshuZ21Z2A%3D%3D" type="mce-text/javascript"></script>
+<script src="/_layouts/15/mdn.js?rev=CZrBt1%2Fch9YeLFLJtB0mvg%3D%3D" type="mce-text/javascript"></script>
+<script src="/_layouts/15/mquery.js?rev=VYAJYBo5H8I3gVSL3MzD6A%3D%3D" type="mce-text/javascript"></script>
+<script src="/_layouts/15/sharing.js?rev=XxxHIxIIc8BsW9ikVc6dgA%3D%3D" type="mce-text/javascript"></script>
+</p>
+<p>The Development and Fundraising Office (DFO) team manages fundraising, facilitates donor engagement, stewardship and raises the Wits profile internally and externally. The DFO is responsible for activities that advance the fundraising arm of the University by engaging with corporate, trusts and foundations, government and individual donors.</p>
+<p><strong>How To Support Us:</strong></p>
+<p>Partner with us by supporting the following projects:</p>
+<ul>
+<li>Bursaries and Scholarships</li>
+<li>Infrastructure</li>
+<li>Individual Giving</li>
+<li>Others</li>
+</ul>
+<p>You can give&nbsp;to Wits through the following methods:</p>
+<div class="ms-core-overlay s4-nosetwidth" id="s4-workspace">
+<p><a href="http://devman.wits.ac.za/Devman/online/giving/"><img src="/media/wits-university/giving-to-wits/images/buttons/give via credit card Finalpng.png" alt="" title="" class="" style="   " ></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://devman.wits.ac.za/Devman/direct/giving/"><img src="/media/wits-university/giving-to-wits/images/buttons/Give via EFT final.png" alt="" title="" class="" style="   " ></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://www.wits.ac.za/givingtowits/debit-order-form/"><img src="/media/wits-university/giving-to-wits/images/buttons/give via debit final.png" alt="" title="" class="" style="   " ></a>&nbsp;&nbsp;&nbsp;&nbsp;</p>
+<p>All donations to Wits comes with benefits. To learn more about benefits of giving, please click <a href="https://www.wits.ac.za/givingtowits/benefits-of-investing--giving/">here</a>.</p>
+</div>
+</article>
+</section>
+<section class="gen-content-row content-row">
+  <a id="d.en.1537179"></a>
+  <article class="media-block content-block">
+    <h2>Impact that donors have on our students</h2>
+    <iframe class="flex-media"  height="315" src="//www.youtube.com/embed/LF2NwOoNlng"></iframe>
+  </article>
+</section>
+<section class="content-row">
+  <article class="textual-article content-block">
+  <a id="d.en.1537202"></a>
+  
+  
+  
+  <p>Click&nbsp;<a href="https://www.wits.ac.za/givingtowits/impact-of-investing--donating/">here</a> for more impact stories</p>
+</article>
+</section>
+<h5>Share</h5>
+<a href="https://twitter.com/share" class="twitter-share-button"{count} data-via="WitsUniversity">Tweet</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+<span class='st_facebook_hcount' displayText='Facebook'></span>
+<span class='st_linkedin_hcount' displayText='LinkedIn'></span>
+
+</section>
+<aside class="gen-content-lh-sidebar content-block">
+  
+  <section class="content-row inner-nav-row">
+    <nav class="inner-nav content-block">
+  <h3>In this section</h3>
+  <ul class="side-nav"><li><a href="/givingtowits/ways-of-investing--giving-to-wits/">Ways of Investing &amp; Giving to Wits</a></li><li><a href="/givingtowits/impact-of-investing--giving-to-wits/">Impact of Investing &amp; Giving to Wits</a></li><li><a href="/givingtowits/governance-/">Governance </a></li><li><a href="/givingtowits/honours-board-of-donors--sponsors/">Honours Board of Donors &amp; Sponsors</a></li><li><a href="/givingtowits/publications/">Publications</a></li><li><a href="/researchentities/">Naming Opportunities</a></li><li><a href="/news/sources/fundraising-news--events/">Fundraising News &amp; Events</a></li><li><a href="/givingtowits/contact-us/">Contact Us</a></li>  </ul>
+</nav>
+  </section>
+  <section class="content-row">
+  <a id="d.en.1231667"></a>
+<article class="feature-block content-block feature-cta">
+  
+  <a href="http://devman.wits.ac.za/Devman/online/giving/" target="_blank" title="Donate to Wits">
+    
+    <p>Donate to Wits <i class="fa fa-angle-right"></i></p>
+  </a>
+  
+</article>
+</section><section class="content-row">
+  <a id="d.en.1486419"></a>
+<article class="feature-block feature-4">
+  <a href="/givingtowits/wits-worldwide/wits-in-the-uk/"></a>
+  
+  
+  <a href='/givingtowits/wits-worldwide/wits-in-the-uk/'><img src="/media/wits-university/giving-to-wits/images/buttons/Wits-in-the-UK-400x200.jpg" alt="Visit the Wits in the UK website" title="Visit the Wits in the UK website" class="" style="   " ></a>
+  
+  
+    <a href="/givingtowits/wits-worldwide/wits-in-the-uk/"></a>
+  
+</article>
+</section><section class="content-row">
+  <a id="d.en.1522472"></a>
+<article class="feature-block feature-4">
+  <a href="https://www.wits.ac.za/givingtowits/benefits-of-investing--giving/" target="_blank"></a>
+  
+  
+  <a href='https://www.wits.ac.za/givingtowits/benefits-of-investing--giving/' target='_blank'><img src="/media/wits-university/giving-to-wits/images/buttons/Benefits in Giving to Wits 2.png" alt="" title="" class="" style="   " ></a>
+  
+  
+    <a href="https://www.wits.ac.za/givingtowits/benefits-of-investing--giving/" target="_blank"></a>
+  
+</article>
+</section><section class="content-row">
+  <a id="d.en.1486415"></a>
+<article class="feature-block feature-4">
+  <a href="/givingtowits/wits-worldwide/wits-in-the-us/"></a>
+  
+  
+  <a href='/givingtowits/wits-worldwide/wits-in-the-us/'><img src="/media/wits-university/giving-to-wits/images/buttons/USA-400x200.jpg" alt="Wits in the USA" title="Wits in the USA" class="" style="   " ></a>
+  
+  
+    <a href="/givingtowits/wits-worldwide/wits-in-the-us/"></a>
+  
+</article>
+</section>   
+</aside>
+</section>
+<!--** Start footer **-->
+      <footer class="content-row footer">
+        <div class="content-block">
+        <!--** Footer social media follows **-->
+            <section class="footer-soc-media-follow content-row">
+  <article class="content-block">
+    <ul class="soc-media-icons">
+      <li><a href="http://www.facebook.com/witsuniversity" target="_blank"><i class="fa fa-facebook-square"></i></a></li>
+      <li><a href="http://twitter.com/witsuniversity" target="_blank"><i class="fa fa-twitter-square"></i></a></li>
+      
+      <li><a href="https://www.youtube.com/user/WitsWebmaster" target="_blank"><i class="fa fa-youtube-square"></i></a></li>
+      <li><a href="http://www.linkedin.com/company/university-of-the-witwatersrand" target="_blank"><i class="fa fa-linkedin-square"></i></a></li>
+      
+    </ul>
+  </article>
+</section>
+          <!--** End footer social media follows **-->
+          <section class="featuresx2 features-row ">
+           <article class="feature-block feature-4 quick-links">
+              <h3>Quick links</h3>
+              <ul class="no-bullet"><li><a href="/vacancies/" target="_blank">Vacancies</a></li><li><a href="/students/academic-matters/term-dates/">Term dates</a></li><li><a href="/about-wits/procurement/">Tenders</a></li><li><a href="http://shop.wits.ac.za/" target="_blank">The Wits Shop</a></li><li><a href="http://wits-enterprise.co.za/" target="_blank">Wits Enterprise</a></li><li><a href="https://www.witshealth.co.za" target="_blank">Wits Health Consortium</a></li></ul>
+            </article>
+            <article class="feature-block">
+  <h3>Giving to Wits</h3>
+  
+  <p>Whether you invest in a promising young student, or contribute towards vital research or new buildings and facilities – giving to Wits brings great personal satisfaction and lasting results you can be proud of for years to come.</p>
+  
+  
+  <p class="left read-more"><a href="http://www.wits.ac.za/givingtowits/" class="button round" aria-label="Giving to Wits - read more" title="Giving to Wits">Give to Wits <!-- Read more » --></a></p>
+</article>
+          </section>
+            
+          <section class="content-row">
+            <article class="content-block footer-accordion">
+              <dl class="accordion footer-accordion" data-accordion="footer-accordion">
+                <!-- Accordion Panel 1 -->
+                <dd class="accordion-navigation">
+                  <a href="#panel1-foot">About and Contact <i class="fa fa-angle-down"></i></a>
+                  <div id="panel1-foot" class="content active">
+                    <section class="content-row feature-row featuresx4">
+                      <article class="feature-block">
+  <h3>About</h3>
+  
+  <p>Wits is a remarkable university that is internationally distinguished for its excellent research, high academic standards and commitment to social justice.</p>
+<p>Our partners, networks and relationships serve as catalysts for the great ideas that help us to make the impossible, incredible. We invite you to join us on our extraordinary journey to effect meaningful change in society and pave the way for a bright future for generations to come.</p>
+  
+  <p class="left read-more"><a href="/about-wits/" class="button round" aria-label="About - read more" title="About">Read more »</a></p>
+  
+</article><article class="feature-block">
+  <h3>Contact</h3>
+  
+  <p>1 Jan Smuts Avenue<br>Braamfontein 2000<br>Johannesburg, South Africa<br>Tel: +27 (0)11 717 1000</p>
+<p><strong><a href="/study-at-wits/">Admission</a><a href="/study-at-wits/">&nbsp;enquiries</a></strong><br>Tel:&nbsp;+27 (0)11&nbsp;717 1888<a title="Call us" href="tel:+27117171888"><br></a><a href="http://www.wits.ac.za/askwits">www.wits.ac.za/askwits</a><a href="http://www.wits.ac.za/askwits"><br></a><br>Fees: <a href="mailto:feesoffice.finance@wits.ac.za">feesoffice.finance@wits.ac.za</a><br>Funding:&nbsp;<a href="mailto:info.finaid@wits.ac.za">info.finaid@wits.ac.za</a></p>
+<p><strong><a href="/internationalstudents/">International</a><a href="/internationalstudents/">&nbsp;student enquiries</a></strong><br>Tel: +27 (0)11 717 1054/5<br><a href="mailto:studysa.international@wits.ac.za">studysa.international@wits.ac.za</a></p>
+  
+  <p class="left read-more"><a href="/about-wits/contact-us/" class="button round" aria-label="Contact - read more" title="Contact">Read more »</a></p>
+  
+</article><article class="feature-block">
+  <h3>Visitor Information</h3>
+  
+  <p>Wits University&nbsp;offers a wealth of sightseeing and educational opportunities for tourists and first-time visitors.<br>Take a&nbsp;<a href="/campus-life/wits-virtual-tour/">virtual tour</a>&nbsp;of our campuses which are spread over more than 400 acres in Parktown and Braamfontein. <a href="/maps/">Maps</a>&nbsp;are easily accessible to help visitors navigate and enjoy our world-class facilities. Experience the arts by browsing through our current <a href="/display/events/">events</a>&nbsp;or discover the&nbsp;diversity of our rich heritage by visiting one of our&nbsp;museums or centres&nbsp;<a href="/campus-life/arts-and-culture/">here</a>.</p>
+  
+  <p class="left read-more"><a href="/about-wits/visitor-information/" class="button round" aria-label="Visitor Information - read more" title="Visitor Information">Read more »</a></p>
+  
+</article>
+                      <article class="feature-block">
+                        <h4>Map</h4>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3580.2117224907483!2d28.0310507!3d-26.189790099999993!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1e950c0fe1d76b91%3A0x1024bba3652c2a2e!2sUniversity+of+Wits+-+Braamfontein+Campus+East!5e0!3m2!1sen!2sza!4v1439389699298" width="" height="450" frameborder="0" style="border:0"></iframe>
+                      </article>
+                    </section>
+                  </div>
+                  
+                </dd>
+                <!-- End Accordion Panel 1 -->
+                <!-- Accordion Panel 2 -->
+                <dd class="accordion-navigation">
+                  <a href="#panel2-foot">Conferencing Facilities and Venues <i class="fa fa-angle-down"></i></a>
+                  <div id="panel2-foot" class="content">
+                    <section class="content-row feature-row featuresx3">
+                      <article class="feature-block">
+  <h3>About our venues</h3>
+  
+  <p>Looking for a venue to host your next event? Wits is centrally located in Johannesburg and has a wide range of venues to cater from conferences and workshops, to sporting, social and cultural events.</p>
+<p><a href="/site-assets/footer/facilities-and-venues/events-at-wits/">More information&nbsp;&raquo;</a></p>
+  
+  
+  
+</article><article class="feature-block">
+  <h3>Our venues</h3>
+  
+  <ul>
+<li><a href="/site-assets/footer/facilities-and-venues/great-hall/">Great Hall</a></li>
+<li><a href="/site-assets/footer/facilities-and-venues/linder-auditorium/">Linder Auditorium</a></li>
+<li><a href="/site-assets/footer/facilities-and-venues/wits-club/">Wits&nbsp;Club</a></li>
+<li><a href="/site-assets/footer/facilities-and-venues/wits-theatre/">Wits Theatre</a></li>
+<li><a href="/site-assets/footer/facilities-and-venues/witssport-conference-centre/">WitsSport Venues</a></li>
+<li><a href="http://www.wits.ac.za/pdh/" target="_blank">Professional Development Hub</a></li>
+</ul>
+  
+  
+  
+</article><article class="feature-block">
+  <h3>The Great Hall</h3>
+  <img src="/media/general-use-assets/great-hall/GHALLsunset-1200-x-500-400x166.jpg" alt="Great Hall sunset" title="Great Hall sunset" class="" style="   " >
+  <p>The iconic Great Hall at Wits is one of the most notable buildings on campus, and offers&nbsp;a large auditorium for diverse occasions from conferences, debates, graduations to music concerts.</p>
+  
+  <p class="left read-more"><a href="/site-assets/footer/facilities-and-venues/great-hall/" class="button round" aria-label="The Great Hall - read more" title="The Great Hall">Read more »</a></p>
+  
+</article>
+                     
+                    </section>
+                  </div>
+                  
+                </dd>
+                <!-- End Accordion Panel 2 -->
+                <!-- Accordion Panel 3 -->
+                <dd class="accordion-navigation">
+                  <a href="#panel3-foot">Connect your School to Wits <i class="fa fa-angle-down"></i></a>
+                  <div id="panel3-foot" class="content">
+                    <section class="content-row feature-row featuresx3">
+                      <article class="feature-block">
+  <h3>About Schools Liaison</h3>
+  
+  <p><span class="dropcap">T</span>he Wits Schools Liaison team forms the link between high school and university allowing a smooth transitional process for the student. The Schools Liaison Office gives the student a holistic understanding of what is expected of them at university level.&nbsp;</p>
+  
+  <p class="left read-more"><a href="/study-at-wits/schools-liaison/" class="button round" aria-label="About Schools Liaison - read more" title="About Schools Liaison">Read more »</a></p>
+  
+</article><article class="feature-block">
+  <h3>Why study at Wits?</h3>
+  
+  
+  <iframe width="" height="315" src="https://www.youtube.com/embed/PKz7cxsx9v0" frameborder="0" allowfullscreen></iframe>
+  
+  
+</article><article class="feature-block">
+  <h3>Request a visit</h3>
+  
+  <p>If your school would like a visit from Wits University, click through to the online form to request a visit. Please note that only educators may make appointment requests on behalf of a school.</p>
+  
+  <p class="left read-more"><a href="/study-at-wits/schools-liaison/request-a-school-visit/" class="button round" aria-label="Request a visit - read more" title="Request a visit">Read more »</a></p>
+  
+</article>
+                    </section>
+                  </div>
+                  
+                </dd>
+                <!-- End Accordion Panel 3 -->
+              </dl>
+            </article>
+          </section>
+          <!-- Footer legal -->
+          <section class="content-row footer-legal ">
+            <article class="content-block">
+              <section class="content-row">
+  <article class="textual-article content-block">
+  <a id="d.en.1380"></a>
+  
+  
+  
+  <p>Copyright © 2000-2017</p>
+<p>University of the Witwatersrand, Johannesburg.</p>
+<p class="footer-links"><a href="/site-assets/footer/terms-and-conditions-of-use/">Privacy Policy</a>&nbsp;<a href="/site-assets/footer/terms-and-conditions-of-use/">Disclaimer</a>&nbsp;<a href="/site-assets/footer/terms-and-conditions-of-use/">Terms of Use</a>&nbsp;<a href="/paia/">&nbsp;PAIA</a>&nbsp;<a href="/site-assets/footer/ispa/">ISPA</a>&nbsp;<a href="/about-wits/contact-us/wits-integrity-hotline/">Wits Integrity Hotline</a></p>
+</article>
+</section>
+
+            </article>
+          </section>
+          <!-- End Footer legal -->
+        </div>
+      </footer>
+      <!-- End footer -->
+    <a class="exit-off-canvas"></a>
+    </main>
+    <!--** End .inner-wrap - Main **-->
+  </div>
+  <!--** End .outer-wrap contains everything **-->
+  <script src="/media/wits-university-style-assets/javascript/jquery.min.js"></script>
+  <script src="/media/wits-university-style-assets/javascript/foundation.min.js"></script>
+  <script src="/media/wits-university-style-assets/javascript/slick.min.js"></script>
+  <script src="/media/wits-university-style-assets/javascript/dynpag.js"></script>
+  <script src="/media/wits-university-style-assets/javascript/t4-custom.js"></script>
+  <!--[if lt IE 9]>
+  <script src="/media/wits-university-style-assets/javascript/respond.js"></script>
+  <![endif]-->
+	<!-- social promotion footer -->
+</body>
+</html>
+<script id="f5_cspm">(function(){var f5_cspm={f5_p:'OBFOIAABFJDOGMNBEBJECKJHDGJKLMEJDJNKGEHDPPIDPHGAEMOKLDJPFOPNEDFDOGLBCLKPAABPLPEGGMNADNBMAAMKPLJIPPLCMHFEEJLIHGAMKHBBKCAKFLBDJJFG',setCharAt:function(str,index,chr){if(index>str.length-1)return str;return str.substr(0,index)+chr+str.substr(index+1);},get_byte:function(str,i){var s=(i/16)|0;i=(i&15);s=s*32;return((str.charCodeAt(i+16+s)-65)<<4)|(str.charCodeAt(i+s)-65);},set_byte:function(str,i,b){var s=(i/16)|0;i=(i&15);s=s*32;str=f5_cspm.setCharAt(str,(i+16+s),String.fromCharCode((b>>4)+65));str=f5_cspm.setCharAt(str,(i+s),String.fromCharCode((b&15)+65));return str;},set_latency:function(str,latency){latency=latency&0xffff;str=f5_cspm.set_byte(str,40,(latency>>8));str=f5_cspm.set_byte(str,41,(latency&0xff));str=f5_cspm.set_byte(str,35,2);return str;},wait_perf_data:function(){try{var wp=window.performance.timing;if(wp.loadEventEnd>0){var res=wp.loadEventEnd-wp.navigationStart;if(res<60001){var cookie_val=f5_cspm.set_latency(f5_cspm.f5_p,res);window.document.cookie='f5avr0315303923aaaaaaaaaaaaaaaa='+encodeURIComponent(cookie_val)+';path=/';}
+return;}}
+catch(err){return;}
+setTimeout(f5_cspm.wait_perf_data,100);return;},go:function(){var chunk=window.document.cookie.split(/\s*;\s*/);for(var i=0;i<chunk.length;++i){var pair=chunk[i].split(/\s*=\s*/);if(pair[0]=='f5_cspm'&&pair[1]=='1234')
+{var d=new Date();d.setTime(d.getTime()-1000);window.document.cookie='f5_cspm=;expires='+d.toUTCString()+';path=/;';setTimeout(f5_cspm.wait_perf_data,100);}}}}
+f5_cspm.go();}());</script>

@@ -1,0 +1,81 @@
+
+
+
+
+/* ControlTag Loader for adidas NA 9ba60e7d-29b5-4dc3-8e7b-105df6abe4ad */
+(function(w, cs) {
+  
+  if (/Twitter for iPhone/.test(w.navigator.userAgent || '')) {
+    return;
+  }
+
+  var debugging = /kxdebug/.test(w.location);
+  var log = function() {
+    
+    debugging && w.console && w.console.log([].slice.call(arguments).join(' '));
+  };
+
+  var load = function(url, callback) {
+    log('Loading script from:', url);
+    var node = w.document.createElement('script');
+    node.async = true;  
+    node.src = url;
+
+    
+    node.onload = node.onreadystatechange = function () {
+      var state = node.readyState;
+      if (!callback.done && (!state || /loaded|complete/.test(state))) {
+        log('Script loaded from:', url);
+        callback.done = true;  
+        callback();
+      }
+    };
+
+    
+    var sibling = w.document.getElementsByTagName('script')[0];
+    sibling.parentNode.insertBefore(node, sibling);
+  };
+
+  var config = {"app":{"name":"krux-scala-config-webservice","version":"3.36.0","schema_version":3},"confid":"rkrioms3o","context_terms":[],"publisher":{"name":"adidas NA","active":true,"uuid":"9ba60e7d-29b5-4dc3-8e7b-105df6abe4ad","version_bucket":"stable","id":2340},"params":{"link_header_bidder":false,"site_level_supertag_config":"site","recommend":false,"control_tag_pixel_throttle":100,"fingerprint":true,"optout_button_optout_text":"Browser Opt Out","channel":"display","user_data_timing":"load","consent_active":true,"use_central_usermatch":true,"store_realtime_segments":false,"tag_source":false,"link_hb_start_event":"ready","optout_button_optin_text":"Browser Opt In","first_party_uid":false,"dcm_profile_ids":"2863714","link_hb_timeout":2000,"link_hb_adserver_subordinate":true,"optimize_realtime_segments":false,"link_hb_adserver":"dfp","client_type":"marketer","target_fingerprint":true,"context_terms":false,"optout_button_id":"kx-optout-button","dfp_premium":true,"control_tag_namespace":"adidasus"},"prioritized_segments":[],"realtime_segments":[],"services":{"userdata":"//cdn.krxd.net/userdata/get","contentConnector":"https://connector.krxd.net/content_connector","stats":"//apiservices.krxd.net/stats","optout":"//cdn.krxd.net/userdata/optout/status","event":"//beacon.krxd.net/event.gif","set_optout":"https://consumer.krxd.net/consumer/optout","data":"//beacon.krxd.net/data.gif","link_hb_stats":"//beacon.krxd.net/link_bidder_stats.gif","userData":"//cdn.krxd.net/userdata/get","link_hb_mas":"https://link.krxd.net/hb","config":"//cdn.krxd.net/controltag/{{ confid }}.js","social":"//beacon.krxd.net/social.gif","addSegment":"//cdn.krxd.net/userdata/add","pixel":"//beacon.krxd.net/pixel.gif","um":"https://usermatch.krxd.net/um/v2","controltag":"//cdn.krxd.net/ctjs/controltag.js.{hash}","loopback":"https://consumer.krxd.net/consumer/tmp_cookie","remove":"https://consumer.krxd.net/consumer/remove/9ba60e7d-29b5-4dc3-8e7b-105df6abe4ad","click":"https://apiservices.krxd.net/click_tracker/track","stats_export":"//beacon.krxd.net/controltag_stats.gif","userdataApi":"//cdn.krxd.net/userdata/v1/segments/get","cookie":"//beacon.krxd.net/cookie2json","proxy":"//cdn.krxd.net/partnerjs/xdi","consent_get":"https://consumer.krxd.net/consent/get/9ba60e7d-29b5-4dc3-8e7b-105df6abe4ad","consent_set":"https://consumer.krxd.net/consent/set/9ba60e7d-29b5-4dc3-8e7b-105df6abe4ad","is_optout":"https://beacon.krxd.net/optout_check","impression":"//beacon.krxd.net/ad_impression.gif","transaction":"//beacon.krxd.net/transaction.gif","log":"//jslog.krxd.net/jslog.gif","portability":"https://consumer.krxd.net/consumer/portability/9ba60e7d-29b5-4dc3-8e7b-105df6abe4ad","set_optin":"https://consumer.krxd.net/consumer/optin","usermatch":"//beacon.krxd.net/usermatch.gif"},"experiments":[],"site":{"name":"Display US","cap":2,"id":1651745,"organization_id":2340,"uid":"rkrioms3o"},"tags":[{"id":29220,"name":"Krux DTC URL Prams","content":"<script>\n  \n(function(){\n  var urlParams = Krux('require:util').urlParams();\n\n  var i,toCollect = ['cm_mmc','cm_mmc1','cm_mmc2','cm_mmca1','cm_mmca2','gclsrc'];\n\n  for (i =0;i<toCollect.length;i++){\n      if(urlParams[toCollect[i]]){\n          Krux('set','page_attr_'+toCollect[i],urlParams[toCollect[i]]);\n      }\n  }\n})();\n  \n</script>","target":null,"target_action":"append","timing":"onload","method":"document","priority":null,"template_replacement":true,"internal":true,"criteria":[]},{"id":29221,"name":"Krux DTC UTM Params","content":"<script>\n(function(){\n\n\tvar params = Krux('require:util').urlParams();\n\t\n\tKrux ('set', { \n\t'page_attr_adidasUs_utm_source': params.utm_source,\n\t'page_attr_adidasUs_utm_medium': params.utm_medium,\n\t'page_attr_adidasUs_utm_campaign': params.utm_campaign,\n\t'page_attr_adidasUs_utm_content': params.utm_content,\n\t'page_attr_adidasUs_utm_term': params.utm_term \n\t});\n\t\n})();\n</script>","target":null,"target_action":"append","timing":"onload","method":"document","priority":null,"template_replacement":true,"internal":true,"criteria":[]},{"id":29331,"name":"Krux Datalayer ingester","content":"<script>\n(function() {\n    var dataObj = Krux('scrape.js_global', 'krux_data'),\n        userKeys = 'user',\n        omitKeys = 'false',\n        custDelimit = 'false',\n        prefix = 'undefined_',\n        config = {\n            'userKeys': userKeys ? userKeys.split(',') : undefined,\n            'omitKeys': (omitKeys ? omitKeys.split(',') : []).concat([\n                /gtm\\./, // GTM events\n                /sessionid/i, // Session ids\n                /\\.phpsessid$/i, // Session ids\n                /\\.sid$/i, // Session ids\n                /\\.zenid$/i, // Session ids\n                /\\.requestid$/i // Request ids\n            ]),\n            'omitValues': [\n                /.*@.*(?:\\..*)+/, // Email Addresses\n                /gtm\\./, // GTM events\n                /^(https?:)?\\/\\/[^\\/]+/, // URLs\n                /^\\/[^\\/]+/, // URL paths\n                /.{255}/ // Long values\n            ],\n            'customDelimited': custDelimit ? custDelimit.split(',') : undefined,\n            'caseSensitive': 'false' === 'true',\n            'useFullPath': 'false' === 'true',\n            'useLastValue': 'false' === 'true',\n            'convertAttrNames': []\n        };\n    if (!prefix.match(/^$|null|undefined|false/)) {\n        config.convertAttrNames.push({\n            pattern: /((?:page|user)_attr_)/,\n            replacement: '$1' + prefix\n        });\n    }\n    Krux('ingestDataLayer', dataObj, config);\n}).call();\n</script>","target":null,"target_action":"append","timing":"onload","method":"document","priority":null,"template_replacement":true,"internal":true,"criteria":[]},{"id":30031,"name":"Transaction DTC","content":"<script>\n(function() {\n    function fire_pixel(transactionParams) {\n        Krux('require:http').pixel({\n            url: '//beacon.krxd.net/transaction.gif',\n            data: transactionParams\n        });\n    }\n\n    function date_from_string(date_string) {\n        if (!Date.parse(date_string)) return;\n        var date_obj = new Date(date_string),\n            year = date_obj.getFullYear() + '-',\n            day = date_obj.getDate(),\n            month = date_obj.getMonth() + 1;\n\n        month = (month < 9) ? '0' + month + '-' : month + '-';\n        day = (day < 9) ? '0' + day : day;\n\n        var date = year + month + day;\n        return date;\n    }\n    function krux_to_string(idx) {\n        var tmp = Krux('scrape.js_global', idx) || [];\n        if (typeof(tmp) === 'string') {\n            return tmp;\n        } else {\n            return tmp.join();\n        }\n    }\n\n    var transInfo = {};\n\n    var pickupParams = ['customer_city', 'customer_country', 'customer_payment_type', 'customer_shipping_method',\n        'is_customizable', 'order_gift_card_amount', 'order_level_discount', 'order_pre_discount_amount', /* 'order_subtotal',*/\n        'product_brand', 'product_category', 'product_collection', 'product_color', 'product_gender', 'product_group',\n        'product_line_style', 'product_model_id', 'product_name', 'product_personalization',\n        'product_price_type', 'product_purchase_type', 'product_quantity', 'product_rating', 'product_reviews',\n        'product_size', 'product_sku', 'product_sport', 'product_status', 'product_type', 'product_video', 'signup_step'\n    ];\n    var priceParams = [\n        ['product_price', 'page.product.price'],\n        ['order_subtotal', 'user.order_subtotal'],\n        ['order_total', 'user.order_total'],\n        ['shipping_total', 'user.shipping_total']\n    ];\n\n    transInfo.price = Krux('scrape.js_global', 'utag_data.order_subtotal_eur');\n    transInfo.quantity = Krux('scrape.js_global', 'utag_data.total_products');\n    transInfo.date = date_from_string(Krux('scrape.js_global', 'utag_data.order_time'));\n    transInfo.site_name = Krux('scrape.js_global', 'utag_data.site_name') || 'none';\n    for (i = 0; i < pickupParams.length; i++) {\n        transInfo[pickupParams[i]] = krux_to_string('utag_data.' + pickupParams[i]);\n    }\n    for (i = 0; i < priceParams.length; i++) {\n        transInfo[priceParams[i][0]] = krux_to_string('krux_data.' + priceParams[i][1]);\n    }\n    var order_id = Krux('scrape.js_global', 'krux_data.user.order_id');\n\n    transInfo._kpid = Krux('get', 'pubid');\n\n    if (transInfo.price && transInfo.quantity && transInfo.date && order_id) {\n        fire_pixel(transInfo);\n    }\n\n})();\n</script>","target":null,"target_action":"append","timing":"onload","method":"document","priority":null,"template_replacement":true,"internal":true,"criteria":[]},{"id":29216,"name":"Krux DTC Standard","content":"<script>\n(function(){\n\tKrux('scrape',{'page_attr_url_path_1':{'url_path':'1'}});\n\tKrux('scrape',{'page_attr_url_path_2':{'url_path':'2'}});\n\tKrux('scrape',{'page_attr_url_path_3':{'url_path':'3'}});\n\tKrux('scrape',{'page_attr_meta_keywords':{meta_name:'keywords'}});\n\n\tKrux('scrape',{'page_attr_domain':{url_domain: '2'}});\n\n})();\n</script>","target":null,"target_action":"append","timing":"onready","method":"document","priority":null,"template_replacement":true,"internal":true,"criteria":[]}],"usermatch_tags":[{"id":6,"name":"Google User Match","content":"<script>\n(function() {\n  if (Krux('get', 'user') != null) {\n      new Image().src = 'https://usermatch.krxd.net/um/v2?partner=google';\n  }\n})();\n</script>","target":null,"target_action":"append","timing":"onload","method":"document","priority":1,"template_replacement":false,"internal":true,"criteria":[]},{"id":45,"name":"TubeMogul user match","content":"<script>\r\n    (function() {\r\n        new Image().src = location.protocol + '//sync-tm.everesttech.net/upi/pid/NC4WTmcy?redir=' + encodeURIComponent('https://beacon.krxd.net/usermatch.gif?partner_id=cb276571-e0d9-4438-9fd4-80a1ff034b01&puid=${TM_USER_ID}');\r\n    })();\r\n</script>","target":null,"target_action":"append","timing":"onload","method":"document","priority":1,"template_replacement":false,"internal":true,"criteria":[]},{"id":76,"name":"LiveRamp User Matching","content":"<script>\r\n(function(){\r\n  var kuid = Krux('get', 'user');\r\n  if (kuid) {\r\n      var liveramp_url = 'https://idsync.rlcdn.com/379708.gif?partner_uid=' + kuid;\r\n      var i = new Image();\r\n      i.src = liveramp_url;     \r\n  }\r\n})();\r\n</script>","target":null,"target_action":"append","timing":"onload","method":"document","priority":1,"template_replacement":false,"internal":true,"criteria":[]},{"id":17,"name":"Twitter User Match","content":"<script>\n(function(){\n  var kuid = Krux('get', 'user');\n  if (kuid) {\n      var url =\n\"https://analytics.twitter.com/i/adsct?p_user_id=\" + kuid +\n\"&p_id=10623\";\n      var i = new Image();\n      i.src = url;     \n  }\n})();\n</script>","target":null,"target_action":"append","timing":"onload","method":"document","priority":2,"template_replacement":false,"internal":true,"criteria":[]}],"link":{"adslots":{},"bidders":{}}};
+  
+  for (var i = 0, tags = config.tags, len = tags.length, tag; (tag = tags[i]); ++i) {
+    if (String(tag.id) in cs) {
+      tag.content = cs[tag.id];
+    }
+  }
+
+  
+  var esiGeo = String(function(){/*
+   {"CONTINENT":"NA", "COUNTRY":"CA", "REGION":"ON", "CITY":"Toronto", "DMA":"0", "AREACODE":"0", "ZIP":"M6G", "LATITUDE":"43.668", "LONGITUDE":"-79.421"}
+  */}).replace(/^.*\/\*[^{]+|[^}]+\*\/.*$/g, '');
+
+  if (esiGeo) {
+    log('Got a request for:', esiGeo, 'adding geo to config.');
+    try {
+      config.geo = w.JSON.parse(esiGeo);
+    } catch (__) {
+      
+      log('Unable to parse geo from:', config.geo);
+      config.geo = {};
+    }
+  }
+
+
+
+  var proxy = (window.Krux && window.Krux.q && window.Krux.q[0] && window.Krux.q[0][0] === 'proxy');
+
+  if (!proxy || true) {
+    
+
+  load('//cdn.krxd.net/ctjs/controltag.js.c41d96148598462657526acd569e1aa2', function() {
+    log('Loaded stable controltag resource');
+    Krux('config', config);
+  });
+
+  }
+
+})(window, (function() {
+  var obj = {};
+  
+  return obj;
+})());

@@ -1,0 +1,464 @@
+var cymsrc = 2;
+
+var cymtr=Math.floor(Math.random()*9999999999);
+
+/****** Global site tag - DoubleClick 201802 新增 Start ******/
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+/****** Global site tag - DoubleClick 201802 新增 End ******/
+
+function google_pixel_cookie_url()
+{
+	var par_estee_lauder02_url="estee_lauder02";
+	var par_hadalabo01_url="hadalabo01";
+	var par_50megumi01_url="50megumi01";
+	var par_drsebagh01_url="dr_sebagh01";
+	var par_whiteformula05_url="whiteformula05";
+	var par_mybeautydiary03_url="mybeautydiary03";
+	
+	var par_makeupforever01_url="makeupforever01";
+	var par_whoo03_url="whoo03";
+	var par_thebodyshop01_url="thebodyshop01";
+	var par_clarins04_url="clarins04";
+	var par_kose02_url="kose02";
+	
+	var par_beaute = "sofina04" ; 
+	var par_beaute_red1 = "1792" ; // https://www.urcosme.com/campaigns/1792/sign_up
+	var par_beaute_red2 = "1793" ; // https://www.urcosme.com/campaigns/1793/sign_up
+
+	var par_jenne = "sofina05" ;
+	var par_jenne_red1 = "1787" ; // https://www.urcosme.com/campaigns/1787/sign_up
+	var par_jenne_red2 = "1788" ; // https://www.urcosme.com/campaigns/1788/sign_up
+
+	var par_bourjois = "bourjois01" ;  // https://www.urcosme.com/activities/bourjois01   
+	
+	var par_lululun = "lululun01" ;  // https://www.urcosme.com/activities/bourjois01
+	
+	var par_fees02 = "fees02" ;  // https://www.urcosme.com/activities/fees02/
+
+	var par_clarins06 = "clarins06";	//	https://www.urcosme.com/activities/clarins06
+
+	var par_clarins07 = "clarins07";    //	https://www.urcosme.com/activities/clarins07
+	
+	var par_clarins09 = "clarins09";    //	https://www.urcosme.com/activities/clarins09
+
+	/****** Global site tag - DoubleClick 201802 新增 Start ******/
+	var is_new_double_click_tag = false;
+	/****** Global site tag - DoubleClick 201802 新增 End ******/
+
+	var axel = Math.random() + "";
+	var a = axel * 10000000000000;
+
+	var host_url=window.location.hostname;
+	var bURL=window.location.pathname.split('/');
+	var pid=null;
+	var google_cy_src='';
+
+	if( host_url == 'www.urcosme.com' || host_url == 'm.urcosme.com' )
+	{
+		if( bURL[1] == 'coupons' )
+		{
+			if(bURL[3]=='receive')
+			{
+				switch (bURL[2])
+				{
+					case '264':
+					    google_cy_src = '5404409.fls.doubleclick.net/activityi;src=5404409;type=invmedia;cat=zrg4zi6l;dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;ord=' + a + '?';
+					break;
+				}
+			}
+			else if( window.location.search != "" )
+			{
+				var cpid = window.location.search.substring(1).split("&")[0].split("=")[1];
+
+				switch( cpid )
+				{
+					case '7':
+						google_cy_src = '5863748.fls.doubleclick.net/activityi;src=5863748;type=invmedia;cat=tfw67ams;dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;ord=' + a + '?';
+					break;
+					
+					case '8':
+						google_cy_src = '5863955.fls.doubleclick.net/activityi;src=5863955;type=invmedia;cat=01pwazxu;dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;ord=' + a + '?';
+					break;
+					
+					case '10':
+						google_cy_src = '5861955.fls.doubleclick.net/activityi;src=5861955;type=invmedia;cat=hvubvmgj;dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;ord=' + a + '?';
+					break;
+					
+					case '11':
+						google_cy_src = '5404409.fls.doubleclick.net/activityi;src=5404409;type=invmedia;cat=n2q4lph0;dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;ord=' + a + '?';
+					break;
+					
+					case '13':
+						google_cy_src = '5863148.fls.doubleclick.net/activityi;src=5863148;type=invmedia;cat=ifzgv1zu;dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;ord=' + a + '?';
+					break;
+					case '19':
+						google_cy_src = '6503609.fls.doubleclick.net/activityi;src=6503609;type=invmedia;cat=wqlov8ao;dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;ord=' + a + '?';
+					break;
+					case '54':
+						google_cy_src = '6503609.fls.doubleclick.net/activityi;src=6503609;type=invmedia;cat=rwimlauj;dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;ord=' + a + '?';
+					break;
+					case '210':
+						google_cy_src = '5404409.fls.doubleclick.net/activityi;src=5404409;type=invmedia;cat=y5llfbx9;dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;ord=' + a + '?';
+					break;
+					case '232':
+						google_cy_src = '5404409.fls.doubleclick.net/activityi;src=5404409;type=invmedia;cat=stdgdrmd;dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;ord=' + a + '?';
+					break;
+					case '264':
+						google_cy_src = '5404409.fls.doubleclick.net/activityi;src=5404409;type=invmedia;cat=vxkbf7qi;dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;ord=' + a + '?';
+					break;
+					case '522':
+						// Redemption - White Plus - 2018March_UrCosme
+						is_new_double_click_tag = true;
+						gtag('config', 'DC-5404409');
+						google_cy_src = "www.googletagmanager.com/gtag/js?id=DC-5404409";
+						gtag('event', 'conversion', {
+							'allow_custom_scripts': true,
+							'send_to': 'DC-5404409/invmedia/co3a0ga5+standard'
+						});
+					break;
+				}
+			}
+		}
+		if( bURL[1] == 'brands' )
+		{
+			var brands_id = bURL[2];
+			if(brands_id == "15"){
+				if( bURL[3] == 'activities' && bURL[4] == 'clarins12' ){
+					// Event Site - White Plus - 2018March_UrCosme
+					is_new_double_click_tag = true;
+					gtag('config', 'DC-5404409');
+					google_cy_src = "www.googletagmanager.com/gtag/js?id=DC-5404409";
+					gtag('event', 'conversion', {
+						'allow_custom_scripts': true,
+						'send_to': 'DC-5404409/invmedia/ifyvwibv+standard'
+					});
+				}
+			}
+		}
+		else
+		{
+			if( bURL[2] == par_estee_lauder02_url )
+				google_cy_src = '5050177.fls.doubleclick.net/activityi;src=5050177;type=invmedia;cat=cbmsvril;ord=' + a + '?';
+			else if( bURL[2] == par_hadalabo01_url )
+				google_cy_src = '5180208.fls.doubleclick.net/activityi;src=5180208;type=invmedia;cat=9ib95h2k;dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;ord=' + a + '?';
+			else if( bURL[2] == par_50megumi01_url )
+				google_cy_src = '5625639.fls.doubleclick.net/activityi;src=5625639;type=invmedia;cat=mty3qosy;dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;ord=' + a + '?';
+			else if( bURL[2] == par_drsebagh01_url )
+				google_cy_src = '5863748.fls.doubleclick.net/activityi;src=5863748;type=invmedia;cat=wxpxegfr;dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;ord=' + a + '?';
+			else if( bURL[2] == par_whiteformula05_url )
+				google_cy_src = '5867308.fls.doubleclick.net/activityi;src=5867308;type=invmedia;cat=m7awn4eo;dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;ord=' + a + '?';
+			else if( bURL[2] == par_kose02_url )
+				google_cy_src = '5863148.fls.doubleclick.net/activityi;src=5863148;type=invmedia;cat=ntoaup3g;dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;ord=' + a + '?';
+			else if ( bURL[2] == 'mybeautydiary02')
+				google_cy_src = '5299504.fls.doubleclick.net/activityi;src=5299504;type=invmedia;cat=byc0hqsi;dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;ord=' + a + '?';
+			else if( bURL[2] == par_mybeautydiary03_url )
+				google_cy_src = '5299504.fls.doubleclick.net/activityi;src=5299504;type=invmedia;cat=bkn6fyzx;dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;ord=' + a + '?';
+			
+			else if (bURL[2] == par_beaute )
+				google_cy_src = '6379763.fls.doubleclick.net/activityi;src=6379763;type=invmedia;cat=gdewwbqk;dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;ord=' + a + '?';
+			else if ( ( bURL[2] == par_beaute_red1 || bURL[2] == par_beaute_red2 ) && bURL[1] == "offers" && bURL[3] == "sign_up" )
+				google_cy_src = '6379763.fls.doubleclick.net/activityi;src=6379763;type=invmedia;cat=parokhph;dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;ord=' + a + '?';
+			 
+			else if (bURL[2] == par_jenne )   
+				google_cy_src = '6379763.fls.doubleclick.net/activityi;src=6379763;type=invmedia;cat=omjxmsxh;dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;ord=' + a + '?'; 
+			else if ( ( bURL[2] == par_jenne_red1 || bURL[2] == par_jenne_red2 ) && bURL[1] == "offers" && bURL[3] == "sign_up" ) 
+				google_cy_src = '6379763.fls.doubleclick.net/activityi;src=6379763;type=invmedia;cat=ufktooqd;dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;ord=' + a + '?'; 
+
+			else if ( bURL[2] == par_bourjois )   
+				google_cy_src = '6380261.fls.doubleclick.net/activityi;src=6380261;type=invmedia;cat=wepu5i1d;dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;ord=' + a + '?';
+			else if ( bURL[2] == par_lululun )   
+				google_cy_src = '6649519.fls.doubleclick.net/activityi;src=6649519;type=invmedia;cat=mhra9w7z;dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;ord=' + a + '?';
+			else if ( bURL[2] == par_fees02)   
+				google_cy_src = '6503609.fls.doubleclick.net/activityi;src=6503609;type=invmedia;cat=ncg659ln;dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;ord=' + a + '?';
+			else if ( bURL[2] == par_clarins06)   
+				google_cy_src = '5404409.fls.doubleclick.net/activityi;src=5404409;type=invmedia;cat=utlqoond;dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;ord=' + a + '?';
+			else if ( bURL[2] == par_clarins07)   
+				google_cy_src = '5404409.fls.doubleclick.net/activityi;src=5404409;type=invmedia;cat=l7pu2twl;dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;ord=' + a + '?';
+			else if ( bURL[4] == par_clarins09)   
+				google_cy_src = '5404409.fls.doubleclick.net/activityi;src=5404409;type=invmedia;cat=zrg4zi6l;dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;ord=' + a + '?';
+			else if ( (bURL[2] == '24' && bURL[3] == 'activities' && bURL[4] == 'estee_lauder12') || (bURL[1] == 'activities' && bURL[2] == 'estee_lauder12'))
+				google_cy_src = '5272061.fls.doubleclick.net/activityi;src=5272061;type=invmedia;cat=dny1bje7;dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;ord=' + a + '?';
+			
+		}
+	}
+
+	else if( host_url == '2016event.urcosme.com' ) 
+	{
+		if( bURL[1] == par_makeupforever01_url )
+			google_cy_src = '5863147.fls.doubleclick.net/activityi;src=5863147;type=invmedia;cat=por15hni;dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;ord=' + a + '?';
+
+		else if( bURL[1] == par_whoo03_url )
+			google_cy_src = '5863955.fls.doubleclick.net/activityi;src=5863955;type=invmedia;cat=ikmy3cn1;dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;ord=' + a + '?';
+
+		else if( bURL[1] == par_thebodyshop01_url )
+			google_cy_src = '5861955.fls.doubleclick.net/activityi;src=5861955;type=invmedia;cat=obu7y23u;dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;ord=' + a + '?';
+
+		else if( bURL[1] == par_clarins04_url )
+			google_cy_src = '5404409.fls.doubleclick.net/activityi;src=5404409;type=invmedia;cat=tcdkqbar;dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;ord=' + a + '?';
+	}
+
+
+	if( google_cy_src != '' )
+	{
+		var google_cym_cts = document.getElementsByTagName('script')[0]; 
+		if(is_new_double_click_tag){
+			var google_cym_script = document.createElement('script'); 
+			google_cym_script.setAttribute("async", "");
+			var google_cym_script_src = "https://";
+			google_cym_script_src = google_cym_script_src + google_cy_src;
+			google_cym_script.src = google_cym_script_src;
+			google_cym_cts.parentNode.insertBefore(google_cym_script, google_cym_cts);
+		}
+		else{
+			var google_cym_ct = document.createElement('img'); 
+			google_cym_ct.width='1'; google_cym_ct.height='1'; google_cym_ct.frameborder='0'; google_cym_ct.style.display='none';google_cym_ct.style.visibility='hidden';
+			var google_src = 'https://'; google_cym_ct.src = google_src+google_cy_src;
+			google_cym_cts.parentNode.insertBefore(google_cym_ct, google_cym_cts);
+		}
+    }
+}
+google_pixel_cookie_url();
+
+if(document.referrer.length <= 0)
+{
+	var cyrefth='';
+}
+else
+{
+	var cyrefth = document.referrer.split('/')[2]+document.referrer.substr(document.referrer.indexOf(document.referrer.split('/')[2])+document.referrer.split('/')[2].length);
+}
+<!-- CyFBcookie Mapping -->
+function cy_padLeft(str,lenght){
+    if(str.length >= lenght)
+        return str;
+    else
+        return cy_padLeft("0" +str,lenght);
+}
+
+if(!document.getElementsByClassName){
+    document.getElementsByClassName = function(className, element){
+        var children = (element || document).getElementsByTagName('*');
+        var elements = new Array();
+        for (var i=0; i<children.length; i++){
+            var child = children[i];
+            var classNames = child.className.split(' ');
+            for (var j=0; j<classNames.length; j++){
+                if (classNames[j] == className){ 
+                    elements.push(child);
+                    break;
+                }
+            }
+        } 
+        return elements;
+    };
+}
+/* UrFB
+function urcosme_pminfo_get(ppm_id)
+{
+  var addScript = function(){
+    var cy_src = 'pt.cymmetrics.com.tw/infoclient/pm_urcosme.php?ppm_id='+ppm_id;
+    var cym_ct = document.createElement('script'); cym_ct.type= 'text/javascript';
+    var src = 'https://'; cym_ct.src = src+cy_src;
+    var cym_cts = document.getElementsByTagName('script')[0];
+    cym_cts.parentNode.insertBefore(cym_ct, cym_cts); 
+  };
+  if (window.addEventListener) 
+  {
+    document.readyState == 'loading' ? document.addEventListener('DOMContentLoaded', addScript, false) : addScript();
+  } 
+  else 
+  {
+    document.readyState == 'loading' ? document.attachEvent('onDOMContentLoaded', addScript, false) : addScript();
+  }
+}
+function cy_fb_pixel_cookie(cy_pc2,cy_pc3,cy_or_p)
+{
+var cy_isMobile = {
+    Android: function() {return navigator.userAgent.match(/Android/i);},
+    BlackBerry: function() {return navigator.userAgent.match(/BlackBerry/i);},
+    iOS: function() {return navigator.userAgent.match(/iPhone|iPad|iPod/i);},
+    Opera: function() {return navigator.userAgent.match(/Opera Mini/i);},
+    Windows: function() {return navigator.userAgent.match(/IEMobile/i);},
+    any: function() {return navigator.userAgent.match(/Android|BlackBerry|iPhone|iPad|iPod|Opera Mini|IEMobile/i);}
+};
+!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+document,'script','//connect.facebook.net/en_US/fbevents.js');
+fbq('init', '435611579962586');
+fbq('track', "PageView");
+
+  if(cy_pc2 == null) cy_pc2='N/A';
+  if(cy_pc3 == null) cy_pc3='N/A';
+  if(cy_or_p == null) cy_or_p='N/A';
+  var cy_d = new Date();
+  var cy_datetime=cy_d.getFullYear().toString()+cy_padLeft((cy_d.getMonth()+1).toString(),2)+cy_d.getDate().toString();
+  var cy_mobile_de=0;
+  if (cy_isMobile.any()) cy_mobile_de=1; else cy_mobile_de=0;
+
+fbq.push(['trackCustom', 'urcosme_fb_pixel', { pc2: cy_pc2,pc3: cy_pc3,or_p: cy_or_p, datetime: cy_datetime, device: cy_mobile_de ,referrer: document.referrer }]);
+} */
+
+<!-- Conver active -->
+function cy_action_conver(cyg_src,cyg_cat,cymsrc,ptype){
+	<!-- Google pixel-->
+	var axel = Math.random() + "";
+	var a = axel * 10000000000000;
+	var google_cy_src = cyg_src+'.fls.doubleclick.net/activityi;src='+cyg_src+';type=invmedia;cat='+cyg_cat+';ord=' + a + '?';
+   	var google_cym_ct = document.createElement('img'); 
+					google_cym_ct.width='1'; google_cym_ct.height='1'; google_cym_ct.frameborder='0'; google_cym_ct.style.display='none';google_cym_ct.style.visibility='hidden';
+					var google_src = 'https://'; google_cym_ct.src = google_src+google_cy_src;
+					var google_cym_cts = document.getElementsByTagName('script')[0]; 
+					google_cym_cts.parentNode.insertBefore(google_cym_ct, google_cym_cts);
+    
+    <!-- Cymmetrics pixel-->
+    if(document.referrer.length <= 0){var cyrefth='';}else{
+var cyrefth = document.referrer.split('/')[2]+document.referrer.substr(document.referrer.indexOf(document.referrer.split('/')[2])+document.referrer.split('/')[2].length);}
+    var cy_src = 'cm.g.doubleclick.net/pixel?google_nid=cymmetrics_dmp&google_cm&cymsrc='+cymsrc+'&cyrefth='+encodeURIComponent(cyrefth)+'&page_type='+ptype+'&redem=1';
+		var cym_ct = document.createElement('script'); cym_ct.type= 'text/javascript';
+		var src = 'https://'; cym_ct.src = src+cy_src;
+		var cym_cts = document.getElementsByTagName('script')[0];
+		cym_cts.parentNode.insertBefore(cym_ct, cym_cts); 
+}
+
+/* UrFB
+function urcosme_pixel_fb_url_ck()
+{
+	var par_product_url="products";
+	var bURL=window.location.pathname.split('/');
+	var ppm_id=bURL.pop();
+	if (bURL.pop()==par_product_url)
+	urcosme_pminfo_get(ppm_id);
+    else
+    cy_fb_pixel_cookie(null,null,null);
+}
+urcosme_pixel_fb_url_ck(); */
+
+	<!-- Cycookie Mapping Base  -->
+function google_cookie_mapping_url()
+{
+	var addScript = function(){
+		var cy_src = 'cm.g.doubleclick.net/pixel?google_nid=cymmetrics_dmp&google_cm&cymsrc='+cymsrc+'&redem=0';
+		var cym_ct = document.createElement('script'); cym_ct.type= 'text/javascript';
+		var src = 'https://'; cym_ct.src = src+cy_src;
+		var cym_cts = document.getElementsByTagName('script')[0];
+		cym_cts.parentNode.insertBefore(cym_ct, cym_cts); 
+	};
+	if (window.addEventListener) 
+	{
+		document.readyState == 'loading' ? document.addEventListener('DOMContentLoaded', addScript, false) : addScript();
+	} 
+	else 
+	{
+		document.readyState == 'loading' ? document.attachEvent('onDOMContentLoaded', addScript, false) : addScript();
+	}
+}
+google_cookie_mapping_url(); 
+
+<!-- Cycookie Parnter  -->
+function urcosme_cookie_mapping_url(mck_id)
+{
+        var addScript = function(){
+		var cy_src = 'analytics.urcosme.com/trackings/identity?gcookie_id='+mck_id;
+		var cym_ct = document.createElement('script'); cym_ct.type= 'text/javascript';
+		var src = 'https://'; cym_ct.src = src+cy_src;
+		var cym_cts = document.getElementsByTagName('script')[0];
+		cym_cts.parentNode.insertBefore(cym_ct, cym_cts); 
+	};
+	if (window.addEventListener) 
+	{
+		document.readyState == 'loading' ? document.addEventListener('DOMContentLoaded', addScript, false) : addScript();
+	} 
+	else 
+	{
+		document.readyState == 'loading' ? document.attachEvent('onDOMContentLoaded', addScript, false) : addScript();
+	}
+}
+
+
+function cym_apply_log(pr_id,reff,cookie,rand_cy)
+{
+/********************* custom_parameter定義 **************************/
+	//member_id
+	var ur_uid = ( typeof(uid) != "undefined" ) ? uid : '0';
+	//cookie_id
+	var ur_ucc = ( document.cookie.split("_ucc=")[1] ) ? document.cookie.split("_ucc=")[1].split(";")[0] : '0';
+	
+	//article_beautynews
+	if( window.location.pathname.split('/')[1] == 'beautynews' && document.getElementsByTagName("h1")[0] )
+	{
+		if( window.location.host == 'm.urcosme.com' )
+			var ur_arti = document.querySelector(".row2 .col-xs-12 p").innerHTML.replace(/^[ \t\n]*/,'').replace(/[ \t\n]*$/,'');
+		else
+			var ur_arti = document.querySelector("h1").innerHTML;
+	
+		for( var i = 0, ur_tags = '' ; i < document.querySelectorAll(".uc-news-tag .uc-tag .link").length ; i++ )
+		{
+			ur_tags = ur_tags + document.querySelectorAll(".uc-news-tag .uc-tag .link")[i].innerHTML + ',';
+		}
+	
+		var ur_brand = ( document.querySelector(".keep-an-eye-on .text span") ) ? document.querySelector(".keep-an-eye-on .text span").innerHTML : '0';
+	}
+	//article_reviews pc web 
+	else if( window.location.pathname.split('/')[1] == 'reviews' && window.location.host == 'www.urcosme.com' )
+	{
+		var ur_arti = ( document.querySelector(".headline-title") ) ? document.querySelector(".headline-title").textContent : '0';
+		var ur_brand =  ( document.querySelectorAll(".uc-crumbs li a span")[2] ) ? document.querySelectorAll(".uc-crumbs li a span")[2].textContent : '0';
+		var ur_tags =  ( document.querySelector(".review-effects") ) ? document.querySelector(".review-effects").innerHTML.replace(/效果：/,'').replace(/、/g, ",") : '0';
+	}
+	//article_reviews mb web 
+	else if( window.location.pathname.split('/')[5] == 'reviews' && window.location.host == 'm.urcosme.com' )
+	{
+		if( document.querySelector(".rv-title") != 'null' )
+			var ur_arti = ( document.querySelector(".rv-title") ) ? document.querySelector(".rv-title").innerHTML.replace(/^[ \t\n]*/,'').replace(/[ \t\n]*$/,'') : '0';
+		else if( document.querySelector(".title-word h1").innerHTML != 'null' )
+			var ur_arti = ( document.querySelector(".title-word h1") ) ? document.querySelector(".title-word h1").innerHTML.replace(/^[ \t\n]*/,'').replace(/[ \t\n]*$/,'') : '0';
+		else
+		var ur_arti = '0';
+
+		var ur_brand = ( document.querySelector(".rv-product-info .product-desc a") ) ? document.querySelector(".rv-product-info .product-desc a").innerHTML.split('[')[1].split(']')[0] : '0';
+		var ur_tags = '';
+	}
+
+/********************************************************************/
+
+	var cy_src = 'pt.cymmetrics.com.tw/aclient/ctl_urcosme.php?cymsrc='+pr_id+'&gcookie_id='+cookie+'&cymtr='+rand_cy+'&cyrefth='+encodeURIComponent(reff)+'&ur_uid='+ur_uid+'&ur_ucc='+ur_ucc+'&ur_arti='+ur_arti+'&ur_tags='+ur_tags+'&ur_brand='+ur_brand+'&redem=0';
+	var cym_ct = document.createElement('script'); 
+	var src = 'https://'; cym_ct.src = src+cy_src;
+	var cym_cts = document.getElementsByTagName('script')[0];
+	cym_cts.parentNode.insertBefore(cym_ct, cym_cts);
+}
+function A3_cookie_mt_google(scookie)
+{
+	var addScript = function(){
+	var cy_src = 'cm.g.doubleclick.net/pixel?google_nid=amnettw_dmp&google_cm&cygcookie='+scookie;
+	var cym_ct = document.createElement('script'); cym_ct.type= 'text/javascript';
+	var src = 'https://'; cym_ct.src = src+cy_src;
+	var cym_cts = document.getElementsByTagName('script')[0];
+	cym_cts.parentNode.insertBefore(cym_ct, cym_cts); 
+	};
+	if (window.addEventListener) 
+	{
+		document.readyState == 'loading' ? document.addEventListener('DOMContentLoaded', addScript, false) : addScript();
+	} 
+	else 
+	{
+		document.readyState == 'loading' ? document.attachEvent('onDOMContentLoaded', addScript, false) : addScript();
+	}
+}
+
+function get_ck(ig_cookie) {this.g_cookie = ig_cookie;}
+
+alget_ck=new get_ck("");
+
+function gdatainfo(result) 
+{ 
+	alget_ck.g_cookie = result.cg_cookie;
+	cym_apply_log(cymsrc,cyrefth,alget_ck.g_cookie,cymtr);
+	urcosme_cookie_mapping_url(alget_ck.g_cookie);
+	A3_cookie_mt_google(alget_ck.g_cookie);
+};
+

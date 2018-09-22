@@ -1,0 +1,2960 @@
+<!DOCTYPE html>
+ 
+<html lang="en">     
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<head>
+    <link rel="icon" href="/etc/designs/pwc/css_common/image/favicon.ico" type="image/x-icon"/>
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<title>Transportation &amp; logistics: Industries: PwC
+</title>
+<meta http-equiv="content-language" content="en_gx"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta property="og:title" content="Transportation &amp; logistics"/>
+<meta property="og:type" content="article"/>
+<meta property="og:site_name" content="PwC"/>
+<meta property="og:description" content="PwC's Transportation and logistics practice provides guidance in such areas as international and domestic airlines; airports; posts; express and parcel service providers; freight forwarding companies; logistics service providers; public transport and road infrastructure financing acquisition and sale of transport businesses and assets; capital projects; deep sea, short sea and inland shipping; port authorities and terminal operators ."/>
+
+
+<meta name="robots" content="index"/>
+<meta name="keywords" content="Privatization,deregulation,air,rail,ports,Transport,Transportation,Logistics,Rail,Railways,Airline,Airport,Shipping,Port,Infrastructure,Post,monitoring plan (monitoringplan,MP + variances),tonnekilometer (TK,RTK,tonne-kilometer),tonnekilometer report (variances),emissions report (AER,annual emissions report),competent authority (-ies),Eurocontrol,European Commission,aviation,aircraft operators,airlines,cost efficient,verification,requirements,monitoring and reporting guidelines (MRG),MRV,pwc aviation,emissions trading,EUETS (EU ETS),transportation,logistics"/>
+<meta name="description" content="PwC's Transportation and logistics practice provides guidance in such areas as international and domestic airlines; airports; posts; express and parcel service providers; freight forwarding companies; logistics service providers; public transport and road infrastructure financing acquisition and sale of transport businesses and assets; capital projects; deep sea, short sea and inland shipping; port authorities and terminal operators ."/>
+<meta name="author" content="PricewaterhouseCoopers"/>
+<meta name="pwcTitle" content="Transportation & logistics"/>
+
+<meta name="pwcLocale" content="en_gx"/>
+<meta name="pwcCountry" content='gx'/>
+
+
+<meta name="pwcGeo.default" content="GX"/>
+<meta name="pwcLang" content="en"/>
+<meta name="pwcTag" content="Transportation &amp; logistics||, Industry||, Industries||, Global||">
+<meta name="pwcHideLevel" content="0"/>
+<meta name="target" content=""/>
+<meta name="pwcReleaseDate" content="2012-05-15T06:00:00.000-04:00"/>
+<meta name="pwcselectednav" content="1"/>
+<meta name="viewport" id="pwcviewport" content="width=device-width, initial-scale=1.0">
+<link rel="apple-touch-icon" href="/content/pwc/script/network/apple-touch-icon.png"/>
+
+<link rel="canonical" href="https://www.pwc.com/gx/en/industries/transportation-logistics.html"/>
+<meta property="og:url" content="https://www.pwc.com/gx/en/industries/transportation-logistics.html"/>
+
+
+
+
+<script type="application/ld+json">
+{
+    "@type": "Thing",
+    "@context": "http://schema.org",
+    "image": "",
+    "name":"Transportation & logistics: Industries: PwC",
+    "description":"PwC's Transportation and logistics practice provides guidance in such areas as international and domestic airlines; airports; posts; express and parcel service providers; freight forwarding companies; logistics service providers; public transport and road infrastructure financing acquisition and sale of transport businesses and assets; capital projects; deep sea, short sea and inland shipping; port authorities and terminal operators ."
+}
+</script>
+
+    
+    
+    
+    	<script type="text/javascript">
+            (function() {
+                window.ContextHub = window.ContextHub || {};
+
+                /* setting paths */
+                ContextHub.Paths = ContextHub.Paths || {};
+                ContextHub.Paths.CONTEXTHUB_PATH = "/etc/cloudsettings/default/contexthub";
+                ContextHub.Paths.RESOURCE_PATH = "\/content\/pwc\/gx\/en\/industries\/transportation\u002Dlogistics\/jcr:content\/contexthub";
+                ContextHub.Paths.SEGMENTATION_PATH = "\/etc\/segmentation\/contexthub";
+                ContextHub.Paths.CQ_CONTEXT_PATH = "";
+
+                /* setting initial constants */
+                ContextHub.Constants = ContextHub.Constants || {};
+                ContextHub.Constants.ANONYMOUS_HOME = "/home/users/K/KnBtrIEj0AMSp4fLtEy1";
+                ContextHub.Constants.MODE = "no-ui";
+            }());
+        </script><script src="/etc/cloudsettings/default/contexthub.kernel.js" type="text/javascript"></script>
+    
+
+    <script type="text/javascript" src="/etc/clientlibs/granite/jquery.min.fb50358df4c2bd6aa6e1dd5b0d9b9d29.js"></script>
+<script type="text/javascript" src="/etc/clientlibs/granite/utils.min.960d4a24cc6fa3b473b4ae2018d5c364.js"></script>
+<script type="text/javascript" src="/etc/clientlibs/granite/jquery/granite.min.1cd927e8b915fa4931c6c086a8cfda10.js"></script>
+<script type="text/javascript" src="/etc/clientlibs/foundation/jquery.min.d7c42e4a257b8b9fe38d1c53dd20d01a.js"></script>
+<script type="text/javascript" src="/etc/clientlibs/foundation/shared.min.b081a88c8339e1c5fdaf547bb7996554.js"></script>
+<script type="text/javascript" src="/etc/designs/pwc/longform/dependencies.min.d41d8cd98f00b204e9800998ecf8427e.js"></script>
+
+    	
+  		<script type="text/cookie" id="cookie-consent-script-popup">
+	    			<div class="cookie-wrapper" id="cookieWrapper">
+					<div class="container">
+				 		<div class="row">
+				   			<div class="col-md-12 cookie-container">
+				  	 			<p class="cookie-text">
+									{{description}}
+                                </p>
+			         			<button class="btn cookie-accept" id="acceptCookie">
+			           				{{accept}}
+			         			</button>
+				   			</div>
+				 		</div>
+					</div>
+				</div>
+		</script>
+		<script>
+				var pwcCookiePrefix = "pwc-cookie-accept-";
+				$(document).ready(function(){
+					var $cookieConsentPopupScript = $("#cookie-consent-script-popup");
+					$("body").append("<input type='hidden' id='is-custom-cookie-consent-present' value='true'/>");
+					var pageTerritory = $("#pageTerritory").val();
+					var pwcAcceptCookie = Cookies.get(pwcCookiePrefix + pageTerritory);
+					if(!pwcAcceptCookie){
+						var cookieHtml = $cookieConsentPopupScript.html();
+						cookieHtml = cookieHtml.replace("{{description}}", cookieI18nValues.cookieDescription);
+						cookieHtml = cookieHtml.replace("{{accept}}", cookieI18nValues.cookieAcceptButton);
+						$("body").prepend(cookieHtml);
+						$("#cookieWrapper").show();
+					}
+					$cookieConsentPopupScript.remove();
+				});
+		</script>
+	
+   	
+    
+
+
+<script type="text/javascript" src="/etc/designs/pwc/component-longform/form.min.4297691d851159e00c063832087a8094.js"></script>
+
+
+
+
+    
+
+
+
+
+    <link rel="stylesheet" href="/etc/designs/pwc/longform/style.min.020eb011b99b732141ca87a7107ea273.css" type="text/css">
+
+    	<script type="text/javascript" src="/etc/clientlibs/pwc/handlebars.min.247c291e82f23e8d7b7acd7669e31065.js"></script>
+
+
+   
+        <link rel="stylesheet" href="/etc/clientlibs/pwc/components-colors.min.dcf9fc4ba3c25ff786fb13b7c9a24cd1.css" type="text/css">
+
+    
+    
+
+    
+
+    
+
+    <script>
+        var dataLayer ={"accountRegistration":false,"additionalTags":"industries|geography/global","SiteValues":{"los":"","subLos":"","industry":"transport_and_logistics","folderDirectory":"pwc/gx/en/industries","contentType":"industry"},"business":{"businessChallenge":"","businessTopic":""}};
+    </script>
+    
+    		<script src="//assets.adobedtm.com/2eef9b4133eb40f4d0463dde027092c2befd1990/satelliteLib-f51c52f6ed7eceef2f802796128754928e72cd33.js" type="text/javascript"></script>
+    		<script type="text/javascript" src="/etc/clientlibs/pwc/components-analytics.min.fc46c10f79613c6ac4e33c6fbcef6ca0.js"></script>
+
+    
+    
+
+    
+
+    
+    
+</head>
+
+    	<body class="pwcscrolling longformcontent longform-level2-landing-template page-primary-col--red page-secondary-col--burgundy page-tertiary-col--maroon  standard-spacing "> 
+        
+        
+        <div id="wrapper"> 
+        <div><div class="section"><div class="new"></div>
+</div><div class="iparys_inherited"><div class="slimHeaderPar iparsys parsys"><div class="slim-page-header parbase section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<header id="menuBarWrapper" class="header fixed slide headroom--top">
+	<div id="menuBar">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12 slim-header__flex-wrapper">
+					<div id="topBarLeft">
+						<div id="logoWrapper">
+							<a href="/gx/en.html" id="logo">PwC</a> | <a href="/gx/en.html" class="slim-header__territory-name">Global</a>
+						</div>
+					</div>
+					<div id="topBarRight">
+						<ul id="menuAdditional" class="menu-additional clearfix">
+							
+							<li>
+								<button id="searchBtn"> 
+								<span class="sr-only">Search</span>
+								<svg class="st0" xmlns="http://www.w3.org/2000/svg" width="26" height="26"
+	                                viewBox="0 0 26 26">
+	                                <path fill="#3F3F40"
+	                                      d="M10.351,19.949c-5.211,0-9.554-4.344-9.554-9.554c0-5.211,4.343-9.554,9.554-9.554 c5.209,0,9.553,4.343,9.553,9.554C19.904,15.605,15.561,19.949,10.351,19.949z M10.351,2.579c-4.343,0-7.817,3.473-7.817,7.816 c0,4.343,3.474,7.817,7.817,7.817c4.342,0,7.817-3.475,7.817-7.817C18.168,6.052,14.693,2.579,10.351,2.579z"></path>
+	                                <path fill="#3F3F40"
+	                                      d="M17.298,16.127l7.643,7.643c0.351,0.35,0.351,0.871,0,1.215c-0.173,0.174-0.521,0.174-0.694,0.174 c-0.172,0-0.521,0-0.693-0.174l-7.643-7.643L17.298,16.127z"></path>
+	                            </svg>
+
+	                            <svg class="st1" focusable="false" enable-background="new 0 0 256 256" height="26px" id="Layer_1" version="1.1" viewBox="0 0 256 256" width="26px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	                                <path  d="M179.199,38.399c0,1.637-0.625,3.274-1.875,4.524l-85.076,85.075l85.076,85.075c2.5,2.5,2.5,6.55,0,9.05s-6.55,2.5-9.05,0  l-89.601-89.6c-2.5-2.5-2.5-6.551,0-9.051l89.601-89.6c2.5-2.5,6.55-2.5,9.05,0C178.574,35.124,179.199,36.762,179.199,38.399z"/>
+	                            </svg>
+							</button>
+								<div class="menuFlyout">
+									<form role="search" action="/gx/en/search.html" method="get">
+										<label class="sr-only" for="searchField"> Search </label>
+										<input id="searchField" name="searchfield" type="text" placeholder="Search" tabindex="-1">
+										
+										<input type="hidden" name="tp" value="long" />
+										<input type="hidden" name="pwcGeo" value="GX" />
+										<input type="hidden" name="pwcLang" value="en" />
+										<input type="hidden" name="pwcHideLevel" value="0" />
+										<input type="hidden" value="" name="pwcSiteSection" />
+									</form>
+								</div></li>
+							
+							<li class="hidden-xs social-share-desktop">
+								<button id="shareBtn"> <svg
+									xmlns="http://www.w3.org/2000/svg" width="26" height="26"
+									viewBox="0 0 26 26">
+								<path fill="#3F3F40"
+									  d="M4.73,16.465c-1.912,0-3.467-1.557-3.467-3.467c0-1.911,1.555-3.467,3.467-3.467 c1.91,0,3.465,1.556,3.465,3.467C8.195,14.908,6.641,16.465,4.73,16.465z M4.73,11.212c-0.986,0-1.789,0.801-1.789,1.786 c0,0.986,0.803,1.787,1.789,1.787s1.787-0.801,1.787-1.787C6.518,12.013,5.717,11.212,4.73,11.212z"></path>
+								<path fill="#3F3F40"
+									  d="M21.27,24.533c-1.911,0-3.466-1.553-3.466-3.467c0-1.912,1.555-3.467,3.466-3.467 c1.91,0,3.467,1.555,3.467,3.467C24.736,22.98,23.18,24.533,21.27,24.533z M21.27,19.281c-0.986,0-1.788,0.797-1.788,1.785 s0.802,1.785,1.788,1.785s1.787-0.797,1.787-1.785S22.256,19.281,21.27,19.281z"></path>
+								<path fill="#3F3F40"
+									  d="M21.27,8.396c-1.911,0-3.466-1.553-3.466-3.463c0-1.911,1.555-3.466,3.466-3.466 c1.91,0,3.467,1.555,3.467,3.466C24.736,6.843,23.18,8.396,21.27,8.396z M21.27,3.145c-0.986,0-1.788,0.801-1.788,1.788 c0,0.983,0.802,1.784,1.788,1.784s1.787-0.801,1.787-1.784C23.057,3.945,22.256,3.145,21.27,3.145z"></path>
+								<rect x="6.432" y="16.199"
+									  transform="matrix(0.8884 0.459 -0.459 0.8884 9.2716 -4.0689)"
+									  fill="#3F3F40" width="13.148" height="1.675"></rect>
+								<rect x="12.161" y="2.384"
+									  transform="matrix(0.4586 0.8886 -0.8886 0.4586 15.0031 -6.698)"
+									  fill="#3F3F40" width="1.676" height="13.159"></rect>
+							</svg>
+								<span>Share</span>
+							</button>
+								<div class="menuFlyout">
+									
+									<div class="sh"></div>
+								</div></li>
+
+							<li class="hidden-xs"><button id="territoryBtn">
+								<svg xmlns="http://www.w3.org/2000/svg" width="26" height="26"
+									 viewBox="0 0 26 26">
+									<path fill="#3F3F40"
+										  d="M12.971,25.93c-0.72,0-1.437-0.432-1.868-1.148L5.07,14.438C2.484,9.982,3.777,4.094,8.087,1.507 c1.436-0.86,3.161-1.437,4.884-1.437c3.305,0,6.465,1.725,8.047,4.742c1.579,2.873,1.722,6.32,0,9.193c0,0,0,0,0,0.143 l-6.178,10.775C14.408,25.498,13.689,25.93,12.971,25.93z M12.971,1.507c-1.437,0-2.873,0.433-4.165,1.149 C5.214,4.812,4.065,9.84,6.363,13.574l6.033,10.488c0.145,0.432,0.432,0.432,0.575,0.432s0.432,0,0.573-0.432l6.179-10.631 c0,0,0,0,0-0.145c1.437-2.441,1.437-5.458,0-7.9C18.433,3.088,15.844,1.507,12.971,1.507z"></path>
+									<path fill="#3F3F40"
+										  d="M12.971,13c-2.011,0-3.592-1.579-3.592-3.592c0-2.011,1.581-3.591,3.592-3.591 c2.011,0,3.592,1.58,3.592,3.591C16.563,11.421,14.982,13,12.971,13z M12.971,7.254c-1.149,0-2.155,1.006-2.155,2.154 c0,1.15,1.006,2.156,2.155,2.156c1.148,0,2.154-1.006,2.154-2.156C15.125,8.26,14.119,7.254,12.971,7.254z"></path>
+								</svg>
+							</button>
+								<div class="menuFlyout">
+									<div class="selected-territory" id="selectedTerritory">  </div>
+									<div class="territory-dropdown">
+
+									</div>
+								</div>
+							</li>
+							<li class="hidden-xs language-selector-li">
+							</li>
+						</ul>
+
+<input type="hidden" id="enableUserReg" value='true'>
+<a id="skipToContent" href="#" class="sr-only sr-only-focusable skip-content">Skip to content</a>
+<a id="skipToFooter" href="#pgFooter" class="sr-only sr-only-focusable skip-content">Skip to footer</a>
+
+                    <button id="dropdownTrigger_lg" type="button" class="navbar-toggle slim-header__menu-btn">
+                        <div>
+                            <span class="icon-bar icon-bar1"></span> 
+                            <span class="icon-bar icon-bar2"></span> 
+                            <span class="icon-bar icon-bar3"></span>
+                        </div>
+                        <span class="hamburger-title"> Menu </span>
+                    </button>
+    			</div>
+    		</div>
+    	</div>
+    </div>
+</div>
+<nav id="breadcrumbWrapper">
+	<div class="container">
+		<div class="row">
+			<div class='col-md-7 col-sm-6  hidden-xs breadcrumb-main'>
+			</div>
+			<ul id="menuAdditionalMobile" class="col-xs-6 menu-additional clearfix visible-xs-block">
+				<li>
+					<button id="territoryBtnMobile" href="https://www.pwc.com/gx/en/site-information/site-index.html">
+						<svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 26 26">
+							<path fill="#3F3F40" d="M12.971,25.93c-0.72,0-1.437-0.432-1.868-1.148L5.07,14.438C2.484,9.982,3.777,4.094,8.087,1.507 c1.436-0.86,3.161-1.437,4.884-1.437c3.305,0,6.465,1.725,8.047,4.742c1.579,2.873,1.722,6.32,0,9.193c0,0,0,0,0,0.143 l-6.178,10.775C14.408,25.498,13.689,25.93,12.971,25.93z M12.971,1.507c-1.437,0-2.873,0.433-4.165,1.149 C5.214,4.812,4.065,9.84,6.363,13.574l6.033,10.488c0.145,0.432,0.432,0.432,0.575,0.432s0.432,0,0.573-0.432l6.179-10.631 c0,0,0,0,0-0.145c1.437-2.441,1.437-5.458,0-7.9C18.433,3.088,15.844,1.507,12.971,1.507z"></path>
+							<path fill="#3F3F40" d="M12.971,13c-2.011,0-3.592-1.579-3.592-3.592c0-2.011,1.581-3.591,3.592-3.591 c2.011,0,3.592,1.58,3.592,3.591C16.563,11.421,14.982,13,12.971,13z M12.971,7.254c-1.149,0-2.155,1.006-2.155,2.154 c0,1.15,1.006,2.156,2.155,2.156c1.148,0,2.154-1.006,2.154-2.156C15.125,8.26,14.119,7.254,12.971,7.254z"></path>
+						</svg>
+					</button>
+					<div class="territory-dropdown">
+					</div>
+				</li>
+				<li class="language-selector-li">
+				</li>
+			</ul>
+			
+				
+					
+						
+						
+
+    
+
+
+
+
+
+
+
+ 
+<input type="hidden" id="availableSocialChannelForOverlay" value='null'>        
+<input type='hidden' id='myReadingListPagePath' value='/content/pwc/userReg/user-readinglists.html'>
+<input type="hidden" id="locale" value='en_gx'>
+<input type='hidden' id='checkUserLoginOrNot' value='false'>
+<input type="hidden" id="enableReadingList" value='true'>
+
+
+<div class="col-md-5 col-sm-6 col-xs-6">
+	<div class="profile-access-buttons">
+		<button id="myAccountButton" data-toggle="modal" data-target="#myAccount"
+			class=""><span
+			class="profile-access__icon account-icon"></span> 
+				
+					<div class="profile-access__title">
+						<span>
+							My account
+						</span>
+					</div>
+				
+				
+			
+		</button>	
+        
+        <button id="myListButton" data-toggle="modal" data-target="#myList">
+            <span id="myListStarIcon" class="profile-access__icon star-icon"></span>
+            <div class="profile-access__title">
+        		<span class="hidden-xs">
+        			My Lists
+        		</span>
+            </div>
+        </button>
+        
+    </div>
+    
+
+    <!--- My list overlay -->
+    
+    <div class="modal fade profile-access__modal" id="myList" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+
+
+                <div class="profile-access__modal-content myaccount__benefits">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-12 col-xs-12">
+                                <!-- Sign in  panel -->
+                                <div class="modal-body mylist-panel__body mylist-benefits--panel__body" id="signInPanel">
+                                    <div class="row">
+                                        <h5 class="col-md-12 myaccount-benefits__heading">
+                                        	<a href="/content/pwc/userReg/login.en_gx.html?redirectUrl=gG0V-55Ilpsw21J2UMYgbIH5ktcJLK2-PIsTtC5NbXL4-k-uxutOGit1CbXRDbIE2UG7EY4c8BgJEWzWAvKiPpZkakLVxUwn&referrer=gG0V-55Ilpsw21J2UMYgbIH5ktcJLK2-PIsTtC5NbXL4-k-uxutOGit1CbXRDbIE2UG7EY4c8BgJEWzWAvKiPpZkakLVxUwn&parentPagePath=/content/pwc/gx/en">
+                                        		Sign in
+                                        	</a>
+                                        	or
+                                        	<a href="/content/pwc/userReg/register.en_gx.html?redirectUrl=gG0V-55Ilpsw21J2UMYgbIH5ktcJLK2-PIsTtC5NbXL4-k-uxutOGit1CbXRDbIE2UG7EY4c8BgJEWzWAvKiPpZkakLVxUwn&referrer=gG0V-55Ilpsw21J2UMYgbIH5ktcJLK2-PIsTtC5NbXL4-k-uxutOGit1CbXRDbIE2UG7EY4c8BgJEWzWAvKiPpZkakLVxUwn&parentPagePath=/content/pwc/gx/en">
+                                        		Create your account
+                                        	</a>
+                                        	to benefit from:</h5> 
+                                    </div>
+                                    <div class="row mylist-benefits">
+                                        <div class="col-xs-12 col-sm-6 col-sm-push-6 mylist-save">
+                                            <div class="arrow__content">
+                                                <p>Register and add content to your list</p>
+<p>Start adding content to your list by clicking on the star icon included in each card</p>
+                                                <div class="directional__arrow"></div>
+                                            </div>
+                                        
+                                            <div class="star__content">
+                                                <div class="directional__star"></div>
+                                            </div>
+                                        </div>
+                                        <div class="col-xs-12 col-sm-6 col-sm-pull-6 mylist-benefits__container">
+                                            <h6>When you join PwC you can also:</h6>
+   <ul class="myaccount-benefits__list">
+ <li>
+ <span>Set preferences for tailored content suggestions across the site</span>
+ </li>
+ <li>
+ <span>Access premium content</span>
+ </li>
+   </ul>                         
+                                        </div>
+                                    </div>
+                                </div> 
+                                <!-- Sign in panel ends -->
+
+                                <!-- No items Panel(Uncomment the mark up below to show this panel and Comment the sign in panel) -->
+                                <div class="modal-header pwc-forms mylist-panel__header" id="overlayHeaderMenu">
+	                               	<div class="mylist__select-list">
+	                                    <h3 class="modal-title pull-left" id="myModalLabel">Select a list</h3>
+	                                    <div class="pwc-forms__field pwc-forms__field--select form-group pull-left">
+	                                        <select class="form-control pwc-forms__reading-list--select" id="overlaydropdown">
+	
+	                                        </select>
+	                                    </div>
+	                                       <div class="pwc-forms__field form-group mylist__newlist-button pull-left">
+	                                           <a id="overlayReadingListCreateNew" class="pwc-forms__btn mylist__create-list" href="#" role="button">Create new list</a>
+	                                       </div>
+	                                 </div>
+                                    <div class="mylist__manage-button">
+                                        <button class="btn btn--transparent" id="manageList">Manage your lists</button>
+                                    </div>
+                                </div>
+                                <div class="modal-body mylist-panel__body clearfix" id="overlayItemBody">
+                                    <div class="row">
+                                        <div class="col-md-7 col-xs-12">
+                                        		<h3 class="mylist__heading" id="overlayListHead"></h3>
+											<div class="mylist__description" id="overlayListDescription">
+								            </div>
+                                        </div>
+                                        <ul class="col-md-5 col-xs-12 mylist__options">
+                                            <li><a class="mylist__options--edit" id="overlayReadingEditList" href="#"><span>Edit this list</span></a></li>
+                                            <li>
+                                            		<button class="mylist__options--share" id="shareListButton"><span>Share this list</span></button>
+                                            		<div class="share-tooltip-arrow"></div>
+                                            		<div class="share-tooltip">
+								                  <span class="hidden-xs">Share this list</span>
+								                  <ul class="share-list share-list-overlay">
+								                     <li class="twitter">
+								                        <a class='shareIconOverlay' id='ovarlayShareOnTwitter' href='#' onclick='shareListForOverlay(this);return false;' data-medium="twitter" socialhref="https://twitter.com/intent/tweet/?url=">
+                                               				</a>
+								                     </li>
+								                     <li class="linkedin">
+								                        <a class='shareIconOverlay' id='overlayShareOnLinkedin' href='#' onclick='shareListForOverlay(this);return false;' data-medium="linkedin" socialhref="https://www.linkedin.com/shareArticle?mini=true&amp;url=">
+		                                                </a>
+								                     </li>
+								                     <li class="facebook">
+								                        <a class='shareIconOverlay' id='overlayShareOnFB' href='#' onclick='shareListForOverlay(this);return false;' data-medium="facebook" socialhref='https://www.facebook.com/sharer/sharer.php?u='>
+		                                                </a> 
+								                     </li>
+								                     <li class="gplus">
+														<a class='shareIconOverlay' id='overlayShareOnGooglePlus' href='#' onclick='shareListForOverlay(this);return false;' data-medium="googlePlus" socialhref='https://plus.google.com/share?url='>
+														</a>									                     </li>
+
+                                                      <li class="weibo">
+                                                          <a id='overlayShareOnWeibo' href="#" class='shareIconOverlay' onclick='shareListForOverlay(this);return false' data-medium="weibo" socialhref='http://v.t.sina.com.cn/share/share.php?url=' +escape(window.location.hostname)></a>
+                                                      </li>
+								                     <li class="email">
+														<a class='shareIconOverlay' id='overlayShareOnMail' href='#' onclick='shareListForOverlay(this);return false;' data-medium="mail" socialhref=''>
+		                                                 </a>									                     </li>
+								                     <li class="link">
+														<a class='shareIconOverlay' id='overlayCopyLink' href='#' onclick='shareListForOverlay(this);return false;' data-medium="copyLink" socialhref=''>
+                                               				</a>
+                                               		  	</li>
+								                  </ul>
+                                                  <div class="input-group readinglist__copy-box-link" id="copyBoxInOverlay"  style="display:none">
+                                                          <input id="copyLinkBoxInOverlay" type="text" class="form-control" onclick="copyLinkInOverlay()" title='Click on the box to copy the URL.' data-toggle="URLCopytooltip">
+                                                          <!-- <button id="copyLinkButtonInOverlay" onclick="copyLinkInOverlay()" class="btn btn-default" type="button" onclick="copyLink()">Copy</button> -->
+                                                  </div>
+								               </div>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="row mylist__items no-items" id="addContent">
+								         <div class="col-xs-12 mylist-save">
+								            <div class="arrow__content">
+								               <p>Add content to your list</p>
+<p>Start adding content to your list by clicking on the star icon included in each card</p>
+								               <div class="directional__arrow"></div>
+								            </div>
+								         
+								            <div class="star__content">
+								               <div class="directional__star"></div>
+								            </div>
+								         </div>
+      								</div>
+                                    <div class="row mylist__items">
+                                        <div id="readingListItemsInOverlay" class="dpe-component-wrapper collection-component">
+                                            <div class="container separetor">
+                                                <div id="collection--content-pwc-gx-en-jcr-content-dynamic-content-par-collection-0">
+                                                    <div class="row">
+                                                        <div class="sub-comp--horiz-links sub-comp--horiz-links--bottom-pad">
+                                                            <div class="col-sm-6 col-xs-6" id="overlayNoOfItems">
+
+                                                            </div>
+                                                            <div class="col-sm-6 col-xs-6" id="overlayLoadMoreItems">
+
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="row">
+                                                        <div class="collection__content" id="overlayArticlesItems">
+
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="row">
+                                                        <div id="moreLinks--content-pwc-gx-en-jcr-content-dynamic-content-par-collection-0" class="">
+                                                            <div id="loadmore--content-pwc-gx-en-jcr-content-dynamic-content-par-collection-0" class="collection__load-more">
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>    
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="modal-footer">
+                                </div>
+                                <!-- No items Panel ends-->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+	
+
+	<div class="modal fade profile-access__modal" id="myAccount"
+		tabindex="-1" role="dialog" aria-labelledby="myAccountLabel"
+		aria-hidden="true">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="profile-access__modal-content myaccount__benefits">
+					<div class="container">
+						<div class="row">
+							<div class="col-md-12 col-xs-12">
+								<div class="modal-header ">
+									
+										
+											<h3 class="modal-title" id="myAccoutLabel">Welcome to PwC</h3>
+										
+										
+									
+								</div>
+								<div class="modal-body">
+									
+										
+											<div class="row">
+												<!-- <div class="col-md-6 col-xs-12 pull-right text-right myaccount__login"> -->
+												<div class="col-md-6 col-xs-12 myaccount__login">
+													<a type="button" class="btn btn--transparent" href="/content/pwc/userReg/login.en_gx.html?redirectUrl=gG0V-55Ilpsw21J2UMYgbIH5ktcJLK2-PIsTtC5NbXL4-k-uxutOGit1CbXRDbIE2UG7EY4c8BgJEWzWAvKiPpZkakLVxUwn&referrer=gG0V-55Ilpsw21J2UMYgbIH5ktcJLK2-PIsTtC5NbXL4-k-uxutOGit1CbXRDbIE2UG7EY4c8BgJEWzWAvKiPpZkakLVxUwn&parentPagePath=/content/pwc/gx/en">Sign in</a>
+													<span>or</span>
+													<a type="button" class="btn btn--primary" href="/content/pwc/userReg/register.en_gx.html?redirectUrl=gG0V-55Ilpsw21J2UMYgbIH5ktcJLK2-PIsTtC5NbXL4-k-uxutOGit1CbXRDbIE2UG7EY4c8BgJEWzWAvKiPpZkakLVxUwn&referrer=gG0V-55Ilpsw21J2UMYgbIH5ktcJLK2-PIsTtC5NbXL4-k-uxutOGit1CbXRDbIE2UG7EY4c8BgJEWzWAvKiPpZkakLVxUwn&parentPagePath=/content/pwc/gx/en">Register</a>
+												</div>
+											</div>
+											<div class="row">
+												<h5 class="col-md-12 myaccount-benefits__heading">
+													<a href="/content/pwc/userReg/login.en_gx.html?redirectUrl=gG0V-55Ilpsw21J2UMYgbIH5ktcJLK2-PIsTtC5NbXL4-k-uxutOGit1CbXRDbIE2UG7EY4c8BgJEWzWAvKiPpZkakLVxUwn&referrer=gG0V-55Ilpsw21J2UMYgbIH5ktcJLK2-PIsTtC5NbXL4-k-uxutOGit1CbXRDbIE2UG7EY4c8BgJEWzWAvKiPpZkakLVxUwn&parentPagePath=/content/pwc/gx/en">Sign in</a>
+													or
+													<a href="/content/pwc/userReg/register.en_gx.html?redirectUrl=gG0V-55Ilpsw21J2UMYgbIH5ktcJLK2-PIsTtC5NbXL4-k-uxutOGit1CbXRDbIE2UG7EY4c8BgJEWzWAvKiPpZkakLVxUwn&referrer=gG0V-55Ilpsw21J2UMYgbIH5ktcJLK2-PIsTtC5NbXL4-k-uxutOGit1CbXRDbIE2UG7EY4c8BgJEWzWAvKiPpZkakLVxUwn&parentPagePath=/content/pwc/gx/en">Create your account</a>
+													to:
+												</h5>
+											</div>
+                                             <ul class="row myaccount-benefits__list"><li class="col-md-6"><span>Access premium content</span></li><li class="col-md-6"><span>Set preferences for tailored content suggestions across the site</span></li><li class="col-md-6"><span>Save content to reading lists</span></li></ul>
+										
+										
+									
+								</div>
+								
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+    <input type="hidden" id="overlayListName" value="">
+    <input type="hidden" id="overlayListDescription" value="">
+    <input type="hidden" id="overlayLastSelected" value="">
+<script>
+	var PwCI18n = {
+	    readingListTranslatedValues: {
+	        User_Reg_Reading_List_Staricon_Save_Label : 'Save',
+	        User_Reg_Reading_List_Staricon_Remove_Label : 'Remove',
+	        User_Reg_Reading_List_No_More_Exist_Text : 'The user reading list has been moved or deleted',
+	        User_Reg_Reading_List_Not_Exist : 'User reading list does not exist',
+	        User_Reg_Reading_List_Staricon_Show_All_Lists : 'Show All lists',
+	        User_Reg_Reading_List_Staricon_Hide_List : 'Hide lists',
+	        UserReg_ReadingList_Recently_Added : 'Recently Added',
+	        User_Reg_Reading_List_View_N_Items : 'View all {0} items',
+	        User_Reg_Reading_List_No_Description : 'No description',
+	        User_Reg_Reading_List_Staricon_Remove_Label : 'Remove',
+            User_Reg_Reading_List_Items : 'items',
+			User_Reg_Reading_List_New_List : 'new list'
+	    },
+	    getTranslation: function(key) {
+	        var translatedVal = PwCI18n.readingListTranslatedValues[key];
+	        return translatedVal && translatedVal.trim().length > 0 && translatedVal != 'null' ? translatedVal : key;
+	    }
+	}
+</script>
+
+					
+					
+				
+			
+		</div>
+	</div>
+</nav>
+<nav id="navBar">
+    <div class="hamburger-menu">
+        <nav id="breadcrumbWrapperMobile" class="visible-xs-block"></nav>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-8 hidden-xs"></div>
+                <div class="col-xs-12 hamburger-submenu--mobile visible-xs-block">
+                    <div class="panel-group" id="accordion" role="tablist"
+                         aria-multiselectable="true">
+                    </div>
+                </div>
+                <div class="col-sm-4 col-xs-12 level-one-links" id="LevelOneLinks">
+                    <div class="social-share-menu visible-xs-block">
+                        <!-- <div class="utility-mobile"></div> -->
+                        <div class="menuFlyout">
+                            Share this page
+                            <div class="sh"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</nav>
+</header>
+
+
+<script id="language-selector-template" type="text/x-handlebars-template">
+	<div class="dropdown language-selector" id="languageSelector{{#if isMobile}}Mobile{{/if}}">
+    		<button class="dropdown-toggle language-selector__btn" type="button"  id="languageSelectorDropdown{{#if isMobile}}Mobile{{/if}}">
+        		{{currentLanguageTitle}}
+             <span class="chevron"></span>
+        </button>
+        <ul class="dropdown-menu language-selector__dropdown-options" aria-labelledby="languageSelectorDropdown{{#if isMobile}}Mobile{{/if}}">
+        		<li><span>Choose a language:</span></li>
+            {{#each alternateLanguages}}
+        <li {{#if this.isCurrentLanguage}} class="selected" {{/if}}><a href="{{this.linkURL}}">{{this.linkText}}</a></li>
+            {{/each}}
+        </ul>
+    </div>
+</script>
+
+<script id="territory-selector-template" type="text/x-handlebars-template">
+	<div class="language-field-container">
+    		<input class="languageField" type="text" list="PwC_countries">
+    </div>
+
+    <div class="PwC_countries">
+    		<span> Find a location</span>
+        {{#each this}}
+			{{#if territoryFinder}}
+        			<a href="{{domain}}" title="{{name}}">{{name}}</a>
+				{{#each alias}}
+					<a href="{{../domain}}" title="{{this}}">{{this}}</a>
+        		{{/each}}
+			{{/if}}
+        {{/each}}
+    </div>
+    <button type="button" class="territorySubmit"></button>
+    <span class="languageField_valid">No match found</span>
+</script>
+
+<script id="breadcrumb-template" type="text/x-handlebars-template">
+    <div class="breadcrumb-component__scroll-pane" id="breadcrumbScrollPane{{#if isMobile}}Mobile{{/if}}">
+    		{{#unless isMobile}}<button class="breadcrumb-toggle">
+                <label class="sr-only">Show full breadcrumb</label>
+            </button>{{/unless}}
+            <ul class="{{#unless isMobile}}{{/unless}} breadcrumb full-closed">
+            {{#each breadcrumbs}}
+            <li class="breadcrumbVisible">
+            		<a href="{{this.linkURL}}">{{this.linkText}}</a>
+            </li>
+            {{/each}}
+        </ul>
+    </div>
+    <div class="breadcrumb-component__scroll-fade breadcrumb-component__scroll-fade--left"></div>
+    <div class="breadcrumb-component__scroll-fade breadcrumb-component__scroll-fade--right"></div>
+</script>
+
+<script id="hamburger-template" type="text/x-handlebars-template">
+    {{#ifEquals navigationStrategy "sibling-children"}}
+        {{#if hasSectionTitle}}
+        <h5 class="dynamic-site__heading"><a href="{{addExtensionIfRequired sectionPagePath 'html'}}">{{sectionTitle}}</a></h5>
+        {{/if}}
+        <div class="row hamburger-submenu">
+            <ul class="nav nav-tabs level-two-navs col-md-6">
+                {{#each hamburgerLinks.primary}}
+                <li><a data-tab-pane="secondLevelItem{{math @index '+' '1'}}"
+                       href="{{addExtensionIfRequired this.url 'html'}}">
+                    <span class="level-two-nav__title">{{this.text}}</span>
+                    {{#if this.children.length}}
+                    <span class="level-two-nav__arrow"></span>
+                    {{/if}}
+                </a></li>
+                {{/each}}
+            </ul>
+            {{#if hamburgerLinks.primary.length}}
+            <div class="tab-content level-three-navs col-md-6">
+                {{#each hamburgerLinks.primary}}
+                <div id="secondLevelItem{{math @index '+' '1'}}" class="tab-pane">
+                    <ul>
+                        {{#each this.children}}
+                        <li>
+                            <a href="{{addExtensionIfRequired this.url 'html'}}">{{this.text}}</a>
+                        </li>
+                        {{/each}}
+                    </ul>
+                </div>
+                {{/each}}
+            </div>
+        </div>
+        {{/if}}
+        {{/ifEquals}}
+        {{#ifEquals navigationStrategy "manual"}}
+        {{#if hasSectionTitle}}
+        <span class="sectiontitle"><a href="{{addExtensionIfRequired sectionPagePath 'html'}}">{{sectionTitle}}</a></span>
+        {{/if}}
+        <div class="row">
+            {{#if hamburgerLinks.primary.length}}
+            <div class="col-sm-6" id="inPageNavigation">
+                <ul>
+                    {{#each hamburgerLinks.primary}}
+                    <li>
+                        <a href="{{addExtensionIfRequired this.url 'html'}}" class="inPageLink"
+                           target="{{this.targetType}}"><span>{{this.text}}</span></a>
+                    </li>
+                    {{/each}}
+                </ul>
+            </div>
+            {{/if}}
+            {{#if hamburgerLinks.secondary.length}}
+            <div class="col-sm-6" id="furtherArticles">
+                <ul>
+                    {{#each hamburgerLinks.secondary}}
+                    <li>
+                        <a href="{{addExtensionIfRequired this.url 'html'}}"
+                           target="{{this.targetType}}"><span>{{this.text}}</span></a>
+                    </li>
+                    {{/each}}
+                </ul>
+            </div>
+            {{/if}}
+        </div>
+    {{/ifEquals}}
+</script>
+
+<script id="hamburger-levelOne-template" type="text/x-handlebars-template">
+    {{#if levelOneLinks.length}}
+        <h3>Explore PwC
+        </h3>
+        <ul class="row">
+            {{#each levelOneLinks}}
+            <li>
+                <a href="{{this.link}}" target="{{#if this.openNewWindow}}_blank{{else}}_self{{/if}}" class="clearfix">
+                    <span>{{this.title}}</span>
+                </a>
+            </li>
+            {{/each}}
+        </ul>
+    {{/if}}
+</script>
+
+<script id="hamburger-mobile-template" type="text/x-handlebars-template">
+    {{#ifEquals navigationStrategy "sibling-children"}}
+    		{{#each hamburgerLinks.primary}}
+        		<div class="panel panel-default">
+            		<div class="panel-heading" role="tab" id="levelTwoLinks_{{math @index '+' '1'}}">
+                		<h4 class="panel-title">
+                    		<a role="button" href="{{addExtensionIfRequired this.url 'html'}}" 
+                       		aria-expanded="false" aria-controls="levelThreeLinks_{{math @index '+' '1'}}">
+                        		{{this.text}}
+                    		</a>
+                    		<span></span>
+                		</h4>
+            		</div>
+            		<div id="levelThreeLinks_{{math @index '+' '1'}}" class="panel-collapse collapse" role="tabpanel"
+                 		aria-labelledby="levelTwoLinks_{{math @index '+' '1'}}">
+                		<div class="panel-body">
+                    		<ul>
+                        		{{#each this.children}}
+                        			<li>
+                        				<a href="{{addExtensionIfRequired this.url 'html'}}">{{this.text}}</a>
+                        			</li>
+                        		{{/each}}
+                    		</ul>
+                		</div>
+            		</div>
+        		</div>
+    		{{/each}}
+    {{/ifEquals}}
+	{{#ifEquals navigationStrategy "manual"}}
+        {{#if hasSectionTitle}}
+        <span class="sectiontitle"><a href="{{addExtensionIfRequired sectionPagePath 'html'}}">{{sectionTitle}}</a></span>
+        {{/if}}
+        <div class="row">
+            {{#if hamburgerLinks.primary.length}}
+            <div class="col-sm-6" id="inPageNavigation">
+                <ul>
+                    {{#each hamburgerLinks.primary}}
+                    <li>
+                        <a href="{{addExtensionIfRequired this.url 'html'}}" class="inPageLink"
+                           target="{{this.targetType}}"><span>{{this.text}}</span></a>
+                    </li>
+                    {{/each}}
+                </ul>
+            </div>
+            {{/if}}
+            {{#if hamburgerLinks.secondary.length}}
+            <div class="col-sm-6" id="furtherArticles">
+                <ul>
+                    {{#each hamburgerLinks.secondary}}
+                    <li>
+                        <a href="{{addExtensionIfRequired this.url 'html'}}"
+                           target="{{this.targetType}}"><span>{{this.text}}</span></a>
+                    </li>
+                    {{/each}}
+                </ul>
+            </div>
+            {{/if}}
+        </div>
+    {{/ifEquals}}
+</script>
+
+<script id="social-share-template" type="text/x-handlebars-template">
+    {{#each socialShareConfiguration}}
+        {{#ifEquals this "Facebook"}}
+        <a href="https://www.facebook.com/sharer/sharer.php?u={{socialURL}}">
+            <span class="sti-btn sti-facebook-btn circle-icon">FB</span></a>
+        {{/ifEquals}}
+        {{#ifEquals this "Twitter"}}
+        <a data-url="https://twitter.com/intent/tweet/?url={{socialURL}}" href="javascript:void(0)" class="sh__twitter">
+            <span class="sti-btn sti-twitter-btn circle-icon">twitter</span></a>
+        {{/ifEquals}}
+        {{#ifEquals this "Linkedin"}}
+        <a href="https://www.linkedin.com/shareArticle?mini=true&url={{socialURL}}">
+            <span class="sti-btn sti-linkedin-btn circle-icon">Linkedin</span></a>
+        {{/ifEquals}}
+        {{#ifEquals this "Googleplus"}}
+        <a href="https://plus.google.com/share?url={{socialURL}}"><span
+                class="sti-btn sti-google-btn circle-icon">GooglePlus</span></a>
+        {{/ifEquals}}
+        {{#ifEquals this "Weibo"}}
+        <a href="http://v.t.sina.com.cn/share/share.php?url={{socialURL}}">
+            <span class="sti-btn sti-weibo-btn circle-icon">Weibo</span></a>
+        {{/ifEquals}}
+    {{/each}}
+</script>
+
+
+<script>
+    var navigationData={"languageSelectorData":{"currentLanguageTitle":"English","alternateLanguages":[]},"territorySelectorData":[{"name":"Afghanistan","code":"af","domain":"https://www.pwc.com/af","territoryFinder":false},{"name":"Albania","code":"al","domain":"https://www.pwc.com/al","territoryFinder":true},{"name":"Algeria","code":"dz","domain":"https://www.pwc.com/dz","territoryFinder":false},{"name":"Angola","code":"ao","domain":"https://www.pwc.com/ao","territoryFinder":true},{"name":"Antigua","code":"ag","domain":"https://www.pwc.com/ag","territoryFinder":false},{"name":"Argentina","code":"ar","domain":"https://www.pwc.com.ar","territoryFinder":true},{"name":"Armenia","code":"am","domain":"https://www.pwc.com/am","territoryFinder":true},{"name":"Aruba","code":"aw","domain":"https://www.pwc.com/aw","territoryFinder":false},{"name":"Asia Pacific Customs and Trade","code":"w1","domain":"https://www.pwccustoms.com","territoryFinder":false},{"name":"Australia","code":"au","domain":"https://www.pwc.com.au","territoryFinder":true},{"name":"Austria","code":"at","domain":"https://www.pwc.at","territoryFinder":true},{"name":"Azerbaijan","code":"az","domain":"https://www.pwc.com/az","territoryFinder":true},{"name":"Bahamas","code":"bs","domain":"https://www.pwc.com/bs","territoryFinder":true},{"name":"Bahrain","code":"bh","domain":"https://www.pwc.com/bh","territoryFinder":false},{"name":"Bangladesh","code":"bd","domain":"https://www.pwc.com/bd","territoryFinder":false},{"name":"Barbados","code":"bb","domain":"https://www.pwc.com/bb","territoryFinder":true},{"name":"Belarus","code":"by","domain":"https://www.pwc.by","territoryFinder":true},{"name":"Belgium","code":"be","domain":"https://www.pwc.be","territoryFinder":true,"alias":["Belgique","België"]},{"name":"Benin","code":"bj","domain":"https://www.pwc.com/bj","territoryFinder":false},{"name":"Bermuda","code":"bm","domain":"https://www.pwc.com/bm","territoryFinder":true},{"name":"Bolivia","code":"bo","domain":"https://www.pwc.com/bo","territoryFinder":true},{"name":"Bonaire","code":"bq","domain":"https://www.pwc.com/bq","territoryFinder":false},{"name":"Bosnia and Herzegovina","code":"ba","domain":"https://www.pwc.ba","territoryFinder":true},{"name":"Botswana","code":"bw","domain":"https://www.pwc.com/bw","territoryFinder":true},{"name":"Brasil","code":"br","domain":"https://www.pwc.com.br","territoryFinder":true},{"name":"British Virgin Islands","code":"vg","domain":"https://www.pwc.com/vg","territoryFinder":true},{"name":"Brunei","code":"bn","domain":"https://www.pwc.com/bn","territoryFinder":true},{"name":"Bulgaria","code":"bg","domain":"https://www.pwc.bg","territoryFinder":true},{"name":"Burkina Faso","code":"bf","domain":"https://www.pwc.com/bf","territoryFinder":false},{"name":"Burundi","code":"bi","domain":"https://www.pwc.com/bi","territoryFinder":false},{"name":"Cambodia","code":"kh","domain":"https://www.pwc.com/kh","territoryFinder":true},{"name":"Cameroon","code":"cm","domain":"https://www.pwc.com/cm","territoryFinder":true},{"name":"Canada","code":"ca","domain":"https://www.pwc.com/ca","territoryFinder":true},{"name":"Cape Verde","code":"cv","domain":"https://www.pwc.com/cv","territoryFinder":true},{"name":"Caribbean","code":"cb","domain":"https://www.pwc.com/cb","territoryFinder":true},{"name":"Cayman Islands","code":"ky","domain":"https://www.pwc.com/ky","territoryFinder":true},{"name":"Central African Republic","code":"cf","domain":"https://www.pwc.com/cf","territoryFinder":false},{"name":"Central Americas","code":"xa","domain":"https://www.pwc.com/xa","territoryFinder":false},{"name":"Central Asia and Caucasus","code":"cs","domain":"https://www.pwc.com/cs","territoryFinder":false},{"name":"Central and Eastern Europe","code":"c1","domain":"https://www.pwc.com/c1","territoryFinder":true},{"name":"Chad","code":"td","domain":"https://www.pwc.com/td","territoryFinder":true},{"name":"Channel Islands","code":"jg","domain":"https://www.pwc.com/jg","territoryFinder":true},{"name":"Chile","code":"cl","domain":"https://www.pwc.com/cl","territoryFinder":true},{"name":"China","code":"cn","domain":"https://www.pwccn.com","territoryFinder":true,"alias":["中国"]},{"name":"Colombia","code":"co","domain":"https://www.pwc.com/co","territoryFinder":true},{"name":"Comoros","code":"km","domain":"https://www.pwc.com/km","territoryFinder":false},{"name":"Congo (Brazzaville)","code":"cg","domain":"https://www.pwc.com/cg","territoryFinder":true},{"name":"Congo (Dem. Rep.)","code":"cd","domain":"https://www.pwc.com/cd","territoryFinder":true},{"name":"Costa Rica","code":"cr","domain":"https://www.pwc.com/cr","territoryFinder":true},{"name":"Croatia","code":"hr","domain":"https://www.pwc.hr","territoryFinder":true},{"name":"Cyprus","code":"cy","domain":"https://www.pwc.com.cy","territoryFinder":true},{"name":"Czech Republic","code":"cz","domain":"https://www.pwc.com/cz","territoryFinder":true},{"name":"Côte d'Ivoire","code":"ci","domain":"https://www.pwc.com/ci","territoryFinder":false},{"name":"Denmark","code":"dk","domain":"https://www.pwc.dk","territoryFinder":true},{"name":"Djibouti","code":"dj","domain":"https://www.pwc.com/dj","territoryFinder":false},{"name":"Dominican Republic","code":"do","domain":"https://www.pwc.com/do","territoryFinder":true},{"name":"Ecuador","code":"ec","domain":"https://www.pwc.ec","territoryFinder":true},{"name":"Egypt","code":"eg","domain":"https://www.pwc.com/eg","territoryFinder":false},{"name":"El Salvador","code":"sv","domain":"https://www.pwc.com/sv","territoryFinder":true},{"name":"Equatorial Guinea","code":"gq","domain":"https://www.pwc.com/gq","territoryFinder":true},{"name":"Eritrea","code":"er","domain":"https://www.pwc.com/er","territoryFinder":false},{"name":"Estonia","code":"ee","domain":"https://www.pwc.com/ee","territoryFinder":true},{"name":"Ethiopia","code":"et","domain":"https://www.pwc.com/et","territoryFinder":false},{"name":"Fiji","code":"fj","domain":"https://www.pwc.com/fj","territoryFinder":false},{"name":"Finland","code":"fi","domain":"https://www.pwc.fi","territoryFinder":true},{"name":"France","code":"fr","domain":"https://www.pwc.fr","territoryFinder":true},{"name":"French Polynesia","code":"pf","domain":"https://www.pwc.com/pf","territoryFinder":false},{"name":"Gabon","code":"ga","domain":"https://www.pwc.com/ga","territoryFinder":true},{"name":"Gambia","code":"gm","domain":"https://www.pwc.com/gm","territoryFinder":false},{"name":"Georgia","code":"ge","domain":"https://www.pwc.com/ge","territoryFinder":true},{"name":"Germany","code":"de","domain":"https://www.pwc.de","territoryFinder":true},{"name":"Ghana","code":"gh","domain":"https://www.pwc.com/gh","territoryFinder":true},{"name":"Gibraltar","code":"gi","domain":"https://www.pwc.gi","territoryFinder":true},{"name":"Global","code":"gx","domain":"https://www.pwc.com/gx","territoryFinder":true},{"name":"Global Mobility Services","code":"w3","domain":"https://www.gmsasia.pwc.com","territoryFinder":false},{"name":"Greece","code":"gr","domain":"https://www.pwc.com/gr","territoryFinder":true},{"name":"Greenland","code":"gl","domain":"https://www.pwc.com/gl","territoryFinder":false},{"name":"Guatemala","code":"gt","domain":"https://www.pwc.com/gt","territoryFinder":true},{"name":"Guernsey","code":"xc","domain":"https://www.pwc.com/xc","territoryFinder":false},{"name":"Guinea","code":"gn","domain":"https://www.pwc.com/gn","territoryFinder":true},{"name":"Guinea Bissau","code":"gw","domain":"https://www.pwc.com/gw","territoryFinder":false},{"name":"Honduras","code":"hn","domain":"https://www.pwc.com/hn","territoryFinder":true},{"name":"Hong Kong","code":"hk","domain":"https://www.pwchk.com","territoryFinder":true},{"name":"Hungary","code":"hu","domain":"https://www.pwc.com/hu","territoryFinder":true},{"name":"ILC Legal","code":"s1","domain":"https://www.ilclegal.com","territoryFinder":true},{"name":"Iceland","code":"is","domain":"https://www.pwc.is","territoryFinder":true},{"name":"India","code":"in","domain":"https://www.pwc.in","territoryFinder":true},{"name":"Indonesia","code":"id","domain":"https://www.pwc.com/id","territoryFinder":true},{"name":"Interaméricas","code":"ia","domain":"https://www.pwc.com/ia","territoryFinder":true},{"name":"Iraq","code":"iq","domain":"https://www.pwc.com/iq","territoryFinder":false},{"name":"Ireland (Republic of)","code":"ie","domain":"https://www.pwc.ie","territoryFinder":true},{"name":"Isle of Man","code":"im","domain":"https://www.pwc.com/im","territoryFinder":true},{"name":"Israel","code":"il","domain":"https://www.pwc.com/il","territoryFinder":true,"alias":["ישראל"]},{"name":"Italy (PwC)","code":"it","domain":"https://www.pwc.com/it","territoryFinder":true},{"name":"Italy (Tax and Legal Services)","code":"w2","domain":"https://www.pwc-tls.it","territoryFinder":false},{"name":"Jamaica","code":"jm","domain":"https://www.pwc.com/jm","territoryFinder":true},{"name":"Japan","code":"jp","domain":"https://www.pwc.com/jp","territoryFinder":true,"alias":["日本,Japon,Japón,اليابان"]},{"name":"Jersey","code":"xd","domain":"https://www.pwc.com/xd","territoryFinder":false},{"name":"Jordan","code":"jo","domain":"https://www.pwc.com/jo","territoryFinder":false},{"name":"Kazakhstan","code":"kz","domain":"https://www.pwc.kz","territoryFinder":true},{"name":"Kenya","code":"ke","domain":"https://www.pwc.com/ke","territoryFinder":true},{"name":"Kosovo","code":"ks","domain":"https://www.pwc.com/ks","territoryFinder":true},{"name":"Kuwait","code":"kw","domain":"https://www.pwc.com/kw","territoryFinder":false},{"name":"Kyrgyzstan","code":"kg","domain":"https://www.pwc.com/kg","territoryFinder":false},{"name":"Laos","code":"la","domain":"https://www.pwc.com/la","territoryFinder":true},{"name":"Latvia","code":"lv","domain":"https://www.pwc.com/lv","territoryFinder":true},{"name":"Lebanon","code":"lb","domain":"https://www.pwc.com/lb","territoryFinder":false},{"name":"Liberia","code":"lr","domain":"https://www.pwc.com/lr","territoryFinder":true},{"name":"Libya","code":"ly","domain":"https://www.pwc.com/ly","territoryFinder":false},{"name":"Liechtenstein","code":"li","domain":"https://www.pwc.com/li","territoryFinder":false},{"name":"Lithuania","code":"lt","domain":"https://www.pwc.com/lt","territoryFinder":true},{"name":"Luxembourg","code":"lu","domain":"https://www.pwc.lu","territoryFinder":true},{"name":"Macau","code":"mo","domain":"https://www.pwc.com/mo","territoryFinder":false},{"name":"Macedonia","code":"mk","domain":"https://www.pwc.com/mk","territoryFinder":true},{"name":"Madagascar","code":"mg","domain":"https://www.pwc.com/mg","territoryFinder":true},{"name":"Malawi","code":"mw","domain":"https://www.pwc.com/mw","territoryFinder":true},{"name":"Malaysia","code":"my","domain":"https://www.pwc.com/my","territoryFinder":true},{"name":"Maldives","code":"mv","domain":"https://www.pwc.com/mv","territoryFinder":true},{"name":"Mali","code":"ml","domain":"https://www.pwc.com/ml","territoryFinder":false},{"name":"Malta","code":"mt","domain":"https://www.pwc.com/mt","territoryFinder":true},{"name":"Marshall Islands","code":"mh","domain":"https://www.pwc.com/mh","territoryFinder":false},{"name":"Martinique","code":"mq","domain":"https://www.pwc.com/mq","territoryFinder":false},{"name":"Mauritania","code":"mr","domain":"https://www.pwc.com/mr","territoryFinder":false},{"name":"Mauritius","code":"mu","domain":"https://www.pwc.com/mu","territoryFinder":true},{"name":"Mexico","code":"mx","domain":"https://www.pwc.com/mx","territoryFinder":true},{"name":"Middle East Region","code":"m1","domain":"https://www.pwc.com/m1/en","territoryFinder":true,"alias":["Middle East","Bahrain","Egypt","Iraq","Jordan","Kuwait","Lebanon","Libya","Oman","Qatar","Saudi Arabia","United Arab Emirates","West Bank","Gaza"]},{"name":"Moldova","code":"md","domain":"https://www.pwc.com/md","territoryFinder":true},{"name":"Monaco (Principality of)","code":"mc","domain":"https://www.pwc.com/mc","territoryFinder":false},{"name":"Mongolia","code":"mn","domain":"https://www.pwc.com/mn","territoryFinder":true},{"name":"Montenegro","code":"me","domain":"https://www.pwc.com/me/en","territoryFinder":true},{"name":"Morocco","code":"ma","domain":"https://www.pwc.com/ma","territoryFinder":false},{"name":"Mozambique","code":"mz","domain":"https://www.pwc.com/mz","territoryFinder":true},{"name":"Myanmar","code":"mm","domain":"https://www.pwc.com/mm","territoryFinder":true},{"name":"Namibia","code":"na","domain":"https://www.pwc.com/na","territoryFinder":true},{"name":"Nepal","code":"np","domain":"https://www.pwc.com/np","territoryFinder":false},{"name":"Netherlands","code":"nl","domain":"https://www.pwc.nl","territoryFinder":true},{"name":"Netherlands Antilles","code":"an","domain":"https://www.pwc.com/an","territoryFinder":true},{"name":"New Caledonia","code":"nc","domain":"https://www.pwc.com/nc","territoryFinder":true},{"name":"New Zealand","code":"nz","domain":"https://www.pwc.co.nz","territoryFinder":true},{"name":"Nicaragua","code":"ni","domain":"https://www.pwc.com/ni","territoryFinder":true},{"name":"Niger","code":"ne","domain":"https://www.pwc.com/ne","territoryFinder":false},{"name":"Nigeria","code":"ng","domain":"https://www.pwc.com/ng","territoryFinder":true},{"name":"Norway","code":"no","domain":"https://www.pwc.no","territoryFinder":true},{"name":"Oman","code":"om","domain":"https://www.pwc.com/om","territoryFinder":false},{"name":"PRTM Japan","code":"p1","domain":"https://www.pwc.com/p1","territoryFinder":false},{"name":"Pakistan","code":"pk","domain":"https://www.pwc.com.pk","territoryFinder":true},{"name":"Panama","code":"pa","domain":"https://www.pwc.com/pa","territoryFinder":true},{"name":"Papua New Guinea","code":"pg","domain":"https://www.pwc.com/pg","territoryFinder":true},{"name":"Paraguay","code":"py","domain":"https://www.pwc.com/py","territoryFinder":true},{"name":"Peru","code":"pe","domain":"https://www.pwc.pe","territoryFinder":true},{"name":"Philippines","code":"ph","domain":"https://www.pwc.com/ph","territoryFinder":true},{"name":"Poland","code":"pl","domain":"https://www.pwc.pl","territoryFinder":true},{"name":"Portugal","code":"pt","domain":"https://www.pwc.pt","territoryFinder":true},{"name":"Puerto Rico","code":"pr","domain":"https://www.pwc.com/pr","territoryFinder":false},{"name":"PwC Google","code":"g1","domain":"https://google.pwc.com","territoryFinder":true},{"name":"Qatar","code":"qa","domain":"https://www.pwc.com/qa","territoryFinder":false},{"name":"Remediation","code":"rm","domain":"https://www.pwc.com/rm","territoryFinder":false},{"name":"Romania","code":"ro","domain":"https://www.pwc.ro","territoryFinder":true},{"name":"Russia","code":"ru","domain":"https://www.pwc.ru","territoryFinder":true,"alias":["Россия"]},{"name":"Rwanda","code":"rw","domain":"https://www.pwc.com/rw","territoryFinder":true},{"name":"San Marino","code":"sm","domain":"https://www.pwc.com/sm","territoryFinder":false},{"name":"Sao Tome and Principe","code":"st","domain":"https://www.pwc.com/st","territoryFinder":false},{"name":"Saudi Arabia","code":"sa","domain":"https://www.pwc.com/sa","territoryFinder":false},{"name":"Senegal","code":"sn","domain":"https://www.pwc.com/sn","territoryFinder":true},{"name":"Serbia","code":"rs","domain":"https://www.pwc.rs","territoryFinder":true},{"name":"Seychelles","code":"sc","domain":"https://www.pwc.com/sc","territoryFinder":false},{"name":"Sierra Leone","code":"sl","domain":"https://www.pwc.com/sl","territoryFinder":false},{"name":"Singapore","code":"sg","domain":"https://www.pwc.com/sg","territoryFinder":true},{"name":"Slovakia","code":"sk","domain":"https://www.pwc.com/sk","territoryFinder":true},{"name":"Slovenia","code":"si","domain":"https://www.pwc.com/si","territoryFinder":true},{"name":"Solomon Islands","code":"sb","domain":"https://www.pwc.com/sb","territoryFinder":false},{"name":"Somalia","code":"so","domain":"https://www.pwc.com/so","territoryFinder":false},{"name":"South Africa","code":"za","domain":"https://www.pwc.co.za","territoryFinder":true},{"name":"South Korea","code":"kr","domain":"https://www.pwc.com/kr","territoryFinder":true},{"name":"Spain","code":"es","domain":"https://www.pwc.es","territoryFinder":true},{"name":"Sri Lanka","code":"lk","domain":"https://www.pwc.com/lk","territoryFinder":true},{"name":"St Lucia","code":"lc","domain":"https://www.pwc.com/lc","territoryFinder":false},{"name":"St. Kitts and Nevis","code":"kn","domain":"https://www.pwc.com/kn","territoryFinder":false},{"name":"Sudan","code":"sd","domain":"https://www.pwc.com/sd","territoryFinder":false},{"name":"Surinam","code":"sr","domain":"https://www.pwc.com/sr","territoryFinder":false},{"name":"Swaziland","code":"sz","domain":"https://www.pwc.com/sz","territoryFinder":true},{"name":"Sweden","code":"se","domain":"https://www.pwc.se","territoryFinder":true},{"name":"Switzerland","code":"ch","domain":"https://www.pwc.ch","territoryFinder":true},{"name":"Taiwan","code":"tw","domain":"https://www.pwc.tw","territoryFinder":true,"alias":["臺灣,台湾"]},{"name":"Tajikistan","code":"tj","domain":"https://www.pwc.com/tj","territoryFinder":false},{"name":"Tanzania","code":"tz","domain":"https://www.pwc.com/tz","territoryFinder":true},{"name":"Territory","code":"zz","domain":"https://www.pwc.com/zz","territoryFinder":false},{"name":"Thailand","code":"th","domain":"https://www.pwc.com/th","territoryFinder":true},{"name":"Togo","code":"tg","domain":"https://www.pwc.com/tg","territoryFinder":false},{"name":"Trinidad and Tobago","code":"tt","domain":"https://www.pwc.com/tt","territoryFinder":true},{"name":"Tunisia","code":"tn","domain":"https://www.pwc.com/tn","territoryFinder":false},{"name":"Turkey","code":"tr","domain":"https://www.pwc.com.tr","territoryFinder":true,"alias":["Türkiye"]},{"name":"Turkmenistan","code":"tm","domain":"https://www.pwc.com/tm","territoryFinder":false},{"name":"Turks and Caicos Islands","code":"tc","domain":"https://www.pwc.com/tc","territoryFinder":false},{"name":"US Virgin Islands","code":"vi","domain":"https://www.pwc.com/vi","territoryFinder":false},{"name":"UX","code":"ux","domain":"https://www.pwc.com/ux","territoryFinder":false},{"name":"Uganda","code":"ug","domain":"https://www.pwc.com/ug","territoryFinder":true},{"name":"Ukraine","code":"ua","domain":"https://www.pwc.com/ua","territoryFinder":true,"alias":["Україна"]},{"name":"United Arab Emirates","code":"ae","domain":"https://www.pwc.com/ae","territoryFinder":false},{"name":"United Kingdom","code":"uk","domain":"https://www.pwc.co.uk","territoryFinder":true,"alias":["UK"]},{"name":"United States","code":"us","domain":"https://www.pwc.com/us","territoryFinder":true,"alias":["US","USA","U.S.","America"]},{"name":"Uruguay","code":"uy","domain":"https://www.pwc.com.uy","territoryFinder":true},{"name":"Uzbekistan","code":"uz","domain":"https://www.pwc.com/uz","territoryFinder":true},{"name":"Venezuela ","code":"ve","domain":"https://www.pwc.com/ve","territoryFinder":true},{"name":"Vietnam","code":"vn","domain":"https://www.pwc.com/vn","territoryFinder":true},{"name":"West Bank and Gaza","code":"xg","domain":"https://www.pwc.com/xg","territoryFinder":false},{"name":"Yemen","code":"ye","domain":"https://www.pwc.com/ye","territoryFinder":false},{"name":"Zambia","code":"zm","domain":"https://www.pwc.com/zm","territoryFinder":true},{"name":"Zimbabwe","code":"zw","domain":"https://www.pwc.com/zw","territoryFinder":true}],"breadcrumbData":{"breadcrumbs":[{"linkText":"PwC Global","linkURL":"https://www.pwc.com/gx/en.html"},{"linkText":"Industries","linkURL":"https://www.pwc.com/gx/en/industries.html"},{"linkText":"Transportation & logistics","linkURL":"https://www.pwc.com/gx/en/industries/transportation-logistics.html"}]},"hamburgerData":{"hamburgerLinks":{"secondary":[],"primary":[{"url":"https://www.pwc.com/gx/en/industries/aerospace-defence.html","text":"Aerospace, defence & security","targetType":"_self","children":[]},{"url":"https://www.pwc.com/gx/en/industries/consumer-markets.html","text":"Consumer markets","targetType":"_self","children":[{"url":"https://www.pwc.com/gx/en/industries/consumer-markets/consumer-insights-survey","text":"Global Consumer Insights Survey 2018","targetType":"_self","children":[]},{"url":"https://www.pwc.com/gx/en/industries/consumer-markets/publications","text":"Publications","targetType":"_self","children":[]}]},{"url":"https://www.pwc.com/gx/en/industries/forest-paper-packaging.html","text":"Forest, paper & packaging","targetType":"_self","children":[]},{"url":"https://www.pwc.com/gx/en/industries/healthcare.html","text":"Healthcare","targetType":"_self","children":[]},{"url":"https://www.pwc.com/gx/en/industries/hospitality-leisure.html","text":"Hospitality & leisure","targetType":"_self","children":[]},{"url":"https://www.pwc.com/gx/en/industries/tmt/media.html","text":"Media","targetType":"_self","children":[{"url":"https://www.pwc.com/gx/en/industries/tmt/media/outlook","text":"Global Entertainment & Media Outlook","targetType":"_self","children":[]}]},{"url":"https://www.pwc.com/gx/en/industries/pharmaceuticals-life-sciences.html","text":"Pharmaceuticals & life sciences","targetType":"_self","children":[]},{"url":"https://www.pwc.com/gx/en/industries/private-equity.html","text":"Private equity","targetType":"_self","children":[]},{"url":"https://www.pwc.com/gx/en/industries/technology.html","text":"Technology","targetType":"_self","children":[]}]},"levelOneLinks":[{"link":"https://www.pwc.com/gx/en/industries.html","openNewWindow":false,"title":"Industries"},{"link":"https://www.pwc.com/gx/en/issues.html","openNewWindow":false,"title":"Today's issues"},{"link":"https://www.pwc.com/gx/en/services.html","openNewWindow":false,"title":"Services"},{"link":"https://www.pwc.com/gx/en/about.html","openNewWindow":false,"title":"About us"},{"link":"https://www.pwc.com/gx/en/research-insights.html","openNewWindow":false,"title":"Research & insights"},{"link":"https://www.pwc.com/gx/en/careers.html","openNewWindow":false,"title":"Global Careers"},{"link":"https://www.pwc.com/gx/en/pwc-press-room.html","openNewWindow":false,"title":"Press room"}],"sectionPagePath":"","sectionTitle":"","navigationStrategy":"manual"},"socialShareData":{"socialShareConfiguration":["Facebook","Twitter","Linkedin","Googleplus"],"socialURL":"/content/pwc/gx/en/industries/transportation-logistics"}};
+    var showLanguageSelector=true;
+</script>
+<script>
+
+
+	
+	var socialShareData;
+    
+	if (showLanguageSelector) {
+		prepareLanguageSelector(navigationData.languageSelectorData);
+	}    
+	prepareTerritorySelector(navigationData.territorySelectorData);
+    prepareHamburger(navigationData.hamburgerData);
+    prepareBreadcrumb(navigationData.breadcrumbData);
+    socialShareData = navigationData.socialShareData;
+    function createLanguageSelector(languageSelectorData){
+        if (languageSelectorData && languageSelectorData.alternateLanguages && languageSelectorData.alternateLanguages.length > 0) {
+            var languageListTemplate = Handlebars.compile($("#language-selector-template").html());
+            $("#menuAdditional .language-selector-li").append(languageListTemplate(languageSelectorData));
+
+            //prepare markup for mobile
+            languageSelectorData.isMobile=true;
+            $("#menuAdditionalMobile .language-selector-li").append(languageListTemplate(languageSelectorData));
+        }
+    }
+
+    function  prepareLanguageSelector(languageSelectorData){
+        if (languageSelectorData.alternateLanguages.length > 0) {
+            //render alternate language div on page only if alternate language present on page/slim-header.
+            createLanguageSelector(languageSelectorData);
+        }
+    }
+
+    function prepareTerritorySelector(territories){
+        if (territories && territories.length > 0) {
+            var territoryListTemplate = Handlebars.compile($("#territory-selector-template").html());
+            $(".territory-dropdown").append(territoryListTemplate(territories));
+        }
+    }
+
+    function prepareHamburger(hamburgerData){
+        if ((hamburgerData.hamburgerLinks && (hamburgerData.hamburgerLinks.primary.length > 0
+                || hamburgerData.hamburgerLinks.primary.length > 0)) || (hamburgerData.levelOneLinks && hamburgerData.levelOneLinks.length > 0)) {
+
+           
+            if(hamburgerData.sectionTitle){
+                hamburgerData.hasSectionTitle=true;
+            }
+           // modifyLinks(hamburgerData.hamburgerLinks.primary);
+            //modifyLinks(hamburgerData.hamburgerLinks.secondary);
+            var hamburgerTemplate = Handlebars.compile($("#hamburger-template").html());
+            //$("div.breadcrumb-main").append(hamburgerTemplate(breadcrumbData));
+
+            $(".hamburger-menu .col-sm-8").append(hamburgerTemplate(hamburgerData));
+            //populate levelOne links of hamburger
+            var hamburgerLevelOneTemplate = Handlebars.compile($("#hamburger-levelOne-template").html());
+            $("#LevelOneLinks").prepend(hamburgerLevelOneTemplate(hamburgerData));
+            
+            //populate hamburger for mobile
+            var hamburgerMobileTemplate= Handlebars.compile($("#hamburger-mobile-template").html());
+            $(".hamburger-submenu--mobile .panel-group").append(hamburgerMobileTemplate(hamburgerData));
+            
+        }else {
+            //if levelOne or LevelTwo or LevelThree Links are not present, hamburger button should not be shown.
+            $("#dropdownTrigger_lg").remove();
+            $("#navBar").remove();
+            
+        }
+    }
+
+    function prepareBreadcrumb(breadcrumbData){
+
+        if (breadcrumbData.breadcrumbs && breadcrumbData.breadcrumbs.length > 0) {
+
+            var breadcrumbTemplate = Handlebars.compile($("#breadcrumb-template").html());
+            $("div.breadcrumb-main").append(breadcrumbTemplate(breadcrumbData));
+
+            //prepare markup for mobile
+            breadcrumbData.isMobile=true;
+            $("nav#breadcrumbWrapperMobile").append(breadcrumbTemplate(breadcrumbData));
+        }
+    }
+
+    function prepareSocialShare(socialShareData){
+        if (socialShareData.socialShareConfiguration && socialShareData.socialShareConfiguration.length > 0) {
+
+            var socialShareTemplate = Handlebars.compile($("#social-share-template").html());
+            $(".menuFlyout .sh").append(socialShareTemplate(socialShareData));
+        }else {
+            $(".social-share-menu").remove();
+            $(".social-share-desktop").remove();
+        }
+    }
+    
+    $(document).ready(function(){
+    		PwcCookieConsent.insertScriptFromString('prepareSocialShare(socialShareData);', 'social-share-div',
+				4, null, null, null, null, null, true);
+    })
+
+</script>
+<div id="social-share-div">
+</div>
+<input type="hidden" id="pageTerritory" value="gx"/>
+<script>
+	var cookieI18nValues = {};
+	cookieI18nValues.cookieDescription = 'We use cookies to personalise content and to provide you with an improved user experience. By continuing to browse this site you consent to the use of cookies. Please visit our <a href=https://www.pwc.com/gx/en/site-information/cookie-policy.html>cookie policy</a> for further details.';
+	cookieI18nValues.cookieAcceptButton = 'I understand';
+</script>
+</div>
+</div>
+</div>
+</div>
+
+        <div class="centerPar"><div>
+    
+    
+    
+        
+    
+
+    
+    
+        
+    <section id="title" class="clearfix no-background__mobile page-section page-section--col-primary page-section--col-dark nomove fullwidth   videobghost " data-width="1600" data-height="900" data-image="/content/dam/pwc/gx/en/transportation-logistics/assets/tl-hero.jpg" data-wcmmode="false" data-parallax="false" style="
+                    height:;
+                    background-size:cover;                    
+                    background-position:center center; 
+                    background-image:; 
+                    background-color:;                                 
+                    ">
+
+                
+        <div class="parsys sectionpar"> 
+            <div class="herotitle section">
+    
+    <div class="dpe-component-wrapper hero-title-component ">
+        <!-- BEGIN hero title component -->
+        <div class="hero-title">
+            <div class="container">
+                <div class="row">
+                    <div class="textColumn col-sm-6 col-sm-push-6">
+                        <div class="hero-title-textpanel">
+                            <h1>Transportation &amp; logistics</h1>
+                            <p class="sub-heading">The transportation and logistics industry is confronting immense change: digital transformation, new market entrants, changing customer expectations, and new evolving business models. If you want to remain competitive, now is the time for action.</p>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+        
+        <!-- END hero title component -->
+    </div>
+
+
+</div>
+
+
+        </div>
+    </section>
+
+
+    
+
+</div>
+<div>
+    
+    
+    
+        
+    
+
+    
+    
+        
+    <section id="featured" class="clearfix  page-section page-section--col-white  fullwidth   videobghost " data-wcmmode="false" data-parallax="true" style="
+                    height:;
+                    background-size:inherit;                    
+                    background-position:; 
+                    background-image:; 
+                    background-color:;                                 
+                    ">
+
+                
+        <div class="parsys sectionpar"> 
+            
+
+        </div>
+    </section>
+
+
+    
+
+</div>
+<div>
+    
+    
+    
+        
+    
+
+    
+    
+        
+    <section id="overview" class="clearfix  page-section page-section--col-white     videobghost " data-wcmmode="false" data-parallax="true" style="
+                    height:;
+                    background-size:inherit;                    
+                    background-position:center top; 
+                    background-image:; 
+                    background-color:;                                 
+                    ">
+
+                
+        <div class="parsys sectionpar"> 
+            <div class="parsys_column pwccol2-longform"><div class="parsys_column pwccol2-longform-c0"><div class="text parbase nobg section">
+
+
+    
+
+    <div class="text-component " data-emptytext="Edit Text">
+        <h2>How we can help</h2>
+<p>Our experts offer insights, guidance and solutions to address the complex needs of this sector. More than 5,800 people at PwC are specialised on the transportation and logistics industry and its sub-sectors.</p>
+<p>Airlines &amp; airports<br>
+Logistics &amp; post<br>
+Rail &amp; roads<br>
+Shipping &amp; ports</p>
+<p>What does the future hold for the transportation &amp; logistics industry? How will business models be disrupted? Who’s driving change? What are the opportunities? What are the key technologies? Find out …</p>
+<p><a adhocenable="false" href="/gx/en/industries/transportation-logistics/transport-tomorrow.html">Industry transformation</a><br>
+</p>
+
+    </div>
+
+</div>
+</div><div class="parsys_column pwccol2-longform-c1"><div class="videoplayer section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+		  
+		              			           			           		         		
+        
+            
+            
+				
+                <div class="asset-sharing-component video-asset">
+                    <div id="videoelement545dd6fb-4fbd-43fe-9948-8a1d1723176f" class="pwcvideoplayer "><img src="/content/pwc/script/network/ajaxload.gif" alt="loading-player"></div>
+                    <div class="jw-video-error"><h3>Playback of this video is not currently available</h3></div>
+                    <div class="assetsharing">
+    
+    
+
+</div>
+
+                </div>
+            		<script type="text/javascript" id="545dd6fb-4fbd-43fe-9948-8a1d1723176f-script">
+				$(function() {
+                    var playerSetup = {
+                        videoType: "akamai",
+                        file: "https://download.pwc.com/gx/transportation-logistics/eum-hero.mp4",
+                        image: "/content/dam/pwc/gx/en/transportation-logistics/assets/tl-video/jcr:content/renditions/original/jcr:content",
+                        flashplayer: "/etc/clientlibs/pwc/videoplayer/jwplayer.flash.swf",
+                        width: "570",
+                        
+                        height: "321",
+                        title: "How does the transportation and logistics industry need to adapt for future growth? ",
+                        description: "",
+                        mediaid: "videoelement545dd6fb-4fbd-43fe-9948-8a1d1723176f",
+                        displaytitle: false,
+                        displaydescription: false,
+                        skin : {
+                            name:"pwc"
+                        }
+                    }                   
+                    jwPlayerInstanceInit("videoelement545dd6fb-4fbd-43fe-9948-8a1d1723176f", playerSetup);
+                });
+                </script>
+                
+                
+           
+
+        
+        
+    
+
+</div>
+<div class="text parbase nobg section">
+
+
+    
+
+    <div class="text-component " data-emptytext="Edit Text">
+        <h4>Listen to strategic insights on the transportation and logistics industry.</h4>
+
+    </div>
+
+</div>
+</div></div><div style="clear:both"></div>
+
+        </div>
+    </section>
+
+
+    
+
+</div>
+<div>
+    
+    
+    
+        
+    
+
+    
+    
+        
+    <section id="navigation" class="clearfix  page-section page-section--col-light-grey  fullwidth   videobghost " data-wcmmode="false" data-parallax="true" style="
+                    height:;
+                    background-size:inherit;                    
+                    background-position:center top; 
+                    background-image:; 
+                    background-color:;                                 
+                    ">
+
+                
+        <div class="parsys sectionpar"> 
+            <div class="secondary-navigation section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   
+
+<!-- V2 Colors -->
+
+	
+<div class="container">
+    <div class="row">
+        <div class="secnav-twocol secnav-twocol--simple" id="secondary_navigation">
+		<div class="secnav-twocol__pane">
+                
+			<h2 class="secnav-twocol__heading">Explore further</h2>
+                
+			<div class="clearfix secnav-twocol__listing serif">
+			
+			
+				<a class="strip-btn" href="/gx/en/industries/transportation-logistics/publications/tl2030.html">
+					<span class="strip-btn__text">Transportation & logistics 2030 series</span>
+					<span class="strip-btn__block strip-btn__icon"><span class="css-triangle--right"></span></span>
+				</a>
+			
+				<a class="strip-btn" href="/gx/en/industries/transportation-logistics/transport-tomorrow.html">
+					<span class="strip-btn__text">Industry transformation</span>
+					<span class="strip-btn__block strip-btn__icon"><span class="css-triangle--right"></span></span>
+				</a>
+			
+			</div>
+		</div>
+	</div>
+    </div>
+</div>
+	
+		
+
+    
+    
+
+
+   
+   
+
+</div>
+
+
+        </div>
+    </section>
+
+
+    
+
+</div>
+<div>
+    
+    
+    
+        
+    
+
+    
+    
+        
+    <section id="dynamic-content" class="clearfix  page-section page-section--col-white  fullwidth   videobghost " data-wcmmode="false" data-parallax="true" style="
+                    height:;
+                    background-size:inherit;                    
+                    background-position:center top; 
+                    background-image:; 
+                    background-color:;                                 
+                    ">
+
+                
+        <div class="parsys sectionpar"> 
+            <div class="collection list parbase section">
+  
+    
+    
+    <div class="collection-component dpe-component-wrapper">
+        <div class="container">
+            <div id="collection--content-pwc-gx-en-industries-transportation-logistics-jcr-content-dynamic-content-par-collection">
+                <!-- Collection divider -->
+                
+                <div class="row collection__heading-row">
+                    <!-- Collection title -->
+                    <div class="col-sm-7">
+                        <h2 class="h3 collection__title">Insights</h2>
+                    </div>
+                    
+                </div>
+                <div class="row">
+                    <div class="collection__content">
+                        
+                            
+    
+    <div id="modalbs-modalId_video" class="modal fade" tabindex="-1" role="dialog" style="display: none;" aria-hidden="true">
+        <div class="modal-dialog ">
+            <div class="modal-content" original-width="598.181818" style="width: 567.818px;">
+                <button id="close_modal" type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                <div class="modal-body">
+                    <div id="video_player_pwc" class="mediaplayer section">
+                        
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+        
+            
+            
+				
+                <div class="asset-sharing-component video-asset">
+                    <div id="videoelement05f2dd8b-f2ea-4226-abb9-6ff740f5c337" class="pwcvideoplayer "><img src="/content/pwc/script/network/ajaxload.gif" alt="loading-player"></div>
+                    <div class="jw-video-error"><h3>Playback of this video is not currently available</h3></div>
+                    <div class="assetsharing">
+    
+    
+
+</div>
+
+                </div>
+                <script type="text/javascript">
+                 $(function() {
+                    var playerInstance = jwplayer("videoelement05f2dd8b-f2ea-4226-abb9-6ff740f5c337");
+                    var playerSetup = {
+                        file: "",
+                        image: "",
+                        flashplayer: "/etc/clientlibs/pwc/videoplayer/jwplayer.flash.swf",
+                        width: "",
+                        height: "",
+                        title: "",
+                        description: "",
+                        mediaid: "videoelement05f2dd8b-f2ea-4226-abb9-6ff740f5c337",
+                        displaytitle: false,
+                        displaydescription: false,
+                        skin : {
+                            name:"pwc"
+                        }
+                    }
+                    playerInstance.setup(playerSetup);
+                    // start video tracking always after setup is called
+                    startVideoTracking(playerInstance);
+                    playerInstance.on("play", function(e) {
+                        $("#" + playerInstance.id + " .jw-icon").css("visibility", "visible");
+                        s.tl(this,"o","");
+                    });
+                    playerInstance.on("setupError", function() {
+                        $("#" + playerInstance.id).hide();
+                        $("#" + playerInstance.id).next(".jw-video-error").css("display", "block");
+                    });
+                    if(playerSetup.file.match(/^(?:https?:\/\/)?(?:m\.|www\.)?(?:youtu\.be\/|youtube\.com\/)/)) {
+                        playerInstance.on("displayClick", function(e) {
+                            $("#" + playerInstance.id + " .jw-icon").css("visibility", "hidden");
+                        });
+                        playerInstance.on("buffer", function(e) {
+                            $("#" + playerInstance.id + " .jw-icon").css("visibility", "hidden");
+                        });
+                    }
+                 });
+                </script>
+                
+                
+            
+
+        
+    
+    
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+                        
+                        
+                            <article class="col-sm-4 col-md-3 col-xs-6 collection__item  pwc-industries-automotive pwc-issues-growth_market_centre pwc-industries-energy_utilities_and_mining-power_and_utilities pwc-geography-global pwc-content-type-publication pwc-industries-transport_and_logistics pwc-industries-retail_and_consumer pwc-topics-high_growth_markets ">
+                                
+                                <a href="https://www.pwc.com/gx/en/issues/growth-markets-centre/publications/the-future-of-asean.html" class="collection__item-link">
+                                    <div class="collection__item-image-wrapper">
+                                        <img alt="The Future of ASEAN – Time to Act" src="/gx/en/growth-markets-center/assets/images/future-of-asean-1.jpg/jcr:content/renditions/cq5dam.thumbnail.319.319.png" class="img-responsive"/>
+                                    </div>
+                                    <div class="collection__item-content">
+                                        <p class="collection__item-sub-heading"><time datetime="September 17, 2018">September 17, 2018</time></p>
+                                        <h3 class="h4 regular collection__item-heading">The Future of ASEAN – Time to Act</h3>
+                                        <p class="collection__item-paragraph">PwC’s Growh Market Centre (GMC) explores the future of the ASEAN’s automotive, financial services, consumer goods, medical devices, refined fuels, telecommunications and transportation sectors.</p>
+                                        
+                                        
+                                                                <div>
+                                     
+
+                                        <div data-respath="starcheck">
+                                            <div>
+
+
+
+
+
+<!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script> -->
+
+
+
+
+<div class="dpe-component-wrapper collection-staricon">
+
+<p data-starselectorstring="/content/pwc/gx/en/issues/growth-markets-centre/publications/the-future-of-asean.html" data-starresourcepath="/content/pwc/gx/en/industries/transportation-logistics/jcr:content/dynamic-content-par/collection/collection-staricon/content/pwc/gx/en/issues/growth-markets-centre/publications/the-future-of-asean.html" pageLanguage="en" ><button class="star__btn--save-remove" onClick="displayList(this);" onmouseout="changeStyle(this,'out')" onmouseover="changeStyle(this,'in')"><span></span></button></p>
+
+
+      <div class="reading-list__tooltip--wraper-save">
+			<!-- STAR ICON NON LOGGED IN USER-->
+          <div class="reading-list__tooltip-save reading-list__tooltip--save-list reading-list__tooltip--remove" data-signin-tooltip-path='/content/pwc/gx/en/industries/transportation-logistics/jcr:content/dynamic-content-par/collection/collection-staricon/content/pwc/gx/en/issues/growth-markets-centre/publications/the-future-of-asean.html'>
+              <div class="tooltip__arrow"></div>
+              <button class="tooltip__close" onClick="closeToolTipForNonLogInUser(this);" data-signin-tooltip-close-path='/content/pwc/gx/en/industries/transportation-logistics/jcr:content/dynamic-content-par/collection/collection-staricon/content/pwc/gx/en/issues/growth-markets-centre/publications/the-future-of-asean.html'>
+                <span class="sr-only">Close</span>
+              </button>
+              <h6>Start adding items to your reading lists:</h6>
+              <div class="pwc-forms__btn btn btn--transparent staricon-link" role="button" data-href="/content/pwc/userReg/login.en_gx.html?redirectUrl=gG0V-55Ilpsw21J2UMYgbIH5ktcJLK2-PIsTtC5NbXL4-k-uxutOGit1CbXRDbIE2UG7EY4c8BgJEWzWAvKiPpZkakLVxUwn&referrer=gG0V-55Ilpsw21J2UMYgbIH5ktcJLK2-PIsTtC5NbXL4-k-uxutOGit1CbXRDbIE2UG7EY4c8BgJEWzWAvKiPpZkakLVxUwn&parentPagePath=/content/pwc/gx/en" data-analytics-event="stariconSignin">Sign in</div>
+              <span class="or" style="">or</span>
+              <div id="saveThisListCreateAccount" class="acc-btn pwc-forms__btn btn--transparent-link staricon-link" role="button" data-href="/content/pwc/userReg/register.en_gx.html?redirectUrl=gG0V-55Ilpsw21J2UMYgbIH5ktcJLK2-PIsTtC5NbXL4-k-uxutOGit1CbXRDbIE2UG7EY4c8BgJEWzWAvKiPpZkakLVxUwn&referrer=gG0V-55Ilpsw21J2UMYgbIH5ktcJLK2-PIsTtC5NbXL4-k-uxutOGit1CbXRDbIE2UG7EY4c8BgJEWzWAvKiPpZkakLVxUwn&parentPagePath=/content/pwc/gx/en" data-analytics-event="stariconRegister">Create your account</div>
+            </div>
+			<!-- STAR ICON LOGGED IN USER-->
+          <div data-readinglist-tooltip-respath='/content/pwc/gx/en/industries/transportation-logistics/jcr:content/dynamic-content-par/collection/collection-staricon/content/pwc/gx/en/issues/growth-markets-centre/publications/the-future-of-asean.html' class="reading-list__tooltip-save reading-list__tooltip--save-list reading-list__tooltip--remove" style="cursor:default;">
+                <div class="tooltip__arrow"></div>
+                <button class="tooltip__close" onClick="closeToolTip(this);" data-readingList-tooltip-selectorstring='/content/pwc/gx/en/issues/growth-markets-centre/publications/the-future-of-asean.html' data-readinglist-tooltip-respath='/content/pwc/gx/en/industries/transportation-logistics/jcr:content/dynamic-content-par/collection/collection-staricon/content/pwc/gx/en/issues/growth-markets-centre/publications/the-future-of-asean.html'>
+                <span class="sr-only">Close</span>
+              </button>
+                <h6>Save this item to:</h6>
+                <ul class="bob__list--save-parent" data-list-check-selectorstring="/content/pwc/gx/en/industries/transportation-logistics/jcr:content/dynamic-content-par/collection/collection-staricon/content/pwc/gx/en/issues/growth-markets-centre/publications/the-future-of-asean.html">
+                </ul>
+           </div>
+
+           <div data-message-tooltip-path='/content/pwc/gx/en/industries/transportation-logistics/jcr:content/dynamic-content-par/collection/collection-staricon/content/pwc/gx/en/issues/growth-markets-centre/publications/the-future-of-asean.html' class="reading-list__tooltip-save reading-list__tooltip--save-list reading-list__tooltip--remove" style="cursor:default;">
+                <div class="tooltip__arrow"></div>
+                <button class="tooltip__close" onClick="closeToolTipSaved(this);" data-message-tooltip-close-path='/content/pwc/gx/en/industries/transportation-logistics/jcr:content/dynamic-content-par/collection/collection-staricon/content/pwc/gx/en/issues/growth-markets-centre/publications/the-future-of-asean.html'>
+                <span class="sr-only">Close</span>
+               </button>
+                <h6 class="h-color">This item has been saved to your reading list.</h6>
+           </div>
+
+      </div>
+  <img class="hiddenOnLoadImage" src="/etc/clientlibs/pwc/components-colors/images/staricon-images/Star-01-Grey.svg" data-localresourcepath="/content/pwc/gx/en/industries/transportation-logistics/jcr:content/dynamic-content-par/collection/collection-staricon/content/pwc/gx/en/issues/growth-markets-centre/publications/the-future-of-asean.html" data-selectorstring="/content/pwc/gx/en/issues/growth-markets-centre/publications/the-future-of-asean.html" style="display: none;"/>
+</div>
+</div>
+										</div>
+                                     
+                                                                            <input type="hidden" id="pagePath1" value="/content/pwc/gx/en/industries/transportation-logistics"/>
+                                                                                </div>
+                                    </div>
+                                </a>
+                            </article>
+                        
+                            <article class="col-sm-4 col-md-3 col-xs-6 collection__item  pwc-series-ceo_survey pwc-content-type-publication pwc-geography-global pwc-industries-transport_and_logistics pwc-content-type-thought_leadership pwc-gx-featured-research-insights pwc-gx-series-ceo-agenda ">
+                                
+                                <a href="https://www.pwc.com/gx/en/ceo-agenda/ceosurvey/2018/gx/industries/transport-and-logistics.html" class="collection__item-link">
+                                    <div class="collection__item-image-wrapper">
+                                        <img alt="21st CEO Survey: Key findings from the Transportation &amp; Logistics industry" src="/us/en/transfer-pricing/assets/awm-third.jpg/jcr:content/renditions/cq5dam.thumbnail.319.319.png" class="img-responsive"/>
+                                    </div>
+                                    <div class="collection__item-content">
+                                        <p class="collection__item-sub-heading"><time datetime="June 05, 2018">June 05, 2018</time></p>
+                                        <h3 class="h4 regular collection__item-heading">21st CEO Survey: Key findings from the Transportation &amp; Logistics industry</h3>
+                                        <p class="collection__item-paragraph">In the space of a year, transportation and logistics (T&amp;L) CEOs have swung from pessimism about the macro economy and their own companies’ growth prospects to strong optimism, as increased economic activity, passenger travel, and shipping volumes help balance their concerns about terrorism, cyber threats, and political instability. </p>
+                                        
+                                        
+                                                                <div>
+                                     
+
+                                        <div data-respath="starcheck">
+                                            <div>
+
+
+
+
+
+<!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script> -->
+
+
+
+
+<div class="dpe-component-wrapper collection-staricon">
+
+<p data-starselectorstring="/content/pwc/gx/en/ceo-agenda/ceosurvey/2018/gx/industries/transport-and-logistics.html" data-starresourcepath="/content/pwc/gx/en/industries/transportation-logistics/jcr:content/dynamic-content-par/collection/collection-staricon/content/pwc/gx/en/ceo-agenda/ceosurvey/2018/gx/industries/transport-and-logistics.html" pageLanguage="en" ><button class="star__btn--save-remove" onClick="displayList(this);" onmouseout="changeStyle(this,'out')" onmouseover="changeStyle(this,'in')"><span></span></button></p>
+
+
+      <div class="reading-list__tooltip--wraper-save">
+			<!-- STAR ICON NON LOGGED IN USER-->
+          <div class="reading-list__tooltip-save reading-list__tooltip--save-list reading-list__tooltip--remove" data-signin-tooltip-path='/content/pwc/gx/en/industries/transportation-logistics/jcr:content/dynamic-content-par/collection/collection-staricon/content/pwc/gx/en/ceo-agenda/ceosurvey/2018/gx/industries/transport-and-logistics.html'>
+              <div class="tooltip__arrow"></div>
+              <button class="tooltip__close" onClick="closeToolTipForNonLogInUser(this);" data-signin-tooltip-close-path='/content/pwc/gx/en/industries/transportation-logistics/jcr:content/dynamic-content-par/collection/collection-staricon/content/pwc/gx/en/ceo-agenda/ceosurvey/2018/gx/industries/transport-and-logistics.html'>
+                <span class="sr-only">Close</span>
+              </button>
+              <h6>Start adding items to your reading lists:</h6>
+              <div class="pwc-forms__btn btn btn--transparent staricon-link" role="button" data-href="/content/pwc/userReg/login.en_gx.html?redirectUrl=gG0V-55Ilpsw21J2UMYgbIH5ktcJLK2-PIsTtC5NbXL4-k-uxutOGit1CbXRDbIE2UG7EY4c8BgJEWzWAvKiPpZkakLVxUwn&referrer=gG0V-55Ilpsw21J2UMYgbIH5ktcJLK2-PIsTtC5NbXL4-k-uxutOGit1CbXRDbIE2UG7EY4c8BgJEWzWAvKiPpZkakLVxUwn&parentPagePath=/content/pwc/gx/en" data-analytics-event="stariconSignin">Sign in</div>
+              <span class="or" style="">or</span>
+              <div id="saveThisListCreateAccount" class="acc-btn pwc-forms__btn btn--transparent-link staricon-link" role="button" data-href="/content/pwc/userReg/register.en_gx.html?redirectUrl=gG0V-55Ilpsw21J2UMYgbIH5ktcJLK2-PIsTtC5NbXL4-k-uxutOGit1CbXRDbIE2UG7EY4c8BgJEWzWAvKiPpZkakLVxUwn&referrer=gG0V-55Ilpsw21J2UMYgbIH5ktcJLK2-PIsTtC5NbXL4-k-uxutOGit1CbXRDbIE2UG7EY4c8BgJEWzWAvKiPpZkakLVxUwn&parentPagePath=/content/pwc/gx/en" data-analytics-event="stariconRegister">Create your account</div>
+            </div>
+			<!-- STAR ICON LOGGED IN USER-->
+          <div data-readinglist-tooltip-respath='/content/pwc/gx/en/industries/transportation-logistics/jcr:content/dynamic-content-par/collection/collection-staricon/content/pwc/gx/en/ceo-agenda/ceosurvey/2018/gx/industries/transport-and-logistics.html' class="reading-list__tooltip-save reading-list__tooltip--save-list reading-list__tooltip--remove" style="cursor:default;">
+                <div class="tooltip__arrow"></div>
+                <button class="tooltip__close" onClick="closeToolTip(this);" data-readingList-tooltip-selectorstring='/content/pwc/gx/en/ceo-agenda/ceosurvey/2018/gx/industries/transport-and-logistics.html' data-readinglist-tooltip-respath='/content/pwc/gx/en/industries/transportation-logistics/jcr:content/dynamic-content-par/collection/collection-staricon/content/pwc/gx/en/ceo-agenda/ceosurvey/2018/gx/industries/transport-and-logistics.html'>
+                <span class="sr-only">Close</span>
+              </button>
+                <h6>Save this item to:</h6>
+                <ul class="bob__list--save-parent" data-list-check-selectorstring="/content/pwc/gx/en/industries/transportation-logistics/jcr:content/dynamic-content-par/collection/collection-staricon/content/pwc/gx/en/ceo-agenda/ceosurvey/2018/gx/industries/transport-and-logistics.html">
+                </ul>
+           </div>
+
+           <div data-message-tooltip-path='/content/pwc/gx/en/industries/transportation-logistics/jcr:content/dynamic-content-par/collection/collection-staricon/content/pwc/gx/en/ceo-agenda/ceosurvey/2018/gx/industries/transport-and-logistics.html' class="reading-list__tooltip-save reading-list__tooltip--save-list reading-list__tooltip--remove" style="cursor:default;">
+                <div class="tooltip__arrow"></div>
+                <button class="tooltip__close" onClick="closeToolTipSaved(this);" data-message-tooltip-close-path='/content/pwc/gx/en/industries/transportation-logistics/jcr:content/dynamic-content-par/collection/collection-staricon/content/pwc/gx/en/ceo-agenda/ceosurvey/2018/gx/industries/transport-and-logistics.html'>
+                <span class="sr-only">Close</span>
+               </button>
+                <h6 class="h-color">This item has been saved to your reading list.</h6>
+           </div>
+
+      </div>
+  <img class="hiddenOnLoadImage" src="/etc/clientlibs/pwc/components-colors/images/staricon-images/Star-01-Grey.svg" data-localresourcepath="/content/pwc/gx/en/industries/transportation-logistics/jcr:content/dynamic-content-par/collection/collection-staricon/content/pwc/gx/en/ceo-agenda/ceosurvey/2018/gx/industries/transport-and-logistics.html" data-selectorstring="/content/pwc/gx/en/ceo-agenda/ceosurvey/2018/gx/industries/transport-and-logistics.html" style="display: none;"/>
+</div>
+</div>
+										</div>
+                                     
+                                                                            <input type="hidden" id="pagePath1" value="/content/pwc/gx/en/industries/transportation-logistics"/>
+                                                                                </div>
+                                    </div>
+                                </a>
+                            </article>
+                        
+                            <article class="col-sm-4 col-md-3 col-xs-6 collection__item  pwc-business_imperatives-accelerate_digital_technology_impact pwc-business_imperatives-grow_and_create_competitive_advantage pwc-industries pwc-content-type-publication pwc-us-topics-airlines_and_airports pwc-industries-transport_and_logistics pwc-business_imperatives-navigate_risk_and_regulatory_complexity pwc-content-type-annual-report pwc-content-type-feature pwc-business_imperatives-align_costs_with_business_strategy ">
+                                
+                                <a href="https://www.pwc.com/us/en/industries/industrial-products/library/tailwinds-airline-industry-trends.html" class="collection__item-link">
+                                    <div class="collection__item-image-wrapper">
+                                        <img alt="Tailwinds: 2018 airline industry trends" src="/us/en/industrial-products/publications/assets/2018-t-l-tailwinds-report.jpg/jcr:content/renditions/cq5dam.thumbnail.319.319.png" class="img-responsive"/>
+                                    </div>
+                                    <div class="collection__item-content">
+                                        <p class="collection__item-sub-heading"><time datetime="May 31, 2018">May 31, 2018</time></p>
+                                        <h3 class="h4 regular collection__item-heading">Tailwinds: 2018 airline industry trends</h3>
+                                        <p class="collection__item-paragraph">Our 2018 edition of Tailwinds provides an overview of the current state of the global airline industry.</p>
+                                        
+                                        
+                                                                <div>
+                                     
+
+                                        <div data-respath="starcheck">
+                                            <div>
+
+
+
+
+
+<!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script> -->
+
+
+
+
+<div class="dpe-component-wrapper collection-staricon">
+
+<p data-starselectorstring="/content/pwc/us/en/industries/industrial-products/library/tailwinds-airline-industry-trends.html" data-starresourcepath="/content/pwc/gx/en/industries/transportation-logistics/jcr:content/dynamic-content-par/collection/collection-staricon/content/pwc/us/en/industries/industrial-products/library/tailwinds-airline-industry-trends.html" pageLanguage="en" ><button class="star__btn--save-remove" onClick="displayList(this);" onmouseout="changeStyle(this,'out')" onmouseover="changeStyle(this,'in')"><span></span></button></p>
+
+
+      <div class="reading-list__tooltip--wraper-save">
+			<!-- STAR ICON NON LOGGED IN USER-->
+          <div class="reading-list__tooltip-save reading-list__tooltip--save-list reading-list__tooltip--remove" data-signin-tooltip-path='/content/pwc/gx/en/industries/transportation-logistics/jcr:content/dynamic-content-par/collection/collection-staricon/content/pwc/us/en/industries/industrial-products/library/tailwinds-airline-industry-trends.html'>
+              <div class="tooltip__arrow"></div>
+              <button class="tooltip__close" onClick="closeToolTipForNonLogInUser(this);" data-signin-tooltip-close-path='/content/pwc/gx/en/industries/transportation-logistics/jcr:content/dynamic-content-par/collection/collection-staricon/content/pwc/us/en/industries/industrial-products/library/tailwinds-airline-industry-trends.html'>
+                <span class="sr-only">Close</span>
+              </button>
+              <h6>Start adding items to your reading lists:</h6>
+              <div class="pwc-forms__btn btn btn--transparent staricon-link" role="button" data-href="/content/pwc/userReg/login.en_gx.html?redirectUrl=gG0V-55Ilpsw21J2UMYgbIH5ktcJLK2-PIsTtC5NbXL4-k-uxutOGit1CbXRDbIE2UG7EY4c8BgJEWzWAvKiPpZkakLVxUwn&referrer=gG0V-55Ilpsw21J2UMYgbIH5ktcJLK2-PIsTtC5NbXL4-k-uxutOGit1CbXRDbIE2UG7EY4c8BgJEWzWAvKiPpZkakLVxUwn&parentPagePath=/content/pwc/gx/en" data-analytics-event="stariconSignin">Sign in</div>
+              <span class="or" style="">or</span>
+              <div id="saveThisListCreateAccount" class="acc-btn pwc-forms__btn btn--transparent-link staricon-link" role="button" data-href="/content/pwc/userReg/register.en_gx.html?redirectUrl=gG0V-55Ilpsw21J2UMYgbIH5ktcJLK2-PIsTtC5NbXL4-k-uxutOGit1CbXRDbIE2UG7EY4c8BgJEWzWAvKiPpZkakLVxUwn&referrer=gG0V-55Ilpsw21J2UMYgbIH5ktcJLK2-PIsTtC5NbXL4-k-uxutOGit1CbXRDbIE2UG7EY4c8BgJEWzWAvKiPpZkakLVxUwn&parentPagePath=/content/pwc/gx/en" data-analytics-event="stariconRegister">Create your account</div>
+            </div>
+			<!-- STAR ICON LOGGED IN USER-->
+          <div data-readinglist-tooltip-respath='/content/pwc/gx/en/industries/transportation-logistics/jcr:content/dynamic-content-par/collection/collection-staricon/content/pwc/us/en/industries/industrial-products/library/tailwinds-airline-industry-trends.html' class="reading-list__tooltip-save reading-list__tooltip--save-list reading-list__tooltip--remove" style="cursor:default;">
+                <div class="tooltip__arrow"></div>
+                <button class="tooltip__close" onClick="closeToolTip(this);" data-readingList-tooltip-selectorstring='/content/pwc/us/en/industries/industrial-products/library/tailwinds-airline-industry-trends.html' data-readinglist-tooltip-respath='/content/pwc/gx/en/industries/transportation-logistics/jcr:content/dynamic-content-par/collection/collection-staricon/content/pwc/us/en/industries/industrial-products/library/tailwinds-airline-industry-trends.html'>
+                <span class="sr-only">Close</span>
+              </button>
+                <h6>Save this item to:</h6>
+                <ul class="bob__list--save-parent" data-list-check-selectorstring="/content/pwc/gx/en/industries/transportation-logistics/jcr:content/dynamic-content-par/collection/collection-staricon/content/pwc/us/en/industries/industrial-products/library/tailwinds-airline-industry-trends.html">
+                </ul>
+           </div>
+
+           <div data-message-tooltip-path='/content/pwc/gx/en/industries/transportation-logistics/jcr:content/dynamic-content-par/collection/collection-staricon/content/pwc/us/en/industries/industrial-products/library/tailwinds-airline-industry-trends.html' class="reading-list__tooltip-save reading-list__tooltip--save-list reading-list__tooltip--remove" style="cursor:default;">
+                <div class="tooltip__arrow"></div>
+                <button class="tooltip__close" onClick="closeToolTipSaved(this);" data-message-tooltip-close-path='/content/pwc/gx/en/industries/transportation-logistics/jcr:content/dynamic-content-par/collection/collection-staricon/content/pwc/us/en/industries/industrial-products/library/tailwinds-airline-industry-trends.html'>
+                <span class="sr-only">Close</span>
+               </button>
+                <h6 class="h-color">This item has been saved to your reading list.</h6>
+           </div>
+
+      </div>
+  <img class="hiddenOnLoadImage" src="/etc/clientlibs/pwc/components-colors/images/staricon-images/Star-01-Grey.svg" data-localresourcepath="/content/pwc/gx/en/industries/transportation-logistics/jcr:content/dynamic-content-par/collection/collection-staricon/content/pwc/us/en/industries/industrial-products/library/tailwinds-airline-industry-trends.html" data-selectorstring="/content/pwc/us/en/industries/industrial-products/library/tailwinds-airline-industry-trends.html" style="display: none;"/>
+</div>
+</div>
+										</div>
+                                     
+                                                                            <input type="hidden" id="pagePath1" value="/content/pwc/gx/en/industries/transportation-logistics"/>
+                                                                                </div>
+                                    </div>
+                                </a>
+                            </article>
+                        
+                            <article class="col-sm-4 col-md-3 col-xs-6 collection__item  pwc-industries-transport_and_logistics pwc-content-type-publication ">
+                                
+                                <a href="https://www.pwc.com/gx/en/industries/consumer-markets/consumer-insights-survey/delivery-expectation.html" class="collection__item-link">
+                                    <div class="collection__item-image-wrapper">
+                                        <img alt="Consumer insights about transport &amp; delivery" src="/gx/en/retail-consumer/assets/gcis-global-consumer-insight-survey-delivery-pageimage.jpeg/jcr:content/renditions/cq5dam.thumbnail.319.319.png" class="img-responsive"/>
+                                    </div>
+                                    <div class="collection__item-content">
+                                        <p class="collection__item-sub-heading"><time datetime="March 13, 2018">March 13, 2018</time></p>
+                                        <h3 class="h4 regular collection__item-heading">Consumer insights about transport &amp; delivery</h3>
+                                        <p class="collection__item-paragraph">PwC’s 2018 Global Consumer Insights Survey show that e-retailers have raised shopper expectations for fast, flexible and reliable shipments.</p>
+                                        
+                                        
+                                                                <div>
+                                     
+
+                                        <div data-respath="starcheck">
+                                            <div>
+
+
+
+
+
+<!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script> -->
+
+
+
+
+<div class="dpe-component-wrapper collection-staricon">
+
+<p data-starselectorstring="/content/pwc/gx/en/industries/consumer-markets/consumer-insights-survey/delivery-expectation.html" data-starresourcepath="/content/pwc/gx/en/industries/transportation-logistics/jcr:content/dynamic-content-par/collection/collection-staricon/content/pwc/gx/en/industries/consumer-markets/consumer-insights-survey/delivery-expectation.html" pageLanguage="en" ><button class="star__btn--save-remove" onClick="displayList(this);" onmouseout="changeStyle(this,'out')" onmouseover="changeStyle(this,'in')"><span></span></button></p>
+
+
+      <div class="reading-list__tooltip--wraper-save">
+			<!-- STAR ICON NON LOGGED IN USER-->
+          <div class="reading-list__tooltip-save reading-list__tooltip--save-list reading-list__tooltip--remove" data-signin-tooltip-path='/content/pwc/gx/en/industries/transportation-logistics/jcr:content/dynamic-content-par/collection/collection-staricon/content/pwc/gx/en/industries/consumer-markets/consumer-insights-survey/delivery-expectation.html'>
+              <div class="tooltip__arrow"></div>
+              <button class="tooltip__close" onClick="closeToolTipForNonLogInUser(this);" data-signin-tooltip-close-path='/content/pwc/gx/en/industries/transportation-logistics/jcr:content/dynamic-content-par/collection/collection-staricon/content/pwc/gx/en/industries/consumer-markets/consumer-insights-survey/delivery-expectation.html'>
+                <span class="sr-only">Close</span>
+              </button>
+              <h6>Start adding items to your reading lists:</h6>
+              <div class="pwc-forms__btn btn btn--transparent staricon-link" role="button" data-href="/content/pwc/userReg/login.en_gx.html?redirectUrl=gG0V-55Ilpsw21J2UMYgbIH5ktcJLK2-PIsTtC5NbXL4-k-uxutOGit1CbXRDbIE2UG7EY4c8BgJEWzWAvKiPpZkakLVxUwn&referrer=gG0V-55Ilpsw21J2UMYgbIH5ktcJLK2-PIsTtC5NbXL4-k-uxutOGit1CbXRDbIE2UG7EY4c8BgJEWzWAvKiPpZkakLVxUwn&parentPagePath=/content/pwc/gx/en" data-analytics-event="stariconSignin">Sign in</div>
+              <span class="or" style="">or</span>
+              <div id="saveThisListCreateAccount" class="acc-btn pwc-forms__btn btn--transparent-link staricon-link" role="button" data-href="/content/pwc/userReg/register.en_gx.html?redirectUrl=gG0V-55Ilpsw21J2UMYgbIH5ktcJLK2-PIsTtC5NbXL4-k-uxutOGit1CbXRDbIE2UG7EY4c8BgJEWzWAvKiPpZkakLVxUwn&referrer=gG0V-55Ilpsw21J2UMYgbIH5ktcJLK2-PIsTtC5NbXL4-k-uxutOGit1CbXRDbIE2UG7EY4c8BgJEWzWAvKiPpZkakLVxUwn&parentPagePath=/content/pwc/gx/en" data-analytics-event="stariconRegister">Create your account</div>
+            </div>
+			<!-- STAR ICON LOGGED IN USER-->
+          <div data-readinglist-tooltip-respath='/content/pwc/gx/en/industries/transportation-logistics/jcr:content/dynamic-content-par/collection/collection-staricon/content/pwc/gx/en/industries/consumer-markets/consumer-insights-survey/delivery-expectation.html' class="reading-list__tooltip-save reading-list__tooltip--save-list reading-list__tooltip--remove" style="cursor:default;">
+                <div class="tooltip__arrow"></div>
+                <button class="tooltip__close" onClick="closeToolTip(this);" data-readingList-tooltip-selectorstring='/content/pwc/gx/en/industries/consumer-markets/consumer-insights-survey/delivery-expectation.html' data-readinglist-tooltip-respath='/content/pwc/gx/en/industries/transportation-logistics/jcr:content/dynamic-content-par/collection/collection-staricon/content/pwc/gx/en/industries/consumer-markets/consumer-insights-survey/delivery-expectation.html'>
+                <span class="sr-only">Close</span>
+              </button>
+                <h6>Save this item to:</h6>
+                <ul class="bob__list--save-parent" data-list-check-selectorstring="/content/pwc/gx/en/industries/transportation-logistics/jcr:content/dynamic-content-par/collection/collection-staricon/content/pwc/gx/en/industries/consumer-markets/consumer-insights-survey/delivery-expectation.html">
+                </ul>
+           </div>
+
+           <div data-message-tooltip-path='/content/pwc/gx/en/industries/transportation-logistics/jcr:content/dynamic-content-par/collection/collection-staricon/content/pwc/gx/en/industries/consumer-markets/consumer-insights-survey/delivery-expectation.html' class="reading-list__tooltip-save reading-list__tooltip--save-list reading-list__tooltip--remove" style="cursor:default;">
+                <div class="tooltip__arrow"></div>
+                <button class="tooltip__close" onClick="closeToolTipSaved(this);" data-message-tooltip-close-path='/content/pwc/gx/en/industries/transportation-logistics/jcr:content/dynamic-content-par/collection/collection-staricon/content/pwc/gx/en/industries/consumer-markets/consumer-insights-survey/delivery-expectation.html'>
+                <span class="sr-only">Close</span>
+               </button>
+                <h6 class="h-color">This item has been saved to your reading list.</h6>
+           </div>
+
+      </div>
+  <img class="hiddenOnLoadImage" src="/etc/clientlibs/pwc/components-colors/images/staricon-images/Star-01-Grey.svg" data-localresourcepath="/content/pwc/gx/en/industries/transportation-logistics/jcr:content/dynamic-content-par/collection/collection-staricon/content/pwc/gx/en/industries/consumer-markets/consumer-insights-survey/delivery-expectation.html" data-selectorstring="/content/pwc/gx/en/industries/consumer-markets/consumer-insights-survey/delivery-expectation.html" style="display: none;"/>
+</div>
+</div>
+										</div>
+                                     
+                                                                            <input type="hidden" id="pagePath1" value="/content/pwc/gx/en/industries/transportation-logistics"/>
+                                                                                </div>
+                                    </div>
+                                </a>
+                            </article>
+                        
+                            <article class="col-sm-4 col-md-3 col-xs-6 collection__item  pwc-industries-transport_and_logistics pwc-content-type-publication ">
+                                
+                                <a href="https://www.pwc.com/gx/en/ghost/industrial-mobility.html" class="collection__item-link">
+                                    <div class="collection__item-image-wrapper">
+                                        <img alt="Industrial mobility: How autonomous vehicles can change manufacturing" src="/us/en/industrial-products/publications/assets/ip-industrial-mobility-thumb.jpg/jcr:content/renditions/cq5dam.thumbnail.319.319.png" class="img-responsive"/>
+                                    </div>
+                                    <div class="collection__item-content">
+                                        <p class="collection__item-sub-heading"><time datetime="February 05, 2018">February 05, 2018</time></p>
+                                        <h3 class="h4 regular collection__item-heading">Industrial mobility: How autonomous vehicles can change manufacturing</h3>
+                                        <p class="collection__item-paragraph">Industrial companies are rushing to develop and deploy automated and, ultimately, autonomous transport of goods - including raw materials, parts and finished products.
+</p>
+                                        
+                                        
+                                                                <div>
+                                     
+
+                                        <div data-respath="starcheck">
+                                            <div>
+
+
+
+
+
+<!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script> -->
+
+
+
+
+<div class="dpe-component-wrapper collection-staricon">
+
+<p data-starselectorstring="/content/pwc/gx/en/ghost/industrial-mobility.html" data-starresourcepath="/content/pwc/gx/en/industries/transportation-logistics/jcr:content/dynamic-content-par/collection/collection-staricon/content/pwc/gx/en/ghost/industrial-mobility.html" pageLanguage="en" ><button class="star__btn--save-remove" onClick="displayList(this);" onmouseout="changeStyle(this,'out')" onmouseover="changeStyle(this,'in')"><span></span></button></p>
+
+
+      <div class="reading-list__tooltip--wraper-save">
+			<!-- STAR ICON NON LOGGED IN USER-->
+          <div class="reading-list__tooltip-save reading-list__tooltip--save-list reading-list__tooltip--remove" data-signin-tooltip-path='/content/pwc/gx/en/industries/transportation-logistics/jcr:content/dynamic-content-par/collection/collection-staricon/content/pwc/gx/en/ghost/industrial-mobility.html'>
+              <div class="tooltip__arrow"></div>
+              <button class="tooltip__close" onClick="closeToolTipForNonLogInUser(this);" data-signin-tooltip-close-path='/content/pwc/gx/en/industries/transportation-logistics/jcr:content/dynamic-content-par/collection/collection-staricon/content/pwc/gx/en/ghost/industrial-mobility.html'>
+                <span class="sr-only">Close</span>
+              </button>
+              <h6>Start adding items to your reading lists:</h6>
+              <div class="pwc-forms__btn btn btn--transparent staricon-link" role="button" data-href="/content/pwc/userReg/login.en_gx.html?redirectUrl=gG0V-55Ilpsw21J2UMYgbIH5ktcJLK2-PIsTtC5NbXL4-k-uxutOGit1CbXRDbIE2UG7EY4c8BgJEWzWAvKiPpZkakLVxUwn&referrer=gG0V-55Ilpsw21J2UMYgbIH5ktcJLK2-PIsTtC5NbXL4-k-uxutOGit1CbXRDbIE2UG7EY4c8BgJEWzWAvKiPpZkakLVxUwn&parentPagePath=/content/pwc/gx/en" data-analytics-event="stariconSignin">Sign in</div>
+              <span class="or" style="">or</span>
+              <div id="saveThisListCreateAccount" class="acc-btn pwc-forms__btn btn--transparent-link staricon-link" role="button" data-href="/content/pwc/userReg/register.en_gx.html?redirectUrl=gG0V-55Ilpsw21J2UMYgbIH5ktcJLK2-PIsTtC5NbXL4-k-uxutOGit1CbXRDbIE2UG7EY4c8BgJEWzWAvKiPpZkakLVxUwn&referrer=gG0V-55Ilpsw21J2UMYgbIH5ktcJLK2-PIsTtC5NbXL4-k-uxutOGit1CbXRDbIE2UG7EY4c8BgJEWzWAvKiPpZkakLVxUwn&parentPagePath=/content/pwc/gx/en" data-analytics-event="stariconRegister">Create your account</div>
+            </div>
+			<!-- STAR ICON LOGGED IN USER-->
+          <div data-readinglist-tooltip-respath='/content/pwc/gx/en/industries/transportation-logistics/jcr:content/dynamic-content-par/collection/collection-staricon/content/pwc/gx/en/ghost/industrial-mobility.html' class="reading-list__tooltip-save reading-list__tooltip--save-list reading-list__tooltip--remove" style="cursor:default;">
+                <div class="tooltip__arrow"></div>
+                <button class="tooltip__close" onClick="closeToolTip(this);" data-readingList-tooltip-selectorstring='/content/pwc/gx/en/ghost/industrial-mobility.html' data-readinglist-tooltip-respath='/content/pwc/gx/en/industries/transportation-logistics/jcr:content/dynamic-content-par/collection/collection-staricon/content/pwc/gx/en/ghost/industrial-mobility.html'>
+                <span class="sr-only">Close</span>
+              </button>
+                <h6>Save this item to:</h6>
+                <ul class="bob__list--save-parent" data-list-check-selectorstring="/content/pwc/gx/en/industries/transportation-logistics/jcr:content/dynamic-content-par/collection/collection-staricon/content/pwc/gx/en/ghost/industrial-mobility.html">
+                </ul>
+           </div>
+
+           <div data-message-tooltip-path='/content/pwc/gx/en/industries/transportation-logistics/jcr:content/dynamic-content-par/collection/collection-staricon/content/pwc/gx/en/ghost/industrial-mobility.html' class="reading-list__tooltip-save reading-list__tooltip--save-list reading-list__tooltip--remove" style="cursor:default;">
+                <div class="tooltip__arrow"></div>
+                <button class="tooltip__close" onClick="closeToolTipSaved(this);" data-message-tooltip-close-path='/content/pwc/gx/en/industries/transportation-logistics/jcr:content/dynamic-content-par/collection/collection-staricon/content/pwc/gx/en/ghost/industrial-mobility.html'>
+                <span class="sr-only">Close</span>
+               </button>
+                <h6 class="h-color">This item has been saved to your reading list.</h6>
+           </div>
+
+      </div>
+  <img class="hiddenOnLoadImage" src="/etc/clientlibs/pwc/components-colors/images/staricon-images/Star-01-Grey.svg" data-localresourcepath="/content/pwc/gx/en/industries/transportation-logistics/jcr:content/dynamic-content-par/collection/collection-staricon/content/pwc/gx/en/ghost/industrial-mobility.html" data-selectorstring="/content/pwc/gx/en/ghost/industrial-mobility.html" style="display: none;"/>
+</div>
+</div>
+										</div>
+                                     
+                                                                            <input type="hidden" id="pagePath1" value="/content/pwc/gx/en/industries/transportation-logistics"/>
+                                                                                </div>
+                                    </div>
+                                </a>
+                            </article>
+                        
+                            <article class="col-sm-4 col-md-3 col-xs-6 collection__item  pwc-industries-transport_and_logistics pwc-content-type-publication ">
+                                
+                                <a href="https://www.pwc.com/gx/en/ghost/solving-the-online-logistics-dilemma.html" class="collection__item-link">
+                                    <div class="collection__item-image-wrapper">
+                                        <img alt="Solving the online logistics dilemma: A practical guide toward profitability" src="/gx/en/transportation-logistics/assets/pwc-tl-dilemma-logistics-v2.jpg/jcr:content/renditions/cq5dam.thumbnail.319.319.png" class="img-responsive"/>
+                                    </div>
+                                    <div class="collection__item-content">
+                                        <p class="collection__item-sub-heading"><time datetime="December 19, 2017">December 19, 2017</time></p>
+                                        <h3 class="h4 regular collection__item-heading">Solving the online logistics dilemma: A practical guide toward profitability</h3>
+                                        <p class="collection__item-paragraph">E-commerce businesses have allowed shoppers to have sky-high delivery expectations, but these companies have not given sufficient thought to logistics complexities and costs.</p>
+                                        
+                                        
+                                                                <div>
+                                     
+
+                                        <div data-respath="starcheck">
+                                            <div>
+
+
+
+
+
+<!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script> -->
+
+
+
+
+<div class="dpe-component-wrapper collection-staricon">
+
+<p data-starselectorstring="/content/pwc/gx/en/ghost/solving-the-online-logistics-dilemma.html" data-starresourcepath="/content/pwc/gx/en/industries/transportation-logistics/jcr:content/dynamic-content-par/collection/collection-staricon/content/pwc/gx/en/ghost/solving-the-online-logistics-dilemma.html" pageLanguage="en" ><button class="star__btn--save-remove" onClick="displayList(this);" onmouseout="changeStyle(this,'out')" onmouseover="changeStyle(this,'in')"><span></span></button></p>
+
+
+      <div class="reading-list__tooltip--wraper-save">
+			<!-- STAR ICON NON LOGGED IN USER-->
+          <div class="reading-list__tooltip-save reading-list__tooltip--save-list reading-list__tooltip--remove" data-signin-tooltip-path='/content/pwc/gx/en/industries/transportation-logistics/jcr:content/dynamic-content-par/collection/collection-staricon/content/pwc/gx/en/ghost/solving-the-online-logistics-dilemma.html'>
+              <div class="tooltip__arrow"></div>
+              <button class="tooltip__close" onClick="closeToolTipForNonLogInUser(this);" data-signin-tooltip-close-path='/content/pwc/gx/en/industries/transportation-logistics/jcr:content/dynamic-content-par/collection/collection-staricon/content/pwc/gx/en/ghost/solving-the-online-logistics-dilemma.html'>
+                <span class="sr-only">Close</span>
+              </button>
+              <h6>Start adding items to your reading lists:</h6>
+              <div class="pwc-forms__btn btn btn--transparent staricon-link" role="button" data-href="/content/pwc/userReg/login.en_gx.html?redirectUrl=gG0V-55Ilpsw21J2UMYgbIH5ktcJLK2-PIsTtC5NbXL4-k-uxutOGit1CbXRDbIE2UG7EY4c8BgJEWzWAvKiPpZkakLVxUwn&referrer=gG0V-55Ilpsw21J2UMYgbIH5ktcJLK2-PIsTtC5NbXL4-k-uxutOGit1CbXRDbIE2UG7EY4c8BgJEWzWAvKiPpZkakLVxUwn&parentPagePath=/content/pwc/gx/en" data-analytics-event="stariconSignin">Sign in</div>
+              <span class="or" style="">or</span>
+              <div id="saveThisListCreateAccount" class="acc-btn pwc-forms__btn btn--transparent-link staricon-link" role="button" data-href="/content/pwc/userReg/register.en_gx.html?redirectUrl=gG0V-55Ilpsw21J2UMYgbIH5ktcJLK2-PIsTtC5NbXL4-k-uxutOGit1CbXRDbIE2UG7EY4c8BgJEWzWAvKiPpZkakLVxUwn&referrer=gG0V-55Ilpsw21J2UMYgbIH5ktcJLK2-PIsTtC5NbXL4-k-uxutOGit1CbXRDbIE2UG7EY4c8BgJEWzWAvKiPpZkakLVxUwn&parentPagePath=/content/pwc/gx/en" data-analytics-event="stariconRegister">Create your account</div>
+            </div>
+			<!-- STAR ICON LOGGED IN USER-->
+          <div data-readinglist-tooltip-respath='/content/pwc/gx/en/industries/transportation-logistics/jcr:content/dynamic-content-par/collection/collection-staricon/content/pwc/gx/en/ghost/solving-the-online-logistics-dilemma.html' class="reading-list__tooltip-save reading-list__tooltip--save-list reading-list__tooltip--remove" style="cursor:default;">
+                <div class="tooltip__arrow"></div>
+                <button class="tooltip__close" onClick="closeToolTip(this);" data-readingList-tooltip-selectorstring='/content/pwc/gx/en/ghost/solving-the-online-logistics-dilemma.html' data-readinglist-tooltip-respath='/content/pwc/gx/en/industries/transportation-logistics/jcr:content/dynamic-content-par/collection/collection-staricon/content/pwc/gx/en/ghost/solving-the-online-logistics-dilemma.html'>
+                <span class="sr-only">Close</span>
+              </button>
+                <h6>Save this item to:</h6>
+                <ul class="bob__list--save-parent" data-list-check-selectorstring="/content/pwc/gx/en/industries/transportation-logistics/jcr:content/dynamic-content-par/collection/collection-staricon/content/pwc/gx/en/ghost/solving-the-online-logistics-dilemma.html">
+                </ul>
+           </div>
+
+           <div data-message-tooltip-path='/content/pwc/gx/en/industries/transportation-logistics/jcr:content/dynamic-content-par/collection/collection-staricon/content/pwc/gx/en/ghost/solving-the-online-logistics-dilemma.html' class="reading-list__tooltip-save reading-list__tooltip--save-list reading-list__tooltip--remove" style="cursor:default;">
+                <div class="tooltip__arrow"></div>
+                <button class="tooltip__close" onClick="closeToolTipSaved(this);" data-message-tooltip-close-path='/content/pwc/gx/en/industries/transportation-logistics/jcr:content/dynamic-content-par/collection/collection-staricon/content/pwc/gx/en/ghost/solving-the-online-logistics-dilemma.html'>
+                <span class="sr-only">Close</span>
+               </button>
+                <h6 class="h-color">This item has been saved to your reading list.</h6>
+           </div>
+
+      </div>
+  <img class="hiddenOnLoadImage" src="/etc/clientlibs/pwc/components-colors/images/staricon-images/Star-01-Grey.svg" data-localresourcepath="/content/pwc/gx/en/industries/transportation-logistics/jcr:content/dynamic-content-par/collection/collection-staricon/content/pwc/gx/en/ghost/solving-the-online-logistics-dilemma.html" data-selectorstring="/content/pwc/gx/en/ghost/solving-the-online-logistics-dilemma.html" style="display: none;"/>
+</div>
+</div>
+										</div>
+                                     
+                                                                            <input type="hidden" id="pagePath1" value="/content/pwc/gx/en/industries/transportation-logistics"/>
+                                                                                </div>
+                                    </div>
+                                </a>
+                            </article>
+                        
+                            <article class="col-sm-4 col-md-3 col-xs-6 collection__item  pwc-us-cfodirect-publications-in_depth pwc-us-cfodirect-author-assurance_services pwc-us-cfodirect-issues-accounting-and-reporting-revenue-recognition pwc-us-series-cfodirect pwc-content-type-publication pwc-us-cfodirect-issues-accounting-and-reporting-ifrs-in-the-us pwc-industries-transport_and_logistics pwc-us-cfodirect-issues-accounting-and-reporting-private-company-reporting ">
+                                
+                                <a href="https://www.pwc.com/us/en/cfodirect/publications/in-depth/revenue-606-implementation-transportation-logistics-industry.html" class="collection__item-link">
+                                    <div class="collection__item-image-wrapper">
+                                        <img alt="Revenue: Implementation in the transportation and logistics industry" src="/us/en/cfodirect/assets/images/publications/revenue-606-implementation-transportation-logistics-industry.jpg/jcr:content/renditions/cq5dam.thumbnail.319.319.png" class="img-responsive"/>
+                                    </div>
+                                    <div class="collection__item-content">
+                                        <p class="collection__item-sub-heading"><time datetime="August 10, 2017">August 10, 2017</time></p>
+                                        <h3 class="h4 regular collection__item-heading">Revenue: Implementation in the transportation and logistics industry</h3>
+                                        <p class="collection__item-paragraph">We summarize the impact of the new revenue guidance on the transportation and logistics industry. Read and stay current.</p>
+                                        
+                                        
+                                                                <div>
+                                     
+
+                                        <div data-respath="starcheck">
+                                            <div>
+
+
+
+
+
+<!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script> -->
+
+
+
+
+<div class="dpe-component-wrapper collection-staricon">
+
+<p data-starselectorstring="/content/pwc/us/en/cfodirect/publications/in-depth/revenue-606-implementation-transportation-logistics-industry.html" data-starresourcepath="/content/pwc/gx/en/industries/transportation-logistics/jcr:content/dynamic-content-par/collection/collection-staricon/content/pwc/us/en/cfodirect/publications/in-depth/revenue-606-implementation-transportation-logistics-industry.html" pageLanguage="en" ><button class="star__btn--save-remove" onClick="displayList(this);" onmouseout="changeStyle(this,'out')" onmouseover="changeStyle(this,'in')"><span></span></button></p>
+
+
+      <div class="reading-list__tooltip--wraper-save">
+			<!-- STAR ICON NON LOGGED IN USER-->
+          <div class="reading-list__tooltip-save reading-list__tooltip--save-list reading-list__tooltip--remove" data-signin-tooltip-path='/content/pwc/gx/en/industries/transportation-logistics/jcr:content/dynamic-content-par/collection/collection-staricon/content/pwc/us/en/cfodirect/publications/in-depth/revenue-606-implementation-transportation-logistics-industry.html'>
+              <div class="tooltip__arrow"></div>
+              <button class="tooltip__close" onClick="closeToolTipForNonLogInUser(this);" data-signin-tooltip-close-path='/content/pwc/gx/en/industries/transportation-logistics/jcr:content/dynamic-content-par/collection/collection-staricon/content/pwc/us/en/cfodirect/publications/in-depth/revenue-606-implementation-transportation-logistics-industry.html'>
+                <span class="sr-only">Close</span>
+              </button>
+              <h6>Start adding items to your reading lists:</h6>
+              <div class="pwc-forms__btn btn btn--transparent staricon-link" role="button" data-href="/content/pwc/userReg/login.en_gx.html?redirectUrl=gG0V-55Ilpsw21J2UMYgbIH5ktcJLK2-PIsTtC5NbXL4-k-uxutOGit1CbXRDbIE2UG7EY4c8BgJEWzWAvKiPpZkakLVxUwn&referrer=gG0V-55Ilpsw21J2UMYgbIH5ktcJLK2-PIsTtC5NbXL4-k-uxutOGit1CbXRDbIE2UG7EY4c8BgJEWzWAvKiPpZkakLVxUwn&parentPagePath=/content/pwc/gx/en" data-analytics-event="stariconSignin">Sign in</div>
+              <span class="or" style="">or</span>
+              <div id="saveThisListCreateAccount" class="acc-btn pwc-forms__btn btn--transparent-link staricon-link" role="button" data-href="/content/pwc/userReg/register.en_gx.html?redirectUrl=gG0V-55Ilpsw21J2UMYgbIH5ktcJLK2-PIsTtC5NbXL4-k-uxutOGit1CbXRDbIE2UG7EY4c8BgJEWzWAvKiPpZkakLVxUwn&referrer=gG0V-55Ilpsw21J2UMYgbIH5ktcJLK2-PIsTtC5NbXL4-k-uxutOGit1CbXRDbIE2UG7EY4c8BgJEWzWAvKiPpZkakLVxUwn&parentPagePath=/content/pwc/gx/en" data-analytics-event="stariconRegister">Create your account</div>
+            </div>
+			<!-- STAR ICON LOGGED IN USER-->
+          <div data-readinglist-tooltip-respath='/content/pwc/gx/en/industries/transportation-logistics/jcr:content/dynamic-content-par/collection/collection-staricon/content/pwc/us/en/cfodirect/publications/in-depth/revenue-606-implementation-transportation-logistics-industry.html' class="reading-list__tooltip-save reading-list__tooltip--save-list reading-list__tooltip--remove" style="cursor:default;">
+                <div class="tooltip__arrow"></div>
+                <button class="tooltip__close" onClick="closeToolTip(this);" data-readingList-tooltip-selectorstring='/content/pwc/us/en/cfodirect/publications/in-depth/revenue-606-implementation-transportation-logistics-industry.html' data-readinglist-tooltip-respath='/content/pwc/gx/en/industries/transportation-logistics/jcr:content/dynamic-content-par/collection/collection-staricon/content/pwc/us/en/cfodirect/publications/in-depth/revenue-606-implementation-transportation-logistics-industry.html'>
+                <span class="sr-only">Close</span>
+              </button>
+                <h6>Save this item to:</h6>
+                <ul class="bob__list--save-parent" data-list-check-selectorstring="/content/pwc/gx/en/industries/transportation-logistics/jcr:content/dynamic-content-par/collection/collection-staricon/content/pwc/us/en/cfodirect/publications/in-depth/revenue-606-implementation-transportation-logistics-industry.html">
+                </ul>
+           </div>
+
+           <div data-message-tooltip-path='/content/pwc/gx/en/industries/transportation-logistics/jcr:content/dynamic-content-par/collection/collection-staricon/content/pwc/us/en/cfodirect/publications/in-depth/revenue-606-implementation-transportation-logistics-industry.html' class="reading-list__tooltip-save reading-list__tooltip--save-list reading-list__tooltip--remove" style="cursor:default;">
+                <div class="tooltip__arrow"></div>
+                <button class="tooltip__close" onClick="closeToolTipSaved(this);" data-message-tooltip-close-path='/content/pwc/gx/en/industries/transportation-logistics/jcr:content/dynamic-content-par/collection/collection-staricon/content/pwc/us/en/cfodirect/publications/in-depth/revenue-606-implementation-transportation-logistics-industry.html'>
+                <span class="sr-only">Close</span>
+               </button>
+                <h6 class="h-color">This item has been saved to your reading list.</h6>
+           </div>
+
+      </div>
+  <img class="hiddenOnLoadImage" src="/etc/clientlibs/pwc/components-colors/images/staricon-images/Star-01-Grey.svg" data-localresourcepath="/content/pwc/gx/en/industries/transportation-logistics/jcr:content/dynamic-content-par/collection/collection-staricon/content/pwc/us/en/cfodirect/publications/in-depth/revenue-606-implementation-transportation-logistics-industry.html" data-selectorstring="/content/pwc/us/en/cfodirect/publications/in-depth/revenue-606-implementation-transportation-logistics-industry.html" style="display: none;"/>
+</div>
+</div>
+										</div>
+                                     
+                                                                            <input type="hidden" id="pagePath1" value="/content/pwc/gx/en/industries/transportation-logistics"/>
+                                                                                </div>
+                                    </div>
+                                </a>
+                            </article>
+                        
+                            <article class="col-sm-4 col-md-3 col-xs-6 collection__item  pwc-gx-type-publication pwc-industries-capital_projects_and_infrastructure pwc-series-psrc_public_sector_research_centre pwc-gx-type-pdf pwc-content-type-publication pwc-industries-transport_and_logistics ">
+                                
+                                <a href="https://www.pwc.com/gx/en/industries/transportation-logistics/publications/building-sustainable-inclusive-transportation-systems.html" class="collection__item-link">
+                                    <div class="collection__item-image-wrapper">
+                                        <img alt="Building sustainable, inclusive transportation systems" src="/gx/en/industries/assets/pwc-nyc-orig-format.jpg/jcr:content/renditions/cq5dam.thumbnail.319.319.png" class="img-responsive"/>
+                                    </div>
+                                    <div class="collection__item-content">
+                                        <p class="collection__item-sub-heading"><time datetime="August 08, 2017">August 08, 2017</time></p>
+                                        <h3 class="h4 regular collection__item-heading">Building sustainable, inclusive transportation systems</h3>
+                                        <p class="collection__item-paragraph">Transport systems need to be designed to be efficient, safe, sustainable and inclusive. This paper provides a new framework for planners, policy-makers, and investors.</p>
+                                        
+                                        
+                                                                <div>
+                                     
+
+                                        <div data-respath="starcheck">
+                                            <div>
+
+
+
+
+
+<!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script> -->
+
+
+
+
+<div class="dpe-component-wrapper collection-staricon">
+
+<p data-starselectorstring="/content/pwc/gx/en/industries/transportation-logistics/publications/building-sustainable-inclusive-transportation-systems.html" data-starresourcepath="/content/pwc/gx/en/industries/transportation-logistics/jcr:content/dynamic-content-par/collection/collection-staricon/content/pwc/gx/en/industries/transportation-logistics/publications/building-sustainable-inclusive-transportation-systems.html" pageLanguage="en" ><button class="star__btn--save-remove" onClick="displayList(this);" onmouseout="changeStyle(this,'out')" onmouseover="changeStyle(this,'in')"><span></span></button></p>
+
+
+      <div class="reading-list__tooltip--wraper-save">
+			<!-- STAR ICON NON LOGGED IN USER-->
+          <div class="reading-list__tooltip-save reading-list__tooltip--save-list reading-list__tooltip--remove" data-signin-tooltip-path='/content/pwc/gx/en/industries/transportation-logistics/jcr:content/dynamic-content-par/collection/collection-staricon/content/pwc/gx/en/industries/transportation-logistics/publications/building-sustainable-inclusive-transportation-systems.html'>
+              <div class="tooltip__arrow"></div>
+              <button class="tooltip__close" onClick="closeToolTipForNonLogInUser(this);" data-signin-tooltip-close-path='/content/pwc/gx/en/industries/transportation-logistics/jcr:content/dynamic-content-par/collection/collection-staricon/content/pwc/gx/en/industries/transportation-logistics/publications/building-sustainable-inclusive-transportation-systems.html'>
+                <span class="sr-only">Close</span>
+              </button>
+              <h6>Start adding items to your reading lists:</h6>
+              <div class="pwc-forms__btn btn btn--transparent staricon-link" role="button" data-href="/content/pwc/userReg/login.en_gx.html?redirectUrl=gG0V-55Ilpsw21J2UMYgbIH5ktcJLK2-PIsTtC5NbXL4-k-uxutOGit1CbXRDbIE2UG7EY4c8BgJEWzWAvKiPpZkakLVxUwn&referrer=gG0V-55Ilpsw21J2UMYgbIH5ktcJLK2-PIsTtC5NbXL4-k-uxutOGit1CbXRDbIE2UG7EY4c8BgJEWzWAvKiPpZkakLVxUwn&parentPagePath=/content/pwc/gx/en" data-analytics-event="stariconSignin">Sign in</div>
+              <span class="or" style="">or</span>
+              <div id="saveThisListCreateAccount" class="acc-btn pwc-forms__btn btn--transparent-link staricon-link" role="button" data-href="/content/pwc/userReg/register.en_gx.html?redirectUrl=gG0V-55Ilpsw21J2UMYgbIH5ktcJLK2-PIsTtC5NbXL4-k-uxutOGit1CbXRDbIE2UG7EY4c8BgJEWzWAvKiPpZkakLVxUwn&referrer=gG0V-55Ilpsw21J2UMYgbIH5ktcJLK2-PIsTtC5NbXL4-k-uxutOGit1CbXRDbIE2UG7EY4c8BgJEWzWAvKiPpZkakLVxUwn&parentPagePath=/content/pwc/gx/en" data-analytics-event="stariconRegister">Create your account</div>
+            </div>
+			<!-- STAR ICON LOGGED IN USER-->
+          <div data-readinglist-tooltip-respath='/content/pwc/gx/en/industries/transportation-logistics/jcr:content/dynamic-content-par/collection/collection-staricon/content/pwc/gx/en/industries/transportation-logistics/publications/building-sustainable-inclusive-transportation-systems.html' class="reading-list__tooltip-save reading-list__tooltip--save-list reading-list__tooltip--remove" style="cursor:default;">
+                <div class="tooltip__arrow"></div>
+                <button class="tooltip__close" onClick="closeToolTip(this);" data-readingList-tooltip-selectorstring='/content/pwc/gx/en/industries/transportation-logistics/publications/building-sustainable-inclusive-transportation-systems.html' data-readinglist-tooltip-respath='/content/pwc/gx/en/industries/transportation-logistics/jcr:content/dynamic-content-par/collection/collection-staricon/content/pwc/gx/en/industries/transportation-logistics/publications/building-sustainable-inclusive-transportation-systems.html'>
+                <span class="sr-only">Close</span>
+              </button>
+                <h6>Save this item to:</h6>
+                <ul class="bob__list--save-parent" data-list-check-selectorstring="/content/pwc/gx/en/industries/transportation-logistics/jcr:content/dynamic-content-par/collection/collection-staricon/content/pwc/gx/en/industries/transportation-logistics/publications/building-sustainable-inclusive-transportation-systems.html">
+                </ul>
+           </div>
+
+           <div data-message-tooltip-path='/content/pwc/gx/en/industries/transportation-logistics/jcr:content/dynamic-content-par/collection/collection-staricon/content/pwc/gx/en/industries/transportation-logistics/publications/building-sustainable-inclusive-transportation-systems.html' class="reading-list__tooltip-save reading-list__tooltip--save-list reading-list__tooltip--remove" style="cursor:default;">
+                <div class="tooltip__arrow"></div>
+                <button class="tooltip__close" onClick="closeToolTipSaved(this);" data-message-tooltip-close-path='/content/pwc/gx/en/industries/transportation-logistics/jcr:content/dynamic-content-par/collection/collection-staricon/content/pwc/gx/en/industries/transportation-logistics/publications/building-sustainable-inclusive-transportation-systems.html'>
+                <span class="sr-only">Close</span>
+               </button>
+                <h6 class="h-color">This item has been saved to your reading list.</h6>
+           </div>
+
+      </div>
+  <img class="hiddenOnLoadImage" src="/etc/clientlibs/pwc/components-colors/images/staricon-images/Star-01-Grey.svg" data-localresourcepath="/content/pwc/gx/en/industries/transportation-logistics/jcr:content/dynamic-content-par/collection/collection-staricon/content/pwc/gx/en/industries/transportation-logistics/publications/building-sustainable-inclusive-transportation-systems.html" data-selectorstring="/content/pwc/gx/en/industries/transportation-logistics/publications/building-sustainable-inclusive-transportation-systems.html" style="display: none;"/>
+</div>
+</div>
+										</div>
+                                     
+                                                                            <input type="hidden" id="pagePath1" value="/content/pwc/gx/en/industries/transportation-logistics"/>
+                                                                                </div>
+                                    </div>
+                                </a>
+                            </article>
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div id="moreLinks--content-pwc-gx-en-industries-transportation-logistics-jcr-content-dynamic-content-par-collection" class="collection__more-links">
+                    
+                        <a target="_blank" href="/gx/en/industries/transportation-logistics/publications.html" class="btn btn--transparent" onclick="this.blur();">
+                            View all
+                        </a>
+                    
+                    <div id="loadmore--content-pwc-gx-en-industries-transportation-logistics-jcr-content-dynamic-content-par-collection" class="collection__load-more">
+                        
+                            <a class="btn btn--transparent" onclick="PwC.components.collectionColors.clientlibs.loadMoreScrollable('\/content\/pwc\/gx\/en\/industries\/transportation\u002Dlogistics\/jcr:content\/dynamic\u002Dcontent\u002Dpar\/collection', 'start=8', '\u002Dcontent\u002Dpwc\u002Dgx\u002Den\u002Dindustries\u002Dtransportation\u002Dlogistics\u002Djcr\u002Dcontent\u002Ddynamic\u002Dcontent\u002Dpar\u002Dcollection');">
+                                Load more
+                            </a>
+                        
+                    </div>
+                </div>
+
+            </div>
+            
+        
+    
+            
+        </div>
+</div>  
+        <script>
+            $(function() {
+                initializeIsotope(
+                    "\u002Dcontent\u002Dpwc\u002Dgx\u002Den\u002Dindustries\u002Dtransportation\u002Dlogistics\u002Djcr\u002Dcontent\u002Ddynamic\u002Dcontent\u002Dpar\u002Dcollection",
+                    "",
+                    "start=8",
+                    "java.util.GregorianCalendar[time=1480104589389,areFieldsSet=true,areAllFieldsSet=true,lenient=false,zone=sun.util.calendar.ZoneInfo[id=\x22GMT\u002D06:00\x22,offset=\u002D21600000,dstSavings=0,useDaylight=false,transitions=0,lastRule=null],firstDayOfWeek=1,minimalDaysInFirstWeek=1,ERA=1,YEAR=2016,MONTH=10,WEEK_OF_YEAR=48,WEEK_OF_MONTH=4,DAY_OF_MONTH=25,DAY_OF_YEAR=330,DAY_OF_WEEK=6,DAY_OF_WEEK_IN_MONTH=4,AM_PM=1,HOUR=2,HOUR_OF_DAY=14,MINUTE=9,SECOND=49,MILLISECOND=389,ZONE_OFFSET=\u002D21600000,DST_OFFSET=0]",
+                    "",
+                    "\/content\/pwc\/gx\/en\/industries\/transportation\u002Dlogistics\/publications.html"
+                );
+            });
+            if(CQ.WCM){
+                if($(".collection-staricon").length>0 && (typeof renderallstaricon === "function")){
+                    renderallstaricon();
+                }
+            }
+
+
+        </script>
+
+
+
+ 
+</div>
+
+
+        </div>
+    </section>
+
+
+    
+
+</div>
+<div>
+</div>
+
+<div>
+    
+
+    
+        
+
+    
+
+    
+
+    <section id="cta-1" class="clearfix black page-section page-section--col-secondary fullwidth page-section--col-dark " style="height: ">
+        <div class="parsys sectionpar"> 
+            <div class="section"><div class="new"></div>
+</div><div class="iparys_inherited"><div class="cta-1-par longform-isection iparsys parsys"></div>
+</div>
+
+        </div>
+    </section>
+
+
+    
+
+</div>
+<div>
+</div>
+
+<div>
+    
+
+    
+        
+
+    
+
+    
+
+    <section id="cta-2" class="clearfix black page-section page-section--col-secondary fullwidth page-section--col-dark " style="height: ">
+        <div class="parsys sectionpar"> 
+            <div class="section"><div class="new"></div>
+</div><div class="iparys_inherited"><div class="cta-2-par longform-isection iparsys parsys"></div>
+</div>
+
+        </div>
+    </section>
+
+
+    
+
+</div>
+
+
+
+    
+
+    <div>
+    
+
+    
+        
+
+    
+
+    
+
+    <section id="related-links" class="clearfix black page-section page-section--col-white fullwidth  " style="height: ">
+        <div class="parsys sectionpar"> 
+            <div class="section"><div class="new"></div>
+</div><div class="iparys_inherited"><div class="related-links-par longform-isection iparsys parsys"></div>
+</div>
+
+        </div>
+    </section>
+
+
+    
+
+</div>
+    
+    
+
+
+<div>
+    
+
+    
+        
+
+    
+
+    
+
+    <section id="contact" class="clearfix black page-section page-section--col-white   " style="height: ">
+        <div class="parsys sectionpar"> 
+            <div class="pwccol2-longformb longform-isection-twocol">
+    <div class="parsys_column pwccol2-longformb-c0">
+        <div><div class="longform-column-left"><div><div class="iparsys parsys"><div class="rightrailcontact section">
+
+
+
+
+
+
+
+
+
+
+<link rel="stylesheet" href="/etc/designs/pwc/component-longform/rightrailcontact/clientlibs.min.86711a13169f804bc1fa62a9fba9665b.css" type="text/css">
+<script type="text/javascript" src="/etc/designs/pwc/component-longform/rightrailcontact/clientlibs.min.d41d8cd98f00b204e9800998ecf8427e.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+        
+    
+
+
+<input type="hidden" id="ip" value="127.0.0.1"/>
+<input type="hidden" id="locales" value=''/>
+
+
+
+    
+
+
+
+
+
+<section class="contactModule maxPadding" id="newrightrailcontacts_eb6b8fcf-5e28-4599-a3fa-4d43a3466f46_contact-par_leftpar_twocol_rightrailcontact">
+    <div class="row">
+        <div class="rightrailcontact-component section">
+            <div class="col-sm-12">
+                <h2 id="scrollcontactheader" style="border:none;">Contact us
+                </h2>
+                
+                
+                    
+                        
+                        
+                            <div class="row contact_layout">
+                        
+                        
+                            
+                            
+                            
+                            
+
+                            
+                            
+                                
+                            
+                            
+                            
+                                
+                                
+                                
+                                
+                                    
+                                    
+                                        
+                                            
+                                                <div country="gx" divId="1"
+                                                     class="col-lg-6 col-md-12 col-sm-12 col-xs-12 contactCol"
+                                                     style='display:
+                                                     
+                                                     
+                                                         block'>
+                                                    
+                                                    
+                                                    <p class="leftline">
+                                                        
+                                                        
+                                                            <strong>
+                                                                
+                                                                    
+                                                                    
+                                                                        Julian Smith
+                                                                    
+                                                                
+                                                            </strong><br>
+                                                        
+                                                            
+                                                                
+                                                                    
+                                                                        
+                                                                            Global transportation & logistics leader<br>
+                                                                        
+                                                                    
+                                                                    
+                                                                
+                                                            
+                                                            
+                                                        
+                                                        
+                                                            Tel: +62 21 5212901
+                                                            <br>
+                                                        
+                                                            
+                                                        <a class="underline-link" href="javascript:void(0);" onclick="openContactUrl('/content/pwc/gx/en/contacts/j/julian-l-smith-1')" target="_self">Email
+                                                        </a><br/>
+                                                        
+                                                        
+                                                    </p>
+                                                </div>
+                                            
+                                            
+                                        
+                                    
+                                
+                            
+                            
+                        
+                        
+                    
+                
+                    
+                        
+                        
+                        
+                            
+                            
+                            
+                            
+
+                            
+                            
+                                
+                            
+                            
+                            
+                                
+                                
+                                
+                                
+                                    
+                                    
+                                        
+                                            
+                                                <div country="gx" divId="2"
+                                                     class="col-lg-6 col-md-12 col-sm-12 col-xs-12 contactCol"
+                                                     style='display:
+                                                     
+                                                     
+                                                         block'>
+                                                    
+                                                    
+                                                    <p class="leftline">
+                                                        
+                                                        
+                                                            <strong>
+                                                                
+                                                                    
+                                                                    
+                                                                        Peter Kauschke
+                                                                    
+                                                                
+                                                            </strong><br>
+                                                        
+                                                            
+                                                                
+                                                                    
+                                                                        
+                                                                            Global transportation & logistics director<br>
+                                                                        
+                                                                    
+                                                                    
+                                                                
+                                                            
+                                                            
+                                                        
+                                                        
+                                                            Tel: +49 211 981 2167
+                                                            <br>
+                                                        
+                                                            
+                                                        <a class="underline-link" href="javascript:void(0);" onclick="openContactUrl('/content/pwc/gx/en/contacts/p/peter-kauschke-1')" target="_self">Email
+                                                        </a><br/>
+                                                        
+                                                        
+                                                    </p>
+                                                </div>
+                                            
+                                            
+                                        
+                                    
+                                
+                            
+                            
+                        
+                        
+                            </div>
+                        
+                    
+                
+                    
+                        
+                        
+                            <div class="row contact_layout">
+                        
+                        
+                            
+                            
+                            
+                            
+
+                            
+                            
+                                
+                            
+                            
+                            
+                                
+                                
+                                
+                                
+                                    
+                                    
+                                        
+                                            
+                                                <div country="gx" divId="3"
+                                                     class="col-lg-6 col-md-12 col-sm-12 col-xs-12 contactCol"
+                                                     style='display:
+                                                     
+                                                     
+                                                         block'>
+                                                    
+                                                    
+                                                    <p class="leftline">
+                                                        
+                                                        
+                                                            <strong>
+                                                                
+                                                                    
+                                                                    
+                                                                        Dr. Bernd Roese
+                                                                    
+                                                                
+                                                            </strong><br>
+                                                        
+                                                            
+                                                                
+                                                                    
+                                                                        
+                                                                            Global transportation & logistics assurance leader<br>
+                                                                        
+                                                                    
+                                                                    
+                                                                
+                                                            
+                                                            
+                                                        
+                                                        
+                                                            Tel: +49 69 9585 1162 
+                                                            <br>
+                                                        
+                                                            
+                                                        <a class="underline-link" href="javascript:void(0);" onclick="openContactUrl('/content/pwc/gx/en/contacts/b/bernd-roese-1')" target="_self">Email
+                                                        </a><br/>
+                                                        
+                                                        
+                                                    </p>
+                                                </div>
+                                            
+                                            
+                                        
+                                    
+                                
+                            
+                            
+                        
+                        
+                    
+                
+                    
+                        
+                        
+                        
+                            
+                            
+                            
+                            
+
+                            
+                            
+                                
+                            
+                            
+                            
+                                
+                                
+                                
+                                
+                                    
+                                    
+                                        
+                                            
+                                                <div country="gx" divId="4"
+                                                     class="col-lg-6 col-md-12 col-sm-12 col-xs-12 contactCol"
+                                                     style='display:
+                                                     
+                                                     
+                                                         block'>
+                                                    
+                                                    
+                                                    <p class="leftline">
+                                                        
+                                                        
+                                                            <strong>
+                                                                
+                                                                    
+                                                                    
+                                                                        Michael Burns
+                                                                    
+                                                                
+                                                            </strong><br>
+                                                        
+                                                            
+                                                                
+                                                                    
+                                                                        
+                                                                            Global transportation & logistics advisory leader<br>
+                                                                        
+                                                                    
+                                                                    
+                                                                
+                                                            
+                                                            
+                                                        
+                                                        
+                                                            Tel: +44(0)20 780 44438
+                                                            <br>
+                                                        
+                                                            
+                                                        <a class="underline-link" href="javascript:void(0);" onclick="openContactUrl('/content/pwc/gx/en/contacts/m/michael-burns-1')" target="_self">Email
+                                                        </a><br/>
+                                                        
+                                                        
+                                                    </p>
+                                                </div>
+                                            
+                                            
+                                        
+                                    
+                                
+                            
+                            
+                        
+                        
+                            </div>
+                        
+                    
+                
+            </div>
+            <!--<article class="col-sm-4">
+                <h1 class="xs-withMarginTop">Follow us</h1>
+                <a href="https://pwc.to/zDLmPJ"><img src="/etc/designs/pwc/component/rightrailcontact/clientlibs/image/follow-twitter.gif" alt="Twitter"></a>
+                <a href="https://pwc.to/y0lkaV"><img src="/etc/designs/pwc/component/rightrailcontact/clientlibs/image/follow-linkedin.gif" alt="LinkedIn"></a>
+                <a href="https://pwc.to/xS21QN"><img src="/etc/designs/pwc/component/rightrailcontact/clientlibs/image/follow-facebook.gif" alt="Facebook"></a>
+                <a href="https://www.youtube.com/user/PwC/videos?view=1"><img src="/etc/designs/pwc/component/rightrailcontact/clientlibs/image/follow-youtube.gif" alt="Youtube"></a>
+                <a href="https://pwc.to/yQoR3z"><img src="/etc/designs/pwc/component/rightrailcontact/clientlibs/image/follow-google.gif" alt="Google+"></a>
+            </article>-->
+        </div>
+    </div>
+
+    <input type="hidden" value="false" id="countryfilter"/>
+    
+        
+        
+            <input type="hidden" value="xx" id="currentLocation"/>
+        
+    
+
+    
+            <div class="">
+                <div class="contactlink">
+                    
+                </div>
+            </div>
+</section>
+
+
+<script>
+    function openContactUrl(contactLink) {
+        var url = "/content/pwc/global/forms/contactUs.en_gx" + ".html" + "?parentPagePath=/content/pwc/gx/en/industries/transportation-logistics&contactLink=" + contactLink + "&style=pwc" + "&territory=gx";
+
+        //$("#contactUs").attr("action",url);
+        //$("#contactUs").submit();
+        window.location.href = url;
+        return false;
+    }
+</script>
+<script>
+    $(document).ready(function () {
+        var rightrailcontacts = 'newrightrailcontacts_' + 'eb6b8fcf-5e28-4599-a3fa-4d43a3466f46_contact-par_leftpar_twocol_rightrailcontact';
+        var countryhawkList = 'countryhawkList_' + 'eb6b8fcf-5e28-4599-a3fa-4d43a3466f46_contact-par_leftpar_twocol_rightrailcontact';
+        var displayMore = 'displayMore_' + 'eb6b8fcf-5e28-4599-a3fa-4d43a3466f46_contact-par_leftpar_twocol_rightrailcontact';
+        var displayLess = 'displayLess_' + 'eb6b8fcf-5e28-4599-a3fa-4d43a3466f46_contact-par_leftpar_twocol_rightrailcontact';
+        console.log($('#' + countryhawkList));
+
+        var allContacts = $('#' + rightrailcontacts + ' div.contact_layout div.contactCol');
+        var parentAllContacts = allContacts.parent().parent();
+
+        var a = new Array();
+        $('#' + countryhawkList).children("option").each(function (x) {
+            test = false;
+            b = a[x] = $(this).val();
+            for (i = 0; i < a.length - 1; i++) {
+                if (b == a[i])
+                    test = true;
+            }
+            if (test)
+                $(this).remove();
+        });
+        $('#' + countryhawkList).html($('#' + countryhawkList + ' option').sort(function (x, y) {
+            return $(x).val() < $(y).val() ? -1 : 1;
+        }));
+
+        if ($("#countryfilter").val() == "true") {
+            var c = $("#currentLocation").val();
+            var countryExist = false;
+            $('#' + countryhawkList + ' option').each(function () {
+                if (this.value.toLowerCase() == c.toLowerCase())
+                    countryExist = true;
+
+            });
+            //console.log('exist',countryExist);
+            if (countryExist == true) {
+                if (c != "xx") //if geo is ON, c cannot be xx, if client request territory cannot be determined, then set c to "us"
+                {
+                    /*$('#'+rightrailcontacts+' div.contact_layout[country!="'+ c.toLowerCase() + '"]').each(function(index) {
+                     $(this).hide();
+                     });
+                     var div_counter =0;
+                     $('#'+rightrailcontacts+' div.contact_layout[country="'+ c.toLowerCase() + '"]').each(function(index) {
+                     $(this).show();
+                     div_counter++;
+                     if(div_counter <=6)
+                     $(this).show();
+                     else
+                     $(this).hide();
+
+                     });*/
+                    var contacts = $('#' + rightrailcontacts + ' div.contact_layout');
+                    var count = 0;
+                    contacts.remove();
+                    allContacts.each(function () {
+
+                        if ($(this).attr('country') == c.toLowerCase()) {
+                            if (count % 2 == 0) {
+                                parentAllContacts.append('<div class="row contact_layout"></div>');
+                                tempParent = parentAllContacts.children().last();
+
+                            }
+                            tempParent.append(this);
+                            count++;
+                        }
+
+                    });
+                    $('#' + countryhawkList).val(c.toLowerCase());
+                }
+                else //if geo is OFF, then c is "xx"
+                {
+                    $('#' + countryhawkList).val(' All'); //set territory dropdown to All
+                }
+            }
+        }
+
+        $('#' + countryhawkList).change(function () {
+            var country = $(this).val();
+            //console.log("ddl changed");
+            //alert('#'+ rightrailcontacts+ ' div.contact_layout[country="+ country + "]');
+            //leave the space before the All, it is needed for the sort.
+            /*if (country != " All") {
+             $('#'+ rightrailcontacts+ ' div.contact_layout[country="'+ country + '"]').each(function(index) {
+             $(this).show();
+             });
+             $('#'+ rightrailcontacts+ ' div.contact_layout[country!="'+ country + '"]').each(function(index) {
+             $(this).hide();
+             });
+             } else {
+             $('#'+ rightrailcontacts+' div.contact_layout').each(function(index) {
+             $(this).show();
+             });
+             }*/
+            var contacts = $('#' + rightrailcontacts + ' div.contact_layout');
+            var count = 0;
+            contacts.remove();
+            if (country != " All") {
+                allContacts.each(function () {
+
+                    if ($(this).attr('country') == country) {
+                        if (count % 2 == 0) {
+                            parentAllContacts.append('<div class="row contact_layout"></div>');
+                            tempParent = parentAllContacts.children().last();
+
+                        }
+                        tempParent.append(this);
+                        count++;
+                    }
+
+                });
+            } else {
+                allContacts.each(function () {
+
+                    if (count % 2 == 0) {
+                        parentAllContacts.append('<div class="row contact_layout"></div>');
+                        tempParent = parentAllContacts.children().last();
+
+                    }
+                    tempParent.append(this);
+                    count++;
+
+                });
+            }
+
+
+        });
+
+        $('#' + displayMore).click(function (e) {
+            $('#' + rightrailcontacts + ' div').each(function (index) {
+                $(this).show();
+            });
+            $('#' + displayMore).hide();
+            $('#' + displayLess).show();
+            return false;
+        });
+        $('#' + displayLess).click(function (e) {
+            $('#' + rightrailcontacts + ' div').each(function (index) {
+                if (parseInt($(this).attr("divid")) > 6) {
+                    $(this).hide();
+                }
+            });
+            $('#' + displayMore).show();
+            $('#' + displayLess).hide();
+            return false;
+        });
+
+    });
+</script>
+
+
+
+
+<script>
+    var parentcontactdiv=null;//Temporary fix for 2598 --to be removed when real cause detected.
+    if(document.getElementById('onlineformstart')!=null){
+
+  var rendermode='2';
+    if(rendermode==2){
+  var elem= document.getElementsByClassName("contactModule maxPadding");
+    var x=0;
+    for( x=0;x< elem.length;x++)
+    {
+           parentcontactdiv = document.getElementById(elem[x].id).parentElement;
+   parentcontactdiv.className ='section rightrailcontact';
+
+    }
+    }
+    }
+
+</script>
+
+
+<!-- TEST --></div>
+<div class="section"><div class="new"></div>
+</div><div class="iparys_inherited"><div class="iparsys parsys"></div>
+</div>
+</div>
+</div></div>
+</div>
+    </div>
+    <div class="parsys_column pwccol2-longformb-c1">
+        <div><div class="longform-column-right longform-column-left"><div><div class="iparsys parsys"><div class="socialfollow section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+        
+    
+    
+
+
+<div id="socialfollow" class="socialfollowInner">
+    <span>Follow us</span>
+
+    
+
+        <a href="http://pwc.to/PwCTwG" target="_self" title=" Twitter Follow" class="socialfollow- Twitter Follow"><img src="https://www.pwc.com/etc/designs/pwc/css_common/image/homefollow-twitter.gif"/></a>
+    
+
+        <a href="http://pwc.to/PwCFBG" target="_self" title=" Facebook Follow" class="socialfollow- Facebook Follow"><img src="/etc/designs/pwc/css_common/image/homefollow-facebook.gif"/></a>
+    
+
+        <a href="http://pwc.to/PwCLICo" target="_self" title=" Linkedin Follow" class="socialfollow- Linkedin Follow"><img src="/etc/designs/pwc/css_common/image/homefollow-linkedin.gif"/></a>
+    
+
+        <a href="http://pwc.to/PwCYT" target="_self" title=" YouTube Follow" class="socialfollow- YouTube Follow"><img src="/content/pwc/script/network/follow/follow-youtube.png"/></a>
+    
+
+        <a href="http://pwc.to/PwCGP" target="_self" title=" Googleplus Follow" class="socialfollow- Googleplus Follow"><img src="/content/pwc/script/network/follow/follow_googleplus.png"/></a>
+    
+</div>
+
+<script>
+	$(document).ready(function(){
+		$("#socialfollow").trigger("socialFollowLoaded");	
+	});
+</script>
+</div>
+<div class="section"><div class="new"></div>
+</div><div class="iparys_inherited"><div class="iparsys parsys"></div>
+</div>
+</div>
+</div></div>
+</div>
+    </div>
+</div>
+        </div>
+    </section>
+
+
+    
+
+</div></div> 
+        <div><div class="section"><div class="new"></div>
+</div><div class="iparys_inherited"><div class="footerPar iparsys parsys"><div class="newPageFooter parbase section">
+
+
+
+
+
+
+
+<!-- START Sitemap Footer -->
+    <div class="dpe-component-wrapper glb-footer glb-footer__block--reduced">
+    <div class="container">
+		
+
+	
+
+
+
+
+
+
+<!-- Code from old JSP -->
+
+
+
+<!-- Code from old JSP ends -->
+
+
+
+    
+    
+        <!-- REDUCED Footer items -->
+        <div class="row">
+            <div class="col-xs-12 col-sm-12 ">
+                <div class="glb-footer__block">
+                    
+                    <a class="serif glb-footer__link glb-footer__link--l1" target="" href="/gx/en/about/office-locations.html">Member firms</a>
+                    
+                    <a class="serif glb-footer__link glb-footer__link--l1" target="" href="/gx/en/site-map.html">Site map</a>
+                    
+                    <a class="serif glb-footer__link glb-footer__link--l1" target="" href="/content/pwc/global/forms/contactUs.en_gx.html?parentPagePath=/content/pwc/gx/en&style=">Contact us</a>
+                    
+                </div>
+            </div>
+        </div>
+
+    
+    
+
+
+<!-- START Copyright statement -->
+<div class="row">
+    <div class="col-xs-12  ">
+        <div class="glb-footer__disclaimer">
+            <div class="row">
+                <div class="col-md-8 glb-footer__disclaimer-text">
+                    
+                    
+                    <p>&copy;&nbsp;2017  - Sat Sep 22 18:13:28 UTC 2018 PwC. All rights reserved. PwC refers to the PwC network and/or one or more of its member firms, each of which is a separate legal entity. Please see <a href="http://www.pwc.com/structure" style="text-decoration: underline">www.pwc.com/structure</a> for further details.</p>
+                    <!-- optional disclaimer links -->
+                    <ul class="glb-footer__disclaimer-links" id="pgFooter">
+                        
+                            
+                                <li><a href="/gx/en/legal-notices.html" target="">Legal notices</a></li>
+                            
+                                <li><a href="/gx/en/legal-notices/our-privacy-commitment.html" target="">Privacy</a></li>
+                            
+                                <li><a href="/gx/en/legal-notices/cookie-policy.html" target="">Cookie policy</a></li>
+                            
+                                <li><a href="/gx/en/legal-notices/legal-disclaimer.html" target="">Legal disclaimer</a></li>
+                            
+                                <li><a href="/gx/en/legal-notices/terms-and-conditions.html" target="">Terms and conditions</a></li>
+                            
+                    	
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- END Copyright statement -->
+
+<!-- Code from old JSP -->
+
+<!-- Code from old JSP ends -->
+
+
+
+
+	</div>
+</div>
+
+<!-- END Sitemap Footer -->
+
+</div>
+</div>
+</div>
+</div>
+
+    
+<script type="text/javascript" src="/etc/clientlibs/pwc/components-colors.min.0e81e3d8cf7f1ae8bc48d788e41c8c61.js"></script>
+<script type="text/javascript" src="/etc/designs/pwc/longform/script.min.14fe6d5165997a8a164f04ce31326433.js"></script>
+
+
+
+
+        </div>
+    </body>
+</html>

@@ -1,0 +1,39 @@
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"><meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, target-densityDpi=device-dpi" /><meta http-equiv="CACHE-CONTROL" content="no-cache"><meta name="robots" content="noindex" /><link href="/css/maintab.css?20180129" rel="stylesheet" type="text/css"><!--
+--><script src="/js/jquery-1.11.1.min.js"></script><script src="/js/jquery-migrate-1.2.1.min.js"></script><script type="text/javascript" src="/js/jquery.touchwipe.min.js"></script><script type='text/javascript' src='/js/jQuery.tubeplayer.min.js'></script><script type="text/javascript">//控制出現機率在 5% 出現第五個頁籤 以下取消
+ //var randNum = parseInt(Math.random() *20);
+// if ( randNum == 1 ){
+// current_tab=4; //控制出現的第一個 tab 要是那一個, 隨機10
+// tabs_jump0=true; // 控制自動顯示完後要回到第 1個
+// }
+// chage 20130125
+ function Reload() {
+ try {
+ var headElement = document.getElementsByTagName("head")[0];
+ if (headElement && headElement.innerHTML)
+ headElement.innerHTML += "<meta http-equiv=\"refresh\" content=\"1\">";
+ }catch (e) {}
+ }
+ if ((/iphone|ipod|ipad.*os 5/gi).test(navigator.appVersion)) {
+ window.onpageshow = function(evt) {
+ if (evt.persisted) {
+ document.body.style.display = "none";
+ location.reload();
+ Reload();
+ }
+ };
+ }</script></head><body><div class="tabs_body" onMouseOver="javascript:autoStop();" onMouseOut="javascript:autoStart();"><style>.tab-content2 {
+ position:absolute;
+ left: 0;
+ top: 0;
+}</style> <div id="tab-content"><div class="focus"><div style="display:block"></div></div> </div> <!-- /#type_1 --> <div id="tabs_arrow"> <a href="####" onClick="prevGroup('c');" class="prev" id="prev_id" data-track="click" data-type="hero interaction" data-id="image" data-pos="1"></a> <a href="####" onClick="nextGroup('c');" class="next" id="next_id" data-track="click" data-type="hero interaction" data-id="image" data-pos="2"></a> </div> <!-- /#tabs_arrow --> <div id="tabs"> <dl> <dt><a href="/common/maintabs_content/41058" delay="10000" title="厄文充滿信心">厄文充滿信心</a></dt> <dt><a href="/common/maintabs_content/41086" delay="10000" title="巴特勒請求交易">巴特勒請求交易</a></dt> <dt><a href="/common/maintabs_content/41130" delay="10000" title="先發控衛之爭">先發控衛之爭</a></dt> <dt><a href="/common/maintabs_content/41099" delay="10000" title="詹皇積極備戰">詹皇積極備戰</a></dt> <dt><a href="/common/maintabs_content/41088" delay="10000" title="放話痛宰老東家">放話痛宰老東家</a></dt> <dt><a href="/common/maintabs_content/41089" delay="10000" title="新規則上路">新規則上路</a></dt> <dt><a href="/common/maintabs_content/41090" delay="10000" title="再掀口水戰">再掀口水戰</a></dt> <dt><a href="/common/maintabs_content/41121" delay="10000" title="柯爾執教經驗談">柯爾執教經驗談</a></dt> <dt><a href="/common/maintabs_content/41122" delay="10000" title="詹皇面臨挑戰">詹皇面臨挑戰</a></dt> <dt><a href="/common/maintabs_content/41120" delay="10000" title="出書傳遞精神">出書傳遞精神</a></dt> </dl> </div><!-- publish from tab_list.jsp 2014/12/25 10:14:50--> <!-- /#tabs --> </div> <!-- /.tabs_body --><!-- /#main_tabs --><script type="text/javascript" src="/js/maintab.js"></script></body><!-- google analytics --><!--<script type="text/javascript">function _track(url){
+ _gaq.push(['_setAccount', 'UA-19660006-3']);
+ _gaq.push(['_setDomainName', '.udn.com']);
+ _gaq.push(['_setSampleRate', '20']);
+ _gaq.push(['_trackPageview', url]);
+}
+ var _gaq = _gaq || [];
+ (function() {
+ var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+ ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+ var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+ })();</script>--><!-- google analytics --></html>
