@@ -1,3 +1,19 @@
+See our [wiki](https://github.com/biskit1/Overscripted-Data-Analysis-Challenge/wiki) for things that need or should be done to better the analysis. Analysis is located in analyses/canvas_fingerprinting.ipynb.  
+
+Installation (may be buggy):
+
+- Install [Anaconda](https://www.anaconda.com/download/) //Remember to properly set your path for all these installations
+- Install [Python](https://www.python.org/downloads/release/python-365/) (minimum version 5.6)
+- Install [Spark](https://spark.apache.org/downloads.html) //Keep the path to the folder (NOT THE BIN, THE PARENT FOLDER) handy. 
+- Run: `conda env create -f environment.yaml` then `conda activate overscripted`
+- Finally, run `jupyter notebook`
+
+Links to download the parquet files are located below within the Mozilla readme. ctrl-f public-data for convenience.
+
+----
+
+Original Overscripted challenge readme starts from here:  
+
 ## Overscripted Web: A Mozilla Data Analysis Challenge
 ### How to participate
 
