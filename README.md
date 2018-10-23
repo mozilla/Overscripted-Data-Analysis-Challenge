@@ -1,4 +1,6 @@
-See our [wiki](https://github.com/biskit1/Overscripted-Data-Analysis-Challenge/wiki) for things that need or should be done to better the analysis. Analysis is located in analyses/canvas_fingerprinting.ipynb.  
+See our [wiki](https://github.com/biskit1/Overscripted-Data-Analysis-Challenge/wiki) for things that need or should be done to better the analysis. Analysis is located in analyses/canvas_fingerprinting.ipynb. 
+
+Issues will be opened for the Mozfest, and our personal use. If you click on Projects, you will see one up. Issues will be as to do and opened PRs will be automatically moved to in progress and merged PRs to done. 
 
 Installation (may be buggy):
 
