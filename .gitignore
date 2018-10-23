@@ -3,3 +3,7 @@
 
 # vim swap files
 *.sw?
+
+#
+__pycache__/
+*.py[cod]
