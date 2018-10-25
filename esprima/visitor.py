@@ -13,7 +13,8 @@ class Node(abc.ABC):
     """Abstract Node class which defines node operations"""
     @abc.abstractproperty
     def fields(self) -> List[str]:
-        """List of field names associated with this node type, in canonical order."""
+        """List of field names associated with this node type, in canonical
+            order."""
 
     def __init__(self, data: Dict[str, Any]) -> None:
         """Sets one attribute in the Node for each field (e.g. self.body)."""
@@ -50,7 +51,8 @@ class Node(abc.ABC):
         return self.__class__.__name__
 
 
-def objectify(data: Union[None, Dict[str, Any], List[Dict[str, Any]]], parent=None) -> Union[
+def objectify(data: Union[None, Dict[str, Any], List[Dict[str, Any]]], \
+        parent=None) -> Union[
         None, Dict[str, Any], List[Any], Node]:
     """Recursively transform AST data into a Node object."""
     if not isinstance(data, (dict, list)):
@@ -169,7 +171,8 @@ class ThrowStatement(Node):
 
 class TryStatement(Node):
     @property
-    def fields(self): return ['block', 'guardedHandlers', 'handlers', 'handler', 'finalizer']
+    def fields(self): return ['block', 'guardedHandlers', 'handlers', \
+            'handler', 'finalizer']
 
 
 class CatchClause(Node):

@@ -75,6 +75,8 @@ def extractProperties(json_data):
     # this only works if guaranteed that json file has one key under 'api'
     interface_name = list(json_data.keys())[0]
     property_list = list(json_data[interface_name].keys())
+    if "__compat" in property_list:
+        property_list.remove("__compat")
 
     return str.lower(interface_name), property_list
 
@@ -142,15 +144,6 @@ def main():
     with open('symbol_list.json', 'w') as fp:
         json.dump(res_dict, fp)
 
-    # test output:
-#    for key in res_dict:
-#        print(key)
-#        print("")
-#
-#        for entry in res_dict[key]:
-#            print(entry)
-#
-#        print("---------------------------------\n\n")
 
 ################################################################################
 if __name__ == '__main__':
