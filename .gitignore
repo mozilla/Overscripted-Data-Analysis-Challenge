@@ -4,6 +4,9 @@
 # vim swap files
 *.sw?
 
-#
+# python nonsense
 __pycache__/
 *.py[cod]
+
+# data directories
+api/
