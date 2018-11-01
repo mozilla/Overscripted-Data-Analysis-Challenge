@@ -1,73 +1,105 @@
-"""Trasnforms AST dictionary into a tree of Node objects."""
-import abc
+"""
+Transforms AST dictionary into a tree of Node objects.
+Taken from:
+    https://github.com/austinbyers/esprima-ast-visitor/blob/master/visitor.py
+"""
+
+import abc  # abstract base class
 from collections import OrderedDict
 from typing import Any, Dict, Generator, List, Union
 
 
+################################################################################
 class UnknownNodeTypeError(Exception):
     """Raised if we encounter a node with an unknown type."""
     pass
 
 
+################################################################################
 class Node(abc.ABC):
+
     """Abstract Node class which defines node operations"""
     @abc.abstractproperty
+
+    ############################################################################
     def fields(self) -> List[str]:
         """List of field names associated with this node type, in canonical
             order."""
 
+    ############################################################################
     def __init__(self, data: Dict[str, Any]) -> None:
+
         """Sets one attribute in the Node for each field (e.g. self.body)."""
         for field in self.fields:
             setattr(self, field, objectify(data.get(field), parent=self))
 
+    ############################################################################
     def dict(self) -> Dict[str, Any]:
+
         """Transform the Node back into an Esprima-compatible AST dictionary."""
         result = OrderedDict({'type': self.type})  # type: Dict[str, Any]
+
         for field in self.fields:
             val = getattr(self, field)
+
             if isinstance(val, Node):
                 result[field] = val.dict()
             elif isinstance(val, list):
                 result[field] = [x.dict() for x in val]
             else:
                 result[field] = val
+
         return result
 
+    ############################################################################
     def traverse(self) -> Generator['Node', None, None]:
+
         """Pre-order traversal of this node and all of its children."""
         yield self
+
         for field in self.fields:
             val = getattr(self, field)
+
             if isinstance(val, Node):
                 yield from val.traverse()
+
             elif isinstance(val, list):
                 for node in val:
                     yield from node.traverse()
 
+    ############################################################################
     @property
     def type(self) -> str:
+
         """The name of the node type, e.g. 'Identifier'."""
         return self.__class__.__name__
 
 
+################################################################################
 def objectify(data: Union[None, Dict[str, Any], List[Dict[str, Any]]], \
-        parent=None) -> Union[
-        None, Dict[str, Any], List[Any], Node]:
+        parent=None) -> Union[None, Dict[str, Any], List[Any], Node]:
+
     """Recursively transform AST data into a Node object."""
+
     if not isinstance(data, (dict, list)):
+
         # Data is a basic type (None, string, number)
         return data
 
     if isinstance(data, dict):
         if 'type' not in data:
+
             # Literal values can be empty dictionaries, for example.
             return data
+
         # Transform the type into the appropriate class.
         node_class = globals().get(data['type'])
+
         if not node_class:
             raise UnknownNodeTypeError(data['type'])
+
         return node_class(data)
+
     else:
         # Data is a list of nodes.
         return [objectify(x) for x in data]
@@ -77,6 +109,7 @@ def objectify(data: Union[None, Dict[str, Any], List[Dict[str, Any]]], \
 # pylint: disable=missing-docstring,multiple-statements
 
 
+################################################################################
 class Identifier(Node):
     @property
     def fields(self): return ['name']
