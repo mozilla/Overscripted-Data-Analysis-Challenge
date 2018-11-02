@@ -1,0 +1,2670 @@
+{
+    "height": [
+        {
+            "depth": 166,
+            "width": 15,
+            "parent_depth": 166,
+            "parent_width": 14
+        },
+        {
+            "depth": 177,
+            "width": 17,
+            "parent_depth": 177,
+            "parent_width": 10
+        }
+    ],
+    "mozOpaque": [],
+    "width": [
+        {
+            "depth": 166,
+            "width": 20,
+            "parent_depth": 166,
+            "parent_width": 18
+        },
+        {
+            "depth": 177,
+            "width": 14,
+            "parent_depth": 177,
+            "parent_width": 10
+        }
+    ],
+    "captureStream": [],
+    "getContext": [],
+    "mozFetchAsStream": [],
+    "mozGetAsFile": [],
+    "toBlob": [],
+    "toDataURL": [],
+    "transferControlToOffscreen": [],
+    "alert": [],
+    "blur": [],
+    "confirm": [],
+    "cancelAnimationFrame": [],
+    "cancelIdleCallback": [],
+    "clearImmediate": [],
+    "close": [],
+    "focus": [],
+    "ondevicelight": [],
+    "convertPointFromNodeToPage": [],
+    "convertPointFromPageToNode": [],
+    "ondeviceorientationabsolute": [],
+    "ondeviceproximity": [],
+    "ongamepadconnected": [],
+    "ongamepaddisconnected": [],
+    "onpaint": [],
+    "onuserproximity": [],
+    "onvrdisplayactivate": [],
+    "onvrdisplayblur": [],
+    "onvrdisplayconnect": [],
+    "onvrdisplaydeactivate": [],
+    "onvrdisplaydisconnect": [],
+    "onvrdisplayfocus": [],
+    "onvrdisplaypresentchange": [],
+    "crypto": [
+        {
+            "depth": 261,
+            "width": 13,
+            "parent_depth": 261,
+            "parent_width": 9
+        }
+    ],
+    "customElements": [],
+    "devicePixelRatio": [],
+    "dialogArguments": [],
+    "document": [
+        {
+            "depth": 158,
+            "width": 5,
+            "parent_depth": 158,
+            "parent_width": 3
+        },
+        {
+            "depth": 158,
+            "width": 20,
+            "parent_depth": 158,
+            "parent_width": 18
+        }
+    ],
+    "event": [
+        {
+            "depth": 83,
+            "width": 24,
+            "parent_depth": 83,
+            "parent_width": 23
+        }
+    ],
+    "frameElement": [],
+    "frames": [],
+    "fullScreen": [],
+    "getAttention": [],
+    "getAttentionWithCycleCount": [],
+    "getComputedStyle": [],
+    "getDefaultComputedStyle": [],
+    "getSelection": [],
+    "globalStorage": [],
+    "history": [],
+    "home": [],
+    "innerHeight": [],
+    "innerWidth": [],
+    "isSecureContext": [],
+    "length": [
+        {
+            "depth": 7,
+            "width": 132,
+            "parent_depth": 7,
+            "parent_width": 131
+        },
+        {
+            "depth": 15,
+            "width": 16,
+            "parent_depth": 15,
+            "parent_width": 15
+        },
+        {
+            "depth": 33,
+            "width": 55,
+            "parent_depth": 33,
+            "parent_width": 53
+        },
+        {
+            "depth": 36,
+            "width": 42,
+            "parent_depth": 36,
+            "parent_width": 41
+        },
+        {
+            "depth": 56,
+            "width": 6,
+            "parent_depth": 56,
+            "parent_width": 5
+        },
+        {
+            "depth": 57,
+            "width": 3,
+            "parent_depth": 57,
+            "parent_width": 1
+        },
+        {
+            "depth": 57,
+            "width": 11,
+            "parent_depth": 57,
+            "parent_width": 9
+        },
+        {
+            "depth": 63,
+            "width": 21,
+            "parent_depth": 63,
+            "parent_width": 19
+        },
+        {
+            "depth": 65,
+            "width": 34,
+            "parent_depth": 65,
+            "parent_width": 33
+        },
+        {
+            "depth": 66,
+            "width": 38,
+            "parent_depth": 66,
+            "parent_width": 36
+        },
+        {
+            "depth": 67,
+            "width": 2,
+            "parent_depth": 66,
+            "parent_width": 55
+        },
+        {
+            "depth": 67,
+            "width": 17,
+            "parent_depth": 67,
+            "parent_width": 15
+        },
+        {
+            "depth": 70,
+            "width": 19,
+            "parent_depth": 70,
+            "parent_width": 18
+        },
+        {
+            "depth": 78,
+            "width": 21,
+            "parent_depth": 78,
+            "parent_width": 20
+        },
+        {
+            "depth": 79,
+            "width": 38,
+            "parent_depth": 79,
+            "parent_width": 37
+        },
+        {
+            "depth": 91,
+            "width": 101,
+            "parent_depth": 91,
+            "parent_width": 100
+        },
+        {
+            "depth": 92,
+            "width": 16,
+            "parent_depth": 92,
+            "parent_width": 14
+        },
+        {
+            "depth": 92,
+            "width": 91,
+            "parent_depth": 92,
+            "parent_width": 89
+        },
+        {
+            "depth": 92,
+            "width": 129,
+            "parent_depth": 92,
+            "parent_width": 127
+        },
+        {
+            "depth": 93,
+            "width": 83,
+            "parent_depth": 93,
+            "parent_width": 81
+        },
+        {
+            "depth": 94,
+            "width": 8,
+            "parent_depth": 94,
+            "parent_width": 7
+        },
+        {
+            "depth": 94,
+            "width": 85,
+            "parent_depth": 94,
+            "parent_width": 84
+        },
+        {
+            "depth": 95,
+            "width": 45,
+            "parent_depth": 95,
+            "parent_width": 44
+        },
+        {
+            "depth": 97,
+            "width": 22,
+            "parent_depth": 97,
+            "parent_width": 21
+        },
+        {
+            "depth": 99,
+            "width": 11,
+            "parent_depth": 99,
+            "parent_width": 10
+        },
+        {
+            "depth": 99,
+            "width": 76,
+            "parent_depth": 99,
+            "parent_width": 75
+        },
+        {
+            "depth": 100,
+            "width": 16,
+            "parent_depth": 100,
+            "parent_width": 15
+        },
+        {
+            "depth": 100,
+            "width": 48,
+            "parent_depth": 100,
+            "parent_width": 47
+        },
+        {
+            "depth": 104,
+            "width": 26,
+            "parent_depth": 104,
+            "parent_width": 25
+        },
+        {
+            "depth": 104,
+            "width": 45,
+            "parent_depth": 104,
+            "parent_width": 44
+        },
+        {
+            "depth": 106,
+            "width": 72,
+            "parent_depth": 106,
+            "parent_width": 71
+        },
+        {
+            "depth": 106,
+            "width": 78,
+            "parent_depth": 106,
+            "parent_width": 77
+        },
+        {
+            "depth": 107,
+            "width": 3,
+            "parent_depth": 107,
+            "parent_width": 2
+        },
+        {
+            "depth": 111,
+            "width": 19,
+            "parent_depth": 111,
+            "parent_width": 17
+        },
+        {
+            "depth": 116,
+            "width": 32,
+            "parent_depth": 116,
+            "parent_width": 31
+        },
+        {
+            "depth": 116,
+            "width": 55,
+            "parent_depth": 116,
+            "parent_width": 54
+        },
+        {
+            "depth": 120,
+            "width": 19,
+            "parent_depth": 120,
+            "parent_width": 13
+        },
+        {
+            "depth": 120,
+            "width": 44,
+            "parent_depth": 120,
+            "parent_width": 30
+        },
+        {
+            "depth": 120,
+            "width": 73,
+            "parent_depth": 120,
+            "parent_width": 67
+        },
+        {
+            "depth": 121,
+            "width": 1,
+            "parent_depth": 120,
+            "parent_width": 84
+        },
+        {
+            "depth": 125,
+            "width": 74,
+            "parent_depth": 125,
+            "parent_width": 73
+        },
+        {
+            "depth": 131,
+            "width": 4,
+            "parent_depth": 131,
+            "parent_width": 2
+        },
+        {
+            "depth": 131,
+            "width": 35,
+            "parent_depth": 131,
+            "parent_width": 33
+        },
+        {
+            "depth": 131,
+            "width": 41,
+            "parent_depth": 131,
+            "parent_width": 39
+        },
+        {
+            "depth": 142,
+            "width": 18,
+            "parent_depth": 142,
+            "parent_width": 17
+        },
+        {
+            "depth": 148,
+            "width": 7,
+            "parent_depth": 148,
+            "parent_width": 5
+        },
+        {
+            "depth": 148,
+            "width": 19,
+            "parent_depth": 148,
+            "parent_width": 18
+        },
+        {
+            "depth": 150,
+            "width": 41,
+            "parent_depth": 150,
+            "parent_width": 40
+        },
+        {
+            "depth": 153,
+            "width": 5,
+            "parent_depth": 153,
+            "parent_width": 4
+        },
+        {
+            "depth": 161,
+            "width": 3,
+            "parent_depth": 161,
+            "parent_width": 2
+        },
+        {
+            "depth": 168,
+            "width": 26,
+            "parent_depth": 168,
+            "parent_width": 25
+        },
+        {
+            "depth": 175,
+            "width": 36,
+            "parent_depth": 175,
+            "parent_width": 35
+        },
+        {
+            "depth": 176,
+            "width": 14,
+            "parent_depth": 176,
+            "parent_width": 13
+        },
+        {
+            "depth": 186,
+            "width": 16,
+            "parent_depth": 186,
+            "parent_width": 14
+        },
+        {
+            "depth": 189,
+            "width": 2,
+            "parent_depth": 189,
+            "parent_width": 1
+        },
+        {
+            "depth": 189,
+            "width": 32,
+            "parent_depth": 189,
+            "parent_width": 31
+        },
+        {
+            "depth": 190,
+            "width": 25,
+            "parent_depth": 190,
+            "parent_width": 23
+        },
+        {
+            "depth": 192,
+            "width": 13,
+            "parent_depth": 192,
+            "parent_width": 12
+        },
+        {
+            "depth": 193,
+            "width": 15,
+            "parent_depth": 193,
+            "parent_width": 13
+        },
+        {
+            "depth": 196,
+            "width": 10,
+            "parent_depth": 196,
+            "parent_width": 8
+        },
+        {
+            "depth": 197,
+            "width": 16,
+            "parent_depth": 197,
+            "parent_width": 15
+        },
+        {
+            "depth": 197,
+            "width": 36,
+            "parent_depth": 197,
+            "parent_width": 34
+        },
+        {
+            "depth": 299,
+            "width": 6,
+            "parent_depth": 299,
+            "parent_width": 5
+        },
+        {
+            "depth": 305,
+            "width": 16,
+            "parent_depth": 305,
+            "parent_width": 14
+        },
+        {
+            "depth": 306,
+            "width": 6,
+            "parent_depth": 306,
+            "parent_width": 5
+        },
+        {
+            "depth": 326,
+            "width": 25,
+            "parent_depth": 326,
+            "parent_width": 24
+        },
+        {
+            "depth": 329,
+            "width": 16,
+            "parent_depth": 329,
+            "parent_width": 14
+        },
+        {
+            "depth": 337,
+            "width": 3,
+            "parent_depth": 337,
+            "parent_width": 2
+        },
+        {
+            "depth": 339,
+            "width": 23,
+            "parent_depth": 339,
+            "parent_width": 21
+        },
+        {
+            "depth": 341,
+            "width": 7,
+            "parent_depth": 341,
+            "parent_width": 6
+        },
+        {
+            "depth": 342,
+            "width": 18,
+            "parent_depth": 342,
+            "parent_width": 17
+        },
+        {
+            "depth": 344,
+            "width": 26,
+            "parent_depth": 344,
+            "parent_width": 25
+        },
+        {
+            "depth": 346,
+            "width": 20,
+            "parent_depth": 346,
+            "parent_width": 18
+        },
+        {
+            "depth": 348,
+            "width": 16,
+            "parent_depth": 348,
+            "parent_width": 15
+        },
+        {
+            "depth": 352,
+            "width": 4,
+            "parent_depth": 352,
+            "parent_width": 3
+        },
+        {
+            "depth": 359,
+            "width": 17,
+            "parent_depth": 359,
+            "parent_width": 16
+        },
+        {
+            "depth": 361,
+            "width": 16,
+            "parent_depth": 361,
+            "parent_width": 15
+        },
+        {
+            "depth": 372,
+            "width": 27,
+            "parent_depth": 372,
+            "parent_width": 26
+        },
+        {
+            "depth": 383,
+            "width": 7,
+            "parent_depth": 383,
+            "parent_width": 5
+        },
+        {
+            "depth": 383,
+            "width": 15,
+            "parent_depth": 383,
+            "parent_width": 13
+        },
+        {
+            "depth": 398,
+            "width": 2,
+            "parent_depth": 398,
+            "parent_width": 1
+        },
+        {
+            "depth": 413,
+            "width": 4,
+            "parent_depth": 413,
+            "parent_width": 3
+        },
+        {
+            "depth": 450,
+            "width": 1,
+            "parent_depth": 449,
+            "parent_width": 20
+        },
+        {
+            "depth": 463,
+            "width": 5,
+            "parent_depth": 463,
+            "parent_width": 4
+        },
+        {
+            "depth": 467,
+            "width": 31,
+            "parent_depth": 467,
+            "parent_width": 29
+        },
+        {
+            "depth": 470,
+            "width": 29,
+            "parent_depth": 470,
+            "parent_width": 28
+        },
+        {
+            "depth": 472,
+            "width": 14,
+            "parent_depth": 472,
+            "parent_width": 12
+        },
+        {
+            "depth": 473,
+            "width": 4,
+            "parent_depth": 473,
+            "parent_width": 3
+        },
+        {
+            "depth": 497,
+            "width": 10,
+            "parent_depth": 497,
+            "parent_width": 9
+        }
+    ],
+    "localStorage": [
+        {
+            "depth": 179,
+            "width": 26,
+            "parent_depth": 179,
+            "parent_width": 24
+        },
+        {
+            "depth": 180,
+            "width": 2,
+            "parent_depth": 179,
+            "parent_width": 33
+        },
+        {
+            "depth": 181,
+            "width": 3,
+            "parent_depth": 181,
+            "parent_width": 2
+        }
+    ],
+    "location": [
+        {
+            "depth": 10,
+            "width": 52,
+            "parent_depth": 10,
+            "parent_width": 50
+        },
+        {
+            "depth": 10,
+            "width": 59,
+            "parent_depth": 10,
+            "parent_width": 57
+        },
+        {
+            "depth": 10,
+            "width": 71,
+            "parent_depth": 10,
+            "parent_width": 70
+        },
+        {
+            "depth": 10,
+            "width": 74,
+            "parent_depth": 10,
+            "parent_width": 70
+        },
+        {
+            "depth": 10,
+            "width": 80,
+            "parent_depth": 10,
+            "parent_width": 79
+        },
+        {
+            "depth": 10,
+            "width": 85,
+            "parent_depth": 10,
+            "parent_width": 79
+        },
+        {
+            "depth": 22,
+            "width": 62,
+            "parent_depth": 22,
+            "parent_width": 60
+        },
+        {
+            "depth": 38,
+            "width": 13,
+            "parent_depth": 38,
+            "parent_width": 11
+        },
+        {
+            "depth": 46,
+            "width": 15,
+            "parent_depth": 46,
+            "parent_width": 13
+        },
+        {
+            "depth": 159,
+            "width": 3,
+            "parent_depth": 159,
+            "parent_width": 1
+        },
+        {
+            "depth": 159,
+            "width": 13,
+            "parent_depth": 159,
+            "parent_width": 11
+        }
+    ],
+    "locationbar": [],
+    "matchMedia": [],
+    "maximize": [],
+    "menubar": [],
+    "minimize": [],
+    "moveBy": [],
+    "moveTo": [],
+    "mozAnimationStartTime": [],
+    "mozInnerScreenX": [],
+    "mozInnerScreenY": [],
+    "mozPaintCount": [],
+    "name": [
+        {
+            "depth": 7,
+            "width": 111,
+            "parent_depth": 7,
+            "parent_width": 95
+        },
+        {
+            "depth": 113,
+            "width": 84,
+            "parent_depth": 113,
+            "parent_width": 83
+        },
+        {
+            "depth": 123,
+            "width": 57,
+            "parent_depth": 123,
+            "parent_width": 56
+        },
+        {
+            "depth": 150,
+            "width": 11,
+            "parent_depth": 150,
+            "parent_width": 9
+        },
+        {
+            "depth": 173,
+            "width": 10,
+            "parent_depth": 173,
+            "parent_width": 9
+        },
+        {
+            "depth": 174,
+            "width": 34,
+            "parent_depth": 174,
+            "parent_width": 32
+        }
+    ],
+    "navigator": [],
+    "onappinstalled": [],
+    "onbeforeinstallprompt": [],
+    "ondevicemotion": [],
+    "ondeviceorientation": [],
+    "open": [
+        {
+            "depth": 61,
+            "width": 46,
+            "parent_depth": 61,
+            "parent_width": 42
+        }
+    ],
+    "openDialog": [],
+    "opener": [],
+    "orientation": [],
+    "outerHeight": [],
+    "outerWidth": [],
+    "pageXOffset": [
+        {
+            "depth": 31,
+            "width": 42,
+            "parent_depth": 31,
+            "parent_width": 41
+        }
+    ],
+    "pageYOffset": [
+        {
+            "depth": 31,
+            "width": 35,
+            "parent_depth": 31,
+            "parent_width": 34
+        }
+    ],
+    "parent": [
+        {
+            "depth": 158,
+            "width": 7,
+            "parent_depth": 158,
+            "parent_width": 5
+        },
+        {
+            "depth": 158,
+            "width": 11,
+            "parent_depth": 157,
+            "parent_width": 20
+        }
+    ],
+    "performance": [
+        {
+            "depth": 21,
+            "width": 83,
+            "parent_depth": 21,
+            "parent_width": 79
+        }
+    ],
+    "personalbar": [],
+    "pkcs11": [],
+    "postMessage": [],
+    "print": [],
+    "prompt": [],
+    "releaseEvents": [],
+    "requestAnimationFrame": [],
+    "requestFileSystem": [],
+    "requestIdleCallback": [],
+    "resizeBy": [],
+    "resizeTo": [],
+    "restore": [],
+    "returnValue": [],
+    "routeEvent": [],
+    "screen": [],
+    "screenX": [],
+    "screenY": [],
+    "scroll": [],
+    "scrollbars": [],
+    "scrollBy": [],
+    "scrollByLines": [],
+    "scrollByPages": [],
+    "scrollMaxX": [],
+    "scrollMaxY": [],
+    "scrollTo": [],
+    "scrollX": [],
+    "scrollY": [],
+    "self": [],
+    "sessionStorage": [
+        {
+            "depth": 181,
+            "width": 23,
+            "parent_depth": 181,
+            "parent_width": 22
+        }
+    ],
+    "setCursor": [],
+    "setImmediate": [],
+    "setResizable": [],
+    "showModalDialog": [],
+    "sidebar": [],
+    "sizeToContent": [],
+    "speechSynthesis": [],
+    "status": [
+        {
+            "depth": 64,
+            "width": 3,
+            "parent_depth": 64,
+            "parent_width": 1
+        },
+        {
+            "depth": 64,
+            "width": 52,
+            "parent_depth": 64,
+            "parent_width": 50
+        },
+        {
+            "depth": 64,
+            "width": 58,
+            "parent_depth": 64,
+            "parent_width": 56
+        }
+    ],
+    "statusbar": [],
+    "stop": [],
+    "toolbar": [],
+    "top": [
+        {
+            "depth": 10,
+            "width": 76,
+            "parent_depth": 10,
+            "parent_width": 74
+        },
+        {
+            "depth": 10,
+            "width": 82,
+            "parent_depth": 10,
+            "parent_width": 80
+        },
+        {
+            "depth": 54,
+            "width": 10,
+            "parent_depth": 54,
+            "parent_width": 9
+        },
+        {
+            "depth": 98,
+            "width": 31,
+            "parent_depth": 98,
+            "parent_width": 29
+        },
+        {
+            "depth": 98,
+            "width": 52,
+            "parent_depth": 98,
+            "parent_width": 51
+        },
+        {
+            "depth": 102,
+            "width": 19,
+            "parent_depth": 102,
+            "parent_width": 17
+        },
+        {
+            "depth": 122,
+            "width": 25,
+            "parent_depth": 122,
+            "parent_width": 24
+        },
+        {
+            "depth": 158,
+            "width": 22,
+            "parent_depth": 158,
+            "parent_width": 20
+        }
+    ],
+    "updateCommands": [],
+    "visualViewport": [],
+    "window": [
+        {
+            "depth": 132,
+            "width": 26,
+            "parent_depth": 132,
+            "parent_width": 24
+        }
+    ],
+    "subtle": [],
+    "getRandomValues": [
+        {
+            "depth": 260,
+            "width": 23,
+            "parent_depth": 260,
+            "parent_width": 21
+        },
+        {
+            "depth": 261,
+            "width": 10,
+            "parent_depth": 261,
+            "parent_width": 9
+        }
+    ],
+    "Document": [],
+    "URL": [],
+    "adoptNode": [],
+    "alinkColor": [],
+    "all": [],
+    "anchors": [],
+    "applets": [],
+    "async": [],
+    "bgColor": [],
+    "body": [
+        {
+            "depth": 31,
+            "width": 51,
+            "parent_depth": 31,
+            "parent_width": 50
+        },
+        {
+            "depth": 143,
+            "width": 26,
+            "parent_depth": 143,
+            "parent_width": 24
+        },
+        {
+            "depth": 171,
+            "width": 17,
+            "parent_depth": 171,
+            "parent_width": 16
+        },
+        {
+            "depth": 172,
+            "width": 16,
+            "parent_depth": 172,
+            "parent_width": 15
+        }
+    ],
+    "captureEvents": [],
+    "caretRangeFromPoint": [],
+    "characterSet": [
+        {
+            "depth": 43,
+            "width": 40,
+            "parent_depth": 43,
+            "parent_width": 36
+        }
+    ],
+    "clear": [],
+    "compatMode": [
+        {
+            "depth": 31,
+            "width": 60,
+            "parent_depth": 31,
+            "parent_width": 58
+        },
+        {
+            "depth": 31,
+            "width": 63,
+            "parent_depth": 31,
+            "parent_width": 57
+        }
+    ],
+    "contains": [],
+    "contentType": [],
+    "cookie": [
+        {
+            "depth": 9,
+            "width": 120,
+            "parent_depth": 9,
+            "parent_width": 118
+        },
+        {
+            "depth": 19,
+            "width": 45,
+            "parent_depth": 19,
+            "parent_width": 43
+        },
+        {
+            "depth": 25,
+            "width": 13,
+            "parent_depth": 25,
+            "parent_width": 6
+        },
+        {
+            "depth": 25,
+            "width": 24,
+            "parent_depth": 25,
+            "parent_width": 17
+        },
+        {
+            "depth": 29,
+            "width": 40,
+            "parent_depth": 29,
+            "parent_width": 12
+        },
+        {
+            "depth": 29,
+            "width": 61,
+            "parent_depth": 29,
+            "parent_width": 53
+        },
+        {
+            "depth": 32,
+            "width": 48,
+            "parent_depth": 32,
+            "parent_width": 44
+        },
+        {
+            "depth": 165,
+            "width": 23,
+            "parent_depth": 165,
+            "parent_width": 17
+        },
+        {
+            "depth": 178,
+            "width": 14,
+            "parent_depth": 178,
+            "parent_width": 12
+        },
+        {
+            "depth": 178,
+            "width": 21,
+            "parent_depth": 178,
+            "parent_width": 18
+        },
+        {
+            "depth": 446,
+            "width": 16,
+            "parent_depth": 446,
+            "parent_width": 15
+        },
+        {
+            "depth": 449,
+            "width": 17,
+            "parent_depth": 447,
+            "parent_width": 8
+        },
+        {
+            "depth": 450,
+            "width": 10,
+            "parent_depth": 444,
+            "parent_width": 4
+        }
+    ],
+    "createAttribute": [],
+    "createAttributeNS": [],
+    "createCDATASection": [],
+    "createComment": [],
+    "createDocumentFragment": [],
+    "createElement": [],
+    "createElementNS": [],
+    "createEntityReference": [],
+    "createEvent": [],
+    "createExpression": [],
+    "createNSResolver": [],
+    "createNodeIterator": [],
+    "createProcessingInstruction": [],
+    "createRange": [],
+    "createTextNode": [],
+    "createTouch": [],
+    "createTouchList": [],
+    "createTreeWalker": [],
+    "currentScript": [],
+    "defaultView": [],
+    "designMode": [],
+    "dir": [],
+    "doctype": [],
+    "documentElement": [
+        {
+            "depth": 31,
+            "width": 54,
+            "parent_depth": 31,
+            "parent_width": 50
+        },
+        {
+            "depth": 53,
+            "width": 45,
+            "parent_depth": 53,
+            "parent_width": 43
+        },
+        {
+            "depth": 54,
+            "width": 16,
+            "parent_depth": 54,
+            "parent_width": 14
+        },
+        {
+            "depth": 171,
+            "width": 22,
+            "parent_depth": 171,
+            "parent_width": 21
+        },
+        {
+            "depth": 172,
+            "width": 19,
+            "parent_depth": 172,
+            "parent_width": 15
+        }
+    ],
+    "documentURI": [],
+    "documentURIObject": [],
+    "domConfig": [],
+    "domain": [
+        {
+            "depth": 38,
+            "width": 16,
+            "parent_depth": 38,
+            "parent_width": 6
+        },
+        {
+            "depth": 46,
+            "width": 18,
+            "parent_depth": 46,
+            "parent_width": 8
+        }
+    ],
+    "embeds": [],
+    "enableStyleSheetsForSet": [],
+    "evaluate": [],
+    "execCommand": [],
+    "execCommandShowHelp": [],
+    "exitFullscreen": [],
+    "exitPointerLock": [],
+    "fgColor": [],
+    "fileSize": [],
+    "fonts": [],
+    "forms": [
+        {
+            "depth": 203,
+            "width": 6,
+            "parent_depth": 203,
+            "parent_width": 4
+        }
+    ],
+    "fullscreen": [],
+    "fullscreenEnabled": [],
+    "getAnimations": [],
+    "getBoxObjectFor": [],
+    "getElementById": [],
+    "getElementsByClassName": [],
+    "getElementsByName": [],
+    "getElementsByTagName": [
+        {
+            "depth": 163,
+            "width": 8,
+            "parent_depth": 163,
+            "parent_width": 6
+        },
+        {
+            "depth": 202,
+            "width": 5,
+            "parent_depth": 202,
+            "parent_width": 3
+        },
+        {
+            "depth": 202,
+            "width": 27,
+            "parent_depth": 202,
+            "parent_width": 25
+        },
+        {
+            "depth": 208,
+            "width": 34,
+            "parent_depth": 208,
+            "parent_width": 32
+        }
+    ],
+    "getElementsByTagNameNS": [],
+    "hasFocus": [],
+    "head": [],
+    "hidden": [],
+    "images": [],
+    "implementation": [],
+    "importNode": [],
+    "lastModified": [],
+    "lastStyleSheetSet": [],
+    "linkColor": [],
+    "links": [
+        {
+            "depth": 36,
+            "width": 35,
+            "parent_depth": 36,
+            "parent_width": 33
+        },
+        {
+            "depth": 36,
+            "width": 44,
+            "parent_depth": 36,
+            "parent_width": 42
+        },
+        {
+            "depth": 78,
+            "width": 32,
+            "parent_depth": 78,
+            "parent_width": 31
+        },
+        {
+            "depth": 139,
+            "width": 26,
+            "parent_depth": 139,
+            "parent_width": 24
+        }
+    ],
+    "loadOverlay": [],
+    "mozSetImageElement": [],
+    "mozSyntheticDocument": [],
+    "normalizeDocument": [],
+    "onafterscriptexecute": [],
+    "onbeforescriptexecute": [],
+    "oncopy": [],
+    "oncut": [],
+    "onfreeze": [],
+    "onfullscreenchange": [],
+    "onfullscreenerror": [],
+    "onpaste": [],
+    "onpointerlockchange": [],
+    "onpointerlockerror": [],
+    "onreadystatechange": [
+        {
+            "depth": 64,
+            "width": 66,
+            "parent_depth": 63,
+            "parent_width": 45
+        }
+    ],
+    "onresume": [],
+    "onselectionchange": [],
+    "onvisibilitychange": [],
+    "origin": [],
+    "plugins": [
+        {
+            "depth": 174,
+            "width": 29,
+            "parent_depth": 174,
+            "parent_width": 27
+        },
+        {
+            "depth": 175,
+            "width": 1,
+            "parent_depth": 174,
+            "parent_width": 36
+        },
+        {
+            "depth": 175,
+            "width": 18,
+            "parent_depth": 175,
+            "parent_width": 16
+        },
+        {
+            "depth": 175,
+            "width": 27,
+            "parent_depth": 175,
+            "parent_width": 25
+        },
+        {
+            "depth": 175,
+            "width": 40,
+            "parent_depth": 175,
+            "parent_width": 38
+        },
+        {
+            "depth": 176,
+            "width": 16,
+            "parent_depth": 176,
+            "parent_width": 14
+        },
+        {
+            "depth": 176,
+            "width": 24,
+            "parent_depth": 174,
+            "parent_width": 12
+        }
+    ],
+    "policy": [],
+    "popupNode": [],
+    "preferredStyleSheetSet": [],
+    "queryCommandEnabled": [],
+    "queryCommandIndeterm": [],
+    "queryCommandState": [],
+    "queryCommandSupported": [],
+    "queryCommandText": [],
+    "queryCommandValue": [],
+    "querySelector": [],
+    "querySelectorAll": [],
+    "readyState": [
+        {
+            "depth": 52,
+            "width": 32,
+            "parent_depth": 52,
+            "parent_width": 31
+        },
+        {
+            "depth": 54,
+            "width": 37,
+            "parent_depth": 54,
+            "parent_width": 35
+        },
+        {
+            "depth": 64,
+            "width": 8,
+            "parent_depth": 64,
+            "parent_width": 6
+        },
+        {
+            "depth": 64,
+            "width": 63,
+            "parent_depth": 64,
+            "parent_width": 61
+        }
+    ],
+    "referrer": [
+        {
+            "depth": 157,
+            "width": 10,
+            "parent_depth": 157,
+            "parent_width": 9
+        },
+        {
+            "depth": 158,
+            "width": 3,
+            "parent_depth": 158,
+            "parent_width": 2
+        },
+        {
+            "depth": 158,
+            "width": 18,
+            "parent_depth": 158,
+            "parent_width": 17
+        }
+    ],
+    "registerElement": [],
+    "releaseCapture": [],
+    "scripts": [],
+    "scrollingElement": [],
+    "selectedStyleSheetSet": [],
+    "styleSheetSets": [],
+    "timeline": [],
+    "title": [
+        {
+            "depth": 13,
+            "width": 59,
+            "parent_depth": 13,
+            "parent_width": 58
+        },
+        {
+            "depth": 16,
+            "width": 85,
+            "parent_depth": 16,
+            "parent_width": 84
+        },
+        {
+            "depth": 18,
+            "width": 92,
+            "parent_depth": 18,
+            "parent_width": 91
+        },
+        {
+            "depth": 45,
+            "width": 3,
+            "parent_depth": 45,
+            "parent_width": 2
+        }
+    ],
+    "tooltipNode": [],
+    "undoManager": [],
+    "visibilityState": [],
+    "vlinkColor": [],
+    "wasDiscarded": [],
+    "write": [],
+    "writeln": [],
+    "xmlEncoding": [],
+    "xmlStandalone": [],
+    "xmlVersion": [],
+    "createObjectURL": [],
+    "hash": [],
+    "host": [],
+    "hostname": [
+        {
+            "depth": 85,
+            "width": 39,
+            "parent_depth": 85,
+            "parent_width": 31
+        }
+    ],
+    "href": [
+        {
+            "depth": 37,
+            "width": 1,
+            "parent_depth": 36,
+            "parent_width": 60
+        },
+        {
+            "depth": 37,
+            "width": 7,
+            "parent_depth": 36,
+            "parent_width": 59
+        },
+        {
+            "depth": 37,
+            "width": 10,
+            "parent_depth": 36,
+            "parent_width": 56
+        },
+        {
+            "depth": 38,
+            "width": 11,
+            "parent_depth": 38,
+            "parent_width": 6
+        },
+        {
+            "depth": 46,
+            "width": 13,
+            "parent_depth": 46,
+            "parent_width": 8
+        },
+        {
+            "depth": 85,
+            "width": 20,
+            "parent_depth": 85,
+            "parent_width": 18
+        },
+        {
+            "depth": 85,
+            "width": 33,
+            "parent_depth": 85,
+            "parent_width": 32
+        },
+        {
+            "depth": 86,
+            "width": 3,
+            "parent_depth": 86,
+            "parent_width": 2
+        },
+        {
+            "depth": 139,
+            "width": 22,
+            "parent_depth": 139,
+            "parent_width": 21
+        },
+        {
+            "depth": 159,
+            "width": 1,
+            "parent_depth": 158,
+            "parent_width": 39
+        },
+        {
+            "depth": 159,
+            "width": 11,
+            "parent_depth": 159,
+            "parent_width": 10
+        }
+    ],
+    "password": [],
+    "pathname": [],
+    "port": [],
+    "protocol": [
+        {
+            "depth": 10,
+            "width": 57,
+            "parent_depth": 10,
+            "parent_width": 55
+        },
+        {
+            "depth": 22,
+            "width": 60,
+            "parent_depth": 22,
+            "parent_width": 59
+        }
+    ],
+    "revokeObjectURL": [],
+    "search": [],
+    "searchParams": [],
+    "toJSON": [
+        {
+            "depth": 476,
+            "width": 5,
+            "parent_depth": 476,
+            "parent_width": 3
+        },
+        {
+            "depth": 476,
+            "width": 13,
+            "parent_depth": 476,
+            "parent_width": 12
+        },
+        {
+            "depth": 484,
+            "width": 10,
+            "parent_depth": 484,
+            "parent_width": 1
+        },
+        {
+            "depth": 484,
+            "width": 15,
+            "parent_depth": 483,
+            "parent_width": 14
+        },
+        {
+            "depth": 485,
+            "width": 5,
+            "parent_depth": 483,
+            "parent_width": 13
+        },
+        {
+            "depth": 489,
+            "width": 10,
+            "parent_depth": 485,
+            "parent_width": 11
+        },
+        {
+            "depth": 490,
+            "width": 2,
+            "parent_depth": 490,
+            "parent_width": 1
+        }
+    ],
+    "username": [],
+    "bodyUsed": [],
+    "arrayBuffer": [],
+    "blob": [],
+    "formData": [],
+    "json": [],
+    "text": [
+        {
+            "depth": 162,
+            "width": 20,
+            "parent_depth": 162,
+            "parent_width": 19
+        },
+        {
+            "depth": 163,
+            "width": 16,
+            "parent_depth": 163,
+            "parent_width": 14
+        }
+    ],
+    "Blob": [],
+    "size": [],
+    "type": [
+        {
+            "depth": 81,
+            "width": 42,
+            "parent_depth": 81,
+            "parent_width": 40
+        },
+        {
+            "depth": 82,
+            "width": 32,
+            "parent_depth": 82,
+            "parent_width": 30
+        },
+        {
+            "depth": 82,
+            "width": 46,
+            "parent_depth": 82,
+            "parent_width": 44
+        },
+        {
+            "depth": 175,
+            "width": 21,
+            "parent_depth": 175,
+            "parent_width": 11
+        },
+        {
+            "depth": 205,
+            "width": 15,
+            "parent_depth": 205,
+            "parent_width": 13
+        },
+        {
+            "depth": 205,
+            "width": 23,
+            "parent_depth": 205,
+            "parent_width": 21
+        },
+        {
+            "depth": 207,
+            "width": 6,
+            "parent_depth": 207,
+            "parent_width": 4
+        },
+        {
+            "depth": 207,
+            "width": 11,
+            "parent_depth": 207,
+            "parent_width": 9
+        },
+        {
+            "depth": 207,
+            "width": 18,
+            "parent_depth": 207,
+            "parent_width": 17
+        },
+        {
+            "depth": 207,
+            "width": 21,
+            "parent_depth": 207,
+            "parent_width": 17
+        },
+        {
+            "depth": 207,
+            "width": 33,
+            "parent_depth": 207,
+            "parent_width": 24
+        },
+        {
+            "depth": 208,
+            "width": 12,
+            "parent_depth": 208,
+            "parent_width": 10
+        }
+    ],
+    "slice": [
+        {
+            "depth": 15,
+            "width": 51,
+            "parent_depth": 15,
+            "parent_width": 49
+        },
+        {
+            "depth": 28,
+            "width": 54,
+            "parent_depth": 28,
+            "parent_width": 51
+        },
+        {
+            "depth": 32,
+            "width": 25,
+            "parent_depth": 32,
+            "parent_width": 22
+        },
+        {
+            "depth": 33,
+            "width": 48,
+            "parent_depth": 33,
+            "parent_width": 43
+        },
+        {
+            "depth": 34,
+            "width": 6,
+            "parent_depth": 34,
+            "parent_width": 3
+        },
+        {
+            "depth": 34,
+            "width": 46,
+            "parent_depth": 34,
+            "parent_width": 43
+        },
+        {
+            "depth": 63,
+            "width": 37,
+            "parent_depth": 63,
+            "parent_width": 34
+        },
+        {
+            "depth": 142,
+            "width": 22,
+            "parent_depth": 142,
+            "parent_width": 17
+        },
+        {
+            "depth": 160,
+            "width": 4,
+            "parent_depth": 160,
+            "parent_width": 2
+        },
+        {
+            "depth": 160,
+            "width": 13,
+            "parent_depth": 160,
+            "parent_width": 10
+        },
+        {
+            "depth": 160,
+            "width": 23,
+            "parent_depth": 160,
+            "parent_width": 20
+        },
+        {
+            "depth": 304,
+            "width": 14,
+            "parent_depth": 304,
+            "parent_width": 10
+        },
+        {
+            "depth": 305,
+            "width": 8,
+            "parent_depth": 305,
+            "parent_width": 3
+        },
+        {
+            "depth": 457,
+            "width": 10,
+            "parent_depth": 457,
+            "parent_width": 7
+        },
+        {
+            "depth": 479,
+            "width": 10,
+            "parent_depth": 479,
+            "parent_width": 7
+        }
+    ],
+    "FormData": [],
+    "append": [],
+    "delete": [],
+    "get": [],
+    "getAll": [],
+    "has": [],
+    "set": [],
+    "entries": [],
+    "keys": [
+        {
+            "depth": 90,
+            "width": 150,
+            "parent_depth": 90,
+            "parent_width": 148
+        },
+        {
+            "depth": 101,
+            "width": 11,
+            "parent_depth": 101,
+            "parent_width": 4
+        },
+        {
+            "depth": 121,
+            "width": 9,
+            "parent_depth": 121,
+            "parent_width": 8
+        },
+        {
+            "depth": 127,
+            "width": 61,
+            "parent_depth": 127,
+            "parent_width": 60
+        }
+    ],
+    "values": [],
+    "SupportForOf": [],
+    "worker_support": [],
+    "Text": [],
+    "isElementContentWhitespace": [],
+    "wholeText": [],
+    "assignedSlot": [],
+    "replaceWholeText": [],
+    "splitText": [],
+    "assign": [
+        {
+            "depth": 91,
+            "width": 41,
+            "parent_depth": 91,
+            "parent_width": 39
+        }
+    ],
+    "reload": [],
+    "replace": [
+        {
+            "depth": 35,
+            "width": 31,
+            "parent_depth": 35,
+            "parent_width": 28
+        },
+        {
+            "depth": 85,
+            "width": 18,
+            "parent_depth": 85,
+            "parent_width": 15
+        },
+        {
+            "depth": 98,
+            "width": 29,
+            "parent_depth": 98,
+            "parent_width": 26
+        },
+        {
+            "depth": 129,
+            "width": 32,
+            "parent_depth": 129,
+            "parent_width": 28
+        },
+        {
+            "depth": 129,
+            "width": 38,
+            "parent_depth": 129,
+            "parent_width": 34
+        },
+        {
+            "depth": 154,
+            "width": 32,
+            "parent_depth": 154,
+            "parent_width": 28
+        },
+        {
+            "depth": 230,
+            "width": 30,
+            "parent_depth": 230,
+            "parent_width": 8
+        },
+        {
+            "depth": 253,
+            "width": 7,
+            "parent_depth": 252,
+            "parent_width": 16
+        },
+        {
+            "depth": 272,
+            "width": 2,
+            "parent_depth": 271,
+            "parent_width": 19
+        },
+        {
+            "depth": 272,
+            "width": 8,
+            "parent_depth": 272,
+            "parent_width": 4
+        },
+        {
+            "depth": 272,
+            "width": 14,
+            "parent_depth": 272,
+            "parent_width": 10
+        },
+        {
+            "depth": 337,
+            "width": 23,
+            "parent_depth": 337,
+            "parent_width": 19
+        },
+        {
+            "depth": 456,
+            "width": 5,
+            "parent_depth": 456,
+            "parent_width": 1
+        },
+        {
+            "depth": 456,
+            "width": 11,
+            "parent_depth": 456,
+            "parent_width": 7
+        },
+        {
+            "depth": 456,
+            "width": 17,
+            "parent_depth": 456,
+            "parent_width": 13
+        },
+        {
+            "depth": 458,
+            "width": 1,
+            "parent_depth": 457,
+            "parent_width": 2
+        },
+        {
+            "depth": 480,
+            "width": 19,
+            "parent_depth": 479,
+            "parent_width": 1
+        }
+    ],
+    "toString": [
+        {
+            "depth": 70,
+            "width": 56,
+            "parent_depth": 70,
+            "parent_width": 55
+        },
+        {
+            "depth": 129,
+            "width": 16,
+            "parent_depth": 129,
+            "parent_width": 15
+        },
+        {
+            "depth": 129,
+            "width": 48,
+            "parent_depth": 129,
+            "parent_width": 47
+        },
+        {
+            "depth": 132,
+            "width": 1,
+            "parent_depth": 131,
+            "parent_width": 58
+        },
+        {
+            "depth": 232,
+            "width": 10,
+            "parent_depth": 232,
+            "parent_width": 8
+        },
+        {
+            "depth": 254,
+            "width": 19,
+            "parent_depth": 254,
+            "parent_width": 17
+        },
+        {
+            "depth": 343,
+            "width": 21,
+            "parent_depth": 343,
+            "parent_width": 19
+        },
+        {
+            "depth": 344,
+            "width": 13,
+            "parent_depth": 344,
+            "parent_width": 11
+        },
+        {
+            "depth": 457,
+            "width": 15,
+            "parent_depth": 457,
+            "parent_width": 13
+        },
+        {
+            "depth": 473,
+            "width": 14,
+            "parent_depth": 473,
+            "parent_width": 12
+        },
+        {
+            "depth": 479,
+            "width": 15,
+            "parent_depth": 479,
+            "parent_width": 13
+        }
+    ],
+    "allowsFeature": [],
+    "allowedFeatures": [],
+    "getAllowlistForFeature": [],
+    "Event": [],
+    "bubbles": [],
+    "cancelBubble": [],
+    "cancelable": [],
+    "composed": [],
+    "composedPath": [],
+    "currentTarget": [],
+    "defaultPrevented": [],
+    "eventPhase": [],
+    "explicitOriginalTarget": [],
+    "getPreventDefault": [],
+    "initEvent": [],
+    "isTrusted": [],
+    "originalTarget": [],
+    "preventBubble": [],
+    "preventCapture": [],
+    "preventDefault": [],
+    "srcElement": [
+        {
+            "depth": 83,
+            "width": 4,
+            "parent_depth": 83,
+            "parent_width": 3
+        }
+    ],
+    "stopImmediatePropagation": [],
+    "stopPropagation": [],
+    "target": [
+        {
+            "depth": 83,
+            "width": 7,
+            "parent_depth": 83,
+            "parent_width": 3
+        },
+        {
+            "depth": 84,
+            "width": 31,
+            "parent_depth": 84,
+            "parent_width": 30
+        },
+        {
+            "depth": 204,
+            "width": 6,
+            "parent_depth": 204,
+            "parent_width": 5
+        },
+        {
+            "depth": 206,
+            "width": 2,
+            "parent_depth": 206,
+            "parent_width": 1
+        }
+    ],
+    "timeStamp": [],
+    "back": [],
+    "forward": [],
+    "go": [],
+    "pushState": [],
+    "replaceState": [],
+    "scrollRestoration": [],
+    "state": [
+        {
+            "depth": 8,
+            "width": 3,
+            "parent_depth": 7,
+            "parent_width": 143
+        }
+    ],
+    "activeVRDisplays": [],
+    "authentication": [],
+    "battery": [],
+    "buildID": [],
+    "clipboard": [],
+    "connection": [],
+    "cookieEnabled": [
+        {
+            "depth": 178,
+            "width": 1,
+            "parent_depth": 177,
+            "parent_width": 33
+        },
+        {
+            "depth": 178,
+            "width": 25,
+            "parent_depth": 178,
+            "parent_width": 24
+        }
+    ],
+    "credentials": [],
+    "deviceMemory": [],
+    "doNotTrack": [
+        {
+            "depth": 12,
+            "width": 35,
+            "parent_depth": 12,
+            "parent_width": 31
+        },
+        {
+            "depth": 44,
+            "width": 21,
+            "parent_depth": 44,
+            "parent_width": 17
+        }
+    ],
+    "geolocation": [
+        {
+            "depth": 20,
+            "width": 54,
+            "parent_depth": 20,
+            "parent_width": 52
+        },
+        {
+            "depth": 20,
+            "width": 64,
+            "parent_depth": 20,
+            "parent_width": 62
+        },
+        {
+            "depth": 20,
+            "width": 68,
+            "parent_depth": 20,
+            "parent_width": 67
+        },
+        {
+            "depth": 40,
+            "width": 29,
+            "parent_depth": 40,
+            "parent_width": 24
+        }
+    ],
+    "getBattery": [],
+    "getGamepads": [],
+    "getUserMedia": [],
+    "getVRDisplays": [],
+    "keyboard": [],
+    "locks": [],
+    "maxTouchPoints": [],
+    "mediaCapabilities": [],
+    "mediaDevices": [],
+    "mediaSession": [],
+    "mozIsLocallyAvailable": [],
+    "oscpu": [],
+    "permissions": [],
+    "presentation": [],
+    "productSub": [],
+    "registerContentHandler": [],
+    "registerProtocolHandler": [],
+    "requestMediaKeySystemAccess": [],
+    "sendBeacon": [],
+    "serviceWorker": [],
+    "share": [],
+    "vendor": [],
+    "vendorSub": [],
+    "vibrate": [],
+    "webdriver": [],
+    "read": [],
+    "readText": [],
+    "writeText": [],
+    "secure_context_required": [],
+    "clearWatch": [],
+    "getCurrentPosition": [
+        {
+            "depth": 20,
+            "width": 52,
+            "parent_depth": 19,
+            "parent_width": 70
+        },
+        {
+            "depth": 20,
+            "width": 62,
+            "parent_depth": 20,
+            "parent_width": 61
+        }
+    ],
+    "watchPosition": [],
+    "getLayoutMap": [],
+    "lock": [],
+    "unlock": [],
+    "mode": [],
+    "encodingInfo": [],
+    "decodingInfo": [],
+    "ondevicechange": [],
+    "enumerateDevices": [],
+    "getSupportedConstraints": [],
+    "stereo_audio_capture": [],
+    "metadata": [],
+    "playbackState": [],
+    "setActionHandler": [],
+    "modificationTime": [],
+    "query": [],
+    "request": [],
+    "requestAll": [],
+    "revoke": [],
+    "accelerometer_permission": [],
+    "accessibility-events_permission": [],
+    "ambient-light-sensor_permission": [],
+    "background-sync_permission": [],
+    "camera_permission": [],
+    "clipboard-read_permission": [],
+    "clipboard-write_permission": [],
+    "geolocation_permission": [],
+    "gyroscope_permission": [],
+    "magnetometer_permission": [],
+    "microphone_permission": [],
+    "midi_permission": [],
+    "notifications_permission": [],
+    "payment-handler_permission": [],
+    "persistent-storage_permission": [],
+    "push_permission": [],
+    "Request": [],
+    "cache": [],
+    "clone": [
+        {
+            "depth": 90,
+            "width": 102,
+            "parent_depth": 90,
+            "parent_width": 100
+        }
+    ],
+    "context": [
+        {
+            "depth": 7,
+            "width": 96,
+            "parent_depth": 7,
+            "parent_width": 95
+        },
+        {
+            "depth": 7,
+            "width": 144,
+            "parent_depth": 7,
+            "parent_width": 143
+        }
+    ],
+    "destination": [],
+    "headers": [],
+    "integrity": [],
+    "keepalive": [],
+    "method": [],
+    "redirect": [],
+    "referrerPolicy": [],
+    "signal": [],
+    "url": [],
+    "add": [
+        {
+            "depth": 23,
+            "width": 36,
+            "parent_depth": 23,
+            "parent_width": 29
+        },
+        {
+            "depth": 23,
+            "width": 47,
+            "parent_depth": 23,
+            "parent_width": 40
+        },
+        {
+            "depth": 23,
+            "width": 57,
+            "parent_depth": 23,
+            "parent_width": 54
+        },
+        {
+            "depth": 23,
+            "width": 64,
+            "parent_depth": 23,
+            "parent_width": 61
+        },
+        {
+            "depth": 23,
+            "width": 71,
+            "parent_depth": 23,
+            "parent_width": 68
+        },
+        {
+            "depth": 23,
+            "width": 78,
+            "parent_depth": 23,
+            "parent_width": 75
+        },
+        {
+            "depth": 24,
+            "width": 7,
+            "parent_depth": 24,
+            "parent_width": 4
+        },
+        {
+            "depth": 24,
+            "width": 17,
+            "parent_depth": 24,
+            "parent_width": 11
+        },
+        {
+            "depth": 24,
+            "width": 27,
+            "parent_depth": 24,
+            "parent_width": 21
+        },
+        {
+            "depth": 284,
+            "width": 37,
+            "parent_depth": 284,
+            "parent_width": 34
+        },
+        {
+            "depth": 284,
+            "width": 44,
+            "parent_depth": 284,
+            "parent_width": 41
+        },
+        {
+            "depth": 284,
+            "width": 51,
+            "parent_depth": 284,
+            "parent_width": 48
+        },
+        {
+            "depth": 285,
+            "width": 2,
+            "parent_depth": 284,
+            "parent_width": 55
+        },
+        {
+            "depth": 285,
+            "width": 9,
+            "parent_depth": 285,
+            "parent_width": 6
+        },
+        {
+            "depth": 285,
+            "width": 16,
+            "parent_depth": 285,
+            "parent_width": 13
+        },
+        {
+            "depth": 285,
+            "width": 23,
+            "parent_depth": 285,
+            "parent_width": 20
+        },
+        {
+            "depth": 285,
+            "width": 30,
+            "parent_depth": 285,
+            "parent_width": 27
+        },
+        {
+            "depth": 286,
+            "width": 1,
+            "parent_depth": 285,
+            "parent_width": 61
+        },
+        {
+            "depth": 286,
+            "width": 8,
+            "parent_depth": 286,
+            "parent_width": 5
+        },
+        {
+            "depth": 286,
+            "width": 15,
+            "parent_depth": 286,
+            "parent_width": 12
+        },
+        {
+            "depth": 286,
+            "width": 22,
+            "parent_depth": 286,
+            "parent_width": 19
+        },
+        {
+            "depth": 286,
+            "width": 29,
+            "parent_depth": 286,
+            "parent_width": 26
+        },
+        {
+            "depth": 286,
+            "width": 36,
+            "parent_depth": 286,
+            "parent_width": 33
+        },
+        {
+            "depth": 286,
+            "width": 43,
+            "parent_depth": 286,
+            "parent_width": 40
+        },
+        {
+            "depth": 286,
+            "width": 50,
+            "parent_depth": 286,
+            "parent_width": 47
+        },
+        {
+            "depth": 286,
+            "width": 57,
+            "parent_depth": 286,
+            "parent_width": 54
+        },
+        {
+            "depth": 286,
+            "width": 64,
+            "parent_depth": 286,
+            "parent_width": 61
+        },
+        {
+            "depth": 287,
+            "width": 32,
+            "parent_depth": 287,
+            "parent_width": 29
+        },
+        {
+            "depth": 287,
+            "width": 39,
+            "parent_depth": 287,
+            "parent_width": 36
+        },
+        {
+            "depth": 287,
+            "width": 46,
+            "parent_depth": 287,
+            "parent_width": 43
+        },
+        {
+            "depth": 287,
+            "width": 53,
+            "parent_depth": 287,
+            "parent_width": 50
+        },
+        {
+            "depth": 288,
+            "width": 1,
+            "parent_depth": 287,
+            "parent_width": 57
+        },
+        {
+            "depth": 288,
+            "width": 8,
+            "parent_depth": 288,
+            "parent_width": 5
+        },
+        {
+            "depth": 288,
+            "width": 40,
+            "parent_depth": 288,
+            "parent_width": 37
+        },
+        {
+            "depth": 288,
+            "width": 47,
+            "parent_depth": 288,
+            "parent_width": 44
+        },
+        {
+            "depth": 288,
+            "width": 54,
+            "parent_depth": 288,
+            "parent_width": 51
+        },
+        {
+            "depth": 289,
+            "width": 6,
+            "parent_depth": 289,
+            "parent_width": 3
+        },
+        {
+            "depth": 289,
+            "width": 13,
+            "parent_depth": 289,
+            "parent_width": 10
+        },
+        {
+            "depth": 289,
+            "width": 20,
+            "parent_depth": 289,
+            "parent_width": 17
+        },
+        {
+            "depth": 289,
+            "width": 27,
+            "parent_depth": 289,
+            "parent_width": 24
+        },
+        {
+            "depth": 289,
+            "width": 34,
+            "parent_depth": 289,
+            "parent_width": 31
+        },
+        {
+            "depth": 290,
+            "width": 8,
+            "parent_depth": 290,
+            "parent_width": 5
+        },
+        {
+            "depth": 290,
+            "width": 15,
+            "parent_depth": 290,
+            "parent_width": 12
+        },
+        {
+            "depth": 290,
+            "width": 22,
+            "parent_depth": 290,
+            "parent_width": 19
+        },
+        {
+            "depth": 290,
+            "width": 29,
+            "parent_depth": 290,
+            "parent_width": 26
+        },
+        {
+            "depth": 296,
+            "width": 6,
+            "parent_depth": 296,
+            "parent_width": 3
+        },
+        {
+            "depth": 298,
+            "width": 1,
+            "parent_depth": 297,
+            "parent_width": 26
+        },
+        {
+            "depth": 298,
+            "width": 11,
+            "parent_depth": 298,
+            "parent_width": 5
+        }
+    ],
+    "addAll": [],
+    "match": [
+        {
+            "depth": 153,
+            "width": 33,
+            "parent_depth": 153,
+            "parent_width": 30
+        }
+    ],
+    "matchAll": [],
+    "put": [],
+    "lexicographical_sorting": [],
+    "defaultRequest": [],
+    "receiver": [],
+    "scriptURL": [],
+    "onstatechange": [],
+    "clearMarks": [],
+    "clearMeasures": [],
+    "clearResourceTimings": [],
+    "getEntries": [],
+    "getEntriesByName": [],
+    "getEntriesByType": [],
+    "mark": [],
+    "measure": [],
+    "memory": [],
+    "navigation": [],
+    "now": [],
+    "onresourcetimingbufferfull": [],
+    "setResourceTimingBufferSize": [],
+    "timeOrigin": [],
+    "timing": [
+        {
+            "depth": 21,
+            "width": 42,
+            "parent_depth": 21,
+            "parent_width": 40
+        },
+        {
+            "depth": 21,
+            "width": 52,
+            "parent_depth": 21,
+            "parent_width": 50
+        },
+        {
+            "depth": 21,
+            "width": 58,
+            "parent_depth": 21,
+            "parent_width": 34
+        }
+    ],
+    "availHeight": [],
+    "availLeft": [],
+    "availTop": [],
+    "availWidth": [],
+    "colorDepth": [
+        {
+            "depth": 166,
+            "width": 6,
+            "parent_depth": 166,
+            "parent_width": 5
+        },
+        {
+            "depth": 177,
+            "width": 11,
+            "parent_depth": 177,
+            "parent_width": 10
+        }
+    ],
+    "left": [],
+    "lockOrientation": [],
+    "mozBrightness": [],
+    "mozEnabled": [],
+    "onorientationchange": [],
+    "pixelDepth": [],
+    "unlockOrientation": [],
+    "cancel": [],
+    "getVoices": [],
+    "onvoiceschanged": [],
+    "pause": [],
+    "paused": [],
+    "pending": [],
+    "resume": [],
+    "speak": [],
+    "speaking": [],
+    "offsetLeft": [],
+    "offsetTop": [],
+    "onresize": [],
+    "onscroll": [],
+    "pageLeft": [],
+    "pageTop": [],
+    "scale": [],
+    "appCodeName": [],
+    "appName": [],
+    "appVersion": [],
+    "platform": [
+        {
+            "depth": 28,
+            "width": 78,
+            "parent_depth": 28,
+            "parent_width": 76
+        },
+        {
+            "depth": 45,
+            "width": 26,
+            "parent_depth": 45,
+            "parent_width": 24
+        }
+    ],
+    "product": [],
+    "taintEnabled": [],
+    "userAgent": [
+        {
+            "depth": 29,
+            "width": 4,
+            "parent_depth": 29,
+            "parent_width": 2
+        },
+        {
+            "depth": 53,
+            "width": 6,
+            "parent_depth": 53,
+            "parent_width": 5
+        },
+        {
+            "depth": 177,
+            "width": 20,
+            "parent_depth": 176,
+            "parent_width": 33
+        }
+    ]
+}

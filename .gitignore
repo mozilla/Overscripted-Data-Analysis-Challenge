@@ -9,5 +9,4 @@ __pycache__/
 *.py[cod]
 
 # data directories
-api/
 esprima/resources/

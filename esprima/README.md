@@ -1,3 +1,13 @@
+(01.10.18) David:
+
+WIP: returning node information for target symbols (depth, distance from first node of that depth), as well as parent information. Could also add number of children and sibilings in the future.
+
+Current unsure if the postion info is totally correct; it seems okay but there are a few inconsistencies (for some nodes, parent is 2 layers above the current depth, and there is some double counting of nodes (forced out by breaking the loop when one node has been counted). Issue is probably related.)
+
+Run with:
+
+`$ ./tree_explorer.py symbol_list.json`
+
 (23.10.18) David:
 
 Produced 1st iteration of code to obtain a symbol list from specified APIs, using the [Mozilla Browser Compatability API](https://github.com/mdn/browser-compat-data/tree/master/api) JSON data. Produces a JSON file with keys corresponding to the original API, and the corresponding values containing a list of all symbols. Recursively goes through these symbols if they are also APIs and then also iterates through them.
