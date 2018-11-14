@@ -99,13 +99,11 @@ class Element:
         symbol_counter          = {key: 0 for key in api_symbols}
         node_dict               = {key: [] for key in api_symbols}
 
-
         while len(queue) > 0:           # While stuff in the queue
             node = queue.pop()          # Pop stuff off of it
             this_depth_num_nodes -= 1   #TODO: reduce how many left
             node_counter += 1           #TODO: increment counter
-            width = node_counter - this_depth_count
-
+            width = node_counter - this_depth_count - 1
 
             for v in self._visitors:    # Run visitor instances here
                 if v.visit(node):
@@ -124,7 +122,12 @@ class Element:
                 # Feed the nodes that will be labeled as children the current
                 #   depth and width
                 next_depth_num_nodes += self._step(node, queue, depth, width)
-#                print("{} : {}".format(this_depth_num_nodes, next_depth_num_nodes))
+                print("{} : {}".format(this_depth_num_nodes,
+                    next_depth_num_nodes))
+
+                if (node.type == "MemberExpression"):
+                    print("---> {} = {}".format(node.property.type, node.property.name))
+
 
 
 
@@ -138,8 +141,8 @@ class Element:
                 next_depth_num_nodes = 0                    # reset this list
                 this_depth_count = node_counter             #
                 depth += 1
-#                print("\n-------------------- Depth: {};\t Current: {};\t Width: {}\n\n".format(
-#                    depth, this_depth_count, this_depth_num_nodes))
+                print("\n-------------------- Depth: {};\t Current: {};\t Width: {}\n\n".format(
+                    depth, this_depth_count, this_depth_num_nodes))
 
         return symbol_counter, node_dict
 

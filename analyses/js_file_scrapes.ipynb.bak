@@ -1,0 +1,179 @@
+{
+ "cells": [
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "## Setup"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "Reads the data in from the dataset. At the moment, this is set up to uses pandas and just the data sample provided at the hackathon. Will need to be updated to scrape JS files from the full dataset."
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 5,
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "import pandas as pd\n",
+    "\n",
+    "DATA_DIR = '/media/ddobre/UCOSP_DATA/'\n",
+    "PARQUET_FILE = DATA_DIR + 'sample'  # I ran this with sample data*\n",
+    "\n",
+    "df = pd.read_parquet(PARQUET_FILE, engine='pyarrow')"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "## Scrape the JS files"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "Does the actual scrapping. `ssl._create_default_https_context = ssl._create_unverified_context` was needed in order to get around some ssl authentication errors, there is probably a better/cleaner way of handling this. Certain text from the url name was also replaced because it was causing issues with naming the scripts based off of the url, a different naming scheme may be more effective there. Finally, there were some special chars that threw errors in decoding the scripts, those are handled with 'backslashreplace'."
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 6,
+   "metadata": {},
+   "outputs": [
+    {
+     "ename": "FileNotFoundError",
+     "evalue": "[Errno 2] No such file or directory: '/media/ddobre/UCOSP_DATA//js_source_files/staticxx.facebook.com_connect_xd_arbiter_r_lY4eZXm_YWu.js?version=42#channel=f30ef17b61f384&origin=http%3A%2F%2Fwww.ubitennis.com.txt'",
+     "output_type": "error",
+     "traceback": [
+      "\u001b[0;31m---------------------------------------------------------------------------\u001b[0m",
+      "\u001b[0;31mFileNotFoundError\u001b[0m                         Traceback (most recent call last)",
+      "\u001b[0;32m<ipython-input-6-3d4b2f1a49e0>\u001b[0m in \u001b[0;36m<module>\u001b[0;34m()\u001b[0m\n\u001b[1;32m     12\u001b[0m     \u001b[0mfile_name\u001b[0m \u001b[0;34m=\u001b[0m \u001b[0mos\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0mpath\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0mjoin\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0mfolder_name\u001b[0m\u001b[0;34m,\u001b[0m \u001b[0mshortened_url\u001b[0m \u001b[0;34m+\u001b[0m \u001b[0msuffix\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[1;32m     13\u001b[0m \u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0;32m---> 14\u001b[0;31m     \u001b[0;32mwith\u001b[0m \u001b[0mopen\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0mfile_name\u001b[0m\u001b[0;34m,\u001b[0m \u001b[0;34m'w'\u001b[0m\u001b[0;34m)\u001b[0m \u001b[0;32mas\u001b[0m \u001b[0msource_file\u001b[0m\u001b[0;34m:\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0m\u001b[1;32m     15\u001b[0m         \u001b[0;32mtry\u001b[0m\u001b[0;34m:\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[1;32m     16\u001b[0m             \u001b[0msource_file\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0mwrite\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0murllib\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0mrequest\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0murlopen\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0murl_name\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0mread\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0mdecode\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0;34m'utf-8'\u001b[0m\u001b[0;34m,\u001b[0m \u001b[0;34m'backslashreplace'\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n",
+      "\u001b[0;31mFileNotFoundError\u001b[0m: [Errno 2] No such file or directory: '/media/ddobre/UCOSP_DATA//js_source_files/staticxx.facebook.com_connect_xd_arbiter_r_lY4eZXm_YWu.js?version=42#channel=f30ef17b61f384&origin=http%3A%2F%2Fwww.ubitennis.com.txt'"
+     ]
+    }
+   ],
+   "source": [
+    "import urllib \n",
+    "import os\n",
+    "import ssl\n",
+    "\n",
+    "ssl._create_default_https_context = ssl._create_unverified_context\n",
+    "failed = []\n",
+    "\n",
+    "for url_name in df['script_url'].unique():\n",
+    "    folder_name = DATA_DIR + '/js_source_files'\n",
+    "    shortened_url = url_name.replace('https://', '').replace('http://', '').replace('/', '_')\n",
+    "    suffix = '.txt'\n",
+    "    file_name = os.path.join(folder_name, shortened_url + suffix)\n",
+    "\n",
+    "    with open(file_name, 'w') as source_file:\n",
+    "        try:\n",
+    "            source_file.write(urllib.request.urlopen(url_name).read().decode('utf-8', 'backslashreplace'))\n",
+    "        except (urllib.error.URLError, ValueError) as e:\n",
+    "            failed.append(url_name)\n",
+    "            print('Attempted:', url_name)\n",
+    "            print(str(e), '\\n')"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "## Scrape the Princeton examples"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "Reads the Princeton .tsv files that have been categorized according to the type of fingerprinting done before then scraping the JS files from those sources. Had a lot more failures here (possibly due to the script url being updated on some cadence to prevent this from happening) so wrote all of the failures to an output file to keep track of those. Same issues re ssl, naming and special chars as mentioned above."
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "import pandas as pd\n",
+    "\n",
+    "directory = '/Users/rob/Projects/ucosp/Overscripted-Data-Analysis-Challenge/scripts'\n",
+    "headers = ['site_url', 'script_url']\n",
+    "scripts = ['audio_fingerprinting', 'canvas_fingerprinting', 'font_fingerprinting', 'webrtc_ip_retrieval']\n",
+    "fingerprinting = []\n",
+    "\n",
+    "for script in scripts:\n",
+    "    loc = os.path.join(directory, '{}.tsv'.format(script))\n",
+    "    fingerprinting.append(pd.read_table(loc, header=None, names=headers))"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "import urllib \n",
+    "import os\n",
+    "import ssl\n",
+    "\n",
+    "ssl._create_default_https_context = ssl._create_unverified_context\n",
+    "\n",
+    "# for index, script in enumerate(fingerprinting):\n",
+    "script = fingerprinting[3]\n",
+    "index = 3\n",
+    "print('Trying:', scripts[index])\n",
+    "print(len(script['script_url'].unique()), 'scripts')\n",
+    "failed = []\n",
+    "folder_name = os.path.join(directory, scripts[index])\n",
+    "failed_file = os.path.join(directory, '{}_failed.txt'.format(scripts[index]))\n",
+    "os.makedirs(folder_name, exist_ok=True)\n",
+    "for url_name in script['script_url'].unique():\n",
+    "    shortened_url = url_name.replace('https://', '').replace('http://', '').replace('/', '_')\n",
+    "    suffix = '.txt'\n",
+    "    file_name = os.path.join(folder_name, shortened_url + suffix)\n",
+    "\n",
+    "    try:\n",
+    "        response = urllib.request.urlopen(url_name).read().decode('utf-8', 'backslashreplace')\n",
+    "        with open(file_name, 'w') as source_file:\n",
+    "            source_file.write(response)\n",
+    "    except Exception as e:\n",
+    "        failed.append((url_name, e))\n",
+    "\n",
+    "print('Failed:', len(failed))\n",
+    "with open(failed_file, 'w') as filename:\n",
+    "    for failure in failed:\n",
+    "        filename.write(failure[0] + ', ' + str(failure[1]))\n",
+    "        filename.write('\\n')"
+   ]
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "Python 3",
+   "language": "python",
+   "name": "python3"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.6.6"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 2
+}
