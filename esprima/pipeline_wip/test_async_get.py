@@ -12,7 +12,7 @@ out = []
 CONNECTIONS = 100
 TIMEOUT = 5
 
-data = pd.read_csv('/media/ddobre/UCOSP_DATA/resources/url_master_list.csv');
+data = pd.read_csv('/mnt/Data/UCOSP_DATA/resources/url_master_list.csv');
 
 
 urls = list(data['url'].values.flatten())
