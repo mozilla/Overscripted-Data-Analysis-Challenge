@@ -13,3 +13,9 @@ esprima/resources/
 
 # spark resources
 setup_spark.sh
+
+# .out files
+*.out
+
+# .bak files
+*.bak
