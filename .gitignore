@@ -9,10 +9,11 @@ __pycache__/
 *.py[cod]
 
 # data directories
-esprima/resources/
+api/
 
 # spark resources
 setup_spark.sh
+spark_warehouse/
 
 # .out files
 *.out

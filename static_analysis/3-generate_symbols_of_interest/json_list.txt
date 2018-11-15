@@ -1,0 +1,3 @@
+HTMLCanvasElement.json
+Window.json
+NavigatorID.json
