@@ -9,7 +9,7 @@ __pycache__/
 *.py[cod]
 
 # data directories
-api/
+#api/
 
 # spark resources
 setup_spark.sh
