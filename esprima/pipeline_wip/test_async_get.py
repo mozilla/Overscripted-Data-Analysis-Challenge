@@ -12,10 +12,18 @@ out = []
 CONNECTIONS = 100
 TIMEOUT = 5
 
-data = pd.read_csv('/mnt/Data/UCOSP_DATA/resources/url_master_list.csv');
+#data = pd.read_csv('/mnt/Data/UCOSP_DATA/resources/url_master_list.csv');
+
+##### TESTING
+from pathlib import Path
+PARQUET_DIR = Path('/mnt/Data/UCOSP_DATA/resources/sample_full_url_list/')
+data = pd.concat(
+    pd.read_parquet(parquet_file)
+    for parquet_file in PARQUET_DIR.glob('*.parquet')
+)
 
 
-urls = list(data['url'].values.flatten())
+urls = list(data['script_url'].values.flatten())
 
 def load_url(url, timeout):
     ans = requests.head(url, timeout=timeout)

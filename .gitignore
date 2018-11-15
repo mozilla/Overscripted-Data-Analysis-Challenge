@@ -10,3 +10,6 @@ __pycache__/
 
 # data directories
 esprima/resources/
+
+# spark resources
+setup_spark.sh

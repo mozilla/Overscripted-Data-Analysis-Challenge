@@ -6,10 +6,6 @@ import ssl
 import urllib
 from configparser import ConfigParser
 from slugify import slugify
-from time import sleep
-
-
-# In[2]:
 
 
 # Specify inputs
