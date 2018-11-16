@@ -11,6 +11,16 @@ assert spark.version >= '2.1' # make sure we have Spark 2.1+
 
 ################################################################################
 # Function to generate a text file from the script URL
+def tidy_url(url_name):
+    split = url_name.split(".js")
+
+    if (len(split) == 1):
+        return split[0] + ".js"
+
+    return ""
+
+################################################################################
+# Function to generate a text file from the script URL
 def shorten_name(url_name):
     # Strip out 'http', 'https' and '/'
     shortened_url = url_name.replace('https://', '').replace('http://', '').replace('/', '_')
@@ -32,18 +42,29 @@ def main():
     # Specify target directory
     #   TODO: this should be controlled via the config.ini file
 
-#    MAIN_DIR        = '/mnt/Data/UCOSP_DATA/'
-    MAIN_DIR        = '/media/ddobre/UCOSP_DATA/'
+    MAIN_DIR        = '/mnt/Data/UCOSP_DATA/'
+#    MAIN_DIR        = '/media/ddobre/UCOSP_DATA/'
 
+    PARQUET_FILES   = MAIN_DIR + 'sample_full_data/*'
+#    PARQUET_FILES   = MAIN_DIR + 'full_data/*'
 
-#    PARQUET_FILES   = MAIN_DIR + 'sample_full_data/*'
-    PARQUET_FILES   = MAIN_DIR + 'full_data/*'
-
-#    OUTPUT          = MAIN_DIR + 'resources/sample_full_url_list'
-    OUTPUT          = MAIN_DIR + 'resources/full_url_list_v3'
+    OUTPUT          = MAIN_DIR + 'resources/sample_full_url_list_test'
+#    OUTPUT          = MAIN_DIR + 'resources/full_url_list_v3'
 
     # Read in dataset, selecting the 'script_url' column and filtering duplicates
     data = spark.read.parquet(PARQUET_FILES).select('script_url').distinct()
+
+    data = data.withColumn("script_url", functions.split("script_url", "\?")[0]).distinct()
+    data = data.withColumn("script_url", functions.split("script_url", "\,")[0]).distinct()
+    data = data.withColumn("script_url", functions.split("script_url", "\#,")[0]).distinct()
+
+    # User Defined Function to clean and prune the raw URL list
+    tidy_udf = functions.udf(tidy_url, returnType=types.StringType())
+
+    # Pick out the .js file in the URL, and prune out urls without .js files
+    data = data.withColumn(
+        'script_url', tidy_udf(data.script_url)
+    ).filter("script_url != ''").distinct()
 
     # User Defined Function to convert script URL to a filename usable by ext4
     shorten_udf = functions.udf(shorten_name, returnType=types.StringType())

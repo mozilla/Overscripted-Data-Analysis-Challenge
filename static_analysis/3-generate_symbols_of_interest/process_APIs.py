@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 from os import listdir
 from csv import DictWriter
 import json

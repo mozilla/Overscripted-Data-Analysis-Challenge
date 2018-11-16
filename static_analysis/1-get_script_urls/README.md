@@ -18,3 +18,6 @@ To run any of the pyspark scripts on their own, you can run
 ```
 $ spark-submit sparkscript.py
 ```
+
+**Note: you may need to increase spark driver memory.**
+In `<spark_dir>/conf/spark-defaults.conf`, add the line `spark.driver.memory 15g`, or whatever is acceptable for your system.
