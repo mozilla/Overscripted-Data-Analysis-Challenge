@@ -1,6 +1,6 @@
 # Tracking Method Sources
 
-## How Unique Is Your Web Browser? - Panopticlick - Electronic Frontier
+## Web Tracking: Mechanisms, Implications, and Defenses
 Note: This source covers almost all forms of fingerprinting detected or theorised
 #### Session Only
 * Session identifiers passed through links/requests
@@ -78,23 +78,14 @@ Note: Color depth, encoding, do not track, and plugins are valuable additions to
 ## Web Tracking – A Literature Review on the State of Research
 TODO: Parse this list of papers for additional fingerprinting methods  
 Stateful tracking:
-* Acar et al. (2013, 2014)
-* Besson et al. (2014)
-* Bujlow et al. (2015, 2017)
-* Englehardt & Narayanan (2016)
-* Ikram et al. (2016)
-* Mayer & Mitchell (2012)
-* Pugliese (2015)
-* Sanchez-Rola et al. (2016) 
-Stateless tracking:
-* Acar et al. (2014)
-* Besson et al. (2014)
-* Bujlow et al. (2015, 2017)
-* Ikram et al. (2016)
-* Mayer & Mitchell (2012)
-* Pugliese (2015)
-* Sanchez-Rola et al. (2016)
-
+* The Web Never Forgets: Persistant Tracking Mechanisms in the Wild - Acar et al. (2013, 2014)
+* Hybrid Information Flow Monitoring Against Web Tracking - Besson et al. (2014)
+* Web Tracking: Mechanisms, Implications, and Defenses - Bujlow et al. (2015, 2017)
+* Online Tracking: A 1-million-site Measurement and Analysis - Englehardt & Narayanan (2016)
+* Towards Seamless Tracking-Free Web: Improved Detection of Trackers via One-class Learning - Ikram et al. (2016)
+* Third-Party Web Tracking: Policy and Technology - Mayer & Mitchell (2012)
+* Web Tracking: Overview and applicability in digital investigations - Pugliese (2015)
+* The Web is Watching You: A Comprehensive Review of Web-Tracking Techniques and Countermeasures - Sanchez-Rola et al. (2016) 
 
 ## Web tracking: Overview and applicability in digital investigation
 Note: In “The Web Never Forgets” there is reference to this paper that mentions behavioural fingerprinting. I could not access the paper.  
