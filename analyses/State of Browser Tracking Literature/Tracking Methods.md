@@ -2,6 +2,8 @@ Note: I'm not sure how I'd like to sort these and what level of granularity to a
 
 # Tracking Methods
 * Session identifiers passed through links/requests
+* Explicit web-form authentication
+* window.name DOM property
 * HTTP cookies
 * Flash cookies and Java JNLP PersistenceService
 * Flash LocalConnection object
@@ -55,6 +57,8 @@ Note: I'm not sure how I'd like to sort these and what level of granularity to a
 * Performance Fingerprinting
 * Whitelist Fingerprinting
 * Javascript Engines
+* DOM Objects
+* Installed add-ons/extensions
 * Fonts
 * Canvas API
 * AudioContext API
@@ -65,8 +69,7 @@ Note: I'm not sure how I'd like to sort these and what level of granularity to a
 * Behavioural Biometrics
 * Clock Skews
 
-# Sorted
-* Browser Extensions/Plugins
-* DOM Objects
-* User provided information
-* Session Identifiers
+## Papers Still to Read
+SHPF: Enhancing HTTP(S) Session Security with Browser Fingerprinting
+Web Tracking: Overview and applicability in digital investigations - Pugliese (2015)
+The Web is Watching You: A Comprehensive Review of Web-Tracking Techniques and Countermeasures - Sanchez-Rola et al. (2016) 
