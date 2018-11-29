@@ -1,10 +1,10 @@
 # jupyter notebook checkpoints
 .ipynb_checkpoints
 
-# vim swap files
+# swap files
 *.sw?
 
-# python nonsense
+# python resources
 __pycache__/
 *.py[cod]
 
