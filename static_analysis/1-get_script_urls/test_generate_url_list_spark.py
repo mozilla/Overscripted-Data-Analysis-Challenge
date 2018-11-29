@@ -38,20 +38,12 @@ def shorten_name(url_name):
 ################################################################################
 def main():
 
-    # Specify target directory
-    #   TODO: this should be controlled via the config.ini file
-
-    MAIN_DIR        = '/mnt/Data/UCOSP_DATA/'
-#    MAIN_DIR        = '/media/ddobre/UCOSP_DATA/'
-
-#    PARQUET_FILES   = MAIN_DIR + 'sample_full_data/*'
-    PARQUET_FILES   = MAIN_DIR + 'full_data/*'
-
-    OUTPUT          = MAIN_DIR + 'resources/full_url_list_parsed'
-#    OUTPUT          = MAIN_DIR + 'resources/full_url_list_v3'
+    # Specify test file, a csv of urls to parse
+    TEST_FILE = "test_urls.csv"
+    OUTPUT_FILE = "parsed_test_urls.csv"
 
     # Read in dataset, selecting the 'script_url' column and filter duplicates
-    data = spark.read.parquet(PARQUET_FILES).select('script_url').distinct()
+    data = spark.read.csv(TEST_FILE,header='true').distinct()
 
     # Split the string on reserved url characters to get canonical url
     data = data.withColumn(
@@ -71,10 +63,10 @@ def main():
     data = data.withColumn(
                 'filename',
                 shorten_udf(data.parsed_url)
-            ).sort('filename')
+            )#.sort('filename')
 
     # Save the data to parquet files
-    data.write.parquet(OUTPUT)
+    data.toPandas().to_csv(OUTPUT_FILE)
 
 
 ################################################################################

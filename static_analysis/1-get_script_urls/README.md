@@ -21,3 +21,18 @@ $ spark-submit sparkscript.py
 
 **Note: you may need to increase spark driver memory.**
 In `<spark_dir>/conf/spark-defaults.conf`, add the line `spark.driver.memory 15g`, or whatever is acceptable for your system.
+
+
+## 2) Running the scripts:
+
+Replace the appropriate directories in `generate_url_list_spark.py` for your system. You will need the [Full Mozilla Overscripted Dataset](https://github.com/mozilla/Overscripted-Data-Analysis-Challenge). 
+
+Ensuring spark is set up as in pt. 1, run:
+```
+$ spark-submit generate_url_list_spark.py
+```
+
+To test individual user specified urls, you can place urls in `test_urls.csv` and run `$ spark-submit test_generate_url_list_spark.py`. This will output `parsed_test_urls.csv` using the exact same process as on the full dataset for easy debugging and sanity checks.
+
+A jupyter notebook with barebones loading and displaying of the data to make exploring the results easier.
+
