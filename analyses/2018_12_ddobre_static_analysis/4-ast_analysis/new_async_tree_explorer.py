@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 
+import configparser
 import esprima
 import glob
 import json
@@ -188,7 +189,6 @@ class Element:
 
 
 ################################################################################
-class MatchPropertyVisitor:
 """
 Executes specified code given that an input node matches the property name of
     this node.
@@ -200,9 +200,10 @@ Attributes:
                         executes the code passed into _node_handler, passing the
                         input node as an argument
 """
+class MatchPropertyVisitor:
 
     ## Constructor
-    def __init__(self, property_name)
+    def __init__(self, property_name):
         self._property_name = property_name # userAgent, getContext, etc
 
     ##################################################
