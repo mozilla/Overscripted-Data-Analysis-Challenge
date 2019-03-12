@@ -21,3 +21,17 @@ Unzipped the full parquet data will be approximately 70Gb. Each (compressed) chu
 - [https://public-data.telemetry.mozilla.org/bigcrawl/safe_dataset.2.tar.bz2](https://public-data.telemetry.mozilla.org/bigcrawl/safe_dataset.2.tar.bz2)
 - [https://public-data.telemetry.mozilla.org/bigcrawl/safe_dataset.3.tar.bz2](https://public-data.telemetry.mozilla.org/bigcrawl/safe_dataset.3.tar.bz2)
 - [https://public-data.telemetry.mozilla.org/bigcrawl/SHA256SUMS](https://public-data.telemetry.mozilla.org/bigcrawl/SHA256SUMS)
+
+### Contributor guidelines
+
+- Please refer the [reading list](https://github.com/mozilla/overscripted/wiki/Reading-List-(WIP)) for additional references and information.
+
+- This is not a one issue per person repo. All the questions are very open ended and different people may find very different and complementary things when looking at a question.
+
+- Use a reaction emoji to acknowledge a comment rather than writing a comment like "sure" - helps to keep things clean - but the contributor can still let folks know that they saw a comment.
+
+### Miscellaneous Information
+
+- TLD mentioned in the [blog post](https://medium.com/firefox-context-graph/overscripted-digging-into-javascript-execution-at-scale-2ed508f21862) means Top-level Domain. You can read up more about it [here.](https://en.wikipedia.org/wiki/Top-level_domain) 
+
+- There is a difference between pages getting loaded and called. Hypothetically, when we go to https://cbsnews.com - this page is loaded over https. This page will load many scripts. Some of those scripts may have been loaded via http. Those scripts then make calls.
