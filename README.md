@@ -30,7 +30,7 @@ Unzipped the full parquet data will be approximately 70Gb. Each (compressed) chu
 
 - Use a reaction emoji to acknowledge a comment rather than writing a comment like "sure" - helps to keep things clean - but the contributor can still let folks know that they saw a comment.
 
-- You can ask for help and discuss your ideas on [gitter](https://gitter.im/overscripted-discuss/community}
+- You can ask for help and discuss your ideas on gitter. Click [here](https://gitter.im/overscripted-discuss/community) to join !
 
 ### Glossary
 
