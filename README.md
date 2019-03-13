@@ -24,7 +24,7 @@ Unzipped the full parquet data will be approximately 70Gb. Each (compressed) chu
 
 ### New Contributor Tips
 
-- A valuable and much appreciated contribution is to write any of your learnings, be it by reading research papers or through your interaction with the community on gitter and submitting a Pull Request to the repository. You can submit the PR to the README on the main page or the analysis folder README.
+- A valid and much appreciated contribution is to write any of your learnings, be it by reading research papers or through your interaction with the community on gitter and submitting a Pull Request to the repository. You can submit the PR to the README on the main page or the analysis folder README.
 
 - This is not a one issue per person repo. All the questions are very open ended and different people may find very different and complementary things when looking at a question.
 
