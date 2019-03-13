@@ -7,7 +7,7 @@ Ongoing analyses can be tracked [here](https://github.com/mozilla/overscripted/t
 ### Technical criteria for submitting an analysis:
 - Analyses should be performed in Python using the [jupyter scientific notebook](https://jupyter-notebook.readthedocs.io/en/stable/) format and executing in this [environment](https://github.com/mozilla/overscripted/blob/master/analyses/environment.yaml). 
 - Analysis can be submitted by filing a [Pull Request](https://help.github.com/articles/using-pull-requests) against __this__[ repository](https://github.com/mozilla/overscripted) with the analysis formatted as an *.ipynb file in the /analyses/ folder. 
-  - Environment can be confugured locally by calling `conda env create -f  environment.yaml`
+  - Environment can be configured locally by calling `conda env create -f  environment.yaml`
 - Only *.ipynb format entries submitted via a pull request to the /analyses/ folder will be considered. Notebooks must be well documented and run on the [environment](https://github.com/mozilla/overscripted/blob/master/analyses/environment.yaml) described. Any entries not meeting these criteria will not be considered and no review will be carried out for error-generating code.
 - Any additional code submitted will not be considered. The *.ipynb notebook should be a self contained analysis.
 
@@ -26,3 +26,17 @@ Unzipped the full parquet data will be approximately 70Gb. Each (compressed) chu
 
 - [A Reading List](https://github.com/mozilla/overscripted/wiki/Reading-List-(WIP)) that suggests papers for background reading.
 - [This](https://github.com/brandon-rhodes/pycon-pandas-tutorial) is a great tutorial to learn Pandas.
+
+### Contributor guidelines
+
+- Please refer the [reading list](https://github.com/mozilla/overscripted/wiki/Reading-List-(WIP)) for additional references and information.
+
+- A valid and greatly appreciated contribution as part of the application process is to write up any of these learnings from our interactions and submitting as a Pull Request to the repo - for now this can be additions to the README either on the main page or the analysis folder README.
+
+- This is not a one issue per person repo. All the questions are very open ended and different people may find very different and complementary things when looking at a question.
+
+- Use a reaction emoji to acknowledge a comment rather than writing a comment like "sure" - helps to keep things clean - but the contributor can still let folks know that they saw a comment.
+
+### Glossary
+
+- TLD means Top-level Domain. You can read up more about it [here.](https://en.wikipedia.org/wiki/Top-level_domain) 
