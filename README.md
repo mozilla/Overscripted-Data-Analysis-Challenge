@@ -21,3 +21,7 @@ Unzipped the full parquet data will be approximately 70Gb. Each (compressed) chu
 - [https://public-data.telemetry.mozilla.org/bigcrawl/safe_dataset.2.tar.bz2](https://public-data.telemetry.mozilla.org/bigcrawl/safe_dataset.2.tar.bz2)
 - [https://public-data.telemetry.mozilla.org/bigcrawl/safe_dataset.3.tar.bz2](https://public-data.telemetry.mozilla.org/bigcrawl/safe_dataset.3.tar.bz2)
 - [https://public-data.telemetry.mozilla.org/bigcrawl/SHA256SUMS](https://public-data.telemetry.mozilla.org/bigcrawl/SHA256SUMS)
+
+### Helpful resources
+
+- [This](https://github.com/brandon-rhodes/pycon-pandas-tutorial) is great tutorial to learn Pandas.
