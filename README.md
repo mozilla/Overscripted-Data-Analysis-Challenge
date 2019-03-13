@@ -24,4 +24,5 @@ Unzipped the full parquet data will be approximately 70Gb. Each (compressed) chu
 
 ### Helpful resources
 
-- [This](https://github.com/brandon-rhodes/pycon-pandas-tutorial) is great tutorial to learn Pandas.
+- [A Reading List](https://github.com/mozilla/overscripted/wiki/Reading-List-(WIP)) that suggests papers for background reading.
+- [This](https://github.com/brandon-rhodes/pycon-pandas-tutorial) is a great tutorial to learn Pandas.
