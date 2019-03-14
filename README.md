@@ -46,3 +46,5 @@ Unzipped the full parquet data will be approximately 70GB. Each (compressed) chu
 - [This](https://github.com/brandon-rhodes/pycon-pandas-tutorial) is a great tutorial to learn Pandas.
 
 - [Tutorial](https://www.youtube.com/watch?v=HW29067qVWk) on Jupyter Notebook.
+
+- We have used dask in some of our Jupyter notebooks. Dask exposes lower-level APIs letting you build custom systems for in-house applications. It also makes it working with larger datasets easier. Please start by reviewing the [docs](https://dask.org/) to learn more about it.
