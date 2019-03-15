@@ -22,6 +22,8 @@ Unzipped the full parquet data will be approximately 70GB. Each (compressed) chu
 - [https://public-data.telemetry.mozilla.org/bigcrawl/safe_dataset.3.tar.bz2](https://public-data.telemetry.mozilla.org/bigcrawl/safe_dataset.3.tar.bz2)
 - [https://public-data.telemetry.mozilla.org/bigcrawl/SHA256SUMS](https://public-data.telemetry.mozilla.org/bigcrawl/SHA256SUMS)
 
+Refer [hello_world.ipynb](https://github.com/mozilla/overscripted/blob/master/analyses/hello_world.ipynb) to load and have a quick look at the data with pandas, dask and spark.
+
 ### New Contributor Tips
 
 -  Make contributions with respect to any of your learnings, be it by reading related research papers or through your interaction with the community on gitter and submitting a Pull Request (PR) to the repository. You can submit the PR to the README on the main page or the analysis folder README.
@@ -33,6 +35,8 @@ Unzipped the full parquet data will be approximately 70GB. Each (compressed) chu
 - Use a reaction emoji to acknowledge a comment rather than writing a comment like "sure" - helps to keep things clean - but the contributor can still let folks know that they saw a comment.
 
 - You can ask for help and discuss your ideas on gitter. Click [here](https://gitter.im/overscripted-discuss/community) to join !
+
+- Please reference your issues on a PR so that they link and autoclose. Refer to [this](https://help.github.com/en/articles/closing-issues-using-keywords)
 
 - If your OS is Ubuntu and you have trouble installing spark with conda. Refer to this [link](https://datawookie.netlify.com/blog/2017/07/installing-spark-on-ubuntu/).
 
