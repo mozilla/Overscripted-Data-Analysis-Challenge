@@ -24,9 +24,11 @@ Unzipped the full parquet data will be approximately 70GB. Each (compressed) chu
 
 ### New Contributor Tips
 
-- A valid and much appreciated contribution is to write any of your learnings, be it by reading research papers or through your interaction with the community on gitter and submitting a Pull Request to the repository. You can submit the PR to the README on the main page or the analysis folder README.
+- Your core focus should be an analysis / contribution riffing off one of the research-question issues. Having said that any open-source project, even the non-traditional ones, need constant improvements from lots of fresh eyes. A valid and much appreciated contribution is to write any of your learnings, be it by reading research papers or through your interaction with the community on gitter and submitting a Pull Request (PR) to the repository. You can submit the PR to the README on the main page or the analysis folder README.
 
 - This is not a one issue per person repo. All the questions are very open ended and different people may find very different and complementary things when looking at a question.
+
+- For datasets : Dataset is not to be fit into memory it will always be working with spark or dask to process an analysis out-of-core. 
 
 - Use a reaction emoji to acknowledge a comment rather than writing a comment like "sure" - helps to keep things clean - but the contributor can still let folks know that they saw a comment.
 
@@ -46,3 +48,7 @@ Unzipped the full parquet data will be approximately 70GB. Each (compressed) chu
 - [This](https://github.com/brandon-rhodes/pycon-pandas-tutorial) is a great tutorial to learn Pandas.
 
 - [Tutorial](https://www.youtube.com/watch?v=HW29067qVWk) on Jupyter Notebook.
+
+- [This](https://github.com/aSquare14/Git-Cheat-Sheet) will help you get started with GIT. For visual thinkers this [tutorial](https://www.youtube.com/playlist?list=PL6gx4Cwl9DGAKWClAD_iKpNC0bGHxGhcx) can be a good start.
+
+- For more information on [Dask](https://dask.org/). If you want to explore more [this](https://github.com/dask/dask-tutorial) can be helpful. Dask gives you a pandas-like api that lets you work with larger datasets. 
