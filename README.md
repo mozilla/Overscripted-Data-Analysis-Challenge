@@ -47,4 +47,4 @@ Unzipped the full parquet data will be approximately 70GB. Each (compressed) chu
 
 - [Tutorial](https://www.youtube.com/watch?v=HW29067qVWk) on Jupyter Notebook.
 
-- We have used dask in some of our Jupyter notebooks. Dask exposes lower-level APIs letting you build custom systems for in-house applications. It also makes it working with larger datasets easier. Please start by reviewing the [docs](https://dask.org/) to learn more about it.
+- We have used dask in some of our Jupyter notebooks. Dask gives you a pandas-like API but lets you work on data that is too big to fit in memory. Dask can be used on a single machine or a cluster. Most analyses done for this project were done on a single machine. Please start by reviewing the [docs](https://dask.org/) to learn more about it.
