@@ -10,4 +10,6 @@ Gathered information about the JS execution on various websites. JS execution da
 
 ### Details about the dataset
 - Master list of pages
-This was created using a shallow-crawl on 4 different machines seeded by Alexa's top 10,000 site list. What this essentially means is that 4 seeds were chosen from the Alexa's list and the list of pages linked by these seeds and the pages linked by those links (depth=1) were collected. Taking an intersection of these lists resulted in total 981K unique URLs. This formed the main seed list for OpenWPM crawl.
+This was created using a shallow-crawl on 4 different machines seeded by Alexa's top 10,000 site list. What this essentially means is that each of the 10,000 websites served as seeds and the list of pages linked by these seeds (depth=1) were collected. Taking an intersection of these lists resulted in total 981K unique URLs. This formed the main seed list for OpenWPM crawl.
+- Javascript calls data 
+Modified version of OpenWPM was used to record JS calls in all 981K URLs. Essentially for each of the 981K pages, 10 second window was chosen to record any javascript activity. 
