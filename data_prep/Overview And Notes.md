@@ -27,4 +27,5 @@ This refers to functions that are dynamically created. Although there is nothing
 ### Cryptojacking
 This measns using client-side browser to run crypto mining functions using JS calls. 
 
-
+### Possible questions to answer
+- Presence of [Evercookies](https://samy.pl/evercookie/). These are extremely persistent cookies in a browser used to identigy a client even after they have removed standard cookies. One of the ways presence of evercookies can be detected is by looking for window.name caching. This is one of the many ways evercookies are stored. More details [here.](https://en.wikipedia.org/wiki/HTTP_cookie#%22window.name%22_DOM_property)
