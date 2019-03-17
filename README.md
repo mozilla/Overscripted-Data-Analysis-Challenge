@@ -64,4 +64,6 @@ Refer [hello_world.ipynb](https://github.com/mozilla/overscripted/blob/master/an
 
 - We have used dask in some of our Jupyter notebooks. Dask gives you a pandas-like API but lets you work on data that is too big to fit in memory. Dask can be used on a single machine or a cluster. Most analyses done for this project were done on a single machine. Please start by reviewing the [docs](https://dask.org/) to learn more about it.
 
+- Or refer this quick Dask[overview](https://www.youtube.com/watch?v=ods97a5Pzw0) video or the Dask [Cheatsheet](https://dask.pydata.org/en/latest/_downloads/daskcheatsheet.pdf) to get familiar with the workflow.
+
 -[This](https://github.com/aSquare14/Git-Cheat-Sheet) will help you get started with GIT. For visual thinkers this [tutorial](https://www.youtube.com/playlist?list=PL6gx4Cwl9DGAKWClAD_iKpNC0bGHxGhcx) can be a good start.
