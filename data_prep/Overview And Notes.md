@@ -16,4 +16,15 @@ Modified version of OpenWPM was used to record JS calls in all 981K URLs. Essent
 
 
 ### Research overview
-Once we have the data described above we can look into various patterns and derive insights. This section will talk about already explored threads and potential directions of research
+Once we have the data described above we can look into various patterns and derive insights. This section talks about already explored threads and potential directions of research
+
+#### Examining session replay activity
+Session replay is a service that lets website track users' interaction with the page. Think of it as a video reply of user's entire session on Web page. To identify which websites used session replay APIs, a list of websites which embed scripts from analytics providers that offer session recording services was obtained from this [project.](https://webtransparency.cs.princeton.edu/no_boundaries/session_replay_sites.html). Of all the different JS script calls around 96K were to session replay providers. Also, a thing to keep in mind is that even if scripts belonging to session replay providers are being accessed, this does not necessarily mean that session is being recorder or replayed. 
+
+#### Eval and dynamically created function calls
+This refers to functions that are dynamically created. Although there is nothing inherently wrong with dynamically created functions but they can be used for injections attacks like [cross-site scripting](https://en.wikipedia.org/wiki/Cross-site_scripting). More can be read about this in this [blog post](https://medium.com/firefox-context-graph/overscripted-digging-into-javascript-execution-at-scale-2ed508f21862)
+
+### Cryptojacking
+This measns using client-side browser to run crypto mining functions using JS calls. 
+
+
