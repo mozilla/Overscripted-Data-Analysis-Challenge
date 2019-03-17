@@ -21,8 +21,8 @@ Three samples that are large enough to meaningful analysis of the dataset are
 also available as the full dataset is very large. More details about the
 samples are available in [data_prep/Sample Review.ipynb](https://github.com/mozilla/overscripted/blob/master/data_prep/Sample%20Review.ipynb)
 - https://public-data.telemetry.mozilla.org/bigcrawl/sample_10percent_value_1000_only.parquet.tar.bz2 - 900MB download / 1.3GB on disk
-- https://public-data.telemetry.mozilla.org/bigcrawl/sample_10percent_value.parquet.tar.bz2 - 3.7GB download / 7.4GB on disk
-- https://public-data.telemetry.mozilla.org/bigcrawl/sample_10percent_value.parquet.tar.bz2 - 9.1GB download / 15GB on disk
+- https://public-data.telemetry.mozilla.org/bigcrawl/sample_10percent.parquet.tar.bz2 - 3.7GB download / 7.4GB on disk
+- https://public-data.telemetry.mozilla.org/bigcrawl/value_1000_only.parquet.tar.bz2 - 9.1GB download / 15GB on disk
 
 The full dataset. Unzipped the full parquet data will be approximately 70GB. Each (compressed) chunk dataset is around 9GB. `SHA256SUMS` contains the checksums for all datasets including the sample.
 - [https://public-data.telemetry.mozilla.org/bigcrawl/safe_dataset.0.tar.bz2](https://public-data.telemetry.mozilla.org/bigcrawl/safe_dataset.0.tar.bz2)
@@ -42,6 +42,8 @@ Refer [hello_world.ipynb](https://github.com/mozilla/overscripted/blob/master/an
 - Use a reaction emoji to acknowledge a comment rather than writing a comment like "sure" - helps to keep things clean - but the contributor can still let folks know that they saw a comment.
 
 - You can ask for help and discuss your ideas on gitter. Click [here](https://gitter.im/overscripted-discuss/community) to join !
+
+- When you open an issue and work on a Pull Request relating to the same, add "WIP" in the title of the PR. "WIP" is work in progress. When your PR is ready for review remove the WIP tag. You can also request feedback on specific things while it's still a WIP.
 
 - Please reference your issues on a PR so that they link and autoclose. Refer to [this](https://help.github.com/en/articles/closing-issues-using-keywords)
 
@@ -66,4 +68,6 @@ Refer [hello_world.ipynb](https://github.com/mozilla/overscripted/blob/master/an
 
 - We have used dask in some of our Jupyter notebooks. Dask gives you a pandas-like API but lets you work on data that is too big to fit in memory. Dask can be used on a single machine or a cluster. Most analyses done for this project were done on a single machine. Please start by reviewing the [docs](https://dask.org/) to learn more about it.
 
--[This](https://github.com/aSquare14/Git-Cheat-Sheet) will help you get started with GIT. For visual thinkers this [tutorial](https://www.youtube.com/playlist?list=PL6gx4Cwl9DGAKWClAD_iKpNC0bGHxGhcx) can be a good start.
+- [This](https://github.com/aSquare14/Git-Cheat-Sheet) will help you get started with GIT. For visual thinkers this [tutorial](https://www.youtube.com/playlist?list=PL6gx4Cwl9DGAKWClAD_iKpNC0bGHxGhcx) can be a good start.
+
+- [Apache Spark](https://spark.apache.org/docs/latest/api/python/pyspark.html) is an open source parallel processing framework for running large-scale data analytics applications across clustered computers. It can handle both batch and real-time analytics and data processing workloads. We use [findspark](https://github.com/minrk/findspark) to set up spark. You can learn more about it [here](https://github.com/apache/spark )
