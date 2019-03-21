@@ -21,3 +21,11 @@ Table from [How unique is your web browser](https://panopticlick.eff.org/static/
 - Some browser enumerate a large amount of system information (navigator.plugins) or gave font lists returned by Flash and JAva. this is used to do browser attribute fingerprinting.
 
 - Some browser report fonts in non-sorted order perhaps due to a filesystem inorder walk.
+
+
+### Questions to explore/answer
+
+- How does hs-analytics track me?
+This can help me identify the value/arguments passed whenver hs-analytics is called and can identify other scripts with same/similar arguments.
+- Can we build a hueristic for website attribute fingerprinting?
+I feel we can start with something like where a lot of browser information is being passed. That is a red flag. With enough broser information my hash would quickly become unique and can be tracked always.
