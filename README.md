@@ -4,12 +4,15 @@ The Systems Research Group (SRG) at Mozilla have created and open sourced a data
 Some preliminary insights already uncovered from this data are illustrated in this [blog post](https://medium.com/firefox-context-graph/overscripted-digging-into-javascript-execution-at-scale-2ed508f21862). 
 Ongoing analyses can be tracked [here](https://github.com/mozilla/overscripted/tree/master/analyses)
 
-### Technical criteria for submitting an analysis:
+The crawl data hosted here was collected using [OpenWPM](https://github.com/mozilla/OpenWPM), which is developed and maintained by the Mozilla Security Engineering team.
+
+### Submitting an analysis:
 - Analyses should be performed in Python using the [jupyter scientific notebook](https://jupyter-notebook.readthedocs.io/en/stable/) format and executing in this [environment](https://github.com/mozilla/overscripted/blob/master/analyses/environment.yaml). 
-- Analysis can be submitted by filing a [Pull Request](https://help.github.com/articles/using-pull-requests) against __this__[ repository](https://github.com/mozilla/overscripted) with the analysis formatted as an *.ipynb file in the /analyses/ folder. 
-  - Environment can be configured locally by calling `conda env create -f  environment.yaml`
-- Only *.ipynb format entries submitted via a pull request to the /analyses/ folder will be considered. Notebooks must be well documented and run on the [environment](https://github.com/mozilla/overscripted/blob/master/analyses/environment.yaml) described. Any entries not meeting these criteria will not be considered and no review will be carried out for error-generating code.
-- Any additional code submitted will not be considered. The *.ipynb notebook should be a self contained analysis.
+- Analysis can be submitted by filing a [Pull Request](https://help.github.com/articles/using-pull-requests) against this repository with the analysis formatted as an *.ipynb file or folder in the /analyses/ folder. 
+- Set-up instructions are provided here: https://github.com/mozilla/overscripted/blob/master/analyses/README.md
+- Notebooks must be well documented and run on the [environment](https://github.com/mozilla/overscripted/blob/master/analyses/environment.yaml) described. If additional installations are needed these should be documented.
+- Files and folders should have the format `yyyy_mm_username__short-title` - the analyses directory contains examples already if this is not clear.
+- PRs altering or updating an existing analysis will not be accepted unless they are tweaking formatting / small errors to facilitate that notebook running. If you wish to continue / build-on someone else's existing analysis start your own analysis folder / file, cite their work, and then proceed with your extension.
 
 ### Accessing the Data
 Each of the links below links to a bz2 zipped portion of the total dataset. 
@@ -52,10 +55,11 @@ Refer [hello_world.ipynb](https://github.com/mozilla/overscripted/blob/master/an
 - The dataset is very large. Even the subsets of the dataset are unlikely to fit into memory. Working with this dataset will typically require using Dask (http://dask.pydata.org/), Spark (http://spark.apache.org/) or similar tools to enable parallelized / out-of-core / distributed processing.
 
 ### Glossary
-
+- [Fingerprinting](https://en.wikipedia.org/wiki/Device_fingerprint) is the process of creating a unique identifier based off of some characteristics of your hardware, operating  system and browser. 
 - TLD means Top-level Domain. You can read up more about it [here.](https://en.wikipedia.org/wiki/Top-level_domain) 
-- [User Agent](https://en.wikipedia.org/wiki/User_agent) (UA), is a string that helps identify which browser is being used, what version, and on which operating system.
+- [User Agent](https://en.wikipedia.org/wiki/User_agent) (UA), is a string that helps identify which browser is being used, what version, and on which operating system. 
 - [Web Crawler](https://en.wikipedia.org/wiki/Web_crawler)- It is a program or automated script which browses the World Wide   Web in a methodical, automated manner.
+
 
 
 ### Resources
@@ -71,3 +75,4 @@ Refer [hello_world.ipynb](https://github.com/mozilla/overscripted/blob/master/an
 - [This](https://github.com/aSquare14/Git-Cheat-Sheet) will help you get started with GIT. For visual thinkers this [tutorial](https://www.youtube.com/playlist?list=PL6gx4Cwl9DGAKWClAD_iKpNC0bGHxGhcx) can be a good start.
 
 - [Apache Spark](https://spark.apache.org/docs/latest/api/python/pyspark.html) is an open source parallel processing framework for running large-scale data analytics applications across clustered computers. It can handle both batch and real-time analytics and data processing workloads. We use [findspark](https://github.com/minrk/findspark) to set up spark. You can learn more about it [here](https://github.com/apache/spark )
+
