@@ -27,9 +27,4 @@ Install [Spark](http://spark.apache.org/)
 ```
  $ jupyter notebook   
 ```
-## Frequently Faced Issues
-Import [Issue](https://github.com/mozilla/overscripted/issues/70) in Environment.
-Run: 
-```
-$ conda update --all -c conda-forge
-```
+
