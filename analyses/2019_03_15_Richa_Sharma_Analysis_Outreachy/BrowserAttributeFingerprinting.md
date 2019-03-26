@@ -28,6 +28,9 @@ Table from [How unique is your web browser](https://panopticlick.eff.org/static/
 
 - Reddit thread on [how to really avoid finger printing](https://www.reddit.com/r/privacy/comments/31zt8r/how_to_really_really_avoid_fingerprinting/)
 
+- Fingerprinting using information in Javascript implementations [Link](https://cseweb.ucsd.edu/~kmowery/papers/js-fingerprinting.pdf)
+
+
 ### Questions to explore/answer
 
 - How does hs-analytics track me?
