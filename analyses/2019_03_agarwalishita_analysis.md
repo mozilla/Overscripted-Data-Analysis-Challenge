@@ -14,9 +14,12 @@ List-based ad-blockers block ads as per the following two methods :
 
 1. *Url domains*: Based on the dataset such as EasyList, ad blockers know which domains are not part of ad networks and those domains calls are blocked.
 
-2. *Tags name contained in your code*: Ad blockers go through your script and see the tags, certain labelled tags as ads are blocked. In the same way, images under images/ads are blocked. Also tags under ###, are blocked. Some of these tags are shown in images below.                                                                                                                               
+2. *Tags name contained in your code*: Ad blockers go through your script and see the tags, certain labelled tags as ads are blocked. In the same way, images under images/ads are blocked. Also tags under ###, are blocked. Some of the examples of these tags are given below, extracted from the easy list.                                                                                                                               
 
-![](https://lh6.googleusercontent.com/iERVKJTJIRorxFXzKHRtGf8kJnYekCW6r-gH3XlIj8RQj-nPsP4ZpeJSFUYfB7V97BpnPkDrOpiKtxNH2-a1jXZNthSSyiJEhAPCVfVRmozNEdfrUPeYtmZ7gKyZsd_X3XFjMMOw) ![](https://lh4.googleusercontent.com/RH4tXtnHVWhSsUmVmVPADHyB1BVy7CgqVus3PV5Z_S1WuF6M2Nva64tErEs0G_8yAeGQ4kaM9FXcOlDLOwbNjYQ_35mcSlYF4kVMmUwBxlsV2_Ad6ahUk7tMQe0J_7yJTuxkDWhY)   ![](https://lh4.googleusercontent.com/ycGho5Bt5_YlSXqOe4OiAeKtWvqpjLAQZLh9c2aQg_PynrwBvp3GI9KyKbSg-NGYJ5FEXkxL2b45H1JLEN1GLVAbe3wyzQ_Qxqzb_4BT_KUUC4gTZE_KXRwu-nIgauKryAoCTuV8)
+-  ads-ns. ,ads-placement. ,ads-plugin/ ,ads-ns.
+- ###AD1line, ###AD2line, ###AD300Right
+- /images/ads-, /images/ads. , /images/ads/*
+
 
 Consider this example:  Assuming that the tag you are using is named “back” and that your website domain name is company.com, the entry into the EasyList blacklist will read as follows: company.com###back
 
