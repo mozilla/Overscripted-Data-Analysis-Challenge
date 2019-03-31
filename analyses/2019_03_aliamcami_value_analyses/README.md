@@ -1,6 +1,7 @@
 # Overview
 
-All the greatest values are JSON, but they represent very little percentage of the whole data. 
+## JSON
+All the greatest values are JSON, but they represent very little percentual of the whole data. 
 
 ### Most of the data have small value_len 
     (mean = 1356 for the 10% sample)
@@ -25,20 +26,33 @@ All the greatest values are JSON, but they represent very little percentage of t
 ##
 The top 46745 gratest value_len are valid JSONs, that is 9.35% of the filtered sample (value_len > mean) and 0,41% of the original 10% sample.
 
+---
+## Correlation of location_domain and value
+
+- One domain produces multiple JSONs
+- One JSON is usually (99.9%) produced by a single domain. 
+
+###
+
+- One domain can produce values there are both Json or not, but most produce only one type
+- Most of the domains that produce a single type produces JSON type. 
+
 
 ---
 
 # Future questions
 
 ## About JSONs:
-- **The JSON values are always from the same location or related domains?**
-- **Are there a set of location domains that always produces a JSON?**
+- **The JSON values are always from the same location or related domains?***
+- **Are there a set of location domains that always produces a JSON?***
 - Does the JSON values follow a structure pattern? What pattern?
 - What data does the JSON hold? Is there any pattern on content?
 - Do they have nested JSON? Css? Html? Javascript? Recursive study on JSON properties.
 
 - Is a JSON's structure for a single script_url domain always the same?
 - Is every JSON with the same structure produced by the same script_url domain?
+
+<sub> *See notebook 'isJson_Quantitative_Comparasion.ipynb' for more information<sub> 
 
 ## General
 I'm think some things here maybe a crawler investigation or just wiki reading, since someone may have already described and explained. I just need to find, read and understand it. 
