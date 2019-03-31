@@ -24,3 +24,48 @@ All the greatest values are JSON, but they represent very little percentage of t
 
 ##
 The top 46745 gratest value_len are valid JSONs, that is 9.35% of the filtered sample (value_len > mean) and 0,41% of the original 10% sample.
+
+
+---
+
+# Future questions
+
+## About JSONs:
+- **The JSON values are always from the same location or related domains?**
+- **Are there a set of location domains that always produces a JSON?**
+- Does the JSON values follow a structure pattern? What pattern?
+- What data does the JSON hold? Is there any pattern on content?
+- Do they have nested JSON? Css? Html? Javascript? Recursive study on JSON properties.
+
+- Is a JSON's structure for a single script_url domain always the same?
+- Is every JSON with the same structure produced by the same script_url domain?
+
+## General
+I'm think some things here maybe a crawler investigation or just wiki reading, since someone may have already described and explained. I just need to find, read and understand it. 
+
+- Are there other valid data types like html, css... in the values column or just JSON?
+- Where does the value comes from? What is it used for? 
+
+## Smal: value_len < mean 
+- What are the small values?
+- Does the smaller values have any pattern?
+- What the majority data type?
+
+## Medium: mean < value_len < (mean + std)
+- How many rows are there in the intersection of *“no JSON”* and *“everything is JSON”* ?
+- What are they? Are they from a specific script_url domain? Or realated domains? 
+
+## Big: value_len > (mean + std)
+- What are the big non-JSON values?
+
+## Security and data sharing:
+- Do the value columns have any javascript? nested javascript?
+- Do the javascripts in the dataset contain known malicious behaviors?
+- Can they collect data that threatens user's privacy?
+
+## Statistical knowledge / coincidence: 
+The **mean** of the original 10% sample is pretty similar to the **std** of the sample taken after filtering for values above the mean
+- why? 
+- Is it a coincidence? 
+- Is it always like this? 
+- Is it a statistical pattern? 
