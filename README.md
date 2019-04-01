@@ -78,3 +78,5 @@ Refer [hello_world.ipynb](https://github.com/mozilla/overscripted/blob/master/an
 
 - [Apache Spark](https://spark.apache.org/docs/latest/api/python/pyspark.html) is an open source parallel processing framework for running large-scale data analytics applications across clustered computers. It can handle both batch and real-time analytics and data processing workloads. We use [findspark](https://github.com/minrk/findspark) to set up spark. You can learn more about it [here](https://github.com/apache/spark )
 
+- [Tutorial](https://arrow.apache.org/docs/python/parquet.html) on Apache Pyarrow. Apache Arrow is an ideal in-memory transport layer for data that is being read or written with Parquet files. Some of the [implementation](https://github.com/agarwalishita/overscripted/blob/master/analyses/issue_92.ipynb) is shown on this [part](https://public-data.telemetry.mozilla.org/bigcrawl/safe_dataset.0.tar.bz2) of the dataset provided in this repository. 
+
