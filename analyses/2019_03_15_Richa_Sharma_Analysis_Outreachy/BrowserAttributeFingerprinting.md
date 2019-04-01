@@ -44,3 +44,6 @@ I feel we can start with something like where a lot of browser information is be
 - navigator.plugins ---> this is used to validate if a given plugin is enabled or not on the browser. Therefore it can generate some ID for a browser based on what all plugins are enabled etc. This led me to a cool [link](http://www.howtocreate.co.uk/wrongWithIE/?chapter=navigator.plugins) which introduced me to navigator.mimeTypes a similar kind of function. Idea: If navigator.plugin and navigator.mimeTypes are called together multiple times with different arguments they can be used for fingerprinting.
 
 - Check what is happening in this script -- "https://mc.yandex.ru/metrika/watch.js" It asks a lot about flash players. But seems like this is linked to websites which display videos? Think. think. think.
+
+
+- http://pseudo-flaw.net/content/defcon/

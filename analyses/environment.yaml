@@ -11,3 +11,4 @@ dependencies:
     - pyarrow=0.12.1
     - pandas=0.24.2
     - tldextract=2.2.0
+    - matplotlib=3.0.3
