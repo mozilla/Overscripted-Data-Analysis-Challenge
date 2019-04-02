@@ -78,3 +78,5 @@ Refer [hello_world.ipynb](https://github.com/mozilla/overscripted/blob/master/an
 
 - [Apache Spark](https://spark.apache.org/docs/latest/api/python/pyspark.html) is an open source parallel processing framework for running large-scale data analytics applications across clustered computers. It can handle both batch and real-time analytics and data processing workloads. We use [findspark](https://github.com/minrk/findspark) to set up spark. You can learn more about it [here](https://github.com/apache/spark )
 
+- [Apache Pyarrow](https://media.readthedocs.org/pdf/pyarrow/latest/pyarrow.pdf) It facilitates communication between many components, for example, reading a parquet file with Python (pandas) and transforming to a Spark dataframe, Falcon Data Visualization or Cassandra without worrying about conversion.
+
