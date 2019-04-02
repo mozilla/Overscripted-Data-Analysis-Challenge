@@ -56,6 +56,8 @@ This resulted in a filtered list of script_urls. Now my simple heuristic for ide
 - An assumption underlying the above analysis is that the script has to make different calls to the same location with different symbols to get information which it can then hash. Is it possible that a script can make just one call to a function which returns all the information in the value_1000? How would that look
 - Current set of potential scripts are restricted by canvas_potential and other_potential. Is it the correct set to restrict? Can we ignore these scripts assuming they are doing only canvas fingerprinting? Maybe we can use previous study done [here](https://github.com/mozilla/overscripted/blob/master/analyses/2018_09_biskit1_mordax__canvas_fingerprinting.ipynb) to white-list some scripts and focus only on scripts doing browser attribute fingerprinting.
 
+
+--------------------------------------------------------------------------------
 #### Notes[WIP]
 
 Fingerprinting is a tracking method which is harder to escape than the usual cookies since it leaves no persisten evidence of taggin on the user's computer.
