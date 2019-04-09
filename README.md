@@ -4,6 +4,8 @@ The Systems Research Group (SRG) at Mozilla have created and open sourced a data
 Some preliminary insights already uncovered from this data are illustrated in this [blog post](https://medium.com/firefox-context-graph/overscripted-digging-into-javascript-execution-at-scale-2ed508f21862). 
 Ongoing analyses can be tracked [here](https://github.com/mozilla/overscripted/tree/master/analyses)
 
+The crawl data hosted here was collected using [OpenWPM](https://github.com/mozilla/OpenWPM), which is developed and maintained by the Mozilla Security Engineering team.
+
 ### Submitting an analysis:
 - Analyses should be performed in Python using the [jupyter scientific notebook](https://jupyter-notebook.readthedocs.io/en/stable/) format and executing in this [environment](https://github.com/mozilla/overscripted/blob/master/analyses/environment.yaml). 
 - Analysis can be submitted by filing a [Pull Request](https://help.github.com/articles/using-pull-requests) against this repository with the analysis formatted as an *.ipynb file or folder in the /analyses/ folder. 
@@ -53,10 +55,11 @@ Refer [hello_world.ipynb](https://github.com/mozilla/overscripted/blob/master/an
 - The dataset is very large. Even the subsets of the dataset are unlikely to fit into memory. Working with this dataset will typically require using Dask (http://dask.pydata.org/), Spark (http://spark.apache.org/) or similar tools to enable parallelized / out-of-core / distributed processing.
 
 ### Glossary
-
+- [Fingerprinting](https://en.wikipedia.org/wiki/Device_fingerprint) is the process of creating a unique identifier based off of some characteristics of your hardware, operating  system and browser. 
 - TLD means Top-level Domain. You can read up more about it [here.](https://en.wikipedia.org/wiki/Top-level_domain) 
-- [User Agent](https://en.wikipedia.org/wiki/User_agent) (UA), is a string that helps identify which browser is being used, what version, and on which operating system.
+- [User Agent](https://en.wikipedia.org/wiki/User_agent) (UA), is a string that helps identify which browser is being used, what version, and on which operating system. 
 - [Web Crawler](https://en.wikipedia.org/wiki/Web_crawler)- It is a program or automated script which browses the World Wide   Web in a methodical, automated manner.
+
 
 
 ### Resources
@@ -71,4 +74,7 @@ Refer [hello_world.ipynb](https://github.com/mozilla/overscripted/blob/master/an
 
 - [This](https://github.com/aSquare14/Git-Cheat-Sheet) will help you get started with GIT. For visual thinkers this [tutorial](https://www.youtube.com/playlist?list=PL6gx4Cwl9DGAKWClAD_iKpNC0bGHxGhcx) can be a good start.
 
+- Other Dask resources: [overview](https://www.youtube.com/watch?v=ods97a5Pzw0) video and [cheatsheet](https://dask.pydata.org/en/latest/_downloads/daskcheatsheet.pdf).
+
 - [Apache Spark](https://spark.apache.org/docs/latest/api/python/pyspark.html) is an open source parallel processing framework for running large-scale data analytics applications across clustered computers. It can handle both batch and real-time analytics and data processing workloads. We use [findspark](https://github.com/minrk/findspark) to set up spark. You can learn more about it [here](https://github.com/apache/spark )
+
