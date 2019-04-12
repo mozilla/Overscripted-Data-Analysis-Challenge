@@ -1,7 +1,5 @@
 Verification / evolution of "Internet Jones" paper #26
-By
-Walugembe Francis Noah
-noahwalugembe@gmail.com
+
 
 Introduction
 
@@ -15,21 +13,11 @@ Wayback Machine
 
 According to  Lerner, Simpson, Kohno and Roesner, (2016) Reported that "The Wayback Machine provides a unique and comprehensive source of historical web data. However, it was not created for the purpose of studying third-party web tracking and is thus imperfect for that use but they stated that Nevertheless, the only way to study web tracking prior to explicit measurements targeting it is to leverage materials previously archived for other purposes which is true because it is a good approach to start from some thing than reinventing from scratch."  Also  Lerner, Simpson, Kohno and Roesner, (2016) mention that "Wayback Machine may fail to archive resources for any number of reasons. For example, the domain serving a certain resource may have been unavailable at the time of the archive, or changes in the Wayback Machine’s crawler may result in different archiving behaviors over time." 
 
-
-
- 
-
 longitudinal measurement study.
 
-After evaluating the Wayback Machine’s According to  Lerner, Simpson, Kohno and Roesner, (2016)  explored how web traclikng ecosystem changed  over time, including the prevalence of different web tracking behaviors, the identities and scope of popular trackers, and the complexity of relationships within the ecosystem.
-
-In the "Internet Jones" paper it was observed the rise and fall of important players like Google Analytics in the ecosystem occurred. It was noted that websites contacted an increasing number of third parties over time and the top  trackers could track users across an increasing percentage of  most popular web sites.
+After evaluating the Wayback Machine’s According to  Lerner, Simpson, Kohno and Roesner, (2016)  explored how web traclikng ecosystem changed  over time, including the prevalence of different web tracking behaviors, the identities and scope of popular trackers, and the complexity of relationships within the ecosystem. In the "Internet Jones" paper it was observed the rise and fall of important players like Google Analytics in the ecosystem occurred. It was noted that websites contacted an increasing number of third parties over time and the top  trackers could track users across an increasing percentage of  most popular web sites.
 
  
-
-
-
-
 Conclusion
 
 All "Internet Jones" paper findings show that third-party web tracking is a rapidly growing practice in an increasingly complex ecosystem— suggesting that users’ and policymakers’ concerns about privacy require sustained, and perhaps increasing, attention. The Internet Jones" paper #26 research results also provide hitherto unavailable historical context for today’s technical and policy discussions. It is also stated The Internet Jones paper notes that "the Wayback Machine provides a unique and comprehensive source of historical web data. However, it was not created for the purpose of studying third-party web-tracking and is thus imperfect for that use."
