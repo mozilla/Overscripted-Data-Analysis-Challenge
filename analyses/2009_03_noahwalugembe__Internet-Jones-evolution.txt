@@ -1,11 +1,11 @@
 Verification / evolution of "Internet Jones" paper #26
-Buy
+By
 Walugembe Francis Noah
 noahwalugembe@gmail.com
 
 Introduction
 
-Third-party web tracking is the practice by which entities (“trackers”) embedded in webpages re-identify users as they browse the web, collecting information about the websites that they visit. A cording to According to  Lerner, Simpson, Kohno and Roesner, (2016) web Tracking is typically done for the purposes of website analytics, targeted advertising, and other forms of personalization (e.g., social media content). In this work I am evaluating the contribution of "Internet Jones" paper #26 starting with its insight on TrackingExcavator and a longitudinal measurement study of third-party cookie-based web tracking on Wayback Machine1. I will also show how has the third-party web tracking ecosystem evolved since its beginnings according to "Internet Jones" paper.
+Third-party web tracking is the practice by which entities (“trackers”) embedded in webpages re-identify users as they browse the web, collecting information about the websites that they visit. A cording to According to  Lerner, Simpson, Kohno and Roesner, (2016) web Tracking is typically done for the purposes of website analytics, targeted advertising, and other forms of personalization (e.g., social media content). In this work I am evaluating the contribution of "Internet Jones" paper starting with its insight on TrackingExcavator and a longitudinal measurement study of third-party cookie-based web tracking on Wayback Machine1. I will also show how has the third-party web tracking ecosystem evolved since its beginnings according to "Internet Jones" paper.
 
 TrackingExcavator
 
@@ -13,18 +13,27 @@ The Wayback Machine1 contains archives of full webpages, including JavaScript, s
 
 Wayback Machine
 
-According to  Lerner, Simpson, Kohno and Roesner, (2016)
-it was discovered that The Wayback Machine provides a unique and comprehensive source of historical web data. However, it was not created for the purpose of studying third-party web tracking and is thus imperfect for that use but they stated that Nevertheless, the only way to study web tracking prior to explicit measurements targeting it is to leverage materials previously archived for other purposes which is true because it is a good approach to start from some thing than reinventing from scratch. At this point I am going to mention some of the failures identified by According to  Lerner, Simpson, Kohno and Roesner, (2016)
-.
-The researchers realized that the Wayback Machine may fail to archive resources for any number of reasons. For example, the domain serving a certain resource may have been unavailable at the time of the archive, or changes in the Wayback Machine’s crawler may result in different archiving behaviors over time. As shown in Table 2, missing archives are rare. The Wayback Machine’s archived pages execute the corresponding archived JavaScript within the browser when TrackingExcavator visits them, the Wayback Machine does not execute JavaScript during its archival crawls of the web. Instead, it attempts to statically extract URLs from HTML and JavaScript to find additional sites to archive. It then modifies the archived JavaScript, rewriting the URLs in the included script to point to the archived copy of the resource. This process may fail, particularly for dynamically generated URLs. As a result, when TrackingExcavator visits archived pages, dynamically generated URLs not properly redirected to their archived versions will cause the page to attempt to make a request to the live web, i.e., “escape” the archive. TrackingExcavator blocks such escapes (see Section 3). As a result, the script never runs on the archived site, never sets a cookie or leaks it, and thus TrackingExcavator does not witness the associated tracking behavior. Also embedded resources in a webpage archived by the Wayback Machine may occasionally have a timestamp far from the timestamp of the top-level page. Any of the above failures can lead to cascading failures, in that non-archived responses or blocked requests will result in the omission of any subsequent requests or cookie setting events that would have resulted from the success of the original request. The “wake” of a single failure cannot be measured within an archival dataset, because events following that failure are simply missing. To study the effect of these cascading failures, we must compare an archival run to a live run from the same time; we do so in the next subsection.
+According to  Lerner, Simpson, Kohno and Roesner, (2016) Reported that "The Wayback Machine provides a unique and comprehensive source of historical web data. However, it was not created for the purpose of studying third-party web tracking and is thus imperfect for that use but they stated that Nevertheless, the only way to study web tracking prior to explicit measurements targeting it is to leverage materials previously archived for other purposes which is true because it is a good approach to start from some thing than reinventing from scratch."  Also  Lerner, Simpson, Kohno and Roesner, (2016) mention that "Wayback Machine may fail to archive resources for any number of reasons. For example, the domain serving a certain resource may have been unavailable at the time of the archive, or changes in the Wayback Machine’s crawler may result in different archiving behaviors over time." 
+
+
+
+ 
 
 longitudinal measurement study.
 
-After evaluating the Wayback Machine’s view into the past and developing best practices for using its data, we use TrackingExcavator to conduct a longitudinal study of the third-party web tracking ecosystem from 1996- 2016. the researchers  explored how this ecosystem has changed over time, including the prevalence of different web tracking behaviors, the identities and scope of popular trackers, and the complexity of relationships within the ecosystem. Among their findings, they identified the earliest tracker in the dataset of 1996 and observe the rise and fall of important players in the ecosystem (e.g., the rise of Google Analytics to appear on over a third of all popular websites). They also found that websites contact an increasing number of third parties over time (about 5% of the 500 most popular sites contacted at least 5 separate third parties in early 2000s, whereas nearly 40% do so in 2016) and that the top trackers can track users across an increasing percentage of the web’s most popular sites. They also found out that tracking behaviors changed over time, e.g., that third-party popups peaked in the mid-2000s and that the fraction of trackers that rely on referrals from other trackers has recently risen
+After evaluating the Wayback Machine’s According to  Lerner, Simpson, Kohno and Roesner, (2016)  explored how web traclikng ecosystem changed  over time, including the prevalence of different web tracking behaviors, the identities and scope of popular trackers, and the complexity of relationships within the ecosystem.
+
+In the "Internet Jones" paper it was observed the rise and fall of important players like Google Analytics in the ecosystem occurred. It was noted that websites contacted an increasing number of third parties over time and the top  trackers could track users across an increasing percentage of  most popular web sites.
+
+ 
+
+
+
 
 Conclusion
 
-Taken together, the Internet Jones" paper #26 research findings show that third-party web tracking is a rapidly growing practice in an increasingly complex ecosystem— suggesting that users’ and policymakers’ concerns about privacy require sustained, and perhaps increasing, attention. The Internet Jones" paper #26 research results also provide hitherto unavailable historical context for today’s technical and policy discussions. It is also stated in the Internet Jones" paper #26 research that Wayback Machine provides a unique and comprehensive source of historical web data. However, it was not created for the purpose of studying third-party webtracking and is thus imperfect for that use.
+All "Internet Jones" paper findings show that third-party web tracking is a rapidly growing practice in an increasingly complex ecosystem— suggesting that users’ and policymakers’ concerns about privacy require sustained, and perhaps increasing, attention. The Internet Jones" paper #26 research results also provide hitherto unavailable historical context for today’s technical and policy discussions. It is also stated The Internet Jones paper notes that "the Wayback Machine provides a unique and comprehensive source of historical web data. However, it was not created for the purpose of studying third-party web-tracking and is thus imperfect for that use."
+
 
 Reference
 
