@@ -29,13 +29,15 @@ The top 46745 gratest value_len are valid JSONs, that is 9.35% of the filtered s
 ---
 ## Correlation of location_domain and value
 
-- One domain produces multiple JSONs
-- One JSON is usually (99.9%) produced by a single domain. 
+- One domain can produces a single type of output (31%).
+- 99% of the domains with single type of output do not produces JSON. 
 
-###
 
-- One domain can produce values there are both Json or not, but most produce only one type
-- Most of the domains that produce a single type produces JSON type. 
+- 31% of all domains can produce JSON. 
+- Only 0,016% of all the domains will aways have JSON as output, and less than half of it will always have the same JSON. 
+
+
+- One JSON is usually (83.09%) produced by a single script domain.
 
 
 ---
